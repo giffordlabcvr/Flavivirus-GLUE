@@ -1,0 +1,89 @@
+<genbankXmlPopulator>
+
+
+	<!-- #### ORGANISM -->			
+	<gbOrganism>
+		<propertyPopulator property="full_name">
+		</propertyPopulator>
+	</gbOrganism>
+	
+	<gbFeature key="source">
+	
+		<gbQualifier name="isolate">
+			<propertyPopulator property="dfe_exogenous_data.isolate"/>
+		</gbQualifier>
+		<gbQualifier name="country">
+			<propertyPopulator property="dfe_exogenous_data.country"/>
+			<propertyPopulator property="dfe_exogenous_data.place_sampled">
+				<matchPattern>^.*:(.*)$</matchPattern>
+				<outputTemplate>${g1?trim}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+
+		<gbQualifier name="host">
+			<propertyPopulator property="dfe_exogenous_data.sampled_host_sci_name">
+
+				<!-- #### Human -->																																									
+				<valueConverter>
+					<matchPattern>.*Homo [sS]apiens.*</matchPattern>
+					<outputTemplate>Homo sapiens</outputTemplate>
+				</valueConverter>
+
+				<!-- #### Avian -->																																									
+                <valueConverter>
+                    <matchPattern>.*[cC]hicken.*</matchPattern>
+                    <outputTemplate>Gallus gallus</outputTemplate>
+                </valueConverter>
+
+				<!-- #### Dromedary -->																																									
+                <valueConverter>
+                    <matchPattern>.*[dD]romedary camel.*</matchPattern>
+                    <outputTemplate>Camelus dromedarius</outputTemplate>
+                </valueConverter>
+
+				<!-- #### Porcine -->																																									
+ 				<valueConverter>
+					<matchPattern>.*[Pp]ig.*</matchPattern>
+					<matchPattern>.*[Pp]iglet.*</matchPattern>
+					<matchPattern>.*[Ss]wine.*</matchPattern>
+					<matchPattern>.*Sus scrofa domesticus*</matchPattern>
+					<matchPattern>.*Sus scrofa*</matchPattern>
+					<matchPattern>.*[Pp]orcine.*</matchPattern>
+					<matchPattern>.*[Ww]ild boar.*</matchPattern>
+					<outputTemplate>Sus scrofa</outputTemplate>
+				</valueConverter>
+
+				<!-- #### Bovine -->																																													
+ 				<valueConverter>
+					<matchPattern>.*[Cc]ow.*</matchPattern>
+					<matchPattern>.*[Bb]ovine.*</matchPattern>
+					<matchPattern>.*[Cc]attle.*</matchPattern>
+					<matchPattern>.*[Cc]alf.*</matchPattern>
+					<matchPattern>.*Bos taurus.*</matchPattern>
+					<outputTemplate>Bos taurus</outputTemplate>
+				</valueConverter>	
+				
+			</propertyPopulator>
+		</gbQualifier>
+
+		
+		<gbQualifier name="collection_date">
+			<propertyPopulator property="dfe_exogenous_data.collection_month_day">
+				<matchPattern>(\d{2})-[A-Za-z]{3}-\d{4}</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+			<propertyPopulator property="dfe_exogenous_data.collection_month">
+				<matchPattern>\d{2}-([A-Za-z]{3})-\d{4}</matchPattern>
+				<outputTemplate>${g1?upper_case}</outputTemplate>
+			</propertyPopulator>
+			<propertyPopulator property="dfe_exogenous_data.collection_year">
+				<matchPattern>(\d{4})</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+		
+		
+		
+	</gbFeature>
+	
+</genbankXmlPopulator>
