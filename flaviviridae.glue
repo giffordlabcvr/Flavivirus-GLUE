@@ -1,0 +1,47 @@
+delete project dfe_flaviviridae
+
+create project dfe_flaviviridae "EVE-oriented GLUE project for the Flaviviridae" --minVersion 0.1.50
+
+schema-project dfe_flaviviridae
+
+  run file glue/RNA-ss+ve/flaviviridae/flaviviridaeSchemaExtensions.glue
+  exit
+
+project dfe_flaviviridae
+
+  # load project settings
+  run file glue/RNA-ss+ve/flaviviridae/projectSettings.glue
+
+  # create modules
+  run file glue/RNA-ss+ve/flaviviridae/flaviviridaeModules.glue
+
+  # Import exogenous sources from GenBank and associated data 
+  import source sources/RNA-ss+ve/flaviviridae/ncbi-refseqs/
+  run script glue/RNA-ss+ve/flaviviridae/loadExogenousData.js
+  module genbankXmlPopulator populate
+
+  # Import metadata for exogenous reference sequences from tabular
+  #module flaviviridaesideDataImporter 
+  #  populate -f tabular/RNA-ss+ve/flaviviridae/flavi-ncbi-refseqs-side-data.tsv
+  #  exit
+
+
+
+
+  # Import EVE FASTA sources 
+  #import source sources/RNA-ss+ve/flaviviridae/eve-fasta/
+  
+  # Define features
+  run file glue/RNA-ss+ve/flaviviridae/flaviviridaeFeatures.glue
+
+  # Create references
+  #run file glue/RNA-ss+ve/flaviviridae/flaviviridaeReferences.glue
+
+  # Import alignment 
+  #module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/RNA-ss+ve/flaviviridae/flaviviridae.fna
+ 
+  # Validate
+  validate
+
+  exit
+  
