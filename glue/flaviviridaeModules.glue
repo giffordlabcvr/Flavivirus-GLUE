@@ -1,4 +1,4 @@
-  create module -f modules/RNA-ss+ve/flaviviridae/flaviviridaeGenbankXmlPopulator.xml genbankXmlPopulator
-  create module -f modules/RNA-ss+ve/flaviviridae/unconstrainedAlignmentImporter.xml unconstrainedAlignmentImporter
-  create module -f modules/RNA-ss+ve/flaviviridae/flaviviridaeSideDataImporter.xml
+  create module -f modules/flaviviridaeGenbankXmlPopulator.xml genbankXmlPopulator
+  create module -f modules/unconstrainedAlignmentImporter.xml unconstrainedAlignmentImporter
+  create module -f modules/flaviviridaeSideDataImporter.xml
 
