@@ -21,9 +21,9 @@ project flaviviridae
   module genbankXmlPopulator populate
 
   # Import metadata for exogenous reference sequences from tabular
-  #module flaviviridaesideDataImporter 
-  #  populate -f tabular/flavi-ncbi-refseqs-side-data.tsv
-  #  exit
+  module flaviviridaeSideDataImporter 
+    populate -f tabular/flavi-ncbi-refseqs-side-data.txt
+    exit
   
   # Define features
   run file glue/flaviviridaeFeatures.glue
