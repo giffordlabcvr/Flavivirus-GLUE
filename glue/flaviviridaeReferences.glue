@@ -1,0 +1,24 @@
+  #### Flaviviridae    
+
+  # Master reference
+  create reference REF_MASTER_YFV ncbi-refseqs NC_002031  
+
+  ### Flavivirus
+
+  create reference REF_MASTER_WNV   ncbi-refseqs NC_001563  
+  create reference REF_MASTER_DENV1 ncbi-refseqs NC_001477  
+  create reference REF_MASTER_ZIKV  ncbi-refseqs NC_012532  
+  create reference REF_MASTER_KRV   ncbi-refseqs NC_005064
+  create reference REF_MASTER_POWV  ncbi-refseqs NC_005064
+
+  ### Pegivirus
+
+  create reference REF_MASTER_HPgV2 ncbi-refseqs NC_004102  
+
+  ### Pestivirus
+
+  create reference REF_MASTER_BDV1  ncbi-refseqs NC_001461  
+
+  ### Hepacivirus
+
+  create reference REF_MASTER_HCV   ncbi-refseqs NC_004102  
