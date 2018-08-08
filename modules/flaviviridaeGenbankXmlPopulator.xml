@@ -10,18 +10,18 @@
 	<gbFeature key="source">
 	
 		<gbQualifier name="isolate">
-			<propertyPopulator property="dfe_exogenous_data.isolate"/>
+			<propertyPopulator property="exogenous_data.isolate"/>
 		</gbQualifier>
 		<gbQualifier name="country">
-			<propertyPopulator property="dfe_exogenous_data.country"/>
-			<propertyPopulator property="dfe_exogenous_data.place_sampled">
+			<propertyPopulator property="exogenous_data.country"/>
+			<propertyPopulator property="exogenous_data.place_sampled">
 				<matchPattern>^.*:(.*)$</matchPattern>
 				<outputTemplate>${g1?trim}</outputTemplate>
 			</propertyPopulator>
 		</gbQualifier>
 
 		<gbQualifier name="host">
-			<propertyPopulator property="dfe_exogenous_data.sampled_host_sci_name">
+			<propertyPopulator property="exogenous_data.sampled_host_sci_name">
 
 				<!-- #### Human -->																																									
 				<valueConverter>
@@ -68,15 +68,15 @@
 
 		
 		<gbQualifier name="collection_date">
-			<propertyPopulator property="dfe_exogenous_data.collection_month_day">
+			<propertyPopulator property="exogenous_data.collection_month_day">
 				<matchPattern>(\d{2})-[A-Za-z]{3}-\d{4}</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>
-			<propertyPopulator property="dfe_exogenous_data.collection_month">
+			<propertyPopulator property="exogenous_data.collection_month">
 				<matchPattern>\d{2}-([A-Za-z]{3})-\d{4}</matchPattern>
 				<outputTemplate>${g1?upper_case}</outputTemplate>
 			</propertyPopulator>
-			<propertyPopulator property="dfe_exogenous_data.collection_year">
+			<propertyPopulator property="exogenous_data.collection_year">
 				<matchPattern>(\d{4})</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>
