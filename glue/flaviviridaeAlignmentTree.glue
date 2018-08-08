@@ -1,20 +1,61 @@
   # Constrained alignment tree
 
-  # Whole genome
-
-  create alignment AL_Flaviviridae_MASTER -r YFV
-
+  ### Root alignments    
+  create alignment AL_Flaviviridae_MASTER -r REF_MASTER_YFV
   alignment AL_Flaviviridae_MASTER add member --allSequences
-  
+
+
+  ### Orphan genus level alignments    
+  create alignment AL_Hepacivirus -r REF_HCV
+  alignment AL_Hepacivirus add member --whereClause "genus = 'Hepacivirus'"
+
+
+  ### Internal genus level alignments  
   alignment AL_Flaviviridae_MASTER
-	extract child AL_Pegivirus --refName HPgV-2
-	demote member AL_Pegivirus --whereClause "sequence.genus = 'Pegivirus'" 
+
+	extract child AL_Flavivirus  --refName REF_MASTER_YFV
+	demote member AL_Flavivirus  --whereClause "sequence.genus = 'Flavivirus'"
+
+	extract child AL_Pestivirus  --refName REF_BVD1
+	demote member AL_Pestivirus  --whereClause "sequence.genus = 'Pestivirus'" 
+
+	extract child AL_Pegivirus  --refName REF_HPgV2
+	demote member AL_Pegivirus  --whereClause "sequence.genus = 'Pegivirus'" 
     exit
 
 
+  ### Clade level alignments
+  alignment AL_Flavivirus
 
-  # Derive constrained alignment segments from unconstrained alignments
+	extract child AL_mosquito-1  --refName REF_MASTER_YFV
+	demote member AL_mosquito-1  --whereClause "sequence.clade = 'mosquito-1'" 
+
+	extract child AL_mosquito-2  --refName REF_DENV1
+	demote member AL_mosquito-2  --whereClause "sequence.clade = 'mosquito-2'" 
+
+	extract child AL_cISFs       --refName REF_CFA
+	demote member AL_cISFs       --whereClause "sequence.clade = 'cISF'" 
+
+	extract child AL_dISFs       --refName REF_Lammi
+	demote member AL_dISFs       --whereClause "sequence.clade = 'dISF'" 
+
+	extract child REF_Apoi       --refName REF_Apoi
+	demote member REF_Apoi       --whereClause "sequence.clade = 'NKV'" 
+
+	extract child AL_ticks       --refName REF_LIV
+	demote member AL_ticks       --whereClause "sequence.clade = 'ticks'" 
+    exit
+
+
+  # Derive constrained alignment segments from unconstrained alignments  
+  alignment AL_Flavivirus
+    derive segments AL_FLAVI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
  
+  alignment AL_Pestivirus
+    derive segments AL_PESTI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
   alignment AL_Pegivirus
     derive segments AL_PEGI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit

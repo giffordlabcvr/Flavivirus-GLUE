@@ -1,24 +1,21 @@
   #### Flaviviridae    
 
   # Master reference
-  create reference REF_MASTER_YFV ncbi-refseqs NC_002031  
+  create reference REF_MASTER_YFV  ncbi-refseqs NC_002031    # mosquito-1
 
   ### Flavivirus
-
-  create reference REF_MASTER_WNV   ncbi-refseqs NC_001563  
-  create reference REF_MASTER_DENV1 ncbi-refseqs NC_001477  
-  create reference REF_MASTER_ZIKV  ncbi-refseqs NC_012532  
-  create reference REF_MASTER_KRV   ncbi-refseqs NC_005064
-  create reference REF_MASTER_POWV  ncbi-refseqs NC_005064
+  create reference REF_DENV1       ncbi-refseqs NC_001477  # mosquito-2
+  create reference REF_CFA         ncbi-refseqs NC_001564  # cISF
+  create reference REF_Lammi       ncbi-refseqs NC_024806  # dISF
+  create reference REF_Apoi        ncbi-refseqs NC_003676  # NKV
+  create reference REF_LIV         ncbi-refseqs NC_001809  # ticks
 
   ### Pegivirus
-
-  create reference REF_MASTER_HPgV2 ncbi-refseqs NC_004102  
+  create reference REF_HPgV2       ncbi-refseqs NC_027998  
 
   ### Pestivirus
-
-  create reference REF_MASTER_BDV1  ncbi-refseqs NC_001461  
+  create reference REF_BVD1        ncbi-refseqs NC_001461  
 
   ### Hepacivirus
+  create reference REF_HCV         ncbi-refseqs NC_004102  
 
-  create reference REF_MASTER_HCV   ncbi-refseqs NC_004102  

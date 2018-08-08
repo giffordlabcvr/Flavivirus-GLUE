@@ -31,9 +31,12 @@ project flaviviridae
   # Create references
   run file glue/flaviviridaeReferences.glue
 
-  # Import alignment 
-  #module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/flaviviridae.fna
- 
+  # Import alignments
+  run file glue/flaviviridaeAlignments.glue
+
+  # Import alignment tree
+  run file glue/flaviviridaeAlignmentTree.glue
+
   # Validate
   validate
 
