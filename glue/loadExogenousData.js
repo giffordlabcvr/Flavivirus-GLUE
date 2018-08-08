@@ -5,9 +5,9 @@ var seqIds = glue.getTableColumn(listSeqResult, "sequenceID");
 // for each sequence ID
 _.each(seqIds, function(seqId) {
     // create an object in the custom table which uses the sequence ID as the row ID.
-    glue.command(["create", "custom-table-row", "dfe_exogenous_data", seqId]);
+    glue.command(["create", "custom-table-row", "exogenous_data", seqId]);
     // associate the corresponding sequence with this object.
     glue.inMode("sequence/ncbi-refseqs/"+seqId, function() {
-        glue.command(["set", "link-target", "dfe_exogenous_data", "custom-table-row/dfe_exogenous_data/"+seqId]);
+        glue.command(["set", "link-target", "exogenous_data", "custom-table-row/exogenous_data/"+seqId]);
     });
 });

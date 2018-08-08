@@ -15,17 +15,9 @@
   exit 
 
   # Create schema extension
-  create custom-table dfe_endogenous_data
-  create custom-table dfe_exogenous_data
+  create custom-table exogenous_data
 
-  table dfe_endogenous_data
-    create field scaffold VARCHAR 50
-    create field start_position INTEGER
-    create field end_position INTEGER
-    create field orientation VARCHAR 10
-  exit
-
-  table dfe_exogenous_data
+  table exogenous_data
     create field isolate VARCHAR 100
     create field sample_date DATE
     create field place_sampled VARCHAR 100
@@ -37,6 +29,5 @@
     create field collection_month_day INTEGER
   exit
 
-  create link sequence dfe_endogenous_data
-  create link sequence dfe_exogenous_data
+  create link sequence exogenous_data
 

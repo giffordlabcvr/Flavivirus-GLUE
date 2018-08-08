@@ -22,7 +22,7 @@ project flaviviridae
 
   # Import metadata for exogenous reference sequences from tabular
   module flaviviridaeSideDataImporter 
-    populate -f tabular/flavi-ncbi-refseqs-side-data.txt
+    populate -f tabular/flavi-ncbi-refseqs-side-data.tsv
     exit
   
   # Define features
