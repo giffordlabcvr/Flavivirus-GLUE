@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JX390986</GBSeq_locus>
+    <GBSeq_length>2963</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>07-FEB-2017</GBSeq_update-date>
+    <GBSeq_create-date>27-MAR-2014</GBSeq_create-date>
+    <GBSeq_definition>Mogiana tick virus isolate MGTV/V4/11 segment 1, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>JX390986</GBSeq_primary-accession>
+    <GBSeq_accession-version>JX390986.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JX390986.2|</GBSeqid>
+      <GBSeqid>gi|1139419502</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA358378</GBSeq_project>
+    <GBSeq_source>Mogiana tick virus</GBSeq_source>
+    <GBSeq_organism>Mogiana tick virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2963</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Maruyama,S.R.</GBAuthor>
+          <GBAuthor>Castro-Jorge,L.A.</GBAuthor>
+          <GBAuthor>Ribeiro,J.M.</GBAuthor>
+          <GBAuthor>Gardinassi,L.G.</GBAuthor>
+          <GBAuthor>Garcia,G.R.</GBAuthor>
+          <GBAuthor>Brandao,L.G.</GBAuthor>
+          <GBAuthor>Rodrigues,A.R.</GBAuthor>
+          <GBAuthor>Okada,M.I.</GBAuthor>
+          <GBAuthor>Abrao,E.P.</GBAuthor>
+          <GBAuthor>Ferreira,B.R.</GBAuthor>
+          <GBAuthor>Fonseca,B.A.</GBAuthor>
+          <GBAuthor>Miranda-Santos,I.K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Characterisation of divergent flavivirus NS3 and NS5 protein sequences detected in Rhipicephalus microplus ticks from Brazil</GBReference_title>
+        <GBReference_journal>Mem. Inst. Oswaldo Cruz 109 (1), 38-50 (2013)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1590/0074-0276130166</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24626302</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2963</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Maruyama,S.R.</GBAuthor>
+          <GBAuthor>Castro-Jorge,L.A.</GBAuthor>
+          <GBAuthor>Gardinassia,L.G.</GBAuthor>
+          <GBAuthor>Garcia,G.R.</GBAuthor>
+          <GBAuthor>Brandao,L.G.</GBAuthor>
+          <GBAuthor>Rodrigues,A.R.</GBAuthor>
+          <GBAuthor>Okada,M.I.</GBAuthor>
+          <GBAuthor>Ferreira,B.R.</GBAuthor>
+          <GBAuthor>Fonseca,B.A.L.</GBAuthor>
+          <GBAuthor>Ribeiro,J.M.</GBAuthor>
+          <GBAuthor>Miranda Santos,I.K.F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (18-JUL-2012) Faculdade de Medicina de Ribeirao Preto, Universidade de Sao Paulo, Avenida Bandeirantes, 3900, Ribeirao Preto, Sao Paulo 14049-900, Brazil</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..2963</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Villa,E.C.</GBAuthor>
+          <GBAuthor>Maruyama,S.R.</GBAuthor>
+          <GBAuthor>de Miranda-Santos,I.K.F.</GBAuthor>
+          <GBAuthor>Palacios,G.</GBAuthor>
+          <GBAuthor>Ladner,J.T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-FEB-2017) Center for Genome Sciences, United States Army Medical Research Institute of Infectious Diseases(USAMRIID), 1425 Porter St., Ft. Detrick, MD 21702, USA</GBReference_journal>
+        <GBReference_remark>Sequence update by submitter</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Feb 1, 2017 this sequence version replaced JX390986.1.; ; ##Assembly-Data-START## ; Assembly Method :: SPAdes v. 3.7.1; Bowtie2 v. 2.0.6 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2963</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2963</GBInterval_to>
+            <GBInterval_accession>JX390986.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Mogiana tick virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>MGTV/V4/11</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Rhipicephalus microplus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1172985</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2011</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Segment names and product descriptions are according to Qin et al. 2014 PNAS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>92..2836</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>92</GBInterval_from>
+            <GBInterval_to>2836</GBInterval_to>
+            <GBInterval_accession>JX390986.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>NSP1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative NS5-like protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AGL39760.2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDTDTVIAGFAMAMLVLLAMLLQIASHYREHATFIYTPGGKLEEYKGDGLKVWKLEPTLGDPTELGRQAKKEMNAMTYEEFDRMKFRGVVAEVYAGDKPSKGYDKLRTLLDIMDRPKLGATVDLCAGRGGWSQLVRELEGPGAITAVSLWERGREEWMADPAIRRINANVKNVKPWHVDTLLFDGGETFKRDQNIMKEEGYNDALLDAVDAWMMQATPPTNFVIKIQVPYTQRAMKLIEKWQVKTKKGRLVRLAGDRLSNTVMYFISDRLETQIRGRITTFLRQLRERRADRSLTSDPALQYERITPEWTAEAVIEGCAPLTPLNMTRSIAEMHMEHPPLGITRFFKELGYKIAKKKGSEGTRKNRFVGQLIEPLRRVLERHHLFGAWQLTSTTPRAVFNIFRSKVDKAPVELHSHYPGLKKMYDILADLWLQRYGRMKRLTEDEMASAINRRGAMGYQMDNRNYGDLGAYWDSGDWKQDVNTFKTALLSGTPTHAVYNTTAKKEKTKNLTRQVNKGSRIIQYLPADARLYELKVLGGLHKYLEKCGWSVAGQGLYKYGDRVKRSMDATGAAISEDVAGWDTKISKGLLTLESHMFTRLAEDEEMAREIHHLYRLYADPHMVVQREIEGEVHDVLLRGRGQVSSGRQPTYAANTITNFITTTYGMAVTLGIPEADWPRLIRDLTDERGNRRLLVSGDDKVLFLKGNEARVYAASAYQISNDMGLVRKDMALEQESEIIVDVKEISFCSHRYWPVKYGDETHYMPVRDVGEIFAKATMALGVYKDDMTQEAWARVQGLNMLVNYHHIPECRMLALAILSVTRIGLNLKGITKGWMMSTEWLRDDLAPDTIHALITDGRTSGWEQLGYVDFKDRKGILLRPDTSYKNWRRDLPEKVRQLREDGQYRDWLQKMAVFG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gcccttgactgcaagtgcaaaggttgaggaatccgcttcagactcaaacgcagataaaacaacaacaagacagataatcgtaagaaacacgatggacacagacaccgtgatcgctggatttgccatggcgatgcttgtcctgctggcaatgctcctgcagatagcgtcgcactacagagaacacgccaccttcatctacactccaggaggaaagttggaggagtataaaggagatgggcttaaggtatggaagctggagcccacgttaggagatccgaccgagttgggtaggcaggcaaaaaaagagatgaacgccatgacctatgaggaattcgacagaatgaagttcaggggtgtggtggctgaggtgtacgcaggcgacaagccgtcaaaaggctatgataaactcaggacactactagacataatggacagacccaagctgggagcgacagttgatctctgtgcgggccgagggggttggagccaactagtcagagagctagagggaccaggcgccatcactgccgtctccctatgggagagaggcagagaggaatggatggccgaccctgccataaggagaatcaacgccaatgtgaagaacgtcaagccctggcacgtagatacactactattcgatgggggggagacctttaagagggaccaaaacatcatgaaggaagagggctacaacgatgccctattggatgccgtagacgcatggatgatgcaggccacacctcccacaaacttcgtgataaaaatacaggtaccctacacacaaagagcgatgaagctcatagaaaagtggcaagtgaagaccaagaaggggagattggtcaggttggcaggagacaggctgtccaacaccgtgatgtactttatatcagacaggctggaaacgcagatccgggggaggataaccaccttcctcaggcagctccgggagcggagagccgataggtctttgacatctgacccggctctgcaatacgaacgtataacgcccgaatggacggcagaggccgtgatcgaaggatgcgccccactcacaccgctaaacatgaccaggtccatagcagagatgcacatggagcatccacccttggggataaccagattcttcaaggagctcggctacaagatcgcaaaaaagaagggctctgagggcacgcgaaaaaacaggttcgtgggtcagctcatagagcccctaaggagagtgctggagcgacatcacctcttcggagcatggcaactcacctctacaacacctcgagccgtgtttaacatcttcaggagtaaagtggacaaggccccggtggagcttcactcgcactacccgggactgaagaaaatgtacgatatccttgccgatctctggctgcagaggtacgggaggatgaaacggctaaccgaggatgagatggcctcagctataaataggagaggtgctatgggttaccagatggataacaggaactacggagacctaggggcctactgggactcgggggattggaaacaagacgtcaacacgttcaaaacggctctgcttagcggaacaccgactcacgcagtttacaacaccaccgcgaagaaggaaaaaacaaaaaacctgaccaggcaggtgaacaaaggaagccgcataatccagtacttacctgcggacgcccggctctacgagctgaaagtgctgggcggactgcataagtacctggagaagtgcggatggagcgtagcgggacagggcctgtataagtacggggatcgagtgaagaggtcaatggacgctaccggcgctgctatatcggaagatgtggcgggctgggatacgaagatttccaaaggactacttaccctggaatcccacatgttcaccagactggcagaggatgaggaaatggctagggagatccaccacctttaccgactctacgcagatccgcacatggtagttcagagagagatcgaaggcgaggtccacgatgtgctcctcagggggagggggcaggtctcctccgggaggcagcccacctacgctgccaacaccatcaccaatttcataacgacaacatatggaatggccgtgactctcggcatacccgaggccgactggccacggctcataagggacctcacggatgagaggggaaacagacgtctcctcgtttcgggggatgacaaggttcttttcttgaaaggaaatgaggccagggtctacgccgcgtcggcctatcagataagcaacgacatgggactggtgagaaaggacatggccttggagcaggagtccgaaatcatagtggacgtgaaagaaatatccttctgctcccacaggtactggccggtgaagtatggtgacgagactcactacatgccggtccgagacgtgggagagatcttcgctaaggccaccatggccttaggcgtttacaaggatgacatgacccaggaggcgtgggccagagtgcaaggccttaacatgctggtcaactaccatcacattccggaatgcagaatgttggccctggccattctttcggtgacgcgaatcggcctgaacctaaaagggatcaccaagggctggatgatgagcacagagtggcttagagacgacttagcacctgacactatccatgctctcatcaccgacgggagaacctcgggatgggagcaactgggctatgtggatttcaaggataggaagggcatcctgttacgacccgacaccagctataagaactggaggagagaccttcctgagaaagtacgacagctcagagaggatggacaatacagggactggttgcagaagatggcagtgtttggctagaggctgatcacacttacactaaacacacacaaacacattagaatagagcgccctggaaaaaccaggttgcggtgttagcgccaccgtacatgaatacgacaaaactgaattgggggaaaaagtaaaa</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA358378</GBXref_id>
+      </GBXref>
+      <GBXref>
+        <GBXref_dbname>Sequence Read Archive</GBXref_dbname>
+        <GBXref_id>SRR525284</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

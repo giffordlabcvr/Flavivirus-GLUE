@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AJ242984</GBSeq_locus>
+    <GBSeq_length>10600</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>15-APR-2005</GBSeq_update-date>
+    <GBSeq_create-date>23-FEB-2002</GBSeq_create-date>
+    <GBSeq_definition>Modoc virus genomic RNA for polyprotein gene</GBSeq_definition>
+    <GBSeq_primary-accession>AJ242984</GBSeq_primary-accession>
+    <GBSeq_accession-version>AJ242984.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AJ242984.1|</GBSeqid>
+      <GBSeqid>gi|18958162</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>capsid protein</GBKeyword>
+      <GBKeyword>envelope protein</GBKeyword>
+      <GBKeyword>matrix protein</GBKeyword>
+      <GBKeyword>non-structural protein 1</GBKeyword>
+      <GBKeyword>non-structural protein 2a</GBKeyword>
+      <GBKeyword>non-structural protein 2b</GBKeyword>
+      <GBKeyword>non-structural protein 3</GBKeyword>
+      <GBKeyword>non-structural protein 4a</GBKeyword>
+      <GBKeyword>Non-structural protein 4b</GBKeyword>
+      <GBKeyword>non-structural protein 5</GBKeyword>
+      <GBKeyword>polyprotein</GBKeyword>
+      <GBKeyword>PreM protein</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Modoc virus</GBSeq_source>
+    <GBSeq_organism>Modoc virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Flavivirus; Modoc virus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..10600</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Leyssen,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Nucleotide Sequence of the Genome and complete Amino Acid Sequence of the Polyprotein of Modoc Virus</GBReference_title>
+        <GBReference_journal>Thesis (2002) Department of Microbiology, Rega Institute for Medical Research, Leuven, Belgium</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..10600</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Leyssen,P.</GBAuthor>
+          <GBAuthor>Charlier,N.</GBAuthor>
+          <GBAuthor>Lemey,P.</GBAuthor>
+          <GBAuthor>Billoir,F.</GBAuthor>
+          <GBAuthor>Vandamme,A.M.</GBAuthor>
+          <GBAuthor>De Clercq,E.</GBAuthor>
+          <GBAuthor>de Lamballerie,X.</GBAuthor>
+          <GBAuthor>Neyts,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Complete genome sequence, taxonomic assignment, and comparative analysis of the untranslated regions of the Modoc virus, a flavivirus with no known vector</GBReference_title>
+        <GBReference_journal>Virology 293 (1), 125-140 (2002)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1006/viro.2001.1241</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>11853406</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..10600</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Leyssen,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (11-JUN-1999) Leyssen P., Microbiology, Rega Institute for Medical Research, Minderbroedersstraat 10, B-3000 Leuven, BELGIUM</GBReference_journal>
+        <GBReference_remark>Revised by author 09-NOV-2000</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..10600</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>10600</GBInterval_to>
+            <GBInterval_accession>AJ242984.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Modoc virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>M544</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:64300</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA:Modoc county</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>1..109</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>109</GBInterval_to>
+            <GBInterval_accession>AJ242984.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>110..10234</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>110</GBInterval_from>
+            <GBInterval_to>10234</GBInterval_to>
+            <GBInterval_accession>AJ242984.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAC82912.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:Q8QL64</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR000208</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR000336</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR000404</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR000487</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR000752</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR001157</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR001528</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR001650</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR001850</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR002535</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR002877</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR007094</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR009003</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR011492</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR011998</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR011999</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR013754</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR013756</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR014001</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR014021</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR014412</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR014756</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>PDB:2WA1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>PDB:2WA2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:Q8QL64</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MCENNRKKNPGKGSKKKKNAGRNGKEVPGLALVMGVIHYASHIALGMKVNSRLKRFWKMTPASKLAKTITTLINILRNLLSFTLKRKTKQRSAGWTMGVIFIWMMGTILSIEVVKNNGGWLMKPRLQDTGSTVPVGKGSCTFTSLDVGYECDYKIGYDCVTLTSTEDPNGIDCYCRGVDMVRVEYPLCKKGSNRVRRAVNIASHPEIVPLKPVTYMPTLGSVNDRVGKTEEWVTNNMVKTLLFVFIMFAIFGFDWKTVVVLCLAALALPSFATNCVTISQREILKGVEGVTWFEVLLEKTSCITIAAQNRPSIDLWLDDVKQSSVMASKEFCMKVEVSETQIAARCPTQGDATLPMEGKDDYVCKKTFSDRGWGNGCALFGKGSIVGCAKVACNTANVMKTHIYEQQAVQYVVGIEVHRGEVIKANVSDKVIKASFSAEAEKHTVEIPDYGSLDFTCRVVASADLSNIRLLEVDGHYFNVHEDWLDDLPLPWRINAGPWRGMDKLVNFREPYAVKMVIMGYGDQRPAVLGALDKAEEIKKVGDNYHLNGGHVSCKVSVAKLKLKGMTYVVCGGKFAWAKKPIATNHDTVAMEVTYTGNDTPCRVTVKNVKENSDDQGTLITTNPFVESNGATIFLELEPVYGLSTIKVGDITYQWNQQGSVIGKAVRKITNDIHKTIVVGSAFWNSDQRFSAINLMDLIRLPFAFLFGGLGFMMKMIISLVLIWFCLNTRNFSIAVTSGIVGFGLLAFTTGVMGDHGCVLDVDRKEMKCGDGVMVWNEVNDWYGGYMYYPDDPETFIASLVNDKKEHCGTYPANALELAMWQKLESQINLLLKEMKVEWRIKVSEKQDGFPKGDHLGWEKKTGRNGLSWQNWAKSFDYMEWIFETDAGNSTYYVGNVGEKECPDHDRSWNVFRFEEFGVGLLTTRVFVGINEEPDQYCDPGLMGAAAKDRYMVHSSTWMWMESYEVNDTLQLQRLQYDYYVECLWPPTHTLDGQNVLESLLILPKQLGGPVSNLNRVKGYAEQDKGPWKKGRLLVERGYCEGTTVVVDENCQHRGPSVRSTTEGGNVIKEWCCRHCKLPPLKFTMEEECWYAMEIRPTSKVNGLVMASDGEKPLFEWCSFALLTTIYLLFMAGKNTTALIPFVAFLGAILYGSGFLTANLVMKYVAAFYLNSVLEKSEPMLWAYMMEVVFDLRPGMLLGLMLNKTWKFERLVAMIGCLSFLQQATIEWRTAWVLLDCIAVLVVFQSQGSKIKGHLLNIVLLNLSWVTSEHLIMMVKLTGFLLLLSDSGVFERSSWQQKTRTVLTAGMMTLNTPYSFLVAAWPLPRHIRGVDYVAILGILMGVGASVARNGLESELWVMGIMALVLLVFVLQLTTGELLAEWDSHYSWKQNCDQASGSVDLSVKRLPDGRLVNITEKEESRMETLILGVGMIATEFHWVGLPLTVLVLGLRRWIVNGKEQRSLIVYGGRSESANDETEGDLLEGVYRITAASIFGRKQVGIGVLKEGVFHTMWHVTRGSALRVRGRVLAPEWASVEEDLVAYNGTWKLNKKWDGGEVQLHAYTPDGKIIKTQVLPGKMELAGGGSMGLIPLDFPPGSSGSPVINANGEVVGLYGNGVLHGDTYCSSIAQTTKELPVDKPKVVKGDGWLSKGRISIVDAHPGSGKTHRILPELVRRALSRKLRTLVLAPTRIVVKEMESALRGLDVSFHSSAVSHKNPGSLADVMCHATYVNRKLIHMPQKNYEVIIMDEAHWTDPSSIAARGFITSLCEAKRCAVVLMTATPPGVEDPWAESNEKINDVEKVIPDGPWKQGHEWITEYEGRTAWFVPSLNTANSMAKVLRGLGKKVVVLTSKTFHDNYPKLNDEKPDFILTTDISEMGANLDVERVIDPRTTLKPVEKGNAVEISGERKITPASAAQRRGRVGRTKGKKADYIYQGETNADDSELVCWKEAQMLLDNMESRLGSASVFYGPEQVKMTEMPGFYKLNDEKRKVFRHLLAQCDFTPWLAWKVASDGKSIENREWLKSGPKEHLVTDENCEAVTYKTPGGKVERLQPVWMDARMTREKRDLLNLLDYAEMRRSSVWLSLPGALYNQFTEAMDTIYVYYTANPSSKGFRMAQESMPTALLTVMQALIIGTGLIMFLGWMCSSRKVDRMMLGTLLIVGCSVTAWCGGVPLPLVSAMALVTFILLLCLVPEEGQQRTQIDTTLAMFVYSMLLFVGLVIANELRWLENTKEDIKQLFGEKIHMGISSGGDFWKYIDLKPLSIWGTYATLVTFMRPQMLHNLRMFTQRIVAGSVSGKLDTLNGLRNGFVSTSMSLGDLSLFISFCRNMSPLTTVTGLVLAAIHWLWFYPMHEASLTSKAHKMVAQSTAKNVAFDGEGIIDFHTEEVDTSSAERKTSFGVAILLAVINVVVVREPWAMLEAGLVLLAAIKFAADGAKETLITLPVLSGIGALIRGDYFGVAPILLNLYLQTTSNRRGICSSAPTLGEIWKRKLNQLDAKEFMAYRRRFVVEVDRNEAREALAKGKTNTGHAVSRGTAKLAWIDERGGVELKGSVVDLGCGRGGWSYYAASQPNVREVKAYTLGTSGHEKPRLVETFGWNLITFKSKVDVRKMEPFQADTVLCDIGESNPTAAVEASRTLTVLNVISRWLEYNQGCGFCVKVLNPYSCDVLEALMKMQRRFGGGLIRVPLSRNSTHEMYFVSGIKNNIMGNVTAVSRQLLKRMEEQGGERVVPDYKFSTGTRSNLTQKIEVPEEEVQMRVDKIKAEKSGTWCFDSNHPYRTWNYHGSYRVRDVGTRASAVNHVVKLLSWPWGKMEKVLAMSMTDTTAFGQQRVFKQKVDTKAPEPNIQVKKVMRKVFKWLIERIKTKGGKVRTCTKEEFIQKVRSHAAIGAWSSDMEGWSSAVEAVDDPRFWNMVQKERDLHLQGKCEMCVYNLMGKSEKKPGDFGVAKGSRTIWYMWLGSRFLEFESFGFLNEEHWASRELSGGGVEGIPLNYLGYHLREMAQKPGVLYADDTAGWDTRITMADLEDEGMLLDMMSGEHKKLASALFSKAYKVKVALCPRPGPKGGTLMDVISRTDQRGSGQVVTYALNTLTNIKVQLIRMAEAEGVLGATFEDFGIDRWLQEHGEDRVERMLVSGDDCVVNAIDERFGSSLNWLNAMEKVRKDIDLWKPSPSFRNWERVEFCSNHFHEMTMKDGRVIVAPCRGQTELIARGTVNQGGCVGVESTGCLAKAYAQMWLLLYFHRRDLRTLALAVMSAVPSNWIPTGRTTWSLMVKGEWMTDEDMLAVWNRVWIEDNPFMEDKREVERWSEVPYLPRNQDKSCGSLIGTTARAEWAKLLPGAVEKVRNIFGKQRFRNYLRNMGRYESQEEAPFSMY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;440..&gt;700</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>440</GBInterval_from>
+            <GBInterval_to>700</GBInterval_to>
+            <GBInterval_accession>AJ242984.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>PreM protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>IEVVKNNGGWLMKPRLQDTGSTVPVGKGSCTFTSLDVGYECDYKIGYDCVTLTSTEDPNGIDCYCRGVDMVRVEYPLCKKGSNRVRR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;701..&gt;925</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>701</GBInterval_from>
+            <GBInterval_to>925</GBInterval_to>
+            <GBInterval_accession>AJ242984.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>matrix protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>AVNIASHPEIVPLKPVTYMPTLGSVNDRVGKTEEWVTNNMVKTLLFVFIMFAIFGFDWKTVVVLCLAALALPSFA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;926..&gt;2371</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>926</GBInterval_from>
+            <GBInterval_to>2371</GBInterval_to>
+            <GBInterval_accession>AJ242984.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>TNCVTISQREILKGVEGVTWFEVLLEKTSCITIAAQNRPSIDLWLDDVKQSSVMASKEFCMKVEVSETQIAARCPTQGDATLPMEGKDDYVCKKTFSDRGWGNGCALFGKGSIVGCAKVACNTANVMKTHIYEQQAVQYVVGIEVHRGEVIKANVSDKVIKASFSAEAEKHTVEIPDYGSLDFTCRVVASADLSNIRLLEVDGHYFNVHEDWLDDLPLPWRINAGPWRGMDKLVNFREPYAVKMVIMGYGDQRPAVLGALDKAEEIKKVGDNYHLNGGHVSCKVSVAKLKLKGMTYVVCGGKFAWAKKPIATNHDTVAMEVTYTGNDTPCRVTVKNVKENSDDQGTLITTNPFVESNGATIFLELEPVYGLSTIKVGDITYQWNQQGSVIGKAVRKITNDIHKTIVVGSAFWNSDQRFSAINLMDLIRLPFAFLFGGLGFMMKMIISLVLIWFCLNTRNFSIAVTSGIVGFGLLAFTTGVMG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;2372..&gt;3430</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2372</GBInterval_from>
+            <GBInterval_to>3430</GBInterval_to>
+            <GBInterval_accession>AJ242984.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>non-structural protein 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>DHGCVLDVDRKEMKCGDGVMVWNEVNDWYGGYMYYPDDPETFIASLVNDKKEHCGTYPANALELAMWQKLESQINLLLKEMKVEWRIKVSEKQDGFPKGDHLGWEKKTGRNGLSWQNWAKSFDYMEWIFETDAGNSTYYVGNVGEKECPDHDRSWNVFRFEEFGVGLLTTRVFVGINEEPDQYCDPGLMGAAAKDRYMVHSSTWMWMESYEVNDTLQLQRLQYDYYVECLWPPTHTLDGQNVLESLLILPKQLGGPVSNLNRVKGYAEQDKGPWKKGRLLVERGYCEGTTVVVDENCQHRGPSVRSTTEGGNVIKEWCCRHCKLPPLKFTMEEECWYAMEIRPTSKVNGLVMA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;3431..&gt;4093</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>3431</GBInterval_from>
+            <GBInterval_to>4093</GBInterval_to>
+            <GBInterval_accession>AJ242984.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>non-structural protein 2A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>SDGEKPLFEWCSFALLTTIYLLFMAGKNTTALIPFVAFLGAILYGSGFLTANLVMKYVAAFYLNSVLEKSEPMLWAYMMEVVFDLRPGMLLGLMLNKTWKFERLVAMIGCLSFLQQATIEWRTAWVLLDCIAVLVVFQSQGSKIKGHLLNIVLLNLSWVTSEHLIMMVKLTGFLLLLSDSGVFERSSWQQKTRTVLTAGMMTLNTPYSFLVAAWPLPRHIR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;4094..&gt;4489</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>4094</GBInterval_from>
+            <GBInterval_to>4489</GBInterval_to>
+            <GBInterval_accession>AJ242984.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>non-structural protein 2B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>GVDYVAILGILMGVGASVARNGLESELWVMGIMALVLLVFVLQLTTGELLAEWDSHYSWKQNCDQASGSVDLSVKRLPDGRLVNITEKEESRMETLILGVGMIATEFHWVGLPLTVLVLGLRRWIVNGKEQR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;4490..&gt;6343</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>4490</GBInterval_from>
+            <GBInterval_to>6343</GBInterval_to>
+            <GBInterval_accession>AJ242984.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>non-structural protein 3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>SLIVYGGRSESANDETEGDLLEGVYRITAASIFGRKQVGIGVLKEGVFHTMWHVTRGSALRVRGRVLAPEWASVEEDLVAYNGTWKLNKKWDGGEVQLHAYTPDGKIIKTQVLPGKMELAGGGSMGLIPLDFPPGSSGSPVINANGEVVGLYGNGVLHGDTYCSSIAQTTKELPVDKPKVVKGDGWLSKGRISIVDAHPGSGKTHRILPELVRRALSRKLRTLVLAPTRIVVKEMESALRGLDVSFHSSAVSHKNPGSLADVMCHATYVNRKLIHMPQKNYEVIIMDEAHWTDPSSIAARGFITSLCEAKRCAVVLMTATPPGVEDPWAESNEKINDVEKVIPDGPWKQGHEWITEYEGRTAWFVPSLNTANSMAKVLRGLGKKVVVLTSKTFHDNYPKLNDEKPDFILTTDISEMGANLDVERVIDPRTTLKPVEKGNAVEISGERKITPASAAQRRGRVGRTKGKKADYIYQGETNADDSELVCWKEAQMLLDNMESRLGSASVFYGPEQVKMTEMPGFYKLNDEKRKVFRHLLAQCDFTPWLAWKVASDGKSIENREWLKSGPKEHLVTDENCEAVTYKTPGGKVERLQPVWMDARMTREKRDLLNLLDYAEMRR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;6344..&gt;6775</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>6344</GBInterval_from>
+            <GBInterval_to>6775</GBInterval_to>
+            <GBInterval_accession>AJ242984.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>non-structural protein 4A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>SSVWLSLPGALYNQFTEAMDTIYVYYTANPSSKGFRMAQESMPTALLTVMQALIIGTGLIMFLGWMCSSRKVDRMMLGTLLIVGCSVTAWCGGVPLPLVSAMALVTFILLLCLVPEEGQQRTQIDTTLAMFVYSMLLFVGLVIA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;6776..&gt;7537</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>6776</GBInterval_from>
+            <GBInterval_to>7537</GBInterval_to>
+            <GBInterval_accession>AJ242984.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>non-structural protein 4B</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>NELRWLENTKEDIKQLFGEKIHMGISSGGDFWKYIDLKPLSIWGTYATLVTFMRPQMLHNLRMFTQRIVAGSVSGKLDTLNGLRNGFVSTSMSLGDLSLFISFCRNMSPLTTVTGLVLAAIHWLWFYPMHEASLTSKAHKMVAQSTAKNVAFDGEGIIDFHTEEVDTSSAERKTSFGVAILLAVINVVVVREPWAMLEAGLVLLAAIKFAADGAKETLITLPVLSGIGALIRGDYFGVAPILLNLYLQTTSNRR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;7538..10231</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>7538</GBInterval_from>
+            <GBInterval_to>10231</GBInterval_to>
+            <GBInterval_accession>AJ242984.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>non-structural protein 5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>GICSSAPTLGEIWKRKLNQLDAKEFMAYRRRFVVEVDRNEAREALAKGKTNTGHAVSRGTAKLAWIDERGGVELKGSVVDLGCGRGGWSYYAASQPNVREVKAYTLGTSGHEKPRLVETFGWNLITFKSKVDVRKMEPFQADTVLCDIGESNPTAAVEASRTLTVLNVISRWLEYNQGCGFCVKVLNPYSCDVLEALMKMQRRFGGGLIRVPLSRNSTHEMYFVSGIKNNIMGNVTAVSRQLLKRMEEQGGERVVPDYKFSTGTRSNLTQKIEVPEEEVQMRVDKIKAEKSGTWCFDSNHPYRTWNYHGSYRVRDVGTRASAVNHVVKLLSWPWGKMEKVLAMSMTDTTAFGQQRVFKQKVDTKAPEPNIQVKKVMRKVFKWLIERIKTKGGKVRTCTKEEFIQKVRSHAAIGAWSSDMEGWSSAVEAVDDPRFWNMVQKERDLHLQGKCEMCVYNLMGKSEKKPGDFGVAKGSRTIWYMWLGSRFLEFESFGFLNEEHWASRELSGGGVEGIPLNYLGYHLREMAQKPGVLYADDTAGWDTRITMADLEDEGMLLDMMSGEHKKLASALFSKAYKVKVALCPRPGPKGGTLMDVISRTDQRGSGQVVTYALNTLTNIKVQLIRMAEAEGVLGATFEDFGIDRWLQEHGEDRVERMLVSGDDCVVNAIDERFGSSLNWLNAMEKVRKDIDLWKPSPSFRNWERVEFCSNHFHEMTMKDGRVIVAPCRGQTELIARGTVNQGGCVGVESTGCLAKAYAQMWLLLYFHRRDLRTLALAVMSAVPSNWIPTGRTTWSLMVKGEWMTDEDMLAVWNRVWIEDNPFMEDKREVERWSEVPYLPRNQDKSCGSLIGTTARAEWAKLLPGAVEKVRNIFGKQRFRNYLRNMGRYESQEEAPFSMY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>114..&gt;439</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>114</GBInterval_from>
+            <GBInterval_to>439</GBInterval_to>
+            <GBInterval_accession>AJ242984.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>capsid protein</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>3'UTR</GBFeature_key>
+        <GBFeature_location>10235..10600</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>10235</GBInterval_from>
+            <GBInterval_to>10600</GBInterval_to>
+            <GBInterval_accession>AJ242984.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agttgatcctgccagcggtgggtcgctactgtttcgcgaaccagtcgttttgacagttggttgggatcaaatttgttctgtgcgcgtcacgccactttttgtggcgggaatgtgcgaaaataacaggaaaaagaaccctggaaagggttcaaagaagaaaaagaatgctggaaggaatgggaaggaagtcccgggacttgctctggtgatgggcgtgatccattacgccagccatatagccttgggaatgaaagttaattcacggcttaaaaggttttggaagatgactccggccagcaaacttgcaaaaacaataacaacattgattaacatacttagaaatttgctgtccttcactttgaaaagaaagactaagcaaagatcagctggatggaccatgggtgtgattttcatatggatgatgggaaccatattgtcaattgaagttgttaaaaacaacgggggttggctcatgaaaccccgtcttcaagacactggatccacggtgcctgttggaaaaggatcgtgcactttcacttccttggatgttggttacgagtgtgactacaaaataggctatgactgtgtgacgttaacaagcactgaggatcccaatggaattgattgttattgcagaggtgttgacatggtccgtgtcgagtaccccttgtgcaagaaaggaagcaatcgagtgagaagagcagtgaatatcgcctcacatcctgaaattgtgcctctcaaaccagttacatacatgccaactctgggtagtgtcaatgacagagtagggaagacagaagaatgggtaaccaataacatggttaaaactcttctttttgtgttcattatgtttgcaatctttgggtttgattggaagaccgttgtggtgctttgtctggcagctttggcactaccatcatttgcaaccaattgtgtgaccatatcacagagagaaattcttaaaggagtggaaggagtcacatggttcgaggtgcttttggaaaagactagctgcattaccattgcagcacaaaacagaccatccattgacctctggctagacgatgtgaaacaaagctcggtgatggccagcaaagaattctgcatgaaggtcgaagtgtcagaaactcaaatagctgctaggtgccctactcaaggagatgcaactttgcctatggaagggaaggatgattatgtttgcaagaaaaccttcagtgacagaggatggggcaatggatgtgctctttttgggaaaggaagtattgtgggctgcgctaaagtagcctgcaatactgctaatgttatgaaaactcatatctatgagcaacaagctgtccagtatgtggttggcatagaggtacatagaggggaagtcatcaaagcaaatgtttcagacaaggtcatcaaagcctcattttcggctgaagcagaaaagcatacagttgagataccagactatggaagtcttgacttcacatgtcgggtggtggccagtgcggacctatcaaacattagactgttggaggtagatggccattactttaatgtgcatgaagactggctggatgatctccccttaccatggagaatcaacgctggaccctggagagggatggacaagctggtaaatttcagagaaccatatgccgtgaaaatggtaatcatgggatatggagatcaaaggccggctgtgctaggggctcttgataaggctgaagaaataaagaaagtaggagacaactaccatctgaatggaggacatgtgagctgcaaagtttccgtggctaagttgaaattgaagggaatgacatatgttgtgtgtggtggaaagtttgcttgggccaaaaaaccaattgctacaaatcatgatacagtggcaatggaagtcacatatactggcaatgatacaccatgccgtgtgacagttaaaaatgtgaaggaaaattcagatgatcaaggaactctgatcactacaaatccatttgttgaaagcaatggagccactatcttcctggaacttgaaccagtctatggattgtcaacaataaaagttggggacatcacataccaatggaatcagcaagggagtgtcattgggaaggctgtgagaaaaatcaccaacgacatccataaaacaattgtcgttgggagtgctttttggaattcagatcaaagattctcagccattaatttgatggatctaattaggttgccctttgcttttttatttgggggacttggattcatgatgaagatgatcatttccctggttttaatttggttttgcttgaataccagaaatttttcaatagcagtcacttctggaattgtgggttttggtcttctagctttcaccacaggagtgatgggagatcatggctgtgtccttgatgttgatagaaaggaaatgaaatgtggggatggagtcatggtgtggaatgaagttaatgactggtatggggggtacatgtactacccagatgatccagagacattcatcgccagcttggtcaatgataagaaagagcattgtggtacttatccagcaaacgccttggaactagcaatgtggcagaagcttgaatctcagatcaatttgttgttgaaagagatgaaggttgaatggagaatcaaagtttctgaaaagcaagatggctttccaaaaggagatcacttgggctgggaaaagaaaactggccgcaatggtctttcctggcagaactgggcaaagtcatttgattacatggaatggatctttgagacagatgccggcaactcaacatactatgtgggaaatgttggagagaaagaatgtcctgatcatgacagaagctggaatgtgttcaggtttgaagagtttggagttggccttctaacaactagggtgtttgttggtatcaatgaagaaccagaccaatactgtgaccctggattgatgggtgctgccgcaaaagataggtacatggtgcacagctcaacttggatgtggatggaaagttatgaggttaatgatactctacagttgcagcggctccagtatgactattacgtggaatgcctgtggccgccaacacatacattagatgggcaaaatgtgcttgagtccctgctgatactaccaaagcaactgggagggccagtttcaaatttgaatagagtgaaaggctatgcagagcaagacaagggcccatggaagaaaggaaggttgctggttgagaggggttactgtgaaggcacaacggtggtggtcgatgagaactgtcaacaccgtggacctagtgtgagatctacgactgaaggagggaatgtcattaaggaatggtgttgccgtcactgcaaactgcctccccttaaattcaccatggaggaagagtgctggtacgccatggaaatacgaccaacttccaaagttaatggtttggtgatggcatcagatggtgagaaaccactgtttgaatggtgttcatttgctctcctgaccacaatttacctactgttcatggcgggaaaaaacaccacagctttgataccttttgtggcgtttctaggagcaattctgtatggatctggattcttgacagccaatcttgtcatgaagtatgtagctgcattctatctgaacagtgttctggaaaagtctgaaccaatgctttgggcatatatgatggaagtggtgtttgacttgagaccaggcatgctgcttggccttatgttgaacaagacatggaagtttgaaagacttgttgccatgattggttgtctgtcattcttacaacaagccactattgaatggcggacagcctgggttctgctagattgcattgcagttcttgtggtctttcaaagtcaaggctcaaaaatcaaaggacatcttctcaacattgtcttgctcaatttatcatgggttacatctgaacacctgattatgatggtgaaactgactggatttttactactgctgtcagatagtggagtgtttgaaagatcatcatggcaacaaaagaccaggactgtgttgacagccggaatgatgacgttaaacacaccctactcatttctagttgctgcatggccactccctaggcacattaggggagtggactacgtcgctatactaggaattttaatgggagtgggggcatctgtggcaaggaatggactggaatcagaattgtgggtaatgggtatcatggccctggtgcttttggtctttgtcctccagctcacaactggggaactgttagctgaatgggactcacactactcatggaaacaaaactgtgatcaggcctctgggtctgttgacttatcagtcaagaggctaccagatggaagactcgtaaacatcactgagaaagaagaaagtaggatggagactcttattcttggggtgggaatgatagcaacagaattccattgggtgggtttacccctgacagttcttgtccttggcttgaggagatggattgtgaatggaaaagaacaaaggagtctgatagtctatggtggaagatcagagagtgccaatgatgaaactgagggagaccttcttgagggagtttatagaattacagcagcctccatttttgggagaaagcaagttggaataggtgtcctcaaggaaggagtgttccataccatgtggcacgtcactagaggaagtgctctgcgagtgagagggagagtgctcgccccagaatgggctagtgtggaggaggatcttgtggcgtataatggtacgtggaagctcaacaagaaatgggatggaggggaagtgcaactacatgcctacactccagacggcaagattatcaaaacccaggttctaccaggaaagatggaattggctggtggaggttcaatgggactgattcctctagactttcctcctggttcatctggttctccagtcatcaatgcaaatggagaggtggtcggcctgtatggcaatggagtcttgcatggcgatacctactgcagttctatagctcaaactaccaaggagctaccagtagacaaaccaaaggtggtgaaaggagatgggtggctgtcaaagggtcgcatatccattgttgatgctcatccgggtagtgggaaaactcacaggattcttcctgaacttgtaaggagagcactgagccgcaagttgagaaccttggtcttggcccccactagaatagtggtcaaagagatggagtcagctctaagaggacttgatgtcagtttccactcatctgcagtcagccataagaatcctgggagtcttgccgatgtgatgtgccatgcgacttatgtaaacaggaaattaattcacatgccccagaaaaactacgaggttatcatcatggatgaagcacactggacggatccaagcagcatagcagctagagggtttattactagcctttgtgaagctaagagatgtgctgtggttttgatgacggcaacgccacctggtgttgaagacccatgggctgaaagtaatgagaagatcaatgatgttgagaaagtgattcctgatggaccatggaaacagggacatgaatggataactgaatatgagggtagaacagcctggtttgtgccttctttaaacacagccaactcaatggcaaaagtccttagaggtctaggaaagaaagttgtggtgcttacaagcaagaccttccatgataactatccgaagctcaatgatgagaagcctgattttattttgactactgatatctcagaaatgggtgctaacttggatgtggaaagagtcattgaccctagaacaacattgaagcctgttgagaaaggaaatgcagttgaaatcagtggtgaaaggaagataactccagcctctgcagcgcaacgacgcggcagggtcggaaggactaaaggaaagaaggctgattacatttaccaaggtgagacaaatgctgatgattcagaacttgtgtgctggaaggaagctcaaatgctcttggataacatggagagcaggcttggctcagcctctgtcttttatggacctgagcaagtgaaaatgactgaaatgccaggattttacaaattgaatgacgaaaaaaggaaagtgtttaggcacctgcttgctcaatgtgactttacaccatggttggcttggaaagtggcttcagatggcaagagcattgagaaccgagagtggctcaagagtgggccaaaggaacacttggtgacagatgaaaactgtgaagcggttacatacaagactcctggtggaaaggttgaaagactccagccagtgtggatggatgctagaatgactagggagaaaagggacttgctgaacctactggattatgcagaaatgcgtagaagcagtgtttggctgagtctgcctggggctctgtacaatcagttcacggaagccatggacacgatctatgtctattatacggccaatccatcctccaagggattcaggatggcccaagaatcaatgccaacagcccttcttactgtgatgcaagctctaataataggcactggattgatcatgttcttggggtggatgtgttcgagtaggaaggtggacagaatgatgctgggcactctgttgatagtgggatgtagtgtcacagcatggtgtggaggtgtgcccctgccattggtatccgccatggcgttggttacttttatactattgctgtgcctggttcctgaggaagggcagcaaaggacccagattgacacaactctagccatgtttgtctattccatgctgttgtttgttggtcttgtgattgctaatgaattgaggtggctggaaaacactaaagaagatatcaaacaactgtttggagaaaagatacatatgggcatttcatcaggaggtgacttttggaagtacatcgatctgaaacctttaagcatctggggcacctatgcaaccttggtgacttttatgcgaccacaaatgctccacaaccttagaatgttcacccagagaattgttgctggtagtgtcagtggaaaactggacacattgaatggattgagaaatggatttgtgagcacctcgatgtcattgggtgacttgtcgcttttcatctcattctgcagaaacatgagtcctctaactactgtgacagggctggttctagccgcaatacactggctttggttttatcctatgcatgaggctagcctaacctccaaggcccataagatggttgctcagagtactgcaaaaaatgttgcctttgatggagaaggaattatcgactttcacacggaagaggtggacacatcttcagcggaaaggaagacatcatttggagtggctatcctcctagctgtcatcaatgtggttgttgtccgtgaaccatgggcaatgcttgaagctggactagtgctcctcgctgcaattaagtttgcggctgatggggctaaagaaactttgataacgcttcctgtcctgagtgggattggtgctttgattagaggggattactttggagtggccccaatcttgctcaatttgtatctgcagacaacatccaacaggaggggcatttgttcgagtgcccccacactgggggaaatctggaaaagaaagttaaaccagcttgatgctaaagagttcatggcctatagacgaaggtttgtggttgaagtcgacagaaatgaagctagggaagcactggctaagggaaaaaccaacaccggccatgcggtctccagaggaacagcaaaactagcctggattgatgagaggggtggagtggagttgaaaggaagtgtcgtggacctgggctgtggaagagggggctggagttactatgcggcttcgcaaccaaatgtgagagaagtgaaggcctacacgctaggaacttcaggtcatgagaagccaagacttgtggaaacttttggatggaacttgattacgtttaagtccaaagtcgatgtcagaaagatggaaccctttcaagctgatacagtgctatgtgacataggtgaaagcaatccaacagcagctgttgaagccagcagaaccttaactgtgttaaacgtgatttcaagatggctggaatacaatcaaggctgtgggttttgcgtcaaagtcttaaatccatatagctgtgatgttcttgaggcactaatgaaaatgcaacgaagatttggagggggtctcattagagtccctctatcaagaaattcaacacatgagatgtactttgtctcaggcataaagaacaatattatgggtaatgtaaccgctgtatccaggcaactcctgaaaagaatggaggagcagggaggggaaagagtggttccagactataaattctctacaggaacaagatccaatcttacccaaaagattgaggtgccagaagaagaagtccagatgagagtagacaaaatcaaggctgagaaatcaggcacctggtgttttgattctaatcacccttatcgcacgtggaactatcatggatcataccgtgtgagggatgtgggaacaagagcttcagcagtcaatcatgttgtgaagttacttagttggccttggggtaagatggagaaagtactggcaatgtcaatgacagacaccacagcgtttggacagcaaagggtgtttaaacaaaaagtggacaccaaggccccagaaccaaatatccaggtgaaaaaagtgatgaggaaagtatttaaatggttgatcgaaagaattaaaaccaaaggtgggaaagtgagaacatgcacaaaagaagagttcatccaaaaagtaagatctcatgctgctatcggggcctggtcgtcagatatggaagggtggagctcagctgtggaggcagttgacgatcctaggttctggaacatggtgcagaaagaaagagatttacacctacaagggaaatgtgagatgtgtgtgtacaacctcatgggaaaaagtgaaaagaaacctggggattttggagttgccaaggggagccgtaccatctggtacatgtggctcggcagtagattcctggaatttgaaagttttggatttctgaatgaagaacattgggcttcacgggagttgagtgggggaggagtcgaagggattcccctaaattatttaggataccatctcagagaaatggcccaaaaaccaggagtgctatatgctgatgacacagctggatgggacacccgcattaccatggcagatctggaggatgaaggcatgctgcttgacatgatgagcggagaacacaagaaactggcttcggcactattcagtaaagcttacaaagtgaaagtggccttgtgccccagacctggacccaaaggaggaactctcatggatgtcatatccaggaccgaccaaagagggtctggccaagtagtgacttatgcactcaacaccctgaccaacataaaagtgcagcttatcagaatggcagaagccgaaggagttcttggagcaacttttgaggacttcgggattgacagatggttgcaggaacatggtgaagaccgagttgaaagaatgctggtcagtggtgatgactgtgtagtcaatgctatagatgaaaggtttgggtcaagtctgaattggttgaatgccatggaaaaagtgaggaaagacattgacctatggaaaccatcaccctcatttagaaactgggaacgggttgaattctgctctaatcacttccatgagatgacaatgaaagacgggagagtcattgtggcgccctgtcgtggccaaactgaattgatagcaagagggacagtcaaccaggggggatgtgttggagtggaatcaacaggctgtctagccaaggcgtatgcgcaaatgtggcttttgctttatttccacagaagagacctcagaacgctggctctagctgttatgtcagctgtgccaagcaattggattccaacaggacgcaccacttggtccctcatggtgaaaggagaatggatgactgatgaagacatgttggctgtgtggaatagggtttggattgaagacaaccctttcatggaagacaagagagaggtggaaaggtggagtgaagtcccttaccttccaagaaaccaggacaagtcatgtggtagcctaattgggactactgctagggcagaatgggccaagttgcttccaggagccgttgagaaggtgaggaacatctttgggaagcaaagattcagaaactaccttaggaacatgggtaggtatgagtcacaagaagaagctccattttcaatgtattaaacaatgaaataattaaatgaaagagtgttgagggcaaccagtgggctagccacatgggtatgacgcacccaccctctgcattcttgtaaatactttggccagtcattgtaaataggttagggagccgggcccaacccagctagggatagcctttctggggtaaggactagaggttagtggagacccccggcttttgaagttagggcaacacagggagtggttcaattggccagaaccgctctggcgtttgcctcctgttattttccaaattcccgttaccgggggtggggtgattagccatggtcgcacagatcaagctcagattgcttacatgtaatctgtgtggtcatgaatatgacctccgct</GBSeq_sequence>
+  </GBSeq>
