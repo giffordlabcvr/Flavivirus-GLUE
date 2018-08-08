@@ -1,0 +1,21 @@
+  # Constrained alignment tree
+
+  # Whole genome
+
+  create alignment AL_Flaviviridae_MASTER -r YFV
+
+  alignment AL_Flaviviridae_MASTER add member --allSequences
+  
+  alignment AL_Flaviviridae_MASTER
+	extract child AL_Pegivirus --refName HPgV-2
+	demote member AL_Pegivirus --whereClause "sequence.genus = 'Pegivirus'" 
+    exit
+
+
+
+  # Derive constrained alignment segments from unconstrained alignments
+ 
+  alignment AL_Pegivirus
+    derive segments AL_PEGI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+

@@ -1,0 +1,32 @@
+# Import pre-built alignments
+
+  # Import root alignment
+  #module unconstrainedAlignmentImporter 
+  #  import AL_UNCONSTRAINED -f alignments/root/flaviviridae_root_NS5.fna
+  #  exit
+
+  # Import tip alignments
+
+  # Import internal node alignments
+  module unconstrainedAlignmentImporter
+
+    #~# Genus-level alignments
+    import AL_PEGI_UNCONSTRAINED   -f alignments/internal/genus/pegivirus.aln.fna
+    import AL_FLAVI_UNCONSTRAINED  -f alignments/internal/genus/flavivirus.aln.fna
+    import AL_PESTI_UNCONSTRAINED  -f alignments/internal/genus/pestivirus.aln.fna
+
+    #~# Subgroup-level alignments
+    import AL_cISFs_UNCONSTRAINED  -f alignments/internal/subgroup/cISFs.aln.fna
+    import AL_dISFs_UNCONSTRAINED  -f alignments/internal/subgroup/dISFs.aln.fna
+    import AL_NKV_UNCONSTRAINED    -f alignments/internal/subgroup/NKV.aln.fna
+    import AL_ticks_UNCONSTRAINED  -f alignments/internal/subgroup/ticks.aln.fna
+
+
+    #~# Multiple genera alignments
+
+
+    #~# Subfamily-level alignments
+    
+
+    exit
+    
