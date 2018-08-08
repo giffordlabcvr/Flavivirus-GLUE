@@ -33,21 +33,30 @@
 	extract child AL_mosquito-2  --refName REF_DENV1
 	demote member AL_mosquito-2  --whereClause "sequence.clade = 'mosquito-2'" 
 
-	extract child AL_cISFs       --refName REF_CFA
-	demote member AL_cISFs       --whereClause "sequence.clade = 'cISF'" 
+	extract child AL_cISF        --refName REF_CFA
+	demote member AL_cISF        --whereClause "sequence.clade = 'cISF'" 
 
-	extract child AL_dISFs       --refName REF_Lammi
-	demote member AL_dISFs       --whereClause "sequence.clade = 'dISF'" 
+	extract child AL_dISF        --refName REF_Lammi
+	demote member AL_dISF        --whereClause "sequence.clade = 'dISF'" 
 
-	extract child REF_Apoi       --refName REF_Apoi
-	demote member REF_Apoi       --whereClause "sequence.clade = 'NKV'" 
+	extract child AL_tick        --refName REF_LIV
+	demote member AL_tick        --whereClause "sequence.clade = 'tick'" 
+ 
+ 	extract child AL_NKV         --refName REF_Apoi
+	demote member AL_NKV         --whereClause "sequence.clade = 'NKV'" 
 
-	extract child AL_ticks       --refName REF_LIV
-	demote member AL_ticks       --whereClause "sequence.clade = 'ticks'" 
     exit
 
 
   # Derive constrained alignment segments from unconstrained alignments  
+  #alignment AL_Flaviviridae_MASTER
+  #  derive segments AL_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+  #  exit
+
+  alignment AL_Hepacivirus
+    derive segments AL_HEPACI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
   alignment AL_Flavivirus
     derive segments AL_FLAVI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
@@ -59,4 +68,31 @@
   alignment AL_Pegivirus
     derive segments AL_PEGI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
+
+  alignment AL_mosquito-1
+    derive segments AL_mosq1_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_mosquito-2
+    derive segments AL_mosq2_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_tick
+    derive segments AL_tick_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_cISF
+    derive segments AL_cISF_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_dISF
+    derive segments AL_dISF_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_NKV
+    derive segments AL_NKV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+
+
 

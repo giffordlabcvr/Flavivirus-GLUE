@@ -14,13 +14,15 @@
     import AL_PEGI_UNCONSTRAINED   -f alignments/internal/genus/pegivirus.aln.fna
     import AL_FLAVI_UNCONSTRAINED  -f alignments/internal/genus/flavivirus.aln.fna
     import AL_PESTI_UNCONSTRAINED  -f alignments/internal/genus/pestivirus.aln.fna
+    import AL_HEPACI_UNCONSTRAINED -f alignments/internal/genus/hepacivirus.aln.fna
 
     #~# Subgroup-level alignments
-    import AL_cISFs_UNCONSTRAINED  -f alignments/internal/subgroup/cISFs.aln.fna
-    import AL_dISFs_UNCONSTRAINED  -f alignments/internal/subgroup/dISFs.aln.fna
+    import AL_mosq1_UNCONSTRAINED  -f alignments/internal/subgroup/mosquito-1.aln.fna
+    import AL_mosq2_UNCONSTRAINED  -f alignments/internal/subgroup/mosquito-2.aln.fna
+    import AL_tick_UNCONSTRAINED   -f alignments/internal/subgroup/ticks.aln.fna
+    import AL_cISF_UNCONSTRAINED   -f alignments/internal/subgroup/cISFs.aln.fna
+    import AL_dISF_UNCONSTRAINED   -f alignments/internal/subgroup/dISFs.aln.fna
     import AL_NKV_UNCONSTRAINED    -f alignments/internal/subgroup/NKV.aln.fna
-    import AL_ticks_UNCONSTRAINED  -f alignments/internal/subgroup/ticks.aln.fna
-
 
     #~# Multiple genera alignments
 
