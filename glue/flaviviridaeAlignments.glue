@@ -23,6 +23,7 @@
     import AL_cISF_UNCONSTRAINED   -f alignments/internal/subgroup/cISFs.aln.fna
     import AL_dISF_UNCONSTRAINED   -f alignments/internal/subgroup/dISFs.aln.fna
     import AL_NKV_UNCONSTRAINED    -f alignments/internal/subgroup/NKV.aln.fna
+    import AL_SCNV_UNCONSTRAINED   -f alignments/internal/subgroup/SCNV.aln.fna
 
     #~# Multiple genera alignments
 

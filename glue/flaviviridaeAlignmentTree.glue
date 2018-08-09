@@ -44,14 +44,18 @@
  
  	extract child AL_NKV         --refName REF_Apoi
 	demote member AL_NKV         --whereClause "sequence.clade = 'NKV'" 
+ 
+ 	extract child AL_SCNV        --refName REF_SCNV
+	demote member AL_SCNV        --whereClause "sequence.clade = 'SCNV'" 
 
     exit
 
 
-  # Derive constrained alignment segments from unconstrained alignments  
+  ### Derive constrained alignment segments from unconstrained alignments  
   #alignment AL_Flaviviridae_MASTER
   #  derive segments AL_UNCONSTRAINED -a --mergeStrategy OVERWRITE
   #  exit
+
 
   alignment AL_Hepacivirus
     derive segments AL_HEPACI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
@@ -91,6 +95,10 @@
 
   alignment AL_NKV
     derive segments AL_NKV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_SCNV
+    derive segments AL_SCNV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
 

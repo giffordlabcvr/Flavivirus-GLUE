@@ -9,6 +9,7 @@
   create reference REF_Lammi       ncbi-refseqs NC_024806  # dISF
   create reference REF_Apoi        ncbi-refseqs NC_003676  # NKV
   create reference REF_LIV         ncbi-refseqs NC_001809  # ticks
+  create reference REF_SCNV5       ncbi-refseqs NC_024077  # SCNV
 
   ### Pegivirus
   create reference REF_HPgV2       ncbi-refseqs NC_027998  
