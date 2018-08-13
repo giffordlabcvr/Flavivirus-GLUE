@@ -21,7 +21,7 @@ So far we have used Flaviviridae-GLUE to develop the following GLUE extension pr
 
 * [Flaviviridae-EVE](https://giffordlabcvr.github.io/Flaviviridae-EVE/) - a GLUE project for endogenous flaviviral elements.
 
-Note that Flaviviridae-GLUE serves as a data repository for circovirus reference data, and these data can be accessed here, without any requirement to install GLUE. 
+Note that Flaviviridae-GLUE serves as a data repository for flavivirus reference data, and these data can be accessed here, without any requirement to install GLUE. 
 
 ## Installation
 
