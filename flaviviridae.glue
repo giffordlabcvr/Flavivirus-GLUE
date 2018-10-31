@@ -38,7 +38,7 @@ project flaviviridae
   run file glue/flaviviridaeAlignments.glue
 
   # Import alignment tree
-  run file glue/flaviviridaeAlignmentTree.glue
+  #run file glue/flaviviridaeAlignmentTree.glue
 
   # Validate
   validate
