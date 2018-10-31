@@ -2,7 +2,7 @@
 
   # Import root alignment
   #module unconstrainedAlignmentImporter 
-  #  import AL_UNCONSTRAINED -f alignments/root/flaviviridae_root_NS5.fna
+  #  import AL_UNCONSTRAINED -f alignments/root/flavi-iflavi-root.fna
   #  exit
 
   # Import tip alignments
