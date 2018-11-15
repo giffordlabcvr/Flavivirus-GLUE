@@ -11,6 +11,9 @@
   create reference REF_LIV         ncbi-refseqs NC_001809  # ticks
   create reference REF_SCNV5       ncbi-refseqs NC_024077  # SCNV
 
+  ### Insect-specific flavivirus group
+  create reference REF_KRV         ncbi-refseqs NC_005064  
+
   ### Pegivirus
   create reference REF_HPgV2       ncbi-refseqs NC_027998  
 
