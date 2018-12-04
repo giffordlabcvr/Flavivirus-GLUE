@@ -1,0 +1,113 @@
+sequenceID	full_name	name	genus	clade	reservoir_taxgroup	sampled_host_sci_name	reservoir_host_sci_name	vector_boolean	vector_taxgroup	vector_sci_name	NCBI taxon	isolate	country	region	gb_place_sampled	collection_year	collection_month_day	collection_month
+NC_012932	Aedes flavivirus	AEFV	Flavivirus	cISF	Insect	Aedes albopictus		0	mosquito	Aedes albopictus	390845	Narita-21	Japan	Asia	Chiba, Narita	2003	-	-
+NC_001564	Cell fusing agent virus	CFAV	Flavivirus	cISF	Insect	Aedes aegypti		0	mosquito	Aedes aegypti	31658	Galveston	USA	Americas	Galveston	2012	-	-
+NC_008604	Culex flavivirus	CxFV	Flavivirus	cISF	Insect	Culex pipiens	-	0	mosquito		390844	Tokyo	Japan	Asia	Tokyo, Shinjuku	2003	-	-
+HE574574	Culex theileri flavivirus	CTFV	Flavivirus	cISF		Culex theileri		0	none		1244563	178	Portugal	Europe	Dunas Douradas-Almancil	2011	-	-
+JQ268258	Hanko virus	HANKV	Flavivirus	cISF		Ochlerotatus mosquito			mosquito	mosquito	1125677	-	Finland	Europe	 Hanko peninsula	2005	-	AUG
+NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	Insect	Ae. macintoshi 	-	0	mosquito		218849	SR-82	Kenya	Africa	Nairobi	1999	-	-
+NC_027819	Mercadeo virus	MECDV	Flavivirus	cISF	Insect	Culex sp.		0	mosquito	Culex sp.	1708574	ER-M10	Panama	Americas	Darien Province 	2011	-	-
+NC_021069	Mosquito flavivirus	-	Flavivirus	cISF	Insect	Culex tritaeniorhynchus		0	mosquito	Culex tritaeniorhynchus	673515	LSFlaviV-A20-09	China	Asia	-	2009	-	-
+GQ165809	Nakiwogo virus	NAKV	Flavivirus	cISF		Mansonia africana nigerrima	Mansonia africana nigerrima voucher H4A1	0	none		667516	Uganda08	Uganda	Africa	-	2008	-	FEB
+NC_024299	Nienokoue virus	NIEV	Flavivirus	cISF		Culex sp.				Culex sp.	1286143	B51/CI/2004	Cote d'Ivoire	Africa	Taï National Park	2004	-	-
+KC505248	Palm Creek virus	PCV	Flavivirus	cISF		Coquillettidia xanthogaster	Coquillettidia xanthogaster		mosquito		1302179	56	Australia	Oceania	Northern Territory	2010	-	-
+NC_027817	Parramatta River virus	PaRV	Flavivirus	cISF	Insect	A. vigilax	-	0	mosquito		1708654	92-B115745	Australia	Oceania	Sydney	2007	-	-
+NC_012671	Quang Binh virus	QBV	Flavivirus	cISF	Insect	Culex tritaeniorhynchus (mosquito)	Culex tritaeniorhynchus (mosquito)	0	mosquito		643132	VN180	Viet Nam	Asia	-	2002	-	AUG
+KY347801	Marisma mosquito virus	MMV	Flavivirus	dISF		Aedes caspius	Aedes caspius		mosquito		1105173	HU 4528/07	Spain	Europe	-	2007	1	AUG
+NC_027999	Paraiso Escondido virus	EPEV	Flavivirus	dISF1	Insect	Lutzomyia abonnenci	Lutzomyia abonnenci	0	sandfly		1566298	Ecuador2012	Ecuador	Americas	Pichincha Province	2012	-	-
+NC_017086	Chaoyang virus	CHAOV	Flavivirus	dISF2	Insect	mosquito		0	mosquito		631267	HLD115	China	Asia	-	2010	-	-
+NC_016997	Donggang virus	DONV	Flavivirus	dISF2		Aedes sp. (mosquito)			mosquito		985683	DG0909	China	Asia	-	2009	-	-
+NC_024805	Illomantsi virus	ILOV	Flavivirus	dISF2		mosquito					1445557	M0724	Finland	Europe	-	2007	-	AUG
+NC_024806	Lammi virus	LAMV	Flavivirus	dISF2		mosquito					649187	M0719	Finland	Europe	-	2007	-	AUG
+NC_024017	Nhumirim virus	NHUV	Flavivirus	dISF2		Culex chidesteri	Culex chidesteri		mosquito		1485186	BrMS-MQ10	Brazil	Americas	Nhecolandia Sub-region of Pantanal, Corumba, Mato Grosso do Sul	2010	17	OCT
+EU159426	Nounane virus	NOUV	Flavivirus	dISF2		Uranotaenia mashonaensis	Uranotaenia mashonaensis		mosquito		486494	Nounane_B3	Cote d'Ivoire	Africa	Taï National Park	2004	-	-
+AY898809	Alfuy virus	ALFV	Flavivirus	MosqVert		Centropus phasianius	-		unknown		44017	MRM3929	Australia	Oceania	Mitchell River Mission	1966	4	JAN
+NC_012534	Bagaza virus	BAGV	Flavivirus	MosqVert	Galloanserae	Culex		1	mosquito		64290	DakArB 209	Central African Republic	Africa	Bagaza	1966	31	MAR
+KM225264	Bainyink virus	-	Flavivirus	MosqVert		Aedes sp. (mosquito)			mosquito	Aedes sp. (mosquito)	1534467	MK7979	Papua New Guinea	Oceania	-	1966	-	-
+DQ859056	Banzi virus	BANV	Flavivirus	MosqVert		Homo sapiens	-				38837	H336	South Africa	Africa	Ndumu, Natal	1956	28	MAR
+KC496020	Barkedji virus	BJV	Flavivirus	MosqVert		Culex perexiguus			mosquito	Culex perexiguus	478577	363/11	Israel	Asia	-	2011	-	-
+NC_033693	Bouboui virus	BOUV	Flavivirus	MosqVert		Anopheles paludis	mosquito				64295	DakArB 490	Central African Republic	Africa	Bouboui	1967	2	NOV
+NC_009026	Bussuquara virus	BSQV	Flavivirus	MosqVert	Rodent	Alouatta beelzebul Sentinel	-	1	mosquito		64303	BeAn 4073	Brazil	Americas	-	1956	2	MAR
+NC_026623	Cacipacore virus	CPCV	Flavivirus	MosqVert	Orphan	Formicarius analis	Formicarius analis	1	mosquito		64305	BeAn 327600	Brazil	Americas	Oriximina, Para 	1977	28	JUL
+NC_001477	Dengue virus 1	DENV1	Flavivirus	MosqVert	Primate	-	-	1	mosquito		11053	45AZ5	Africa/Southeast Asia	Africa/Asia	-	-	-	-
+NC_001474	Dengue virus 2	DENV2	Flavivirus	MosqVert	Primate	Homo sapiens	-	1	mosquito		11060	16681	Thailand	Asia	Bangkok	1964	-	-
+NC_001475	Dengue virus 3	DENV3	Flavivirus	MosqVert	Primate	-	-	1	mosquito		11069	D3SriLa1266	Sri Lanka	Asia	-	2000	-	SEP
+NC_002640	Dengue virus 4	DEN4	Flavivirus	MosqVert	Primate	-	-	1	mosquito		12637	-	Africa/Southeast Asia	Africa/Asia	-	-	-	-
+NC_030289	Edge Hill virus	EHV	Flavivirus	MosqVert		Aedes vigilax	-		mosquito		64296	C281	Australia	Oceania	Queensland, Australia	1969	29	MAR
+AY632538	Iguape virus	IGUV	Flavivirus	MosqVert		sentinel mouse	-		mosquito		64308	SPAn 71686	Brazil	Americas	Iguape county, Sao Paulo State	1979	-	JAN
+NC_009028	Ilheus virus	ILHV	Flavivirus	MosqVert	Neoaves	Psorophora spp. 	-	1	mosquito		59563	-	Brazil	Americas	Bahia	1944	-	-
+NC_001437	Japanese encephalitis virus	JEV	Flavivirus	MosqVert	Neoaves	Homo sapiens	-	1	mosquito	Culex tritaeniorhynchus	11072		Japan	Asia	Tokyo	1935	21	AUG
+NC_033699	Jugra virus	JUGV	Flavivirus	MosqVert		Aedes spp	-				64309	P9-314	Malaysia	Asia	Carey Island	1968	11	NOV
+NC_012533	Kedougou virus	KEDV	Flavivirus	MosqVert	Orphan	Aedes minutus		1	mosquito		64311	ArD 14701	Senegal	Africa	Kedougou	1972	26	JUN
+EU082200	Koutango virus	KOUV	Flavivirus	MosqVert		Tatera kempi	-				44025	DakAnD 5443	Senegal	Africa	Koutango Village, Saboya region	1968	24	APR
+KY320649 	La Tina	LTNV	Flavivirus	MosqVert		Ochlerotatus scapularis	Ochlerotatus scapularis		mosquito		2045187	49_LT96	Peru	Americas	Piura province, the village of La Tina	1996	22	AUG
+KY290249	Long Pine Key virus	LPKV	Flavivirus	MosqVert		Ochlerotatus atlanticus	Ochlerotatus atlanticus		mosquito		2045185	EVG-1-33	USA	Americas	Florida, Everglades National Park, Long Pine Key	2013	13	JUN
+NC_000943	Murray Valley encephalitis virus	MVEV	Flavivirus	MosqVert	Neoaves	Homo sapiens	-	1	mosquito	Culex annulirostris	11079	MVE/1/1951	Australia	Oceania	Mooroopna, Victoria,	1951	9	FEB
+NC_032088	New Mapoon virus	NMV	Flavivirus	MosqVert	Diprotodontia	Culex annulirostris	mosquito	1	mosquito		44024	CY1014	Australia	Oceania	New Mapoon	1998	-	-
+NC_018705	Ntaya virus	NTAV	Flavivirus	MosqVert	Orphan	-	-	1	mosquito		64292	IPDIA	Cameroon	Africa		1966	-	-
+AY632542	Rocio virus	ROCV	Flavivirus	MosqVert		Homo sapiens	-		mosquito		64315	SPH 34675	Brazil	Americas	Iguape county, Sao Paulo State	1975	8	DEC
+NC_033697	Saboya virus	SABV	Flavivirus	MosqVert		Tatera kempi	-				64284	DakAnD 4600	Senegal	Africa	Saboya	1968	22	FEB
+NC_008719	Sepik virus	SEPV	Flavivirus	MosqVert	Bovidae	Mansonia septempunctata	mosquito	1	mosquito		44026	MK 7148	Papua New Guinea	Oceania	Timaui, Sepik District	1966	21	JUN
+NC_029055	Spondweni virus	SPOV	Flavivirus	MosqVert	Orphan	Mansonia uniformis	-	1	mosquito		64318	SAAr 94	South Africa	Africa	Lake Simbu, Natal	1955	2	MAY
+NC_007580	St. Louis encephalitis virus	SLEV	Flavivirus	MosqVert	Neoaves	Homo sapiens	-	1	mosquito		11080	-	USA	Americas	Missouri	-	-	-
+KM225263	Stratford virus	STRV	Flavivirus	MosqVert		Aedes vigilax	-		mosquito		44027	C338	Australia	Oceania	Stratford suburb of Cairns	1961	1	APR
+NC_015843	Tembusu virus	TMUV	Flavivirus	MosqVert	Orphan	goose	goose	1	mosquito	Aedes sp. (mosquito)	64293	JS804	China	Asia	Jiangsu Province	2010	-	SEP
+KM225265	Torres virus	-	Flavivirus	MosqVert		mosquito			mosquito		1534468	TS5273	Australia	Oceania	 Torres Strait, Queensland	2000	-	-
+NC_033698	Uganda S virus	UGSV	Flavivirus	MosqVert		Aedes spp.	mosquito				64297	-	Uganda	Africa	Bwamba County	1947	27	APR
+NC_006551	Usutu virus	USUV	Flavivirus	MosqVert	Neoaves	Culex neavei	-	1	mosquito		64286	SAAr 1776	South Africa	Africa	Ndumu, Natal	1959	30	JAN
+NC_012735	Wesselsbron virus	WSLV	Flavivirus	MosqVert	Orphan	Merino sheep	-	1	mosquito		164416	van Tonder	South Africa	Africa	Wesselsbron	1955	3	JAN
+NC_001563	West Nile virus	WNV	Flavivirus	MosqVert	Neoaves	Homo sapiens	-	1	mosquito		11082	B956	Uganda	Africa	Omogo, West Nile District 	1937	12	JAN
+EU082199	Yaounde virus	YAOV	Flavivirus	MosqVert		Culex nebulosis	-				64319	ArY 276	Cameroon	Africa	Nkolbisson, Yaounde	1968	25	JUL
+NC_002031	Yellow fever virus	YFV	Flavivirus	MosqVert	Primate	-	-	1	mosquito		11089	-	South America/Africa	Africa/Americas	-	-	-	-
+NC_012532	Zika virus	ZIKV	Flavivirus	MosqVert	Orphan	sentinel monkey	sentinel monkey	1	mosquito		64320	MR 766	Uganda	Africa	Zika forest,Entebbe	1947	20	APR
+NC_003676	Apoi virus	APOIV	Flavivirus	NKV	Rodent	Apodemus spp.	-	0	none		64280	-	Japan	Asia	Apoi	1954	9	OCT
+NC_026620	Jutiapa virus	JUTV	Flavivirus	NKV1	Rodent	Sigmodon hispidus	Sigmodon hispidus	0	none		64299	JG-128	Guatemala	Americas	Jutiapa	1969	8	AUG
+NC_003635	Modoc virus	MODV	Flavivirus	NKV1	Rodent	Peromyscus maniculatus	-	0	none		64300	M544	USA	Americas	Modoc county	1958	7	JUL
+NC_004119	Montana myotis leukoencephalitis virus	MMLV	Flavivirus	NKV1	Vespbat	Myotis lucifugus	-	0	none		64312	-	USA	Americas	Montana	1958	29	JUL
+NC_003675	Rio Bravo virus	RBV	Flavivirus	NKV1	Vespbat	Tadarida brasiliensis mexicana	-	0	none		64285	M64	USA	Americas	Kern County, California	1954	10	JAN
+NC_008718	Entebbe bat virus	ENTV	Flavivirus	NKV2	Vespbat	Tadarida limbata	bat	?	unknown		64283	UgIL-30	Uganda	Africa	Entebbe	1957	4	JUL
+NC_026624	Sokuluk virus	SOKV	Flavivirus	NKV2	Vespbat	Vespertilio pipistrellus	Vespertilio pipistrellus	?	unknown		64317	LEIV-400K	Kyrgyzstan	Asia	Sokuluk District 	1970	8	MAY
+NC_005039	Yokose virus	YOKV	Flavivirus	NKV2	Vespbat	bat	-	?	unknown		64294	Oita 36	Japan	Asia	-	1971	-	-
+NC_003996	Tamana bat virus	TABV	Flavivirus	NKV3	Vespbat	Pteronotus parnellii	Pteronotus parnellii	0	none		161675	Tr127154	Trinidad and Tobago	Americas	Tamana cave	1974	-	DEC
+NC_004355	Alkhumra hemorrhagic fever virus	ALKV	Flavivirus	TickVert	Orphan	Homo sapiens	Homo sapiens	1	mosquito		172148	1176	Saudi Arabia	Asia	-	1995	-	-
+NC_033723	Gadgets Gully virus	GGYV	Flavivirus	TickVert		Ixodes uriae	-				64307	CSIRO 122	Australia	Oceania	Macquarie Island	1976	20	DEC
+NC_033724	Kadam virus	KADV	Flavivirus	TickVert		Rhipicephalus pravus	-				64310	AMP 6640	Uganda	Africa	Namalu, South Karamoja	1967	8	SEP
+NC_023439	Kama virus	KAMV	Flavivirus	TickVert	Neoaves	Ixodes lividus		1	tick	Ixodes lividus	1456752	-	Russia	Europe	islands of Kuybyshev Reservoir, Kuybyshev Sea, East European Plain	1989	-	-
+NC_006947	Karshi virus	KSIV	Flavivirus	TickVert	Orphan	Ornithodoros papillipes	-	1	tick		64287	LEIV-2247 US	Uzbekistan	Asia	Karshi desert	1972	9	JUN
+JF416960	Kyasanur forest disease virus	KFDV	Flavivirus	TickVert	Primate	Semnopithecus entellus	Semnopithecus entellus	1	tick		33743	-	India	Asia	Kyasanur Forest near Baragi Village	1957	27	MAR
+NC_003690	Langat virus	LGTV	Flavivirus	TickVert	Orphan	Ixodes granulatus 	-	1	tick		11085	TP-21	Malaysia	Asia	Ulu Langat Forest	1956	17	APR
+NC_001809	Louping ill virus	LIV	Flavivirus	TickVert	Bovidae	Sheep (Ovis aries)	-	1	tick		11086	-	Scotland	Europe	Selkirkshire	1929	1	JAN
+NC_033721	Meaban virus	MEAV	Flavivirus	TickVert		Ornithodoros maritimus	-		tick		35279	Brest/Ar/T-707	France	Europe	Morbihan	1981	3	JUL
+NC_005062	Omsk hemorrhagic fever virus	OMSKV	Flavivirus	TickVert	Rodent	Homo sapiens	-	1	tick		12542	Bogoluvovska	Russia	Europe	Omsk Oblast	1947	14	JUN
+NC_003687	Powassan virus	POWV	Flavivirus	TickVert	Rodent	Homo sapiens	-	1	tick		11083	L.B.	Canada	Americas	Ontario	1958	23	AUG
+DQ235149	Royal Farm virus	RFV	Flavivirus	TickVert	Orphan	Argas hermanni		1	tick		64288	ArT 371	Afghanistan	Asia	Royal Farm near Kabul	1968	2	OCT
+NC_033726	Saumarez reef virus	SREV	Flavivirus	TickVert		Ornithodoros capensis	Ornithodoros capensis				40012	CSIRO4	Australia	Oceania	Queensland	1974	26	AUG
+NC_027709	Spanish goat encephalitis virus	SGEV	Flavivirus	TickVert	Orphan	Bermeya goat	Bermeya goat	1	tick		1691889	AstGoatIREC2011	Spain	Europe	Asturias	2011	-	-
+NC_001672	Tick-borne encephalitis virus	TBEV	Flavivirus	TickVert	Rodent	-	-	1	tick		11084	Neudoerfl	Europe/Asia	Europe	-	-	-	-
+DQ235151	Turkish sheep encephalitis	TSEV	Flavivirus	TickVert		-	-				47300	TTE80	Turkey	Asia	-	-	-	-
+NC_023424	Tyuleniy virus	TYUV	Flavivirus	TickVert	Neoaves	Ixodes uriae		1	tick	Ixodes uriae	40004	LEIV 6C	Russia	Europe	far East, Sea of Okhotsk; Tyuleniy island	1969	18	AUG
+NC_026797	Bovine hepacivirus		Hepacivirus		Bovidae	Bos taurus	Bos taurus	0	none		1633878	GHC25	Ghana	Africa	-	2011	-	-
+NC_024889	Equine hepacivirus JPN3/JAPAN/2013		Hepacivirus		Perissodactyla	Equus caballus	Equus caballus	0	none		1416349	-	Japan	Asia	-	2013	-	-
+NC_025672	Norway rat hepacivirus 1		Hepacivirus		Rodent	Rattus norvegicus	Rattus norvegicus	0	none		1562038	NrHV-1/NYC-C12	USA	Americas	New York, New York City	2013	7	APR
+NC_025673	Norway rat hepacivirus 2		Hepacivirus		Rodent	Rattus norvegicus	Rattus norvegicus	0	none		1562039	NrHV-2/NYC-E43	USA	Americas	New York, New York City	2012	20	DEC
+NC_025679	Norway rat pegivirus		Hepacivirus		Rodent	Rattus norvegicus	Rattus norvegicus	0	none		1562065	NrPgV/NYC-E13	USA	Americas	New York, New York City	2012	2	DEC
+NC_025677	Norway rat pestivirus		Hepacivirus		Rodent	Rattus norvegicus	Rattus norvegicus	0	none		1562066	NrPV/NYC-D23	USA	Americas	New York, New York City	2013	30	JUN
+NC_021153	Rodent hepacivirus		Hepacivirus		Rodent	Peromyscus maniculatus	Peromyscus maniculatus	0	none		1281454	RHV-339	USA	Americas	-	2008	-	-
+NC_004102	Hepatitis C virus	HCV	Hepacivirus	Genotype 1	Primate	-	-	0	none		11103	H77	-		-	-	-	-
+NC_020902	Equine pegivirus 1		Pegivirus		Perissodactyla	Equus caballus	horse	0	none		1307803	C0035	USA	Americas	-	2011	-	-
+NC_001710	GB virus C	HGV1	Pegivirus		Primate	-	-	0	none		54290	-	-		-	-	-	-
+NC_027998	Human pegivirus 2	HPgV-2	Pegivirus		Primate	Homo sapiens	Homo sapiens	0	none		1729141	UC0125.US	USA	Americas	-	2008	28	AUG
+NC_001837	Pegivirus A	GBV-A	Pegivirus		Primate	-	-	0	none		1307800	-	-		-	-	-	-
+NC_021154	Rodent pegivirus		Pegivirus		Rodent	Neotoma lepida	Neotoma lepida	0	none		1321391	CC61	USA	Americas	-	2008	-	-
+NC_024377	Simian pegivirus		Pegivirus		Primate	Piliocolobus tephrosceles (red colobus monkey)	Piliocolobus tephrosceles (red colobus monkey)	0	none		1454041	SPgVkrc_RC08	Uganda	Africa	Kibale National Park	2010	15	FEB
+NC_003679	Border disease virus		Pestivirus		Bovidae	-	-	0	none		358764	X818	-		-	-	-	-
+NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		Bovidae	-	-	0	none		11099	-	-		-	-	-	-
+NC_002032	Bovine viral diarrhea virus 2	BVDV2	Pestivirus		Bovidae	-	-	0	none		54315	C413	USA	Americas	Northwestern	-	-	-
+NC_012812	Bovine viral diarrhea virus 3	BVDV3	Pestivirus		Bovidae	Bos taurus	Bos taurus	0	none		381707	-	Thailand	Asia	-	2004	-	-
+NC_002657	Classical swine fever virus	CSFV	Pestivirus		Suidae	-	-	0	none		11096	Eystrup	-		-	-	-	-
+KM408491	Pestivirus Burdur		Pestivirus		Bovidae	goat	goat	?	unknown		1594788	Burdur/05-TR	Turkey	Asia	-	2005	-	-
+NC_003678	Pestivirus Giraffe-1		Pestivirus		Giraffidae	Giraffa camelopardalis	Giraffa camelopardalis	0	none		155905	giraffe-1 H138	Kenya	Africa	-	-	-	-
+NC_018713	Pestivirus strain Aydin/04-TR		Pestivirus		Bovidae	Ovis aries	sheep	0	none		1234809	-	Turkey	Asia	-	2004	-	-
+NC_023176	Porcine pestivirus isolate Bungowannah		Pestivirus		Orphan	-	-	0	none		412969	Bungowannah	Australia	Oceania	-	-	-	-
+NC_024018	Pronghorn antelope pestivirus	PAPeV	Pestivirus		Antilocapridae	pronghorn antelope	pronghorn antelope	0	none		188938	-	USA	Americas	-	-	-	-
+NC_024077	Soybean cyst nematode virus	SbCNV-5	Pesti-like	Nematode														
+NC_020252	Gentian Kobu-sho-associated virus	GKaV	Pesti-like	Nematode														
