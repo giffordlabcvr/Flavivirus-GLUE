@@ -1,25 +1,32 @@
   #### Flaviviridae    
 
   # Master reference
-  create reference REF_MASTER_YFV  ncbi-refseqs NC_002031    # mosquito-1
+  create reference REF_MASTER_YFV  ncbi-refseqs NC_002031  
 
   ### Flavivirus
-  create reference REF_DENV1       ncbi-refseqs NC_001477  # mosquito-2
-  create reference REF_CFA         ncbi-refseqs NC_001564  # cISF
-  create reference REF_Lammi       ncbi-refseqs NC_024806  # dISF
-  create reference REF_Apoi        ncbi-refseqs NC_003676  # NKV
-  create reference REF_LIV         ncbi-refseqs NC_001809  # ticks
-  create reference REF_SCNV5       ncbi-refseqs NC_024077  # SCNV
+  create reference REF_DENV1       ncbi-refseqs NC_001477  # mosq1
+  create reference REF_YFV         ncbi-refseqs NC_002031  # mosq2
+  create reference REF_TBEV        ncbi-refseqs NC_001672  # ticks
+  create reference REF_LAMV        ncbi-refseqs NC_024806  # dISF1
+  create reference REF_EPEV        ncbi-refseqs NC_027999  # dISF2
+  create reference REF_Apoi        ncbi-refseqs NC_003676  # NKV1
+  create reference REF_SOKV        ncbi-refseqs NC_026624  # NKV2
+  create reference REF_CFAV        ncbi-refseqs NC_001564  # cISF
 
-  ### Insect-specific flavivirus group
-  create reference REF_KRV         ncbi-refseqs NC_005064  
+  ### TABV
+  create reference REF_TABV        ncbi-refseqs NC_003996 
 
-  ### Pegivirus
-  create reference REF_HPgV2       ncbi-refseqs NC_027998  
-
+  ### Jingmen
+  create reference REF_JMTV        ncbi-refseqs KC001579 
+ 
   ### Pestivirus
   create reference REF_BVD1        ncbi-refseqs NC_001461  
+
+  ### Pesti-like
+  create reference REF_SCNV5       ncbi-refseqs NC_024077
 
   ### Hepacivirus
   create reference REF_HCV         ncbi-refseqs NC_004102  
 
+  ### Pegivirus
+  create reference REF_HPgV2       ncbi-refseqs NC_027998  
