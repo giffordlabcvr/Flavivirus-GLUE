@@ -17,7 +17,7 @@
   create reference REF_TABV        ncbi-refseqs NC_003996 
 
   ### Jingmen
-  create reference REF_JMTV        ncbi-refseqs KC001579 
+  #create reference REF_JMTV        ncbi-refseqs KC001579 
  
   ### Pestivirus
   create reference REF_BVD1        ncbi-refseqs NC_001461  
