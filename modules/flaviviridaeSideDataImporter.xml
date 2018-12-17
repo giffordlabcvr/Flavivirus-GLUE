@@ -24,6 +24,15 @@
         <header>clade</header>
         <property>clade</property>
     </textFileColumn>
+    
+    <textFileColumn>
+        <header>vector_group</header>
+        <property>vector_group</property>
+    </textFileColumn>
+    <textFileColumn>
+        <header>vector_host_sci_name</header>
+        <property>vector_host_sci_name</property>
+    </textFileColumn>
 
     <skipMissing>true</skipMissing>
 

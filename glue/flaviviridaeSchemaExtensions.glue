@@ -7,6 +7,7 @@
     create field vector_group VARCHAR 50
     create field reservoir_host_sci_name VARCHAR 100
     create field vector_host_sci_name VARCHAR 100
+    create field host_sci_group VARCHAR 100
   exit
 
   table alignment
