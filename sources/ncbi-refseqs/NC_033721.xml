@@ -7,7 +7,7 @@
     <GBSeq_moltype>RNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>16-FEB-2017</GBSeq_update-date>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
     <GBSeq_create-date>16-FEB-2017</GBSeq_create-date>
     <GBSeq_definition>Meaban virus from France polyprotein gene, complete cds</GBSeq_definition>
     <GBSeq_primary-accession>NC_033721</GBSeq_primary-accession>
@@ -17,13 +17,13 @@
       <GBSeqid>gnl|NCBI_GENOMES|67394</GBSeqid>
       <GBSeqid>gi|1147809755</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_project>PRJNA375048</GBSeq_project>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
     <GBSeq_keywords>
       <GBKeyword>RefSeq</GBKeyword>
     </GBSeq_keywords>
     <GBSeq_source>Meaban virus</GBSeq_source>
     <GBSeq_organism>Meaban virus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Flavivirus; Seaborne tick-borne virus group</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Flavivirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
@@ -169,7 +169,7 @@
     <GBSeq_xrefs>
       <GBXref>
         <GBXref_dbname>BioProject</GBXref_dbname>
-        <GBXref_id>PRJNA375048</GBXref_id>
+        <GBXref_id>PRJNA485481</GBXref_id>
       </GBXref>
     </GBSeq_xrefs>
   </GBSeq>

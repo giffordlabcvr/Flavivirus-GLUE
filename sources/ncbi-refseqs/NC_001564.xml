@@ -7,7 +7,7 @@
     <GBSeq_moltype>RNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>04-OCT-2017</GBSeq_update-date>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
     <GBSeq_create-date>03-AUG-1993</GBSeq_create-date>
     <GBSeq_definition>Cell fusing agent virus strain Galveston, complete genome</GBSeq_definition>
     <GBSeq_primary-accession>NC_001564</GBSeq_primary-accession>
@@ -17,7 +17,7 @@
       <GBSeqid>gnl|NCBI_GENOMES|10412</GBSeqid>
       <GBSeqid>gi|1041156620</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_project>PRJNA15326</GBSeq_project>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
     <GBSeq_keywords>
       <GBKeyword>RefSeq</GBKeyword>
     </GBSeq_keywords>
@@ -608,7 +608,7 @@
     <GBSeq_xrefs>
       <GBXref>
         <GBXref_dbname>BioProject</GBXref_dbname>
-        <GBXref_id>PRJNA15326</GBXref_id>
+        <GBXref_id>PRJNA485481</GBXref_id>
       </GBXref>
     </GBSeq_xrefs>
   </GBSeq>

@@ -7,7 +7,7 @@
     <GBSeq_moltype>RNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>10-FEB-2015</GBSeq_update-date>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
     <GBSeq_create-date>17-APR-2002</GBSeq_create-date>
     <GBSeq_definition>Tamana bat virus, genome</GBSeq_definition>
     <GBSeq_primary-accession>NC_003996</GBSeq_primary-accession>
@@ -17,7 +17,7 @@
       <GBSeqid>gnl|NCBI_GENOMES|16467</GBSeqid>
       <GBSeqid>gi|21397174</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_project>PRJNA15398</GBSeq_project>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
     <GBSeq_keywords>
       <GBKeyword>RefSeq</GBKeyword>
     </GBSeq_keywords>
@@ -575,7 +575,7 @@
     <GBSeq_xrefs>
       <GBXref>
         <GBXref_dbname>BioProject</GBXref_dbname>
-        <GBXref_id>PRJNA15398</GBXref_id>
+        <GBXref_id>PRJNA485481</GBXref_id>
       </GBXref>
     </GBSeq_xrefs>
   </GBSeq>

@@ -7,7 +7,7 @@
     <GBSeq_moltype>RNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>24-JUN-2014</GBSeq_update-date>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
     <GBSeq_create-date>24-JUN-2014</GBSeq_create-date>
     <GBSeq_definition>Simian pegivirus isolate SPgVkrc_RC08 polyprotein precursor, gene, complete cds</GBSeq_definition>
     <GBSeq_primary-accession>NC_024377</GBSeq_primary-accession>
@@ -17,7 +17,7 @@
       <GBSeqid>gnl|NCBI_GENOMES|36463</GBSeqid>
       <GBSeqid>gi|658311446</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_project>PRJNA253339</GBSeq_project>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
     <GBSeq_keywords>
       <GBKeyword>RefSeq</GBKeyword>
     </GBSeq_keywords>
@@ -503,7 +503,7 @@
     <GBSeq_xrefs>
       <GBXref>
         <GBXref_dbname>BioProject</GBXref_dbname>
-        <GBXref_id>PRJNA253339</GBXref_id>
+        <GBXref_id>PRJNA485481</GBXref_id>
       </GBXref>
     </GBSeq_xrefs>
   </GBSeq>

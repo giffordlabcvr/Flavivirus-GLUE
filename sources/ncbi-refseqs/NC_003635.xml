@@ -7,7 +7,7 @@
     <GBSeq_moltype>RNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>06-MAY-2009</GBSeq_update-date>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
     <GBSeq_create-date>23-FEB-2002</GBSeq_create-date>
     <GBSeq_definition>Modoc virus, complete genome</GBSeq_definition>
     <GBSeq_primary-accession>NC_003635</GBSeq_primary-accession>
@@ -17,7 +17,7 @@
       <GBSeqid>gnl|NCBI_GENOMES|16130</GBSeqid>
       <GBSeqid>gi|20177455</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_project>PRJNA15393</GBSeq_project>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
     <GBSeq_keywords>
       <GBKeyword>RefSeq</GBKeyword>
       <GBKeyword>capsid protein</GBKeyword>
@@ -35,7 +35,7 @@
     </GBSeq_keywords>
     <GBSeq_source>Modoc virus</GBSeq_source>
     <GBSeq_organism>Modoc virus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Flavivirus; Modoc virus group</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Flavivirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
@@ -609,7 +609,7 @@
     <GBSeq_xrefs>
       <GBXref>
         <GBXref_dbname>BioProject</GBXref_dbname>
-        <GBXref_id>PRJNA15393</GBXref_id>
+        <GBXref_id>PRJNA485481</GBXref_id>
       </GBXref>
     </GBSeq_xrefs>
   </GBSeq>

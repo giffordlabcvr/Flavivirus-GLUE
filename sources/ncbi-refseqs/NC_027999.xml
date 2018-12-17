@@ -7,7 +7,7 @@
     <GBSeq_moltype>RNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>08-OCT-2015</GBSeq_update-date>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
     <GBSeq_create-date>08-OCT-2015</GBSeq_create-date>
     <GBSeq_definition>Paraiso Escondido virus isolate Ecuador2012, complete genome</GBSeq_definition>
     <GBSeq_primary-accession>NC_027999</GBSeq_primary-accession>
@@ -17,7 +17,7 @@
       <GBSeqid>gnl|NCBI_GENOMES|43221</GBSeqid>
       <GBSeqid>gi|937547706</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_project>PRJNA298208</GBSeq_project>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
     <GBSeq_keywords>
       <GBKeyword>RefSeq</GBKeyword>
     </GBSeq_keywords>
@@ -214,7 +214,7 @@
     <GBSeq_xrefs>
       <GBXref>
         <GBXref_dbname>BioProject</GBXref_dbname>
-        <GBXref_id>PRJNA298208</GBXref_id>
+        <GBXref_id>PRJNA485481</GBXref_id>
       </GBXref>
     </GBSeq_xrefs>
   </GBSeq>

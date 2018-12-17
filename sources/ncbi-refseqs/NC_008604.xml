@@ -7,7 +7,7 @@
     <GBSeq_moltype>RNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>28-JUN-2016</GBSeq_update-date>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
     <GBSeq_create-date>30-NOV-2006</GBSeq_create-date>
     <GBSeq_definition>Culex flavivirus, complete genome</GBSeq_definition>
     <GBSeq_primary-accession>NC_008604</GBSeq_primary-accession>
@@ -17,7 +17,7 @@
       <GBSeqid>gi|166159177</GBSeqid>
       <GBSeqid>gnl|NCBI_GENOMES|20095</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_project>PRJNA18303</GBSeq_project>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
     <GBSeq_keywords>
       <GBKeyword>RefSeq</GBKeyword>
     </GBSeq_keywords>
@@ -791,7 +791,7 @@
     <GBSeq_xrefs>
       <GBXref>
         <GBXref_dbname>BioProject</GBXref_dbname>
-        <GBXref_id>PRJNA18303</GBXref_id>
+        <GBXref_id>PRJNA485481</GBXref_id>
       </GBXref>
     </GBSeq_xrefs>
   </GBSeq>

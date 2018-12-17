@@ -7,7 +7,7 @@
     <GBSeq_moltype>RNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>18-JUL-2016</GBSeq_update-date>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
     <GBSeq_create-date>14-SEP-2015</GBSeq_create-date>
     <GBSeq_definition>Mercadeo virus isolate ER-M10, complete genome</GBSeq_definition>
     <GBSeq_primary-accession>NC_027819</GBSeq_primary-accession>
@@ -17,7 +17,7 @@
       <GBSeqid>gi|927371722</GBSeqid>
       <GBSeqid>gnl|NCBI_GENOMES|42998</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_project>PRJNA295578</GBSeq_project>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
     <GBSeq_keywords>
       <GBKeyword>RefSeq</GBKeyword>
     </GBSeq_keywords>
@@ -787,7 +787,7 @@
     <GBSeq_xrefs>
       <GBXref>
         <GBXref_dbname>BioProject</GBXref_dbname>
-        <GBXref_id>PRJNA295578</GBXref_id>
+        <GBXref_id>PRJNA485481</GBXref_id>
       </GBXref>
     </GBSeq_xrefs>
   </GBSeq>

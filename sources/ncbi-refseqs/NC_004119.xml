@@ -7,7 +7,7 @@
     <GBSeq_moltype>RNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>06-MAY-2009</GBSeq_update-date>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
     <GBSeq_create-date>22-AUG-2002</GBSeq_create-date>
     <GBSeq_definition>Montana myotis leukoencephalitis virus, complete genome</GBSeq_definition>
     <GBSeq_primary-accession>NC_004119</GBSeq_primary-accession>
@@ -17,7 +17,7 @@
       <GBSeqid>gnl|NCBI_GENOMES|16570</GBSeqid>
       <GBSeqid>gi|22550315</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_project>PRJNA15402</GBSeq_project>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
     <GBSeq_keywords>
       <GBKeyword>RefSeq</GBKeyword>
       <GBKeyword>C gene</GBKeyword>
@@ -613,7 +613,7 @@
     <GBSeq_xrefs>
       <GBXref>
         <GBXref_dbname>BioProject</GBXref_dbname>
-        <GBXref_id>PRJNA15402</GBXref_id>
+        <GBXref_id>PRJNA485481</GBXref_id>
       </GBXref>
     </GBSeq_xrefs>
   </GBSeq>

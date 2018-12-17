@@ -7,7 +7,7 @@
     <GBSeq_moltype>RNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>07-JAN-2010</GBSeq_update-date>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
     <GBSeq_create-date>02-JUN-2009</GBSeq_create-date>
     <GBSeq_definition>Wesselsbron virus, complete genome</GBSeq_definition>
     <GBSeq_primary-accession>NC_012735</GBSeq_primary-accession>
@@ -17,13 +17,13 @@
       <GBSeqid>gnl|NCBI_GENOMES|24544</GBSeqid>
       <GBSeqid>gi|238801614</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_project>PRJNA38295</GBSeq_project>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
     <GBSeq_keywords>
       <GBKeyword>RefSeq</GBKeyword>
     </GBSeq_keywords>
     <GBSeq_source>Wesselsbron virus</GBSeq_source>
     <GBSeq_organism>Wesselsbron virus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Flavivirus; Yellow fever virus group</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Flavivirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
@@ -184,7 +184,7 @@
     <GBSeq_xrefs>
       <GBXref>
         <GBXref_dbname>BioProject</GBXref_dbname>
-        <GBXref_id>PRJNA38295</GBXref_id>
+        <GBXref_id>PRJNA485481</GBXref_id>
       </GBXref>
     </GBSeq_xrefs>
   </GBSeq>

@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <GBSeq>
 
-    <GBSeq_locus>NC_028388</GBSeq_locus>
+    <GBSeq_locus>KR902721</GBSeq_locus>
     <GBSeq_length>3156</GBSeq_length>
     <GBSeq_strandedness>single</GBSeq_strandedness>
     <GBSeq_moltype>RNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>13-NOV-2015</GBSeq_update-date>
-    <GBSeq_create-date>12-NOV-2015</GBSeq_create-date>
+    <GBSeq_update-date>29-OCT-2015</GBSeq_update-date>
+    <GBSeq_create-date>29-OCT-2015</GBSeq_create-date>
     <GBSeq_definition>Wuhan aphid virus 1 strain WHYC-1 segment 1, complete sequence</GBSeq_definition>
-    <GBSeq_primary-accession>NC_028388</GBSeq_primary-accession>
-    <GBSeq_accession-version>NC_028388.1</GBSeq_accession-version>
+    <GBSeq_primary-accession>KR902721</GBSeq_primary-accession>
+    <GBSeq_accession-version>KR902721.1</GBSeq_accession-version>
     <GBSeq_other-seqids>
-      <GBSeqid>ref|NC_028388.1|</GBSeqid>
-      <GBSeqid>gnl|NCBI_GENOMES|44512</GBSeqid>
-      <GBSeqid>gi|952002249</GBSeqid>
+      <GBSeqid>gb|KR902721.1|</GBSeqid>
+      <GBSeqid>gi|943496539</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_project>PRJNA302067</GBSeq_project>
-    <GBSeq_keywords>
-      <GBKeyword>RefSeq</GBKeyword>
-    </GBSeq_keywords>
     <GBSeq_source>Wuhan aphid virus 1</GBSeq_source>
     <GBSeq_organism>Wuhan aphid virus 1</GBSeq_organism>
     <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage</GBSeq_taxonomy>
@@ -61,13 +56,6 @@
       <GBReference>
         <GBReference_reference>2</GBReference_reference>
         <GBReference_position>1..3156</GBReference_position>
-        <GBReference_consortium>NCBI Genome Project</GBReference_consortium>
-        <GBReference_title>Direct Submission</GBReference_title>
-        <GBReference_journal>Submitted (12-NOV-2015) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
-      </GBReference>
-      <GBReference>
-        <GBReference_reference>3</GBReference_reference>
-        <GBReference_position>1..3156</GBReference_position>
         <GBReference_authors>
           <GBAuthor>Shi,M.</GBAuthor>
           <GBAuthor>Lin,X.-D.</GBAuthor>
@@ -91,7 +79,6 @@
         <GBReference_journal>Submitted (15-MAY-2015) Department of Zoonosis, State Key Laboratory for Infectious Disease Prevention and Control, National Institute of Communicable Disease Control and Prevention, Chinese Center for Disease Control and Prevention, Changping Liuzi 5, Beijing, Beijing 102206, China</GBReference_journal>
       </GBReference>
     </GBSeq_references>
-    <GBSeq_comment>PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence is identical to KR902721.; COMPLETENESS: full length.</GBSeq_comment>
     <GBSeq_feature-table>
       <GBFeature>
         <GBFeature_key>source</GBFeature_key>
@@ -100,7 +87,7 @@
           <GBInterval>
             <GBInterval_from>1</GBInterval_from>
             <GBInterval_to>3156</GBInterval_to>
-            <GBInterval_accession>NC_028388.1</GBInterval_accession>
+            <GBInterval_accession>KR902721.1</GBInterval_accession>
           </GBInterval>
         </GBFeature_intervals>
         <GBFeature_quals>
@@ -139,41 +126,16 @@
         </GBFeature_quals>
       </GBFeature>
       <GBFeature>
-        <GBFeature_key>gene</GBFeature_key>
-        <GBFeature_location>155..2878</GBFeature_location>
-        <GBFeature_intervals>
-          <GBInterval>
-            <GBInterval_from>155</GBInterval_from>
-            <GBInterval_to>2878</GBInterval_to>
-            <GBInterval_accession>NC_028388.1</GBInterval_accession>
-          </GBInterval>
-        </GBFeature_intervals>
-        <GBFeature_quals>
-          <GBQualifier>
-            <GBQualifier_name>locus_tag</GBQualifier_name>
-            <GBQualifier_value>AS028_s1gp1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>GeneID:26196671</GBQualifier_value>
-          </GBQualifier>
-        </GBFeature_quals>
-      </GBFeature>
-      <GBFeature>
         <GBFeature_key>CDS</GBFeature_key>
         <GBFeature_location>155..2878</GBFeature_location>
         <GBFeature_intervals>
           <GBInterval>
             <GBInterval_from>155</GBInterval_from>
             <GBInterval_to>2878</GBInterval_to>
-            <GBInterval_accession>NC_028388.1</GBInterval_accession>
+            <GBInterval_accession>KR902721.1</GBInterval_accession>
           </GBInterval>
         </GBFeature_intervals>
         <GBFeature_quals>
-          <GBQualifier>
-            <GBQualifier_name>locus_tag</GBQualifier_name>
-            <GBQualifier_value>AS028_s1gp1</GBQualifier_value>
-          </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>codon_start</GBQualifier_name>
             <GBQualifier_value>1</GBQualifier_value>
@@ -188,11 +150,7 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>protein_id</GBQualifier_name>
-            <GBQualifier_value>YP_009179388.1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>GeneID:26196671</GBQualifier_value>
+            <GBQualifier_value>ALL52898.1</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>translation</GBQualifier_name>
@@ -202,10 +160,4 @@
       </GBFeature>
     </GBSeq_feature-table>
     <GBSeq_sequence>ccccgctttacactggagtattagattaaatactaactactactcacacagtattcagttaaggtgcttaactttacatttggaataactttgaatattctaaagtttaaaagatttaacaactaatcgtgcaatagcttaacatctagctaccatgattatcgaagccatagtagtccttggactactattttacttgctaatggagtcaccctgttacggcaataacagagctggtgttatcaccactctaactaatatacaggatgccttcgctagcagtgatataagtgattggggacctagatataaacaggctcttaataacttaggcaaaaaggcgttcgacgcgtttaaaatgcgtggcgttcgccccacccttaggagcttcaacaaagcttctcggggttacgataaactcatggacataatgagacagaccaaaatcaagccatcaggtagggttttgtctttgtgctgcggtcgaggaggatgggaacaggttatcgcaagtaacccttctattacccacataacgagcgtaacacttggaccaggccccggacatgaaggacatgaagctttcaccaagattcatttccctggacgtgaaaaaatacgagtcttatacggagacgcacgccaattccctatcgcatcacatgacactctactctttgacggaggagagagccatagtgatgcggacatcgaggaggcacgtttctactcattgttttacaatgtagtgatgagacaaattaacagccagactaaacactttgtattaaaagtgctgacccctacatccccccggatccagaaattactagaagagattcaacgaatgactggccgtggtgcgttttataggagttgccactctagattgtcaacaatggaattgtactttgttagcacaggtatcgcccccgtaaaaggtagggcatattcactactacagagtgtcatgatccaggggagagagaacaaagttctcaaaccccgtaattatgatcttggattcactttctctcgtgagaaaatagaaccgaagactattcctttactcaaaccattagacttgacagatagtataaatgaattaggaccacaactaccggaacaaggattggaatttaatcactgggagactgcgggagtatatcctttcggatcacagggcagtacggctatgaaatataaccggtacgccatgtgtgtcctgagacgattgcttagcacagtacctggttttgatcactggaaaacaactgacaccacaccaacaggatttttaggcgtgttcaacaagaaagttgacacagctcctaaggaaaaccataaatacgaacaacatctggttcagatttacgaaggtttagcccatcattttctaaagatgggtttctcttttcgtgaacttgattggacagaagtaatgcaccaagccaataagcaaggtgctcctgggataattgacacacaatttgaaaatgttggacaatttttatcgcaaccgaattgggtgaagaaagtcatctacacacggcaagccttggaaaaaggtagacccgtaggaggtgtcttcaacaccatagggaagcgcgagaaaaaattatcaccacatgaaatgaaaggaagtaggatggtggcttatctacccatagccactagactgttggaattgaaactatttggaaaattactggaactaacaaaacctgctattaatcactttggagtgggtggattaggtctacatgatcttggaatgagagtggaagaaatctggcaaggccatgctgtatctgatgatatagctggttttgatactagaatcggcctcttctttcttagcttggaaaaccatttcattcgcctcttaggaggcaatgaaacacacactctgatgtaccgactatacgcttatcctcatatactagttcctttagcatctgaattcactagaagtcaactgttaaaagggagaggacagagaatgagtggaacgaatgtgacatactcaatgaacaccataactaggatatgcatatgcttactgcaatacgctgtggctaataacatacctgttcaagagttacatcaatggacaataaaaatgatgaaacagaatgcagaattgcaaggagtagtatctggagatgatgccagcttctctggcccacaagacaaaataaccgctttatccaacacagctcatgtgctggaggaagtgggtatgcccagaaaagacatccctctaaacataccatcccctgtagttgataagatagaggatgtggacttttgttcacatcattatgaaaaaatcacgtactatgatgcagagacaggacgaactacacacagatatatgccaacaagagacctaacacaaatcatcgctaaaagcaccatcaaaataggaggcaaagatgcctccttggatgatatggcttggttgtcagcccaaggcaacaacttattagtaaattacgcacacttaagaacagctcgggccgttggttttggctacaaggccattgtcaaccccaacgctttattatgtgacacaggtgggtttttacgacccaccccttggatgcaacccggtgatatactcaacgtgactaacaagatcttattcggagaatcaactcactacccagttgagggctttcgagtccacagctggaagcatgtcggtttcctcaaacctaagagggaaatggtttacgaccaagacactttctcggcagggagagcgtactggagaagtaaactgcgctacgatgtcgctaacagcatatccgagttgaacactggtggagacatcactgttctggacaactggagacgacaagaattaacgtaacatgcaacaacacccggcctgacaggataacaaccgatgacgtaacggaactcaggaagtcatagcaagactcaaaaatgcacagtttttaaatcggacacgagatttgatgtggagataagccgtaaacgctcctcattgatgaatcaaactttaaaatgccttcaaagttaacacttgcagtggttcacacccgctgcagtttgtcacatactgaccagcctactggctgcacggttatgtgaactaccaaatgtgataactgacgaaaacccggc</GBSeq_sequence>
-    <GBSeq_xrefs>
-      <GBXref>
-        <GBXref_dbname>BioProject</GBXref_dbname>
-        <GBXref_id>PRJNA302067</GBXref_id>
-      </GBXref>
-    </GBSeq_xrefs>
   </GBSeq>

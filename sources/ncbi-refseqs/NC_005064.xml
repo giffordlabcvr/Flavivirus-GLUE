@@ -7,7 +7,7 @@
     <GBSeq_moltype>RNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>22-JUN-2016</GBSeq_update-date>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
     <GBSeq_create-date>13-AUG-2003</GBSeq_create-date>
     <GBSeq_definition>Kamiti River virus, complete genome</GBSeq_definition>
     <GBSeq_primary-accession>NC_005064</GBSeq_primary-accession>
@@ -17,7 +17,7 @@
       <GBSeqid>gi|33620713</GBSeqid>
       <GBSeqid>gnl|NCBI_GENOMES|17334</GBSeqid>
     </GBSeq_other-seqids>
-    <GBSeq_project>PRJNA14896</GBSeq_project>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
     <GBSeq_keywords>
       <GBKeyword>RefSeq</GBKeyword>
     </GBSeq_keywords>
@@ -781,7 +781,7 @@
     <GBSeq_xrefs>
       <GBXref>
         <GBXref_dbname>BioProject</GBXref_dbname>
-        <GBXref_id>PRJNA14896</GBXref_id>
+        <GBXref_id>PRJNA485481</GBXref_id>
       </GBXref>
     </GBSeq_xrefs>
   </GBSeq>
