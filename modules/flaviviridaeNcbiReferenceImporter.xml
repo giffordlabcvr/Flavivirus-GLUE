@@ -125,7 +125,8 @@
 	<primaryAccession>KX258462</primaryAccession>
 	<primaryAccession>U39292</primaryAccession>
 	<primaryAccession>X03700</primaryAccession>
-	
+
+	<primaryAccession>KC001579</primaryAccession>
 				
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
