@@ -30,8 +30,8 @@
         <property>vector_group</property>
     </textFileColumn>
     <textFileColumn>
-        <header>vector_host_sci_name</header>
-        <property>vector_host_sci_name</property>
+        <header>host_group</header>
+        <property>host_group</property>
     </textFileColumn>
 
     <skipMissing>true</skipMissing>

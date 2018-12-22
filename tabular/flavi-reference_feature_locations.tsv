@@ -134,4 +134,16 @@ NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		NS4B	7664	8704
 NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		NS5A	8705	10192
 NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		NS5B	10193	12349
 NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		3UTR	12360	12573
-NC_003996	Tamana bat virus	TABV	TABV	TABV	polyprotein	1	10053
+NC_003996	Tamana bat virus	TABV	Tamanavirus		polyprotein	1	10053
+NC_003996	Tamana bat virus	TABV	Tamanavirus		protein C	1	345
+NC_003996	Tamana bat virus	TABV	Tamanavirus		precursor M	346	852
+NC_003996	Tamana bat virus	TABV	Tamanavirus		M	655	852
+NC_003996	Tamana bat virus	TABV	Tamanavirus		envelope protein E	853	2358
+NC_003996	Tamana bat virus	TABV	Tamanavirus		NS1	2359	3390
+NC_003996	Tamana bat virus	TABV	Tamanavirus		NS2A	3391	3978
+NC_003996	Tamana bat virus	TABV	Tamanavirus		NS2B	3979	4431
+NC_003996	Tamana bat virus	TABV	Tamanavirus		NS3	4432	6303
+NC_003996	Tamana bat virus	TABV	Tamanavirus		NS4A	6304	6687
+NC_003996	Tamana bat virus	TABV	Tamanavirus		2K	6763	6762
+NC_003996	Tamana bat virus	TABV	Tamanavirus		NS4B	6763	7557
+NC_003996	Tamana bat virus	TABV	Tamanavirus		NS5	7558	10050
