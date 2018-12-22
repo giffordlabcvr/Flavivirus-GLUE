@@ -4,6 +4,7 @@
   <specificPrimaryAccessions>
 
     
+	<primaryAccession>KJ469370</primaryAccession>
 	<primaryAccession>NC_012932</primaryAccession>
 	<primaryAccession>NC_001564</primaryAccession>
 	<primaryAccession>NC_008604</primaryAccession>
@@ -12,12 +13,13 @@
 	<primaryAccession>NC_005064</primaryAccession>
 	<primaryAccession>NC_027819</primaryAccession>
 	<primaryAccession>NC_021069</primaryAccession>
-	<primaryAccession>GQ165809</primaryAccession>
+	<primaryAccession>NC_030400</primaryAccession>
 	<primaryAccession>NC_024299</primaryAccession>
 	<primaryAccession>KC505248</primaryAccession>
 	<primaryAccession>NC_027817</primaryAccession>
 	<primaryAccession>NC_012671</primaryAccession>
 	<primaryAccession>KC496020</primaryAccession>
+	<primaryAccession>NC_031327</primaryAccession>
 	<primaryAccession>NC_017086</primaryAccession>
 	<primaryAccession>NC_016997</primaryAccession>
 	<primaryAccession>NC_024805</primaryAccession>
@@ -125,7 +127,11 @@
 	<primaryAccession>MH716818</primaryAccession>
 	<primaryAccession>NC_003996</primaryAccession>
 	<primaryAccession>MG599986</primaryAccession>
-
+	<primaryAccession>NC_035071</primaryAccession>
+	<primaryAccession>MG599984</primaryAccession>
+	<primaryAccession>KP757924</primaryAccession>
+	<primaryAccession>NC_028396</primaryAccession>
+	
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

@@ -1,14 +1,15 @@
 # Import pre-built alignments
 
   # Import root alignment
-  #module unconstrainedAlignmentImporter 
-  #  import AL_UNCONSTRAINED -f alignments/root/flavi-iflavi-root.fna
-  #  exit
-
-  # Import tip alignments
+  module unconstrainedAlignmentImporter 
+    import AL_UNCONSTRAINED -f alignments/root/flavi-pesti-root.fna
+    exit
 
   # Import internal node alignments
   module unconstrainedAlignmentImporter
+
+    #~# Multiple genera alignments
+    import AL_FLATA_UNCONSTRAINED  -f alignments/internal/cross-genus/flavi-tabv.aln.fna
 
     #~# Genus-level alignments
     import AL_FLAVI_UNCONSTRAINED  -f alignments/internal/genus/flavivirus.aln.fna
@@ -28,11 +29,4 @@
     import AL_NKV1_UNCONSTRAINED   -f alignments/internal/subgroup/NKV1.aln.fna
     import AL_SCNV_UNCONSTRAINED   -f alignments/internal/subgroup/SCNV.aln.fna
 
-    #~# Multiple genera alignments
-
-
-    #~# Subfamily-level alignments
-    
-
     exit
-    
