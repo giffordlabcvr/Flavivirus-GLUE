@@ -28,7 +28,6 @@
 
     import AL_FLAVI_JMTV_UNCONSTRAINED   -f alignments/internal/subgroup/jingmenvirus.aln.fna
 
-
     #~# Pesti-like subgroup-level alignments
     import AL_PESTI_SCNV5_UNCONSTRAINED  -f alignments/internal/subgroup/pesti-like-scnv5.fna
     import AL_PESTI_INSECT_UNCONSTRAINED -f alignments/internal/subgroup/pesti-like-insect.fna
