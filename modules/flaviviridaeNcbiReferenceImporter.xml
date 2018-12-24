@@ -57,6 +57,7 @@
 	<primaryAccession>NC_001563</primaryAccession>
 	<primaryAccession>EU082199</primaryAccession>
 	<primaryAccession>NC_012532</primaryAccession>
+
 	<primaryAccession>DQ859056</primaryAccession>
 	<primaryAccession>NC_033693</primaryAccession>
 	<primaryAccession>NC_030289</primaryAccession>
@@ -98,7 +99,9 @@
 	<primaryAccession>MH158415</primaryAccession>
 	<primaryAccession>KX883002</primaryAccession>
 	<primaryAccession>KM521552</primaryAccession>
-	<primaryAccession>KJ001579</primaryAccession>
+	<primaryAccession>NC_024113</primaryAccession>
+	<primaryAccession>NC_024114</primaryAccession>
+
 	<primaryAccession>KR902721</primaryAccession>
 	<primaryAccession>NC_020902</primaryAccession>
 	<primaryAccession>NC_001710</primaryAccession>
