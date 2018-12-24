@@ -1,125 +1,132 @@
-Index	sequenceID	full_name	name	genus	clade	host_group	vector_group	reservoir_group	isolate_name	region	isolation_host
-1	NC_012932	Aedes flavivirus	AEFV	Flavivirus	cISF	Aedes	none	none	Narita-21	Asia	Aedes albopictus
-2	NC_001564	Cell fusing agent virus	CFAV	Flavivirus	cISF	Aedes	none	none	Galveston	Americas	Aedes aegypti
-3	NC_008604	Culex flavivirus	CxFV	Flavivirus	cISF	Culex	none	none	Tokyo	Asia	Culex pipiens
-4	HE574574	Culex theileri flavivirus	CTFV	Flavivirus	cISF	Culex	none	none	178	Europe	Culex theileri
-5	JQ268258	Hanko virus	HANKV	Flavivirus	cISF	Ochlerotatus	none	none	-	Europe	Ochlerotatus mosquito
-6	NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	Aedes	none	none	SR-82	Africa	Ae. macintoshi 
-7	NC_027819	Mercadeo virus	MECDV	Flavivirus	cISF	Culex	none	none	ER-M10	Americas	Culex sp.
-8	NC_021069	Mosquito flavivirus	MosqFV	Flavivirus	cISF	Culex	none	none	LSFlaviV-A20-09	Asia	Culex tritaeniorhynchus
-9	GQ165809	Nakiwogo virus	NAKV	Flavivirus	cISF	Mansonia	none	none	Uganda08	Africa	Mansonia africana nigerrima
-10	NC_024299	Nienokoue virus	NIEV	Flavivirus	cISF	Culex	none	none	B51/CI/2004	Africa	Culex sp.
-11	KC505248	Palm Creek virus	PCV	Flavivirus	cISF	Coquillettidia	none	none	56	Oceania	Coquillettidia xanthogaster
-12	NC_027817	Parramatta River virus	PaRV	Flavivirus	cISF	Aedes	none	none	92-B115745	Oceania	A. vigilax
-13	NC_012671	Quang Binh virus	QBV	Flavivirus	cISF	Culex	none	none	VN180	Asia	Culex tritaeniorhynchus (mosquito)
-14	KC496020	Barkedji virus	BJV	Flavivirus	dISF1	Culex	none	none	363/11	Asia	Culex perexiguus
-15	NC_017086	Chaoyang virus	CHAOV	Flavivirus	dISF1	Aedes, Armigeres, Culex	none	none	HLD115	Asia	Ae. vexans,  Ae. albopictus,  Ae. bekkui,  Armigeres subalbatus, Cx. Pipiens
-16	NC_016997	Donggang virus	DONV	Flavivirus	dISF1	Aedes	none	none	DG0909	Asia	Aedes sp. (mosquito)
-17	NC_024805	Ilomantsi virus	ILOV	Flavivirus	dISF1	Ochlerotatus, Anopheles	none	none	M0724	Europe	Ochlerotatus riparius and/or Anopheles spp. 
-18	KY320649 	La Tina	LTNV	Flavivirus	dISF1	Ochlerotatus	none	none	49_LT96	Americas	Ochlerotatus scapularis
-19	NC_024806	Lammi virus	LAMV	Flavivirus	dISF1	Aedes	none	none	M0719	Europe	Ae. cinereus
-20	KY290249	Long Pine Key virus	LPKV	Flavivirus	dISF1	Ochlerotatus	none	none	EVG-1-33	Americas	Ochlerotatus atlanticus
-21	NC_024017	Nhumirim virus	NHUV	Flavivirus	dISF1	Culex	none	none	BrMS-MQ10	Americas	Culex chidesteri
-22	KY347801	Marisma mosquito virus	MMV	Flavivirus	dISF2	Aedes	none	none	HU 4528/07	Europe	Aedes caspius
-23	NC_027999	Paraiso Escondido virus	EPEV	Flavivirus	dISF2	Lutzomyia	none	none	Ecuador2012	Americas	Lutzomyia abonnenci
-24	AY898809	Alfuy virus	ALFV	Flavivirus	Mosq1		NK		MRM3929	Oceania	Centropus phasianius
-25	NC_012534	Bagaza virus	BAGV	Flavivirus	Mosq1	Culex	mosquito		DakArB 209	Africa	Culex
-26	KM225264	Bainyik virus	Bainyik	Flavivirus	Mosq1	Aedes	mosquito		MK7979	Oceania	Aedes sp. (mosquito)
-27	NC_009026	Bussuquara virus	BSQV	Flavivirus	Mosq1		mosquito		BeAn 4073	Americas	Alouatta beelzebul Sentinel
-28	NC_026623	Cacipacore virus	CPCV	Flavivirus	Mosq1		mosquito		BeAn 327600	Americas	Formicarius analis
-29	NC_001477	Dengue virus 1	DENV1	Flavivirus	Mosq1	Aedes	mosquito	primates	45AZ5	Africa/Asia	-
-30	NC_001474	Dengue virus 2	DENV2	Flavivirus	Mosq1	Aedes	mosquito	primates	16681	Asia	Homo sapiens
-31	NC_001475	Dengue virus 3	DENV3	Flavivirus	Mosq1	Aedes	mosquito	primates	D3SriLa1266	Asia	-
-32	NC_002640	Dengue virus 4	DEN4	Flavivirus	Mosq1	Aedes	mosquito	primates	-	Africa/Asia	-
-33	AY632538	Iguape virus	IGUV	Flavivirus	Mosq1		mosquito		SPAn 71686	Americas	sentinel mouse
-34	NC_009028	Ilheus virus	ILHV	Flavivirus	Mosq1		mosquito		-	Americas	Psorophora spp. 
-35	NC_001437	Japanese encephalitis virus	JEV	Flavivirus	Mosq1	Culex	mosquito			Asia	Homo sapiens
-36	NC_012533	Kedougou virus	KEDV	Flavivirus	Mosq1	Aedes	mosquito		ArD 14701	Africa	Aedes minutus
-37	EU082200	Koutango virus	KOUV	Flavivirus	Mosq1		mosquito		DakAnD 5443	Africa	Tatera kempi
-38	NC_000943	Murray Valley encephalitis virus	MVEV	Flavivirus	Mosq1	Culex	mosquito		MVE/1/1951	Oceania	Homo sapiens
-39	NC_032088	New Mapoon virus	NMV	Flavivirus	Mosq1	Culex	mosquito		CY1014	Oceania	Culex annulirostris
-40	EU159426	Nounane virus	NOUV	Flavivirus	Mosq1		mosquito		Nounane_B3	Africa	Uranotaenia mashonaensis
-41	NC_018705	Ntaya virus	NTAV	Flavivirus	Mosq1	Culex	mosquito		IPDIA	Africa	-
-42	AY632542	Rocio virus	ROCV	Flavivirus	Mosq1	Aedes	mosquito		SPH 34675	Americas	Homo sapiens
-43	NC_029055	Spondweni virus	SPOV	Flavivirus	Mosq1	Mansonia	mosquito		SAAr 94	Africa	Mansonia uniformis
-44	NC_007580	St. Louis encephalitis virus	SLEV	Flavivirus	Mosq1	Culex	mosquito		-	Americas	Homo sapiens
-45	KM225263	Stratford virus	STRV	Flavivirus	Mosq1	Aedes	mosquito		C338	Oceania	Aedes vigilax
-46	NC_015843	Tembusu virus	TMUV	Flavivirus	Mosq1		mosquito		JS804	Asia	Anser cygnoides
-47	KM225265	Torres virus	Torres	Flavivirus	Mosq1	Aedes	mosquito		TS5273	Oceania	Aedes albopictus
-48	NC_006551	Usutu virus	USUV	Flavivirus	Mosq1	Culex	mosquito		SAAr 1776	Africa	Culex neavei
-49	NC_001563	West Nile virus	WNV	Flavivirus	Mosq1	Culex	mosquito		B956	Africa	Homo sapiens
-50	EU082199	Yaounde virus	YAOV	Flavivirus	Mosq1	Culex	mosquito		ArY 276	Africa	Culex nebulosis
-51	NC_012532	Zika virus	ZIKV	Flavivirus	Mosq1	Aedes	mosquito		MR 766	Africa	sentinel monkey
-52	DQ859056	Banzi virus	BANV	Flavivirus	Mosq2	Culex	mosquito	rodents?	H336	Africa	Homo sapiens
-53	NC_033693	Bouboui virus	BOUV	Flavivirus	Mosq2	Anopheles	mosquito	unknown	DakArB 490	Africa	Anopheles paludis
-54	NC_030289	Edge Hill virus	EHV	Flavivirus	Mosq2	Aedes	mosquito	primates	C281	Oceania	Aedes vigilax
-55	NC_033699	Jugra virus	JUGV	Flavivirus	Mosq2	Aedes	mosquito		P9-314	Asia	Aedes spp
-56	NC_033697	Saboya virus	SABV	Flavivirus	Mosq2		mosquito	rodents	DakAnD 4600	Africa	Tatera kempi
-57	NC_008719	Sepik virus	SEPV	Flavivirus	Mosq2	Mansonia	mosquito		MK 7148	Oceania	Mansonia septempunctata
-58	NC_033698	Uganda S virus	UGSV	Flavivirus	Mosq2	Aedes	mosquito		-	Africa	Aedes spp.
-59	NC_012735	Wesselsbron virus	WSLV	Flavivirus	Mosq2		mosquito	ungulates	van Tonder	Africa	Merino sheep
-60	NC_002031	Yellow fever virus	YFV	Flavivirus	Mosq2	Aedes	mosquito	primates	-	Africa/Americas	Aedes aegypti, Aedes albopictus
-61	NC_003676	Apoi virus	APOIV	Flavivirus	NKV1	Apodemus	NK	Apodemus	-	Asia	Apodemus spp.
-62	NC_026620	Jutiapa virus	JUTV	Flavivirus	NKV1	Sigmodon	NK	Sigmodon	JG-128	Americas	Sigmodon hispidus
-63	NC_003635	Modoc virus	MODV	Flavivirus	NKV1	Peromyscus	NK	Peromyscus	M544	Americas	Peromyscus maniculatus
-64	NC_004119	Montana myotis leukoencephalitis virus	MMLV	Flavivirus	NKV1	Myotis	NK	Myotis	-	Americas	Myotis lucifugus
-65	NC_003675	Rio Bravo virus	RBV	Flavivirus	NKV1	Tadarida	NK	Tadarida	M64	Americas	Tadarida brasiliensis mexicana
-66	NC_008718	Entebbe bat virus	ENTV	Flavivirus	NKV2	NK	NK	Tadarida	UgIL-30	Africa	Tadarida limbata
-67	NC_026624	Sokuluk virus	SOKV	Flavivirus	NKV2	NK	NK	Vespertillo	LEIV-400K	Asia	Vespertilio pipistrellus
-68	NC_005039	Yokose virus	YOKV	Flavivirus	NKV2	mosquito	mosquito	Miniopterus	Oita 36	Asia	Miniopterus fuliginosus
-69	NC_033723	Gadgets Gully virus	GGYV	Flavivirus	Tick	Ixodes	tick		CSIRO 122	Oceania	Ixodes uriae
-70	NC_033724	Kadam virus	KADV	Flavivirus	Tick	Rhipicephalus	tick		AMP 6640	Africa	Rhipicephalus pravus
-71	NC_023439	Kama virus	KAMV	Flavivirus	Tick	Ixodes	tick		-	Europe	Ixodes lividus
-72	NC_006947	Karshi virus	KSIV	Flavivirus	Tick	Ornithodoros	tick		LEIV-2247 US	Asia	Ornithodoros papillipes
-73	JF416960	Kyasanur forest disease virus	KFDV	Flavivirus	Tick		tick		-	Asia	Semnopithecus entellus
-74	NC_003690	Langat virus	LGTV	Flavivirus	Tick	Ixodes	tick	primates	TP-21	Asia	Ixodes granulatus 
-75	NC_001809	Louping ill virus	LIV	Flavivirus	Tick		tick		-	Europe	Sheep (Ovis aries)
-76	NC_033721	Meaban virus	MEAV	Flavivirus	Tick	Ornithodoros	tick		Brest/Ar/T-707	Europe	Ornithodoros maritimus
-77	NC_005062	Omsk hemorrhagic fever virus	OMSKV	Flavivirus	Tick	Dermacentor, Ixodes	tick	primates	Bogoluvovska	Europe	Homo sapiens
-78	NC_003687	Powassan virus	POWV	Flavivirus	Tick	Ixodes, Hemaphysalis	tick	primates	L.B.	Americas	Homo sapiens
-79	DQ235149	Royal Farm virus	RFV	Flavivirus	Tick	Argas	tick		ArT 371	Asia	Argas hermanni
-80	NC_033726	Saumarez reef virus	SREV	Flavivirus	Tick	Ornithodoros	tick		CSIRO4	Oceania	Ornithodoros capensis
-81	NC_027709	Spanish goat encephalitis virus	SGEV	Flavivirus	Tick		tick	ungulates	AstGoatIREC2011	Europe	Bermeya goat
-82	NC_001672	Tick-borne encephalitis virus	TBEV	Flavivirus	Tick	Ixodes	tick		Neudoerfl	Europe	-
-83	DQ235151	Turkish sheep encephalitis	TSEV	Flavivirus	Tick	Ixodes	tick	ungulates	TTE80	Asia	-
-84	NC_023424	Tyuleniy virus	TYUV	Flavivirus	Tick	Ixodes	tick		LEIV 6C	Europe	Ixodes uriae
-85	MF776369	Cyclopterus lumpus virus	LFLV	Tamanavirus	TABV	Cyclopterus	none	none			Cyclopterus lumpus
-86	MH716818	Eastern red scorpionfish flavivirus	SFLV	Tamanavirus	TABV	Scorpaena	none	none			Scorpaena jacksoniensis
-87	NC_003996	Tamana bat virus	TABV	Tamanavirus	TABV	Pteronotus	none	none	Tr127154	Americas	Pteronotus parnellii
-88	MG599986	Wenzhou shark flavivirus	SFLV	Tamanavirus	TABV	Scoliodon	none	none			Scoliodon macrorhynchos
-89	MH158415	Alongshan virus 	Alongshan	JMTV	JMTV	Ixodes	none	none			Ixodes persulcatus
-90	KX883002	Changjiang Jingmen-like virus 	Changjiang	JMTV	JMTV	Procambarus	none	none			Procambarus clarkii
-91	KM521552	Guaico Culex virus 	Guaico	JMTV	JMTV	Culex	none	none			Culex interrogator
-92	KJ001579	Jingmen tick virus	JMTV	JMTV	JMTV	Rhipicephalus	none	none			Rhipicephalus microplus
-93	KR902721	Wuhan Aphid	WuhanAphid	JMTV	JMTV	Hyalopterus	none	none			Hyalopterus pruni
-94	NC_028137	Macrosiphum euphorbiae virus 1	MEV-1	Pesti-like	Insect	Macrosiphum	none	none			Macrosiphum euphorbiae
-95	NC_028375	Shayang fly virus 4	ShayangFlyV4	Pesti-like	Insect	Musca	none	none			Musca domestica
-96	NC_028373	Shuangao lacewing virus 2 	ShuangaoLacewingV2	Pesti-like	Insect	Chrysopida	none	none			Chrysopidae sp
-97	NC_028367	Tacheng tick virus 8	TachengTV-8	Pesti-like	Insect	Dermacentor	none	none			Dermacentor marginatus
-98	NC_028370	Xingshan cricket virus	XCV	Pesti-like	Insect	Velarifictorus	none	none			Velarifictorus micado
-99	NC_020252	Gentian Kobu-sho-associated virus	GKaV	Pesti-like	Nematode	Gentiana	none	none			Gentiana triflora
-100	NC_024077	Soybean cyst nematode virus	SbCNV-5	Pesti-like	Nematode	Heterodera	none	none			Heterodera glycines
-101	KM408491	Pestivirus Burdur	Burdur	Pestivirus	?	Capra	none	none	Burdur/05-TR	Asia	Capra hircus
-102	NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus	A	Bos	none	none	-		Bos taurus
-103	NC_002032	Bovine viral diarrhea virus 2	BVDV2	Pestivirus	B	Bos	none	none	C413	Americas	Bos taurus
-104	NC_002657	Classical swine fever virus	CSFV	Pestivirus	C	Sus	none	none	Eystrup		Sus scrofa
-105	NC_003679	Border disease virus	BDV	Pestivirus	D	Ovis	none	none	X818		Ovis aries
-106	NC_024018	Pronghorn antelope pestivirus	PAPeV	Pestivirus	E	Antilocapra	none	none	-	Americas	Antilocapra americana
-107	NC_023176	Porcine pestivirus isolate Bungowannah	PoPeV	Pestivirus	F	Sus	none	none	Bungowannah	Oceania	Sus scrofa
-108	NC_003678	Pestivirus Giraffe-1	GiPeV	Pestivirus	G	Giraffa	none	none	giraffe-1 H138	Africa	Giraffa camelopardalis
-109	NC_012812	Bovine viral diarrhea virus 3	BVDV3	Pestivirus	H	Bos	none	none	-	Asia	Bos taurus
-110	NC_018713	Pestivirus strain Aydin/04-TR	Aydin	Pestivirus	I	Ovis	none	none	-	Asia	Ovis aries
-111	NC_025677	Norway rat pestivirus	NrPeV	Pestivirus		Rattus	none	none	NrPV/NYC-D23	Americas	Rattus norvegicus
-112	NC_004102	Hepatitis C virus	HCV	Hepacivirus	Genotype 1	Homo	none	none	H77		-
-113	NC_026797	Bovine hepacivirus	BHCV	Hepacivirus		Bos	none	none	GHC25	Africa	Bos taurus
-114	NC_024889	Equine hepacivirus	EHCV	Hepacivirus		Equus	none	none	-	Asia	Equus caballus
-115	NC_025672	Norway rat hepacivirus 1	RHCV-1	Hepacivirus		Rattus	none	none	NrHV-1/NYC-C12	Americas	Rattus norvegicus
-116	NC_025673	Norway rat hepacivirus 2	RHCV-2	Hepacivirus		Rattus	none	none	NrHV-2/NYC-E43	Americas	Rattus norvegicus
-117	NC_021153	Rodent hepacivirus	Rodent-HCV	Hepacivirus		Peromyscus	none	none	RHV-339	Americas	Peromyscus maniculatus
-118	NC_020902	Equine pegivirus 1	EPgV	Pegivirus		Equus	none	none	C0035	Americas	Equus caballus
-119	NC_001710	GB virus C	HGV1	Pegivirus		Primates	none	none	-		-
-120	NC_027998	Human pegivirus 2	HPgV-2	Pegivirus		Primates	none	none	UC0125.US	Americas	Homo sapiens
-121	NC_025679	Norway rat pegivirus	NPgV	Pegivirus		Rattus	none	none	NrPgV/NYC-E13	Americas	Rattus norvegicus
-122	NC_001837	Pegivirus A	GBV-A	Pegivirus		Primates	none	none	-		-
-123	NC_021154	Rodent pegivirus	RPgV	Pegivirus		Neotoma	none	none	CC61	Americas	Neotoma lepida
-124	NC_024377	Simian pegivirus	SPgV	Pegivirus		Piliocolobus	none	none	SPgVkrc_RC08	Africa	Piliocolobus tephrosceles (red colobus monkey)
+Index	sequenceID	full_name	name	subfamily	genus	clade	segment	host_group	vector_group	reservoir_group	isolate_name	region	isolation_host
+1	NC_012932	Aedes flavivirus	AEFV	FlaviPesti	Flavivirus	cISF		Aedes	none	none	Narita-21	Asia	Aedes albopictus
+2	NC_001564	Cell fusing agent virus	CFAV	FlaviPesti	Flavivirus	cISF		Aedes	none	none	Galveston	Americas	Aedes aegypti
+3	NC_008604	Culex flavivirus	CxFV	FlaviPesti	Flavivirus	cISF		Culex	none	none	Tokyo	Asia	Culex pipiens
+4	HE574574	Culex theileri flavivirus	CTFV	FlaviPesti	Flavivirus	cISF		Culex	none	none	178	Europe	Culex theileri
+5	JQ268258	Hanko virus	HANKV	FlaviPesti	Flavivirus	cISF		Ochlerotatus	none	none	-	Europe	Ochlerotatus mosquito
+6	NC_005064	Kamiti River virus	KRV	FlaviPesti	Flavivirus	cISF		Aedes	none	none	SR-82	Africa	Ae. macintoshi 
+7	NC_027819	Mercadeo virus	MECDV	FlaviPesti	Flavivirus	cISF		Culex	none	none	ER-M10	Americas	Culex sp.
+8	NC_021069	Mosquito flavivirus	MosqFV	FlaviPesti	Flavivirus	cISF		Culex	none	none	LSFlaviV-A20-09	Asia	Culex tritaeniorhynchus
+9	NC_030400	Nakiwogo virus	NAKV	FlaviPesti	Flavivirus	cISF		Mansonia	none	none	Uganda08	Africa	Mansonia africana nigerrima
+10	NC_024299	Nienokoue virus	NIEV	FlaviPesti	Flavivirus	cISF		Culex	none	none	B51/CI/2004	Africa	Culex sp.
+11	KC505248	Palm Creek virus	PCV	FlaviPesti	Flavivirus	cISF		Coquillettidia	none	none	56	Oceania	Coquillettidia xanthogaster
+12	NC_027817	Parramatta River virus	PaRV	FlaviPesti	Flavivirus	cISF		Aedes	none	none	92-B115745	Oceania	A. vigilax
+13	NC_012671	Quang Binh virus	QBV	FlaviPesti	Flavivirus	cISF		Culex	none	none	VN180	Asia	Culex tritaeniorhynchus (mosquito)
+14	NC_031327	Anopheles flavivirus	AnophFV	FlaviPesti	Flavivirus	cISF		Anopheles	none	none			
+15	KC496020	Barkedji virus	BJV	FlaviPesti	Flavivirus	dISF1		Culex	none	none	363/11	Asia	Culex perexiguus
+16	NC_017086	Chaoyang virus	CHAOV	FlaviPesti	Flavivirus	dISF1		Aedes, Armigeres, Culex	none	none	HLD115	Asia	Ae. vexans,  Ae. albopictus,  Ae. bekkui,  Armigeres subalbatus, Cx. Pipiens
+17	NC_016997	Donggang virus	DONV	FlaviPesti	Flavivirus	dISF1		Aedes	none	none	DG0909	Asia	Aedes sp. (mosquito)
+18	NC_024805	Ilomantsi virus	ILOV	FlaviPesti	Flavivirus	dISF1		Ochlerotatus, Anopheles	none	none	M0724	Europe	Ochlerotatus riparius and/or Anopheles spp. 
+19	KY320649 	La Tina	LTNV	FlaviPesti	Flavivirus	dISF1		Ochlerotatus	none	none	49_LT96	Americas	Ochlerotatus scapularis
+20	NC_024806	Lammi virus	LAMV	FlaviPesti	Flavivirus	dISF1		Aedes	none	none	M0719	Europe	Ae. cinereus
+21	KY290249	Long Pine Key virus	LPKV	FlaviPesti	Flavivirus	dISF1		Ochlerotatus	none	none	EVG-1-33	Americas	Ochlerotatus atlanticus
+22	NC_024017	Nhumirim virus	NHUV	FlaviPesti	Flavivirus	dISF1		Culex	none	none	BrMS-MQ10	Americas	Culex chidesteri
+23	KY347801	Marisma mosquito virus	MMV	FlaviPesti	Flavivirus	dISF2		Aedes	none	none	HU 4528/07	Europe	Aedes caspius
+24	NC_027999	Paraiso Escondido virus	EPEV	FlaviPesti	Flavivirus	dISF2		Lutzomyia	none	none	Ecuador2012	Americas	Lutzomyia abonnenci
+25	AY898809	Alfuy virus	ALFV	FlaviPesti	Flavivirus	Mosq1		Culex	mosquito	birds	MRM3929	Oceania	Centropus phasianius
+26	NC_012534	Bagaza virus	BAGV	FlaviPesti	Flavivirus	Mosq1		Culex	mosquito	birds	DakArB 209	Africa	Culex
+27	KM225264	Bainyik virus	Bainyik	FlaviPesti	Flavivirus	Mosq1		Aedes	mosquito	mammals	MK7979	Oceania	Aedes sp. (mosquito)
+28	NC_009026	Bussuquara virus	BSQV	FlaviPesti	Flavivirus	Mosq1		Culex	mosquito	primates	BeAn 4073	Americas	Alouatta beelzebul Sentinel
+29	NC_026623	Cacipacore virus	CPCV	FlaviPesti	Flavivirus	Mosq1		Culex	mosquito	birds	BeAn 327600	Americas	Formicarius analis
+30	NC_001477	Dengue virus 1	DENV1	FlaviPesti	Flavivirus	Mosq1		Aedes	mosquito	primates	45AZ5	Africa/Asia	-
+31	NC_001474	Dengue virus 2	DENV2	FlaviPesti	Flavivirus	Mosq1		Aedes	mosquito	primates	16681	Asia	Homo sapiens
+32	NC_001475	Dengue virus 3	DENV3	FlaviPesti	Flavivirus	Mosq1		Aedes	mosquito	primates	D3SriLa1266	Asia	-
+33	NC_002640	Dengue virus 4	DEN4	FlaviPesti	Flavivirus	Mosq1		Aedes	mosquito	primates	-	Africa/Asia	-
+34	AY632538	Iguape virus	IGUV	FlaviPesti	Flavivirus	Mosq1		Culex	mosquito	bird/mammal	SPAn 71686	Americas	sentinel mouse
+35	NC_009028	Ilheus virus	ILHV	FlaviPesti	Flavivirus	Mosq1		Culicidae	mosquito	birds	-	Americas	Psorophora spp. 
+36	NC_001437	Japanese encephalitis virus	JEV	FlaviPesti	Flavivirus	Mosq1		Culex	mosquito	bird/mammal		Asia	Homo sapiens
+37	NC_012533	Kedougou virus	KEDV	FlaviPesti	Flavivirus	Mosq1		Aedes	mosquito	unknown	ArD 14701	Africa	Aedes minutus
+38	EU082200	Koutango virus	KOUV	FlaviPesti	Flavivirus	Mosq1		Aedes?	mosquito	birds	DakAnD 5443	Africa	Tatera kempi
+39	NC_000943	Murray Valley encephalitis virus	MVEV	FlaviPesti	Flavivirus	Mosq1		Culex	mosquito	birds	MVE/1/1951	Oceania	Homo sapiens
+40	NC_032088	New Mapoon virus	NMV	FlaviPesti	Flavivirus	Mosq1		Culex	mosquito	unknown	CY1014	Oceania	Culex annulirostris
+41	EU159426	Nounane virus	NOUV	FlaviPesti	Flavivirus	Mosq1		Uranotaenia?	mosquito	unknown	Nounane_B3	Africa	Uranotaenia mashonaensis
+42	NC_018705	Ntaya virus	NTAV	FlaviPesti	Flavivirus	Mosq1		Culex	mosquito	unknown	IPDIA	Africa	-
+43	AY632542	Rocio virus	ROCV	FlaviPesti	Flavivirus	Mosq1		Aedes	mosquito	birds	SPH 34675	Americas	Homo sapiens
+44	NC_029055	Spondweni virus	SPOV	FlaviPesti	Flavivirus	Mosq1		Culicidae	mosquito	unknown	SAAr 94	Africa	Mansonia uniformis
+45	NC_007580	St. Louis encephalitis virus	SLEV	FlaviPesti	Flavivirus	Mosq1		Culex	mosquito	birds	-	Americas	Homo sapiens
+46	KM225263	Stratford virus	STRV	FlaviPesti	Flavivirus	Mosq1		Aedes	mosquito	marsupials	C338	Oceania	Aedes vigilax
+47	NC_015843	Tembusu virus	TMUV	FlaviPesti	Flavivirus	Mosq1		Culex	mosquito	birds	JS804	Asia	Anser cygnoides
+48	KM225265	Torres virus	Torres	FlaviPesti	Flavivirus	Mosq1		Culex	mosquito	birds	TS5273	Oceania	Aedes albopictus
+49	NC_006551	Usutu virus	USUV	FlaviPesti	Flavivirus	Mosq1		Culex	mosquito	birds	SAAr 1776	Africa	Culex neavei
+50	NC_001563	West Nile virus	WNV	FlaviPesti	Flavivirus	Mosq1		Culex	mosquito	birds	B956	Africa	Homo sapiens
+51	EU082199	Yaounde virus	YAOV	FlaviPesti	Flavivirus	Mosq1		Culex	mosquito	birds	ArY 276	Africa	Culex nebulosis
+52	NC_012532	Zika virus	ZIKV	FlaviPesti	Flavivirus	Mosq1		Aedes	mosquito	mammals	MR 766	Africa	sentinel monkey
+53	DQ859056	Banzi virus	BANV	FlaviPesti	Flavivirus	Mosq2		Culex	mosquito	rodents	H336	Africa	Homo sapiens
+54	NC_033693	Bouboui virus	BOUV	FlaviPesti	Flavivirus	Mosq2		Anopheles	mosquito	unknown	DakArB 490	Africa	Anopheles paludis
+55	NC_030289	Edge Hill virus	EHV	FlaviPesti	Flavivirus	Mosq2		Aedes	mosquito	primates	C281	Oceania	Aedes vigilax
+56	NC_033699	Jugra virus	JUGV	FlaviPesti	Flavivirus	Mosq2		Aedes	mosquito	mammals	P9-314	Asia	Aedes spp
+57	NC_033697	Saboya virus	SABV	FlaviPesti	Flavivirus	Mosq2		Aedes	mosquito	rodents	DakAnD 4600	Africa	Tatera kempi
+58	NC_008719	Sepik virus	SEPV	FlaviPesti	Flavivirus	Mosq2		Aedes	mosquito	unknown	MK 7148	Oceania	Mansonia septempunctata
+59	NC_033698	Uganda S virus	UGSV	FlaviPesti	Flavivirus	Mosq2		Aedes	mosquito	unknown	-	Africa	Aedes spp.
+60	NC_012735	Wesselsbron virus	WSLV	FlaviPesti	Flavivirus	Mosq2		Aedes	mosquito	ungulates	van Tonder	Africa	Merino sheep
+61	NC_002031	Yellow fever virus	YFV	FlaviPesti	Flavivirus	Mosq2		Aedes	mosquito	primates	-	Africa/Americas	Aedes aegypti, Aedes albopictus
+62	NC_003676	Apoi virus	APOIV	FlaviPesti	Flavivirus	NKV1		Apodemus	unknown	rodents	-	Asia	Apodemus spp.
+63	NC_026620	Jutiapa virus	JUTV	FlaviPesti	Flavivirus	NKV1		Sigmodon	unknown	rodents	JG-128	Americas	Sigmodon hispidus
+64	NC_003635	Modoc virus	MODV	FlaviPesti	Flavivirus	NKV1		Peromyscus	unknown	rodents	M544	Americas	Peromyscus maniculatus
+65	NC_004119	Montana myotis leukoencephalitis virus	MMLV	FlaviPesti	Flavivirus	NKV1		Myotis	unknown	bat	-	Americas	Myotis lucifugus
+66	NC_003675	Rio Bravo virus	RBV	FlaviPesti	Flavivirus	NKV1		Tadarida	unknown	bat	M64	Americas	Tadarida brasiliensis mexicana
+67	KJ469370	Batu Cave virus	BCV	FlaviPesti	Flavivirus	NKV1		unknown	unknown	unknown			
+68	NC_008718	Entebbe bat virus	ENTV	FlaviPesti	Flavivirus	NKV2		unknown	unknown	bat	UgIL-30	Africa	Tadarida limbata
+69	NC_026624	Sokuluk virus	SOKV	FlaviPesti	Flavivirus	NKV2		ticks	unknown	bat	LEIV-400K	Asia	Vespertilio pipistrellus
+70	NC_005039	Yokose virus	YOKV	FlaviPesti	Flavivirus	NKV2		mosquito	mosquito	bat	Oita 36	Asia	Miniopterus fuliginosus
+71	NC_033723	Gadgets Gully virus	GGYV	FlaviPesti	Flavivirus	Tick		Ixodes	tick	birds	CSIRO 122	Oceania	Ixodes uriae
+72	NC_033724	Kadam virus	KADV	FlaviPesti	Flavivirus	Tick		Rhipicephalus	tick	mammals	AMP 6640	Africa	Rhipicephalus pravus
+73	NC_023439	Kama virus	KAMV	FlaviPesti	Flavivirus	Tick		Ixodes	tick	birds	-	Europe	Ixodes lividus
+74	NC_006947	Karshi virus	KSIV	FlaviPesti	Flavivirus	Tick		Ornithodoros	tick	birds	LEIV-2247 US	Asia	Ornithodoros papillipes
+75	JF416960	Kyasanur forest disease virus	KFDV	FlaviPesti	Flavivirus	Tick		Hemaphysalis	tick	primates	-	Asia	Semnopithecus entellus
+76	NC_003690	Langat virus	LGTV	FlaviPesti	Flavivirus	Tick		Ixodes	tick	primates	TP-21	Asia	Ixodes granulatus 
+77	NC_001809	Louping ill virus	LIV	FlaviPesti	Flavivirus	Tick		Ixodes	tick	even-toad ungulates		Europe	Sheep (Ovis aries)
+78	NC_033721	Meaban virus	MEAV	FlaviPesti	Flavivirus	Tick		Ornithodoros	tick	birds	Brest/Ar/T-707	Europe	Ornithodoros maritimus
+79	NC_005062	Omsk hemorrhagic fever virus	OMSKV	FlaviPesti	Flavivirus	Tick		Dermacentor, Ixodes	tick	primates	Bogoluvovska	Europe	Homo sapiens
+80	NC_003687	Powassan virus	POWV	FlaviPesti	Flavivirus	Tick		Ixodes, Hemaphysalis	tick	primates	L.B.	Americas	Homo sapiens
+81	DQ235149	Royal Farm virus	RFV	FlaviPesti	Flavivirus	Tick		Argas	tick	mammals	ArT 371	Asia	Argas hermanni
+82	NC_033726	Saumarez reef virus	SREV	FlaviPesti	Flavivirus	Tick		Ornithodoros	tick	birds	CSIRO4	Oceania	Ornithodoros capensis
+83	NC_027709	Spanish goat encephalitis virus	SGEV	FlaviPesti	Flavivirus	Tick		Ixodes	tick	ungulates	AstGoatIREC2011	Europe	Bermeya goat
+84	NC_001672	Tick-borne encephalitis virus	TBEV	FlaviPesti	Flavivirus	Tick		Ixodes	tick	rodents	Neudoerfl	Europe	-
+85	DQ235151	Turkish sheep encephalitis	TSEV	FlaviPesti	Flavivirus	Tick		Ixodes	tick	ungulates	TTE80	Asia	-
+86	NC_023424	Tyuleniy virus	TYUV	FlaviPesti	Flavivirus	Tick		Ixodes	tick	birds	LEIV 6C	Europe	Ixodes uriae
+87	MF776369	Cyclopterus lumpus virus	LFLV	FlaviPesti	Tamanavirus	TABV		Cyclopterus	none	none			Cyclopterus lumpus
+88	MH716818	Eastern red scorpionfish flavivirus	SFLV	FlaviPesti	Tamanavirus	TABV		Scorpaena	none	none			Scorpaena jacksoniensis
+89	NC_003996	Tamana bat virus	TABV	FlaviPesti	Tamanavirus	TABV		Pteronotus	none	none	Tr127154	Americas	Pteronotus parnellii
+90	MG599986	Wenzhou shark flavivirus	SFLV	FlaviPesti	Tamanavirus	TABV		Scoliodon	none	none			Scoliodon macrorhynchos
+91	MH158415	Alongshan virus 	Alongshan	FlaviPesti	Jingmenvirus	JMTV1	1	Ixodes	none	none	H3		Ixodes persulcatus
+92	KX883002	Changjiang Jingmen-like virus 	Changjiang	FlaviPesti	Jingmenvirus	JMTV1	1	Procambarus	none	none	CJLX28200		Procambarus clarkii
+93	KM521552	Guaico Culex virus 	Guaico	FlaviPesti	Jingmenvirus	JMTV1	1	Culex	none	none	ACH27		Culex interrogator
+94	NC_024113	Jingmen tick virus	JMTV	FlaviPesti	Jingmenvirus	JMTV1	1	Rhipicephalus	none	none	SY84		Rhipicephalus microplus
+95	NC_024114	Jingmen tick virus	JMTV	FlaviPesti	Jingmenvirus	JMTV3	3	Rhipicephalus	none	none	SY84		
+96	KR902721	Wuhan Aphid	WuhanAphid	FlaviPesti	Jingmenvirus	JMTV1	1	Hyalopterus	none	none			Hyalopterus pruni
+97	KP757924	Drosophila-associated Flavivirus-like 2	Daflv	FlaviPesti	Jingmenvirus	JMTV1	1	Drosophila	none	none			
+98	NC_028396	Shuangao insect virus 7	Siv7	FlaviPesti	Jingmenvirus	JMTV1	1	Chrysopidae sp., Psychoda alternata, Dipterasp.	none	none			
+99	NC_028137	Macrosiphum euphorbiae virus 1	MEV-1	FlaviPesti	Pesti-like	Insect		Macrosiphum	none	none			Macrosiphum euphorbiae
+100	NC_028375	Shayang fly virus 4	ShayangFlyV4	FlaviPesti	Pesti-like	Insect		Musca	none	none			Musca domestica
+101	NC_028373	Shuangao lacewing virus 2 	SLV2	FlaviPesti	Pesti-like	Insect		Chrysopida	none	none			Chrysopidae sp
+102	NC_028367	Tacheng tick virus 8	TachengTV-8	FlaviPesti	Pesti-like	Insect		Dermacentor	none	none			Dermacentor marginatus
+103	NC_028370	Xingshan cricket virus	XCV	FlaviPesti	Pesti-like	Insect		Velarifictorus	none	none			Velarifictorus micado
+104	NC_020252	Gentian Kobu-sho-associated virus	GKaV	FlaviPesti	Pesti-like	Nematode		Gentiana	none	none			Gentiana triflora
+105	NC_024077	Soybean cyst nematode virus	SbCNV-5	FlaviPesti	Pesti-like	Nematode		Heterodera	none	none			Heterodera glycines
+106	NC_035071	Apis flavivirus	ApisV	FlaviPesti	Pesti-like	Nematode		Apis	none	none			
+107	NC_001461	Bovine viral diarrhea virus 1	BVDV1	FlaviPesti	Pestivirus	A		Bos	none	none	-		Bos taurus
+108	NC_002032	Bovine viral diarrhea virus 2	BVDV2	FlaviPesti	Pestivirus	B		Bos	none	none	C413	Americas	Bos taurus
+109	NC_002657	Classical swine fever virus	CSFV	FlaviPesti	Pestivirus	C		Sus	none	none	Eystrup		Sus scrofa
+110	NC_003679	Border disease virus	BDV	FlaviPesti	Pestivirus	D		Ovis	none	none	X818		Ovis aries
+111	NC_024018	Pronghorn antelope pestivirus	PAPeV	FlaviPesti	Pestivirus	E		Antilocapra	none	none	-	Americas	Antilocapra americana
+112	NC_023176	Porcine pestivirus isolate Bungowannah	PoPeV	FlaviPesti	Pestivirus	F		Sus	none	none	Bungowannah	Oceania	Sus scrofa
+113	NC_003678	Pestivirus Giraffe-1	GiPeV	FlaviPesti	Pestivirus	G		Giraffa	none	none	giraffe-1 H138	Africa	Giraffa camelopardalis
+114	NC_012812	Bovine viral diarrhea virus 3	BVDV3	FlaviPesti	Pestivirus	H		Bos	none	none	-	Asia	Bos taurus
+115	NC_018713	Pestivirus strain Aydin/04-TR	Aydin	FlaviPesti	Pestivirus	I		Ovis	none	none	-	Asia	Ovis aries
+116	NC_025677	Norway rat pestivirus	NrPeV	FlaviPesti	Pestivirus	J		Rattus	none	none	NrPV/NYC-D23	Americas	Rattus norvegicus
+118	NC_038964	Atypical porcine pestivirus	APPeV	FlaviPesti	Pestivirus	K		Sus	none	none			
+117	MG599984	Nanhai dogfish shark pestivirus	NdsPV	FlaviPesti	Pestivirus			unknown	none	none			
+119	NC_004102	Hepatitis C virus	HCV	Hepacivirus	Hepacivirus	Genotype 1		Homo	none	none	H77		-
+120	NC_026797	Bovine hepacivirus	BHCV	Hepacivirus	Hepacivirus			Bos	none	none	GHC25	Africa	Bos taurus
+121	NC_024889	Equine hepacivirus	EHCV	Hepacivirus	Hepacivirus			Equus	none	none	-	Asia	Equus caballus
+122	NC_025672	Norway rat hepacivirus 1	RHCV-1	Hepacivirus	Hepacivirus			Rattus	none	none	NrHV-1/NYC-C12	Americas	Rattus norvegicus
+123	NC_025673	Norway rat hepacivirus 2	RHCV-2	Hepacivirus	Hepacivirus			Rattus	none	none	NrHV-2/NYC-E43	Americas	Rattus norvegicus
+124	NC_021153	Rodent hepacivirus	RHCV	Hepacivirus	Hepacivirus			Peromyscus	none	none	RHV-339	Americas	Peromyscus maniculatus
+125	NC_020902	Equine pegivirus 1	EPgV	Pegivirus	Pegivirus			Equus	none	none	C0035	Americas	Equus caballus
+126	NC_001710	GB virus C	HGV1	Pegivirus	Pegivirus			Primates	none	none	-		-
+127	NC_027998	Human pegivirus 2	HPgV-2	Pegivirus	Pegivirus			Primates	none	none	UC0125.US	Americas	Homo sapiens
+128	NC_025679	Norway rat pegivirus	NPgV	Pegivirus	Pegivirus			Rattus	none	none	NrPgV/NYC-E13	Americas	Rattus norvegicus
+129	NC_001837	Pegivirus A	GBV-A	Pegivirus	Pegivirus			Primates	none	none	-		-
+130	NC_021154	Rodent pegivirus	RPgV	Pegivirus	Pegivirus			Neotoma	none	none	CC61	Americas	Neotoma lepida
+131	NC_024377	Simian pegivirus	SPgV	Pegivirus	Pegivirus			Piliocolobus	none	none	SPgVkrc_RC08	Africa	Piliocolobus tephrosceles (red colobus monkey)
