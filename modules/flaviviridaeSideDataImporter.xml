@@ -17,6 +17,10 @@
         <property>full_name</property>
     </textFileColumn>
     <textFileColumn>
+        <header>subfamily</header>
+        <property>subfamily</property>
+    </textFileColumn>
+    <textFileColumn>
         <header>genus</header>
         <property>genus</property>
     </textFileColumn>

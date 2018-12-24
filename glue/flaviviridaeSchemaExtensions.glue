@@ -1,6 +1,7 @@
   table sequence
     create field full_name VARCHAR 100
     create field name VARCHAR 100  
+    create field subfamily VARCHAR 50
     create field genus VARCHAR 50
     create field clade VARCHAR 50
     create field host_group VARCHAR 50
