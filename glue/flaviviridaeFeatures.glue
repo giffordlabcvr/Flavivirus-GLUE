@@ -22,6 +22,12 @@ feature capsid set metatag INCLUDE_IN_SUMMARY true
 feature capsid set metatag CODES_AMINO_ACIDS true
 feature capsid set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
+create feature core -p structural_proteins "core"
+feature core set metatag OWN_CODON_NUMBERING true
+feature core set metatag INCLUDE_IN_SUMMARY true
+feature core set metatag CODES_AMINO_ACIDS true
+feature core set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
 create feature premembrane -p structural_proteins "premembrane"
 feature premembrane set metatag OWN_CODON_NUMBERING true
 feature premembrane set metatag INCLUDE_IN_SUMMARY true
@@ -34,9 +40,57 @@ feature membrane set metatag INCLUDE_IN_SUMMARY true
 feature membrane set metatag CODES_AMINO_ACIDS true
 feature membrane set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
+create feature envelope -p structural_proteins "envelope"
+feature envelope set metatag OWN_CODON_NUMBERING true
+feature envelope set metatag INCLUDE_IN_SUMMARY true
+feature envelope set metatag CODES_AMINO_ACIDS true
+feature envelope set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+create feature envelope1 -p structural_proteins "envelope1"
+feature envelope1 set metatag OWN_CODON_NUMBERING true
+feature envelope1 set metatag INCLUDE_IN_SUMMARY true
+feature envelope1 set metatag CODES_AMINO_ACIDS true
+feature envelope1 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+create feature envelope2 -p structural_proteins "envelope2"
+feature envelope2 set metatag OWN_CODON_NUMBERING true
+feature envelope2 set metatag INCLUDE_IN_SUMMARY true
+feature envelope2 set metatag CODES_AMINO_ACIDS true
+feature envelope2 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+create feature s_peptide -p structural_proteins "s_peptide"
+feature s_peptide set metatag OWN_CODON_NUMBERING true
+feature s_peptide set metatag INCLUDE_IN_SUMMARY true
+feature s_peptide set metatag CODES_AMINO_ACIDS true
+feature s_peptide set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+create feature x_peptide -p structural_proteins "x_peptide"
+feature x_peptide set metatag OWN_CODON_NUMBERING true
+feature x_peptide set metatag INCLUDE_IN_SUMMARY true
+feature x_peptide set metatag CODES_AMINO_ACIDS true
+feature x_peptide set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+create feature RNAse -p structural_proteins "RNAse"
+feature RNAse set metatag OWN_CODON_NUMBERING true
+feature RNAse set metatag INCLUDE_IN_SUMMARY true
+feature RNAse set metatag CODES_AMINO_ACIDS true
+feature RNAse set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+create feature N-proteinase -p structural_proteins "N-proteinase"
+feature N-proteinase set metatag OWN_CODON_NUMBERING true
+feature N-proteinase set metatag INCLUDE_IN_SUMMARY true
+feature N-proteinase set metatag CODES_AMINO_ACIDS true
+feature N-proteinase set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
 create feature non_structural_proteins -p precursor_polyprotein "Non-structural proteins"
 feature non_structural_proteins set field displayName "Non-structural proteins"
 feature non_structural_proteins set metatag INFORMATIONAL true
+
+create feature p7 -p non_structural_proteins "p7"
+feature p7 set metatag OWN_CODON_NUMBERING true
+feature p7 set metatag INCLUDE_IN_SUMMARY true
+feature p7 set metatag CODES_AMINO_ACIDS true
+feature p7 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature NS1 -p non_structural_proteins "NS1"
 feature NS1 set metatag OWN_CODON_NUMBERING true
@@ -80,6 +134,12 @@ feature NS4A set metatag INCLUDE_IN_SUMMARY true
 feature NS4A set metatag CODES_AMINO_ACIDS true
 feature NS4A set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
+create feature 2K -p non_structural_proteins "2K"
+feature 2K set metatag OWN_CODON_NUMBERING true
+feature 2K set metatag INCLUDE_IN_SUMMARY true
+feature 2K set metatag CODES_AMINO_ACIDS true
+feature 2K set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
 create feature NS4B -p non_structural_proteins "NS4B"
 feature NS4B set metatag OWN_CODON_NUMBERING true
 feature NS4B set metatag INCLUDE_IN_SUMMARY true
@@ -103,6 +163,12 @@ feature NS5B set metatag OWN_CODON_NUMBERING true
 feature NS5B set metatag INCLUDE_IN_SUMMARY true
 feature NS5B set metatag CODES_AMINO_ACIDS true
 feature NS5B set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+create feature NS5-like -p non_structural_proteins "NS5-like"
+feature NS5-like set metatag OWN_CODON_NUMBERING true
+feature NS5-like set metatag INCLUDE_IN_SUMMARY true
+feature NS5-like set metatag CODES_AMINO_ACIDS true
+feature NS5-like set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature 3UTR -p whole_genome "3' UTR"
 feature 3UTR set field displayName "3' UTR"
