@@ -8,28 +8,27 @@
   # Import internal node alignments
   module unconstrainedAlignmentImporter
 
-    #~# Multiple genera alignments
-    import AL_FLATA_UNCONSTRAINED  -f alignments/internal/cross-genus/flavi-tabv.aln.fna
+    #~# Cross-genus 
+    import AL_FLAVI_TABV_JMTVseg1_UNCONSTRAINED  -f alignments/internal/cross-genus/flav-tabv-jmtvSeg1.aln.fna
+    import AL_FLAVI_TABV_JMTVseg3_UNCONSTRAINED  -f alignments/internal/cross-genus/flav-tabv-jmtvSeg3.aln.fna
+    import AL_FLAVI_TABV_UNCONSTRAINED           -f alignments/internal/cross-genus/flavi-tabv.aln.fna
 
-    #~# Genus-level alignments
-    import AL_FLAVI_UNCONSTRAINED  -f alignments/internal/genus/flavivirus.aln.fna
-    import AL_PESTI_UNCONSTRAINED  -f alignments/internal/genus/pestivirus.aln.fna
-    import AL_HEPACI_UNCONSTRAINED -f alignments/internal/genus/hepacivirus.aln.fna
-    import AL_PEGI_UNCONSTRAINED   -f alignments/internal/genus/pegivirus.aln.fna
-    import AL_TABV_UNCONSTRAINED   -f alignments/internal/genus/tamanavirus.aln.fna
+    #~# Flavi-like genus-level 
+    import AL_FLAVI_UNCONSTRAINED        -f alignments/internal/genus/flavivirus.aln.fna
+    import AL_TABV_UNCONSTRAINED         -f alignments/internal/genus/tamanavirus.aln.fna
+    import AL_JMTV_SEG1_UNCONSTRAINED    -f alignments/internal/genus/jmtvSeg1.aln.fna
+    import AL_PESTI_UNCONSTRAINED        -f alignments/internal/genus/pestivirus.aln.fna
+    import AL_PESTI_SCNV5_UNCONSTRAINED  -f alignments/internal/genus/pesti-like-scnv5.fna
+    import AL_PESTI_INSECT_UNCONSTRAINED -f alignments/internal/genus/pesti-like-insect.fna
+    import AL_PEGI_UNCONSTRAINED         -f alignments/internal/genus/pegivirus.aln.fna
+    import AL_HEPACI_UNCONSTRAINED       -f alignments/internal/genus/hepacivirus.aln.fna
 
-    #~# Flavi-like subgroup-level alignments
-    import AL_FLAVI_cISF_UNCONSTRAINED   -f alignments/internal/subgroup/cISFs.aln.fna
-    import AL_FLAVI_dISF_UNCONSTRAINED   -f alignments/internal/subgroup/dISFs.aln.fna
+    #~# Flavivirus genus-level 
+    import AL_FLAVI_cISF_UNCONSTRAINED   -f alignments/internal/subgroup/cISF.aln.fna
+    import AL_FLAVI_dISF1_UNCONSTRAINED  -f alignments/internal/subgroup/dISF1.aln.fna
     import AL_FLAVI_NKV1_UNCONSTRAINED   -f alignments/internal/subgroup/NKV1.aln.fna
     import AL_FLAVI_mosq1_UNCONSTRAINED  -f alignments/internal/subgroup/mosquito-1.aln.fna
     import AL_FLAVI_mosq2_UNCONSTRAINED  -f alignments/internal/subgroup/mosquito-2.aln.fna
     import AL_FLAVI_tick_UNCONSTRAINED   -f alignments/internal/subgroup/ticks.aln.fna
-
-    import AL_FLAVI_JMTV_UNCONSTRAINED   -f alignments/internal/subgroup/jingmenvirus.aln.fna
-
-    #~# Pesti-like subgroup-level alignments
-    import AL_PESTI_SCNV5_UNCONSTRAINED  -f alignments/internal/subgroup/pesti-like-scnv5.fna
-    import AL_PESTI_INSECT_UNCONSTRAINED -f alignments/internal/subgroup/pesti-like-insect.fna
 
     exit
