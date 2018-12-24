@@ -1,149 +1,122 @@
-SequenceID	Virus name	Abbrev	Genus	Clade	featureName	startNT	endNT
-NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	5UTR	1	96
-NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	polyprotein	97	10170
-NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	protein C	97	525
-NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	precursor M	526	954
-NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	envelope protein E	955	2250
-NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	NS1	2251	3420
-NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	NS2A	3421	4041
-NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	NS2B	4042	4488
-NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	NS3	4489	6249
-NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	NS4A	6250	6654
-NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	2K	6655	6723
-NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	NS4B	6724	7503
-NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	NS5	7504	10167
-NC_005064	Kamiti River virus	KRV	Flavivirus	cISF	3UTR	10168	11375
-NC_027999	Paraiso Escondido virus	EPEV	Flavivirus	dISF1	5UTR	1	119
-NC_027999	Paraiso Escondido virus	EPEV	Flavivirus	dISF1	polyprotein	120	10445
-NC_027999	Paraiso Escondido virus	EPEV	Flavivirus	dISF1	3UTR	10446	10761
-NC_024806	Lammi virus	LAMV	Flavivirus	dISF2	5UTR	1	15
-NC_024806	Lammi virus	LAMV	Flavivirus	dISF2	polyprotein	16	10320
-NC_001563	West Nile virus	WNV	Flavivirus	Mosq1	5UTR	1	96
-NC_001563	West Nile virus	WNV	Flavivirus	Mosq1	polyprotein	97	10389
-NC_001563	West Nile virus	WNV	Flavivirus	Mosq1	protein C	97	465
-NC_001563	West Nile virus	WNV	Flavivirus	Mosq1	precursor M	466	966
-NC_001563	West Nile virus	WNV	Flavivirus	Mosq1	envelope protein E	967	2457
-NC_001563	West Nile virus	WNV	Flavivirus	Mosq1	NS1	2458	3513
-NC_001563	West Nile virus	WNV	Flavivirus	Mosq1	NS2A	3514	4206
-NC_001563	West Nile virus	WNV	Flavivirus	Mosq1	NS2B	4207	4599
-NC_001563	West Nile virus	WNV	Flavivirus	Mosq1	NS3	4600	6456
-NC_001563	West Nile virus	WNV	Flavivirus	Mosq1	2K	6835	6903
-NC_001563	West Nile virus	WNV	Flavivirus	Mosq1	NS4B	6904	7671
-NC_001563	West Nile virus	WNV	Flavivirus	Mosq1	NS5	7572	10386
-NC_001563	West Nile virus	WNV	Flavivirus	Mosq1	3UTR	10390	10962
-NC_001477	Dengue virus 1	DENV1	Flavivirus	Mosq1	5UTR	1	94
-NC_001477	Dengue virus 1	DENV1	Flavivirus	Mosq1	polyprotein	95	10273
-NC_001477	Dengue virus 1	DENV1	Flavivirus	Mosq1	protein C	95	436
-NC_001477	Dengue virus 1	DENV1	Flavivirus	Mosq1	precursor M	437	934
-NC_001477	Dengue virus 1	DENV1	Flavivirus	Mosq1	envelope protein E	935	2419
-NC_001477	Dengue virus 1	DENV1	Flavivirus	Mosq1	NS1	2420	3475
-NC_001477	Dengue virus 1	DENV1	Flavivirus	Mosq1	NS2A	3476	4129
-NC_001477	Dengue virus 1	DENV1	Flavivirus	Mosq1	NS2B	4130	4519
-NC_001477	Dengue virus 1	DENV1	Flavivirus	Mosq1	NS3	4520	6376
-NC_001477	Dengue virus 1	DENV1	Flavivirus	Mosq1	NS4A	6377	6757
-NC_001477	Dengue virus 1	DENV1	Flavivirus	Mosq1	2K	6758	6826
-NC_001477	Dengue virus 1	DENV1	Flavivirus	Mosq1	NS5	7574	10270
-NC_001477	Dengue virus 1	DENV1	Flavivirus	Mosq1	3UTR	10274	10735
-NC_012532	Zika virus	ZIKV	Flavivirus	Mosq1	5UTR	1	106
-NC_012532	Zika virus	ZIKV	Flavivirus	Mosq1	polyprotein	107	10366
-NC_012532	Zika virus	ZIKV	Flavivirus	Mosq1	protein C	107	472
-NC_012532	Zika virus	ZIKV	Flavivirus	Mosq1	precursor M	473	976
-NC_012532	Zika virus	ZIKV	Flavivirus	Mosq1	envelope protein E	977	2476
-NC_012532	Zika virus	ZIKV	Flavivirus	Mosq1	NS1	2477	3532
-NC_012532	Zika virus	ZIKV	Flavivirus	Mosq1	NS2A	3533	4210
-NC_012532	Zika virus	ZIKV	Flavivirus	Mosq1	NS2B	4211	4600
-NC_012532	Zika virus	ZIKV	Flavivirus	Mosq1	NS3	4601	6451
-NC_012532	Zika virus	ZIKV	Flavivirus	Mosq1	NS4A	6452	6832
-NC_012532	Zika virus	ZIKV	Flavivirus	Mosq1	2K	6833	6901
-NC_012532	Zika virus	ZIKV	Flavivirus	Mosq1	NS4B	6902	7654
-NC_012532	Zika virus	ZIKV	Flavivirus	Mosq1	NS5	7655	10363
-NC_012532	Zika virus	ZIKV	Flavivirus	Mosq1	3UTR	10367	10794
-NC_002031	Yellow fever virus	YFV	Flavivirus	Mosq2	5UTR	1	118
-NC_002031	Yellow fever virus	YFV	Flavivirus	Mosq2	polyprotein	119	10354
-NC_002031	Yellow fever virus	YFV	Flavivirus	Mosq2	protein C	119	481
-NC_002031	Yellow fever virus	YFV	Flavivirus	Mosq2	precursor M	482	973
-NC_002031	Yellow fever virus	YFV	Flavivirus	Mosq2	envelope protein E	974	2452
-NC_002031	Yellow fever virus	YFV	Flavivirus	Mosq2	NS1	2453	3508
-NC_002031	Yellow fever virus	YFV	Flavivirus	Mosq2	NS2A	3509	4180
-NC_002031	Yellow fever virus	YFV	Flavivirus	Mosq2	NS2B	4181	4570
-NC_002031	Yellow fever virus	YFV	Flavivirus	Mosq2	NS3	4571	6439
-NC_002031	Yellow fever virus	YFV	Flavivirus	Mosq2	NS4A	6440	6817
-NC_002031	Yellow fever virus	YFV	Flavivirus	Mosq2	2K	6818	6886
-NC_002031	Yellow fever virus	YFV	Flavivirus	Mosq2	NS4B	6887	7636
-NC_002031	Yellow fever virus	YFV	Flavivirus	Mosq2	NS5	7637	10351
-NC_002031	Yellow fever virus	YFV	Flavivirus	Mosq2	3UTR	10355	10862
-NC_003676	Apoi virus	Apoi	Flavivirus	NKV1	polyprotein	1	10116
-NC_026624	Sokuluk virus	SOKV	Flavivirus	NKV2	polyprotein	1	10242
-NC_003687	Powassan virus	POWV	Flavivirus	Tick	5UTR	1	111
-NC_003687	Powassan virus	POWV	Flavivirus	Tick	polyprotein	112	10359
-NC_003687	Powassan virus	POWV	Flavivirus	Tick	protein C	112	441
-NC_003687	Powassan virus	POWV	Flavivirus	Tick	precursor M	442	945
-NC_003687	Powassan virus	POWV	Flavivirus	Tick	envelope protein E	946	2436
-NC_003687	Powassan virus	POWV	Flavivirus	Tick	NS1	2437	3495
-NC_003687	Powassan virus	POWV	Flavivirus	Tick	NS2A	3496	4185
-NC_003687	Powassan virus	POWV	Flavivirus	Tick	NS2B	4186	4578
-NC_003687	Powassan virus	POWV	Flavivirus	Tick	NS3	4579	6444
-NC_003687	Powassan virus	POWV	Flavivirus	Tick	NS4A	6445	6822
-NC_003687	Powassan virus	POWV	Flavivirus	Tick	2K	6823	6891
-NC_003687	Powassan virus	POWV	Flavivirus	Tick	NS4B	6892	7647
-NC_003687	Powassan virus	POWV	Flavivirus	Tick	NS5	7648	10356
-NC_003687	Powassan virus	POWV	Flavivirus	Tick	3UTR	10357	10839
-NC_004102	Hepatitis C virus	HCV	Hepacivirus		5UTR	1	341
-NC_004102	Hepatitis C virus	HCV	Hepacivirus		polyprotein	342	9377
-NC_004102	Hepatitis C virus	HCV	Hepacivirus		core	342	914
-NC_004102	Hepatitis C virus	HCV	Hepacivirus		E1	915	1490
-NC_004102	Hepatitis C virus	HCV	Hepacivirus		E2	1491	2579
-NC_004102	Hepatitis C virus	HCV	Hepacivirus		p7	2580	2768
-NC_004102	Hepatitis C virus	HCV	Hepacivirus		NS2	2769	3419
-NC_004102	Hepatitis C virus	HCV	Hepacivirus		NS3	3420	5312
-NC_004102	Hepatitis C virus	HCV	Hepacivirus		NS4A	5313	5474
-NC_004102	Hepatitis C virus	HCV	Hepacivirus		NS4B	5475	6257
-NC_004102	Hepatitis C virus	HCV	Hepacivirus		NS5A	6258	7601
-NC_004102	Hepatitis C virus	HCV	Hepacivirus		NS5B	7602	9374
-NC_004102	Hepatitis C virus	HCV	Hepacivirus		3UTR	9378	9646
-KJ001579	Jingmen tick virus	JMTV	JMTV	JMTV	5UTR	1	104
-KJ001579	Jingmen tick virus	JMTV	JMTV	JMTV	NS5-like protein	105	2849
-KJ001579	Jingmen tick virus	JMTV	JMTV	JMTV	3UTR	2850	3114
-NC_027998	Human pegivirus 2	HPgV-2	Pegivirus		5UTR	1	327
-NC_027998	Human pegivirus 2	HPgV-2	Pegivirus		polyprotein	328	9501
-NC_027998	Human pegivirus 2	HPgV-2	Pegivirus		S	328	564
-NC_027998	Human pegivirus 2	HPgV-2	Pegivirus		E1	565	1137
-NC_027998	Human pegivirus 2	HPgV-2	Pegivirus		E2	1138	2199
-NC_027998	Human pegivirus 2	HPgV-2	Pegivirus		X	2200	2910
-NC_027998	Human pegivirus 2	HPgV-2	Pegivirus		NS2	2911	3630
-NC_027998	Human pegivirus 2	HPgV-2	Pegivirus		NS3	3631	5514
-NC_027998	Human pegivirus 2	HPgV-2	Pegivirus		NS4A	5515	5637
-NC_027998	Human pegivirus 2	HPgV-2	Pegivirus		NS4B	5638	6423
-NC_027998	Human pegivirus 2	HPgV-2	Pegivirus		NS5A	6424	7797
-NC_027998	Human pegivirus 2	HPgV-2	Pegivirus		NS5B	7798	9498
-NC_027998	Human pegivirus 2	HPgV-2	Pegivirus		3UTR	9502	9867
-NC_024077	Soybean cyst nematode virus	SbCNV-5	Pesti-like	Nematode	5UTR	1	350
-NC_024077	Soybean cyst nematode virus	SbCNV-5	Pesti-like	Nematode	polyprotein	351	18068
-NC_024077	Soybean cyst nematode virus	SbCNV-5	Pesti-like	Nematode	3UTR	18069	19199
-NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		5UTR	1	385
-NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		polyprotein	386	12352
-NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		N-pro	386	889
-NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		capsid	890	1195
-NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		RNAse	1196	1876
-NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		E1	1877	2461
-NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		E2	2462	3583
-NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		p7	3584	3793
-NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		NS3	3794	7471
-NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		NS4A	7472	7663
-NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		NS4B	7664	8704
-NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		NS5A	8705	10192
-NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		NS5B	10193	12349
-NC_001461	Bovine viral diarrhea virus 1	BVDV1	Pestivirus		3UTR	12360	12573
-NC_003996	Tamana bat virus	TABV	Tamanavirus		polyprotein	1	10053
-NC_003996	Tamana bat virus	TABV	Tamanavirus		protein C	1	345
-NC_003996	Tamana bat virus	TABV	Tamanavirus		precursor M	346	852
-NC_003996	Tamana bat virus	TABV	Tamanavirus		M	655	852
-NC_003996	Tamana bat virus	TABV	Tamanavirus		envelope protein E	853	2358
-NC_003996	Tamana bat virus	TABV	Tamanavirus		NS1	2359	3390
-NC_003996	Tamana bat virus	TABV	Tamanavirus		NS2A	3391	3978
-NC_003996	Tamana bat virus	TABV	Tamanavirus		NS2B	3979	4431
-NC_003996	Tamana bat virus	TABV	Tamanavirus		NS3	4432	6303
-NC_003996	Tamana bat virus	TABV	Tamanavirus		NS4A	6304	6687
-NC_003996	Tamana bat virus	TABV	Tamanavirus		2K	6763	6762
-NC_003996	Tamana bat virus	TABV	Tamanavirus		NS4B	6763	7557
-NC_003996	Tamana bat virus	TABV	Tamanavirus		NS5	7558	10050
+SequenceID	referenceName	Genus	Clade	featureName	startNT	endNT
+NC_005064	REF_KRV	Flavivirus	cISF	5UTR	1	96
+NC_005064	REF_KRV	Flavivirus	cISF	polyprotein	97	10170
+NC_005064	REF_KRV	Flavivirus	cISF	protein C	97	525
+NC_005064	REF_KRV	Flavivirus	cISF	precursor M	526	954
+NC_005064	REF_KRV	Flavivirus	cISF	envelope protein E	955	2250
+NC_005064	REF_KRV	Flavivirus	cISF	NS1	2251	3420
+NC_005064	REF_KRV	Flavivirus	cISF	NS2A	3421	4041
+NC_005064	REF_KRV	Flavivirus	cISF	NS2B	4042	4488
+NC_005064	REF_KRV	Flavivirus	cISF	NS3	4489	6249
+NC_005064	REF_KRV	Flavivirus	cISF	NS4A	6250	6654
+NC_005064	REF_KRV	Flavivirus	cISF	2K	6655	6723
+NC_005064	REF_KRV	Flavivirus	cISF	NS4B	6724	7503
+NC_005064	REF_KRV	Flavivirus	cISF	NS5	7504	10167
+NC_005064	REF_KRV	Flavivirus	cISF	3UTR	10168	11375
+NC_027999	Paraiso Escondido virus	Flavivirus	dISF1	5UTR	1	119
+NC_027999	Paraiso Escondido virus	Flavivirus	dISF1	polyprotein	120	10445
+NC_027999	Paraiso Escondido virus	Flavivirus	dISF1	3UTR	10446	10761
+NC_024806	Lammi virus	Flavivirus	dISF2	5UTR	1	15
+NC_024806	Lammi virus	Flavivirus	dISF2	polyprotein	16	10320
+NC_001477	REF_DEN1	Flavivirus	Mosq1	5UTR	1	94
+NC_001477	REF_DEN1	Flavivirus	Mosq1	polyprotein	95	10273
+NC_001477	REF_DEN1	Flavivirus	Mosq1	protein C	95	436
+NC_001477	REF_DEN1	Flavivirus	Mosq1	precursor M	437	934
+NC_001477	REF_DEN1	Flavivirus	Mosq1	envelope protein E	935	2419
+NC_001477	REF_DEN1	Flavivirus	Mosq1	NS1	2420	3475
+NC_001477	REF_DEN1	Flavivirus	Mosq1	NS2A	3476	4129
+NC_001477	REF_DEN1	Flavivirus	Mosq1	NS2B	4130	4519
+NC_001477	REF_DEN1	Flavivirus	Mosq1	NS3	4520	6376
+NC_001477	REF_DEN1	Flavivirus	Mosq1	NS4A	6377	6757
+NC_001477	REF_DEN1	Flavivirus	Mosq1	2K	6758	6826
+NC_001477	REF_DEN1	Flavivirus	Mosq1	NS5	7574	10270
+NC_001477	REF_DEN1	Flavivirus	Mosq1	3UTR	10274	10735
+NC_002031	REF_YFV	Flavivirus	Mosq2	5UTR	1	118
+NC_002031	REF_YFV	Flavivirus	Mosq2	polyprotein	119	10354
+NC_002031	REF_YFV	Flavivirus	Mosq2	protein C	119	481
+NC_002031	REF_YFV	Flavivirus	Mosq2	precursor M	482	973
+NC_002031	REF_YFV	Flavivirus	Mosq2	envelope protein E	974	2452
+NC_002031	REF_YFV	Flavivirus	Mosq2	NS1	2453	3508
+NC_002031	REF_YFV	Flavivirus	Mosq2	NS2A	3509	4180
+NC_002031	REF_YFV	Flavivirus	Mosq2	NS2B	4181	4570
+NC_002031	REF_YFV	Flavivirus	Mosq2	NS3	4571	6439
+NC_002031	REF_YFV	Flavivirus	Mosq2	NS4A	6440	6817
+NC_002031	REF_YFV	Flavivirus	Mosq2	2K	6818	6886
+NC_002031	REF_YFV	Flavivirus	Mosq2	NS4B	6887	7636
+NC_002031	REF_YFV	Flavivirus	Mosq2	NS5	7637	10351
+NC_002031	REF_YFV	Flavivirus	Mosq2	3UTR	10355	10862
+NC_003676	REF_APOIV	Flavivirus	NKV1	polyprotein	1	10116
+NC_026624	REF_SOKV	Flavivirus	NKV2	polyprotein	1	10242
+NC_003687	REF_POWV	Flavivirus	Tick	5UTR	1	111
+NC_003687	REF_POWV	Flavivirus	Tick	polyprotein	112	10359
+NC_003687	REF_POWV	Flavivirus	Tick	protein C	112	441
+NC_003687	REF_POWV	Flavivirus	Tick	precursor M	442	945
+NC_003687	REF_POWV	Flavivirus	Tick	envelope protein E	946	2436
+NC_003687	REF_POWV	Flavivirus	Tick	NS1	2437	3495
+NC_003687	REF_POWV	Flavivirus	Tick	NS2A	3496	4185
+NC_003687	REF_POWV	Flavivirus	Tick	NS2B	4186	4578
+NC_003687	REF_POWV	Flavivirus	Tick	NS3	4579	6444
+NC_003687	REF_POWV	Flavivirus	Tick	NS4A	6445	6822
+NC_003687	REF_POWV	Flavivirus	Tick	2K	6823	6891
+NC_003687	REF_POWV	Flavivirus	Tick	NS4B	6892	7647
+NC_003687	REF_POWV	Flavivirus	Tick	NS5	7648	10356
+NC_003687	REF_POWV	Flavivirus	Tick	3UTR	10357	10839
+NC_004102	REF_HCV	Hepacivirus		5UTR	1	341
+NC_004102	REF_HCV	Hepacivirus		polyprotein	342	9377
+NC_004102	REF_HCV	Hepacivirus		core	342	914
+NC_004102	REF_HCV	Hepacivirus		E1	915	1490
+NC_004102	REF_HCV	Hepacivirus		E2	1491	2579
+NC_004102	REF_HCV	Hepacivirus		p7	2580	2768
+NC_004102	REF_HCV	Hepacivirus		NS2	2769	3419
+NC_004102	REF_HCV	Hepacivirus		NS3	3420	5312
+NC_004102	REF_HCV	Hepacivirus		NS4A	5313	5474
+NC_004102	REF_HCV	Hepacivirus		NS4B	5475	6257
+NC_004102	REF_HCV	Hepacivirus		NS5A	6258	7601
+NC_004102	REF_HCV	Hepacivirus		NS5B	7602	9374
+NC_004102	REF_HCV	Hepacivirus		3UTR	9378	9646
+KJ001579	REF_JMTV_SEG1	JMTV	JMTV	5UTR	1	104
+KJ001579	REF_JMTV_SEG1	JMTV	JMTV	NS5-like protein	105	2849
+KJ001579	REF_JMTV_SEG1	JMTV	JMTV	3UTR	2850	3114
+NC_027998	REF_HPgV2	Pegivirus		5UTR	1	327
+NC_027998	REF_HPgV2	Pegivirus		polyprotein	328	9501
+NC_027998	REF_HPgV2	Pegivirus		S	328	564
+NC_027998	REF_HPgV2	Pegivirus		E1	565	1137
+NC_027998	REF_HPgV2	Pegivirus		E2	1138	2199
+NC_027998	REF_HPgV2	Pegivirus		X	2200	2910
+NC_027998	REF_HPgV2	Pegivirus		NS2	2911	3630
+NC_027998	REF_HPgV2	Pegivirus		NS3	3631	5514
+NC_027998	REF_HPgV2	Pegivirus		NS4A	5515	5637
+NC_027998	REF_HPgV2	Pegivirus		NS4B	5638	6423
+NC_027998	REF_HPgV2	Pegivirus		NS5A	6424	7797
+NC_027998	REF_HPgV2	Pegivirus		NS5B	7798	9498
+NC_027998	REF_HPgV2	Pegivirus		3UTR	9502	9867
+NC_024077	REF_SCNV5	Pesti-like	Nematode	5UTR	1	350
+NC_024077	REF_SCNV5	Pesti-like	Nematode	polyprotein	351	18068
+NC_024077	REF_SCNV5	Pesti-like	Nematode	3UTR	18069	19199
+NC_001461	REF_BVDV1	Pestivirus		5UTR	1	385
+NC_001461	REF_BVDV1	Pestivirus		polyprotein	386	12352
+NC_001461	REF_BVDV1	Pestivirus		N-pro	386	889
+NC_001461	REF_BVDV1	Pestivirus		capsid	890	1195
+NC_001461	REF_BVDV1	Pestivirus		RNAse	1196	1876
+NC_001461	REF_BVDV1	Pestivirus		E1	1877	2461
+NC_001461	REF_BVDV1	Pestivirus		E2	2462	3583
+NC_001461	REF_BVDV1	Pestivirus		p7	3584	3793
+NC_001461	REF_BVDV1	Pestivirus		NS3	3794	7471
+NC_001461	REF_BVDV1	Pestivirus		NS4A	7472	7663
+NC_001461	REF_BVDV1	Pestivirus		NS4B	7664	8704
+NC_001461	REF_BVDV1	Pestivirus		NS5A	8705	10192
+NC_001461	REF_BVDV1	Pestivirus		NS5B	10193	12349
+NC_001461	REF_BVDV1	Pestivirus		3UTR	12360	12573
+NC_003996	REF_TABV	Tamanavirus		polyprotein	1	10053
+NC_003996	REF_TABV	Tamanavirus		protein C	1	345
+NC_003996	REF_TABV	Tamanavirus		precursor M	346	852
+NC_003996	REF_TABV	Tamanavirus		M	655	852
+NC_003996	REF_TABV	Tamanavirus		envelope protein E	853	2358
+NC_003996	REF_TABV	Tamanavirus		NS1	2359	3390
+NC_003996	REF_TABV	Tamanavirus		NS2A	3391	3978
+NC_003996	REF_TABV	Tamanavirus		NS2B	3979	4431
+NC_003996	REF_TABV	Tamanavirus		NS3	4432	6303
+NC_003996	REF_TABV	Tamanavirus		NS4A	6304	6687
+NC_003996	REF_TABV	Tamanavirus		2K	6763	6762
+NC_003996	REF_TABV	Tamanavirus		NS4B	6763	7557
+NC_003996	REF_TABV	Tamanavirus		NS5	7558	10050
