@@ -133,7 +133,30 @@
 	<primaryAccession>MG599984</primaryAccession>
 	<primaryAccession>KP757924</primaryAccession>
 	<primaryAccession>NC_028396</primaryAccession>
-	
+
+	<primaryAccession>NC_021153</primaryAccession>
+	<primaryAccession>KY370092</primaryAccession>
+	<primaryAccession>MG599987</primaryAccession>
+	<primaryAccession>NC_028377</primaryAccession>
+	<primaryAccession>MG334001</primaryAccession>
+	<primaryAccession>MG599996</primaryAccession>
+	<primaryAccession>MG599993</primaryAccession>
+	<primaryAccession>MG599991</primaryAccession>
+	<primaryAccession>U22303</primaryAccession>
+	<primaryAccession>KC145265</primaryAccession>
+	<primaryAccession>KT439329</primaryAccession>
+	<primaryAccession>MG599990</primaryAccession>
+	<primaryAccession>D00246</primaryAccession>
+	<primaryAccession>KC734550</primaryAccession>
+	<primaryAccession>JX477686</primaryAccession>
+	<primaryAccession>JF312912</primaryAccession>
+	<primaryAccession>NC_009026</primaryAccession>
+	<primaryAccession>KF917538</primaryAccession>
+	<primaryAccession>NC_009029</primaryAccession>
+	<primaryAccession>DQ859067</primaryAccession>
+	<primaryAccession>NC_038964</primaryAccession>
+	<primaryAccession>JF926699</primaryAccession>
+
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

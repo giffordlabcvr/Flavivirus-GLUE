@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>HGU22303</GBSeq_locus>
+    <GBSeq_length>9653</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>05-DEC-1996</GBSeq_update-date>
+    <GBSeq_create-date>12-APR-1995</GBSeq_create-date>
+    <GBSeq_definition>Hepatitis GB virus A polyprotein, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>U22303</GBSeq_primary-accession>
+    <GBSeq_accession-version>U22303.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U22303.1|HGU22303</GBSeqid>
+      <GBSeqid>gi|1572847</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Pegivirus A</GBSeq_source>
+    <GBSeq_organism>Pegivirus A</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Pegivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..9653</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Simons,J.N.</GBAuthor>
+          <GBAuthor>Pilot-Matias,T.J.</GBAuthor>
+          <GBAuthor>Leary,T.P.</GBAuthor>
+          <GBAuthor>Dawson,G.J.</GBAuthor>
+          <GBAuthor>Desai,S.M.</GBAuthor>
+          <GBAuthor>Schlauder,G.G.</GBAuthor>
+          <GBAuthor>Muerhoff,A.S.</GBAuthor>
+          <GBAuthor>Erker,J.C.</GBAuthor>
+          <GBAuthor>Buijk,S.L.</GBAuthor>
+          <GBAuthor>Chalmers,M.L.</GBAuthor>
+          <GBAuthor>van Sant,C.L.</GBAuthor>
+          <GBAuthor>Mushahwar,I.K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification of two flavivirus-like genomes in the GB hepatitis agent</GBReference_title>
+        <GBReference_journal>Proc. Natl. Acad. Sci. U.S.A. 92 (8), 3401-3405 (1995)</GBReference_journal>
+        <GBReference_pubmed>7724574</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..9653</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Simons,J.N.</GBAuthor>
+          <GBAuthor>Desai,S.M.</GBAuthor>
+          <GBAuthor>Schultz,D.E.</GBAuthor>
+          <GBAuthor>Lemon,S.M.</GBAuthor>
+          <GBAuthor>Mushahwar,I.K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Translation initiation in GB viruses A and C: evidence for internal ribosome entry and implications for genome organization</GBReference_title>
+        <GBReference_journal>J. Virol. 70 (9), 6126-6135 (1996)</GBReference_journal>
+        <GBReference_pubmed>8709237</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..9653</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Simons,J.N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (06-MAR-1995) John N. Simons, Experimental Biology Department, Abbott Laboratories, 1401 Sheridan Rd., North Chicago, IL 60064, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Sep 30, 1996 this sequence version replaced gi:765142.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..9653</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>9653</GBInterval_to>
+            <GBInterval_accession>U22303.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Pegivirus A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1307800</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>594..9458</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>594</GBInterval_from>
+            <GBInterval_to>9458</GBInterval_to>
+            <GBInterval_accession>U22303.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAC55983.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MAWLWLLVCFPLAGGVLFNSRHQCFNGDHYVLSNCCSRDEVYFCFGDGCLVAYGCTVCTQSCWKLYRPGVATRPGSEPGELLGRFGSVIGPVSASAYTAGVLGLGEPYSLAFLGTFLTSRLSRIPNVTCVKACDLEFTYPGLSIDFDWAFTKILQLPAKLWRGLTAAPVLSLLVILMLVLEQRLLIAFLLLLVVGEAQRGMFDNCVCGYWGGKRPPSVTPLYRGNGTVVCDCDFGKMHWAPPLCSGLVWRDGHRRGTVRDLPPVCPREVLGTVTVMCQWGSAYWIWRFGDWVALYDELPRSALCTFFSGHGPQPKDLSVLNPSGAPCASCVVDQRPLKCGSCVRDCWETGGPGFDECGVGTRMTKHLEAVLVDGGVESKVTTPKGERPKYIGQHGVGTYYGAVRSLNISYLVTEVGGYWHALKCPCDFVPRVLPERIPGRPVNACLAGKSPHPFASWAPGGFYAPVFTKCNWPKTSGVDVCPGFAFDFPGDHNGFIHVKGNRQQVYSGQRRSSPAWLLTDMVLALLVVMKLAEARVVPLFMLAMWWWLNGASAATIVIIHPTVTKSTESVPLWTPPTVPTPSCPNSTTGVADSTYNAGCYMVAGLAAGAQAVWGAANDGAQAVVGGIWPAWLKLRSFAAGLAWLSNVGAYLPVVEAALAPELVCTPVVGWAAQEWWFTGCLGVMCVVAYLNVLGSVRAAVLVAMHFARGALPLVLVVAAGVTRERHSVLGLEVCFDLDGGDWPDASWSWGLAGVVSWALLVGGLMTHGGRSARLTWYARWAVNYQRVRRWVNNSPVGAFGRWRRAWKAWLVVAWFFPQTVATVSVIFILCLSSLDVIDFILEVLLVNSPNLARLARVLDSLALAEERLACSWLVGVLRKRGVLLYEHAGHTSRRGAARLREWGFALEPVSITKEDCAIVRDSARVLGCGQLVHGKPVVARRGDEVLIGCVNSRFDLPPGFVPTAPVVLHQAGKGFFGVVKTSMTGKDPSEHHGNVVVLGTSTTRSMGCCVNGVVYTTYHGTNARPMAGPFGPVNARWWSASDDVTVYPLPNGASCLQACKCQPTGVWVIRNDGALCHGTLGKVVDLDMPAELSDFRGSSGSPILCDEGHAVGMLISVLHRGSRVSSVRYTKPWETLPREIEARSEAPPVPGTTGYREAPLFLPTGAGKSTRVPNEYVKAGHKVLVLNPSIATVRAMGPYMEKLTGKHPSVYCGHDTTAYSRTTDSSLTYCTYGRFMANPRKYLRGNDVVICDELHVTDPTSILGMGRARLLARECGVRLLLFATATPPVSPMAKHESIHEEMLGSEGEVPFYCQFLPLSRYATGRHLLFCHSKVECTRLSSALASFGVNTVVYFRGKETDIPTGDVCVCATDALSTGYTGNFDTVTDCGLMVEEVVEVTLDPTITIGVKTVPAPAELRAQRRGRCGRGKAGTYYQALMSSAPAGTVRSGALWAAVEAGVSWYGLEPDAIGDLLRAYDSCPYTAAISASIGEAIAFFTGLVPMRNYPQVVWAKQKGHNWPLLVGVQRHMCEDAGCGPPANGPEWSGIRGKGPVPLLCRWGGDLPESVAPHHWVDDLQARLGVAEGYTPCIAGPVLLVGLAMAGGAILAHWTGSLVVVTSWVVNGNGNPLIQSASRGVATSGPYPVPPDGGERYPSDIKPITEAVTTLETACGWGPAAASLAYVKACETGTMLADKASAAWQAWAANNFVPPPASHSTSLLQSLDAAFTSAWDSVFTHGRSLLVGFTAAYGARRNPPLGVGASFLLGMSSSHLTHVRLAAALLLGVGGTVLGTPATGLAMAGAYFAGGSVTANWLSIIVALIGGWEGAVNAASLTFDLLAGKLQASDAWCLVSCLASPGASVAGVALGLLLWSVKKGVGQDWVNRLLTMMPRSSVMPDDFFLKDEFVTKVSTVLRKLSLSRWIMTLVDKREMEMETPASQIVWDLLDWCIRLGRFLYNKLMFALPRLRLPLIGCSTGWGGPWEGNGHLETRCTCGCVITGDIHDGILHDLHYTSLLCRHYYKRTVPVGVMGNAEGAVPLVPTGGGIRTYQIGTSDWFEAVVVHGTITVHATSCYELKAADVRRAVRAGPTYVGGVPCSWSAPCTAPALVYRLGQGIKIDGARRLLPCDLAQGARHPPVSGSVAGSGWTDEDERDLVETKAAAIEAIGAALHLPSPEAAQAALEALEEAAVSLLPHVPVIMGDDCSCRDEAFQGHFIPEPNVTEVPIEPTVGDVEALKLRAADLTARLQDLEAMALARAESIEDARAASMPSLTEVDSMPSLESSPCSSFEQISLTESDPETVVEAGLPLEFVNSNTGPSPARRIVRIRQACCCDRSTMKAMPLSFTVGECLFVTRYDPDGHQLFDERGPIEVSTPICEVIGDIRLQCDQIEETPTSYSYIWSGAPLGTGRSVPQPMTRPIGTHLTCDTTKVYVTDPDRAAERAEKVTIWRGDRKYDKHYEAVVEAVLKKAAATKSHGWTYSQAIAKVRRRAAAGYGSKVTASTLATGWPHVEEMLDKIARGQEVPFTFVTKREVFFSKTTRKPPRFIVFPPLDFRIAEKMILGDPGIVAKSILGDAYLFQYTPNQRVKALVKAWEGKLHPAAITVDATCFDSSIDEHDMQVEASVFAAASDNPSMVHALCKYYSGGPMVSPDGVPLGYRQCRSSGVLTTSSANSITCYIKVSAACRRVGIKAPSFFIAGDDCLIIYENDGTDPCPALKAALANYGYRCEPTKHASLDTAECCSAYLAECVAGGAKRWWLSTDMRKPLARASSEYSDPIGSALGTILMYPRHPIVRYVLIPHVLIMAYRSGSTPDELVMCQVQGNHYSFPLRLLPRVLVSLHGPWCLQVTTDSTKTRMEAGSALRDLGMKSLAWHRRRAGNVRTRLLRGGKEWGHLARALLWHPGLKEHPPPINSLPGFQLATPYEHHEEVLISIKSRPPWIRWILGACLSLLAALL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cgtgggagtccggggccccggacctcccaccgaggtggggggaaaggggccctggaccggccgggtggaaggcccggaaccggtccatcttcctcaaggttgaggaaggggtacgtctatcggtccggtcggtccgaaaggcgtctggatgcctagtgttagggttcgtaggtggtaaatcccagctaggcgtgaaagcgctataggataggcttatcccggtgaccgctgccccggaaccagccccgcggktctttggacacggtccacaggttgggggtaccggtgtgaataaccccccgactgaagcgtcagtcgttaaacggagacggtctcctgagatcgcaacgacgccccacgtacgggaacgccgccaaaaccttcgggacagctatgcgggttgacaatcccagtggggggccggggaccagctgattacttgtcctgcgagttcctcttgagactggccgaaaggcagccacggggccaccaaggcggcgcagcgctgcatgcggcaaggggaaaaatccttcgggtgacccctggtggcaatcccttcccttaggagcatgagtgtggtcgacacattcaccatggcttggctgtggttgctggtttgcttccccctcgcggggggggtgctcttcaactcgcggcaccagtgcttcaatggggaccattatgtgctttccaattgttgttcccgagacgaggtttacttctgtttcggggacggatgtctggtggcttatggctgtactgtttgcacacagtcttgctggaagctctaccggcctggggtggctactcggcccgggtccgaaccaggtgagctgctggggagatttgggagtgtaattggtccggtgtcggcttcggcttacaccgctggagtcctcgggttgggtgaaccttacagtttggccttcttggggacgttcctcaccagtcgcctctcacggattcccaacgtcacctgcgtgaaggcttgtgaccttgagtttacctacccaggcttgtccatcgattttgactgggcgtttaccaagatcttgcagttgccggccaagctgtggcgaggcctaacggcrgcwccggtcttgagcctcctcgtgatcctcatgctggtcctcgagcagcgcctcctgatagccttcctactgcttttggtagtgggcgaggctcagagggggatgttcgacaactgcgtgtgtggttactgggggggcaagaggcccccgtcggtgaccccgctgtaccgtggcaacggtactgtggtgtgtgactgtgattttggaaaaatgcattgggccccccccttgtgttccggyctggtgtggcgggacggtcataggaggggcaccgtgcgcgacctccccccggtttgcccccgggaggttctcggcacggtgacagtcatgtgtcagtggggttctgcctactggatttggagatttggggactgggttgcattgtacgacgagctaccacgatcagctctctgtactttcttctcaggtcatggtccacaacctaaagatctctcagtcttgaatccatccggggcaccttgtgcttcttgcgtcgttgaccagaggccgctgaaatgtggttcctgcgtccgcgactgctgggagacggggggtcctgggttcgatgagtgcggtgtcggtactcggatgacgaagcacctcgaggccgtcctggttgatggaggtgtggagtccaaggtgacaacgcccaagggtgagcgccccaaatacataggtcagcacggtgtgggaacctactacggcgctgtccgtagcctcaacatcagttacctagtgactgaggtggggggctattggcatgcgctgaagtgcccgtgcgactttgtgccccgagtgctcccagaaagaattccaggtaggcctgtgaatgcatgtctagctgggaagtctccgcacccgttcgcaagttgggctcccggtgggttttacgcccccgtgttcaccaagtgcaactggccgaagacctccggagtggatgtgtgtcctgggtttgctttcgatttccctggtgatcacaacggcttcatccatgttaaaggcaacagacagcaggtttacagtggtcagcgaaggtcttcgccggcttggttgcttactgacatggtcctggccctgttggtggtgatgaagttggctgaggctagagttgtccccctgtttatgctggcaatgtggtggtggttgaatggagcatctgctgccactattgtcatcatacaccctactgtcacgaagtccactgaaagtgttccattgtggactccgcccactgttccaactccatcttgcccgaattctaccaccggagtcgcggactctacctacaatgctggttgctacatggtggcaggcctggcggccggggctcaggcggtctggggtgctgccaatgatggtgctcaggccgtcgttggtggcatctggcccgcgtggctcaagctgcgaagcttcgctgccggtctggcctggttgtcaaatgttggggcttacttgccggtcgtcgaggccgcvctggctcccgagctggtgtgcaccccggtggtcggctgggcagcccaggagtggtggttcactggttgtctgggtgtgatgtgtgtcgtggcgtacctgaatgtcctgggctctgtragggctgccgtgcttgtggcgatgcacttcgcaaggggtgctctgccgctggtattggtggtagctgccggggtracccgggagcggcacagcgtcttagggcttgaggtgtgcttcgatctggatggtggagactggccrgacgccagttggtcttggggtttagcaggcgtggtgagctgggccctcctggtggggggtctgatgacccacggtggccgatcagccagaytgacttggtaygccaggtgggccgtcaattaycagagggttcgycggtgggtgaacaactcaccggttggagcytttggycgttggmggcgygcctggaaagcytggttrgtkgtggcttggttcttcccccagacagttgccacagtytccgtcatcttcatactctgtttgagcagtttagatgtcattgatttcatcttggargtactcttggttaactcaccaaatctcgcgcgcttggcgcgrgtgctggactccttagctcthgctgaggagcggctggcctgctcttggctggtgggcgtcctgcgcaagcggggcgtcctcctctacgagcacgcyggtcacactagcaggcgcggtgctgcccgcttgcgagagtggggytttgcgctygagcckgttagyataaccaaggaagattgygcyattgttcgggactctgctcgtgtgttgggctgtggacaattggtccatgggaaaccagtggtcgcgaggcgaggcgacgaggtgttgatcggctgtgtgaacagtcggttcgaccttccgcctggctttgttcccactgctcccgtggtscttcatcargcwggcaarggrttyttyggggttgtgaagacmtccatgacaggcaaggacccgtccgaacaccacggraacgtggtggtcctwgggacttcaacaackcgttccatgggctgctgcgtgaacggagtagtgtacacracataccatggyaccaacgcccgrcckatggcggggccktttggkccygtcaaygctcggtggtggtcwgcgagygacgacgtcacggtytacccgctcccwaatggygcttcttgcctycargcwtgyaagtgccaaccaactggggtgtgggtgatccggaatgacggagctctttgccatggaactctcggcaaggtggtggatttagatatgcccgctgagttgtcagactttcgcgggtcttctggatcaccaatcttgtgcgatgagggtcatgctgttggcatgctgatttcggtgcttcatagggggagtagggtttcctcggtgcggtataccaaaccttgggaaactctccctcgggagattgaggctcgatcggaggccccccctgtgccaggaaccactggatacagggaggcgccactgttcctgcccaccggagctggcaagtcgacgcgcgtgccgaatgagtacgtcaaggctggacacaargtgcttgtactaaacccatccattgccacagtgagggccatgggcccttacatggaaaagttaaccggcaaacatccgtcggtgtactgtggccatgacactactgcatattccaggactactgactcatctttgacctactgtacatacggcaggtttatggccaatcccaggaaatacttgcgggggaacgacgtcgtaatttgcgacgagttgcacgtcaccgacccgacctcaattttggggatgggtcgggcgaggttactcgctcgcgagtgcggcgtacgcctcctgcttttcgctacggcgaccccaccggtctctccgatggcgaagcatgaatctattcatgaggagatgttgggcagtgagggggaggtccccttctattgccaattcctcccactgagtaggtatgctactgggagacacctgctgttttgtcattccaaggtagartgcactaggttatcctcagctttggccagctttggtgtcaacaccgttgtgtacttcagaggcaaagaaactgacattccaactggtgacgtgtgcgtttgcgccacagacgcactttccactggttacactggcaattttgacaccgtaacagactgtggtttaatggttgaggaggtagtggaagtgaccctggacccgaccatcactatcggtgtgaagaccgtcccggcccctgccgaactgagggctcagaggcgtggtaggtgtggccgtgggaaagcgggcacttactatcaggcattgatgtcttcggcgccggcgggaacsgttcggtctggggctctctgggcagctgttgaggctgghgtctcgtggtatggcctagagcccgatgctattggagacctgcttagggcctacgactcgtgtccttatactgctgccatcagtgcgtccatcggagaggccattgccttttttactggyctagtgccaatgaggaattatcctcaggtggtttgggccaagcagaagggrcacaactggccactcttggtgggtgtgcagaggcacatgtgtgaggacgcgggctgtggtcckcccgctaatggtcccgaatggagcggcatcaggggaaaagggcctgttcccctgttgtgccgatggggtggtgacttgcctgagtcggtggctccgcatcactgggttgatgacctacaggcccggctcggtgtggccgagggttacactccctgcattgctggaccggtgcttttggtcggtttggcgatggcggggggggctatcctggcacactggacggggtctctggttgtagtgaccagttgggttgtcaatgggaacggtaacccgctgatacaaagcgcctctaggggcgtggckacyagcggtccatacccagtacccccagatggtggtgaacggtacccatcagacatcaagccaatyactgaggctgtgaccacccttgagactgcgtgcggytggggcccagccgcggcbagtctggcttatgtgaaggcctgtgaaactggaaccatgttggctgacaargcgagtgctgcgtggcaggcttgggctgcaaacaactttgtgcctccaccagcatcacactcaacttccttgttrcagagcttggaygctgcgttcacttcagcttgggatagcgtgttcactcacggccgttccttgcttgttgggttcacagctgcttacggcgctcggcggaacccaccgctgggcgtcggagcctctttcttgctgggcatgtcatcgagccacytractcacgtcagacttgctgctgcgttgctcctcggcgtcgggggtaccgtcctaggcacgcctgctactgggcttgctatggcgggtgcctacttcgckgggggcagcgttaccgctaactggctgagtatcattgtggctctaatcggaggctgggagggggcrgtkaacgcagcctcactcaccttcgayctcctggckgggaagttacaagckagygaygcttggtgcctrgtcagytgcytggcctctccgggggcttcggtggcyggtgtggcdctvggyctdytgctvtggtctgtcaaraagggtgtgggwcargaytgggttaacagaytgttgacgatgatgccacgcagttcggtgatgcctgacgatttcttcctcaaagatgagttcgtcaccaaggtgtctactgtcctgcgaaagttgtcattgtcaagatggatcatgactcttgtggacaagcgggagatggagatggagacmcccgcttctcagattgtttgggacttgcttgactggtgcatccggctrggtcggttcctgtacaataaactyatgtttgctctccctaggttgcgcctgccgcttatcggttgcagtaccggttggggtggcccgtgggagggcaatggtcatttggaaacaaggtgtacttgtggctgtgtgattaccggtgatattcacgatggtatattgcacgacctacattatacctccctactgtgcagacattactacaagaggacagtgcctgttggcgtcatgggcaatgctgagggagcagtcccccttgtgcctactggcggtggaatcaggacttaccaaattgggacttctgactggtttgaggctgtggtcgtgcatgggacaatcacggtgcacgccaccagttgctatgagttgaaagctgctgacgttcggagggcggtgcgagccggcccgacttacgttggtggcgtaccttgcagctggagcgcgccgtgtactgcgcctgcgctcgtttacaggctaggccagggcatcaaaatcgatggagcgcgccgactgttgccctgtgacttagcacagggagcgcgccaccccccggtatctggcagtgttgccggtagtggttggacagatgaggacgagagggacttggtggaaaccaaggctgccgccatcgaggccattggggcggccttgcacctcccttcaccggaggctgctcaggccgctctagaggctttggaggaggctgccgtgtccctgttgccccatgtgcccgtcattatgggtgatgactgttcatgccgggatgaggcgttccaaggccacttcatcccagaacccaatgtgacagaggtacccattgagcccacggtcggagacgtggaggcactcaagctgcgggctgcagacctgaccgccaggttgcaagacttggaggccatggctctcgcccgcgctgagtcaatcgaggatgctcgcgcagcttcgatgccttcgctcaccgaggtggactcaatgccatcattggagtcgagcccttgctcctcctttgaacaaatctctttaactgaaagtgaccctgagactgtcgtcgaggctggcttacccttggagttcgtgaactccaacaccgggccgtctccggctcggaggattgtcagaatccgacaggcttgctgttgtgacagatccacaatgaaggccatgccgttgtcgttcactgtcggggagtgcctcttcgttactcgctatgacccggacggtcaccaactgtttgacgagcgaggtccgatagaggtatctactcctatatgtgaagtgattggggacatcaggcttcagtgtgaccaaattgaggaaactccaacatcttactcttacatctggtcaggggcgcccttgggtactgggagaagtgtcccccaacccatgacgcgccctatagggacccatctgacttgtgacactaccaaagtttatgttactgaccctgatcgggccgctgagcgggccgagaaggttacaatctggaggggtgataggaagtatgacaagcattatgaggctgtcgttgaggctgtcctgaaaaaggcagccgcgacgaagtctcatggctggacctattcccaggctatagctaaagttaggcgccgagcagccgctggatacggcagcaaggtgaccgcctccacattggccactggttggcctcacgtggaggagatgctggacaaaatagccaggggacaggaagttcctttcacttttgtgaccaagcgagaggttttcttctccaaaactacccgtaagcccccaagattcatagttttcccacctttggacttcaggatagctgaaaagatgattctgggtgaccccggcatcgttgcaaagtcaattctgggtgacgcttatctgttccagtacacgcccaatcagagggtcaaagctctggttaaggcgtgggaggggaagttgcatcccgctgcgatcactgtggacgccacttgtttcgactcatcgattgatgagcacgacatgcaggtggaggcttcggtgtttgcggcggctagtgacaacccctcaatggtacatgctttgtgcaagtactactctggtggccctatggtttccccagatggggttcccttggggtaccgccagtgtaggtcgtcgggcgtgttaacaactagctcggcgaacagcatcacttgttacattaaggtcagcgcggcctgcaggcgggtggggattaaggcaccatcattctttatagctggagatgattgcttgatcatctatgaaaatgatggaactgatccctgccctgctcttaaggctgccctggccaactatggatacaggtgtgaaccaacaaagcatgcttcactggacacagctgagtgttgctcggcctacttggctgagtgcgtagctgggggtgccaagcgctggtggttgagcacggacatgaggaagccgctcgcaagggcgtcttccgaatattcggacccaatcggcagtgctttagggaccatcttgatgtatccccggcatccaatcgtgcggtatgttctaataccacacgtactaataatggcttacaggagtggcagcacaccggatgagttggttatgtgtcaggttcagggaaatcattactctttcccgctgcggctgctgcctcgcgtcttggtctctctacatggtccgtggtgcctacaagtcaccacggacagtacgaagactaggatggaggcaggctcagcsttgcgggatttaggaatgaaatccctagcctggcaccgccgacgtgccggaaatgtgcgcactcgcctcctgaggggaggcaaggagtgggggcacctggccagagccctcctctggcayccaggkttgaaggagcaycccccrcccataaattcacttccaggttttcagctggcgacgccttacgaacaccatgaagaggtcttgatctcgatcaagagtcgaccaccttggataaggtggattcttggtgcttgtctctcgttgctggccgccttgctgtgaattcgctccaggcagtaggaccttygggtcgggggagtgtcgcccccccctctacagaccgctrctcgcgtagagyccgttggtcgggtaacgacccggtggctcgtaagctcctcctcggatgaggcgcagtgcactgcgtaactgaaggggtgcaccccggttgcccyacgcccgatggcgtrgtggtcaatt</GBSeq_sequence>
+  </GBSeq>
