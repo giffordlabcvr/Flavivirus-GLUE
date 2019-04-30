@@ -6,6 +6,10 @@ create feature 5UTR -p whole_genome "5' untranslated region"
 feature 5UTR set field displayName "5' UTR"
 feature 5UTR set metatag INCLUDE_IN_SUMMARY true
 
+create feature mir-122 -p whole_genome "5' untranslated region"
+feature mir-122 set field displayName "mir-122"
+feature mir-122 set metatag INCLUDE_IN_SUMMARY true
+
 create feature precursor_polyprotein -p whole_genome "Precursor polyprotein"
 feature precursor_polyprotein set field displayName "Precursor polyprotein"
 feature precursor_polyprotein set metatag OWN_CODON_NUMBERING true

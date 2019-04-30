@@ -2,7 +2,7 @@
 
   ### Root alignments    
   create alignment AL_FlaviPesti_MASTER -r REF_MASTER_YFV
-  alignment AL_FlaviPesti_MASTER add member --whereClause "subfamily = 'FlaviPesti'"
+  alignment AL_FlaviPesti_MASTER add member --whereClause "subfamily = 'FlaviPesti' or subfamily = 'Jingmenvirus'"
 
   create alignment AL_Hepacivirus -r REF_HCV
   alignment AL_Hepacivirus add member --whereClause "genus = 'Hepacivirus'"

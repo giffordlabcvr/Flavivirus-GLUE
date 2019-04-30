@@ -26,6 +26,7 @@
     #~# Flavivirus genus-level 
     import AL_FLAVI_cISF_UNCONSTRAINED   -f alignments/internal/subgroup/cISF.aln.fna
     import AL_FLAVI_dISF1_UNCONSTRAINED  -f alignments/internal/subgroup/dISF1.aln.fna
+    import AL_FLAVI_dISF2_UNCONSTRAINED  -f alignments/internal/subgroup/dISF2.aln.fna
     import AL_FLAVI_NKV1_UNCONSTRAINED   -f alignments/internal/subgroup/NKV1.aln.fna
     import AL_FLAVI_mosq1_UNCONSTRAINED  -f alignments/internal/subgroup/mosquito-1.aln.fna
     import AL_FLAVI_mosq2_UNCONSTRAINED  -f alignments/internal/subgroup/mosquito-2.aln.fna
