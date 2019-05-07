@@ -30,3 +30,6 @@
 
   create link sequence exogenous_data
 
+  table member_floc_note
+    create field ref_nt_coverage_pct DOUBLE
+    exit
