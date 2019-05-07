@@ -134,10 +134,17 @@
     derive segments AL_FLAVI_dISF1_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
+  alignment AL_dISF2
+    derive segments AL_FLAVI_dISF2_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
   alignment AL_NKV1
     derive segments AL_FLAVI_NKV1_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
+  alignment AL_NKV2
+    derive segments AL_FLAVI_NKV2_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
 
   alignment AL_Tamanavirus
     derive segments AL_TABV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
