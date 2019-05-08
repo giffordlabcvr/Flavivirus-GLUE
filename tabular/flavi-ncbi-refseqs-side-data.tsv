@@ -80,7 +80,6 @@ NC_005039	Yokose virus	YOKV	Flaviviridae	FlaviPesti	Flavivirus	NKV2		mosquito	mo
 NC_033723	Gadgets Gully virus	GGYV	Flaviviridae	FlaviPesti	Flavivirus	Tick		Ixodes	tick	birds	CSIRO 122	Oceania	Ixodes uriae
 NC_033724	Kadam virus	KADV	Flaviviridae	FlaviPesti	Flavivirus	Tick		Rhipicephalus	tick	mammals	AMP 6640	Africa	Rhipicephalus pravus
 NC_023439	Kama virus	KAMV	Flaviviridae	FlaviPesti	Flavivirus	Tick		Ixodes	tick	birds	-	Europe	Ixodes lividus
-NC_006947	Karshi virus	KSIV	Flaviviridae	FlaviPesti	Flavivirus	Tick		Ornithodoros	tick	birds	LEIV-2247 US	Asia	Ornithodoros papillipes
 JF416960	Kyasanur forest disease virus	KFDV	Flaviviridae	FlaviPesti	Flavivirus	Tick		Hemaphysalis	tick	primates	-	Asia	Semnopithecus entellus
 NC_003690	Langat virus	LGTV	Flaviviridae	FlaviPesti	Flavivirus	Tick		Ixodes	tick	primates	TP-21	Asia	Ixodes granulatus 
 NC_001809	Louping ill virus	LIV	Flaviviridae	FlaviPesti	Flavivirus	Tick		Ixodes	tick	even-toad ungulates	-	Europe	Sheep (Ovis aries)
@@ -117,34 +116,34 @@ MF776369	Cyclopterus lumpus virus	LFLV	Flaviviridae	FlaviPesti	Tamanavirus	TABV	
 MH716818	Eastern red scorpionfish flavivirus	SFLV	Flaviviridae	FlaviPesti	Tamanavirus	TABV		Scorpaena	none	none	-	-	Scorpaena jacksoniensis
 NC_003996	Tamana bat virus	TABV	Flaviviridae	FlaviPesti	Tamanavirus	TABV		Pteronotus	none	none	Tr127154	Americas	Pteronotus parnellii
 MG599986	Wenzhou shark flavivirus	SFLV	Flaviviridae	FlaviPesti	Tamanavirus	TABV		Scoliodon	none	none	-	-	Scoliodon macrorhynchos
-NC_004102	Hepatitis C virus	HCV	Flaviviridae	Hepacivirus	Hepacivirus	Genotype 1		Homo	none	none	H77		-
-NC_026797	Bovine hepacivirus	BHCV	Flaviviridae	Hepacivirus	Hepacivirus			Bos	none	none	GHC25	Africa	Bos taurus
-NC_024889	Equine hepacivirus	EHCV	Flaviviridae	Hepacivirus	Hepacivirus			Equus	none	none	-	Asia	Equus caballus
-NC_025672	Norway rat hepacivirus 1	RHCV-1	Flaviviridae	Hepacivirus	Hepacivirus			Rattus	none	none	NrHV-1/NYC-C12	Americas	Rattus norvegicus
-NC_025673	Norway rat hepacivirus 2	RHCV-2	Flaviviridae	Hepacivirus	Hepacivirus			Rattus	none	none	NrHV-2/NYC-E43	Americas	Rattus norvegicus
-NC_021153	Rodent hepacivirus	RHV-339	Flaviviridae	Hepacivirus	Hepacivirus			Peromyscus	none	none	RHV-339	Americas	Peromyscus maniculatus
-KY370092	Rodent hepacivirus	RHCV	Flaviviridae	Hepacivirus	Hepacivirus			Meriones meridianus	none	none	RtMm-HCV/IM2014	-	
-MG599987	Yili teratoscincus roborowskii hepacivirus	YterHCV	Flaviviridae	Hepacivirus	Hepacivirus			Teratoscincus roborowskii	none	none	YLSHG5584	-	
-NC_028377	Wenling shark virus	WLSV	Flaviviridae	Hepacivirus	Hepacivirus			Proscyllium habereri	none	none	MHS-2	-	
-MG334001	Turtle hepacivirus	THCV	Flaviviridae	Hepacivirus	Hepacivirus			Trachemys scripta elegans	none	none	-	-	
-MG599996	Nanhai ghost shark hepacivirus 1	NHCV	Flaviviridae	Hepacivirus	Hepacivirus			Chimaera sp.	none	none	NHYJG60722	-	
-MG599993	Western African lungfish hepacivirus 	WHCV	Flaviviridae	Hepacivirus	Hepacivirus			Protopterus annectens	none	none	FZFYG124617	-	
-MG599991	Xiamen guitarfish hepacivirus	XgHCV	Flaviviridae	Hepacivirus	Hepacivirus			Rhinobatos hynnicephalus	none	none	BWLTYG5315	-	
-MG599990	Wenling moray eel hepacivirus	WmeHCV	Flaviviridae	Hepacivirus	Hepacivirus			Chordata	none	none	XMLMGHepa10640	-	
-NC_020902	Equine pegivirus 1	EPgV	Flaviviridae	Pegivirus	Pegivirus			Equus	none	none	C0035	Americas	Equus caballus
-NC_001710	GB virus C	HGV1	Flaviviridae	Pegivirus	Pegivirus			Primates	none	none	-	-	-
-NC_027998	Human pegivirus 2	HPgV-2	Flaviviridae	Pegivirus	Pegivirus			Primates	none	none	UC0125.US	Americas	Homo sapiens
-NC_025679	Norway rat pegivirus	NPgV	Flaviviridae	Pegivirus	Pegivirus			Rattus	none	none	NrPgV/NYC-E13	Americas	Rattus norvegicus
-NC_001837	Pegivirus A	GBV-A	Flaviviridae	Pegivirus	Pegivirus			Primates	none	none	-	-	-
-NC_021154	Rodent pegivirus	RPgV	Flaviviridae	Pegivirus	Pegivirus			Neotoma	none	none	CC61	Americas	Neotoma lepida
-NC_024377	Simian pegivirus	SPgV	Flaviviridae	Pegivirus	Pegivirus			Piliocolobus	none	none	SPgVkrc_RC08	Africa	Piliocolobus tephrosceles (red colobus monkey)
-KC145265	Theiler's disease-associated virus	TDAV	Flaviviridae	Pegivirus	Pegivirus			Saguinus	none	none	-	-	Saguinus
-KT439329	Human hepegivirus 	HHpgV	Flaviviridae	Pegivirus	Pegivirus			Homo sapiens	none	none	isolate AK-790	-	-
-MH158415	Alongshan virus 	Alongshan	Jingmenvirus	Jingmenvirus	Jingmenvirus	JMTV1	1	Ixodes	none	none	H3	-	Ixodes persulcatus
-KX883002	Changjiang Jingmen-like virus 	Changjiang	Jingmenvirus	Jingmenvirus	Jingmenvirus	JMTV1	1	Procambarus	none	none	CJLX28200	-	Procambarus clarkii
-KM521552	Guaico Culex virus 	Guaico	Jingmenvirus	Jingmenvirus	Jingmenvirus	JMTV1	1	Culex	none	none	ACH27	-	Culex interrogator
-NC_024113	Jingmen tick virus	JMTV	Jingmenvirus	Jingmenvirus	Jingmenvirus	JMTV1	1	Rhipicephalus	none	none	SY84	-	Rhipicephalus microplus
-KR902721	Wuhan Aphid	WuhanAphid	Jingmenvirus	Jingmenvirus	Jingmenvirus	JMTV1	1	Hyalopterus	none	none	-	-	Hyalopterus pruni
-KP757924	Drosophila-associated Flavivirus-like 2	Daflv	Jingmenvirus	Jingmenvirus	Jingmenvirus	JMTV1	1	Drosophila	none	none	-	-	-
-NC_028396	Shuangao insect virus 7	Siv7	Jingmenvirus	Jingmenvirus	Jingmenvirus	JMTV1	1	Chrysopidae spp	none	none	-	-	-
-NC_024114	Jingmen tick virus	JMTV	Jingmenvirus	Jingmenvirus	Jingmenvirus	JMTV3	3	Rhipicephalus	none	none	SY84	-	-
+NC_004102	Hepatitis C virus	HCV	Flaviviridae	HepaPegi	Hepacivirus	Genotype 1		Homo	none	none	H77		-
+NC_026797	Bovine hepacivirus	BHCV	Flaviviridae	HepaPegi	Hepacivirus			Bos	none	none	GHC25	Africa	Bos taurus
+NC_024889	Equine hepacivirus	EHCV	Flaviviridae	HepaPegi	Hepacivirus			Equus	none	none	-	Asia	Equus caballus
+NC_025672	Norway rat hepacivirus 1	RHCV-1	Flaviviridae	HepaPegi	Hepacivirus			Rattus	none	none	NrHV-1/NYC-C12	Americas	Rattus norvegicus
+NC_025673	Norway rat hepacivirus 2	RHCV-2	Flaviviridae	HepaPegi	Hepacivirus			Rattus	none	none	NrHV-2/NYC-E43	Americas	Rattus norvegicus
+NC_021153	Rodent hepacivirus	RHV-339	Flaviviridae	HepaPegi	Hepacivirus			Peromyscus	none	none	RHV-339	Americas	Peromyscus maniculatus
+KY370092	Rodent hepacivirus	RHCV	Flaviviridae	HepaPegi	Hepacivirus			Meriones meridianus	none	none	RtMm-HCV/IM2014	-	
+MG599987	Yili teratoscincus roborowskii hepacivirus	YterHCV	Flaviviridae	HepaPegi	Hepacivirus			Teratoscincus roborowskii	none	none	YLSHG5584	-	
+NC_028377	Wenling shark virus	WLSV	Flaviviridae	HepaPegi	Hepacivirus			Proscyllium habereri	none	none	MHS-2	-	
+MG334001	Turtle hepacivirus	THCV	Flaviviridae	HepaPegi	Hepacivirus			Trachemys scripta elegans	none	none	-	-	
+MG599996	Nanhai ghost shark hepacivirus 1	NHCV	Flaviviridae	HepaPegi	Hepacivirus			Chimaera sp.	none	none	NHYJG60722	-	
+MG599993	Western African lungfish hepacivirus 	WHCV	Flaviviridae	HepaPegi	Hepacivirus			Protopterus annectens	none	none	FZFYG124617	-	
+MG599991	Xiamen guitarfish hepacivirus	XgHCV	Flaviviridae	HepaPegi	Hepacivirus			Rhinobatos hynnicephalus	none	none	BWLTYG5315	-	
+MG599990	Wenling moray eel hepacivirus	WmeHCV	Flaviviridae	HepaPegi	Hepacivirus			Chordata	none	none	XMLMGHepa10640	-	
+NC_020902	Equine pegivirus 1	EPgV	Flaviviridae	HepaPegi	Pegivirus			Equus	none	none	C0035	Americas	Equus caballus
+NC_001710	GB virus C	HGV1	Flaviviridae	HepaPegi	Pegivirus			Primates	none	none	-	-	-
+NC_027998	Human pegivirus 2	HPgV-2	Flaviviridae	HepaPegi	Pegivirus			Primates	none	none	UC0125.US	Americas	Homo sapiens
+NC_025679	Norway rat pegivirus	NPgV	Flaviviridae	HepaPegi	Pegivirus			Rattus	none	none	NrPgV/NYC-E13	Americas	Rattus norvegicus
+NC_001837	Pegivirus A	GBV-A	Flaviviridae	HepaPegi	Pegivirus			Primates	none	none	-	-	-
+NC_021154	Rodent pegivirus	RPgV	Flaviviridae	HepaPegi	Pegivirus			Neotoma	none	none	CC61	Americas	Neotoma lepida
+NC_024377	Simian pegivirus	SPgV	Flaviviridae	HepaPegi	Pegivirus			Piliocolobus	none	none	SPgVkrc_RC08	Africa	Piliocolobus tephrosceles (red colobus monkey)
+KC145265	Theiler's disease-associated virus	TDAV	Flaviviridae	HepaPegi	Pegivirus			Saguinus	none	none	-	-	Saguinus
+KT439329	Human hepegivirus 	HHpgV	Flaviviridae	HepaPegi	Hepegivirus			Homo sapiens	none	none	isolate AK-790	-	-
+MH158415	Alongshan virus 	Alongshan	Jingmenvirus	FlaviPesti	Jingmenvirus	JMTV1	1	Ixodes	none	none	H3	-	Ixodes persulcatus
+KX883002	Changjiang Jingmen-like virus 	Changjiang	Jingmenvirus	FlaviPesti	Jingmenvirus	JMTV1	1	Procambarus	none	none	CJLX28200	-	Procambarus clarkii
+KM521552	Guaico Culex virus 	Guaico	Jingmenvirus	FlaviPesti	Jingmenvirus	JMTV1	1	Culex	none	none	ACH27	-	Culex interrogator
+NC_024113	Jingmen tick virus	JMTV	Jingmenvirus	FlaviPesti	Jingmenvirus	JMTV1	1	Rhipicephalus	none	none	SY84	-	Rhipicephalus microplus
+KR902721	Wuhan Aphid	WuhanAphid	Jingmenvirus	FlaviPesti	Jingmenvirus	JMTV1	1	Hyalopterus	none	none	-	-	Hyalopterus pruni
+KP757924	Drosophila-associated Flavivirus-like 2	Daflv	Jingmenvirus	FlaviPesti	Jingmenvirus	JMTV1	1	Drosophila	none	none	-	-	-
+NC_028396	Shuangao insect virus 7	Siv7	Jingmenvirus	FlaviPesti	Jingmenvirus	JMTV1	1	Chrysopidae spp	none	none	-	-	-
+NC_024114	Jingmen tick virus	JMTV	Jingmenvirus	FlaviPesti	Jingmenvirus	JMTV3	3	Rhipicephalus	none	none	SY84	-	-

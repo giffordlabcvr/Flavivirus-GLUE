@@ -1,18 +1,23 @@
   # Constrained alignment tree
 
   ### Root alignments    
-  create alignment AL_FlaviPesti_MASTER -r REF_MASTER_YFV
-  alignment AL_FlaviPesti_MASTER add member --whereClause "subfamily = 'FlaviPesti' or subfamily = 'Jingmenvirus'"
-
-  create alignment AL_Hepacivirus -r REF_HCV
-  alignment AL_Hepacivirus add member --whereClause "genus = 'Hepacivirus'"
-
-  create alignment AL_Pegivirus -r REF_HPgV2
-  alignment AL_Pegivirus add member --whereClause "genus = 'Pegivirus'"
+  create alignment AL_Flaviviridae_MASTER -r REF_MASTER_YFV
+  alignment AL_Flaviviridae_MASTER add member --whereClause "subfamily = 'FlaviPesti' or subfamily = 'HepaPegi'"
 
 
-  ### Flavivirus genus level alignments  
-  alignment AL_FlaviPesti_MASTER
+  ### Major subclade alignments
+  alignment AL_Flaviviridae_MASTER
+	  
+	extract child AL_FlaviPesti -r REF_MASTER_YFV
+	demote member AL_FlaviPesti --whereClause "sequence.subfamily = 'FlaviPesti'"
+
+	extract child AL_HepaPegi -r REF_HCV
+	demote member AL_HepaPegi --whereClause "sequence.subfamily = 'HepaPegi'"
+
+	exit
+
+  ### Pesti-Flavi-like
+  alignment AL_FlaviPesti
 
 	extract child AL_Flavi-like  --refName REF_MASTER_YFV
 	demote member AL_Flavi-like  --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus' or sequence.genus = 'Jingmenvirus'"
@@ -23,20 +28,8 @@
     exit
 
 
-  ### Clade level alignments
+  ### Flavi Clade level 1 alignments
   alignment AL_Flavi-like
-
-	extract child AL_Flavivirus          --refName REF_MASTER_YFV
-	demote member AL_Flavivirus          --whereClause "sequence.genus = 'Flavivirus'"
-
-	extract child AL_Tamanavirus         --refName REF_TABV
-	demote member AL_Tamanavirus         --whereClause "sequence.genus = 'Tamanavirus'" 
-
-	extract child AL_Jingmenvirus_Seg1   --refName REF_JMTV_SEG1
-	demote member AL_Jingmenvirus_Seg1   --whereClause "sequence.clade = 'JMTV1'"
-
-	extract child AL_FlaviTamana         --refName REF_TABV
-	demote member AL_FlaviTamana         --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus'" 
 
 	extract child AL_FlaviTabvJmtv1      --refName REF_JMTV_SEG1
 	demote member AL_FlaviTabvJmtv1      --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus' or sequence.clade = 'JMTV1'" 
@@ -47,7 +40,31 @@
     exit
 
 
-  ### Flavivirus clades
+  ### Flavi Clade level 2 alignments
+  alignment AL_FlaviTabvJmtv1
+
+	extract child AL_Jingmenvirus_Seg1   --refName REF_JMTV_SEG1
+	demote member AL_Jingmenvirus_Seg1   --whereClause "sequence.clade = 'JMTV1'"
+
+	extract child AL_FlaviTamana         --refName REF_TABV
+	demote member AL_FlaviTamana         --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus'" 
+
+    exit
+
+
+  ### Flavi Clade level 3 alignments
+  alignment AL_FlaviTamana
+
+	extract child AL_Flavivirus          --refName REF_MASTER_YFV
+	demote member AL_Flavivirus          --whereClause "sequence.genus = 'Flavivirus'"
+
+	extract child AL_Tamanavirus         --refName REF_TABV
+	demote member AL_Tamanavirus         --whereClause "sequence.genus = 'Tamanavirus'" 
+
+    exit
+
+
+  ### Flavivirus genus subclades
   alignment AL_Flavivirus
 
 	extract child AL_mosquito-2  --refName REF_MASTER_YFV
@@ -93,8 +110,25 @@
 
 
 
+  ### Hepa-Pegi-like
+  alignment AL_HepaPegi 
+  
+	extract child AL_Hepacivirus -r REF_HCV
+	demote member AL_Hepacivirus --whereClause "sequence.genus = 'Hepacivirus'"
+
+	extract child AL_Pegivirus -r REF_HPgV2
+	demote member AL_Pegivirus --whereClause "sequence.genus = 'Pegivirus'"
+	
+    exit
+
+
+
   ### Derive constrained alignment segments from unconstrained alignments  
-  alignment AL_FlaviPesti_MASTER
+  alignment AL_Flaviviridae_MASTER
+    derive segments AL_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_FlaviPesti
     derive segments AL_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
@@ -150,11 +184,9 @@
     derive segments AL_TABV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
-
   alignment AL_Jingmenvirus_Seg1
     derive segments AL_JMTV_SEG1_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
-
 
   alignment AL_Pestivirus
     derive segments AL_PESTI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
@@ -168,6 +200,13 @@
     derive segments AL_PESTI_INSECT_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
+  alignment AL_Pesti-like
+    derive segments AL_PESTI_LIKE_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_HepaPegi
+    derive segments AL_HEPA_PEGI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
 
   alignment AL_Hepacivirus
     derive segments AL_HEPACI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
@@ -176,6 +215,5 @@
   alignment AL_Pegivirus
     derive segments AL_PEGI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
-
 
 
