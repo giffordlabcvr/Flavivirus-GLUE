@@ -15,7 +15,7 @@ project flaviviridae
   # create modules
   run file glue/flaviviridaeModules.glue
 
-  # Import exogenous sources from GenBank and associated data 
+  # Import GenBank sources
   import source sources/ncbi-refseqs/
   run script glue/loadExogenousData.js
   module genbankXmlPopulator populate
