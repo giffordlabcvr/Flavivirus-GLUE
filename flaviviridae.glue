@@ -17,6 +17,8 @@ project flaviviridae
 
   # Import GenBank sources
   import source sources/ncbi-refseqs/
+  
+  # Import sequence-associated data
   run script glue/loadExogenousData.js
   module genbankXmlPopulator populate
 
