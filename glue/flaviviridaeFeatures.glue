@@ -14,7 +14,7 @@ create feature precursor_polyprotein -p whole_genome "Precursor polyprotein"
 feature precursor_polyprotein set field displayName "Precursor polyprotein"
 feature precursor_polyprotein set metatag OWN_CODON_NUMBERING true
 feature precursor_polyprotein set metatag CODES_AMINO_ACIDS true
-feature precursor_polyprotein set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+#feature precursor_polyprotein set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature structural_proteins -p precursor_polyprotein "Structural proteins"
 feature structural_proteins set field displayName "Structural proteins"
