@@ -92,6 +92,9 @@ NC_027709	Spanish goat encephalitis virus	SGEV	Flaviviridae	FlaviPesti	Flaviviru
 NC_001672	Tick-borne encephalitis virus	TBEV	Flaviviridae	FlaviPesti	Flavivirus	Tick		Ixodes	tick	rodents	Neudoerfl	Europe	-
 DQ235151	Turkish sheep encephalitis	TSEV	Flaviviridae	FlaviPesti	Flavivirus	Tick		Ixodes	tick	ungulates	TTE80	Asia	-
 NC_023424	Tyuleniy virus	TYUV	Flaviviridae	FlaviPesti	Flavivirus	Tick		Ixodes	tick	birds	LEIV 6C	Europe	Ixodes uriae
+MK473877	Gammarus chevreuxi flavivirus	GcFV	Flaviviridae	FlaviPesti	Flavivirus	Crustacean		Gammarus	crustacean		-	-	Gammarus chevreuxi
+MK473878	Crangon crangon flavivirus	CcFV	Flaviviridae	FlaviPesti	Flavivirus	Crustacean		Crangon	crustacean		-	-	Crangon crangon
+MK473881	Gammarus pulex flavivirus	GpFV	Flaviviridae	FlaviPesti	Flavivirus	Crustacean		Gammarus	crustacean		-	-	Gammarus pulex
 NC_028137	Macrosiphum euphorbiae virus 1	MEV-1	Flaviviridae	FlaviPesti	Pesti-like	Insect		Macrosiphum	none	none	-	-	Macrosiphum euphorbiae
 NC_028375	Shayang fly virus 4	ShayangFlyV4	Flaviviridae	FlaviPesti	Pesti-like	Insect		Musca	none	none	-	-	Musca domestica
 NC_028373	Shuangao lacewing virus 2 	SLV2	Flaviviridae	FlaviPesti	Pesti-like	Insect		Chrysopida	none	none	-	-	Chrysopidae sp
@@ -112,10 +115,12 @@ NC_018713	Pestivirus strain Aydin/04-TR	Aydin	Flaviviridae	FlaviPesti	Pestivirus
 NC_025677	Norway rat pestivirus	NrPeV	Flaviviridae	FlaviPesti	Pestivirus	J		Rattus	none	none	NrPV/NYC-D23	Americas	Rattus norvegicus
 NC_038964	Atypical porcine pestivirus	APPeV	Flaviviridae	FlaviPesti	Pestivirus	K		Sus	none	none	-	-	-
 MG599984	Nanhai dogfish shark pestivirus	NdsPV	Flaviviridae	FlaviPesti	Pestivirus			unknown	none	none	-	-	-
-MF776369	Cyclopterus lumpus virus	LFLV	Flaviviridae	FlaviPesti	Tamanavirus	TABV		Cyclopterus	none	none	-	-	Cyclopterus lumpus
-MH716818	Eastern red scorpionfish flavivirus	SFLV	Flaviviridae	FlaviPesti	Tamanavirus	TABV		Scorpaena	none	none	-	-	Scorpaena jacksoniensis
+MF776369	Cyclopterus lumpus virus	LFLV	Flaviviridae	FlaviPesti	Tamanavirus			Cyclopterus	none	none	-	-	Cyclopterus lumpus
+MH716818	Eastern red scorpionfish flavivirus	SFLV	Flaviviridae	FlaviPesti	Tamanavirus			Scorpaena	none	none	-	-	Scorpaena jacksoniensis
 NC_003996	Tamana bat virus	TABV	Flaviviridae	FlaviPesti	Tamanavirus	TABV		Pteronotus	none	none	Tr127154	Americas	Pteronotus parnellii
-MG599986	Wenzhou shark flavivirus	SFLV	Flaviviridae	FlaviPesti	Tamanavirus	TABV		Scoliodon	none	none	-	-	Scoliodon macrorhynchos
+MK473875	Southern pygmy squid flavivirus	SpsFV	Flaviviridae	FlaviPesti	Tamanavirus	Squid			none	none			
+MK473880	Firefly squid flavivirus	FfsFV	Flaviviridae	FlaviPesti	Tamanavirus	Squid			none	none			
+MG599986	Wenzhou shark flavivirus	SFLV	Flaviviridae	FlaviPesti	Tamanavirus			Scoliodon	none	none	-	-	Scoliodon macrorhynchos
 NC_004102	Hepatitis C virus	HCV	Flaviviridae	HepaPegi	Hepacivirus	Genotype 1		Homo	none	none	H77		-
 NC_026797	Bovine hepacivirus	BHCV	Flaviviridae	HepaPegi	Hepacivirus			Bos	none	none	GHC25	Africa	Bos taurus
 NC_024889	Equine hepacivirus	EHCV	Flaviviridae	HepaPegi	Hepacivirus			Equus	none	none	-	Asia	Equus caballus

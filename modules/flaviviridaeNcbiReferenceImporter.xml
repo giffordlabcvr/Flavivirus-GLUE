@@ -142,7 +142,6 @@
 	<primaryAccession>MG599996</primaryAccession>
 	<primaryAccession>MG599993</primaryAccession>
 	<primaryAccession>MG599991</primaryAccession>
-	<primaryAccession>U22303</primaryAccession>
 	<primaryAccession>KC145265</primaryAccession>
 	<primaryAccession>KT439329</primaryAccession>
 	<primaryAccession>MG599990</primaryAccession>
@@ -156,6 +155,12 @@
 	<primaryAccession>DQ859067</primaryAccession>
 	<primaryAccession>NC_038964</primaryAccession>
 	<primaryAccession>JF926699</primaryAccession>
+	
+	<primaryAccession>MK473875</primaryAccession>
+	<primaryAccession>MK473877</primaryAccession>
+	<primaryAccession>MK473878</primaryAccession>
+	<primaryAccession>MK473880</primaryAccession>
+	<primaryAccession>MK473881</primaryAccession>
 
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
