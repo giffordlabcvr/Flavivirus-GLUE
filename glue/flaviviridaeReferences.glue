@@ -26,7 +26,7 @@
   create reference REF_SCNV5       ncbi-refseqs NC_024077
 
   ### Pesti-like insect
-  create reference REF_MEV-1       ncbi-refseqs NC_028137
+  create reference REF_SLV2        ncbi-refseqs NC_028373
 
   ### Hepacivirus
   create reference REF_HCV         ncbi-refseqs NC_004102  

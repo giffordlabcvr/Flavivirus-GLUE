@@ -103,8 +103,8 @@
 	extract child AL_PESTI_SCNV5 --refName REF_SCNV5
 	demote member AL_PESTI_SCNV5  --whereClause "sequence.genus = 'Pesti-like' and sequence.clade = 'Nematode'" 
 
-	extract child AL_PESTI_INSECT --refName REF_MEV-1
-	demote member AL_PESTI_INSECT --whereClause "sequence.genus = 'Pesti-like' and sequence.clade = 'Insect'" 
+	extract child AL_PESTINSECT --refName REF_SLV2
+	demote member AL_PESTINSECT --whereClause "sequence.genus = 'Pesti-like' and sequence.clade = 'Insect'" 
 
     exit
 
@@ -196,8 +196,8 @@
     derive segments AL_PESTI_SCNV5_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_Pesti_Insect
-    derive segments AL_PESTI_INSECT_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+  alignment AL_Pestinsect
+    derive segments AL_PESTINSECT_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_Pesti-like
