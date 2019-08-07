@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>FN214523</GBSeq_locus>
+    <GBSeq_length>685</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>EST</GBSeq_division>
+    <GBSeq_update-date>03-NOV-2011</GBSeq_update-date>
+    <GBSeq_create-date>08-JAN-2010</GBSeq_create-date>
+    <GBSeq_definition>FN214523 dmp041cm Endeis spinosa cDNA clone dmp041cmP0003I20 5', mRNA sequence</GBSeq_definition>
+    <GBSeq_primary-accession>FN214523</GBSeq_primary-accession>
+    <GBSeq_accession-version>FN214523.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gnl|dbEST|68559708</GBSeqid>
+      <GBSeqid>emb|FN214523.1|</GBSeqid>
+      <GBSeqid>gi|283538836</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>EST</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Endeis spinosa</GBSeq_source>
+    <GBSeq_organism>Endeis spinosa</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Pycnogonida; Pantopoda; Endeidae; Endeis</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..685</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Meusemann,K.</GBAuthor>
+          <GBAuthor>von Reumont,B.M.</GBAuthor>
+          <GBAuthor>Simon,S.</GBAuthor>
+          <GBAuthor>Roeding,F.</GBAuthor>
+          <GBAuthor>Kueck,P.</GBAuthor>
+          <GBAuthor>Strauss,S.</GBAuthor>
+          <GBAuthor>Ebersberger,I.</GBAuthor>
+          <GBAuthor>Walzl,M.</GBAuthor>
+          <GBAuthor>Pass,G.</GBAuthor>
+          <GBAuthor>Breuers,S.</GBAuthor>
+          <GBAuthor>Achter,V.</GBAuthor>
+          <GBAuthor>von Haeseler,A.</GBAuthor>
+          <GBAuthor>Burmester,T.</GBAuthor>
+          <GBAuthor>Hadrys,H.</GBAuthor>
+          <GBAuthor>Waegele,J.W.</GBAuthor>
+          <GBAuthor>Misof,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Arthropod phylogenies inferred from ESTs</GBReference_title>
+        <GBReference_journal>Unpublished (2010)</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Contact: Beck A~proScience~MPI for Molecular Genetics~Ihnestrasse 73, D-14195 Berlin, GERMANY~The animals were collected with the help of scientists from the Istituto di Scienze Marine, Venice (Italy). Animals were shock-frozen and grinded in liquid nitrogen. Total RNA was extracted as described by Holmes and Bonner (1973) and was further purified using the NucleoSpin RNA II kit (Macherey- Nagel, Dueren, Germany) including a DNase digest. Poly(A)+ RNA was enriched from the total RNA using Dynabeads Oligo(dT)25 (Invitrogen, Carlsbad, USA). EST-Authors: Thorsten Burmester, Falko Roeding ESTs were sequenced within the project 'Molecular Phylogeny of the Arthropoda and the 'Ecdysozoa' Hypothesis' (Thorsten Burmester &amp; Falko Roeding), University of Hamburg, founded by the DFG priority program SPP 1174 'Deep Metazoan Phylogeny'. Library construction and sequencing were performed at the MPI for Molecular Genetics, Berlin, Germany.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..685</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>685</GBInterval_to>
+            <GBInterval_accession>FN214523.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Endeis spinosa</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:136194</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>dmp041cmP0003I20</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>tissue_type</GBQualifier_name>
+            <GBQualifier_value>whole animal</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone_lib</GBQualifier_name>
+            <GBQualifier_value>SAMN00168656 dmp041cm</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>The animals were collected with the help of scientists from the Istituto di Scienze Marine, Venice (Italy). Animals were shock-frozen and grinded in liquid nitrogen. Total RNA was extracted as described by Holmes and Bonner (1973) and was further purified using the NucleoSpin RNA II kit (Macherey-Nagel, Dueren, Germany) including a DNase digest. Poly(A)+ RNA was enriched from the total RNA using Dynabeads Oligo(dT)25 (Invitrogen, Carlsbad, USA). country: Italy:Venice, Lagoon collection_date: Sep-2006</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaatgaaagagactcaacagtggatatggaaacatatcatcaagaaaggcaagaaaccccgtatttgctcacgtgaggaattcaaagaacaagtaagaaatgatgctgcaatcggagcctttataaaagaactaaaattcgaaacggctgaagaagctataaatgacccaatattttgggaaaaagttgaggaagaagaaagattacacgaaaaaggtgaatgtaggttgtgcatatataatataatgggcaagcgggagaagaaatatcactccgagggtgctattaaaggaagtagagctatctggtatatgtggcttggttccaggtacttggaattcaagtatttcggttttctcaaccaggaccactgggtatccagggatatacttgagagtggggtttcccagatccctgtttattacctggggtacatcctcaaggaacttagtgagaaaccaggaatgttctatgccgatgacacagctggctgggataccaagattagtaaagcagaccttgaagacgaaagatcaataacggattttatggaaaagggacaagctgatagagcaagaagattctttgatgtggcttatagtaacaagactatattggttcctagaaatagtggcaaaaaaggaacgtattggatgtggtttctagaagagacagcgagcttccg</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioSample</GBXref_dbname>
+        <GBXref_id>SAMN00168656</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>
