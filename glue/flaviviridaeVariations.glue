@@ -7,10 +7,10 @@ reference REF_MASTER_YFV
       set metatag REGEX_AA_PATTERN PG[SA]GKT
     exit
 
-    #create variation RelaxedWalkerA -t aminoAcidRegexPolymorphism --labeledCodon 200 205
-    #variation RelaxedWalkerA
-    #  set metatag REGEX_AA_PATTERN A\w{4}GKS
-    #exit
+    create variation RelaxedWalkerA -t aminoAcidRegexPolymorphism --labeledCodon 200 205
+    variation RelaxedWalkerA
+      set metatag REGEX_AA_PATTERN A\w{4}GKS
+    exit
 
     create variation NS3M1a -t aminoAcidRegexPolymorphism --labeledCodon 225 235
     variation NS3M1a
