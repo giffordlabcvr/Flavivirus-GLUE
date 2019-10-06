@@ -161,6 +161,13 @@
 	<primaryAccession>MK473878</primaryAccession>
 	<primaryAccession>MK473880</primaryAccession>
 	<primaryAccession>MK473881</primaryAccession>
+	<primaryAccession>KR902737</primaryAccession>
+	<primaryAccession>KR902735</primaryAccession>
+	<primaryAccession>KR902741</primaryAccession>
+	<primaryAccession>MH778148</primaryAccession>
+	<primaryAccession>KR902738</primaryAccession>
+	<primaryAccession>KU754513</primaryAccession>
+	<primaryAccession>MH620810</primaryAccession>
 
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>

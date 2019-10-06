@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>NC_001710</GBSeq_locus>
+    <GBSeq_length>9392</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>13-AUG-2018</GBSeq_update-date>
+    <GBSeq_create-date>27-JAN-1996</GBSeq_create-date>
+    <GBSeq_definition>GB virus C/Hepatitis G virus, complete genome</GBSeq_definition>
+    <GBSeq_primary-accession>NC_001710</GBSeq_primary-accession>
+    <GBSeq_accession-version>NC_001710.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>ref|NC_001710.1|</GBSeqid>
+      <GBSeqid>gnl|NCBI_GENOMES|10705</GBSeqid>
+      <GBSeqid>gi|9628705</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA485481</GBSeq_project>
+    <GBSeq_keywords>
+      <GBKeyword>RefSeq</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>GB virus C (GBV-HGV)</GBSeq_source>
+    <GBSeq_organism>GB virus C</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Pegivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..9392</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Linnen,J.</GBAuthor>
+          <GBAuthor>Wages,J. Jr.</GBAuthor>
+          <GBAuthor>Zhang-Keck,Z.Y.</GBAuthor>
+          <GBAuthor>Fry,K.E.</GBAuthor>
+          <GBAuthor>Krawczynski,K.Z.</GBAuthor>
+          <GBAuthor>Alter,H.</GBAuthor>
+          <GBAuthor>Koonin,E.</GBAuthor>
+          <GBAuthor>Gallagher,M.</GBAuthor>
+          <GBAuthor>Alter,M.</GBAuthor>
+          <GBAuthor>Hadziyannis,S.</GBAuthor>
+          <GBAuthor>Karayiannis,P.</GBAuthor>
+          <GBAuthor>Fung,K.</GBAuthor>
+          <GBAuthor>Nakatsuji,Y.</GBAuthor>
+          <GBAuthor>Shih,J.W.</GBAuthor>
+          <GBAuthor>Young,L.</GBAuthor>
+          <GBAuthor>Piatak,M. Jr.</GBAuthor>
+          <GBAuthor>Hoover,C.</GBAuthor>
+          <GBAuthor>Fernandez,J.</GBAuthor>
+          <GBAuthor>Chen,S.</GBAuthor>
+          <GBAuthor>Zou,J.C.</GBAuthor>
+          <GBAuthor>Morris,T.</GBAuthor>
+          <GBAuthor>Hyams,K.C.</GBAuthor>
+          <GBAuthor>Ismay,S.</GBAuthor>
+          <GBAuthor>Lifson,J.D.</GBAuthor>
+          <GBAuthor>Hess,G.</GBAuthor>
+          <GBAuthor>Foung,S.K.</GBAuthor>
+          <GBAuthor>Thomas,H.</GBAuthor>
+          <GBAuthor>Bradley,D.</GBAuthor>
+          <GBAuthor>Margolis,H.</GBAuthor>
+          <GBAuthor>Kim,J.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular cloning and disease association of hepatitis G virus: a transfusion-transmissible agent</GBReference_title>
+        <GBReference_journal>Science 271 (5248), 505-508 (1996)</GBReference_journal>
+        <GBReference_pubmed>8560265</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..9392</GBReference_position>
+        <GBReference_consortium>NCBI Genome Project</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-AUG-2000) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..9392</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Linnen,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (02-JAN-1996) Jeff Linnen, Genelabs Technologies, Inc., 505 Penobscot Dr., Redwood City, CA 94063, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence was derived from U44402.; Corresponding author for this submission is Jungsuh P. Kim.; COMPLETENESS: full length.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..9392</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>9392</GBInterval_to>
+            <GBInterval_accession>NC_001710.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>GB virus C</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:54290</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>459..9080</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>459</GBInterval_from>
+            <GBInterval_to>9080</GBInterval_to>
+            <GBInterval_accession>NC_001710.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>HGV1gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:2700757</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>459..9080</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>459</GBInterval_from>
+            <GBInterval_to>9080</GBInterval_to>
+            <GBInterval_accession>NC_001710.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>HGV1gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Unless indicated otherwise, the putative polyprotein processing products were predicted with variable level of confidence based on sequence similarity with those of Hepatitis C virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein precursor</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>NP_043570.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:2700757</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGPPSSAAACSRGSPRILRVRAGGISFFYTIMAVLLLLLVVEAGAILAPATHACRANGQYFLTNCCAPEDIGFCLEGGCLVALGCTICTDQCWPLYQAGLAVRPGKSAAQLVGELGSLYGPLSVSAYVAGILGLGEVYSGVLTVGVALTRRVYPVPNLTCAVACELKWESEFWRWTEQLASNYWILEYLWKVPFDFWRGVISLTPLLVCVAALLLLEQRIVMVFLLVTMAGMSQGAPASVLGSRPFDYGLTWQTCSCRANGSRFSTGEKVWDRGNVTLQCDCPNGPWVWLPAFCQAIGWGDPITYWSHGQNQWPLSCPQYVYGSATVTCVWGSASWFASTSGRDSKIDVWSLVPVGSATCTIAALGSSDRDTVPGLSEWGIPCVTCVLDRRPASCGTCVRDCWPETGSVRFPFHRCGVGPRLTKDLEAVPFVNRTTPFTIRGPLGNQGRGNPVRSPLGFGSYAMTRIRDTLHLVECPTPAIEPPTGTFGFFPGTPPLNNCMLLGTEVSEALGGAGLTGGFYEPLVRRCSKLMGSRNPVCPGFAWLSSGRPDGFIHVQGHLQEVDAGNFIPPPRWLLLDFVFVLLYLMKLAEARLVPLILLLLWWWVNQLAVLGLPAVEAAVAGEVFAGPALSWCLGLPVVSMILGLANLVLYFRWLGPQRLMFLVLWKLARGAFPLALLMGISATRGRTSVLGAEFCFDATFEVDTSVLGWVVASVVAWAIALLSSMSAGGWRHKAVIYRTWCKGYQAIRQRVVRSPLGEGRPAKPLTFAWCLASYIWPDAVMMVVVALVLLFGLFDALDWALEEILVSRPSLRRLARVVECCVMAGEKATTVRLVSKMCARGAYLFDHMGSFSRAVKERLLEWDAALEPLSFTRTDCRIIRDAARTLSCGQCVMGLPVVARRGDEVLIGVFQDVNHLPPGFVPTAPVVIRRCGKGFLGVTKAALTGRDPDLHPGNVMVLGTATSRSMGTCLNGLLFTTFHGASSRTIATPVGALNPRWWSASDDVTVYPLPDGATSLTPCTCQAESCWVIRSDGALCHGLSKGDKVELDVAMEVSDFRGSSGSPVLCDEGHAVGMLVSVLHSGGRVTAARFTRPWTQVPTDAKTTTEPPPVPAKGVFKEAPLFMPTGAGKSTRVPLEYDNMGHKVLILNPSVATVRAMGPYMERLAGKHPSIYCGHDTTAFTRITDSPLTYSTYGRFLANPRQMLRGVSVVICDECHSHDSTVLLGIGRVRELARGCGVQLVLYATATPPGSPMTQHPSIIETKLDVGEIPFYGHGIPLERMRTGRHLVFCHSKAECERLAGQFSARGVNAIAYYRGKDSSIIKDGDLVVCATDALSTGYTGNFDSVTDCGLVVEEVVEVTLDPTITISLRTVPASAELSMQRRGRTGRGRSGRYYYAGVGKAPAGVVRSGPVWSAVEAGVTWYGMEPDLTANLLRLYDDCPYTAAVAADIGEAAVFFSGLAPLRMHPDVSWAKVRGVNWPLLVGVQRTMCRETLSPGPSDDPQWAGLKGPNPVPLLLRWGNDLPSKVAGHHIVDDLVRRLGVAEGYVRCDAGPILMIGLAIAGGMIYASYTGSLVVVTDWDVKGGGAPLYRHGDQATPQPVVQVPPVDHRPGGESAPSDAKTVTDAVAAIQVDCDWTIMTLSIGEVLSLAQAKTAEAYTATAKWLAGCYTGTRAVPTVSIVDKLFAGGWAAVVGHCHSVIAAAVAAYGASRSPPLAAAASYLMGLGVGGNAQTRLASALLLGAAGTALGTPVVGLTMAGAFMGGASVSPSLVTILLGAVGGWEGVVNAASLVFDFMAGKLSSEDLWYAIPVLTSPGAGLAGIALGLVLYSANNSGTTTWLNRLLTTLPRSSCIPDSYFQQVDYCDKVSAVLRRLSLTRTVVALVNREPKVDEVQVGYVWDLWEWIMRQVRVVMARLRALCPVVSLPLWHCGEGWSGEWLLDGHVESRCLCGCVITGDVLNGQLKEPVYSTKLCRHYWMGTVPVNMLGYGETSPLLASDTPKVVPFGTSGWAEVVVTTTHVVIRRTSAYKLLRQQILSAAVAEPYYVDGIPVSWDADARAPAMVYGPGQSVTIDGERYTLPHQLRLRNVAPSEVSSEVSIDIGTETEDSELTEADLPPAAAALQAIENAARILEPHIDVIMEDCSTPSLCGSSREMPVWGEDIPRTPSPALISVTESSSDEKTPSVSSSQEDTPSSDSFEVIQESETAEGEESVFNVALSVLKALFPQSDATRKLTVKMSCCVEKSVTRFFSLGLTVADVASLCEMEIQNHTAYCDQVRTPLELQVGCLVGNELTFECDKCEARQETLASFSYIWSGVPLTRATPAKPPVVRPVGSLLVADTTKVYVTNPDNVGRRVDKVTFWRAPRVHDKYLVDSIERAKRAAQACLSMGYTYEEAIRTVRPHAAMGWGSKVSVKDLATPAGKMAVHDRLQEILEGTPVPFTLTVKKEVFFKDRKEEKAPRLIVFPPLDFRIAEKLILGDPGRVAKAVLGGAYAFQYTPNQRVKEMLKLWESKKTPCAICVDATCFDSSITEEDVALETELYALASDHPEWVRALGKYYASGTMVTPEGVPVGERYCRSSGVLTTSASNCLTCYIKVKAACERVGLKNVSLLIAGDDCLIICERPVCDPSDALGRALASYGYACEPSYHASLDTAPFCSTWLAECNADGKRHFFLTTDFRRPLARMSSEYSDPMASAIGYILLYPWHPITRWVIIPHVLTCAFRGGGTPSDPVWCQVHGNYYKFPLDKLPNIIVALHGPAALRVTADTTKTKMEAGKVLSDLKLPGLAVHRKKAGALRTRMLRSRGWAELARGLLWHPGLRLPPPEIAGIPGGFPLSPPYMGVVHQLDFTSQRSRWRWLGFLALLIVALFG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>459..&gt;1538</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>459</GBInterval_from>
+            <GBInterval_to>1538</GBInterval_to>
+            <GBInterval_accession>NC_001710.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>HGV1gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative E1 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>non-experimental evidence, no additional details recorded</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>NP_803202.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>MGPPSSAAACSRGSPRILRVRAGGISFFYTIMAVLLLLLVVEAGAILAPATHACRANGQYFLTNCCAPEDIGFCLEGGCLVALGCTICTDQCWPLYQAGLAVRPGKSAAQLVGELGSLYGPLSVSAYVAGILGLGEVYSGVLTVGVALTRRVYPVPNLTCAVACELKWESEFWRWTEQLASNYWILEYLWKVPFDFWRGVISLTPLLVCVAALLLLEQRIVMVFLLVTMAGMSQGAPASVLGSRPFDYGLTWQTCSCRANGSRFSTGEKVWDRGNVTLQCDCPNGPWVWLPAFCQAIGWGDPITYWSHGQNQWPLSCPQYVYGSATVTCVWGSASWFASTSGRDSKIDVWSLVPVGSATC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;1539..&gt;2474</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1539</GBInterval_from>
+            <GBInterval_to>2474</GBInterval_to>
+            <GBInterval_accession>NC_001710.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>HGV1gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative E2 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>non-experimental evidence, no additional details recorded</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>NP_803203.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>TIAALGSSDRDTVPGLSEWGIPCVTCVLDRRPASCGTCVRDCWPETGSVRFPFHRCGVGPRLTKDLEAVPFVNRTTPFTIRGPLGNQGRGNPVRSPLGFGSYAMTRIRDTLHLVECPTPAIEPPTGTFGFFPGTPPLNNCMLLGTEVSEALGGAGLTGGFYEPLVRRCSKLMGSRNPVCPGFAWLSSGRPDGFIHVQGHLQEVDAGNFIPPPRWLLLDFVFVLLYLMKLAEARLVPLILLLLWWWVNQLAVLGLPAVEAAVAGEVFAGPALSWCLGLPVVSMILGLANLVLYFRWLGPQRLMFLVLWKLARG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;2475..3233</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2475</GBInterval_from>
+            <GBInterval_to>3233</GBInterval_to>
+            <GBInterval_accession>NC_001710.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>HGV1gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative protein p7-NS2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>C-terminal cleavage site was determined experimentally</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>NP_803204.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>AFPLALLMGISATRGRTSVLGAEFCFDATFEVDTSVLGWVVASVVAWAIALLSSMSAGGWRHKAVIYRTWCKGYQAIRQRVVRSPLGEGRPAKPLTFAWCLASYIWPDAVMMVVVALVLLFGLFDALDWALEEILVSRPSLRRLARVVECCVMAGEKATTVRLVSKMCARGAYLFDHMGSFSRAVKERLLEWDAALEPLSFTRTDCRIIRDAARTLSCGQCVMGLPVVARRGDEVLIGVFQDVNHLPPGFVPT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>3234..&gt;5111</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>3234</GBInterval_from>
+            <GBInterval_to>5111</GBInterval_to>
+            <GBInterval_accession>NC_001710.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>HGV1gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS3 proteinase/ATPase/helicase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>experiment</GBQualifier_name>
+            <GBQualifier_value>experimental evidence, no additional details recorded</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>N-terminus has been determined by direct sequencing</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>NP_803205.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>APVVIRRCGKGFLGVTKAALTGRDPDLHPGNVMVLGTATSRSMGTCLNGLLFTTFHGASSRTIATPVGALNPRWWSASDDVTVYPLPDGATSLTPCTCQAESCWVIRSDGALCHGLSKGDKVELDVAMEVSDFRGSSGSPVLCDEGHAVGMLVSVLHSGGRVTAARFTRPWTQVPTDAKTTTEPPPVPAKGVFKEAPLFMPTGAGKSTRVPLEYDNMGHKVLILNPSVATVRAMGPYMERLAGKHPSIYCGHDTTAFTRITDSPLTYSTYGRFLANPRQMLRGVSVVICDECHSHDSTVLLGIGRVRELARGCGVQLVLYATATPPGSPMTQHPSIIETKLDVGEIPFYGHGIPLERMRTGRHLVFCHSKAECERLAGQFSARGVNAIAYYRGKDSSIIKDGDLVVCATDALSTGYTGNFDSVTDCGLVVEEVVEVTLDPTITISLRTVPASAELSMQRRGRTGRGRSGRYYYAGVGKAPAGVVRSGPVWSAVEAGVTWYGMEPDLTANLLRLYDDCPYTAAVAADIGEAAVFFSGLAPLRMHPDVSWAKVRGVNWPLLVGVQRTMCRETLSPGPSDDPQWAGLKGPNPVPLLLRWGNDLPSKVAGHHIVDDLVRRLGVAEGYVRC</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;5112..&gt;5309</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>5112</GBInterval_from>
+            <GBInterval_to>5309</GBInterval_to>
+            <GBInterval_accession>NC_001710.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>HGV1gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative NS4A protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>non-experimental evidence, no additional details recorded</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>HCV NS4A is a cofactor for NS3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>NP_803206.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>DAGPILMIGLAIAGGMIYASYTGSLVVVTDWDVKGGGAPLYRHGDQATPQPVVQVPPVDHRPGGES</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;5310..6152</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>5310</GBInterval_from>
+            <GBInterval_to>6152</GBInterval_to>
+            <GBInterval_accession>NC_001710.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>HGV1gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative NS4B protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>experiment</GBQualifier_name>
+            <GBQualifier_value>experimental evidence, no additional details recorded</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>C-terminus was determined experimantally</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>NP_803207.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>APSDAKTVTDAVAAIQVDCDWTIMTLSIGEVLSLAQAKTAEAYTATAKWLAGCYTGTRAVPTVSIVDKLFAGGWAAVVGHCHSVIAAAVAAYGASRSPPLAAAASYLMGLGVGGNAQTRLASALLLGAAGTALGTPVVGLTMAGAFMGGASVSPSLVTILLGAVGGWEGVVNAASLVFDFMAGKLSSEDLWYAIPVLTSPGAGLAGIALGLVLYSANNSGTTTWLNRLLTTLPRSSCIPDSYFQQVDYCDKVSAVLRRLSLTRTVVALVNREPKVDEVQVG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;6153..&gt;7388</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>6153</GBInterval_from>
+            <GBInterval_to>7388</GBInterval_to>
+            <GBInterval_accession>NC_001710.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>HGV1gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative NS5A protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>experiment</GBQualifier_name>
+            <GBQualifier_value>experimental evidence, no additional details recorded</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>N-terminus has been determined by direct sequencing</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>NP_803208.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>YVWDLWEWIMRQVRVVMARLRALCPVVSLPLWHCGEGWSGEWLLDGHVESRCLCGCVITGDVLNGQLKEPVYSTKLCRHYWMGTVPVNMLGYGETSPLLASDTPKVVPFGTSGWAEVVVTTTHVVIRRTSAYKLLRQQILSAAVAEPYYVDGIPVSWDADARAPAMVYGPGQSVTIDGERYTLPHQLRLRNVAPSEVSSEVSIDIGTETEDSELTEADLPPAAAALQAIENAARILEPHIDVIMEDCSTPSLCGSSREMPVWGEDIPRTPSPALISVTESSSDEKTPSVSSSQEDTPSSDSFEVIQESETAEGEESVFNVALSVLKALFPQSDATRKLTVKMSCCVEKSVTRFFSLGLTVADVASLCEMEIQNHTAYCDQVRTPLELQVGCLVGNELTFECDKCEARQETLA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mat_peptide</GBFeature_key>
+        <GBFeature_location>&lt;7389..9077</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>7389</GBInterval_from>
+            <GBInterval_to>9077</GBInterval_to>
+            <GBInterval_accession>NC_001710.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>HGV1gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative NS5B RNA-dependent RNA polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>non-experimental evidence, no additional details recorded</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>NP_803209.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>peptide</GBQualifier_name>
+            <GBQualifier_value>SFSYIWSGVPLTRATPAKPPVVRPVGSLLVADTTKVYVTNPDNVGRRVDKVTFWRAPRVHDKYLVDSIERAKRAAQACLSMGYTYEEAIRTVRPHAAMGWGSKVSVKDLATPAGKMAVHDRLQEILEGTPVPFTLTVKKEVFFKDRKEEKAPRLIVFPPLDFRIAEKLILGDPGRVAKAVLGGAYAFQYTPNQRVKEMLKLWESKKTPCAICVDATCFDSSITEEDVALETELYALASDHPEWVRALGKYYASGTMVTPEGVPVGERYCRSSGVLTTSASNCLTCYIKVKAACERVGLKNVSLLIAGDDCLIICERPVCDPSDALGRALASYGYACEPSYHASLDTAPFCSTWLAECNADGKRHFFLTTDFRRPLARMSSEYSDPMASAIGYILLYPWHPITRWVIIPHVLTCAFRGGGTPSDPVWCQVHGNYYKFPLDKLPNIIVALHGPAALRVTADTTKTKMEAGKVLSDLKLPGLAVHRKKAGALRTRMLRSRGWAELARGLLWHPGLRLPPPEIAGIPGGFPLSPPYMGVVHQLDFTSQRSRWRWLGFLALLIVALFG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acgtgggggagttgatcccccccccccggcactgggtgcaagccccagaaaccgacgcctatctaagtagacgcaatgactcggcgccgactcggcgaccggccaaaaggtggtggatgggtgatgacagggttggtaggtcgtaaatcccggtcaccttggtagccactataggtgggtcttaagagaaggttaagattcctcttgtgcctgcggcgagaccgcgcacggtccacaggtgttggccctaccggtgggaataagggcccgacgtcaggctcgtcgttaaaccgagcccgttacccacctgggcaaacgacgcccacgtacggtccacgtcgcccttcaatgtctctcttgaccaataggcgtagccggcgagttgacaaggaccagtgggggccgggggcttggagagggactccaagtcccgcccttcccggtgggccgggaaatgcatggggccacccagctccgcggcggcctgcagccggggtagcccaagaatccttcgggtgagggcgggtggcatttcctttttctataccatcatggcagtccttctgctccttctcgtggttgaggccggggccattctggccccggccacccacgcttgtcgagcgaatgggcaatatttcctcacaaattgttgtgccccggaggacatcgggttctgcctggagggtggatgcctggtggccctggggtgcacgatttgcactgaccaatgctggccactgtatcaggcgggtttggctgtgcggcctggcaagtccgcggcccaactggtgggggagctgggtagcctatacgggcccctgtcggtctcggcctatgtggctgggatcctgggcctgggtgaggtgtactcgggtgtcctaacggtgggagtcgcgttgacgcgccgggtctacccggtgcctaacctgacgtgtgcagtcgcgtgtgagctaaagtgggaaagtgagttttggagatggactgaacagctggcctccaactactggattctggaatacctctggaaggtcccatttgatttctggagaggcgtgataagcctgacccccttgttggtttgcgtggccgcattgctgctgcttgagcaacggattgtcatggtcttcctgttggtgacgatggccgggatgtcgcaaggcgcccctgcctccgttttggggtcacgcccctttgactacgggttgacttggcagacctgctcttgcagggccaacggttcgcgtttttcgactggggagaaggtgtgggaccgtgggaacgttacgcttcagtgtgactgccctaacggcccctgggtgtggttgccagccttttgccaagcaatcggctggggtgaccccatcacttattggagccacgggcaaaatcagtggcccctttcatgcccccagtatgtctatgggtctgctacagtcacttgcgtgtggggttccgcttcttggtttgcctccaccagtggtcgcgactcgaagatagatgtgtggagtttagtgccagttggctctgccacctgcaccatagccgcacttggatcatcggatcgcgacacggtgcctgggctctccgagtggggaatcccgtgcgtgacgtgtgttctggaccgtcggcctgcctcctgcggcacctgtgtgagggactgctggcccgagaccgggtcggttaggttcccattccatcggtgcggcgtggggcctcggctgacaaaggacttggaagctgtgcccttcgtcaacaggacaactcccttcaccattagggggcccctgggcaaccagggccgaggcaacccggtgcggtcgcccttgggttttgggtcctacgccatgaccaggatccgagataccctacatctggtggagtgtcccacaccagccattgagcctcccaccgggacgtttgggttcttccccgggacgccgcctctcaacaactgcatgctcttgggcacggaagtgtccgaggcacttgggggggctggcctcacgggggggttctatgaacccctggtgcgcaggtgttcgaagctgatgggaagccgaaatccggtttgtccggggtttgcatggctctcttcgggcaggcctgatgggtttatacatgtccagggtcacttgcaggaggtggatgcaggcaacttcatcccgcccccgcgctggttgctcttggactttgtatttgtcctgttatacctgatgaagctggctgaggcacggttggtcccgctgatcttgctgctgctatggtggtgggtgaaccagctggcagtcctagggctgccggctgtggaagccgccgtggcaggtgaggtcttcgcgggccctgccctgtcctggtgtctgggactcccggtcgtcagtatgatattgggtttggcaaacctggtgctgtactttagatggttgggaccccaacgcctgatgttcctcgtgttgtggaagcttgctcggggagctttcccgctggccctcttgatggggatttcggcgacccgcgggcgcacctcagtgctcggggccgagttctgcttcgatgctacattcgaggtggacacttcggtgttgggctgggtggtggccagtgtggtagcttgggccattgcgctcctgagctcgatgagcgcaggggggtggaggcacaaagccgtgatctataggacgtggtgtaaggggtaccaggcaatccgtcaaagggtggtgaggagccccctcggggaggggcggcctgccaaacccctgacctttgcctggtgcttggcctcgtacatctggccagatgctgtgatgatggtggtggttgccttggtccttctctttggcctgttcgacgcgttggattgggccttggaggagatcttggtgtcccggccctcgttgcggcgtttggctcgggtggttgagtgctgtgtgatggcgggtgagaaggccacaaccgtccggctggtctccaagatgtgtgcgagaggagcttatttgttcgatcatatgggctctttttcgcgtgctgtcaaggagcgcctgttggaatgggacgcagctcttgaacctctgtcattcactaggacggactgtcgcatcatacgggatgccgcgaggactttgtcctgcgggcagtgcgtcatgggtttacccgtggttgcgcgccgtggtgatgaggttctcatcggcgtcttccaggatgtgaatcatttgcctcccgggtttgttccgaccgcgcctgttgtcatccgacggtgcggaaagggcttcttgggggtcacaaaggctgccttgacaggtcgggatcctgacttacatccagggaacgtcatggtgttggggacggctacgtcgcgaagcatgggaacatgcttgaacggcctgctgttcacgaccttccatggggcttcatcccgaaccatcgccacacccgtgggggcccttaatcccagatggtggtcagccagtgatgatgtcacggtgtatccactcccggatggggctacttcgttaacaccttgtacttgccaggctgagtcctgttgggtcatcagatccgacggggccctatgccatggcttgagcaagggggacaaggtggagctggatgtggccatggaggtctctgacttccgtggctcgtctggctcaccggtcctatgtgacgaagggcacgcagtaggaatgctcgtgtctgtgcttcactccggtggtagggtcaccgcggcacggttcactaggccgtggacccaagtgccaacagatgccaaaaccactactgaaccccctccggtgccggccaaaggagttttcaaagaggccccgttgtttatgcctacgggagcgggaaagagcactcgcgtcccgttggagtacgataacatggggcacaaggtcttaatcttgaacccctcagtggccactgtgcgggccatgggcccgtacatggagcggctggcgggtaaacatccaagtatatactgtgggcatgatacaactgctttcacaaggatcactgactcccccctgacgtattcaacctatgggaggtttttggccaaccctaggcagatgctacggggcgtttcggtggtcatttgtgatgagtgccacagtcatgactcaaccgtgctgttaggcattgggagagtccgggagctggcgcgtgggtgcggggtgcaactagtgctctacgccaccgctacacctcccggatcccctatgacgcagcacccttccataattgagacaaaattggacgtgggcgagattcccttttatgggcatggaatacccctcgagcggatgcgaaccggaaggcacctcgtgttctgccattctaaggctgagtgcgagcgccttgctggccagttctccgctaggggggtcaatgccattgcctattataggggtaaagacagttctatcatcaaggatggggacctggtggtctgtgctacagacgcgctttccactgggtacactggaaatttcgactccgtcaccgactgtggattagtggtggaggaggtcgttgaggtgacccttgatcccaccattaccatctccctgcggacagtgcctgcgtcggctgaactgtcgatgcaaagacgaggacgcacgggtaggggcaggtctggacgctactactacgcgggggtgggcaaagcccctgcgggtgtggtgcgctcaggtcctgtctggtcggcggtggaagctggagtgacctggtacggaatggaacctgacttgacagctaacctactgagactttacgacgactgcccttacaccgcagccgtcgcggctgatatcggagaagccgcggtgttcttctctgggctcgccccattgaggatgcaccctgatgtcagctgggcaaaagttcgcggcgtcaactggcccctcttggtgggtgttcagcggaccatgtgtcgggaaacactgtctcccggcccatcggatgacccccaatgggcaggtctgaagggcccaaatcctgtcccactcctgctgaggtggggcaatgatttaccatctaaagtggccggccaccacatagtggacgacctggtccggagactcggtgtggcggagggttacgtccgctgcgacgctgggccgatcttgatgatcggtctagctatcgcggggggaatgatctacgcgtcatacaccgggtcgctagtggtggtgacagactgggatgtgaaggggggtggcgcccccctttatcggcatggagaccaggccacgcctcagccggtggtgcaggttcctccggtagaccatcggccggggggtgaatcagcaccatcggatgccaagacagtgacagatgcggtggcagccatccaggtggactgcgattggactatcatgactctgtcgatcggagaagtgttgtccttggctcaggctaagacggccgaggcctacacagcaaccgccaagtggctcgctggctgctatacggggacgcgggccgttcccactgtatccattgttgacaagctcttcgccggagggtgggcggctgtggtgggccattgccacagcgtgattgctgcggcggtggcggcctacggggcttcaaggagcccgccgttggcagccgcggcttcctacctgatggggttgggcgttggaggcaacgctcagacgcgcctggcgtctgccctcctattgggggctgctggaaccgccttgggcactcctgtcgtgggcttgaccatggcaggtgcgttcatggggggggccagtgtctccccctccttggtcaccattttattgggggccgtcggaggttgggagggtgttgtcaacgcggcgagcctagtctttgacttcatggcggggaaactttcatcagaagatctgtggtatgccatcccggtactgaccagcccgggggcgggccttgcggggatcgctctcgggttggttttgtattcagctaacaactctggcactaccacttggttgaaccgtctgctgactacgttaccaaggtcttcatgtatcccggacagttactttcagcaagttgactattgcgacaaggtctcagccgtgctccggcgcctgagcctcacccgcacagtggttgccctggtcaacagggagcctaaggtggatgaggtacaggtggggtatgtctgggacctgtgggagtggatcatgcgccaagtgcgcgtggtcatggccagactcagggccctctgccccgtggtgtcactacccttgtggcattgcggggaggggtggtccggggaatggttgcttgacggtcatgttgagagtcgctgcctctgtggctgcgtgatcactggtgacgttctgaatgggcaactcaaagaaccagtttactctaccaagctgtgccggcactattggatggggactgtccctgtgaacatgctgggttacggtgaaacgtcgcctctcctggcctccgacaccccgaaggttgtgcccttcgggacgtctggctgggctgaggtggtggtgaccactacccacgtggtaatcaggaggacctccgcctataagctgctgcgccagcaaatcctatcggctgctgtagctgagccctactacgtcgacggcattccggtctcatgggacgcggacgctcgtgcgcccgccatggtctatggccctgggcaaagtgttaccattgacggggagcgctacaccttgcctcatcaactgaggctcaggaatgtggcaccctctgaggtttcatccgaggtgtccattgacattgggacggagactgaagactcagaactgactgaggccgatctgccgccggcggctgctgctctccaagcgatcgagaatgctgcgaggattcttgaaccgcacattgatgtcatcatggaggactgcagtacaccctctctttgtggtagtagccgagagatgcctgtatggggagaagacatcccccgtactccatcgccagcacttatctcggttactgagagcagctcagatgagaagaccccgtcggtgtcctcctcgcaggaggataccccgtcctctgactcattcgaggtcatccaagagtccgagacagccgaaggggaggaaagtgtcttcaacgtggctctttccgtattaaaagccttatttccacagagcgacgcgaccaggaagcttaccgtcaagatgtcgtgctgcgttgaaaagagcgtcacgcgctttttctcattggggttgacggtggctgatgttgctagcctgtgtgagatggaaatccagaaccatacagcctattgtgaccaggtgcgcactccgcttgaattgcaggttgggtgcttggtgggcaatgaacttacctttgaatgtgacaagtgtgaggctaggcaagaaaccttggcctccttctcttacatttggtctggagtgccgctgactagggccacgccggccaagcctcccgtggtgaggccggttggctctttgttagtggccgacactactaaggtgtatgttaccaatccagacaatgtgggacggagggtggacaaggtgaccttctggcgtgctcctagggttcatgataagtacctcgtggactctattgagcgcgctaagagggccgctcaagcctgcctaagcatgggttacacttatgaggaagcaataaggactgtaaggccacatgctgccatgggctggggatctaaggtgtcggttaaggacttagccacccccgcggggaagatggccgtccatgaccggcttcaggagatacttgaagggactccggtcccctttactcttactgtgaaaaaggaggtgttcttcaaagaccggaaggaggagaaggccccccgcctcattgtgttcccccccctggacttccggatagctgaaaagctcatcttgggagacccaggccgggtagccaaggcggtgttggggggggcctacgccttccagtacaccccaaatcagcgagttaaggagatgctcaagctatgggagtctaagaagaccccttgcgccatctgtgtggacgccacctgcttcgacagtagcataactgaagaggacgtggctttggagacagagctatacgctctggcctctgaccatccagaatgggtgcgggcacttgggaaatactatgcctcaggcaccatggtcaccccggaaggggtgcccgtcggtgagaggtattgcagatcctcgggtgtcctaacaactagcgcgagcaactgcttgacctgctacatcaaggtgaaagctgcctgtgagagagtggggctgaaaaatgtctctcttctcatagccggcgatgactgcttgatcatatgtgagcggccagtgtgcgacccaagcgacgctttgggcagagccctagcgagctatgggtacgcgtgcgagccctcatatcatgcatcattggacacggcccccttctgctccacttggcttgctgagtgcaatgcagatgggaagcgccatttcttcctgaccacggacttccggaggccgctcgctcgcatgtcgagtgagtatagtgacccgatggcttcggcgatcggttacatcctcctttatccttggcaccccatcacacggtgggtcatcatccctcatgtgctaacgtgcgcattcaggggtggaggcacaccgtctgatccggtttggtgccaggtgcatggtaactactacaagtttccactggacaaactgcctaacatcatcgtggccctccacggaccagcagcgttgagggttaccgcagacacaactaaaacaaagatggaggctggtaaggttctgagcgacctcaagctccctggcttagcagtccaccgaaagaaggccggggcgttgcgaacacgcatgctccgctcgcgcggttgggctgagttggctaggggcttgttgtggcatccaggcctacggcttcctccccctgagattgctggtatcccggggggtttccctctctcccccccctatatgggggtggtacatcaattggatttcacaagccagaggagtcgctggcggtggttggggttcttagccctgctcatcgtagccctcttcgggtgaactaaattcatctgttgcggcaaggtctggtgactgatcatcaccggaggaggttcccgccctccccgccccaggggtctccccgctgggtaaaaagggcccggccttgggaggcatggtggttactaaccccctggcagggtcaaagcctgatggtgctaatgcactgccacttcggtggcgggtcgctaccttatagcgtaatccgtgactacgggctgctcgcagagccctccccggatggggcacagtgcactgtgatctgaaggggtgcaccccgggaagagctcggcccgaaggccggsttctact</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA485481</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>
