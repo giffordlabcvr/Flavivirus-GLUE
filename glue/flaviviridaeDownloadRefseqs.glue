@@ -2,3 +2,5 @@ create module -f modules/flaviviridaeNcbiReferenceImporter.xml ncbiImporter
 
 # Download NCBI sequences 
 module ncbiImporter import
+
+export source ncbi-refseqs
