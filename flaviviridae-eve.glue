@@ -1,0 +1,49 @@
+project flaviviridae
+
+  # Delete previous extension build
+  run file glue/efvDeleteExtension.glue  
+  exit
+  
+  # Delete schema extensions
+  schema-project flaviviridae
+	delete custom-table endogenous_data
+	delete link sequence endogenous_data
+	exit
+
+schema-project flaviviridae
+  run file glue/efvSchemaExtensions.glue
+  exit
+  
+project flaviviridae
+
+  run file glue/efvModules.glue
+
+  # Import EVE fasta
+  run file glue/efvImportSources.glue
+
+  # Import metadata for exogenous reference sequences from tabular
+  module efvSideDataImporter 
+    populate -f tabular/efv-side-data.tsv
+    exit
+
+  # Import efv sequences and side data
+  run script glue/loadEndogenousData1.js
+  run script glue/loadEndogenousData2.js
+
+  # Create references
+  run file glue/efvReferences.glue
+
+  # Add feature locations to reference sequences
+  module featureLocationTextToGlue transform tabular/efv-reference_feature_locations.tsv -r
+
+  # Import alignments
+  run file glue/efvAlignments.glue
+  
+  # Merge into alignment tree
+  run file glue/efvAlignmentTree.glue
+
+  # Validate
+  validate
+
+  exit
+

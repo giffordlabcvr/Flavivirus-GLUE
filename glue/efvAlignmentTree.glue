@@ -1,0 +1,20 @@
+
+alignment AL_PESTINSECT add member --whereClause "sequenceID = 'EFV-Pestinsect.3-Ceratina-con'"
+compute alignment AL_PESTINSECT  --whereClause "sequence.sequenceID = 'EFV-Pestinsect.3-Ceratina-con'" flavivirusCompoundAligner 
+
+### Major subclade alignments
+alignment AL_PESTINSECT
+  extract child AL_EFV_Pestinsect3 -r REF_EFV_PI3_Ceratina
+  exit
+
+### Compute alignments
+alignment AL_EFV_Pestinsect3 add member --whereClause "source.name = 'ceratina-rescreen'"
+alignment AL_EFV_Pestinsect3 add member --whereClause "source.name = 'dufourea-rescreen'"
+alignment AL_EFV_Pestinsect3 add member --whereClause "source.name = 'eufresia-rescreen'"
+alignment AL_EFV_Pestinsect3 add member --whereClause "source.name = 'lasioglossum-rescreen'"
+alignment AL_EFV_Pestinsect3 add member --whereClause "source.name = 'habropoda-rescreen'"
+alignment AL_EFV_Pestinsect3 add member --whereClause "source.name = 'nomia-rescreen'"
+alignment AL_EFV_Pestinsect3 add member --whereClause "source.name = 'osmia-rescreen'"
+
+compute alignment AL_EFV_Pestinsect3 flavivirusCompoundAligner 
+
