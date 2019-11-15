@@ -91,6 +91,9 @@
  	extract child AL_NKV2        --refName REF_SOKV
 	demote member AL_NKV2        --whereClause "sequence.clade = 'NKV2'" 
 
+ 	extract child AL_crustacean  --refName REF_ccCFV
+	demote member AL_crustacean  --whereClause "sequence.clade = 'crustacean'" 
+
     exit
 
 
