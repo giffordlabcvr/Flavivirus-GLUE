@@ -1,0 +1,15 @@
+delete module fastaAlignmentExporter
+delete module fastaProteinAlignmentExporter
+
+create module -f modules/fastaAlignmentExporter.xml
+create module -f modules/fastaProteinAlignmentExporter.xml
+
+module fastaAlignmentExporter
+  export AL_Flavivirus -r REF_MASTER_YFV -f NS5 -c -a -e -o  flavi-test-1.fna
+  exit
+
+module fastaProteinAlignmentExporter
+  export AL_Flavivirus -r REF_MASTER_YFV -f NS5 -e -c -a -o flavi-test-1.faa
+  exit
+  
+
