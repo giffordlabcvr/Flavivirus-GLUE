@@ -28,7 +28,7 @@
     exit
 
 
-  ### Flavi Clade level 1 alignments
+  ### Flavi clade level 1 alignments
   alignment AL_Flavi-like
 
 	extract child AL_FlaviTabvJmtv1      --refName REF_JMTV_SEG1
@@ -40,7 +40,7 @@
     exit
 
 
-  ### Flavi Clade level 2 alignments
+  ### Flavi clade level 2 alignments
   alignment AL_FlaviTabvJmtv1
 
 	extract child AL_Jingmenvirus_Seg1   --refName REF_JMTV_SEG1
@@ -52,7 +52,15 @@
     exit
 
 
-  ### Flavi Clade level 3 alignments
+  ### Flavi clade level 2 alignments
+  alignment AL_FlaviTabvJmtv3
+
+	extract child AL_Jingmenvirus_Seg3   --refName REF_JMTV_SEG3
+	demote member AL_Jingmenvirus_Seg3   --whereClause "sequence.clade = 'JMTV3'"
+	
+    exit
+
+  ### Flavi clade level 3 alignments
   alignment AL_FlaviTamana
 
 	extract child AL_Flavivirus          --refName REF_MASTER_YFV
@@ -195,16 +203,20 @@
     derive segments AL_JMTV_SEG1_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
+  alignment AL_Jingmenvirus_Seg3
+    derive segments AL_JMTV_SEG3_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
   alignment AL_Pestivirus
     derive segments AL_PESTI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_Pesti_SCNV5
-    derive segments AL_PESTI_SCNV5_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_PL1_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_Pestinsect
-    derive segments AL_PESTINSECT_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_PL2_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_Pesti-like
