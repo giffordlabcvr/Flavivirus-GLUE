@@ -6,14 +6,18 @@
     create field clade VARCHAR 50
     create field host_group VARCHAR 50
     create field vector_group VARCHAR 50
-  exit
+    exit
 
   table alignment
     create field clade_category VARCHAR 20
     create field phylogeny CLOB
-  exit 
+    exit 
 
-  # Create schema extension
+  table member_floc_note
+    create field ref_nt_coverage_pct DOUBLE
+    exit
+
+  # Create schema extensions for exogenous viruses
   create custom-table exogenous_data
 
   table exogenous_data
@@ -26,10 +30,22 @@
     create field collection_year INTEGER 
     create field collection_month VARCHAR
     create field collection_month_day INTEGER
-  exit
+    exit
 
   create link sequence exogenous_data
 
-  table member_floc_note
-    create field ref_nt_coverage_pct DOUBLE
+  # Create schema extensions for EVEs
+  create custom-table endogenous_data
+
+  table endogenous_data
+    create field scaffold VARCHAR 50
+    create field start INTEGER
+    create field end INTEGER
+    create field orientation VARCHAR 10
+    create field length INTEGER
+    create field integration INTEGER
+    create field fragment INTEGER
+    create field duplicate INTEGER
     exit
+
+  create link sequence endogenous_data

@@ -1,8 +1,0 @@
-<compoundAligner>
-	<aligners>
-		<codonAwareBlastAligner>
-			<featureName>precursor_polyprotein</featureName>
-		</codonAwareBlastAligner>
-		<blastAligner/>
-	</aligners>
-</compoundAligner>

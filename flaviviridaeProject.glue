@@ -15,17 +15,13 @@ project flaviviridae
   # create modules
   run file glue/flaviviridaeModules.glue
 
-  # Import GenBank sources
+  # Import sources
   import source sources/ncbi-refseqs/
+  import source sources/fasta-curated/
+  import source sources/fasta-consensus/
   
   # Import sequence-associated data
-  run script glue/loadExogenousData.js
-  module genbankXmlPopulator populate
-
-  # Import metadata for exogenous reference sequences from tabular
-  module flaviviridaeSideDataImporter 
-    populate -f tabular/flavi-ncbi-refseqs-side-data.tsv
-    exit
+  run file flaviviridaeImportSideData.glue
   
   # Create references
   run file glue/flaviviridaeReferences.glue
@@ -35,18 +31,21 @@ project flaviviridae
 
   # Add feature locations to reference sequences
   module featureLocationTextToGlue transform tabular/flavi-reference_feature_locations.tsv -r
+  module featureLocationTextToGlue transform tabular/efv-reference_feature_locations.tsv -r
 
   # Add variations
   run file glue/flaviviridaeVariations.glue
 
   # Import alignments
   run file glue/flaviviridaeAlignments.glue
+  run file glue/efvAlignments.glue
 
   # Import alignment tree
   run file glue/flaviviridaeAlignmentTree.glue
+  run file glue/efvAlignmentTree.glue
 
   # Validate
   validate
 
   exit
-  
+

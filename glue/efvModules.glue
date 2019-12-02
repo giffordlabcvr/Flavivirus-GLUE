@@ -1,2 +1,0 @@
-   create module -f modules/efvSideDataImporter.xml
-   #create module -f modules/efvUnconstrainedAlignmentImporter.xml

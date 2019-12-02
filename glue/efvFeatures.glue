@@ -1,7 +1,0 @@
-create feature host_genome "Host genome"
-feature host_genome set field displayName "Host genome"
-feature host_genome set metatag INCLUDE_IN_SUMMARY true
-
-create feature efv "Endogenous flaviviral element"
-feature efv set field displayName "EFV"
-feature efv set metatag INCLUDE_IN_SUMMARY true
