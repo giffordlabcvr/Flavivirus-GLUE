@@ -21,7 +21,7 @@ project flaviviridae
   import source sources/fasta-consensus/
   
   # Import sequence-associated data
-  run file flaviviridaeImportSideData.glue
+  run file glue/flaviviridaeImportSideData.glue
   
   # Create references
   run file glue/flaviviridaeReferences.glue
