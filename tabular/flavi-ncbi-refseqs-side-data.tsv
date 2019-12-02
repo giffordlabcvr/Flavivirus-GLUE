@@ -16,6 +16,7 @@ NC_031327	Anopheles flavivirus	AnophFV	Flaviviridae	FlaviPesti	Flavivirus	cISF		
 MK473877	Gammarus chevreuxi flavivirus	GcFV	Flaviviridae	FlaviPesti	Flavivirus	Crustacean		Gammarus	crustacean		-	-	Gammarus chevreuxi
 MK473878	Crangon crangon flavivirus	CcFV	Flaviviridae	FlaviPesti	Flavivirus	Crustacean		Crangon	crustacean		-	-	Crangon crangon
 MK473881	Gammarus pulex flavivirus	GpFV	Flaviviridae	FlaviPesti	Flavivirus	Crustacean		Gammarus	crustacean		-	-	Gammarus pulex
+SsFV_consensus	Sea spider flavivirus	SsFV	Flaviviridae	FlaviPesti	Flavivirus	Arachnid		Endeis	NK	NK			Endeis spinosa
 KY320649 	La Tina	LTNV	Flaviviridae	FlaviPesti	Flavivirus	dISF1		Ochlerotatus	none	none	49_LT96	Americas	Ochlerotatus scapularis
 KY290249	Long Pine Key virus	LPKV	Flaviviridae	FlaviPesti	Flavivirus	dISF1		Ochlerotatus	none	none	EVG-1-33	Americas	Ochlerotatus atlanticus
 KC496020	Barkedji virus	BJV	Flaviviridae	FlaviPesti	Flavivirus	dISF1A		Culex	none	none	363/11	Asia	Culex perexiguus
