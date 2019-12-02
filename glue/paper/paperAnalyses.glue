@@ -9,7 +9,12 @@ module fastaAlignmentExporter
   exit
 
 module fastaProteinAlignmentExporter
-  export AL_Flavivirus -r REF_MASTER_YFV -f NS5 -e -c -a -o flavi-test-1.faa
+  export AL_Flavivirus  -r REF_MASTER_YFV -f NS5  -e -c -a -o flavi-test-1.faa
+  export AL_Flavi-like  -r REF_MASTER_YFV -f NS5  -e -c -a -o flavi-like-1.faa
+  export AL_Pesti-like  -r REF_BVDV1      -f NS5B -e -c -a -o pesti-like-1.faa
+  export AL_Tamanavirus -r REF_TABV       -f NS5  -e -c -a -o tamanavirus-ns5.faa
+  export AL_Tamanavirus -r REF_TABV       -f NS3  -e -c -a -o tamanavirus-ns3.faa
+  export AL_Jingmenvirus_Seg1 -r REF_JMTV_SEG1 -f NS5 -a -e -o jingmen-seg1.faa
+  export AL_Jingmenvirus_Seg3 -r REF_JMTV_SEG3 -f NS3 -a -e -o jingmen-seg3.faa 
+  #export AL_HepaPegi -r REF_HCV -f NS3 -a -e -o hepa-pegi.faa
   exit
-  
-
