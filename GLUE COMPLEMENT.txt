@@ -1,0 +1,11 @@
+FIG 1
+
+* Output alignment of consensus to reference
+* Output alignment used to create consensus
+* Link sequences in consensus to their coordinates in genomic scaffolds
+
+
+FIG 2
+
+
+
