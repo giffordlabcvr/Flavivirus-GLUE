@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AH005112</GBSeq_locus>
+    <GBSeq_length>3053</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-JUN-2016</GBSeq_update-date>
+    <GBSeq_create-date>10-MAR-1997</GBSeq_create-date>
+    <GBSeq_definition>Yellow fever virus strain Y5 polyprotein and nonstructural protein NS2A mRNAs, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AH005112</GBSeq_primary-accession>
+    <GBSeq_accession-version>AH005112.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AH005112.2|</GBSeqid>
+      <GBSeqid>gi|1036029874</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_secondary-accessions>
+      <GBSecondary-accn>U89338</GBSecondary-accn>
+      <GBSecondary-accn>U89339</GBSecondary-accn>
+    </GBSeq_secondary-accessions>
+    <GBSeq_source>Yellow fever virus (YFV)</GBSeq_source>
+    <GBSeq_organism>Yellow fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Flavivirus; Yellow fever virus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..3053</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Wang,H.</GBAuthor>
+          <GBAuthor>Jennings,A.D.</GBAuthor>
+          <GBAuthor>Ryman,K.D.</GBAuthor>
+          <GBAuthor>Late,C.M.</GBAuthor>
+          <GBAuthor>Minor,P.D.</GBAuthor>
+          <GBAuthor>Barrett,A.D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic variation between strains of wild-type yellow fever virus from Senegal</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..3053</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Wang,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (11-FEB-1997) Pathology, University of Texas Medical Branch, Galveston, TX 77555-0609, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On or before Jun 10, 2016 this sequence version replaced U89338.1, U89339.1, AH005112.1.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..3053</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3053</GBInterval_to>
+            <GBInterval_accession>AH005112.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Yellow fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Y5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11089</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>119..&gt;2452</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>119</GBInterval_from>
+            <GBInterval_to>2452</GBInterval_to>
+            <GBInterval_accession>AH005112.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>core, pre-membrane, membrane and envelope proteins</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAB49719.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MSGRKAQGKTLGVNMVRRGVRSLSNKIKQKTKQIGNRPGPSRGVQGFIFFFLFNILTGKKITAHLKRLWKMLDPRQGLAVLRKVKRVVASLMRGLSSRKRRSHDVLTVQFLILGMLLMAGGVTLVRKNRWLLLNVTSEDLGKTFSVGTGNCTTNILEAKYWCPDSMEYNCPNLSPREEPDDIDCWCYGVENVRVAYGKCDSAGRSRRSRRAIDLPTHENHGLKTRQEKWMTGRMGERQLQKIERWLVRNPFFAVTALTIAYLVGSNMTQRVVIALLVLAVGPAYSAHCIGITDRDFIEGVHGGTWVSATLEQDKCVTVMAPDKPSLDISLETVAIDGPAEARKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNACKRTYSDRGWGNGCGLFGKGSIVACAKFTCAKTMSLFEVDQTKIQYVIRAQLHVGAKQENWNTDIKTLKFDALSGSQEAEFTGYGKATLECQVQTAVDFGNSYIAEMEKESWIVDRQWAQDLTLPWQSGSGGVWREMHHLVEFEPPHAATIRVLALGNQEGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGTSYKMCTDKMSFVKNPTDTGHGTVVMQVKVPKGAPCKIPVIVADDLTAAINKGILVTVNPIASTNDDEVLIEVNPPFGDSYIIVGTGDSRLTYQWHKEGSSIGKLFTQTMRGQERLAVMGDTAWDFSSAGGFFTSIGKGIHTVFGSAFQGLFGGLSWITKVIMGAVLIWVGINTRNMTMSMSMILVGVIMMFLSLGVGA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gap</GBFeature_key>
+        <GBFeature_location>2453..2552</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2453</GBInterval_from>
+            <GBInterval_to>2552</GBInterval_to>
+            <GBInterval_accession>AH005112.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>estimated_length</GBQualifier_name>
+            <GBQualifier_value>unknown</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;2553..&gt;3053</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2553</GBInterval_from>
+            <GBInterval_to>3053</GBInterval_to>
+            <GBInterval_accession>AH005112.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nonstructural protein NS2A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAB49718.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>VGLHFHEMNNGGDAMYMALIAAFSVRPGLLIGFGLRTLWSPRERLVLTLGAAMVEIALGGMMGGLWKYLNAVSLCILTINAVASRKASNVILPLMALLTPVTMAEVRLATMLFCTVVIIGVLHQNSKDTSMQKTIPLVALTLTSYLGLTQPFLGLCAFLATRIFGRR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agtaaatcctgtgtgctaattgaggtgcattggtctgcaaatcgagttgctaggcaataaacacatttggattaattttgatcgttcgttgagcgattagcagagaactgaccagaacatgtctggtcgcaaagctcagggaaagaccctgggcgtcaatatggttcgacgaggagttcgctccttgtcaaacaaaataaaacaaaaaacaaaacaaattggaaacagacctggaccttcaagaggtgttcaaggatttatctttttctttttgttcaacattctgactggaaagaagatcacggctcacctaaagaggttgtggaaaatgctggacccaagacaaggcctggctgttctgaggaaagtcaaaagagtggtagccagtttgatgagagggttgtcctcaaggaaacgccgctcccacgatgttctgactgtgcaatttttgatcctgggaatgctgctgatggcgggtggagtaaccttggtgcggaaaaacagatggctactcctgaatgtgacatctgaggaccttgggaagaccttttctgtgggtacgggcaactgcacaacaaatattttggaagccaagtactggtgtccagattcaatggaatataactgtcctaacctcagtccaagagaggagccggatgacattgattgttggtgttacggagtggaaaatgtcagagttgcgtatggcaagtgtgactcagcaggcaggtcaagaaggtcaagaagagctattgacttgcccacgcatgaaaaccatggcctgaagactcggcaagaaaaatggatgactggaagaatgggggagaggcaactccaaaagattgagagatggcttgtgaggaatcccttctttgcagtaacagccttgaccatcgcctatctcgtgggcagcaacatgacgcaacgagtcgtgattgccctgctggttttggctgttggcccggcttactcagcccactgcattggaatcactgatagggatttcattgagggggtgcacggaggaacctgggtttcagccaccttagagcaagacaagtgtgtcactgtcatggcccctgacaagccttcactggacatctcactagagacagtggccattgacggacctgctgaggcgagaaaggtgtgttacaatgcagtcctcactcatgtgaagatcaatgacaagtgccctagcactggtgaggcccacctagctgaggaaaatgagggggataatgcgtgtaagcgcacttattcggatagaggctggggaaacggctgtggcctgttcgggaaaggaagcatcgtggcatgcgccaaatttacttgtgccaaaaccatgagcttgtttgaggttgaccagacaaagatccagtacgtcatcagagcacaactacatgttggggcaaagcaggaaaattggaacaccgacatcaaaactctcaagtttgatgcattgtcaggctctcaggaagccgagttcactgggtatggaaaagctactctggaatgtcaggtgcaaactgcagtagactttggcaacagctacatcgctgagatggaaaaggagagctggatagtggacaggcaatgggctcaggatttaaccttgccatggcagagcggcagtggtggggtgtggagggaaatgcaccatcttgttgaatttgaacctcctcatgccgcaactattagagtgctggccctaggaaaccaggaaggctctttaaaaacagcccttacaggtgcaatgagggttacaaaggacacgaatgacaacaatctgtacaaactacatggcggacatgtctcctgcagagtaaaattgtcagctttaacactcaaggggacatcttacaagatgtgcactgataagatgtcttttgttaagaacccgactgacactggccatggcactgttgtgatgcaggttaaagtgccaaaaggagctccctgcaagatcccagtgatagtagctgatgatcttacagcggcaatcaataaaggcattttggttacagttaaccccatcgcctcaaccaatgatgatgaagtgttgatcgaagtgaatccaccctttggagatagttacattatagttgggacaggagattcacgtctcacctatcaatggcacaaagagggaagttcaataggaaagctgttcacccagactatgagaggccaggagcgcctggctgtcatgggagacactgcctgggattttagctctgctggagggttcttcacttcgattgggaaaggaattcacacggtgtttggctctgcctttcagggactttttggtggcttgagctggataacgaaggtcatcatgggcgcggtccttatatgggtcggcatcaacacaaggaacatgacaatgtccatgagcatgatcctagtaggagtgatcatgatgttcttgtctctgggagttggggcgnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnngtgggattgcactttcatgagatgaacaatggaggagacgccatgtacatggcgttgattgctgccttttcagtcagaccagggttgctcatcggctttgggcttaggacgctgtggagccctcgggaacgccttgtgctgaccctgggagccgccatggtggagatagccctgggtggtatgatgggcggcctgtggaaatacctgaatgcagtctctctctgcatcctgaccataaatgctgttgcttctaggaaagcatcaaatgtcatcttgcccctcatggctctgttaacacccgtgaccatggcagaggtgaggcttgccacaatgcttttttgcactgtggttatcataggggtccttcaccagaactccaaggacacctccatgcagaagaccatacccttggtggctctcacacttacatcttacctgggcttgacacaaccttttttgggcctgtgtgcatttctggcaacccgcatatttgggcgaagg</GBSeq_sequence>
+  </GBSeq>

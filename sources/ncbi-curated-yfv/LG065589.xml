@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LG065589</GBSeq_locus>
+    <GBSeq_length>1479</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>29-JUN-2016</GBSeq_update-date>
+    <GBSeq_create-date>29-JUN-2016</GBSeq_create-date>
+    <GBSeq_definition>KR 1020150067801-A/2: A PRODUCTION METHOD OF YELLOW FEVER VIRUS LIKE PARTICLES USING DROSOPHILA EXPRESSION SYSTEM</GBSeq_definition>
+    <GBSeq_primary-accession>LG065589</GBSeq_primary-accession>
+    <GBSeq_accession-version>LG065589.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|LG065589.1|</GBSeqid>
+      <GBSeqid>pat|KR|1020150067801|2</GBSeqid>
+      <GBSeqid>gi|1041450717</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>KR 1020150067801-A/2</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Yellow fever virus 17D</GBSeq_source>
+    <GBSeq_organism>Yellow fever virus 17D</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Flavivirus; Yellow fever virus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1479</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Park,C.</GBAuthor>
+          <GBAuthor>Choi,W.</GBAuthor>
+          <GBAuthor>Wang,E.</GBAuthor>
+          <GBAuthor>Park,S.</GBAuthor>
+          <GBAuthor>Yun,S.</GBAuthor>
+          <GBAuthor>Choi,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>A PRODUCTION METHOD OF YELLOW FEVER VIRUS LIKE PARTICLES USING DROSOPHILA EXPRESSION SYSTEM</GBReference_title>
+        <GBReference_journal>KR1020150067801-A 2 19-JUN-2015 Korea Center for Disease Control and Prevention</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>KN KR 1020130152447-A/2~AN KR 1020130152447~AD 2013-12-09~PN KR 1020150067801~PD 2015-06-19~AT A PRODUCTION METHOD OF YELLOW FEVER VIRUS LIKE PARTICLES USING~AT DROSOPHILA EXPRESSION SYSTEM~AI Park, Chan|Choi, Woo-Young|Wang, Eun-Byeol|Park, Sun-Whan|Yun,~AI Seok-Min|Choi, Ki-Ju~AA Korea Center for Disease Control and Prevention~PR~OS Yellow fever virus 17D~TY DNA~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1479</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1479</GBInterval_to>
+            <GBInterval_accession>LG065589.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Yellow fever virus 17D</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11090</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gctcactgcattggaattactgacagggatttcattgagggggtgcatggaggaacttgggtttcagctaccctggagcaagacaagtgtgtcactgttatggcccctgacaagccttcattggacatctcactagagacagtagccattgatagacctgctgaggtgaggaaagtgtgttacaatgcagttctcactcatgtgaagattaatgacaagtgccccagcactggagaggcccacctagctgaagagaacgaaggggacaatgcgtgcaagcgcacttattctgatagaggctggggcaatggctgtggcctatttgggaaagggagcattgtggcatgcgccaaattcacttgtgccaaatccatgagtttgtttgaggttgatcagaccaaaattcagtatgtcatcagagcacaattgcatgtaggggccaagcaggaaaattggactaccgacattaagactctcaagtttgatgccctgtcaggctcccaggaagtcgagttcattgggtatggaaaagctacactggaatgccaggtgcaaactgcggtggactttggtaacagttacatcgctgagatggaaacagagagctggatagtggacagacagtgggcccaggacttgaccctgccatggcagagtggaagtggcggggtgtggagagagatgcatcatcttgtcgaatttgaacctccgcatgccgccactatcagagtactggccctgggaaaccaggaaggctccttgaaaacagctcttactggcgcaatgagggttacaaaggacacaaatgacaacaacctttacaaactacatggtggacatgtttcttgcagagtgaaattgtcagctttgacactcaaggggacatcctacaaaatatgcactgacaaaatgttttttgtcaagaacccaactgacactggccatggcactgttgtgatgcaggtgaaagtgtcaaaaggagccccctgcaggattccagtgatagtagctgatgatcttacagcggcaatcaataaaggcattttggttacagttaaccccatcgcctcaaccaatgatgatgaagtgctgattgaggtgaacccaccttttggagacagctacattatcgttgggagaggagattcacgtctcacttaccagtggcacaaagagggaagctcaataggaaagttgttcactcagaccatgaaaggcgtggaacgcctggccgtcatgggagacaccgcctgggatttcagctccgctggagggttcttcacttcggttgggaaaggaattcatacggtgtttggctctgcctttcaggggctatttggcggcttgaactggataacaaaggtcatcatgggggcggtacttatatgggttggcatcaacacaagaaacatgacaatgtccatgagcatgatcttggtaggagtgatcatgatgtttttgtctctaggagttggggcg</GBSeq_sequence>
+  </GBSeq>

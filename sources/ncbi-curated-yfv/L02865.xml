@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>YFVENVA</GBSeq_locus>
+    <GBSeq_length>1479</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>12-MAR-1993</GBSeq_update-date>
+    <GBSeq_create-date>12-JUN-1993</GBSeq_create-date>
+    <GBSeq_definition>Yellow fever virus wild-type envelope protein (env)</GBSeq_definition>
+    <GBSeq_primary-accession>L02865</GBSeq_primary-accession>
+    <GBSeq_accession-version>L02865.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|L02865.1|YFVENVA</GBSeqid>
+      <GBSeqid>gi|295563</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>envelope protein</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Yellow fever virus (YFV)</GBSeq_source>
+    <GBSeq_organism>Yellow fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Flavivirus; Yellow fever virus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1479</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Jennings,A.D.</GBAuthor>
+          <GBAuthor>Whitby,J.E.</GBAuthor>
+          <GBAuthor>Minor,P.D.</GBAuthor>
+          <GBAuthor>Barrett,A.D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Comparison of the nucleotide and deduced amino acid sequences of the envelope protein genes of the wild-type French viscerotropic strain of yellow fever virus and the live vaccine strain, French neurotropic vaccine, derived from it</GBReference_title>
+        <GBReference_journal>Virology 192 (2), 692-695 (1993)</GBReference_journal>
+        <GBReference_pubmed>8421909</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>Original source text: Flavivirus febricis (individual_isolate Francoise Mayali, strain French viscerotropic) cDNA to genomic RNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1479</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1479</GBInterval_to>
+            <GBInterval_accession>L02865.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Yellow fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>French viscerotropic</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Francoise Mayali</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11089</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_type</GBQualifier_name>
+            <GBQualifier_value>LLC-MK2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gctcactgcattggaattactgacagggatttcattgagggggtgcatggaggaacttgggtttcagctaccctggagcaagacaagtgtgtcactgttatggcccctgacaagccttcattggacatctcactagagacagtagccattgatggacctgctgaggcgaggaaagtgtgttacaatgcagttctcactcatgtgaagattaatgacaagtgccccagcactggagaggcccacctagctgaagagaacgaaggggacaatgcgtgcaagcgcacttattctgatagaggctggggcaatggctgtggcctatttgggaaagggagcattgtggcatgcgccaaattcacttgtgccaaatccatgagtttgtttgaggttgatcagaccaaaattcagtatgtcatcagagcacaattgcatgtaggggccaagcaggaaaattggaataccgacattaagactctcaagtttgatgccctgtcaggctcccaggaagccgagttcactgggtatggaaaagctacactggaatgccaggtgcaaactgcggtggactttggtaacagttacatcgctgagatggaaaaagagagctggatagtggacagacagtgggcccaggacttgaccctgccatggcagagtggaagtggcggggtgtggagagggatgcatcatcttgtcgaatttgaacctccgcatgccgccactatcagagtactggccctgggaaaccaggaaggctccttgaaaacagctcttaccggcgcaatgagggttacaaaggacacaaatgacaacaacctttacaaactacatggtggacatgtttcttgcagagtgaaattgtcagctttgacactcaaggggacatcctacaaaatgtgcactgacaaaatgtcttttgtcaagaacccaactgacactggccatggcactgttgtgatgcaggtgaaagtgccaaaaggagccccctgcaggattccagtgatagtagctgatgatcttacagcggcaatcaataaaggcattttggttacagttaaccccatcgcctcaaccaatgatgatgaagtgctgattgaggtgaacccaccttttggagatagctacattatcgttgggacaggagattcacgtctcacttaccagtggcacaaagagggaagctcaataggaaagttgttcactcagaccatgaaaggcgtggaacgcctggccgtcatgggagacgccgcctgggatttcagctctgctggagggttcttcacctcggttgggaaaggaattcatacggtgtttggctctgcctttcaggggctatttggcggcttgaactggataacaaaggtcatcatgggggcggtactcatatgggttggcatcaacacaagaaacatgacaatgtccatgagcatgatcttggtaggagtgatcatgatgtttttgtctctaggagttggggcg</GBSeq_sequence>
+  </GBSeq>

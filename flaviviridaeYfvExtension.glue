@@ -1,0 +1,40 @@
+project flaviviridae
+
+  delete source ncbi-curated-yfv
+  delete alignment AL_yfv
+  delte module flavivirusCompoundAligner
+
+  exit
+  
+project flaviviridae
+
+  # Import YFV sequences and side data 
+  import source sources/ncbi-curated-yfv/
+
+  # Import metadata for exogenous reference sequences from tabular
+  module flaviviridaeGenbankXmlPopulator populate 
+
+  # Create alignments
+  create module -f modules/flavivirusCompoundAligner.xml 
+  create alignment AL_pcv1 -r REF_PCV-1 
+  alignment AL_pcv1 add member --whereClause "source.name = 'ncbi-curated-pcv1'"
+  #compute alignment AL_pcv1 --whereClause "sequence.source = 'ncbi-curated-pcv1'" flavivirusCompoundAligner 
+
+  # Create alignments
+  create module -f modules/flavivirusCompoundAligner.xml 
+  create alignment AL_pcv2 -r REF_PCV-2 
+  alignment AL_pcv2 add member --whereClause "source.name = 'ncbi-curated-pcv2'"
+  #compute alignment AL_pcv2 --whereClause "sequence.source = 'ncbi-curated-pcv2'" flavivirusCompoundAligner 
+
+  # Create alignments
+  create module -f modules/flavivirusCompoundAligner.xml 
+  create alignment AL_pcv3 -r REF_PCV-3
+  alignment AL_pcv3 add member --whereClause "source.name = 'ncbi-curated-pcv3'"
+  #compute alignment AL_pcv3 --whereClause "sequence.source = 'ncbi-curated-pcv3'" flavivirusCompoundAligner 
+
+
+  # Validate
+  validate
+
+  exit
+

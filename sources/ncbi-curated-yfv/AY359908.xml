@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY359908</GBSeq_locus>
+    <GBSeq_length>1547</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>08-SEP-2003</GBSeq_create-date>
+    <GBSeq_definition>Yellow fever virus isolate DNA-YF-2 protein E gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AY359908</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY359908.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY359908.2|</GBSeqid>
+      <GBSeqid>gi|37595738</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Yellow fever virus (YFV)</GBSeq_source>
+    <GBSeq_organism>Yellow fever virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae; Flavivirus; Yellow fever virus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1547</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hilfiker,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>DNA-YF-2 / plus strand</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1547</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hilfiker,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (31-JUL-2003) Virology, Berna Biotech AG, Oberriedstr. 68, Thoerishaus 3174, Switzerland</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..1547</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hilfiker,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (09-OCT-2003) Virology, Berna Biotech AG, Oberriedstr. 68, Thoerishaus 3174, Switzerland</GBReference_journal>
+        <GBReference_remark>Sequence update by submitter</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Oct 9, 2003 this sequence version replaced AY359908.1.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1547</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1547</GBInterval_to>
+            <GBInterval_accession>AY359908.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Yellow fever virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>DNA-YF-2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11089</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1547</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1547</GBInterval_to>
+            <GBInterval_accession>AY359908.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>protein E</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAQ67736.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>CIGITDRDFIEGVHGGTWVSATLEQDKCVTVMAPDKPSLDISLETVAIDRPAEVRKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNACKRTYSDRGWGNGCGLFGKGSIVACAKFTCAKSMSLFEVDQTKIQYVIRAQLHVGAKQENWTTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETESWIVDRQWAQDLTLPWQSGSGGVWREMHHLVEFEPPHAATIRVLALGNQEGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGTSYKICTDKMFFVKNPTDTGHGTVVMQVKVSKGAPCRIPVIVADDLTAAINKGILVTVNPIASTNDDEVLIEVNPPFGDSYIIVGRGDSRLTYQWHKEGSSIGKLFTQTMKGVERLAVMGDTAWDFSSAGGFFTSVGKGIHTVFGSAFQGLFGGLNWITKVIMGAVLIWVGINTRNMTMSMSMILVGVIMMFLSLGVGADQGCAINFGKRELKCGDGIFIFRD</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctgcattggaattactgacagggatttcattgagggggtgcatggaggaacttgggtttcagctaccctggagcaagacaagtgtgtcactgttatggcccctgacaagccttcattggacatctcactagagacagtagccattgatagacctgctgaggtgaggaaagtgtgttacaatgcagttctcactcatgtgaagattaatgacaagtgccccagcactggagaggcccacctagctgaagagaacgaaggggacaatgcgtgcaagcgcacttattctgatagaggctggggcaatggctgtggcctatttgggaaagggagcattgtggcatgcgccaaattcacttgtgccaaatccatgagtttgtttgaggttgatcagaccaaaattcagtatgtcatcagagcacaattgcatgtaggggccaagcaggaaaattggactaccgacattaagactctcaagtttgatgccctgtcaggctcccaggaagtcgagttcattgggtatggaaaagctacactggaatgccaggtgcaaactgcggtggactttggtaacagttacatcgctgagatggaaacagagagctggatagtggacagacagtgggcccaggacttgaccctgccatggcagagtggaagtggcggggtgtggagagagatgcatcatcttgtcgaatttgaacctccgcatgccgccactatcagagtactggccctgggaaaccaggaaggctccttgaaaacagctcttactggcgcaatgagggttacaaaggacacaaatgacaacaacctttacaaactacatggtggacatgtttcttgcagagtgaaattgtcagctttgacactcaaggggacatcctacaaaatatgcactgacaaaatgttttttgtcaagaacccaactgacactggccatggcactgttgtgatgcaggtgaaagtgtcaaaaggagccccctgcaggattccagtgatagtagctgatgatcttacagcggcaatcaataaaggcattttggttacagttaaccccatcgcctcaaccaatgatgatgaagtgctgattgaggtgaacccaccttttggagacagctacattatcgttgggagaggagattcacgtctcacttaccagtggcacaaagagggaagctcaataggaaagttgttcactcagaccatgaaaggcgtggaacgcctggccgtcatgggagacaccgcctgggatttcagctccgctggagggttcttcacttcggttgggaaaggaattcatacggtgtttggctctgcctttcaggggctatttggcggcttgaactggataacaaaggtcatcatgggggcggtacttatatgggttggcatcaacacaagaaacatgacaatgtccatgagcatgatcttggtaggagtgatcatgatgtttttgtctctaggagttggggcggatcaaggatgcgccatcaactttggcaagagagagctcaagtgcggagatggtatcttcatatttagagact</GBSeq_sequence>
+  </GBSeq>
