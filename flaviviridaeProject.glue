@@ -1,6 +1,6 @@
 delete project flaviviridae
 
-create project flaviviridae "GLUE project for the Flaviviridae" --minVersion 0.1.50
+create project flaviviridae "GLUE project for the Flaviviridae" --minVersion 1.1.65
 
 schema-project flaviviridae
 
@@ -42,7 +42,7 @@ project flaviviridae
 
   # Import alignment tree
   run file glue/flaviviridaeAlignmentTree.glue
-  run file glue/efvAlignmentTree.glue
+  #run file glue/efvAlignmentTree.glue
 
   # Validate
   validate
