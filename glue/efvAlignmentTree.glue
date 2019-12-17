@@ -1,9 +1,9 @@
 
-alignment AL_PESTINSECT add member --whereClause "sequenceID = 'EFV-Pestinsect.3-Ceratina-con'"
-compute alignment AL_PESTINSECT  --whereClause "sequence.sequenceID = 'EFV-Pestinsect.3-Ceratina-con'" flavivirusCompoundAligner 
+alignment AL_PL2 add member --whereClause "sequenceID = 'EFV-Pestinsect.3-Ceratina-con'"
+compute alignment AL_PL2  --whereClause "sequence.sequenceID = 'EFV-Pestinsect.3-Ceratina-con'" flavivirusCompoundAligner 
 
 ### Major subclade alignments
-alignment AL_PESTINSECT
+alignment AL_PL2
   extract child AL_EFV_Pestinsect3 -r REF_EFV_PI3_Ceratina
   exit
 

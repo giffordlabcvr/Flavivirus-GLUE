@@ -2,11 +2,11 @@
   module unconstrainedAlignmentImporter
 
     #~# Root
-    import AL_UNCONSTRAINED -f alignments/root/flaviviridae-root.fna
+    import AL_Flaviviridae_UNCONSTRAINED         -f alignments/root/flaviviridae-root.fna
 
     #~# Major lineages
-    import AL_FLAVI_PESTI_UNCONSTRAINED          -f alignments/internal/major-lineage/flavi-pesti.aln.fna
     import AL_HEPA_PEGI_UNCONSTRAINED            -f alignments/internal/major-lineage/hepa-pegi.aln.fna
+    import AL_FLAVI_PESTI_UNCONSTRAINED          -f alignments/internal/major-lineage/flavi-pesti.aln.fna
 
     #~# Cross-genus 
     import AL_FLAVI_TABV_JMTVseg1_UNCONSTRAINED  -f alignments/internal/cross-genus/flav-tabv-jmtvSeg1.aln.fna
