@@ -4,7 +4,6 @@
   create module -f modules/featureLocationTextToGlue.xml 
   create module -f modules/fastaAlignmentExporter.xml 
   create module -f modules/flaviviridaeTabularUtility.xml flaviviridaeTabularUtility
-  create module -f modules/flaviviridaeKuiken2006CodonLabeler.xml kuiken2006CodonLabeler
   create module -f modules/flaviviridaeFeaturePresenceRecorder.xml
   create module -f modules/flavivirusCompoundAligner.xml  
   create module -f modules/efvSideDataImporter.xml

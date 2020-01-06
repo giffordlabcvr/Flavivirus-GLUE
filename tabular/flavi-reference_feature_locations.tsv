@@ -151,3 +151,7 @@ NC_003996	REF_TABV	Tamanavirus		flavi-NS4B	6763	7557
 NC_003996	REF_TABV	Tamanavirus		NS5	7558	10050
 NC_024113	REF_JMTV_SEG1	Jingmenvirus	Human-Tick	NS5	105	2849
 NC_024114	REF_JMTV_SEG3	Jingmenvirus	Human-Tick	NS3	117	2543
+NC_024113	REF_JMTV_SEG1	Jingmenvirus	Human-Tick	precursor_polyprotein	105	2849
+NC_024114	REF_JMTV_SEG3	Jingmenvirus	Human-Tick	precursor_polyprotein	117	2543
+NC_024113	REF_JMTV_SEG1	Jingmenvirus	Human-Tick	whole_genome	1	3114
+NC_024114	REF_JMTV_SEG3	Jingmenvirus	Human-Tick	whole_genome	1	2824
