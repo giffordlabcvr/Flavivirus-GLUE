@@ -2,8 +2,7 @@
 
   ### Root alignments    
   create alignment AL_Flaviviridae_MASTER -r REF_MASTER_YFV
-  alignment AL_Flaviviridae_MASTER add member --whereClause "subfamily = 'FlaviPesti' or subfamily = 'HepaPegi'"
-
+  alignment AL_Flaviviridae_MASTER add member --allSequences
 
   ### Major subclade alignments
   alignment AL_Flaviviridae_MASTER

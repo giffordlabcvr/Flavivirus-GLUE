@@ -44,7 +44,6 @@ create feature precursor_polyprotein -p whole_genome "Precursor polyprotein"
 feature precursor_polyprotein set field displayName "Precursor polyprotein"
 feature precursor_polyprotein set metatag OWN_CODON_NUMBERING true
 feature precursor_polyprotein set metatag CODES_AMINO_ACIDS true
-#feature precursor_polyprotein set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 ## Structural proteins
 
@@ -65,19 +64,16 @@ create feature flavi-capsid -p structural_proteins "Flavivirus capsid"
 feature flavi-capsid set metatag OWN_CODON_NUMBERING true
 feature flavi-capsid set metatag INCLUDE_IN_SUMMARY true
 feature flavi-capsid set metatag CODES_AMINO_ACIDS true
-feature flavi-capsid set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature pesti-capsid -p structural_proteins "Pestivirus capsid"
 feature pesti-capsid set metatag OWN_CODON_NUMBERING true
 feature pesti-capsid set metatag INCLUDE_IN_SUMMARY true
 feature pesti-capsid set metatag CODES_AMINO_ACIDS true
-feature pesti-capsid set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature F -p structural_proteins "Hepacivirus capsid frameshift protein"
 feature F set metatag OWN_CODON_NUMBERING true
 feature F set metatag INCLUDE_IN_SUMMARY true
 feature F set metatag CODES_AMINO_ACIDS true
-feature F set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 ## Core
 
@@ -85,7 +81,6 @@ create feature core -p structural_proteins "core"
 feature core set metatag OWN_CODON_NUMBERING true
 feature core set metatag INCLUDE_IN_SUMMARY true
 feature core set metatag CODES_AMINO_ACIDS true
-feature core set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 ## Premembrane
 
@@ -93,7 +88,6 @@ create feature premembrane -p structural_proteins "premembrane"
 feature premembrane set metatag OWN_CODON_NUMBERING true
 feature premembrane set metatag INCLUDE_IN_SUMMARY true
 feature premembrane set metatag CODES_AMINO_ACIDS true
-feature premembrane set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 ## Membrane
 
@@ -101,7 +95,6 @@ create feature membrane -p structural_proteins "membrane"
 feature membrane set metatag OWN_CODON_NUMBERING true
 feature membrane set metatag INCLUDE_IN_SUMMARY true
 feature membrane set metatag CODES_AMINO_ACIDS true
-feature membrane set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 
 ## Envelope
@@ -115,13 +108,11 @@ create feature flavi-envelope -p structural_proteins "Flavivirus envelope"
 feature flavi-envelope set metatag OWN_CODON_NUMBERING true
 feature flavi-envelope set metatag INCLUDE_IN_SUMMARY true
 feature flavi-envelope set metatag CODES_AMINO_ACIDS true
-feature flavi-envelope set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature e-rns -p structural_proteins "Pestivirus envelope rns"
 feature e-rns set metatag OWN_CODON_NUMBERING true
 feature e-rns set metatag INCLUDE_IN_SUMMARY true
 feature e-rns set metatag CODES_AMINO_ACIDS true
-feature e-rns set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature e1_pesti -p structural_proteins "Pestivirus envelope 1 protein"
 feature e1_pesti set metatag OWN_CODON_NUMBERING true
@@ -142,7 +133,6 @@ create feature e2_hepaci -p structural_proteins "Hepacivirus envelope 2 protein"
 feature e2_hepaci set metatag OWN_CODON_NUMBERING true
 feature e2_hepaci set metatag INCLUDE_IN_SUMMARY true
 feature e2_hepaci set metatag CODES_AMINO_ACIDS true
-feature e2_hepaci set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 
 ## Additional structural proteins
@@ -151,7 +141,6 @@ create feature p7 -p structural_proteins "p7"
 feature p7 set metatag OWN_CODON_NUMBERING true
 feature p7 set metatag INCLUDE_IN_SUMMARY true
 feature p7 set metatag CODES_AMINO_ACIDS true
-feature p7 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature pesti-p7 -p structural_proteins "Pestivirus p7 protein"
 feature pesti-p7 set metatag OWN_CODON_NUMBERING true
@@ -177,12 +166,12 @@ create feature RNAse -p structural_proteins "RNAse"
 feature RNAse set metatag OWN_CODON_NUMBERING true
 feature RNAse set metatag INCLUDE_IN_SUMMARY true
 feature RNAse set metatag CODES_AMINO_ACIDS true
-feature RNAse set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature N-proteinase -p structural_proteins "N-proteinase"
 feature N-proteinase set metatag OWN_CODON_NUMBERING true
 feature N-proteinase set metatag INCLUDE_IN_SUMMARY true
 feature N-proteinase set metatag CODES_AMINO_ACIDS true
+
 
 ## Non-structural proteins
 
@@ -197,7 +186,6 @@ create feature NS1 -p non_structural_proteins "NS1"
 feature NS1 set metatag OWN_CODON_NUMBERING true
 feature NS1 set metatag INCLUDE_IN_SUMMARY true
 feature NS1 set metatag CODES_AMINO_ACIDS true
-feature NS1 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature fifo -p non_structural_proteins "Fairly interesting flavivirus ORF"
 feature fifo set metatag OWN_CODON_NUMBERING true
@@ -210,13 +198,11 @@ create feature flavi-NS2A -p non_structural_proteins "Flavivirus flavi-NS2A"
 feature flavi-NS2A set metatag OWN_CODON_NUMBERING true
 feature flavi-NS2A set metatag INCLUDE_IN_SUMMARY true
 feature flavi-NS2A set metatag CODES_AMINO_ACIDS true
-feature flavi-NS2A set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature flavi-NS2B -p non_structural_proteins "Flavivirus flavi-NS2B"
 feature flavi-NS2B set metatag OWN_CODON_NUMBERING true
 feature flavi-NS2B set metatag INCLUDE_IN_SUMMARY true
 feature flavi-NS2B set metatag CODES_AMINO_ACIDS true
-feature flavi-NS2B set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature hepaci-NS2 -p non_structural_proteins "Hepacivirus NS2"
 feature hepaci-NS2 set metatag OWN_CODON_NUMBERING true
@@ -235,7 +221,6 @@ create feature NS3 -p non_structural_proteins "NS3"
 feature NS3 set metatag OWN_CODON_NUMBERING true
 feature NS3 set metatag INCLUDE_IN_SUMMARY true
 feature NS3 set metatag CODES_AMINO_ACIDS true
-#feature NS3 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 ## Non-structural protein NS4
 
@@ -243,7 +228,6 @@ create feature flavi-NS4A -p non_structural_proteins "Flavivirus NS4A"
 feature flavi-NS4A  set metatag OWN_CODON_NUMBERING true
 feature flavi-NS4A  set metatag INCLUDE_IN_SUMMARY true
 feature flavi-NS4A  set metatag CODES_AMINO_ACIDS true
-feature flavi-NS4A  set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature pesti-NS4A -p non_structural_proteins "Pestivirus NS4A"
 feature pesti-NS4A  set metatag OWN_CODON_NUMBERING true
@@ -259,13 +243,11 @@ create feature flavi-NS4B -p non_structural_proteins "Flavivirus NS4B"
 feature flavi-NS4B  set metatag OWN_CODON_NUMBERING true
 feature flavi-NS4B  set metatag INCLUDE_IN_SUMMARY true
 feature flavi-NS4B  set metatag CODES_AMINO_ACIDS true
-feature flavi-NS4B  set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature pesti-NS4B -p non_structural_proteins "Pestivirus NS4B"
 feature pesti-NS4B  set metatag OWN_CODON_NUMBERING true
 feature pesti-NS4B  set metatag INCLUDE_IN_SUMMARY true
 feature pesti-NS4B  set metatag CODES_AMINO_ACIDS true
-feature pesti-NS4B  set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature hepaci-NS4B -p non_structural_proteins "Hepacivirus NS4B"
 feature hepaci-NS4B  set metatag OWN_CODON_NUMBERING true
@@ -276,7 +258,6 @@ create feature 2K -p non_structural_proteins "2K"
 feature 2K set metatag OWN_CODON_NUMBERING true
 feature 2K set metatag INCLUDE_IN_SUMMARY true
 feature 2K set metatag CODES_AMINO_ACIDS true
-feature 2K set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 
 ## Non-structural protein NS5
@@ -290,13 +271,11 @@ create feature NS5A -p non_structural_proteins "NS5A"
 feature NS5A set metatag OWN_CODON_NUMBERING true
 feature NS5A set metatag INCLUDE_IN_SUMMARY true
 feature NS5A set metatag CODES_AMINO_ACIDS true
-feature NS5A set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature NS5B -p non_structural_proteins "NS5B"
 feature NS5B set metatag OWN_CODON_NUMBERING true
 feature NS5B set metatag INCLUDE_IN_SUMMARY true
 feature NS5B set metatag CODES_AMINO_ACIDS true
-feature NS5B set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
 create feature NS5-like -p non_structural_proteins "NS5-like"
 feature NS5-like set metatag OWN_CODON_NUMBERING true

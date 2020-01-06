@@ -34,14 +34,14 @@ project flaviviridae
   module featureLocationTextToGlue transform tabular/efv-reference_feature_locations.tsv -r
 
   # Add variations
-  run file glue/flaviviridaeVariations.glue
+  #run file glue/flaviviridaeVariations.glue
 
   # Import alignments
   run file glue/flaviviridaeAlignments.glue
-  run file glue/efvAlignments.glue
+  #run file glue/efvAlignments.glue
 
   # Import alignment tree
-  run file glue/flaviviridaeAlignmentTree.glue
+  #run file glue/flaviviridaeAlignmentTree.glue
   #run file glue/efvAlignmentTree.glue
 
   # Validate
