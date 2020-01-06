@@ -115,6 +115,7 @@
 
 	extract child AL_PL2 --refName REF_SLV2
 	demote member AL_PL2 --whereClause "sequence.genus = 'Pesti-like' and sequence.clade = 'Insect'" 
+
     exit
 
 
@@ -146,7 +147,6 @@
   alignment AL_PestiLike
     derive segments AL_PESTI_LIKE_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
-
 
   alignment AL_Pestivirus
     derive segments AL_PESTI_UNCONSTRAINED -a --mergeStrategy OVERWRITE

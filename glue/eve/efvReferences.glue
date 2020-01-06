@@ -1,9 +1,8 @@
 
   ### Flavivirus - endogenous cISFs
-  create reference REF_EFV_cISF1_AedAeg  fasta-consensus EFV-cISF.1-Aedes_aeg-con  
-  create reference REF_EFV_cISF1_AedAlb  fasta-consensus EFV-cISF.2-Aedes_alb-con  
+  create reference REF_EFV_cISF1_AedAeg  fasta-eve-consensus EFV-cISF.1-Aedes_aeg-con  
+  create reference REF_EFV_cISF1_AedAlb  fasta-eve-consensus EFV-cISF.2-Aedes_alb-con  
 
   ### Pesti-like 2
-  create reference REF_SLV2        ncbi-refseqs NC_028373
-  create reference REF_EFV_PI3_Ceratina  fasta-consensus EFV-Pestinsect.3-Ceratina-con  
+  create reference REF_EFV_PI3_Ceratina  fasta-eve-consensus EFV-Pestinsect.3-Ceratina-con  
 

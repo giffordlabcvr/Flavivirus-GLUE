@@ -1,0 +1,15 @@
+ schema-project flaviviridae
+  delete custom-table endogenous_data
+  exit
+
+project flaviviridae
+
+  delete reference REF_EFV_cISF1_AedAeg
+  delete reference REF_EFV_cISF1_AedAlb
+  delete reference REF_EFV_PI3_Ceratina
+  
+  delete source --whereClause "name like 'fasta-eve%'"
+
+  
+  exit
+ 

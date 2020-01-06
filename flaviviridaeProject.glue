@@ -10,5 +10,7 @@ schema-project flaviviridae
 # Build core project
 run file glue/build/buildCoreProject.glue
   
+  
 # Build endogenous flavivirus component
-#run file glue/build/buildEveProject.glue
+#run file glue/build/buildEveExtension.glue
+

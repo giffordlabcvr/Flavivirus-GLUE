@@ -1,7 +1,6 @@
 # Import pre-built alignments
 
-module unconstrainedAlignmentImporter
-
+module unconstrainedAlignmentImporter	
 	
   # Import 'tip' alignments
 
@@ -35,3 +34,4 @@ module unconstrainedAlignmentImporter
   import AL_EFV_Pestinsect_Operophtera_UNCONSTRAINED   -f alignments/tips/eve/pl2/pestinsect-operophtera.fna
 
   exit
+
