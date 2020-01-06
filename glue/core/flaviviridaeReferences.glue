@@ -14,10 +14,6 @@
   create reference REF_ccCFV       ncbi-refseqs MK473878   # crustacean
   create reference REF_ssFV        fasta-consensus SsFV_consensus  # arachnid
 
-  ### Flavivirus - endogenous cISFs
-  create reference REF_EFV_cISF1_AedAeg  fasta-consensus EFV-cISF.1-Aedes_aeg-con  
-  create reference REF_EFV_cISF1_AedAlb  fasta-consensus EFV-cISF.2-Aedes_alb-con  
-
   ### TABV
   create reference REF_TABV        ncbi-refseqs NC_003996 
 
@@ -33,12 +29,9 @@
 
   ### Pesti-like 2
   create reference REF_SLV2        ncbi-refseqs NC_028373
-  create reference REF_EFV_PI3_Ceratina  fasta-consensus EFV-Pestinsect.3-Ceratina-con  
-
 
   ### Hepacivirus
   create reference REF_HCV         ncbi-refseqs NC_004102  
 
   ### Pegivirus
   create reference REF_HPgV2       ncbi-refseqs NC_027998  
-

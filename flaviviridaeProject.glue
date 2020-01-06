@@ -1,51 +1,14 @@
 delete project flaviviridae
 
-create project flaviviridae "GLUE project for the Flaviviridae" --minVersion 1.1.65
+create project flaviviridae "A GLUE project for the flaviviridae" --minVersion 0.1.66
 
 schema-project flaviviridae
 
-  run file glue/flaviviridaeSchemaExtensions.glue
+  run file glue/core/flaviviridaeSchemaExtensions.glue
   exit
 
-project flaviviridae
-
-  # load project settings
-  run file glue/projectSettings.glue
-
-  # create modules
-  run file glue/flaviviridaeModules.glue
-
-  # Import sources
-  import source sources/ncbi-refseqs/
-  import source sources/fasta-curated/
-  import source sources/fasta-consensus/
+# Build core project
+run file glue/build/buildCoreProject.glue
   
-  # Import sequence-associated data
-  run file glue/flaviviridaeImportSideData.glue
-  
-  # Create references
-  run file glue/flaviviridaeReferences.glue
-
-  # Define features
-  run file glue/flaviviridaeFeatures.glue
-
-  # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/flavi-reference_feature_locations.tsv -r
-  module featureLocationTextToGlue transform tabular/efv-reference_feature_locations.tsv -r
-
-  # Add variations
-  #run file glue/flaviviridaeVariations.glue
-
-  # Import alignments
-  run file glue/flaviviridaeAlignments.glue
-  #run file glue/efvAlignments.glue
-
-  # Import alignment tree
-  #run file glue/flaviviridaeAlignmentTree.glue
-  #run file glue/efvAlignmentTree.glue
-
-  # Validate
-  validate
-
-  exit
-
+# Build endogenous flavivirus component
+#run file glue/build/buildEveProject.glue

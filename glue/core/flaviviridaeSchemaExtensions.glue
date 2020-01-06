@@ -17,10 +17,10 @@
     create field ref_nt_coverage_pct DOUBLE
     exit
 
-  # Create schema extensions for exogenous viruses
-  create custom-table exogenous_data
+  # Create schema extension for virus isolates
+  create custom-table isolate_data
 
-  table exogenous_data
+  table isolate_data
     create field isolate VARCHAR 100
     create field sample_date DATE
     create field place_sampled VARCHAR 100
@@ -32,20 +32,4 @@
     create field collection_month_day INTEGER
     exit
 
-  create link sequence exogenous_data
-
-  # Create schema extensions for EVEs
-  create custom-table endogenous_data
-
-  table endogenous_data
-    create field scaffold VARCHAR 50
-    create field start INTEGER
-    create field end INTEGER
-    create field orientation VARCHAR 10
-    create field length INTEGER
-    create field integration INTEGER
-    create field fragment INTEGER
-    create field duplicate INTEGER
-    exit
-
-  create link sequence endogenous_data
+  create link sequence isolate_data
