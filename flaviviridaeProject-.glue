@@ -1,0 +1,16 @@
+delete project flaviviridae
+
+create project flaviviridae "A GLUE project for the flaviviridae" --minVersion 0.1.66
+
+schema-project flaviviridae
+
+  run file glue/core/flaviviridaeSchemaExtensions.glue
+  exit
+
+# Build core project
+run file glue/build/buildCoreProject.glue
+  
+  
+# Build endogenous flavivirus component
+#run file glue/build/buildEveExtension.glue
+
