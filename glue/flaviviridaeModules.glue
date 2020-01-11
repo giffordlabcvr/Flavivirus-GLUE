@@ -1,4 +1,4 @@
-  create module -f modules/flaviviridaeGenbankXmlPopulator.xml genbankXmlPopulator
+  create module -f modules/flaviviridaeGenbankXmlPopulatorRefseqs.xml genbankXmlPopulatorRefseqs
   create module -f modules/flaviviridaeSideDataImporter.xml
   create module -f modules/unconstrainedAlignmentImporter.xml unconstrainedAlignmentImporter
   create module -f modules/featureLocationTextToGlue.xml 

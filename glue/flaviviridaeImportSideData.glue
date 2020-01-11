@@ -1,18 +1,19 @@
   # Import metadata for exogenous reference sequences from GenBank files
-  run script glue/loadExogenousData.js
-  module genbankXmlPopulator populate
+  run script glue/loadIsolateData.js
+  module genbankXmlPopulatorRefseqs populate
 
   # Import metadata for exogenous reference sequences from tabular
   module flaviviridaeSideDataImporter 
-    populate -f tabular/flavi-ncbi-refseqs-side-data.tsv
-    exit
-
-  # Import metadata for exogenous reference sequences from tabular
-  module efvSideDataImporter 
-    populate -f tabular/efv-side-data.tsv
+    populate -f tabular/virus/flavi-ncbi-refseqs-side-data.tsv
     exit
 
   # Import efv sequences and side data
-  run script glue/loadEndogenousData1.js
-  run script glue/loadEndogenousData2.js
+  run script glue/loadLocusData1.js
+  run script glue/loadLocusData2.js
+
+
+  # Import metadata for exogenous reference sequences from tabular
+  module efvSideDataImporter 
+    populate -f tabular/eve/efv-side-data.tsv
+    exit
 

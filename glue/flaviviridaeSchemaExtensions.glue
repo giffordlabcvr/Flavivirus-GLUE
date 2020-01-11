@@ -18,34 +18,45 @@
     exit
 
   # Create schema extensions for exogenous viruses
-  create custom-table exogenous_data
+  create custom-table isolate_data
 
-  table exogenous_data
+  table isolate_data
     create field isolate VARCHAR 100
-    create field sample_date DATE
-    create field place_sampled VARCHAR 100
-    create field country_iso VARCHAR
-    create field country VARCHAR 200
     create field sampled_host_sci_name VARCHAR 150
-    create field collection_year INTEGER 
-    create field collection_month VARCHAR
-    create field collection_month_day INTEGER
-    exit
+    create field host_common_name VARCHAR 100
+  exit
 
-  create link sequence exogenous_data
+  create link sequence isolate_data
 
-  # Create schema extensions for EVEs
-  create custom-table endogenous_data
 
-  table endogenous_data
+  # Table for EVE consensus and reference sequence data
+  create custom-table eve_refcon_data
+  
+  table eve_refcon_data
+    create field reftype VARCHAR 50
+    create field host_group_taxlevel VARCHAR 50
+    create field host_group_name VARCHAR 50
+    create field host_group_common_name VARCHAR 50
+    create field num_copies INTEGER
+    create field locus_id VARCHAR 50
+  exit
+  
+  create link sequence eve_refcon_data
+
+
+  # Table for EVE locus information
+  create custom-table locus_data
+  
+  table locus_data
     create field scaffold VARCHAR 50
-    create field start INTEGER
-    create field end INTEGER
+    create field start_position INTEGER
+    create field end_position INTEGER
     create field orientation VARCHAR 10
     create field length INTEGER
     create field integration INTEGER
     create field fragment INTEGER
     create field duplicate INTEGER
-    exit
+  exit
+  
+  create link sequence locus_data
 
-  create link sequence endogenous_data

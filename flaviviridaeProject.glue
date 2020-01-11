@@ -17,8 +17,9 @@ project flaviviridae
 
   # Import sources
   import source sources/ncbi-refseqs/
-  import source sources/fasta-curated/
   import source sources/fasta-consensus/
+  import source sources/fasta-eve-curated/
+  import source sources/fasta-eve-consensus/
   
   # Import sequence-associated data
   run file glue/flaviviridaeImportSideData.glue
@@ -30,8 +31,8 @@ project flaviviridae
   run file glue/flaviviridaeFeatures.glue
 
   # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/flavi-reference_feature_locations.tsv -r
-  module featureLocationTextToGlue transform tabular/efv-reference_feature_locations.tsv -r
+  module featureLocationTextToGlue transform tabular/virus/flavi-reference_feature_locations.tsv -r
+  module featureLocationTextToGlue transform tabular/eve/efv-reference_feature_locations.tsv -r
 
   # Add variations
   #run file glue/flaviviridaeVariations.glue
@@ -41,7 +42,7 @@ project flaviviridae
   #run file glue/efvAlignments.glue
 
   # Import alignment tree
-  #run file glue/flaviviridaeAlignmentTree.glue
+  run file glue/flaviviridaeAlignmentTree.glue
   #run file glue/efvAlignmentTree.glue
 
   # Validate
