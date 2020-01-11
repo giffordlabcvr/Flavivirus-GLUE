@@ -1,6 +1,6 @@
   # Import metadata for exogenous reference sequences from tabular
   module efvSideDataImporter 
-    populate -f tabular/efv-side-data.tsv
+    populate -f tabular/eve/efv-side-data.tsv
     exit
 
   # Import efv sequences and side data

@@ -4,5 +4,5 @@
 
   # Import metadata for exogenous reference sequences from tabular
   module flaviviridaeSideDataImporter 
-    populate -f tabular/flavi-ncbi-refseqs-side-data.tsv
+    populate -f tabular/virus/flavi-ncbi-refseqs-side-data.tsv
     exit
