@@ -12,41 +12,13 @@ project flaviviridae
   # load project settings
   run file glue/core/projectSettings.glue
 
-  # create modules
-  run file glue/core/flaviviridaeModules.glue
-
-  # Import sources
-  import source sources/ncbi-refseqs/
-  import source sources/fasta-consensus/
+  # Build core project
+  run file glue/build/buildCoreProject.glue
   
-  # Import sequence-associated data
-  run file glue/core/flaviviridaeImportSideData.glue
-  
-  # Create references
-  run file glue/core/flaviviridaeReferences.glue
-
-  # Define features
-  run file glue/core/flaviviridaeFeatures.glue
-
-  # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/flavi-reference_feature_locations.tsv -r
-
-  # Add variations
-  #run file glue/core/flaviviridaeVariations.glue
-
-  # Import alignments
-  run file glue/core/flaviviridaeAlignments.glue
-
-  # Import alignment tree
-  run file glue/core/flaviviridaeAlignmentTree.glue
-  
-  
-  #module featureLocationTextToGlue transform tabular/efv-reference_feature_locations.tsv -r
-  #run file glue/eve/efvAlignments.glue
-  #run file glue/eve/efvAlignmentTree.glue
-
-  # Validate
   validate
 
   exit
+
+# Build endogenous flavivirus component
+run file glue/build/buildEveExtension.glue
 

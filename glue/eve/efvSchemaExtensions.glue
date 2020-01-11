@@ -1,8 +1,8 @@
 
   # Create schema extensions for EVEs
-  create custom-table endogenous_data
+  create custom-table locus_data
 
-  table endogenous_data
+  table locus_data
     create field scaffold VARCHAR 50
     create field start INTEGER
     create field end INTEGER
@@ -13,4 +13,4 @@
     create field duplicate INTEGER
     exit
 
-  create link sequence endogenous_data
+  create link sequence locus_data

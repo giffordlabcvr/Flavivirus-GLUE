@@ -1,0 +1,4 @@
+  delete module efvSideDataImporter
+  
+  
+  create module -f modules/efvSideDataImporter.xml

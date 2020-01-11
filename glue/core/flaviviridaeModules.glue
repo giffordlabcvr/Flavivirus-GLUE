@@ -6,4 +6,4 @@
   create module -f modules/flaviviridaeTabularUtility.xml flaviviridaeTabularUtility
   create module -f modules/flaviviridaeFeaturePresenceRecorder.xml
   create module -f modules/flavivirusCompoundAligner.xml  
-  create module -f modules/efvSideDataImporter.xml
+
