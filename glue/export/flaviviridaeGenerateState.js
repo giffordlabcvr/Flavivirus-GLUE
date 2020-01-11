@@ -1,34 +1,146 @@
+var NS3_fasta_aa = [ ];
+var NS3_fasta_nt = [ ];
+var NS5_fasta_aa = [ ];
+var NS5_fasta_nt = [ ];
+
+// Get a list of all the distinct sources for reference sequences
 var source_names = get_refseq_sources();
+
+// Process reference sequences in each source
+var featureSummary = {};
 for(var i = 0; i < source_names.length; i++) {
 
 	var sourceName = source_names[i];
 	glue.logInfo("Processing source: "+sourceName);
-	
+
+    // Get the names (IDs) of all references in this source	
 	var refseq_ids = get_refseq_ids(sourceName);	
+
+	// Iterate through the list of references
 	for(var j = 0; j < refseq_ids.length; j++) {
 
 		var refseqID = refseq_ids[j];
 		glue.logInfo("Processing source "+sourceName+", Reference: "+refseqID);		
 
-		// List the features
-		var myFeatures = get_features(refseqID);
+		// Get a list of the features in this reference sequence
+		var myFeatures = get_features(refseqID);				
+
+		// Iterate through the list of features
+		for(var k = 0; k < myFeatures.length; k++) {
 		
-		// Get Gag sequences
-		//var gag_aa = get_amino_acids(refseqID, 'Gag');
-		// Get Pol sequences
-		//var pol_aa = get_amino_acids(refseqID, 'Pol');
-		// Get Env sequences
-		//var pol_aa = get_amino_acids(refseqID, 'Env');
-
-
+			var featureID = myFeatures[k];		
+			process_feature(featureSummary, refseqID, featureID);
+			
+		}
 	}
 }
+
 
 // Get alignments
 var myAlignments = get_alignments()
 
+var NS3_fasta_aa_str = NS3_fasta_aa.join("\n");
+glue.command(["file-util", "save-string", NS3_fasta_aa_str, "export/NS3_fasta.faa"]);
+var NS3_fasta_nt_str = NS3_fasta_nt.join("\n");
+glue.command(["file-util", "save-string", NS3_fasta_nt_str, "export/NS3_fasta.fna"]);
+
+var NS5_fasta_aa_str = NS5_fasta_aa.join("\n");
+glue.command(["file-util", "save-string", NS5_fasta_aa_str, "export/NS5_fasta.faa"]);
+var NS5_fasta_nt_str = NS5_fasta_nt.join("\n");
+glue.command(["file-util", "save-string", NS5_fasta_nt_str, "export/NS5_fasta.fna"]);
+
 
 // SUBROUTINES
+// Process feature 
+function process_feature(featureSummary, refseqID, featureID) {
+	
+	glue.logInfo("  Processing feature: "+featureID+" in reference "+refseqID);
+
+	if (featureID == "NS3" || featureID == "NS5" ) {
+		var featureCodons = get_coding_feature_amino_acids(refseqID, featureID);
+		create_feature_fasta(refseqID, featureID, featureCodons, featureSummary);
+	}	
+}
+
+// Create feature fasta 
+function create_feature_fasta(refseqID, featureID, featureCodons, featureSummary) {
+
+	var labelledCodons;
+	glue.inMode("reference/"+refseqID+"/feature-location/"+featureID, function(){
+		labelledCodons = glue.getTableColumn(glue.command(["list", "labeled-codon"]), "codonLabel");
+		
+	});
+
+	// Iterate through all the codon positions
+	var fasta_aa = ">"+refseqID+"\n";
+	var fasta_codons = ">"+refseqID+"\n";
+	_.each(labelledCodons,function(codonLabel) {
+	  
+	  var resultObj1 = featureCodons[codonLabel];
+	  var amino1   = resultObj1.aminoAcid;	
+	  var ref_nuc  = resultObj1.refNt;	
+	  var codon    = resultObj1.codonNts;	
+
+	  glue.logInfo("  amino acid "+amino1+", "+ref_nuc+", "+codon);
+
+	  fasta_aa     = fasta_aa+amino1;
+	  fasta_codons = fasta_codons+codon;
+	  
+	});
+
+ 	//glue.logInfo("FASTA amino acid "+fasta_aa);	
+	//glue.logInfo("FASTA nucleotide "+fasta_codons);
+	
+	fasta_aa     = fasta_aa+"\n";
+	fasta_codons = fasta_codons+"\n";
+
+	if (featureID == "NS3") {
+	  NS3_fasta_aa.push(fasta_aa); 
+	  NS3_fasta_nt.push(fasta_codons);
+	
+	}	
+	
+	if (featureID == "NS5") {
+	  NS5_fasta_aa.push(fasta_aa); 
+	  NS5_fasta_nt.push(fasta_codons);
+	}	
+	
+}
+
+// Return a map object containing amino-acid summary for a coding feature 
+function get_coding_feature_amino_acids(refseqID, featureID) {
+	
+	glue.logInfo("  Getting amino acids for feature: "+featureID);
+	
+	var resultMap = {};
+	glue.inMode("reference/"+refseqID+"/feature-location/"+featureID, function(){		
+		var resultList = glue.tableToObjects(glue.command(["amino-acid"]));		
+		_.each(resultList,function(resultObj){
+			resultMap[resultObj.codonLabel] = resultObj;
+		});
+		
+	});
+	
+	/* resultList will look like this.
+	 * [
+	 * 		{ codonLabel: "1", aminoAcid: "K", nucleotideTriplet:"TAC", ... },
+	 *     	{ codonLabel: "2", aminoAcid: "L", ... },
+	 *     	{ codonLabel: "3", aminoAcid: "S", ... }
+	 * ]
+	 */
+	
+	/* resultMap will look like this:
+	 *  {
+	 *     "1": { codonLabel: "1", aminoAcid: "K", ...},
+	 *     "2": { codonLabel: "2", aminoAcid: "L", ...},
+	 *     "3": { codonLabel: "3", aminoAcid: "S", ...},
+	 * }
+	 * 
+	 */
+
+	return resultMap;
+}
+
 // Get feature names for a give reference sequence
 function get_features(refseqID) {
 
@@ -36,45 +148,8 @@ function get_features(refseqID) {
 	glue.inMode("reference/"+refseqID, function(){
 		myFeatures = glue.getTableColumn(glue.command(["list", "feature-location"]), "feature.name");
 	});
-	
-	for(var k = 0; k < myFeatures.length; k++) {
-		var featureID = myFeatures[k];
-		glue.logInfo("  Processing feature: "+featureID);		
-	
-	}
+	return myFeatures;
 }
-
-// Get source names
-function get_amino_acids(refseqID, featureName) {
-
-	var labelledCodons;			
-	glue.inMode("reference/"+refseqID+"/feature-location/"+featureName, function(){
-		labelledCodons = glue.getTableColumn(glue.command(["list", "labeled-codon"]), "codonLabel");
-	});
-
-	var results1;	
-	results1 = get_feature_amino_acids(refseqID, featureName);
-
-	// Iterate through all the codon positions in this position and compare result for each seq
-	_.each(labelledCodons,function(codonLabel){
-
-		var resultObj1 = results1[codonLabel];
-
-		/* resultObj1 will look like this.
-		 * { codonLabel: "1", memberNt: 234, relRefNt: 5346, codonNts: "ATG", aminoAcid: "M", ..., ... }
-		 */
-
-		if (resultObj1) {
-
-			glue.logInfo("resultObj1", resultObj1);
-			var amino1 = resultObj1.aminoAcid;	
-
-		}
-	});		
-	
-	return results1;
-}
-
 
 // Get source names
 function get_refseq_sources() {
@@ -101,7 +176,6 @@ function get_alignments() {
 
 	}
 	return myAlignments;
-
 }
 
 // Get codons + amino acids for a given coding feature
@@ -115,9 +189,7 @@ function get_feature_amino_acids(refSeqID, feature) {
 			resultMap[resultObj.codonLabel] = resultObj;
 		});
 	});
-		
-	return resultMap;
-	
+	return resultMap;	
 }
 
 // Get coding features in a map  
@@ -129,6 +201,6 @@ function get_coding_feature_map() {
 		resultMap[resultObj.feature.name] = resultObj;
 	});	
 	return resultMap;
-	
+
 }
 
