@@ -20,5 +20,5 @@ project flaviviridae
   exit
 
 # Build endogenous flavivirus component
-run file glue/build/buildEveExtension.glue
+#run file glue/build/buildEveExtension.glue
 

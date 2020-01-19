@@ -18,11 +18,11 @@
   ### Pesti-Flavi-like
   alignment AL_FlaviPesti
 
-	extract child AL_FlaviLike  --refName REF_MASTER_YFV
+	extract child AL_FlaviLike  --refName REF_MASTER_YFV  # NC_002031
 	demote member AL_FlaviLike  --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus' or sequence.genus = 'Jingmenvirus'"
 
- 	extract child AL_PestiLike  --refName REF_BVDV1
-	demote member AL_PestiLike  --whereClause "sequence.sequenceID = 'NC_024077' or sequence.sequenceID = 'NC_001461' or sequence.sequenceID = 'NC_028373'" 
+ 	extract child AL_PestiLike  --refName REF_BVDV1 # NC_001461
+	demote member AL_PestiLike  --whereClause "sequence.genus = 'Pestivirus' or sequence.genus = 'Pesti-like'" 
 
     exit
 
@@ -30,38 +30,19 @@
   ### Flavi clade level 1 alignments
   alignment AL_FlaviLike
 
-	extract child AL_FlaviTabvJmtv1      --refName REF_JMTV_SEG1
-	demote member AL_FlaviTabvJmtv1      --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus' or sequence.clade = 'JMTV1'" 
+	extract child AL_Jingmenvirus        --refName REF_JMTV_SEG1
+	demote member AL_Jingmenvirus        --whereClause "sequence.genus  = 'Jingmenvirus'"
 
-	extract child AL_FlaviTabvJmtv3      --refName REF_JMTV_SEG3
-	demote member AL_FlaviTabvJmtv3      --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus' or sequence.clade = 'JMTV3'" 
+	extract child AL_FlaviTamana         --refName REF_MASTER_YFV
+	demote member AL_FlaviTamana         --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus'"
+
 
     exit
 
 
-  ### Flavi clade level 2 alignments
-  alignment AL_FlaviTabvJmtv1
-
-	extract child AL_Jingmenvirus_Seg1   --refName REF_JMTV_SEG1
-	demote member AL_Jingmenvirus_Seg1   --whereClause "sequence.clade = 'JMTV1'"
-
-	extract child AL_FlaviTamana         --refName REF_TABV
-	demote member AL_FlaviTamana         --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus'" 
-
-    exit
-
-
-  ### Flavi clade level 2 alignments
-  alignment AL_FlaviTabvJmtv3
-
-	extract child AL_Jingmenvirus_Seg3   --refName REF_JMTV_SEG3
-	demote member AL_Jingmenvirus_Seg3   --whereClause "sequence.clade = 'JMTV3'"
-	
-    exit
-
-  ### Flavi clade level 3 alignments
+  ### Flavi clade level 1 alignments
   alignment AL_FlaviTamana
-
+	
 	extract child AL_Flavivirus          --refName REF_MASTER_YFV
 	demote member AL_Flavivirus          --whereClause "sequence.genus = 'Flavivirus'"
 
@@ -69,7 +50,6 @@
 	demote member AL_Tamanavirus         --whereClause "sequence.genus = 'Tamanavirus'" 
 
     exit
-
 
   ### Flavivirus genus subclades
   alignment AL_Flavivirus

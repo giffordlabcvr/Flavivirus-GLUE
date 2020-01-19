@@ -126,8 +126,8 @@ NC_003996	Tamana bat virus	TABV	Flaviviridae	FlaviPesti	Tamanavirus	TABV		Pteron
 MF776369	Cyclopterus lumpus virus	LFLV	Flaviviridae	FlaviPesti	Tamanavirus			Cyclopterus	none	none	-	-	Cyclopterus lumpus
 MH716818	Eastern red scorpionfish flavivirus	ErsFV	Flaviviridae	FlaviPesti	Tamanavirus			Scorpaena	none	none	-	-	Scorpaena jacksoniensis
 MG599986	Wenzhou shark flavivirus	WenSFV	Flaviviridae	FlaviPesti	Tamanavirus			Scoliodon	none	none	-	-	Scoliodon macrorhynchos
-NC_028375	Shayang fly virus 4	ShayangFlyV4	Flaviviridae	FlaviPesti	Ungrouped			Musca	none	none	-	-	Musca domestica
-NC_028370	Xingshan cricket virus	XCV	Flaviviridae	FlaviPesti	Ungrouped			Velarifictorus	none	none	-	-	Velarifictorus micado
+NC_028375	Shayang fly virus 4	ShayangFlyV4	Flaviviridae	FlaviPesti	Pesti-like	Ungrouped		Musca	none	none	-	-	Musca domestica
+NC_028370	Xingshan cricket virus	XCV	Flaviviridae	FlaviPesti	Pesti-like	Ungrouped		Velarifictorus	none	none	-	-	Velarifictorus micado
 NC_004102	Hepatitis C virus	HCV	Flaviviridae	HepaPegi	Hepacivirus	Genotype 1		Homo	none	none	H77		-
 NC_026797	Bovine hepacivirus	BHCV	Flaviviridae	HepaPegi	Hepacivirus			Bos	none	none	GHC25	Africa	Bos taurus
 NC_024889	Equine hepacivirus	EHCV	Flaviviridae	HepaPegi	Hepacivirus			Equus	none	none	-	Asia	Equus caballus
