@@ -1,0 +1,30 @@
+
+  # create modules
+  run file glue/core/flaviviridaeModules.glue
+
+  # Import sources
+  import source sources/ncbi-refseqs/
+  import source sources/fasta-consensus/
+  
+  # Import sequence-associated data
+  run file glue/core/flaviviridaeImportSideData.glue
+  
+  # Create references
+  run file glue/core/flaviviridaeReferences.glue
+
+  # Define features
+  run file glue/core/flaviviridaeFeatures.glue
+
+  # Add feature locations to reference sequences
+  module featureLocationTextToGlue
+    transform tabular/virus/flavi-reference_feature_locations.tsv -r
+    exit
+
+  # Add variations
+  run file glue/core/flaviviridaeVariations.glue
+
+  # Import alignments
+  run file glue/core/flaviviridaeAlignments.glue
+
+  # Import alignment tree
+  #run file glue/core/flaviviridaeAlignmentTree.glue
