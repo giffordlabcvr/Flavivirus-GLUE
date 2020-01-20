@@ -7,18 +7,10 @@ schema-project flaviviridae
   run file glue/core/flaviviridaeSchemaExtensions.glue
   exit
 
-project flaviviridae
 
-  # load project settings
-  run file glue/core/projectSettings.glue
-
-  # Build core project
-  run file glue/build/buildCoreProject.glue
-  
-  validate
-
-  exit
+# Build core project
+run file glue/build/buildCoreProject.glue
 
 # Build endogenous flavivirus component
-#run file glue/build/buildEveExtension.glue
+run file glue/build/buildEveExtension.glue
 
