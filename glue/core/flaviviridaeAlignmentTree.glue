@@ -69,7 +69,7 @@
 
  alignment AL_FlaviLike
 
-	extract child AL_Jingmenvirus        --refName REF_JMTV_SEG1
+	extract child AL_Jingmenvirus        --refName REF_JMTV_CONCAT
 	demote member AL_Jingmenvirus        --whereClause "sequence.genus  = 'Jingmenvirus'"
 
 	extract child AL_FlaviTamana         --refName REF_MASTER_YFV
