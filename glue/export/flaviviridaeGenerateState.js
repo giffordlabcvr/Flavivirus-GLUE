@@ -10,7 +10,7 @@ var NS5_fasta_nt = [ ];
 //process_refseqs();
 
 // Summarise the alignments in this project
-process_alignments();
+process_alignment_tree("AL_Flaviviridae_MASTER");
 
 // Summarise the virus isolates in this project
 //process_virus_isolates();
@@ -63,7 +63,7 @@ function process_refseqs() {
 }
 
 
-// Process reference sequences 
+// Process alignments non-recursively
 function process_alignments() {
  
 	// Get alignments
