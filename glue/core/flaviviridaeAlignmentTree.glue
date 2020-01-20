@@ -4,8 +4,8 @@
   # Root alignment
   #
   
-  create alignment AL_Flaviviridae_MASTER -r REF_MASTER_YFV
-  alignment AL_Flaviviridae_MASTER
+  create alignment AL_MASTER_Flaviviridae -r REF_MASTER_YFV
+  alignment AL_MASTER_Flaviviridae
 
     add member --allSequences
   
@@ -126,7 +126,7 @@
   # ROOT NODE
   #
   
-  alignment AL_Flaviviridae_MASTER
+  alignment AL_MASTER_Flaviviridae
     derive segments AL_Flaviviridae_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
