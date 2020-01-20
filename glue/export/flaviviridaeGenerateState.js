@@ -10,7 +10,7 @@ var NS5_fasta_nt = [ ];
 //process_refseqs();
 
 // Summarise the alignments in this project
-process_alignments();
+process_alignment_tree("AL_Flaviviridae_MASTER");
 
 // Summarise the virus isolates in this project
 //process_virus_isolates();
@@ -63,7 +63,7 @@ function process_refseqs() {
 }
 
 
-// Process reference sequences 
+// Process alignments non-recursively
 function process_alignments() {
  
 	// Get alignments
@@ -93,38 +93,20 @@ function process_alignments() {
 		
 }
 
-// Recursively process alignment tree from root to tips
-function process_alignment_tree(rootAlignName) {
+// Recursively process alignment tree from a given node to tips
+function process_alignment_tree(parentAlignName) {
+    glue.logInfo("Processing alignment "+parentAlignName);
+ 
+    var childAlignments;
+	glue.inMode("alignment/"+parentAlignName+"/", function(){
 
-    glue.logInfo("Processing root alignment "+rootAlignName);
-
-	glue.inMode("alignment/"+rootAlignName+"/", function(){
-
-	    var childAlignments = glue.getTableColumn(glue.command(["list", "children"]), "name");	
-	    	    
-		_.each(childAlignments,function(childAlignmentName){		
-			process_child_alignment(childAlignmentName);
-		});
+	    childAlignments = glue.getTableColumn(glue.command(["list", "children"]), "name");	
 	});
 
-}
-
-// Process a child alignment
-function process_child_alignment(childAlignName) {
-
-    glue.logInfo("Processing child alignment "+childAlignName);
-
-	glue.inMode("alignment/"+childAlignName+"/", function(){
-
-	    var childAlignments = glue.getTableColumn(glue.command(["list", "children"]), "name");	
-	    	    
-	    if (childAlignments) {
-			_.each(childAlignments,function(childAlignmentName){		
-				process_child_alignment(childAlignmentName);
-			});
-		}
+	_.each(childAlignments,function(childAlignmentName){		
+		process_alignment_tree(childAlignmentName);
+	});
 		
-	});
 
 }
 
