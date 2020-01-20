@@ -230,6 +230,11 @@
   feature NS3 set metatag INCLUDE_IN_SUMMARY true
   feature NS3 set metatag CODES_AMINO_ACIDS true
 
+  create feature seg3-NS3 -p whole_genome "NS3"  # Jingmenvirus
+  feature seg3-NS3 set metatag OWN_CODON_NUMBERING true
+  feature seg3-NS3 set metatag INCLUDE_IN_SUMMARY true
+  feature seg3-NS3 set metatag CODES_AMINO_ACIDS true
+
   ## Non-structural protein NS4
 
   create feature flavi-NS4A -p non_structural_proteins "Flavivirus NS4A"
@@ -289,6 +294,11 @@
   feature NS5-like set metatag OWN_CODON_NUMBERING true
   feature NS5-like set metatag INCLUDE_IN_SUMMARY true
   feature NS5-like set metatag CODES_AMINO_ACIDS true
+
+  create feature seg1-NS5 -p whole_genome "NS5"  # Jingmenvirus
+  feature seg1-NS5 set metatag OWN_CODON_NUMBERING true
+  feature seg1-NS5 set metatag INCLUDE_IN_SUMMARY true
+  feature seg1-NS5 set metatag CODES_AMINO_ACIDS true
 
   create feature 3UTR -p whole_genome "3' untranslated region"
   feature 3UTR set field displayName "3' UTR"

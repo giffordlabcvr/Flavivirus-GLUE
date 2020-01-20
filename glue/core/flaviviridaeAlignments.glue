@@ -8,13 +8,23 @@
     import AL_HEPA_PEGI_UNCONSTRAINED            -f alignments/internal/major-lineage/hepa-pegi.aln.fna
     import AL_FLAVI_PESTI_UNCONSTRAINED          -f alignments/internal/major-lineage/flavi-pesti.aln.fna
 
-    #~# Cross-genus 
-    import AL_FLAVI_TABV_JMTVseg1_UNCONSTRAINED  -f alignments/internal/cross-genus/flav-tabv-jmtvSeg1.aln.fna
-    import AL_FLAVI_TABV_JMTVseg3_UNCONSTRAINED  -f alignments/internal/cross-genus/flav-tabv-jmtvSeg3.aln.fna
-    import AL_FLAVI_TABV_UNCONSTRAINED           -f alignments/internal/cross-genus/flavi-tabv.aln.fna
-    import AL_PESTI_LIKE_UNCONSTRAINED           -f alignments/internal/cross-genus/pesti-like.aln.fna
+    #~# Minor lineages
+    import AL_PESTI_LIKE_UNCONSTRAINED           -f alignments/internal/minor-lineage/pesti-like.aln.fna
+    import AL_FLAVI_LIKE_UNCONSTRAINED           -f alignments/internal/minor-lineage/flavi-tabv.aln.fna
+    import AL_FLAVI_TABV_UNCONSTRAINED           -f alignments/internal/minor-lineage/flavi-tabv.aln.fna
 
-    #~# Genus Flavivirus subgroups
+    #~# Genera
+    import AL_PEGI_UNCONSTRAINED                 -f alignments/internal/genus/pegivirus.aln.fna
+    import AL_HEPACI_UNCONSTRAINED               -f alignments/internal/genus/hepacivirus.aln.fna
+    import AL_FLAVI_UNCONSTRAINED                -f alignments/internal/genus/flavivirus.aln.fna
+    import AL_TABV_UNCONSTRAINED                 -f alignments/internal/genus/tamanavirus.aln.fna   
+    import AL_PESTI_UNCONSTRAINED                -f alignments/internal/genus/pestivirus.aln.fna
+    import AL_PL1_UNCONSTRAINED                  -f alignments/internal/genus/pl1.aln.fna
+    import AL_PL2_UNCONSTRAINED                  -f alignments/internal/genus/pl2.aln.fna
+    import AL_JMTV_SEG1_UNCONSTRAINED            -f alignments/internal/genus/jmtvSeg1.aln.fna    
+    import AL_JMTV_SEG3_UNCONSTRAINED            -f alignments/internal/genus/jmtvSeg3.aln.fna    
+
+    #~# Genus subgroups
     import AL_FLAVI_cISF_UNCONSTRAINED           -f alignments/internal/subgroup/cISF.aln.fna
     import AL_FLAVI_dISF1_UNCONSTRAINED          -f alignments/internal/subgroup/dISF1.aln.fna
     import AL_FLAVI_dISF2_UNCONSTRAINED          -f alignments/internal/subgroup/dISF2.aln.fna
@@ -25,16 +35,4 @@
     import AL_FLAVI_tick_UNCONSTRAINED           -f alignments/internal/subgroup/ticks.aln.fna
     import AL_FLAVI_crustacean_UNCONSTRAINED     -f alignments/internal/subgroup/crustacean.aln.fna
 
-    import AL_JMTV_SEG1_UNCONSTRAINED            -f alignments/internal/genus/jmtvSeg1.aln.fna    
-    import AL_JMTV_SEG3_UNCONSTRAINED            -f alignments/internal/genus/jmtvSeg3.aln.fna    
-
-
-    #~# Genus-level 
-    import AL_PEGI_UNCONSTRAINED                 -f alignments/internal/genus/pegivirus.aln.fna
-    import AL_HEPACI_UNCONSTRAINED               -f alignments/internal/genus/hepacivirus.aln.fna
-    import AL_FLAVI_UNCONSTRAINED                -f alignments/internal/genus/flavivirus.aln.fna
-    import AL_TABV_UNCONSTRAINED                 -f alignments/internal/genus/tamanavirus.aln.fna   
-    import AL_PESTI_UNCONSTRAINED                -f alignments/internal/genus/pestivirus.aln.fna
-    import AL_PL1_UNCONSTRAINED                  -f alignments/internal/genus/pesti-like-scnv5.fna
-    import AL_PL2_UNCONSTRAINED                  -f alignments/internal/genus/pesti-like-insect.fna
     exit
