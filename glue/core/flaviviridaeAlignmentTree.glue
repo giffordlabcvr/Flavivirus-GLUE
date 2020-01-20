@@ -144,14 +144,18 @@
     derive segments AL_FLAVI_PESTI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
 
+    alignment AL_PestiLike
+    derive segments AL_PESTI_LIKE_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_FlaviLike
+    derive segments AL_FLAVI_LIKE_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
 
   #
   # PESTIVIRUS-LIKE SUBGROUPS
   #
-  
-  alignment AL_PestiLike
-    derive segments AL_PESTI_LIKE_UNCONSTRAINED -a --mergeStrategy OVERWRITE
-    exit
 
   alignment AL_Pestivirus
     derive segments AL_PESTI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
@@ -169,9 +173,6 @@
   # FLAVIVIRUS-LIKE SUBGROUPS
   #  
   
-  alignment AL_FlaviLike
-    derive segments AL_FLAVI_LIKE_UNCONSTRAINED -a --mergeStrategy OVERWRITE
-    exit
 
   alignment AL_Jingmenvirus
     derive segments AL_JMTV_SEG1_UNCONSTRAINED -a --mergeStrategy OVERWRITE
@@ -188,7 +189,12 @@
   alignment AL_Flavivirus
     derive segments AL_FLAVI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
+
  
+  #
+  # FLAVIVIRUS SUBGROUPS
+  #  
+
   alignment AL_mosquito-1
     derive segments AL_FLAVI_mosq1_UNCONSTRAINED -a --mergeStrategy OVERWRITE
     exit
@@ -223,6 +229,6 @@
 
   alignment AL_crustacean
     derive segments AL_FLAVI_crustacean_UNCONSTRAINED -a --mergeStrategy OVERWRITE
-    exi
+    exit
 
 
