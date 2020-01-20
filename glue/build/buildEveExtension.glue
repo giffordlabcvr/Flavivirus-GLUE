@@ -1,0 +1,32 @@
+run file glue/eve/efvDeletePreviousBuild.glue
+
+schema-project flaviviridae
+  run file glue/eve/efvSchemaExtensions.glue
+  exit
+
+project flaviviridae
+
+  # Import sources
+  import source sources/fasta-eve-consensus/
+  import source sources/fasta-eve/
+
+  # Create references
+  run file glue/eve/efvReferences.glue
+
+  # Import sequence-associated data
+  run file glue/eve/efvImportSideData.glue
+
+  # Add feature locations to reference sequences
+  module featureLocationTextToGlue transform tabular/efv-reference_feature_locations.tsv -r
+
+  # Import alignments
+  run file glue/eve/efvAlignments.glue
+
+  # Import alignment tree
+  #run file glue/eve/efvAlignmentTree.glue
+
+  # Validate
+  validate
+
+  exit
+
