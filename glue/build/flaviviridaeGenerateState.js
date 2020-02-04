@@ -46,15 +46,15 @@ function process_refseqs() {
 			glue.logInfo("Processing source "+sourceName+", Reference: "+refseqID);		
 
 			// Get a list of the features in this reference sequence
-			var myFeatures = get_features(refseqID);				
-
-			// Iterate through the list of features
+			var myFeatures = get_features(refseqID);							// Iterate through the list of features
 			for(var k = 0; k < myFeatures.length; k++) {
 		
 				var featureID = myFeatures[k];		
 				process_feature(featureSummary, refseqID, featureID);
 			
 			}
+
+
 		}
 	}
 	
@@ -208,7 +208,7 @@ function get_coding_feature_amino_acids(refseqID, featureID) {
 	var resultMap = {};
 	glue.inMode("reference/"+refseqID+"/feature-location/"+featureID, function(){		
 		var resultList = glue.tableToObjects(glue.command(["amino-acid"]));		
-		_.each(resultList,function(resultObj){
+		_.each(resultList, function(resultObj){
 			resultMap[resultObj.codonLabel] = resultObj;
 		});
 		
