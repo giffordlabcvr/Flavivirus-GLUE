@@ -2,7 +2,7 @@
 
 module unconstrainedAlignmentImporter	
 	
-  # Import 'tip' alignments
+  # Import EVE 'tip' alignments (alignments of multicopy EVE loci believed to have a common origin)
 
   #~# X1
   import AL_EFV_Priapulus_UNCONSTRAINED                -f alignments/tips/eve/unclassified/x1-priapulus.fna
