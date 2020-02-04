@@ -19,6 +19,9 @@ create reference REF_EFV-Tamana.2-Laupala       fasta-eve-refseqs EFV-Tamana.2-L
 create reference REF_EFV-Tamana.3-Amphinemura   fasta-eve-refseqs EFV-Tamana.3-Amphinemura-con
 create reference REF_EFV-Tamana.4-Stylephorus   fasta-eve-refseqs EFV-Tamana.4-Stylephorus
 
+### Jingmenvirus
+create reference REF_EFV-Jingmen.1-Chironomus   fasta-eve-refseqs EFV-Jingmen.1-Chironomus
+
 ### X1
 create reference REF_EFV-X1.1-Priapulus         fasta-eve-refseqs EFV-X1.1-Priapulus
 
