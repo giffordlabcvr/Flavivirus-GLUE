@@ -1,8 +1,38 @@
+#### EFV reference sequences
 
-  ### Flavivirus - endogenous cISFs
-  create reference REF_EFV_cISF1_AedAeg  fasta-eve-consensus EFV-cISF.1-Aedes_aeg-con  
-  create reference REF_EFV_cISF1_AedAlb  fasta-eve-consensus EFV-cISF.2-Aedes_alb-con  
+### cISF 
+create reference REF_EFV-cISF.1_AedAeg          fasta-eve-refseqs EFV-cISF.1-Aedes_aeg-con  
+create reference REF_EFV-cISF.1_AedAlb          fasta-eve-refseqs EFV-cISF.2-Aedes_alb-con  
+create reference REF_EFV-cISF.3-AnoMin          fasta-eve-refseqs EFV-cISF.3-AnoMin  
+create reference REF_EFV-cISF.4_AnoSin          fasta-eve-refseqs EFV-cISF.4-AnoSin  
+create reference REF_EFV-cISF.5-TipOle          fasta-eve-refseqs EFV-cISF.5-TipOle-con
+create reference REF_EFV-cISF.6-ConPat          fasta-eve-refseqs EFV-cISF.5-ConPat
 
-  ### Pesti-like 2
-  create reference REF_EFV_PI3_Ceratina  fasta-eve-consensus EFV-Pestinsect.3-Ceratina-con  
+### Flavivirus 
+create reference REF_EFV-Flavi.1-Craspedacusta  fasta-eve-refseqs EFV-Flavi.1-Craspedacusta-con
+create reference REF_EFV-Flavi.2-Daphnia        fasta-eve-refseqs EFV-Flavi.2-Daphnia-con
+create reference REF_EFV-Flavi.3-Lepidurus      fasta-eve-refseqs EFV-Flavi.3-Lepidurus_arcticus-con
+
+### Tamanavirus
+create reference REF_EFV-Tamana.1-Lednia        fasta-eve-refseqs EFV-Tamana.1-Lednia
+create reference REF_EFV-Tamana.2-Laupala       fasta-eve-refseqs EFV-Tamana.2-Laupala-con
+create reference REF_EFV-Tamana.3-Amphinemura   fasta-eve-refseqs EFV-Tamana.3-Amphinemura-con
+create reference REF_EFV-Tamana.4-Stylephorus   fasta-eve-refseqs EFV-Tamana.4-Stylephorus
+
+### X1
+create reference REF_EFV-X1.1-Priapulus         fasta-eve-refseqs EFV-X1.1-Priapulus
+
+### X2
+create reference REF_EFV-X2.1-Eurytemora        fasta-eve-refseqs EFV-X2.1-Eurytemora
+create reference REF_EFV-X2.2-Austrofundulus    fasta-eve-refseqs EFV-X2.2-Austrofundulus
+create reference REF_EFV-X2.3-Stylephorus       fasta-eve-refseqs EFV-X2.3-Stylephorus
+
+### Pesti-like 2
+create reference REF_EFV-PL2.1-Calycopis        fasta-eve-refseqs EFV-PL.1-Calycopis-con
+create reference REF_EFV-PL2.2-Euschistus       fasta-eve-refseqs EFV-PL.2-Euschistus-con
+create reference REF_EFV-PL2.3-Ceratina         fasta-eve-refseqs EFV-PL.3-Ceratina-con
+create reference REF_EFV-PL2.4-Andricus         fasta-eve-refseqs EFV-PL.4-Andricus
+create reference REF_EFV-PL2.5-Anoplophora      fasta-eve-refseqs EFV-PL.4-Anoplophora
+create reference REF_EFV-PL2.6-Xenocatantops    fasta-eve-refseqs EFV-PL.6-Xenocatantops-con
+create reference REF_EFV-PL2.7-Operophtera      fasta-eve-refseqs EFV-PL.6-Operophtera
 
