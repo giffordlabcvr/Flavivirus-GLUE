@@ -6,7 +6,7 @@ create reference REF_EFV-cISF.1_AedAlb          fasta-eve-refseqs EFV-cISF.2-Aed
 create reference REF_EFV-cISF.3-AnoMin          fasta-eve-refseqs EFV-cISF.3-AnoMin  
 create reference REF_EFV-cISF.4_AnoSin          fasta-eve-refseqs EFV-cISF.4-AnoSin  
 create reference REF_EFV-cISF.5-TipOle          fasta-eve-refseqs EFV-cISF.5-TipOle-con
-create reference REF_EFV-cISF.6-ConPat          fasta-eve-refseqs EFV-cISF.5-ConPat
+create reference REF_EFV-cISF.6-ConPat          fasta-eve-refseqs EFV-cISF.6-ConPat
 
 ### Flavivirus 
 create reference REF_EFV-Flavi.1-Craspedacusta  fasta-eve-refseqs EFV-Flavi.1-Craspedacusta-con
