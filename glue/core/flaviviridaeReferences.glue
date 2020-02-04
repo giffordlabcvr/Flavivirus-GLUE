@@ -1,9 +1,7 @@
-  #### Flaviviridae    
+  #### Flaviviridae reference sequences
 
-  # Master reference
-  create reference REF_MASTER_YFV  ncbi-refseqs NC_002031  
-
-  ### Flavivirus exogenous taxa
+  ### Flavivirus 
+  create reference REF_MASTER_YFV  ncbi-refseqs   NC_002031  # mosq2
   create reference REF_DEN1        ncbi-refseqs   NC_001477  # mosq1
   create reference REF_POWV        ncbi-refseqs   NC_003687  # tick
   create reference REF_LAMV        ncbi-refseqs   NC_024806  # dISF1
