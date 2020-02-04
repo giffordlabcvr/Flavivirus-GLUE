@@ -1,0 +1,64 @@
+  #
+  # Pesti-Flavi-like
+  #
+
+  alignment AL_FlaviPesti
+
+	extract child AL_EFV_Priapulus  --refName REF_MASTER_YFV  # NC_002031
+	demote member AL_EFV_Priapulus  --whereClause "sequence.genus = 'X1'"
+    exit
+
+
+
+
+
+ alignment AL_PL1
+
+	extract child AL_Jingmenvirus        --refName REF_JMTV_CONCAT
+	demote member AL_Jingmenvirus        --whereClause "sequence.genus  = 'Jingmenvirus'"
+
+  alignment 
+    derive segments AL_PL1_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_PL2
+    derive segments AL_PL2_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    exit
+
+
+
+  #~# X1
+  import AL_EFV_Priapulus_UNCONSTRAINED                -f alignments/tips/eve/unclassified/x1-priapulus.fna
+
+  #~# X2
+  import AL_EFV_Austrolofundulus_UNCONSTRAINED         -f alignments/tips/eve/unclassified/x2-austrolofundulus.fna
+  import AL_EFV_Eurytemora_UNCONSTRAINED               -f alignments/tips/eve/unclassified/x2-eurytemora.fna
+
+  #~# Flavirus
+  import AL_EFV_Flavi_Tipula_UNCONSTRAINED             -f alignments/tips/eve/flavivirus/flavivirus-tipula.fna
+  import AL_EFV_Flavi_Daphnia_UNCONSTRAINED            -f alignments/tips/eve/flavivirus/flavivirus-daphnia.fna
+  import AL_EFV_Flavi_Craspedacusta_UNCONSTRAINED      -f alignments/tips/eve/flavivirus/flavivirus-craspadecusta.fna
+  import AL_EFV_Flavi_Lepidurus_UNCONSTRAINED          -f alignments/tips/eve/flavivirus/flavivirus-lepidurus.fna
+
+  #~# cISF
+  import AL_EFV_cISF_Aedes_aeg_UNCONSTRAINED           -f alignments/tips/eve/flavivirus-cisf/cisf-aedes-aeg.fna
+  #import AL_EFV_cISF_Aedes_alb_UNCONSTRAINED           -f alignments/tips/eve/flavivirus-cisf/cisf-aedes-alb.fna
+
+  #~# Tamanavirus
+  import AL_EFV_Tamana_Amphinemura_UNCONSTRAINED       -f alignments/tips/eve/tamanavirus/tamana-amphinemura.fna
+  import AL_EFV_Tamana_Laupala_UNCONSTRAINED           -f alignments/tips/eve/tamanavirus/tamana-laupala.fna
+
+  #~# Jingmenvirus
+  import AL_EFV_JMTV1_Chironomus_UNCONSTRAINED         -f alignments/tips/eve/jingmenvirus/jmtv1-chironomus.fna
+
+  #~# Pestinsect
+  #import AL_EFV_Pestinsect_Calycopis_UNCONSTRAINED    -f alignments/tips/eve/pl2/pestinsect-calycopis.fna
+  import AL_EFV_Pestinsect_Andricus_UNCONSTRAINED      -f alignments/tips/eve/pl2/pestinsect-andricus.fna
+  import AL_EFV_Pestinsect_Operophtera_UNCONSTRAINED   -f alignments/tips/eve/pl2/pestinsect-operophtera.fna
+ 
+  #
+  # FLAVIVIRUS SUBGROUPS
+  #  
+
+
+
