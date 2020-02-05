@@ -1,0 +1,33 @@
+IDs	Genus	Group	#	Common Name	Species	Refseq_type	Copies	In project?
+EFV-cISF.1-AedAeg	Flavivirus	cISF	1	Yellow fever mosquito	Aedes aegypti**	consensus	10	no
+EFV-cISF.2-AedAlb	Flavivirus	cISF	2	Tiger mosquito	Aedes albopictus**	consensus	16	no
+EFV-cISF.3-AnoMin	Flavivirus	cISF	3		Anopheles minimus**	reference	1	n/a
+EFV-cISF.4-AnoSin	Flavivirus	cISF	4		Anopheles sinensis**	reference	1	n/a
+EFV-cISF.5-TipOle	Flavivirus	cISF	5	Marsh crane fly	Tipula oleracea	consensus	4	
+EFV-cISF.6-ConPat	Flavivirus	cISF	6	Long-legged fly	Condylostylus patibulatus	reference	1	n/a
+EFV-Flavi.1-CraSoq	Flavivirus	Cnidarian	1	Freshwater jellyfish	Craspedacusta sowerbii	consensus	7	
+EFV-Flavi.2-DapMag	Flavivirus	Crustacean	2	Water flea	Daphnia magna	consensus	2	
+EFV-Flavi.3-LepArc	Flavivirus	Crustacean	3	Tadpole shrimp	Lepidurus arcticus	consensus	3	
+EFV-Tamana.1-LedTum	Flavivirus	Tamana	1	Meltwater stonefly	Lednia tumana	reference	1	n/a
+EFV-Tamana.2-LauKoh	Flavivirus	Tamana	2	Hawaiian cricket	Laupala kohalensis	consensus	2	
+EFV-Tamana.3-AmpSul	Flavivirus	Tamana	3	Spring stonefly	Amphinemura sulcicollis	consensus	2	
+EFV-Tamana.4-StyCho	Flavivirus	Tamana	4	Tube-eye	Stylephorus chordatus	reference	1	n/a
+EFV-X1.1-PriCau	Flavivirus	X1	1	Penis worm	Priapulus caudatus	consensus	2	
+EFV-X2.1-EurAff	Flavivirus	X2	1	Copepod	Eurytemora affinis	consensus	6	
+EFV-X2.2-AusLim	Flavivirus	X2	2	Mangrove killifish	Austrofundulus limnaeus	consensus	4	
+EFV-X2.3-StyCho	Flavivirus	X2	3	Tube-eye	Stylephorus chordatus	reference	1	
+EFV-PL2.1-CalCec	Pestivirus	PL2	1	Red-banded hairstreak	Calycopis cecrops	consensus		
+EFV-PL2.2-EusHer	Pestivirus	PL2	2	Stink bug	Euschistus heros	consensus		
+EFV-PL2.3-CerCal	Pestivirus	PL2	3	Small blue-black bee	Ceratina calcarata	consensus		
+EFV-PL2.3-Ceratina	Pestivirus	PL2	3	Carpenter bee	Ceratina australensis	consensus		
+EFV-PL2.3-HabLab	Pestivirus	PL2	3	Blueberry bee	Habropoda laboriosa	consensus		
+EFV-PL2.3-EufMex	Pestivirus	PL2	3	Orchid bee	Eufriesea mexicana	consensus		
+EFV-PL2.3-LasAlb	Pestivirus	PL2	3	Bloomed furrow bee	Lasioglossum albipes	consensus		
+EFV-PL2.3-NomMel	Pestivirus	PL2	3	Sweat bee	Nomia melanderi	consensus		
+EFV-PL2.3-OsmBic	Pestivirus	PL2	3	Mason bee	Osmia bicornis	consensus		
+EFV-PL2.3-MegRot	Pestivirus	PL2	3	Alfalfa leafcutter bee	Megachile rotundata	consensus		
+EFV-PL2.3-DufNov	Pestivirus	PL2	3	Pickerel bee	Dufourea novaeangliae	consensus		
+EFV-PL2.4-AndQue	Pestivirus	PL2	4	Cottonwool gall wasp	Andricus quercusramuli	consensus	2	
+EFV-PL2.5-AnoGla	Pestivirus	PL2	5	Long-horned beetle	Anoplophora glabripennis	reference		
+EFV-PL2.6-XenBra	Pestivirus	PL2	6	Grasshopper	Xenocatantops brachycerus*	consensus	16	
+EFV-PL2.7-OpeBru	Pestivirus	PL2	7	Winter moth	Operophtera brumata	reference	2	

@@ -1,5 +1,8 @@
 #### EFV reference sequences
 
+### HepaPegi
+create reference REF_EFV-HepaPegi.1-ElyChl      fasta-eve-refseqs EFV-HepaPegi.1-ElyChl
+
 ### cISF 
 create reference REF_EFV-cISF.1_AedAeg          fasta-eve-refseqs EFV-cISF.1-AedAeg-con  
 create reference REF_EFV-cISF.1_AedAlb          fasta-eve-refseqs EFV-cISF.2-AedAlb-con  
@@ -14,28 +17,28 @@ create reference REF_EFV-Flavi.2-DapMag         fasta-eve-refseqs EFV-Flavi.2-Da
 create reference REF_EFV-Flavi.3-LepArc         fasta-eve-refseqs EFV-Flavi.3-LepArc-con
 
 ### Tamanavirus
-create reference REF_EFV-Tamana.1-Lednia        fasta-eve-refseqs EFV-Tamana.1-Lednia
-create reference REF_EFV-Tamana.2-Laupala       fasta-eve-refseqs EFV-Tamana.2-Laupala-con
-create reference REF_EFV-Tamana.3-Amphinemura   fasta-eve-refseqs EFV-Tamana.3-Amphinemura-con
-create reference REF_EFV-Tamana.4-Stylephorus   fasta-eve-refseqs EFV-Tamana.4-Stylephorus
+create reference REF_EFV-Tamana.1-LedTum        fasta-eve-refseqs EFV-Tamana.1-LedTum
+create reference REF_EFV-Tamana.2-LauKoh        fasta-eve-refseqs EFV-Tamana.2-LauKoh-con
+create reference REF_EFV-Tamana.3-AmpSul        fasta-eve-refseqs EFV-Tamana.3-AmpSul-con
+create reference REF_EFV-Tamana.4-StyCho        fasta-eve-refseqs EFV-Tamana.4-StyCho
 
 ### Jingmenvirus
 create reference REF_EFV-Jingmen.1-Chironomus   fasta-eve-refseqs EFV-Jingmen.1-Chironomus-con
 
 ### X1
-create reference REF_EFV-X1.1-Priapulus         fasta-eve-refseqs EFV-X1.1-Priapulus-con
+create reference REF_EFV-X1.1-PriCau            fasta-eve-refseqs EFV-X1.1-Priapulus-con
 
 ### X2
-create reference REF_EFV-X2.1-Eurytemora        fasta-eve-refseqs EFV-X2.1-Eurytemora-con
-create reference REF_EFV-X2.2-Austrofundulus    fasta-eve-refseqs EFV-X2.2-Austrofundulus-con
-create reference REF_EFV-X2.3-Stylephorus       fasta-eve-refseqs EFV-X2.3-Stylephorus-con
+create reference REF_EFV-X2.1-EurAff            fasta-eve-refseqs EFV-X2.1-Eurytemora-con
+create reference REF_EFV-X2.2-AusLim            fasta-eve-refseqs EFV-X2.2-Austrofundulus-con
+create reference REF_EFV-X2.3-StyCho            fasta-eve-refseqs EFV-X2.3-Stylephorus-con
 
 ### Pesti-like 2
-create reference REF_EFV-PL2.1-Calycopis        fasta-eve-refseqs EFV-PL2.1-Calycopis-con
-create reference REF_EFV-PL2.2-Euschistus       fasta-eve-refseqs EFV-PL2.2-Euschistus-con
-create reference REF_EFV-PL2.3-Ceratina         fasta-eve-refseqs EFV-PL2.3-Ceratina-con
-create reference REF_EFV-PL2.4-Andricus         fasta-eve-refseqs EFV-PL2.4-Andricus
-create reference REF_EFV-PL2.5-Anoplophora      fasta-eve-refseqs EFV-PL2.5-Anoplophora
+create reference REF_EFV-PL2.1-CalCec           fasta-eve-refseqs EFV-PL2.1-CalCec-con
+create reference REF_EFV-PL2.3-CerCal           fasta-eve-refseqs EFV-PL2.3-Ceratina-con
 create reference REF_EFV-PL2.6-Xenocatantops    fasta-eve-refseqs EFV-PL2.6-Xenocatantops-con
-create reference REF_EFV-PL2.7-Operophtera      fasta-eve-refseqs EFV-PL2.7-Operophtera
+#create reference REF_EFV-PL2.7-Operophtera      fasta-eve-refseqs EFV-PL2.7-Operophtera
+#create reference REF_EFV-PL2.2-EusHer          fasta-eve-refseqs EFV-PL2.2-EusHer-con
+#create reference REF_EFV-PL2.4-Andricus        fasta-eve-refseqs EFV-PL2.4-Andricus
+#create reference REF_EFV-PL2.5-Anoplophora     fasta-eve-refseqs EFV-PL2.5-Anoplophora
 

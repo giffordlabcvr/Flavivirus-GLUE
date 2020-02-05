@@ -179,8 +179,6 @@ EFV-cISF.2.2.4-Aedes_alb	cISF.2.2.4	EFV-cISF.2.2.4-Aedes_alb	EFV	2	2	4	Aedes_alb
 EFV-cISF.2.3.2-Aedes_alb	cISF.2.3.2	EFV-cISF.2.3.2-Aedes_alb	EFV	2	3	2	Aedes_albopictus	MNAF02001716.1	1662155	1663522	1367	negative	FlaviPesti	Flavi-like	Flavivirus	cISF
 EFV-cISF.2.2.2-Aedes_alb	cISF.2.2.2	EFV-cISF.2.2.2-Aedes_alb	EFV	2	10	2	Aedes_albopictus	MNAF02001716.1	1685819	1687009	1190	negative	FlaviPesti	Flavi-like	Flavivirus	cISF
 EFV-cISF.2.3.1-Aedes_alb	cISF.2.3.1	EFV-cISF.2.3.1-Aedes_alb	EFV	2	3	1	Aedes_albopictus	MNAF02001716.1	1706320	1707831	1511	positive	FlaviPesti	Flavi-like	Flavivirus	cISF
-EFV-cISF.3.1.1-Anopheles_minimus	cISF.3.1.1	EFV-cISF.3.1.1-Anopheles_minimus	EFV	3	1	1	Anopheles_minimus	APHL01005937.1	206	1978	1772	positive	FlaviPesti	Flavi-like	Flavivirus	cISF
-EFV-cISF.4.1.1-Anopheles_sinensis	cISF.4.1.1	EFV-cISF.4.1.1-Anopheles_sinensis	EFV	4	1	1	Anopheles_sinensis	ATLV01019207.1	3627	4277	650	negative	FlaviPesti	Flavi-like	Flavivirus	cISF
 EFV-Flavi.1.2.1-Tipula	Flavi.1.2.1	EFV-Flavi.1.2.1-Tipula	EFV	1	2	1	Tipula_oleracea	JXPP01036443.1	1374	2034	660	positive	FlaviPesti	Flavi-like	Flavivirus	cISF
 EFV-Flavi.1.3.1-Tipula	Flavi.1.3.1	EFV-Flavi.1.3.1-Tipula	EFV	1	3	1	Tipula_oleracea	JXPP01119385.1	699	812	113	negative	FlaviPesti	Flavi-like	Flavivirus	cISF
 EFV-Flavi.1.1.1-Tipula	Flavi.1.1.1	EFV-Flavi.1.1.1-Tipula	EFV	1	1	1	Tipula_oleracea	JXPP01124776.1	2147	3275	1128	positive	FlaviPesti	Flavi-like	Flavivirus	cISF
@@ -190,7 +188,6 @@ EFV-Flavi.3.2.1-Daphnia	Flavi.3.2.1	EFV-Flavi.3.2.1-Daphnia	EFV	3	1	2	Daphnia_ma
 LepArc_2_RJJA01000657	LepArc.4.2.1	EFV-Flavi.4.2.1-Lepidurus	EFV	1	2	1	Lepidurus_arcticus	RJJA01000657.1	13151	14749	1599	negative	FlaviPesti	Flavi-like	Flavivirus	
 LepArc_3_RJJA01000859	LepArc.4.3.1	EFV-Flavi.4.3.1-Lepidurus	EFV	1	3	1	Lepidurus_arcticus	RJJA01000859.1	5426	6178	753	positive	FlaviPesti	Flavi-like	Flavivirus	
 LepArc_1_RJJA01001389	LepArc.4.1.1	EFV-Flavi.4.1.1-Lepidurus	EFV	1	1	1	Lepidurus_arcticus	RJJA01001389.1	1843	2796	954	positive	FlaviPesti	Flavi-like	Flavivirus	
-EFV-Flavi.2.1.1-Condylostylus	Flavi.2.1.1	EFV-Flavi.2.1.1-Condylostylus	EFV	2	1	1	Condylostylus_patibulatus	JXOW01150519.1	1	2205	2204	negative	FlaviPesti	Flavi-like	Flavivirus	
 EFV-Flavi.4.3.1-Craspedacusta	Flavi.4.3.1	EFV-Flavi.4.3.1-Craspedacusta	EFV	4	3	1	Craspedacusta_sowerbii	QQSS01028249.1	46	807	761	negative	FlaviPesti	Flavi-like	Flavivirus	
 EFV-Flavi.4.2.1-Craspedacusta	Flavi.4.2.1	EFV-Flavi.4.2.1-Craspedacusta	EFV	4	2	1	Craspedacusta_sowerbii	QQSS01028249.1	2131	3075	944	negative	FlaviPesti	Flavi-like	Flavivirus	
 EFV-Flavi.4.1.2-Craspedacusta	Flavi.4.1.2	EFV-Flavi.4.1.2-Craspedacusta	EFV	4	1	2	Craspedacusta_sowerbii	QQSS01051271.1	11592	14349	2757	negative	FlaviPesti	Flavi-like	Flavivirus	
@@ -206,8 +203,6 @@ EFV-Tamana.3.1.2-Amphinemura	Tamana.3.1.2	EFV-Tamana.3.1.2-Amphinemura	EFV	3	5	2
 EFV-Tamana.3.1.1-Amphinemura	Tamana.3.1.1	EFV-Tamana.3.1.1-Amphinemura	EFV	3	4	1	Amphinemura_sulcicollis	LVVV01416251.1	202	663	461	negative	FlaviPesti	Flavi-like	Tamanavirus	
 EFV-Tamana.1.1.2-Laupala	Tamana.1.1.2	EFV-Tamana.1.1.2-Laupala	EFV	1	2	2	Laupala_kohalensis	NNCF01133646.1	4424	5161	737	positive	FlaviPesti	Flavi-like	Tamanavirus	
 EFV-Tamana.1.1.1-Laupala	Tamana.1.1.1	EFV-Tamana.1.1.1-Laupala	EFV	1	1	1	Laupala_kohalensis	NNCF01138054.1	2838	3204	366	positive	FlaviPesti	Flavi-like	Tamanavirus	
-EFV-Tamana.2.1.1-Lednia	Tamana.2.1.1	EFV-Tamana.2.1.1-Lednia	EFV	2	3	1	Lednia_tumana	QKMV01058854.1	3	1369	1366	positive	FlaviPesti	Flavi-like	Tamanavirus	
-EFV-Tamana.4.1.1-Stylephorus	Tamana.4.1.1	EFV-Tamana.4.1.1-Stylephorus	EFV	4	1	1	Stylephorus chordatus	OMPB01035808	993	2414	1421	negative	FlaviPesti	Flavi-like	Tamanavirus	
 EFV-X1.1.2-Priapulus	X1.1.2	EFV-X1.1.2-Priapulus	EFV	1	1	2	Priapulus_caudatus	AXZU02047183.1	11361	11957	596	positive	FlaviPesti	Flavi-like	X1	
 EFV-X1.1.1-Priapulus	X1.1.1	EFV-X1.1.1-Priapulus	EFV	1	1	1	Priapulus_caudatus	AXZU02072455.1	446	1327	881	negative	FlaviPesti	Flavi-like	X1	
 EFV-X2.1.1.4-Austrofundulus	X2.1.1.4	EFV-X2.1.1.4-Austrofundulus	EFV	1	1	4	Austrofundulus_limnaeus	LDAR01072918.1	3265	3434	169	negative	FlaviPesti	Flavi-like	X2	
@@ -339,4 +334,3 @@ XenBra_5_OFSG01039142	XenBra_5	XenBra_5_OFSG01039142	EFV	5	5	1	Xenocatantops_bra
 XenBra_12_OFSG01039197	XenBra_12	XenBra_12_OFSG01039197	EFV	5	12	1	Xenocatantops_brachycerus	OFSG01039197.1	910	1593	684	positive	FlaviPesti	Pesti-like	Pestinsect	
 XenBra_7_OFSG01039583	XenBra_7	XenBra_7_OFSG01039583	EFV	5	7	1	Xenocatantops_brachycerus	OFSG01039583.1	24	1130	1107	negative	FlaviPesti	Pesti-like	Pestinsect	
 XenBra_8_OFSG01040772	XenBra_8	XenBra_8_OFSG01040772	EFV	5	8	1	Xenocatantops_brachycerus	OFSG01040772.1	1	273	273	negative	FlaviPesti	Pesti-like	Pestinsect	
-EFV-Hepaci.1.1.1-Elysia	Hepaci.1.1.1	EFV-Hepaci.1.1.1-Elysia	EFV	1	1	1	Elysia_chlorotica	RQTK01000193.1	67319	68359	1040	negative	PegiHepaci	Mollusc	Mollusc	
