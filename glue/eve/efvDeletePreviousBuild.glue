@@ -1,13 +1,10 @@
  schema-project flaviviridae
-  delete custom-table endogenous_data
+  delete custom-table locus_data
   exit
 
 project flaviviridae
 
-  delete reference REF_EFV_cISF1_AedAeg
-  delete reference REF_EFV_cISF1_AedAlb
-  delete reference REF_EFV_PI3_Ceratina
-  
+  multi-delete reference -w "name like 'REF_EFV%'"
   delete source --whereClause "name like 'fasta-eve%'"
 
   

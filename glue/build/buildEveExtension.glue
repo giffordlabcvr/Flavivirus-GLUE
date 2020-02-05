@@ -7,7 +7,7 @@ schema-project flaviviridae
 project flaviviridae
 
   # Import sources
-  import source sources/fasta-eve-consensus/
+  import source sources/fasta-eve-refseqs/
   import source sources/fasta-eve/
 
   # Create references
