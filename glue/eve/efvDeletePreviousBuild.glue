@@ -5,6 +5,7 @@
 project flaviviridae
 
   multi-delete reference -w "name like 'REF_EFV%'"
+  multi-delete alignment -w "name like 'AL_EFV%'"
   delete source --whereClause "name like 'fasta-eve%'"
 
   

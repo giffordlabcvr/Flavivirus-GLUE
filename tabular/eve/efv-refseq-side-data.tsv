@@ -1,4 +1,4 @@
-sequenceID	name	full_name	subfamily	clade	clade	#	Common Name	Species	Refseq_type	Copies	In project?
+sequenceID	name	full_name	subfamily	genus	clade	#	Common Name	Species	Refseq_type	Copies	In project?
 EFV-cISF.1-AedAeg	EFV-cISF.1-AedAeg		FlaviPesti	Flavivirus	cISF	1	Yellow fever mosquito	Aedes aegypti**	consensus	10	no
 EFV-cISF.2-AedAlb	EFV-cISF.2-AedAlb		FlaviPesti	Flavivirus	cISF	2	Tiger mosquito	Aedes albopictus**	consensus	16	no
 EFV-cISF.3-AnoMin	EFV-cISF.3-AnoMin		FlaviPesti	Flavivirus	cISF	3		Anopheles minimus**	reference	1	n/a
