@@ -6,6 +6,10 @@ schema-project flaviviridae
 
 project flaviviridae
 
+
+  # Create modules
+  run file glue/eve/efvModules.glue
+
   # Import sources
   import source sources/fasta-eve-refseqs/
   import source sources/fasta-eve/

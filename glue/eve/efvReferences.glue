@@ -26,17 +26,17 @@ create reference REF_EFV-Tamana.4-StyCho        fasta-eve-refseqs EFV-Tamana.4-S
 create reference REF_EFV-Jingmen.1-Chironomus   fasta-eve-refseqs EFV-Jingmen.1-Chironomus-con
 
 ### X1
-create reference REF_EFV-X1.1-PriCau            fasta-eve-refseqs EFV-X1.1-Priapulus-con
+create reference REF_EFV-X1.1-PriCau            fasta-eve-refseqs EFV-X1.1-PriCau-con
 
 ### X2
-create reference REF_EFV-X2.1-EurAff            fasta-eve-refseqs EFV-X2.1-Eurytemora-con
-create reference REF_EFV-X2.2-AusLim            fasta-eve-refseqs EFV-X2.2-Austrofundulus-con
-create reference REF_EFV-X2.3-StyCho            fasta-eve-refseqs EFV-X2.3-Stylephorus-con
+create reference REF_EFV-X2.1-EurAff            fasta-eve-refseqs EFV-X2.1-EurAff-con
+create reference REF_EFV-X2.2-AusLim            fasta-eve-refseqs EFV-X2.2-AusLim-con
+create reference REF_EFV-X2.3-StyCho            fasta-eve-refseqs EFV-X2.3-StyCho-con
 
 ### Pesti-like 2
 create reference REF_EFV-PL2.1-CalCec           fasta-eve-refseqs EFV-PL2.1-CalCec-con
-create reference REF_EFV-PL2.3-CerCal           fasta-eve-refseqs EFV-PL2.3-Ceratina-con
-create reference REF_EFV-PL2.6-Xenocatantops    fasta-eve-refseqs EFV-PL2.6-Xenocatantops-con
+create reference REF_EFV-PL2.3-CerCal           fasta-eve-refseqs EFV-PL2.3-CerCal-con
+create reference REF_EFV-PL2.6-XenBra           fasta-eve-refseqs EFV-PL2.6-XenBra-con
 #create reference REF_EFV-PL2.7-Operophtera      fasta-eve-refseqs EFV-PL2.7-Operophtera
 #create reference REF_EFV-PL2.2-EusHer          fasta-eve-refseqs EFV-PL2.2-EusHer-con
 #create reference REF_EFV-PL2.4-Andricus        fasta-eve-refseqs EFV-PL2.4-Andricus

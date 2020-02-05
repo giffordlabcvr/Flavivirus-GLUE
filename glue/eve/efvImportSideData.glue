@@ -1,5 +1,4 @@
-  delete module efvSideDataImporter
-  
+
   # Create link to locus data table and load linked data
   run script glue/eve/loadLocusData1.js
   run script glue/eve/loadLocusData2.js
