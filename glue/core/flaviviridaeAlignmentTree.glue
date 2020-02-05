@@ -3,6 +3,8 @@
   #
   # Root alignment
   #
+  
+  create alignment AL_MASTER_Flaviviridae -r REF_MASTER_YFV
   alignment AL_MASTER_Flaviviridae
 
     add member --allSequences
