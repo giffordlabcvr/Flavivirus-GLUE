@@ -1,64 +1,114 @@
+  ### Declare constrained alignment tree
+
+  #
+  # Root alignment
+  #
+  alignment AL_MASTER_Flaviviridae
+
+    add member  --whereClause "source = 'fasta-eve-refseqs' and source = 'fasta-eve'"
+	demote member AL_FlaviPesti --whereClause "source.name = 'fasta-eve-refseqs' and sequence.subfamily = 'FlaviPesti'"
+	demote member AL_HepaPegi  --whereClause "source.name = 'fasta-eve-refseqs' and sequence.subfamily = 'HepaPegi'"	
+	exit
+	
+
+
+  #
+  # Hepa-Pegi-like
+  #
+
+  alignment AL_HepaPegi 
+  
+	#extract child AL_1-ElyCh -r REF_EFV-HepaPegi.1-ElyChl
+	#demote member AL_1-ElyChs --whereClause "source = 'fasta-eve-refseqs' and sequence.genus = 'Hepacivirus'"
+    exit
+
+
   #
   # Pesti-Flavi-like
   #
 
   alignment AL_FlaviPesti
 
-	extract child AL_EFV_Priapulus  --refName REF_MASTER_YFV  # NC_002031
-	demote member AL_EFV_Priapulus  --whereClause "sequence.genus = 'X1'"
+	extract child AL_EFV_X1  --refName REF_EFV-X1.1-PriCau
+	demote member AL_EFV_X1  --whereClause "source = 'fasta-eve-refseqs' and sequence.genus = 'X1'"
+
+	extract child AL_EFV_X2  --refName REF_EFV-X2.
+	demote member AL_EFV_X2  --whereClause "source = 'fasta-eve-refseqs' and sequence.genus = 'X2'"
     exit
 
-
-
-
-
- alignment AL_PL1
-
-	extract child AL_Jingmenvirus        --refName REF_JMTV_CONCAT
-	demote member AL_Jingmenvirus        --whereClause "sequence.genus  = 'Jingmenvirus'"
-
-  alignment 
-    derive segments AL_PL1_UNCONSTRAINED -a --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_PL2
-    derive segments AL_PL2_UNCONSTRAINED -a --mergeStrategy OVERWRITE
-    exit
-
-
-
-  #~# X1
-  import AL_EFV_Priapulus_UNCONSTRAINED                -f alignments/tips/eve/unclassified/x1-priapulus.fna
-
-  #~# X2
-  import AL_EFV_Austrolofundulus_UNCONSTRAINED         -f alignments/tips/eve/unclassified/x2-austrolofundulus.fna
-  import AL_EFV_Eurytemora_UNCONSTRAINED               -f alignments/tips/eve/unclassified/x2-eurytemora.fna
-
-  #~# Flavirus
-  import AL_EFV_Flavi_Tipula_UNCONSTRAINED             -f alignments/tips/eve/flavivirus/flavivirus-tipula.fna
-  import AL_EFV_Flavi_Daphnia_UNCONSTRAINED            -f alignments/tips/eve/flavivirus/flavivirus-daphnia.fna
-  import AL_EFV_Flavi_Craspedacusta_UNCONSTRAINED      -f alignments/tips/eve/flavivirus/flavivirus-craspadecusta.fna
-  import AL_EFV_Flavi_Lepidurus_UNCONSTRAINED          -f alignments/tips/eve/flavivirus/flavivirus-lepidurus.fna
-
-  #~# cISF
-  import AL_EFV_cISF_Aedes_aeg_UNCONSTRAINED           -f alignments/tips/eve/flavivirus-cisf/cisf-aedes-aeg.fna
-  #import AL_EFV_cISF_Aedes_alb_UNCONSTRAINED           -f alignments/tips/eve/flavivirus-cisf/cisf-aedes-alb.fna
-
-  #~# Tamanavirus
-  import AL_EFV_Tamana_Amphinemura_UNCONSTRAINED       -f alignments/tips/eve/tamanavirus/tamana-amphinemura.fna
-  import AL_EFV_Tamana_Laupala_UNCONSTRAINED           -f alignments/tips/eve/tamanavirus/tamana-laupala.fna
-
-  #~# Jingmenvirus
-  import AL_EFV_JMTV1_Chironomus_UNCONSTRAINED         -f alignments/tips/eve/jingmenvirus/jmtv1-chironomus.fna
-
-  #~# Pestinsect
-  #import AL_EFV_Pestinsect_Calycopis_UNCONSTRAINED    -f alignments/tips/eve/pl2/pestinsect-calycopis.fna
-  import AL_EFV_Pestinsect_Andricus_UNCONSTRAINED      -f alignments/tips/eve/pl2/pestinsect-andricus.fna
-  import AL_EFV_Pestinsect_Operophtera_UNCONSTRAINED   -f alignments/tips/eve/pl2/pestinsect-operophtera.fna
- 
   #
-  # FLAVIVIRUS SUBGROUPS
-  #  
+  # X2
+  #
+
+ alignment AL_X2
+
+	extract child AL_EFV_X2.1-EurAff  --refName REF_EFV-X2.1-EurAff
+	demote member AL_EFV_X2.1-EurAff  --whereClause "source = 'fasta-eve-refseqs' and sequence.locus_data.insertionId = 'EFV-X2.1-EurAff'"
+
+	extract child AL_EFV_X2.2-AusLim  --refName REF_EFV-X2.2-AusLim
+	demote member AL_EFV_X2.2-AusLim  --whereClause "source = 'fasta-eve-refseqs' and sequence.locus_data.insertionId = 'EFV-X2.2-AusLim'"
+
+	extract child AL_EFV_X2.3-StyCho  --refName REF_EFV-X2.3-StyCho
+	demote member AL_EFV_X2.3-StyCho  --whereClause "source = 'fasta-eve-refseqs' and sequence.locus_data.insertionId = 'EFV-X2.3-StyCho'"
+    exit
+
+  #
+  # Jingmenvirus
+  #
+
+ alignment AL_Jingmenvirus
+
+	extract child AL_EFV-Jingmen.1-Chironomus  --refName REF_EFV-Jingmen.1-Chironomus
+	demote member AL_EFV-Jingmen.1-Chironomus  --whereClause "source = 'fasta-eve-refseqs' and sequence.locus_data.insertionId = 'EFV-Jingmen.1-Chironomus'"
+    exit
+
+  #
+  # Tamanavirus
+  #
+
+ alignment AL_Tamanavirus
+
+	extract child AL_EFV_Tamana.2-LauKoh  --refName REF_EFV-Tamana.2-LauKoh
+	demote member AL_EFV_Tamana.2-LauKoh  --whereClause "source = 'fasta-eve-refseqs' and sequence.locus_data.insertionId = 'EFV-Tamana.2-LauKoh'"
+
+	extract child AL_EFV-Tamana.3-AmpSul  --refName REF_EFV-Tamana.3-AmpSul
+	demote member AL_EFV-Tamana.3-AmpSul  --whereClause "source = 'fasta-eve-refseqs' and sequence.locus_data.insertionId = 'EFV-Tamana.3-AmpSul'"
+
+	extract child AL_EFV-Tamana.4-StyCho  --refName REF_EFV-Tamana.4-StyCho
+	demote member AL_EFV-Tamana.4-StyCho  --whereClause "source = 'fasta-eve-refseqs' and sequence.locus_data.insertionId = 'EFV-Tamana.4-StyCho'"
+    exit
+
+  #
+  # Flavivirus
+  #
+
+ alignment AL_Flavivirus
+
+	extract child AL_EFV-Flavi.1-CraSow  --refName REF_EFV-Flavi.1-CraSow
+	demote member AL_EFV-Flavi.1-CraSow  --whereClause "source = 'fasta-eve-refseqs' and sequence.locus_data.insertionId = 'EFV-Flavi.1-CraSow'"
+
+	extract child AL_EFV-Flavi.2-DapMag  --refName REF_EFV-Flavi.2-DapMag
+	demote member AL_EFV-Flavi.2-DapMag  --whereClause "source = 'fasta-eve-refseqs' and sequence.locus_data.insertionId = 'EFV-Flavi.2-DapMag'"
+
+	extract child AL_EFV-Flavi.3-LepArc  --refName REF_EFV-Flavi.3-LepArc
+	demote member AL_EFV-Flavi.3-LepArc  --whereClause "source = 'fasta-eve-refseqs' and sequence.locus_data.insertionId = 'EFV-Flavi.3-LepArc'"
+    exit
+
+  #
+  # cISF
+  #
+
+ alignment AL_cISF
+
+	extract child AL_EFV-cISF.1_AedAeg  --refName REF_EFV-cISF.1-AedAeg
+	demote member AL_EFV-cISF.1_AedAeg  --whereClause "source = 'fasta-eve-refseqs' and sequence.locus_data.insertionId = 'EFV-cISF.1-AedAeg'"
+
+	extract child AL_EFV-cISF.2_AedAlb  --refName REF_EFV-cISF.2-AedAlb
+	demote member AL_EFV-cISF.2_AedAlb  --whereClause "source = 'fasta-eve-refseqs' and sequence.locus_data.insertionId = 'EFV-cISF.2-2-AedAlb'"
+
+	extract child AL_EFV-Flavi.5-TipOle  --refName REF_EFV-Flavi.5-TipOle
+	demote member AL_EFV-Flavi.5-TipOle  --whereClause "source = 'fasta-eve-refseqs' and sequence.locus_data.insertionId = 'EFV-cISF.5-TipOle'"
+    exit
 
 
-
+ 
