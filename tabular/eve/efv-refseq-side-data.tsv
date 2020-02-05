@@ -1,34 +1,37 @@
-sequenceID	name	full_name	subfamily	genus	clade	#	Common Name	Species	Refseq_type	Copies	In project?
-EFV-cISF.1-AedAeg	EFV-cISF.1-AedAeg		FlaviPesti	Flavivirus	cISF	1	Yellow fever mosquito	Aedes aegypti**	consensus	10	no
-EFV-cISF.2-AedAlb	EFV-cISF.2-AedAlb		FlaviPesti	Flavivirus	cISF	2	Tiger mosquito	Aedes albopictus**	consensus	16	no
-EFV-cISF.3-AnoMin	EFV-cISF.3-AnoMin		FlaviPesti	Flavivirus	cISF	3		Anopheles minimus**	reference	1	n/a
-EFV-cISF.4-AnoSin	EFV-cISF.4-AnoSin		FlaviPesti	Flavivirus	cISF	4		Anopheles sinensis**	reference	1	n/a
-EFV-cISF.5-TipOle	EFV-cISF.5-TipOle		FlaviPesti	Flavivirus	cISF	5	Marsh crane fly	Tipula oleracea	consensus	4	
-EFV-cISF.6-ConPat	EFV-cISF.6-ConPat		FlaviPesti	Flavivirus	cISF	6	Long-legged fly	Condylostylus patibulatus	reference	1	n/a
-EFV-Flavi.1-CraSoq	EFV-Flavi.1-CraSoq		FlaviPesti	Flavivirus	Cnidarian	1	Freshwater jellyfish	Craspedacusta sowerbii	consensus	7	
-EFV-Flavi.2-DapMag	EFV-Flavi.2-DapMag		FlaviPesti	Flavivirus	Crustacean	2	Water flea	Daphnia magna	consensus	2	
-EFV-Flavi.3-LepArc	EFV-Flavi.3-LepArc		FlaviPesti	Flavivirus	Crustacean	3	Tadpole shrimp	Lepidurus arcticus	consensus	3	
-EFV-Tamana.1-LedTum	EFV-Tamana.1-LedTum		FlaviPesti	Flavivirus	Tamana	1	Meltwater stonefly	Lednia tumana	reference	1	n/a
-EFV-Tamana.2-LauKoh	EFV-Tamana.2-LauKoh		FlaviPesti	Flavivirus	Tamana	2	Hawaiian cricket	Laupala kohalensis	consensus	2	
-EFV-Tamana.3-AmpSul	EFV-Tamana.3-AmpSul		FlaviPesti	Flavivirus	Tamana	3	Spring stonefly	Amphinemura sulcicollis	consensus	2	
-EFV-Tamana.4-StyCho	EFV-Tamana.4-StyCho		FlaviPesti	Flavivirus	Tamana	4	Tube-eye	Stylephorus chordatus	reference	1	n/a
-EFV-X1.1-PriCau	EFV-X1.1-PriCau		FlaviPesti	Flavivirus	X1	1	Penis worm	Priapulus caudatus	consensus	2	
-EFV-X2.1-EurAff	EFV-X2.1-EurAff		FlaviPesti	Flavivirus	X2	1	Copepod	Eurytemora affinis	consensus	6	
-EFV-X2.2-AusLim	EFV-X2.2-AusLim		FlaviPesti	Flavivirus	X2	2	Mangrove killifish	Austrofundulus limnaeus	consensus	4	
-EFV-X2.3-StyCho	EFV-X2.3-StyCho		FlaviPesti	Flavivirus	X2	3	Tube-eye	Stylephorus chordatus	reference	1	
-EFV-PL2.1-CalCec	EFV-PL2.1-CalCec		FlaviPesti	Pestivirus	PL2	1	Red-banded hairstreak	Calycopis cecrops	consensus		
-EFV-PL2.2-EusHer	EFV-PL2.2-EusHer		FlaviPesti	Pestivirus	PL2	2	Stink bug	Euschistus heros	consensus		
-EFV-PL2.3-CerCal	EFV-PL2.3-CerCal		FlaviPesti	Pestivirus	PL2	3	Small blue-black bee	Ceratina calcarata	consensus		
-EFV-PL2.3-Ceratina	EFV-PL2.3-Ceratina		FlaviPesti	Pestivirus	PL2	3	Carpenter bee	Ceratina australensis	consensus		
-EFV-PL2.3-HabLab	EFV-PL2.3-HabLab		FlaviPesti	Pestivirus	PL2	3	Blueberry bee	Habropoda laboriosa	consensus		
-EFV-PL2.3-EufMex	EFV-PL2.3-EufMex		FlaviPesti	Pestivirus	PL2	3	Orchid bee	Eufriesea mexicana	consensus		
-EFV-PL2.3-LasAlb	EFV-PL2.3-LasAlb		FlaviPesti	Pestivirus	PL2	3	Bloomed furrow bee	Lasioglossum albipes	consensus		
-EFV-PL2.3-NomMel	EFV-PL2.3-NomMel		FlaviPesti	Pestivirus	PL2	3	Sweat bee	Nomia melanderi	consensus		
-EFV-PL2.3-OsmBic	EFV-PL2.3-OsmBic		FlaviPesti	Pestivirus	PL2	3	Mason bee	Osmia bicornis	consensus		
-EFV-PL2.3-MegRot	EFV-PL2.3-MegRot		FlaviPesti	Pestivirus	PL2	3	Alfalfa leafcutter bee	Megachile rotundata	consensus		
-EFV-PL2.3-DufNov	EFV-PL2.3-DufNov		FlaviPesti	Pestivirus	PL2	3	Pickerel bee	Dufourea novaeangliae	consensus		
-EFV-PL2.4-AndQue	EFV-PL2.4-AndQue		FlaviPesti	Pestivirus	PL2	4	Cottonwool gall wasp	Andricus quercusramuli	consensus	2	
-EFV-PL2.5-AnoGla	EFV-PL2.5-AnoGla		FlaviPesti	Pestivirus	PL2	5	Long-horned beetle	Anoplophora glabripennis	reference		
-EFV-PL2.6-XenBra	EFV-PL2.6-XenBra		FlaviPesti	Pestivirus	PL2	6	Grasshopper	Xenocatantops brachycerus*	consensus	16	
-EFV-PL2.7-OpeBru	EFV-PL2.7-OpeBru		FlaviPesti	Pestivirus	PL2	7	Winter moth	Operophtera brumata	reference	2	
-EFV-HepaPegi.1-ElyChl	EFV-HepaPegi.1-ElyChl		HepaPegi	HepaPegi	Invertebrate	1	Green sea	Elysia chlorotica	reference		
+sequenceID	locus_id	full_name	subfamily	genus	clade	#	host_group_taxlevel	host_group_name	host_group_common_name	Refseq_type	num_copies	In project?	host_group	vector_group
+EFV-cISF.1-AedAeg-con	EFV-cISF.1-AedAeg	EFV-cISF.1-AedAeg	FlaviPesti	Flavivirus	cISF	1	species	Aedes aegypti**	Yellow fever mosquito	consensus	10	no	NULL	NULL
+EFV-cISF.2-AedAlb-con	EFV-cISF.2-AedAlb	EFV-cISF.2-AedAlb	FlaviPesti	Flavivirus	cISF	2	species	Aedes albopictus**	Tiger mosquito	consensus	16	no	NULL	NULL
+EFV-cISF.3-AnoMin	EFV-cISF.3-AnoMin	EFV-cISF.3-AnoMin	FlaviPesti	Flavivirus	cISF	3	species	Anopheles minimus**		reference	1	n/a	NULL	NULL
+EFV-cISF.4-AnoSin	EFV-cISF.4-AnoSin	EFV-cISF.4-AnoSin	FlaviPesti	Flavivirus	cISF	4	species	Anopheles sinensis**		reference	1	n/a	NULL	NULL
+EFV-cISF.5-TipOle-con	EFV-cISF.5-TipOle	EFV-cISF.5-TipOle	FlaviPesti	Flavivirus	cISF	5	species	Tipula oleracea	Marsh crane fly	consensus	4		NULL	NULL
+EFV-cISF.6-ConPat	EFV-cISF.6-ConPat	EFV-cISF.6-ConPat	FlaviPesti	Flavivirus	cISF	6	species	Condylostylus patibulatus	Long-legged fly	reference	1	n/a	NULL	NULL
+EFV-Flavi.1-CraSow-con	EFV-Flavi.1-CraSow	EFV-Flavi.1-CraSow	FlaviPesti	Flavivirus	Cnidarian	1	species	Craspedacusta sowerbii	Freshwater jellyfish	consensus	7		NULL	NULL
+EFV-Flavi.2-DapMag-con	EFV-Flavi.2-DapMag	EFV-Flavi.2-DapMag	FlaviPesti	Flavivirus	Crustacean	2	species	Daphnia magna	Water flea	consensus	2		NULL	NULL
+EFV-Flavi.3-LepArc-con	EFV-Flavi.3-LepArc	EFV-Flavi.3-LepArc	FlaviPesti	Flavivirus	Crustacean	3	species	Lepidurus arcticus	Tadpole shrimp	consensus	3		NULL	NULL
+EFV-Tamana.1-LedTum	EFV-Tamana.1-LedTum	EFV-Tamana.1-LedTum	FlaviPesti	Flavivirus	Tamana	1	species	Lednia tumana	Meltwater stonefly	reference	1	n/a	NULL	NULL
+EFV-Tamana.2-LauKoh-con	EFV-Tamana.2-LauKoh	EFV-Tamana.2-LauKoh	FlaviPesti	Flavivirus	Tamana	2	species	Laupala kohalensis	Hawaiian cricket	consensus	2		NULL	NULL
+EFV-Tamana.3-AmpSul-con	EFV-Tamana.3-AmpSul	EFV-Tamana.3-AmpSul	FlaviPesti	Flavivirus	Tamana	3	species	Amphinemura sulcicollis	Spring stonefly	consensus	2		NULL	NULL
+EFV-Tamana.4-StyCho	EFV-Tamana.4-StyCho	EFV-Tamana.4-StyCho	FlaviPesti	Flavivirus	Tamana	4	species	Stylephorus chordatus	Tube-eye	reference	1	n/a	NULL	NULL
+EFV-X1.1-PriCau-con	EFV-X1.1-PriCau	EFV-X1.1-PriCau	FlaviPesti	Flavivirus	X1	1	species	Priapulus caudatus	Penis worm	consensus	2		NULL	NULL
+EFV-X2.1-EurAff-con	EFV-X2.1-EurAff	EFV-X2.1-EurAff	FlaviPesti	Flavivirus	X2	1	species	Eurytemora affinis	Copepod	consensus	6		NULL	NULL
+EFV-X2.2-AusLim	EFV-X2.2-AusLim	EFV-X2.2-AusLim	FlaviPesti	Flavivirus	X2	2	species	Austrofundulus limnaeus	Mangrove killifish	consensus	4		NULL	NULL
+EFV-X2.3-StyCho	EFV-X2.3-StyCho	EFV-X2.3-StyCho	FlaviPesti	Flavivirus	X2	3	species	Stylephorus chordatus	Tube-eye	reference	1		NULL	NULL
+EFV-PL2.1-CalCec-con	EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	FlaviPesti	Pestivirus	PL2	1	species	Calycopis cecrops	Red-banded hairstreak	consensus			NULL	NULL
+EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	FlaviPesti	Pestivirus	PL2	2	species	Euschistus heros	Stink bug	consensus			NULL	NULL
+EFV-PL2.3-CerCal-con	EFV-PL2.3-CerCal	EFV-PL2.3-CerCal	FlaviPesti	Pestivirus	PL2	3	species	Ceratina calcarata	Small blue-black bee	consensus			NULL	NULL
+EFV-PL2.3-CerAus	EFV-PL2.3-Ceratina	EFV-PL2.3-Ceratina	FlaviPesti	Pestivirus	PL2	3	species	Ceratina australensis	Carpenter bee	consensus			NULL	NULL
+EFV-PL2.3-HabLab	EFV-PL2.3-HabLab	EFV-PL2.3-HabLab	FlaviPesti	Pestivirus	PL2	3	species	Habropoda laboriosa	Blueberry bee	consensus			NULL	NULL
+EFV-PL2.3-EufMex	EFV-PL2.3-EufMex	EFV-PL2.3-EufMex	FlaviPesti	Pestivirus	PL2	3	species	Eufriesea mexicana	Orchid bee	consensus			NULL	NULL
+EFV-PL2.3-LasAlb	EFV-PL2.3-LasAlb	EFV-PL2.3-LasAlb	FlaviPesti	Pestivirus	PL2	3	species	Lasioglossum albipes	Bloomed furrow bee	consensus			NULL	NULL
+EFV-PL2.3-NomMel	EFV-PL2.3-NomMel	EFV-PL2.3-NomMel	FlaviPesti	Pestivirus	PL2	3	species	Nomia melanderi	Sweat bee	consensus			NULL	NULL
+EFV-PL2.3-OsmBic	EFV-PL2.3-OsmBic	EFV-PL2.3-OsmBic	FlaviPesti	Pestivirus	PL2	3	species	Osmia bicornis	Mason bee	consensus			NULL	NULL
+EFV-PL2.3-MegRot	EFV-PL2.3-MegRot	EFV-PL2.3-MegRot	FlaviPesti	Pestivirus	PL2	3	species	Megachile rotundata	Alfalfa leafcutter bee	consensus			NULL	NULL
+EFV-PL2.3-DufNov	EFV-PL2.3-DufNov	EFV-PL2.3-DufNov	FlaviPesti	Pestivirus	PL2	3	species	Dufourea novaeangliae	Pickerel bee	consensus			NULL	NULL
+EFV-PL2.4-AndQue	EFV-PL2.4-AndQue	EFV-PL2.4-AndQue	FlaviPesti	Pestivirus	PL2	4	species	Andricus quercusramuli	Cottonwool gall wasp	consensus	2		NULL	NULL
+EFV-PL2.5-AnoGla	EFV-PL2.5-AnoGla	EFV-PL2.5-AnoGla	FlaviPesti	Pestivirus	PL2	5	species	Anoplophora glabripennis	Long-horned beetle	reference			NULL	NULL
+EFV-PL2.6-XenBra-con	EFV-PL2.6-XenBra	EFV-PL2.6-XenBra	FlaviPesti	Pestivirus	PL2	6	species	Xenocatantops brachycerus*	Grasshopper	consensus	16		NULL	NULL
+EFV-PL2.7-OpeBru	EFV-PL2.7-OpeBru	EFV-PL2.7-OpeBru	FlaviPesti	Pestivirus	PL2	7	species	Operophtera brumata	Winter moth	reference	2		NULL	NULL
+EFV-HepaPegi.1-ElyChl	EFV-HepaPegi.1-ElyChl	EFV-HepaPegi.1-ElyChl	HepaPegi	HepaPegi	Invertebrate	1	species	Elysia chlorotica	Green sea	reference	1		NULL	NULL
+EJP-Jingmen.1-Chironomus-con	EJP-Jingmen.1-Chironomus	EJP-Jingmen.1-Chironomus	FlaviPesti	Jingmenvirus	Jingmenvirus	1	genus	Chironomus	Chironomus	consensus	2		NULL	NULL
+EJP-Jingmen.2-GerBue	EJP-Jingmen.2-GerBue	EJP-Jingmen.2-GerBue	FlaviPesti	Jingmenvirus	Jingmenvirus	2	species	Gerris buenoi	Water strider	reference	1		NULL	NULL
+EJH-Jingmen.2-GerBue	EJH-Jingmen.1-GerBue	EJH-Jingmen.1-GerBue	FlaviPesti	Jingmenvirus	Jingmenvirus	1	species	Gerris buenoi	Water strider	reference	1		NULL	NULL
