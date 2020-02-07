@@ -3,7 +3,10 @@
   run script glue/eve/loadLocusData1.js
   run script glue/eve/loadLocusData2.js
 
-  # Import metadata for exogenous reference sequences from tabular
+  # Link reference/consensus EVE sequences to refcon custom table
+  run script glue/erv/loadRefConData1.js
+ 
+  # Import metadata for reference/consensus EVE sequences
   module efvSideDataImporter 
     populate -f tabular/eve/efv-refseq-side-data.tsv
     exit
