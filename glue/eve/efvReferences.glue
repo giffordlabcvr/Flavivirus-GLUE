@@ -3,6 +3,15 @@
 ### HepaPegi
 create reference REF_EFV-HepaPegi.1-ElyChl      fasta-eve-refseqs EFV-HepaPegi.1-ElyChl
 
+### Pesti-like 2
+create reference REF_EFV-PL2.1-CalCec           fasta-eve-refseqs EFV-PL2.1-CalCec-con
+create reference REF_EFV-PL2.3-CerCal           fasta-eve-refseqs EFV-PL2.3-CerCal-con
+create reference REF_EFV-PL2.6-XenBra           fasta-eve-refseqs EFV-PL2.6-XenBra-con
+#create reference REF_EFV-PL2.7-Operophtera      fasta-eve-refseqs EFV-PL2.7-Operophtera
+#create reference REF_EFV-PL2.2-EusHer          fasta-eve-refseqs EFV-PL2.2-EusHer-con
+#create reference REF_EFV-PL2.4-Andricus        fasta-eve-refseqs EFV-PL2.4-Andricus
+#create reference REF_EFV-PL2.5-Anoplophora     fasta-eve-refseqs EFV-PL2.5-Anoplophora
+
 ### cISF 
 create reference REF_EFV-cISF.1-AedAeg          fasta-eve-refseqs EFV-cISF.1-AedAeg-con  
 create reference REF_EFV-cISF.1-AedAlb          fasta-eve-refseqs EFV-cISF.2-AedAlb-con  
@@ -22,9 +31,6 @@ create reference REF_EFV-Tamana.2-LauKoh        fasta-eve-refseqs EFV-Tamana.2-L
 create reference REF_EFV-Tamana.3-AmpSul        fasta-eve-refseqs EFV-Tamana.3-AmpSul-con
 create reference REF_EFV-Tamana.4-StyCho        fasta-eve-refseqs EFV-Tamana.4-StyCho
 
-### Jingmenvirus
-create reference REF_EFV-Jingmen.1-Chironomus   fasta-eve-refseqs EFV-Jingmen.1-Chironomus-con
-
 ### X1
 create reference REF_EFV-X1.1-PriCau            fasta-eve-refseqs EFV-X1.1-PriCau-con
 
@@ -33,12 +39,6 @@ create reference REF_EFV-X2.1-EurAff            fasta-eve-refseqs EFV-X2.1-EurAf
 create reference REF_EFV-X2.2-AusLim            fasta-eve-refseqs EFV-X2.2-AusLim-con
 create reference REF_EFV-X2.3-StyCho            fasta-eve-refseqs EFV-X2.3-StyCho-con
 
-### Pesti-like 2
-create reference REF_EFV-PL2.1-CalCec           fasta-eve-refseqs EFV-PL2.1-CalCec-con
-create reference REF_EFV-PL2.3-CerCal           fasta-eve-refseqs EFV-PL2.3-CerCal-con
-create reference REF_EFV-PL2.6-XenBra           fasta-eve-refseqs EFV-PL2.6-XenBra-con
-#create reference REF_EFV-PL2.7-Operophtera      fasta-eve-refseqs EFV-PL2.7-Operophtera
-#create reference REF_EFV-PL2.2-EusHer          fasta-eve-refseqs EFV-PL2.2-EusHer-con
-#create reference REF_EFV-PL2.4-Andricus        fasta-eve-refseqs EFV-PL2.4-Andricus
-#create reference REF_EFV-PL2.5-Anoplophora     fasta-eve-refseqs EFV-PL2.5-Anoplophora
+### Jingmenvirus
+create reference REF_EJP-Jingmen.1-Chironomus   fasta-eve-refseqs EJP-Jingmen.1-Chironomus-con
 

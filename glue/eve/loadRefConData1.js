@@ -10,11 +10,11 @@ _.each(seqIds, function(seqId) {
 	glue.log("INFO", "Sequence ID:", seqId);
 
     // create an object in the custom table which uses the sequence ID as the row ID.
-    glue.command(["create", "custom-table-row", "eve_refcon_data", seqId]);
+    glue.command(["create", "custom-table-row", "refcon_data", seqId]);
     
     // associate the corresponding sequence with this object.
     glue.inMode("sequence/fasta-eve-refseqs/"+seqId, function() {
-        glue.command(["set", "link-target", "eve_refcon_data", "custom-table-row/eve_refcon_data/"+seqId]);    
+        glue.command(["set", "link-target", "refcon_data", "custom-table-row/refcon_data/"+seqId]);    
     });
 
 });

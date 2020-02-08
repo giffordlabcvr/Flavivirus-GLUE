@@ -1,10 +1,11 @@
  schema-project flaviviridae
   delete custom-table locus_data
+  delete custom-table refcon_data
   exit
 
 project flaviviridae
 
-  multi-delete reference -w "name like 'REF_EFV%'"
+  multi-delete reference -w "name like 'REF_EFV-%' or name like 'REF_EJP-%'"
   multi-delete alignment -w "name like 'AL_EFV%'"
   delete source --whereClause "name like 'fasta-eve%'"
 

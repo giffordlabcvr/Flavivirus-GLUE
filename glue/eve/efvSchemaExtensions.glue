@@ -2,9 +2,9 @@
   # Create schema extensions for EVEs
 
   # Table for EVE consensus and reference sequence data
-  create custom-table eve_refcon_data
+  create custom-table refcon_data
   
-  table eve_refcon_data
+  table refcon_data
     create field reftype VARCHAR 50
     create field host_group_taxlevel VARCHAR 50
     create field host_group_name VARCHAR 50
@@ -13,7 +13,7 @@
     create field locus_id VARCHAR 50
   exit
   
-  create link sequence eve_refcon_data
+  create link sequence refcon_data
 
 
   # Table for EVE locus data
