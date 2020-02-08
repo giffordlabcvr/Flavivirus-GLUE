@@ -27,7 +27,7 @@ project flaviviridae
   run file glue/eve/efvAlignments.glue
 
   # Import alignment tree
-  #run file glue/eve/efvAlignmentTree.glue
+  run file glue/eve/efvAlignmentTree.glue
 
   # Validate
   validate

@@ -14,7 +14,7 @@ create reference REF_EFV-PL2.6-XenBra           fasta-eve-refseqs EFV-PL2.6-XenB
 
 ### cISF 
 create reference REF_EFV-cISF.1-AedAeg          fasta-eve-refseqs EFV-cISF.1-AedAeg-con  
-create reference REF_EFV-cISF.1-AedAlb          fasta-eve-refseqs EFV-cISF.2-AedAlb-con  
+create reference REF_EFV-cISF.2-AedAlb          fasta-eve-refseqs EFV-cISF.2-AedAlb-con  
 create reference REF_EFV-cISF.3-AnoMin          fasta-eve-refseqs EFV-cISF.3-AnoMin  
 create reference REF_EFV-cISF.4-AnoSin          fasta-eve-refseqs EFV-cISF.4-AnoSin  
 create reference REF_EFV-cISF.5-TipOle          fasta-eve-refseqs EFV-cISF.5-TipOle-con
