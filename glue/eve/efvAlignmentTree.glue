@@ -118,13 +118,13 @@
   alignment AL_Tamanavirus
 
 	extract child AL_EFV_Tamana.2-LauKoh  -r REF_EFV-Tamana.2-LauKoh
-	demote member AL_EFV_Tamana.2-LauKoh  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-Tamana.2-LauKoh'"
+	demote member AL_EFV_Tamana.2-LauKoh  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-Tamana.2%'"
 
 	extract child AL_EFV-Tamana.3-AmpSul  -r REF_EFV-Tamana.3-AmpSul
-	demote member AL_EFV-Tamana.3-AmpSul  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-Tamana.3-AmpSul'"
+	demote member AL_EFV-Tamana.3-AmpSul  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-Tamana.3%'"
 
 	extract child AL_EFV-Tamana.4-StyCho  -r REF_EFV-Tamana.4-StyCho
-	demote member AL_EFV-Tamana.4-StyCho  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-Tamana.4-StyCho'"
+	demote member AL_EFV-Tamana.4-StyCho  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-Tamana.4%'"
     exit
 
   #
@@ -137,14 +137,13 @@
 	demote member AL_EFV-Flavi.1-CraSow  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-Flavi.1%'"
 
 	extract child AL_EFV-Flavi.2-DapMag  -r REF_EFV-Flavi.2-DapMag
-	demote member AL_EFV-Flavi.2-DapMag  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-Flavi.2%'"
+	demote member AL_EFV-Flavi.2-DapMag  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-Flavi.2%'"
 
 	extract child AL_EFV-Flavi.3-LepArc  -r REF_EFV-Flavi.3-LepArc
-	demote member AL_EFV-Flavi.3-LepArc  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-Flavi.3%'"
+	demote member AL_EFV-Flavi.3-LepArc  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-Flavi.3%'"
 
 	demote member AL_cISF -w "sequence.source.name = 'fasta-eve-refseqs' and sequence.clade = 'cISF'"
 	demote member AL_cISF -w "sequence.source.name = 'fasta-eve' and sequence.clade = 'cISF'"
-
     exit
 
   #
@@ -154,13 +153,13 @@
   alignment AL_cISF
 
 	extract child AL_EFV-cISF.1_AedAeg  -r REF_EFV-cISF.1-AedAeg
-	demote member AL_EFV-cISF.1_AedAeg  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-cISF.1-AedAeg'"
+	demote member AL_EFV-cISF.1_AedAeg  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-cISF.1%'"
 
 	extract child AL_EFV-cISF.2_AedAlb  -r REF_EFV-cISF.2-AedAlb
-	demote member AL_EFV-cISF.2_AedAlb  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-cISF.2-2-AedAlb'"
+	demote member AL_EFV-cISF.2_AedAlb  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-cISF.2%'"
 
 	extract child AL_EFV-cISF.5-TipOle  -r REF_EFV-cISF.5-TipOle
-	demote member AL_EFV-cISF.5-TipOle  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-cISF.5-TipOle'"
+	demote member AL_EFV-cISF.5-TipOle  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-cISF.5%'"
     exit
 
 
