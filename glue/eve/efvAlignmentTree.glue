@@ -134,7 +134,7 @@
   alignment AL_Flavivirus
 
 	extract child AL_EFV-Flavi.1-CraSow  -r REF_EFV-Flavi.1-CraSow
-	demote member AL_EFV-Flavi.1-CraSow  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-Flavi.1-CraSow'"
+	demote member AL_EFV-Flavi.1-CraSow  -w "sequence.source.name = 'fasta-eve' and sequence.sequence_id like 'EFV-Flavi.1-CraSow'"
 
 	extract child AL_EFV-Flavi.2-DapMag  -r REF_EFV-Flavi.2-DapMag
 	demote member AL_EFV-Flavi.2-DapMag  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-Flavi.2-DapMag'"
