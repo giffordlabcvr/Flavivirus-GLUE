@@ -12,7 +12,6 @@ module unconstrainedAlignmentImporter
   import AL_EFV_Eurytemora_UNCONSTRAINED               -f alignments/tips/eve/unclassified/x2-eurytemora.fna
 
   #~# Flavirus
-  import AL_EFV_Flavi_Tipula_UNCONSTRAINED             -f alignments/tips/eve/flavivirus/flavivirus-tipula.fna
   import AL_EFV_Flavi_Daphnia_UNCONSTRAINED            -f alignments/tips/eve/flavivirus/flavivirus-daphnia.fna
   import AL_EFV_Flavi_Craspedacusta_UNCONSTRAINED      -f alignments/tips/eve/flavivirus/flavivirus-craspadecusta.fna
   import AL_EFV_Flavi_Lepidurus_UNCONSTRAINED          -f alignments/tips/eve/flavivirus/flavivirus-lepidurus.fna
@@ -20,6 +19,7 @@ module unconstrainedAlignmentImporter
   #~# cISF
   import AL_EFV_cISF_Aedes_aeg_UNCONSTRAINED           -f alignments/tips/eve/flavivirus-cisf/cisf-aedes-aeg.fna
   #import AL_EFV_cISF_Aedes_alb_UNCONSTRAINED           -f alignments/tips/eve/flavivirus-cisf/cisf-aedes-alb.fna
+  import AL_EFV_cISF_Tipula_UNCONSTRAINED              -f alignments/tips/eve/flavivirus-cisf/cisf-tipula.fna
 
   #~# Tamanavirus
   import AL_EFV_Tamana_Amphinemura_UNCONSTRAINED       -f alignments/tips/eve/tamanavirus/tamana-amphinemura.fna
