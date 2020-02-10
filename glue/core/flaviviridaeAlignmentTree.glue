@@ -55,10 +55,10 @@
 	demote member AL_Pestivirus  --whereClause "sequence.genus = 'Pestivirus'" 
 
 	extract child AL_PL1 --refName REF_SCNV5
-	demote member AL_PL1  --whereClause "sequence.genus = 'Pesti-like' and sequence.clade = 'Nematode'" 
+	demote member AL_PL1  --whereClause "sequence.clade = 'PL1'" 
 
 	extract child AL_PL2 --refName REF_SLV2
-	demote member AL_PL2 --whereClause "sequence.genus = 'Pesti-like' and sequence.clade = 'Insect'" 
+	demote member AL_PL2 --whereClause "sequence.clade = 'PL2'" 
     exit
 
 
@@ -100,8 +100,14 @@
 	extract child AL_cISF        --refName REF_KRV
 	demote member AL_cISF        --whereClause "sequence.clade = 'cISF'" 
 
-	extract child AL_dISF1       --refName REF_LAMV
-	demote member AL_dISF1       --whereClause "sequence.clade = 'dISF1'" 
+	extract child AL_dISF1        --refName REF_LTNV
+	demote member AL_dISF1        --whereClause "sequence.clade = 'dISF1'" 
+
+	extract child AL_dISF1A       --refName REF_NHUV
+	demote member AL_dISF1A       --whereClause "sequence.clade = 'dISF1A'" 
+
+	extract child AL_dISF1B       --refName REF_LAMV
+	demote member AL_dISF1B       --whereClause "sequence.clade = 'dISF1B'" 
 
 	extract child AL_dISF2       --refName REF_EPEV
 	demote member AL_dISF2       --whereClause "sequence.clade = 'dISF2'" 
@@ -211,8 +217,12 @@
     derive segments AL_UNC_FLAVI_cISF -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_dISF1
-    derive segments AL_UNC_FLAVI_dISF1 -a --mergeStrategy OVERWRITE
+  alignment AL_dISF1A
+    derive segments AL_UNC_FLAVI_dISF1A -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_dISF1B
+    derive segments AL_UNC_FLAVI_dISF1B -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_dISF2
