@@ -127,7 +127,7 @@
   #
   
   alignment AL_MASTER_Flaviviridae
-    derive segments AL_Flaviviridae_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_Flaviviridae -a --mergeStrategy OVERWRITE
     exit
 
 
@@ -137,19 +137,19 @@
 
 
   alignment AL_HepaPegi
-    derive segments AL_HEPA_PEGI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_HEPA_PEGI -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_FlaviPesti
-    derive segments AL_FLAVI_PESTI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_FLAVI_PESTI -a --mergeStrategy OVERWRITE
     exit
 
     alignment AL_PestiLike
-    derive segments AL_PESTI_LIKE_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_PESTI_LIKE -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_FlaviLike
-    derive segments AL_FLAVI_LIKE_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_FLAVI_LIKE -a --mergeStrategy OVERWRITE
     exit
 
 
@@ -158,15 +158,15 @@
   #
 
   alignment AL_Pestivirus
-    derive segments AL_PESTI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_PESTI -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_PL1
-    derive segments AL_PL1_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_PL1 -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_PL2
-    derive segments AL_PL2_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_PL2 -a --mergeStrategy OVERWRITE
     exit
 
   #
@@ -175,19 +175,19 @@
   
 
   alignment AL_Jingmenvirus
-    derive segments AL_JMTV_SEG1_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_JMTV_SEG1 -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_Tamanavirus
-    derive segments AL_TABV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_TABV -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_FlaviTamana
-    derive segments AL_FLAVI_TABV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_FLAVI_TABV -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_Flavivirus
-    derive segments AL_FLAVI_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_FLAVI -a --mergeStrategy OVERWRITE
     exit
 
  
@@ -196,39 +196,39 @@
   #  
 
   alignment AL_mosquito-1
-    derive segments AL_FLAVI_mosq1_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_FLAVI_mosq1 -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_mosquito-2
-    derive segments AL_FLAVI_mosq2_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_FLAVI_mosq2 -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_tick
-    derive segments AL_FLAVI_tick_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_FLAVI_tick -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_cISF
-    derive segments AL_FLAVI_cISF_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_FLAVI_cISF -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_dISF1
-    derive segments AL_FLAVI_dISF1_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_FLAVI_dISF1 -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_dISF2
-    derive segments AL_FLAVI_dISF2_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_FLAVI_dISF2 -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_NKV1
-    derive segments AL_FLAVI_NKV1_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_FLAVI_NKV1 -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_NKV2
-    derive segments AL_FLAVI_NKV2_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_FLAVI_NKV2 -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_crustacean
-    derive segments AL_FLAVI_crustacean_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_FLAVI_crustacean -a --mergeStrategy OVERWRITE
     exit
 
 

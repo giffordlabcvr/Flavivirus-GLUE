@@ -2,37 +2,37 @@
   module unconstrainedAlignmentImporter
 
     #~# Root
-    import AL_Flaviviridae_UNCONSTRAINED         -f alignments/root/flaviviridae-root.fna
+    import AL_UNC_Flaviviridae        -f alignments/root/flaviviridae-root.fna
 
     #~# Major lineages
-    import AL_HEPA_PEGI_UNCONSTRAINED            -f alignments/internal/major-lineage/hepa-pegi.aln.fna
-    import AL_FLAVI_PESTI_UNCONSTRAINED          -f alignments/internal/major-lineage/flavi-pesti.aln.fna
+    import AL_UNC_HEPA_PEGI           -f alignments/internal/major-lineage/hepa-pegi.aln.fna
+    import AL_UNC_FLAVI_PESTI         -f alignments/internal/major-lineage/flavi-pesti.aln.fna
 
     #~# Minor lineages
-    import AL_PESTI_LIKE_UNCONSTRAINED           -f alignments/internal/minor-lineage/pesti-like.aln.fna
-    import AL_FLAVI_LIKE_UNCONSTRAINED           -f alignments/internal/minor-lineage/flavi-tabv.aln.fna
-    import AL_FLAVI_TABV_UNCONSTRAINED           -f alignments/internal/minor-lineage/flavi-tabv.aln.fna
+    import AL_UNC_PESTI_LIKE          -f alignments/internal/minor-lineage/pesti-like.aln.fna
+    import AL_UNC_FLAVI_LIKE          -f alignments/internal/minor-lineage/flavi-tabv.aln.fna
+    import AL_UNC_FLAVI_TABV          -f alignments/internal/minor-lineage/flavi-tabv.aln.fna
 
     #~# Genera
-    import AL_PEGI_UNCONSTRAINED                 -f alignments/internal/genus/pegivirus.aln.fna
-    import AL_HEPACI_UNCONSTRAINED               -f alignments/internal/genus/hepacivirus.aln.fna
-    import AL_FLAVI_UNCONSTRAINED                -f alignments/internal/genus/flavivirus.aln.fna
-    import AL_TABV_UNCONSTRAINED                 -f alignments/internal/genus/tamanavirus.aln.fna   
-    import AL_PESTI_UNCONSTRAINED                -f alignments/internal/genus/pestivirus.aln.fna
-    import AL_PL1_UNCONSTRAINED                  -f alignments/internal/genus/pl1.aln.fna
-    import AL_PL2_UNCONSTRAINED                  -f alignments/internal/genus/pl2.aln.fna
-    import AL_JMTV_SEG1_UNCONSTRAINED            -f alignments/internal/genus/jmtvSeg1.aln.fna    
-    import AL_JMTV_SEG3_UNCONSTRAINED            -f alignments/internal/genus/jmtvSeg3.aln.fna    
+    import AL_UNC_PEGI                -f alignments/internal/genus/pegivirus.aln.fna
+    import AL_UNC_HEPACI              -f alignments/internal/genus/hepacivirus.aln.fna
+    import AL_UNC_FLAVI               -f alignments/internal/genus/flavivirus.aln.fna
+    import AL_UNC_TABV                -f alignments/internal/genus/tamanavirus.aln.fna   
+    import AL_UNC_PESTI               -f alignments/internal/genus/pestivirus.aln.fna
+    import AL_UNC_PL1                 -f alignments/internal/genus/pl1.aln.fna
+    import AL_UNC_PL2                 -f alignments/internal/genus/pl2.aln.fna
+    import AL_UNC_JMTV_SEG1           -f alignments/internal/genus/jmtvSeg1.aln.fna    
+    import AL_UNC_JMTV_SEG3           -f alignments/internal/genus/jmtvSeg3.aln.fna    
 
     #~# Genus subgroups
-    import AL_FLAVI_cISF_UNCONSTRAINED           -f alignments/internal/subgroup/cISF.aln.fna
-    import AL_FLAVI_dISF1_UNCONSTRAINED          -f alignments/internal/subgroup/dISF1.aln.fna
-    import AL_FLAVI_dISF2_UNCONSTRAINED          -f alignments/internal/subgroup/dISF2.aln.fna
-    import AL_FLAVI_NKV1_UNCONSTRAINED           -f alignments/internal/subgroup/NKV1.aln.fna
-    import AL_FLAVI_NKV2_UNCONSTRAINED           -f alignments/internal/subgroup/NKV2.aln.fna
-    import AL_FLAVI_mosq1_UNCONSTRAINED          -f alignments/internal/subgroup/mosquito-1.aln.fna
-    import AL_FLAVI_mosq2_UNCONSTRAINED          -f alignments/internal/subgroup/mosquito-2.aln.fna
-    import AL_FLAVI_tick_UNCONSTRAINED           -f alignments/internal/subgroup/ticks.aln.fna
-    import AL_FLAVI_crustacean_UNCONSTRAINED     -f alignments/internal/subgroup/crustacean.aln.fna
+    import AL_UNC_FLAVI_cISF          -f alignments/internal/subgroup/cISF.aln.fna
+    import AL_UNC_FLAVI_dISF1         -f alignments/internal/subgroup/dISF1.aln.fna
+    import AL_UNC_FLAVI_dISF2         -f alignments/internal/subgroup/dISF2.aln.fna
+    import AL_UNC_FLAVI_NKV1          -f alignments/internal/subgroup/NKV1.aln.fna
+    import AL_UNC_FLAVI_NKV2          -f alignments/internal/subgroup/NKV2.aln.fna
+    import AL_UNC_FLAVI_mosq1         -f alignments/internal/subgroup/mosquito-1.aln.fna
+    import AL_UNC_FLAVI_mosq2         -f alignments/internal/subgroup/mosquito-2.aln.fna
+    import AL_UNC_FLAVI_tick          -f alignments/internal/subgroup/ticks.aln.fna
+    import AL_UNC_FLAVI_crustacean    -f alignments/internal/subgroup/crustacean.aln.fna
 
     exit
