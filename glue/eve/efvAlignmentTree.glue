@@ -11,7 +11,6 @@
 	demote member AL_FlaviPesti -w "sequence.source.name = 'fasta-eve' and sequence.subfamily = 'FlaviPesti'"
 	
 	demote member AL_HepaPegi -w "sequence.source.name = 'fasta-eve-refseqs' and sequence.subfamily = 'HepaPegi'"
-	demote member AL_HepaPegi -w "sequence.source.name = 'fasta-eve' and sequence.subfamily = 'HepaPegi'"
 	exit
 	
 
@@ -22,7 +21,7 @@
   alignment AL_HepaPegi
   
 	extract child AL_EFV_1-ElyChl -r REF_EFV-HepaPegi.1-ElyChl
-	demote member AL_EFV_1-ElyChl -w "sequence.source.name = 'fasta-eve-refseqs' and sequence.genus = 'Hepacivirus'"
+	demote member AL_EFV_1-ElyChl -w "sequence.source.name = 'fasta-eve-refseqs' and sequence.refcon_data.locus_id = 'EFV-HepaPegi.1-ElyChl'"
     exit
 
 
@@ -40,12 +39,15 @@
 
 	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-eve-refseqs' and sequence.genus = 'Flavivirus'"
 	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-eve' and sequence.genus = 'Flavivirus'"
+	
 	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-eve-refseqs' and sequence.genus = 'Tamanavirus'"
 	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-eve' and sequence.genus = 'Tamanavirus'"
 
 	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-eve-refseqs' and sequence.genus = 'Jingmenvirus'"
 	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-eve' and sequence.genus = 'Jingmenvirus'"
-	
+
+	demote member AL_PestiLike -w "sequence.source.name = 'fasta-eve-refseqs' and sequence.genus = 'PL2'"
+	demote member AL_PestiLike -w "sequence.source.name = 'fasta-eve' and sequence.genus = 'PL2'"
     exit
 
   #
@@ -103,13 +105,13 @@
   alignment AL_EFV_X2
 
 	extract child AL_EFV_X2.1-EurAff  -r REF_EFV-X2.1-EurAff
-	demote member AL_EFV_X2.1-EurAff  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-X2.1-EurAff'"
+	demote member AL_EFV_X2.1-EurAff  -w "sequence.locus_data.locus_id = 'EFV-X2.1-EurAff'"
 
 	extract child AL_EFV_X2.2-AusLim  -r REF_EFV-X2.2-AusLim
-	demote member AL_EFV_X2.2-AusLim  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-X2.2-AusLim'"
+	demote member AL_EFV_X2.2-AusLim  -w "sequence.locus_data.locus_id = 'EFV-X2.2-AusLim'"
 
 	extract child AL_EFV_X2.3-StyCho  -r REF_EFV-X2.3-StyCho
-	demote member AL_EFV_X2.3-StyCho  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-X2.3-StyCho'"
+	demote member AL_EFV_X2.3-StyCho  -w "sequence.locus_data.locus_id = 'EFV-X2.3-StyCho'"
     exit
 
   #

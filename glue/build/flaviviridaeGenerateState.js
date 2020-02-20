@@ -96,19 +96,32 @@ function process_alignments() {
 // Recursively process alignment tree from a given node to tips
 function process_alignment_tree(parentAlignName) {
     glue.logInfo("Processing alignment "+parentAlignName);
- 
+    
+   // Get a list of the alignment members
+    var almntMembers;
+	glue.inMode("alignment/"+parentAlignName+"/", function(){
+	    almntMembers = glue.getTableColumn(glue.command(["list", "member"]), "sequence.sequenceID");	
+	});
+	
+	var numMembers = almntMembers.length; 
+    glue.logInfo("\t Total members: "+numMembers);
+
+	// Process alignment members
+	//_.each(almntMembers,function(memberName){		
+    //	glue.logInfo("Processing member "+memberName);
+	//});
+
+
+    // Get a list of the child alignments
     var childAlignments;
 	glue.inMode("alignment/"+parentAlignName+"/", function(){
-
 	    childAlignments = glue.getTableColumn(glue.command(["list", "children"]), "name");	
 	});
-
+	// Process child alignments
 	_.each(childAlignments,function(childAlignmentName){		
 		process_alignment_tree(childAlignmentName);
 	});
-		
-
-}
+	}
 
 // Process virus isolates sequences 
 function process_virus_isolates() {
