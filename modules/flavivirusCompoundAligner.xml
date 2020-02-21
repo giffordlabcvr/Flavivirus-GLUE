@@ -3,6 +3,8 @@
 		<codonAwareBlastAligner>
 			<featureName>precursor_polyprotein</featureName>
 		</codonAwareBlastAligner>
-		<blastAligner/>
+		<blastAligner>
+			<featureName>whole_genome</featureName>
+		</blastAligner>
 	</aligners>
 </compoundAligner>
