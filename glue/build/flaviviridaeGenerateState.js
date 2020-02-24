@@ -10,7 +10,7 @@ var NS5_fasta_nt = [ ];
 //process_refseqs();
 
 // Summarise the alignments in this project
-process_alignment_tree("AL_MASTER_Flaviviridae");
+process_alignment_tree("AL_MASTER_Flaviviridae_ROOT");
 
 // Summarise the virus isolates in this project
 //process_virus_isolates();
@@ -302,7 +302,7 @@ function get_feature_amino_acids(refSeqID, feature) {
 function get_coding_feature_map() {
 
 	var resultMap = {};
-	var myCodingFeatures = glue.getTableColumn(glue.command(["list", "feature-location","-w", "feature.featureMetatags.name = 'CODES_AMINO_ACIDS'"]));
+	var myCodingFeatures = glue.getTableColumn(glue.command(["list", "feature","-w", "feature.featureMetatags.name = 'CODES_AMINO_ACIDS'"]));
 	_.each(myCodingFeatures,function(resultObj){
 		resultMap[resultObj.feature.name] = resultObj;
 	});	

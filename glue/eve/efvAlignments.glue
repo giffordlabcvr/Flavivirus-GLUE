@@ -5,33 +5,33 @@ module unconstrainedAlignmentImporter
   # Import EVE 'tip' alignments (alignments of multicopy EVE loci believed to have a common origin)
 
   #~# X1
-  import AL_EFV_Priapulus_UNCONSTRAINED                -f alignments/tips/eve/unclassified/x1-priapulus.fna
+  import AL_EFV_UNC_Priapulus                -f alignments/eve/tip/x1/x1-priapulus.fna
 
   #~# X2
-  import AL_EFV_Austrolofundulus_UNCONSTRAINED         -f alignments/tips/eve/unclassified/x2-austrolofundulus.fna
-  import AL_EFV_Eurytemora_UNCONSTRAINED               -f alignments/tips/eve/unclassified/x2-eurytemora.fna
+  import AL_EFV_UNC_Austrolofundulus         -f alignments/eve/tip/x2/x2-austrolofundulus.fna
+  import AL_EFV_UNC_Eurytemora               -f alignments/eve/tip/x2/x2-eurytemora.fna
 
   #~# Flavirus
-  import AL_EFV_Flavi_Daphnia_UNCONSTRAINED            -f alignments/tips/eve/flavivirus/flavivirus-daphnia.fna
-  import AL_EFV_Flavi_Craspedacusta_UNCONSTRAINED      -f alignments/tips/eve/flavivirus/flavivirus-craspadecusta.fna
-  import AL_EFV_Flavi_Lepidurus_UNCONSTRAINED          -f alignments/tips/eve/flavivirus/flavivirus-lepidurus.fna
+  import AL_EFV_UNC_Flavi_Daphnia            -f alignments/eve/tip/flavivirus/flavivirus-daphnia.fna
+  import AL_EFV_UNC_Flavi_Craspedacusta      -f alignments/eve/tip/flavivirus/flavivirus-craspadecusta.fna
+  import AL_EFV_UNC_Flavi_Lepidurus          -f alignments/eve/tip/flavivirus/flavivirus-lepidurus.fna
 
   #~# cISF
-  import AL_EFV_cISF_Aedes_aeg_UNCONSTRAINED           -f alignments/tips/eve/flavivirus-cisf/cisf-aedes-aeg.fna
-  #import AL_EFV_cISF_Aedes_alb_UNCONSTRAINED           -f alignments/tips/eve/flavivirus-cisf/cisf-aedes-alb.fna
-  import AL_EFV_cISF_Tipula_UNCONSTRAINED              -f alignments/tips/eve/flavivirus-cisf/cisf-tipula.fna
+  import AL_EFV_UNC_cISF_Aedes_aeg           -f alignments/eve/tip/flavivirus-cisf/cisf-aedes-aeg.fna
+  #import AL_EFV_UNC_cISF_Aedes_alb           -f alignments/eve/tip/flavivirus-cisf/cisf-aedes-alb.fna
+  import AL_EFV_UNC_cISF_Tipula              -f alignments/eve/tip/flavivirus-cisf/cisf-tipula.fna
 
   #~# Tamanavirus
-  import AL_EFV_Tamana_Amphinemura_UNCONSTRAINED       -f alignments/tips/eve/tamanavirus/tamana-amphinemura.fna
-  import AL_EFV_Tamana_Laupala_UNCONSTRAINED           -f alignments/tips/eve/tamanavirus/tamana-laupala.fna
+  import AL_EFV_UNC_Tamana_Amphinemura       -f alignments/eve/tip/tamanavirus/tamana-amphinemura.fna
+  import AL_EFV_UNC_Tamana_Laupala           -f alignments/eve/tip/tamanavirus/tamana-laupala.fna
 
   #~# Jingmenvirus
-  import AL_EFV_JMTV1_Chironomus_UNCONSTRAINED         -f alignments/tips/eve/jingmenvirus/jmtv1-chironomus.fna
+  import AL_EFV_UNC_JMTV1_Chironomus         -f alignments/eve/tip/jingmenvirus/jmtv1-chironomus.fna
 
   #~# Pestinsect
-  #import AL_EFV_Pestinsect_Calycopis_UNCONSTRAINED    -f alignments/tips/eve/pl2/pestinsect-calycopis.fna
-  import AL_EFV_Pestinsect_Andricus_UNCONSTRAINED      -f alignments/tips/eve/pl2/pestinsect-andricus.fna
-  import AL_EFV_Pestinsect_Operophtera_UNCONSTRAINED   -f alignments/tips/eve/pl2/pestinsect-operophtera.fna
+  #import AL_EFV_UNC_Pestinsect_Calycopis    -f alignments/eve/tip/pl2/pestinsect-calycopis.fna
+  import AL_EFV_UNC_Pestinsect_Andricus      -f alignments/eve/tip/pl2/pestinsect-andricus.fna
+  import AL_EFV_UNC_Pestinsect_Operophtera   -f alignments/eve/tip/pl2/pestinsect-operophtera.fna
 
   exit
 
