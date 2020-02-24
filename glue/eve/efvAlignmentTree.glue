@@ -4,7 +4,7 @@
   # Root alignment
   #
   
-  alignment AL_MASTER_Flaviviridae
+  alignment AL_MASTER_Flaviviridae_ROOT
 
     add member  -w "source = 'fasta-eve-refseqs' or source.name = 'fasta-eve'"    
 	demote member AL_FlaviPesti -w "sequence.source.name = 'fasta-eve-refseqs' and sequence.subfamily = 'FlaviPesti'"	
@@ -120,8 +120,8 @@
 
   alignment AL_Jingmenvirus
 
-	extract child REF_EJP-Jingmen.1-Chironomus  -r REF_EJP-Jingmen.1-Chironomus
-	demote member REF_EJP-Jingmen.1-Chironomus  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-Jingmen.1-Chironomus'"
+	extract child AL_EJP-Jingmen.1-Chironomus  -r REF_EJP-Jingmen.1-Chironomus
+	demote member AL_EJP-Jingmen.1-Chironomus  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-Jingmen.1-Chironomus'"
     exit
 
   #
@@ -150,13 +150,13 @@
   alignment AL_Flavivirus
 
 	extract child AL_EFV-Flavi.1-CraSow  -r REF_EFV-Flavi.1-CraSow
-	demote member AL_EFV-Flavi.1-CraSow  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-Flavi.1%'"
+	demote member AL_EFV-Flavi.1-CraSow  -w "sequence.sequenceID like 'EFV-Flavi.1%'"
 
 	extract child AL_EFV-Flavi.2-DapMag  -r REF_EFV-Flavi.2-DapMag
-	demote member AL_EFV-Flavi.2-DapMag  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-Flavi.2%'"
+	demote member AL_EFV-Flavi.2-DapMag  -w "sequence.sequenceID like 'EFV-Flavi.2%'"
 
 	extract child AL_EFV-Flavi.3-LepArc  -r REF_EFV-Flavi.3-LepArc
-	demote member AL_EFV-Flavi.3-LepArc  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-Flavi.3%'"
+	demote member AL_EFV-Flavi.3-LepArc  -w "sequence.sequenceID like 'EFV-Flavi.3%'"
 
 	demote member AL_cISF -w "sequence.source.name = 'fasta-eve-refseqs' and sequence.clade = 'cISF'"
 	demote member AL_cISF -w "sequence.source.name = 'fasta-eve' and sequence.clade = 'cISF'"
@@ -168,15 +168,156 @@
 
   alignment AL_cISF
 
-	extract child AL_EFV-cISF.1_AedAeg  -r REF_EFV-cISF.1-AedAeg
-	demote member AL_EFV-cISF.1_AedAeg  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-cISF.1%'"
+	extract child AL_EFV-cISF.1-AedAeg  -r REF_EFV-cISF.1-AedAeg
+	demote member AL_EFV-cISF.1-AedAeg  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-cISF.1%'"
 
-	extract child AL_EFV-cISF.2_AedAlb  -r REF_EFV-cISF.2-AedAlb
-	demote member AL_EFV-cISF.2_AedAlb  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-cISF.2%'"
+	extract child AL_EFV-cISF.2-AedAlb  -r REF_EFV-cISF.2-AedAlb
+	demote member AL_EFV-cISF.2-AedAlb  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-cISF.2%'"
 
 	extract child AL_EFV-cISF.5-TipOle  -r REF_EFV-cISF.5-TipOle
 	demote member AL_EFV-cISF.5-TipOle  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-cISF.5%'"
     exit
 
 
+   ### Derive constrained alignment segments from unconstrained alignments  
+
+  #
+  # ROOT NODE
+  #
+  
+  #alignment AL_MASTER_Flaviviridae_ROOT
+  #  derive segments AL_UNC_Flaviviridae -a --existingMembersOnly
+  #  exit
+
+
+  #
+  # MAIN BRANCHES
+  #
+
+
+  #alignment AL_HepaPegi
+  #  derive segments AL_UNC_HEPA_PEGI -a --existingMembersOnly
+  #  exit
+
+  #alignment AL_FlaviPesti
+  #  derive segments AL_UNC_FLAVI_PESTI -a --existingMembersOnly
+  #  exit
+
+  #alignment AL_PestiLike
+  #  derive segments AL_UNC_PESTI_LIKE -a --existingMembersOnly
+  #  exit
+
+  #alignment AL_FlaviLike
+  #  derive segments AL_UNC_FLAVI_LIKE -a --existingMembersOnly
+  #  exit
+
+
+  #
+  # PESTIVIRUS-LIKE SUBGROUPS
+  #
+
+  #alignment AL_PL2
+  #  derive segments AL_UNC_PL2 -a --mergeStrategy 
+  #  exit
+
+
+  #
+  # FLAVIVIRUS-LIKE SUBGROUPS
+  #  
+  
+
+  #alignment AL_Jingmenvirus
+  #  derive segments AL_UNC_JMTV_SEG1 -a --mergeStrategy 
+  #  exit
+
+  #alignment AL_Tamanavirus
+  #  derive segments AL_UNC_TABV -a --mergeStrategy 
+  #  exit
+
+  #alignment AL_FlaviTamana
+  #  derive segments AL_UNC_FLAVI_TABV -a --mergeStrategy 
+  #  exit
+
+  #alignment AL_Flavivirus
+  #  derive segments AL_UNC_FLAVI -a --mergeStrategy 
+  #  exit
+
  
+  #
+  # FLAVIVIRUS SUBGROUPS
+  #  
+
+  #alignment AL_cISF
+  #  derive segments AL_UNC_FLAVI_cISF -a --mergeStrategy 
+  #  exit
+
+  #alignment AL_crustacean
+  #  derive segments AL_UNC_FLAVI_crustacean -a --mergeStrategy 
+  #  exit
+
+ 
+  #
+  # TIP ALIGNS
+  #  
+
+  alignment AL_EFV_X2.1-EurAff
+    derive segments AL_EFV_UNC_Eurytemora -a --existingMembersOnly
+    exit
+
+  alignment AL_EFV_X2.2-AusLim
+    derive segments AL_EFV_UNC_Austrolofundulus -a --existingMembersOnly
+    exit
+
+  #
+  # Jingmenvirus
+  #
+
+  alignment AL_EJP-Jingmen.1-Chironomus
+    derive segments AL_EFV_UNC_JMTV1_Chironomus -a --existingMembersOnly
+    exit
+
+  #
+  # Tamanavirus
+  #
+
+  #alignment AL_EFV-Tamana.1-LedTum
+  #  derive segments AL_UNC_Flaviviridae -a --existingMembersOnly
+  #  exit
+
+  alignment AL_EFV_Tamana.2-LauKoh
+    derive segments AL_EFV_UNC_Tamana_Laupala -a --existingMembersOnly
+    exit
+
+  alignment AL_EFV-Tamana.3-AmpSul
+    derive segments AL_EFV_UNC_Tamana_Amphinemura -a --existingMembersOnly
+    exit
+
+
+  #
+  # Flavivirus
+  #
+
+  alignment AL_EFV-Flavi.1-CraSow
+    derive segments AL_EFV_UNC_Flavi_Craspedacusta -a --existingMembersOnly
+    exit
+
+  alignment AL_EFV-Flavi.2-DapMag
+    derive segments AL_EFV_UNC_Flavi_Daphnia -a --existingMembersOnly
+    exit
+
+  alignment AL_EFV-Flavi.3-LepArc
+    derive segments AL_EFV_UNC_Flavi_Lepidurus -a --existingMembersOnly
+    exit
+
+  alignment AL_EFV-cISF.1-AedAeg
+    derive segments AL_EFV_UNC_cISF_Aedes_aeg -a --existingMembersOnly
+    exit
+  
+  #alignment AL_EFV-cISF.2_AedAlb
+   # derive segments AL_EFV_UNC_cISF_Aedes_alb -a --existingMembersOnly
+   # exit
+  
+  alignment AL_EFV-cISF.5-TipOle
+    derive segments AL_EFV_UNC_cISF_Tipula -a --existingMembersOnly
+    exit
+
