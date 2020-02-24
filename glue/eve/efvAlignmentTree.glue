@@ -31,10 +31,10 @@
 
   alignment AL_FlaviPesti
 
-	demote member AL_FlaviLike  -w "sequence.source.name = 'fasta-eve-refseqs' and sequence.genus = 'X1'"
+	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-eve-refseqs' and sequence.genus = 'X1'"
 	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-eve' and sequence.genus = 'X1'"
 
-	demote member AL_FlaviLike  -w "sequence.source.name = 'fasta-eve-refseqs' and sequence.genus = 'X2'"
+	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-eve-refseqs' and sequence.genus = 'X2'"
 	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-eve' and sequence.genus = 'X2'"
 
 	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-eve-refseqs' and sequence.genus = 'Flavivirus'"
@@ -105,13 +105,13 @@
   alignment AL_EFV_X2
 
 	extract child AL_EFV_X2.1-EurAff  -r REF_EFV-X2.1-EurAff
-	demote member AL_EFV_X2.1-EurAff  -w "sequence.locus_data.locus_id = 'EFV-X2.1-EurAff'"
+	demote member AL_EFV_X2.1-EurAff  -w "sequence.sequenceID like 'EFV-X2.1%'"
 
 	extract child AL_EFV_X2.2-AusLim  -r REF_EFV-X2.2-AusLim
-	demote member AL_EFV_X2.2-AusLim  -w "sequence.locus_data.locus_id = 'EFV-X2.2-AusLim'"
+	demote member AL_EFV_X2.2-AusLim  -w "sequence.sequenceID like 'EFV-X2.2%'"
 
 	extract child AL_EFV_X2.3-StyCho  -r REF_EFV-X2.3-StyCho
-	demote member AL_EFV_X2.3-StyCho  -w "sequence.locus_data.locus_id = 'EFV-X2.3-StyCho'"
+	demote member AL_EFV_X2.3-StyCho  -w "sequence.sequenceID like 'EFV-X2.3%'"
     exit
 
   #
@@ -130,14 +130,17 @@
 
   alignment AL_Tamanavirus
 
+	extract child AL_EFV-Tamana.1-LedTum  -r REF_EFV-Tamana.1-LedTum
+	demote member AL_EFV-Tamana.1-LedTum  -w "sequence.sequenceID like 'EFV-Tamana.1%'"
+
 	extract child AL_EFV_Tamana.2-LauKoh  -r REF_EFV-Tamana.2-LauKoh
-	demote member AL_EFV_Tamana.2-LauKoh  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-Tamana.2%'"
+	demote member AL_EFV_Tamana.2-LauKoh  -w "sequence.sequenceID like 'EFV-Tamana.2%'"
 
 	extract child AL_EFV-Tamana.3-AmpSul  -r REF_EFV-Tamana.3-AmpSul
-	demote member AL_EFV-Tamana.3-AmpSul  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-Tamana.3%'"
+	demote member AL_EFV-Tamana.3-AmpSul  -w "sequence.sequenceID like 'EFV-Tamana.3%'"
 
 	extract child AL_EFV-Tamana.4-StyCho  -r REF_EFV-Tamana.4-StyCho
-	demote member AL_EFV-Tamana.4-StyCho  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-Tamana.4%'"
+	demote member AL_EFV-Tamana.4-StyCho  -w "sequence.sequenceID like 'EFV-Tamana.4%'"
     exit
 
   #
