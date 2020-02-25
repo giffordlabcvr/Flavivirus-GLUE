@@ -7,7 +7,7 @@ var NS5_fasta_nt = [ ];
 
 
 // Summarise the reference sequences in this project
-//process_refseqs();
+process_refseqs();
 
 // Summarise the alignments in this project
 process_alignment_tree("AL_MASTER_Flaviviridae_ROOT");
@@ -17,7 +17,6 @@ process_alignment_tree("AL_MASTER_Flaviviridae_ROOT");
 
 // Summarise the EVEs in this project
 //process_eves();
-
 
 // *
 // TOP-LEVEL SUBROUTINES
@@ -61,7 +60,6 @@ function process_refseqs() {
 	// Write ORFs as NT and AA fasta
 	write_feature_fasta(NS3_fasta_aa, NS5_fasta_aa)
 }
-
 
 // Process alignments non-recursively
 function process_alignments() {
@@ -121,7 +119,8 @@ function process_alignment_tree(parentAlignName) {
 	_.each(childAlignments,function(childAlignmentName){		
 		process_alignment_tree(childAlignmentName);
 	});
-	}
+
+}
 
 // Process virus isolates sequences 
 function process_virus_isolates() {
