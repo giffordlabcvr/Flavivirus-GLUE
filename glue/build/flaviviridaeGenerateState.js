@@ -83,12 +83,9 @@ function process_alignments() {
 				glue.logInfo("   Processing member "+resultObj);
 			});
 		});
-
 	}
-
 	var rootAlignName = "AL_FlaviPesti"
-	//process_alignment_tree(rootAlignName);
-		
+	//process_alignment_tree(rootAlignName);		
 }
 
 // Recursively process alignment tree from a given node to tips
