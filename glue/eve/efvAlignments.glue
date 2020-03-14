@@ -18,7 +18,7 @@ module unconstrainedAlignmentImporter
 
   #~# cISF
   import AL_EFV_UNC_cISF_Aedes_aeg           -f alignments/eve/tip/flavivirus-cisf/cisf-aedes-aeg.fna
-  #import AL_EFV_UNC_cISF_Aedes_alb           -f alignments/eve/tip/flavivirus-cisf/cisf-aedes-alb.fna
+  import AL_EFV_UNC_cISF_Aedes_alb           -f alignments/eve/tip/flavivirus-cisf/cisf-aedes-alb.fna
   import AL_EFV_UNC_cISF_Tipula              -f alignments/eve/tip/flavivirus-cisf/cisf-tipula.fna
 
   #~# Tamanavirus

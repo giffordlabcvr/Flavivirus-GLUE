@@ -313,9 +313,9 @@
     derive segments AL_EFV_UNC_cISF_Aedes_aeg -a --existingMembersOnly
     exit
   
-  #alignment AL_EFV-cISF.2_AedAlb
-   # derive segments AL_EFV_UNC_cISF_Aedes_alb -a --existingMembersOnly
-   # exit
+  alignment AL_EFV-cISF.2_AedAlb
+    derive segments AL_EFV_UNC_cISF_Aedes_alb -a --existingMembersOnly
+    exit
   
   alignment AL_EFV-cISF.5-TipOle
     derive segments AL_EFV_UNC_cISF_Tipula -a --existingMembersOnly
