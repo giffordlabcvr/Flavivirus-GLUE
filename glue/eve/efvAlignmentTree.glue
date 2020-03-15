@@ -170,7 +170,7 @@
 
 	extract child AL_EFV-cISF.1-AedAeg  -r REF_EFV-cISF.1-AedAeg
 	demote member AL_EFV-cISF.1-AedAeg  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-cISF.1%'"
-
+                  
 	extract child AL_EFV-cISF.2-AedAlb  -r REF_EFV-cISF.2-AedAlb
 	demote member AL_EFV-cISF.2-AedAlb  -w "sequence.source.name = 'fasta-eve' and sequence.sequenceID like 'EFV-cISF.2%'"
 
@@ -313,7 +313,7 @@
     derive segments AL_EFV_UNC_cISF_Aedes_aeg -a --existingMembersOnly
     exit
   
-  alignment AL_EFV-cISF.2_AedAlb
+  alignment AL_EFV-cISF.2-AedAlb
     derive segments AL_EFV_UNC_cISF_Aedes_alb -a --existingMembersOnly
     exit
   
