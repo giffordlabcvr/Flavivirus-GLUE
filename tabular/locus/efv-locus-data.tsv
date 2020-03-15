@@ -1,344 +1,344 @@
-sequenceID	name	full_name	class	integration	fragment	duplicate	organism	scaffold	start	end	length	orientation	sublineage	subfamily	genus	clade
-EFV-Tamana.3.1.2-Amphinemura	Tamana.3.1.2	EFV-Tamana.3.1.2-Amphinemura	EFV	3	5	2	Amphinemura_sulcicollis	LVVV01392456.1	786	1118	332	negative	FlaviPesti	FlaviPesti	Tamanavirus	cISF
-EFV-Tamana.3.1.1-Amphinemura	Tamana.3.1.1	EFV-Tamana.3.1.1-Amphinemura	EFV	3	4	1	Amphinemura_sulcicollis	LVVV01416251.1	202	663	461	negative	FlaviPesti	FlaviPesti	Tamanavirus	cISF
-EFV-Tamana.2.1.2-Laupala	Tamana.2.1.2	EFV-Tamana.2.1.2-Laupala	EFV	2	2	2	Laupala_kohalensis	NNCF01133646.1	4424	5161	737	positive	FlaviPesti	FlaviPesti	Tamanavirus	cISF
-EFV-Tamana.2.1.1-Laupala	Tamana.2.1.1	EFV-Tamana.2.1.1-Laupala	EFV	2	1	1	Laupala_kohalensis	NNCF01138054.1	2838	3204	366	positive	FlaviPesti	FlaviPesti	Tamanavirus	cISF
-EFV-X1.1.2-Priapulus	X1.1.2	EFV-X1.1.2-Priapulus	EFV	1	1	2	Priapulus_caudatus	AXZU02047183.1	11361	11957	596	positive	FlaviPesti	FlaviPesti	X1	cISF
-EFV-X1.1.1-Priapulus	X1.1.1	EFV-X1.1.1-Priapulus	EFV	1	1	1	Priapulus_caudatus	AXZU02072455.1	446	1327	881	negative	FlaviPesti	FlaviPesti	X1	cISF
-EFV-X2.1.1.4-Austrofundulus	X2.1.1.4	EFV-X2.1.1.4-Austrofundulus	EFV	1	1	4	Austrofundulus_limnaeus	LDAR01072918.1	3265	3434	169	negative	FlaviPesti	FlaviPesti	X2	cISF
-EFV-X2.1.1.1-Austrofundulus	X2.1.1.1	EFV-X2.1.1.1-Austrofundulus	EFV	1	1	1	Austrofundulus_limnaeus	LDAR01072919.1	490	1010	520	negative	FlaviPesti	FlaviPesti	X2	cISF
-EFV-X2.1.1.3-Austrofundulus	X2.1.1.3	EFV-X2.1.1.3-Austrofundulus	EFV	1	1	3	Austrofundulus_limnaeus	LDAR01115895.1	2521	2682	161	positive	FlaviPesti	FlaviPesti	X2	cISF
-EFV-X2.1.1.2-Austrofundulus	X2.1.1.2	EFV-X2.1.1.2-Austrofundulus	EFV	1	1	2	Austrofundulus_limnaeus	LDAR01120950.1	7080	7771	691	positive	FlaviPesti	FlaviPesti	X2	cISF
-EFV-X2.3.1.3-Eurytemora	X2.3.1.3	EFV-X2.3.1.3-Eurytemora	EFV	3	1	3	Eurytemora_affinis	AZAI02001696.1	27515	27844	329	positive	FlaviPesti	FlaviPesti	X2	cISF
-EFV-X2.3.1.4-Eurytemora	X2.3.1.4	EFV-X2.3.1.4-Eurytemora	EFV	3	1	4	Eurytemora_affinis	AZAI02001696.1	28848	28955	107	negative	FlaviPesti	FlaviPesti	X2	cISF
-EFV-X2.3.1.5-Eurytemora	X2.3.1.5	EFV-X2.3.1.5-Eurytemora	EFV	3	1	5	Eurytemora_affinis	AZAI02001696.1	29779	29892	113	negative	FlaviPesti	FlaviPesti	X2	cISF
-EFV-X2.3.1.2-Eurytemora	X2.3.1.2	EFV-X2.3.1.2-Eurytemora	EFV	3	1	2	Eurytemora_affinis	AZAI02001696.1	29835	30098	263	negative	FlaviPesti	FlaviPesti	X2	cISF
-EFV-X2.3.1.6-Eurytemora	X2.3.1.6	EFV-X2.3.1.6-Eurytemora	EFV	3	1	6	Eurytemora_affinis	AZAI02001696.1	32254	32397	143	positive	FlaviPesti	FlaviPesti	X2	cISF
-EFV-X2.3.1.1-Eurytemora	X2.3.1.1	EFV-X2.3.1.1-Eurytemora	EFV	3	1	1	Eurytemora_affinis	AZAI02004990.1	18061	18687	626	negative	FlaviPesti	FlaviPesti	X2	cISF
-EFV-X2.2.1.2-Stylephorus	X2.2.1.2	EFV-X2.2.1.2-Stylephorus	EFV	2	1	2	Stylephorus_chordatus	OMPB01008367.1	963	1265	302	negative	FlaviPesti	FlaviPesti	X2	cISF
-EFV-X2.2.1.1-Stylephorus	X2.2.1.1	EFV-X2.2.1.1-Stylephorus	EFV	2	1	1	Stylephorus_chordatus	OMPB01032799.1	397	822	425	negative	FlaviPesti	FlaviPesti	X2	cISF
-EFV-cISF.1.1.1-Aedes_aeg	cISF.1.1.1	EFV-cISF.1.1.1-Aedes_aeg	EFV	1	1	1	Aedes_aegypti	NIGP01000003.1	191324702	191321900	2802	negative	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.1.1.2-Aedes_aeg	cISF.1.1.2	EFV-cISF.1.1.2-Aedes_aeg	EFV	1	1	2	Aedes_aegypti	NIGP01000003.1	191335257	191332455	2802	negative	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.1.2.5-Aedes_aeg	cISF.1.2.5	EFV-cISF.1.2.5-Aedes_aeg	EFV	1	4	5	Aedes_aegypti	NIGP01000003.1	313468414	313468898	484	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.1.4.1-Aedes_aeg	cISF.1.4.1	EFV-cISF.1.4.1-Aedes_aeg	EFV	1	4	1	Aedes_aegypti	NIGP01000003.1	313469044	313470128	1084	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.1.2.1-Aedes_aeg	cISF.1.2.1	EFV-cISF.1.2.1-Aedes_aeg	EFV	1	4	1	Aedes_aegypti	NIGP01000003.1	313470274	313470666	392	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.1.2.4-Aedes_aeg	cISF.1.2.4	EFV-cISF.1.2.4-Aedes_aeg	EFV	1	2	4	Aedes_aegypti	NIGP01000003.1	313471100	313471747	647	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.1.2.3-Aedes_aeg	cISF.1.2.3	EFV-cISF.1.2.3-Aedes_aeg	EFV	1	2	3	Aedes_aegypti	NIGP01000003.1	313471893	313472977	1084	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.1.2.2-Aedes_aeg	cISF.1.2.2	EFV-cISF.1.2.2-Aedes_aeg	EFV	1	2	2	Aedes_aegypti	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.1.3.1-Aedes_aeg	cISF.1.3.1	EFV-cISF.1.3.1-Aedes_aeg	EFV	1	3	1	Aedes_aegypti	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.1.5.1-Aedes_aeg	cISF.1.5.1	EFV-cISF.1.5.1-Aedes_aeg	EFV	1	5	1	Aedes_aegypti	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.7.1-Aedes_alb	cISF.2.7.1	EFV-cISF.2.7.1-Aedes_alb	EFV	2	7	1	Aedes_albopictus	JXUM01154598.1	9496	10269	773	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.3.3-Aedes_alb	cISF.2.3.3	EFV-cISF.2.3.3-Aedes_alb	EFV	2	3	1	Aedes_albopictus	MNAF02000296	818358	819023	665	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.4.1-Aedes_alb	cISF.2.4.1	EFV-cISF.2.4.1-Aedes_alb	EFV	2	4	1	Aedes_albopictus	MNAF02000296	831164	832192	1028	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.5.1-Aedes_alb	cISF.2.5.1	EFV-cISF.2.5.1-Aedes_alb	EFV	2	5	1	Aedes_albopictus	MNAF02000296	839698	840363	665	negative	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.6.1-Aedes_alb	cISF.2.6.1	EFV-cISF.2.6.1-Aedes_alb	EFV	2	6	1	Aedes_albopictus	MNAF02000296	840335	841336	1001	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.1.1-Aedes_alb	cISF.2.1.1	EFV-cISF.2.1.1-Aedes_alb	EFV	2	1	1	Aedes_albopictus	MNAF02000296.1	814503	819023	4520	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.8.1-Aedes_alb	cISF.2.8.1	EFV-cISF.2.8.1-Aedes_alb	EFV	2	3	1	Aedes_albopictus	MNAF02000570.1	12136	12522	386	negative	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.7.1-Aedes_alb	cISF.2.7.1	EFV-cISF.2.7.1-Aedes_alb	EFV	2	7	1	Aedes_albopictus	MNAF02001128.1	891781	893424	1643	negative	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.2.1-Aedes_alb	cISF.2.2.1	EFV-cISF.2.2.1-Aedes_alb	EFV	2	9	1	Aedes_albopictus	MNAF02001471.1	142492	143616	1124	negative	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.2.6-Aedes_alb	cISF.2.2.6	EFV-cISF.2.2.6-Aedes_alb	EFV	2	2	6	Aedes_albopictus	MNAF02001471.1	155612	155752	140	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.2.7-Aedes_alb	cISF.2.2.7	EFV-cISF.2.2.7-Aedes_alb	EFV	2	2	7	Aedes_albopictus	MNAF02001471.1	176323	176499	176	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.2.3-Aedes_alb	cISF.2.2.3	EFV-cISF.2.2.3-Aedes_alb	EFV	2	2	3	Aedes_albopictus	MNAF02001716.1	1647455	1648564	1109	negative	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.2.5-Aedes_alb	cISF.2.2.5	EFV-cISF.2.2.5-Aedes_alb	EFV	2	2	5	Aedes_albopictus	MNAF02001716.1	1652672	1653055	383	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.2.4-Aedes_alb	cISF.2.2.4	EFV-cISF.2.2.4-Aedes_alb	EFV	2	2	4	Aedes_albopictus	MNAF02001716.1	1662010	1662252	242	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.3.2-Aedes_alb	cISF.2.3.2	EFV-cISF.2.3.2-Aedes_alb	EFV	2	3	2	Aedes_albopictus	MNAF02001716.1	1662155	1663522	1367	negative	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.2.2-Aedes_alb	cISF.2.2.2	EFV-cISF.2.2.2-Aedes_alb	EFV	2	10	2	Aedes_albopictus	MNAF02001716.1	1685819	1687009	1190	negative	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.2.3.1-Aedes_alb	cISF.2.3.1	EFV-cISF.2.3.1-Aedes_alb	EFV	2	3	1	Aedes_albopictus	MNAF02001716.1	1706320	1707831	1511	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.5.2.1-Tipula	cISF.5.2.1	EFV-cISF.5.2.1-Tipula	EFV	5	2	1	Tipula_oleracea	JXPP01036443.1	1374	2034	660	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.5.3.1-Tipula	cISF.5.3.1	EFV-cISF.5.3.1-Tipula	EFV	5	3	1	Tipula_oleracea	JXPP01119385.1	699	812	113	negative	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.5.1.1-Tipula	cISF.5.1.1	EFV-cISF.5.1.1-Tipula	EFV	5	1	1	Tipula_oleracea	JXPP01124776.1	2147	3275	1128	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-cISF.5.4.1-Tipula	cISF.5.4.1	EFV-cISF.5.4.1-Tipula	EFV	5	4	1	Tipula_oleracea	JXPP01151535.1	1319	1627	308	positive	FlaviPesti	FlaviPesti	Flavivirus	cISF
-EFV-Flavi.1.3.1-Craspedacusta	Flavi.1.3.1	EFV-Flavi.1.3.1-Craspedacusta	EFV	1	3	1	Craspedacusta_sowerbii	QQSS01028249.1	46	807	761	negative	FlaviPesti	FlaviPesti	Flavivirus	Jellyfish
-EFV-Flavi.1.2.1-Craspedacusta	Flavi.1.2.1	EFV-Flavi.1.2.1-Craspedacusta	EFV	1	2	1	Craspedacusta_sowerbii	QQSS01028249.1	2131	3075	944	negative	FlaviPesti	FlaviPesti	Flavivirus	Jellyfish
-EFV-Flavi.1.1.2-Craspedacusta	Flavi.1.1.2	EFV-Flavi.1.1.2-Craspedacusta	EFV	1	1	2	Craspedacusta_sowerbii	QQSS01051271.1	11592	14349	2757	negative	FlaviPesti	FlaviPesti	Flavivirus	Jellyfish
-EFV-Flavi.1.5.1-Craspedacusta	Flavi.1.5.1	EFV-Flavi.1.5.1-Craspedacusta	EFV	1	5	1	Craspedacusta_sowerbii	QQSS01132398.1	1980	6427	4447	positive	FlaviPesti	FlaviPesti	Flavivirus	Jellyfish
-EFV-Flavi.1.6.1-Craspedacusta	Flavi.1.6.1	EFV-Flavi.1.6.1-Craspedacusta	EFV	1	6	1	Craspedacusta_sowerbii	QQSS01132398.1	1980	6427	4447	positive	FlaviPesti	FlaviPesti	Flavivirus	Jellyfish
-EFV-Flavi.1.1.1-Craspedacusta	Flavi.1.1.1	EFV-Flavi.1.1.1-Craspedacusta	EFV	1	1	1	Craspedacusta_sowerbii	QQSS01398420.1	2	2757	2755	positive	FlaviPesti	FlaviPesti	Flavivirus	Jellyfish
-EFV-Flavi.1.4.1-Craspedacusta	Flavi.1.4.1	EFV-Flavi.1.4.1-Craspedacusta	EFV	1	4	1	Craspedacusta_sowerbii	QQSS01422136.1	1	681	680	negative	FlaviPesti	FlaviPesti	Flavivirus	Jellyfish
-EFV-Flavi.2.1.1-Daphnia	Flavi.2.1.1	EFV-Flavi.2.1.1-Daphnia	EFV	2	1	1	Daphnia_magna	LRGB01002801.1	179805	185034	5229	positive	FlaviPesti	FlaviPesti	Flavivirus	Crustacean
-EFV-Flavi.2.2.1-Daphnia	Flavi.2.2.1	EFV-Flavi.2.2.1-Daphnia	EFV	2	1	2	Daphnia_magna	LRGB01003275.1	107884	108810	926	positive	FlaviPesti	FlaviPesti	Flavivirus	Crustacean
-EFV-Flavi.3.2.1-Lepidurus	Flavi.3.2.1	EFV-Flavi.3.2.1-Lepidurus	EFV	3	2	1	Lepidurus_arcticus	RJJA01000657.1	13151	14749	1599	negative	FlaviPesti	FlaviPesti	Flavivirus	Crustacean
-EFV-Flavi.3.3.1-Lepidurus	Flavi.3.3.1	EFV-Flavi.3.3.1-Lepidurus	EFV	3	3	1	Lepidurus_arcticus	RJJA01000859.1	5426	6178	753	positive	FlaviPesti	FlaviPesti	Flavivirus	Crustacean
-EFV-Flavi.3.1.1-Lepidurus	Flavi.3.1.1	EFV-Flavi.3.1.1-Lepidurus	EFV	3	1	1	Lepidurus_arcticus	RJJA01001389.1	1843	2796	954	positive	FlaviPesti	FlaviPesti	Flavivirus	Crustacean
-EFV-JMTV1.1.1.1-Chironomus_riparius	JMTV1.1.1.1	EFV-JMTV1.1.1.1-Chironomus_riparius	EFV	1	1	1	Chironomus_riparius	JXPV01001963 	3958	5159	1201	negative	FlaviPesti	FlaviPesti	Jingmenvirus	Jingmenvirus
-EFV-JMTV1.1.1.1-Chironomus_tentans	JMTV1.1.1.1	EFV-JMTV1.1.1.1-Chironomus_tentans	EFV	1	1	1	Chironomus_tentans	HG429170	32608	34715	2107	negative	FlaviPesti	FlaviPesti	Jingmenvirus	Jingmenvirus
-EFV-JMTV1.2.1.1-Gerris	JMTV1.2.1.1	EFV-JMTV1.2.1.1-Gerris	EFV	2	1	1	Gerris_buenoi	JHBY02101284.1	2219	3765	1546	negative	FlaviPesti	FlaviPesti	Jingmenvirus	Jingmenvirus
-EFV-JMTV3.1.1.1-Gerris	JMTV3.1.1.1	EFV-JMTV3.1.1.1-Gerris	EFV	1	1	1	Gerris_buenoi	JHBY02071018.1	4807	6720	1913	negative	FlaviPesti	FlaviPesti	Jingmenvirus	Jingmenvirus
-CerAus_1_SHCU01001306	CerAus_1	CerAus_1_SHCU01001306	EFV	3	1	1	Ceratina_australensis	SHCU01001306.1	14225	20686	6462	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerAus_2_SHCU01006948	CerAus_2	CerAus_2_SHCU01006948	EFV	3	2	1	Ceratina_australensis	SHCU01006948.1	50	1315	1266	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_2_LSNX01000230	CerCal_2	CerCal_2_LSNX01000230	EFV	3	2	1	Ceratina_calcarata	LSNX01000230.1	2	11549	11548	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_17_SHCU01001306	CerCal_17	CerCal_17_SHCU01001306	EFV	3	17	1	Ceratina_calcarata	LSNX01000230.1	16528	17259	732	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_20_LSNX01013676	CerCal_20	CerCal_20_LSNX01013676	EFV	3	20	1	Ceratina_calcarata	LSNX01000366.1	1	513	513	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_18_LSNX01015099	CerCal_18	CerCal_18_LSNX01015099	EFV	3	18	1	Ceratina_calcarata	LSNX01000419.1	3	1329	1327	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_24_LSNX01017109	CerCal_24	CerCal_24_LSNX01017109	EFV	3	24	1	Ceratina_calcarata	LSNX01000694.1	2	502	501	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_3_LSNX01011448	CerCal_3	CerCal_3_LSNX01011448	EFV	3	3	1	Ceratina_calcarata	LSNX01000710.1	2117	8515	6399	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_10_LSNX01030159	CerCal_10	CerCal_10_LSNX01030159	EFV	3	10	1	Ceratina_calcarata	LSNX01001226.1	10802	13084	2283	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_22_LSNX01031071	CerCal_22	CerCal_22_LSNX01031071	EFV	3	22	1	Ceratina_calcarata	LSNX01001307.1	3	485	483	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_45_LSNX01033181	CerCal_45	CerCal_45_LSNX01033181	EFV	3	45	1	Ceratina_calcarata	LSNX01002163.1	2	316	315	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_29_LSNX01029438	CerCal_29	CerCal_29_LSNX01029438	EFV	3	29	1	Ceratina_calcarata	LSNX01003284.1	2	436	435	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_32_LSNX01018195	CerCal_32	CerCal_32_LSNX01018195	EFV	3	32	1	Ceratina_calcarata	LSNX01003467.1	1	435	435	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_5_LSNX01005083	CerCal_5	CerCal_5_LSNX01005083	EFV	3	5	1	Ceratina_calcarata	LSNX01004551.1	31	7116	7086	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_47_LSNX01045128	CerCal_47	CerCal_47_LSNX01045128	EFV	3	47	1	Ceratina_calcarata	LSNX01004653.1	9	353	345	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_6_LSNX01007571	CerCal_6	CerCal_6_LSNX01007571	EFV	3	6	1	Ceratina_calcarata	LSNX01005083.1	3	13504	13502	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_26_LSNX01009627	CerCal_26	CerCal_26_LSNX01009627	EFV	3	26	1	Ceratina_calcarata	LSNX01005180.1	26	403	378	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_27_LSNX01032777	CerCal_27	CerCal_27_LSNX01032777	EFV	3	27	1	Ceratina_calcarata	LSNX01005227.1	26	403	378	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_31_LSNX01023980	CerCal_31	CerCal_31_LSNX01023980	EFV	3	31	1	Ceratina_calcarata	LSNX01005386.1	2	400	399	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_63_LSNX01030735	CerCal_63	CerCal_63_LSNX01030735	EFV	3	63	1	Ceratina_calcarata	LSNX01005431.1	160	399	240	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_36_SHCU01006948	CerCal_36	CerCal_36_SHCU01006948	EFV	3	36	1	Ceratina_calcarata	LSNX01005555.1	3	398	396	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_35_LSNX01027670	CerCal_35	CerCal_35_LSNX01027670	EFV	3	35	1	Ceratina_calcarata	LSNX01005859.1	1	393	393	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_42_LSNX01000366	CerCal_42	CerCal_42_LSNX01000366	EFV	3	42	1	Ceratina_calcarata	LSNX01006512.1	2	382	381	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_40_LSNX01001226	CerCal_40	CerCal_40_LSNX01001226	EFV	3	40	1	Ceratina_calcarata	LSNX01006710.1	1	381	381	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_34_LSNX01036068	CerCal_34	CerCal_34_LSNX01036068	EFV	3	34	1	Ceratina_calcarata	LSNX01007166.1	2	373	372	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_16_LSNX01017523	CerCal_16	CerCal_16_LSNX01017523	EFV	3	16	1	Ceratina_calcarata	LSNX01007571.1	3881	5041	1161	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_54_LSNX01041523	CerCal_54	CerCal_54_LSNX01041523	EFV	3	54	1	Ceratina_calcarata	LSNX01007748.1	62	367	306	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_41_LSNX01048950	CerCal_41	CerCal_41_LSNX01048950	EFV	3	41	1	Ceratina_calcarata	LSNX01008620.1	2	355	354	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_30_LSNX01010817	CerCal_30	CerCal_30_LSNX01010817	EFV	3	30	1	Ceratina_calcarata	LSNX01008973.1	1	351	351	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_49_LSNX01042023	CerCal_49	CerCal_49_LSNX01042023	EFV	3	49	1	Ceratina_calcarata	LSNX01009221.1	2	349	348	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_48_LSNX01026740	CerCal_48	CerCal_48_LSNX01026740	EFV	3	48	1	Ceratina_calcarata	LSNX01009627.1	2	328	327	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_65_LSNX01027129	CerCal_65	CerCal_65_LSNX01027129	EFV	3	65	1	Ceratina_calcarata	LSNX01010037.1	4	342	339	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_66_LSNX01004551	CerCal_66	CerCal_66_LSNX01004551	EFV	3	66	1	Ceratina_calcarata	LSNX01010817.1	48	332	285	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_13_LSNX01003467	CerCal_13	CerCal_13_LSNX01003467	EFV	3	13	1	Ceratina_calcarata	LSNX01011448.1	1757	3355	1599	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_8_LSNX01005180	CerCal_8	CerCal_8_LSNX01005180	EFV	3	8	1	Ceratina_calcarata	LSNX01011448.1	5463	7913	2451	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_33_LSNX01023177	CerCal_33	CerCal_33_LSNX01023177	EFV	3	33	1	Ceratina_calcarata	LSNX01012448.1	2	319	318	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_43_LSNX01048978	CerCal_43	CerCal_43_LSNX01048978	EFV	3	43	1	Ceratina_calcarata	LSNX01013676.1	1	309	309	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_39_LSNX01049465	CerCal_39	CerCal_39_LSNX01049465	EFV	3	39	1	Ceratina_calcarata	LSNX01015099.1	3	296	294	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_59_LSNX01029617	CerCal_59	CerCal_59_LSNX01029617	EFV	3	59	1	Ceratina_calcarata	LSNX01015710.1	2	292	291	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_77_LSNX01022624	CerCal_77	CerCal_77_LSNX01022624	EFV	3	77	1	Ceratina_calcarata	LSNX01016155.1	8	289	282	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_55_LSNX01010037	CerCal_55	CerCal_55_LSNX01010037	EFV	3	55	1	Ceratina_calcarata	LSNX01017109.1	3	281	279	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_37_LSNX01019655	CerCal_37	CerCal_37_LSNX01019655	EFV	3	37	1	Ceratina_calcarata	LSNX01017523.1	3	281	279	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_60_LSNX01015710	CerCal_60	CerCal_60_LSNX01015710	EFV	3	60	1	Ceratina_calcarata	LSNX01017576.1	2	280	279	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_61_LSNX01035444	CerCal_61	CerCal_61_LSNX01035444	EFV	3	61	1	Ceratina_calcarata	LSNX01017633.1	2	280	279	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_80_LSNX01019418	CerCal_80	CerCal_80_LSNX01019418	EFV	3	80	1	Ceratina_calcarata	LSNX01018195.1	2	277	276	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_44_LSNX01001307	CerCal_44	CerCal_44_LSNX01001307	EFV	3	44	1	Ceratina_calcarata	LSNX01019418.1	2	271	270	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_46_LSNX01044617	CerCal_46	CerCal_46_LSNX01044617	EFV	3	46	1	Ceratina_calcarata	LSNX01019655.1	2	271	270	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_71_LSNX01008620	CerCal_71	CerCal_71_LSNX01008620	EFV	3	71	1	Ceratina_calcarata	LSNX01019724.1	2	268	267	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_62_LSNX01030536	CerCal_62	CerCal_62_LSNX01030536	EFV	3	62	1	Ceratina_calcarata	LSNX01021754.1	3	260	258	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_7_LSNX01000419	CerCal_7	CerCal_7_LSNX01000419	EFV	3	7	1	Ceratina_calcarata	LSNX01022530.1	1058	3373	2316	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_75_LSNX01007166	CerCal_75	CerCal_75_LSNX01007166	EFV	3	75	1	Ceratina_calcarata	LSNX01022624.1	1	255	255	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_56_LSNX01035027	CerCal_56	CerCal_56_LSNX01035027	EFV	3	56	1	Ceratina_calcarata	LSNX01022802.1	2	253	252	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_83_LSNX01047144	CerCal_83	CerCal_83_LSNX01047144	EFV	3	83	1	Ceratina_calcarata	LSNX01023177.1	61	255	195	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_68_LSNX01022530	CerCal_68	CerCal_68_LSNX01022530	EFV	3	68	1	Ceratina_calcarata	LSNX01023980.1	2	250	249	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_76_LSNX01005859	CerCal_76	CerCal_76_LSNX01005859	EFV	3	76	1	Ceratina_calcarata	LSNX01026740.1	55	240	186	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_79_LSNX01042962	CerCal_79	CerCal_79_LSNX01042962	EFV	3	79	1	Ceratina_calcarata	LSNX01026984.1	1	240	240	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_72_LSNX01016155	CerCal_72	CerCal_72_LSNX01016155	EFV	3	72	1	Ceratina_calcarata	LSNX01027129.1	56	241	186	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_82_LSNX01000230	CerCal_82	CerCal_82_LSNX01000230	EFV	3	82	1	Ceratina_calcarata	LSNX01027654.1	2	172	171	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_89_LSNX01027654	CerCal_89	CerCal_89_LSNX01027654	EFV	3	89	1	Ceratina_calcarata	LSNX01027670.1	92	238	147	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_51_LSNX01031839	CerCal_51	CerCal_51_LSNX01031839	EFV	3	51	1	Ceratina_calcarata	LSNX01029144.1	3	233	231	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_52_LSNX01017576	CerCal_52	CerCal_52_LSNX01017576	EFV	3	52	1	Ceratina_calcarata	LSNX01029438.1	3	233	231	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_69_LSNX01030159	CerCal_69	CerCal_69_LSNX01030159	EFV	3	69	1	Ceratina_calcarata	LSNX01029617.1	1	231	231	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_9_LSNX01005227	CerCal_9	CerCal_9_LSNX01005227	EFV	3	9	1	Ceratina_calcarata	LSNX01030159.1	1	2334	2334	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_28_LSNX01029144	CerCal_28	CerCal_28_LSNX01029144	EFV	3	28	1	Ceratina_calcarata	LSNX01030159.1	6047	6463	417	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_85_LSNX01045745	CerCal_85	CerCal_85_LSNX01045745	EFV	3	85	1	Ceratina_calcarata	LSNX01030536.1	1	174	174	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_70_LSNX01040369	CerCal_70	CerCal_70_LSNX01040369	EFV	3	70	1	Ceratina_calcarata	LSNX01030735.1	3	230	228	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_53_LSNX01017633	CerCal_53	CerCal_53_LSNX01017633	EFV	3	53	1	Ceratina_calcarata	LSNX01031071.1	2	229	228	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_57_LSNX01009221	CerCal_57	CerCal_57_LSNX01009221	EFV	3	57	1	Ceratina_calcarata	LSNX01031839.1	2	226	225	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_50_LSNX01026984	CerCal_50	CerCal_50_LSNX01026984	EFV	3	50	1	Ceratina_calcarata	LSNX01032777.1	2	223	222	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_73_LSNX01000694	CerCal_73	CerCal_73_LSNX01000694	EFV	3	73	1	Ceratina_calcarata	LSNX01033181.1	2	223	222	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_64_LSNX01019724	CerCal_64	CerCal_64_LSNX01019724	EFV	3	64	1	Ceratina_calcarata	LSNX01034754.1	2	220	219	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_67_LSNX01006710	CerCal_67	CerCal_67_LSNX01006710	EFV	3	67	1	Ceratina_calcarata	LSNX01035027.1	1	219	219	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_84_LSNX01005386	CerCal_84	CerCal_84_LSNX01005386	EFV	3	84	1	Ceratina_calcarata	LSNX01035444.1	4	216	213	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_90_LSNX01037518	CerCal_90	CerCal_90_LSNX01037518	EFV	3	90	1	Ceratina_calcarata	LSNX01035518.1	3	104	102	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_11_LSNX01003284	CerCal_11	CerCal_11_LSNX01003284	EFV	3	11	1	Ceratina_calcarata	LSNX01035665.1	21	1823	1803	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_88_LSNX01002163	CerCal_88	CerCal_88_LSNX01002163	EFV	3	88	1	Ceratina_calcarata	LSNX01036068.1	5	106	102	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_86_LSNX01005431	CerCal_86	CerCal_86_LSNX01005431	EFV	3	86	1	Ceratina_calcarata	LSNX01037518.1	1	147	147	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_14_LSNX01012448	CerCal_14	CerCal_14_LSNX01012448	EFV	3	14	1	Ceratina_calcarata	LSNX01040369.1	4	1266	1263	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_23_LSNX01007748	CerCal_23	CerCal_23_LSNX01007748	EFV	3	23	1	Ceratina_calcarata	LSNX01041523.1	3	1191	1189	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_78_LSNX01035518	CerCal_78	CerCal_78_LSNX01035518	EFV	3	78	1	Ceratina_calcarata	LSNX01042023.1	2	205	204	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_87_LSNX01034754	CerCal_87	CerCal_87_LSNX01034754	EFV	3	87	1	Ceratina_calcarata	LSNX01042962.1	3	137	135	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_81_LSNX01049465	CerCal_81	CerCal_81_LSNX01049465	EFV	3	81	1	Ceratina_calcarata	LSNX01044617.1	3	197	195	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_74_LSNX01045588	CerCal_74	CerCal_74_LSNX01045588	EFV	3	74	1	Ceratina_calcarata	LSNX01045128.1	2	199	198	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_25_LSNX01022802	CerCal_25	CerCal_25_LSNX01022802	EFV	3	25	1	Ceratina_calcarata	LSNX01045588.1	189	710	522	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_15_LSNX01005555	CerCal_15	CerCal_15_LSNX01005555	EFV	3	15	1	Ceratina_calcarata	LSNX01045745.1	2	952	951	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_19_LSNX01006512	CerCal_19	CerCal_19_LSNX01006512	EFV	3	19	1	Ceratina_calcarata	LSNX01047144.1	10	696	687	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_1_LSNX01011448	CerCal_1	CerCal_1_LSNX01011448	EFV	3	1	1	Ceratina_calcarata	LSNX01048950.1	2693	17097	14405	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_21_LSNX01004653	CerCal_21	CerCal_21_LSNX01004653	EFV	3	21	1	Ceratina_calcarata	LSNX01048978.1	2	592	591	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_12_LSNX01008973	CerCal_12	CerCal_12_LSNX01008973	EFV	3	12	1	Ceratina_calcarata	LSNX01049465.1	583	3504	2922	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_4_LSNX01000710	CerCal_4	CerCal_4_LSNX01000710	EFV	3	4	1	Ceratina_calcarata	LSNX01049465.1	4703	11637	6935	negative	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_38_LSNX01035665	CerCal_38	CerCal_38_LSNX01035665	EFV	3	38	1	Ceratina_calcarata	SHCU01001306.1	14225	20686	6462	positive	FlaviPesti	FlaviPesti	PL2	Bee
-CerCal_58_LSNX01021754	CerCal_58	CerCal_58_LSNX01021754	EFV	3	58	1	Ceratina_calcarata	SHCU01006948.1	50	1315	1266	positive	FlaviPesti	FlaviPesti	PL2	Bee
-DufNov_4_NW_015373905	DufNov_4	DufNov_4_NW_015373905	EFV	3	4	1	Dufourea_novaeangliae	NW_015373905.1	1526901	1527215	315	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-DufNov_2_NW_015373905	DufNov_2	DufNov_2_NW_015373905	EFV	3	2	1	Dufourea_novaeangliae	NW_015373905.1	1529275	1532851	3577	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-DufNov_3_NW_015373907	DufNov_3	DufNov_3_NW_015373907	EFV	3	3	1	Dufourea_novaeangliae	NW_015373907.1	13307	14390	1084	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-DufNov_6_NW_015373949	DufNov_6	DufNov_6_NW_015373949	EFV	3	6	1	Dufourea_novaeangliae	NW_015373949.1	55376	59003	3628	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-DufNov_5_NW_015374004	DufNov_5	DufNov_5_NW_015374004	EFV	3	5	1	Dufourea_novaeangliae	NW_015374004.1	745179	746304	1126	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-DufNov_12_NW_015374014	DufNov_12	DufNov_12_NW_015374014	EFV	3	12	1	Dufourea_novaeangliae	NW_015374014.1	468128	468346	219	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-DufNov_1_NW_015374131	DufNov_1	DufNov_1_NW_015374131	EFV	3	1	1	Dufourea_novaeangliae	NW_015374131.1	120625	122715	2091	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-DufNov_7_NW_015374131	DufNov_7	DufNov_7_NW_015374131	EFV	3	7	1	Dufourea_novaeangliae	NW_015374131.1	135751	139506	3756	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-DufNov_10_NW_015374136	DufNov_10	DufNov_10_NW_015374136	EFV	3	10	1	Dufourea_novaeangliae	NW_015374136.1	2043	2981	939	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-DufNov_13_NW_015374205	DufNov_13	DufNov_13_NW_015374205	EFV	3	13	1	Dufourea_novaeangliae	NW_015374205.1	287333	288226	894	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-DufNov_11_NW_015374226	DufNov_11	DufNov_11_NW_015374226	EFV	3	11	1	Dufourea_novaeangliae	NW_015374226.1	12237	12800	564	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-DufNov_9_NW_015374420	DufNov_9	DufNov_9_NW_015374420	EFV	3	9	1	Dufourea_novaeangliae	NW_015374420.1	11308	12375	1068	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-DufNov_8_NW_015374420	DufNov_8	DufNov_8_NW_015374420	EFV	3	8	1	Dufourea_novaeangliae	NW_015374420.1	18973	19392	420	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_21_NW_016907884	EufMex_21	EufMex_21_NW_016907884	EFV	3	21	1	Eufriesea_mexicana	NW_016907884.1	370	642	273	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_15_NW_016910756	EufMex_15	EufMex_15_NW_016910756	EFV	3	15	1	Eufriesea_mexicana	NW_016910756.1	8952	13723	4772	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_17_NW_016911683	EufMex_17	EufMex_17_NW_016911683	EFV	3	17	1	Eufriesea_mexicana	NW_016911683.1	5517	7069	1553	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_28_NW_016914389	EufMex_28	EufMex_28_NW_016914389	EFV	3	28	1	Eufriesea_mexicana	NW_016914389.1	28582	29352	771	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_34_NW_016915982	EufMex_34	EufMex_34_NW_016915982	EFV	3	34	1	Eufriesea_mexicana	NW_016915982.1	26171	26924	754	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_27_NW_016916939	EufMex_27	EufMex_27_NW_016916939	EFV	3	27	1	Eufriesea_mexicana	NW_016916939.1	45737	50177	4441	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_33_NW_016923200	EufMex_33	EufMex_33_NW_016923200	EFV	3	33	1	Eufriesea_mexicana	NW_016923200.1	656	826	171	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_18_NW_016930208	EufMex_18	EufMex_18_NW_016930208	EFV	3	18	1	Eufriesea_mexicana	NW_016930208.1	3	828	826	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_31_NW_016930386	EufMex_31	EufMex_31_NW_016930386	EFV	3	31	1	Eufriesea_mexicana	NW_016930386.1	38731	39687	957	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_32_NW_016934935	EufMex_32	EufMex_32_NW_016934935	EFV	3	32	1	Eufriesea_mexicana	NW_016934935.1	82	381	300	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_23_NW_016935298	EufMex_23	EufMex_23_NW_016935298	EFV	3	23	1	Eufriesea_mexicana	NW_016935298.1	16136	16729	594	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_20_NW_016993331	EufMex_20	EufMex_20_NW_016993331	EFV	3	20	1	Eufriesea_mexicana	NW_016993331.1	3	257	255	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_26_NW_017010398	EufMex_26	EufMex_26_NW_017010398	EFV	3	26	1	Eufriesea_mexicana	NW_017010398.1	37	204	168	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_24_NW_017014459	EufMex_24	EufMex_24_NW_017014459	EFV	3	24	1	Eufriesea_mexicana	NW_017014459.1	17	196	180	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_19_NW_017058141	EufMex_19	EufMex_19_NW_017058141	EFV	3	19	1	Eufriesea_mexicana	NW_017058141.1	1	234	234	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_25_NW_017076911	EufMex_25	EufMex_25_NW_017076911	EFV	3	25	1	Eufriesea_mexicana	NW_017076911.1	1	267	267	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_22_NW_017077887	EufMex_22	EufMex_22_NW_017077887	EFV	3	22	1	Eufriesea_mexicana	NW_017077887.1	92	271	180	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_29_NW_017092148	EufMex_29	EufMex_29_NW_017092148	EFV	3	29	1	Eufriesea_mexicana	NW_017092148.1	43	453	411	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_30_NW_017092964	EufMex_30	EufMex_30_NW_017092964	EFV	3	30	1	Eufriesea_mexicana	NW_017092964.1	124	612	489	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-EufMex_14_NW_017094858	EufMex_14	EufMex_14_NW_017094858	EFV	3	14	1	Eufriesea_mexicana	NW_017094858.1	139	1266	1128	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_41_NW_017100152	HabLab_41	HabLab_41_NW_017100152	EFV	3	41	1	Habropoda_laboriosa	NW_017100152.1	1892731	1896951	4221	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_39_NW_017100158	HabLab_39	HabLab_39_NW_017100158	EFV	3	39	1	Habropoda_laboriosa	NW_017100158.1	320175	321185	1011	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_35_NW_017100158	HabLab_35	HabLab_35_NW_017100158	EFV	3	35	1	Habropoda_laboriosa	NW_017100158.1	327149	330570	3422	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_46_NW_017100164	HabLab_46	HabLab_46_NW_017100164	EFV	3	46	1	Habropoda_laboriosa	NW_017100164.1	1459463	1461215	1753	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_36_NW_017100254	HabLab_36	HabLab_36_NW_017100254	EFV	3	36	1	Habropoda_laboriosa	NW_017100254.1	262245	264713	2469	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_51_NW_017100267	HabLab_51	HabLab_51_NW_017100267	EFV	3	51	1	Habropoda_laboriosa	NW_017100267.1	190333	190705	373	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_50_NW_017100298	HabLab_50	HabLab_50_NW_017100298	EFV	3	50	1	Habropoda_laboriosa	NW_017100298.1	209745	210071	327	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_58_NW_017100298	HabLab_58	HabLab_58_NW_017100298	EFV	3	58	1	Habropoda_laboriosa	NW_017100298.1	256439	256663	225	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_44_NW_017100316	HabLab_44	HabLab_44_NW_017100316	EFV	3	44	1	Habropoda_laboriosa	NW_017100316.1	36036	38377	2342	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_43_NW_017100397	HabLab_43	HabLab_43_NW_017100397	EFV	3	43	1	Habropoda_laboriosa	NW_017100397.1	922978	924362	1385	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_57_NW_017100397	HabLab_57	HabLab_57_NW_017100397	EFV	3	57	1	Habropoda_laboriosa	NW_017100397.1	955329	955526	198	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_56_NW_017100426	HabLab_56	HabLab_56_NW_017100426	EFV	3	56	1	Habropoda_laboriosa	NW_017100426.1	163639	163869	231	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_42_NW_017100498	HabLab_42	HabLab_42_NW_017100498	EFV	3	42	1	Habropoda_laboriosa	NW_017100498.1	182171	184625	2455	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_45_NW_017100671	HabLab_45	HabLab_45_NW_017100671	EFV	3	45	1	Habropoda_laboriosa	NW_017100671.1	48754	49857	1104	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_40_NW_017100753	HabLab_40	HabLab_40_NW_017100753	EFV	3	40	1	Habropoda_laboriosa	NW_017100753.1	21612	24634	3023	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_53_NW_017100786	HabLab_53	HabLab_53_NW_017100786	EFV	3	53	1	Habropoda_laboriosa	NW_017100786.1	199006	199657	652	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_55_NW_017100814	HabLab_55	HabLab_55_NW_017100814	EFV	3	55	1	Habropoda_laboriosa	NW_017100814.1	92423	92794	372	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_38_NW_017100833	HabLab_38	HabLab_38_NW_017100833	EFV	3	38	1	Habropoda_laboriosa	NW_017100833.1	47702	49563	1862	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_47_NW_017100896	HabLab_47	HabLab_47_NW_017100896	EFV	3	47	1	Habropoda_laboriosa	NW_017100896.1	321642	323854	2213	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_49_NW_017100971	HabLab_49	HabLab_49_NW_017100971	EFV	3	49	1	Habropoda_laboriosa	NW_017100971.1	94311	94915	605	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_54_NW_017101204	HabLab_54	HabLab_54_NW_017101204	EFV	3	54	1	Habropoda_laboriosa	NW_017101204.1	28357	28578	222	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_37_NW_017101451	HabLab_37	HabLab_37_NW_017101451	EFV	3	37	1	Habropoda_laboriosa	NW_017101451.1	32588	36294	3707	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_48_NW_017102650	HabLab_48	HabLab_48_NW_017102650	EFV	3	48	1	Habropoda_laboriosa	NW_017102650.1	6717	7145	429	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-HabLab_52_NW_017123952	HabLab_52	HabLab_52_NW_017123952	EFV	3	52	1	Habropoda_laboriosa	NW_017123952.1	2	247	246	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-LasAlb_64_KB639126	LasAlb_64	LasAlb_64_KB639126	EFV	3	64	1	Lasioglossum_albipes	KB639126.1	27398	28416	1019	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-LasAlb_59_KB639126	LasAlb_59	LasAlb_59_KB639126	EFV	3	59	1	Lasioglossum_albipes	KB639126.1	54847	55593	747	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-LasAlb_63_KB640114	LasAlb_63	LasAlb_63_KB640114	EFV	3	63	1	Lasioglossum_albipes	KB640114.1	14000	14575	576	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-LasAlb_60_KB640877	LasAlb_60	LasAlb_60_KB640877	EFV	3	60	1	Lasioglossum_albipes	KB640877.1	76903	81999	5097	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-LasAlb_61_KB641283	LasAlb_61	LasAlb_61_KB641283	EFV	3	61	1	Lasioglossum_albipes	KB641283.1	430729	430911	183	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-LasAlb_62_KB641373	LasAlb_62	LasAlb_62_KB641373	EFV	3	62	1	Lasioglossum_albipes	KB641373.1	445	1020	576	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_4_NW_003797111	MetRot	MetRot_4_NW_003797111	EFV	3	4	1	Megachile_rotundata	NW_003797111	67412	71386	3975	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_1_NW_003797121	MetRot	MetRot_1_NW_003797121	EFV	3	1	1	Megachile_rotundata	NW_003797121	20669	27478	6810	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_16_NW_003797189	MetRot	MetRot_16_NW_003797189	EFV	3	16	1	Megachile_rotundata	NW_003797189	124287	125051	765	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_14_NW_003797238	MetRot	MetRot_14_NW_003797238	EFV	3	14	1	Megachile_rotundata	NW_003797238	319277	320197	921	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_35_NW_003797238	MetRot	MetRot_35_NW_003797238	EFV	3	35	1	Megachile_rotundata	NW_003797238	330455	330616	162	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_24_NW_003797246	MetRot	MetRot_24_NW_003797246	EFV	3	24	1	Megachile_rotundata	NW_003797246	118872	121060	2189	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_20_NW_003797246	MetRot	MetRot_20_NW_003797246	EFV	3	20	1	Megachile_rotundata	NW_003797246	130490	133971	3482	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_17_NW_003797246	MetRot	MetRot_17_NW_003797246	EFV	3	17	1	Megachile_rotundata	NW_003797246	137037	138326	1290	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_9_NW_003797272	MetRot	MetRot_9_NW_003797272	EFV	3	9	1	Megachile_rotundata	NW_003797272	83178	85367	2190	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_34_NW_003797288	MetRot	MetRot_34_NW_003797288	EFV	3	34	1	Megachile_rotundata	NW_003797288	39710	39925	216	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_23_NW_003797288	MetRot	MetRot_23_NW_003797288	EFV	3	23	1	Megachile_rotundata	NW_003797288	44833	45606	774	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_26_NW_003797298	MetRot	MetRot_26_NW_003797298	EFV	3	26	1	Megachile_rotundata	NW_003797298	3077	3696	620	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_25_NW_003797445	MetRot	MetRot_25_NW_003797445	EFV	3	25	1	Megachile_rotundata	NW_003797445	110805	111215	411	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_15_NW_003797490	MetRot	MetRot_15_NW_003797490	EFV	3	15	1	Megachile_rotundata	NW_003797490	234	1725	1492	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_12_NW_003797490	MetRot	MetRot_12_NW_003797490	EFV	3	12	1	Megachile_rotundata	NW_003797490	10066	11127	1062	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_3_NW_003797511	MetRot	MetRot_3_NW_003797511	EFV	3	3	1	Megachile_rotundata	NW_003797511	421737	427560	5824	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_8_NW_003797511	MetRot	MetRot_8_NW_003797511	EFV	3	8	1	Megachile_rotundata	NW_003797511	439045	440601	1557	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_2_NW_003797545	MetRot	MetRot_2_NW_003797545	EFV	3	2	1	Megachile_rotundata	NW_003797545	58856	68569	9714	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_19_NW_003797570	MetRot	MetRot_19_NW_003797570	EFV	3	19	1	Megachile_rotundata	NW_003797570	46464	47877	1414	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_6_NW_003797584	MetRot	MetRot_6_NW_003797584	EFV	3	6	1	Megachile_rotundata	NW_003797584	8584	12109	3526	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_27_NW_003797584	MetRot	MetRot_27_NW_003797584	EFV	3	27	1	Megachile_rotundata	NW_003797584	14447	14890	444	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_13_NW_003797647	MetRot	MetRot_13_NW_003797647	EFV	3	13	1	Megachile_rotundata	NW_003797647	50884	54004	3121	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_10_NW_003797810	MetRot	MetRot_10_NW_003797810	EFV	3	10	1	Megachile_rotundata	NW_003797810	4580	12004	7425	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_7_NW_003797921	MetRot	MetRot_7_NW_003797921	EFV	3	7	1	Megachile_rotundata	NW_003797921	3441	6609	3169	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_29_NW_003797921	MetRot	MetRot_29_NW_003797921	EFV	3	29	1	Megachile_rotundata	NW_003797921	9266	9727	462	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_5_NW_003797921	MetRot	MetRot_5_NW_003797921	EFV	3	5	1	Megachile_rotundata	NW_003797921	11174	17373	6200	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_32_NW_003798105	MetRot	MetRot_32_NW_003798105	EFV	3	32	1	Megachile_rotundata	NW_003798105	79	435	357	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_18_NW_003798129	MetRot	MetRot_18_NW_003798129	EFV	3	18	1	Megachile_rotundata	NW_003798129	49028	50534	1507	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_21_NW_003798129	MetRot	MetRot_21_NW_003798129	EFV	3	21	1	Megachile_rotundata	NW_003798129	52604	53275	672	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_11_NW_003798350	MetRot	MetRot_11_NW_003798350	EFV	3	11	1	Megachile_rotundata	NW_003798350	3	1343	1341	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_31_NW_003799095	MetRot	MetRot_31_NW_003799095	EFV	3	31	1	Megachile_rotundata	NW_003799095	161	708	548	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_28_NW_003800314	MetRot	MetRot_28_NW_003800314	EFV	3	28	1	Megachile_rotundata	NW_003800314	1	357	357	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_36_NW_003800315	MetRot	MetRot_36_NW_003800315	EFV	3	36	1	Megachile_rotundata	NW_003800315	191	343	153	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_33_NW_003801728	MetRot	MetRot_33_NW_003801728	EFV	3	33	1	Megachile_rotundata	NW_003801728	3	254	252	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_30_NW_003802216	MetRot	MetRot_30_NW_003802216	EFV	3	30	1	Megachile_rotundata	NW_003802216	18	305	288	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-MetRot_22_NW_003803131	MetRot	MetRot_22_NW_003803131	EFV	3	22	1	Megachile_rotundata	NW_003803131	4	921	918	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_109_REGV01000573	NomMel_109	NomMel_109_REGV01000573	EFV	3	109	1	Nomia_melanderi	REGV01000573.1	4789683	4789934	252	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_114_REGV01000573	NomMel_114	NomMel_114_REGV01000573	EFV	3	114	1	Nomia_melanderi	REGV01000573.1	4792039	4792737	699	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_71_REGV01000573	NomMel_71	NomMel_71_REGV01000573	EFV	3	71	1	Nomia_melanderi	REGV01000573.1	4809615	4809860	246	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_120_REGV01000573	NomMel_120	NomMel_120_REGV01000573	EFV	3	120	1	Nomia_melanderi	REGV01000573.1	4811830	4812267	438	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_121_REGV01004661	NomMel_121	NomMel_121_REGV01004661	EFV	3	121	1	Nomia_melanderi	REGV01004661.1	202746	203556	811	positive	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_73_REGV01013577	NomMel_73	NomMel_73_REGV01013577	EFV	3	73	1	Nomia_melanderi	REGV01013577.1	2	412	411	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_91_REGV01015499	NomMel_91	NomMel_91_REGV01015499	EFV	3	91	1	Nomia_melanderi	REGV01015499.1	1	411	411	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_106_REGV01016021	NomMel_106	NomMel_106_REGV01016021	EFV	3	106	1	Nomia_melanderi	REGV01016021.1	3	257	255	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_79_REGV01016176	NomMel_79	NomMel_79_REGV01016176	EFV	3	79	1	Nomia_melanderi	REGV01016176.1	8	256	249	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_82_REGV01016177	NomMel_82	NomMel_82_REGV01016177	EFV	3	82	1	Nomia_melanderi	REGV01016177.1	8	301	294	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_81_REGV01016959	NomMel_81	NomMel_81_REGV01016959	EFV	3	81	1	Nomia_melanderi	REGV01016959.1	2	298	297	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_117_REGV01018078	NomMel_117	NomMel_117_REGV01018078	EFV	3	117	1	Nomia_melanderi	REGV01018078.1	1	351	351	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_118_REGV01018080	NomMel_118	NomMel_118_REGV01018080	EFV	3	118	1	Nomia_melanderi	REGV01018080.1	1	351	351	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_78_REGV01028072	NomMel_78	NomMel_78_REGV01028072	EFV	3	78	1	Nomia_melanderi	REGV01028072.1	3	224	222	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_102_REGV01028599	NomMel_102	NomMel_102_REGV01028599	EFV	3	102	1	Nomia_melanderi	REGV01028599.1	2	571	570	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_100_REGV01028602	NomMel_100	NomMel_100_REGV01028602	EFV	3	100	1	Nomia_melanderi	REGV01028602.1	2	577	576	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_76_REGV01033365	NomMel_76	NomMel_76_REGV01033365	EFV	3	76	1	Nomia_melanderi	REGV01033365.1	1	384	384	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_107_REGV01033935	NomMel_107	NomMel_107_REGV01033935	EFV	3	107	1	Nomia_melanderi	REGV01033935.1	2	259	258	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_105_REGV01033936	NomMel_105	NomMel_105_REGV01033936	EFV	3	105	1	Nomia_melanderi	REGV01033936.1	2	301	300	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_65_REGV01034394	NomMel_65	NomMel_65_REGV01034394	EFV	3	65	1	Nomia_melanderi	REGV01034394.1	2	451	450	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_112_REGV01035729	NomMel_112	NomMel_112_REGV01035729	EFV	3	112	1	Nomia_melanderi	REGV01035729.1	1	231	231	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_113_REGV01035730	NomMel_113	NomMel_113_REGV01035730	EFV	3	113	1	Nomia_melanderi	REGV01035730.1	1	231	231	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_68_REGV01036200	NomMel_68	NomMel_68_REGV01036200	EFV	3	68	1	Nomia_melanderi	REGV01036200.1	2	472	471	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_111_REGV01037586	NomMel_111	NomMel_111_REGV01037586	EFV	3	111	1	Nomia_melanderi	REGV01037586.1	2	319	318	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_83_REGV01045940	NomMel_83	NomMel_83_REGV01045940	EFV	3	83	1	Nomia_melanderi	REGV01045940.1	3	257	255	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_84_REGV01045941	NomMel_84	NomMel_84_REGV01045941	EFV	3	84	1	Nomia_melanderi	REGV01045941.1	3	332	330	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_115_REGV01048206	NomMel_115	NomMel_115_REGV01048206	EFV	3	115	1	Nomia_melanderi	REGV01048206.1	3	299	297	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_104_REGV01050064	NomMel_104	NomMel_104_REGV01050064	EFV	3	104	1	Nomia_melanderi	REGV01050064.1	2639	7533	4895	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_97_REGV01058706	NomMel_97	NomMel_97_REGV01058706	EFV	3	97	1	Nomia_melanderi	REGV01058706.1	33	571	539	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_92_REGV01058708	NomMel_92	NomMel_92_REGV01058708	EFV	3	92	1	Nomia_melanderi	REGV01058708.1	33	572	540	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_103_REGV01061581	NomMel_103	NomMel_103_REGV01061581	EFV	3	103	1	Nomia_melanderi	REGV01061581.1	1	548	548	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_93_REGV01065152	NomMel_93	NomMel_93_REGV01065152	EFV	3	93	1	Nomia_melanderi	REGV01065152.1	9	293	285	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_94_REGV01065153	NomMel_94	NomMel_94_REGV01065153	EFV	3	94	1	Nomia_melanderi	REGV01065153.1	9	293	285	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_89_REGV01072449	NomMel_89	NomMel_89_REGV01072449	EFV	3	89	1	Nomia_melanderi	REGV01072449.1	50	301	252	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_67_REGV01074717	NomMel_67	NomMel_67_REGV01074717	EFV	3	67	1	Nomia_melanderi	REGV01074717.1	6	421	416	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_70_REGV01075132	NomMel_70	NomMel_70_REGV01075132	EFV	3	70	1	Nomia_melanderi	REGV01075132.1	2	250	249	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_69_REGV01075133	NomMel_69	NomMel_69_REGV01075133	EFV	3	69	1	Nomia_melanderi	REGV01075133.1	2	295	294	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_85_REGV01084028	NomMel_85	NomMel_85_REGV01084028	EFV	3	85	1	Nomia_melanderi	REGV01084028.1	2	451	450	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_90_REGV01084029	NomMel_90	NomMel_90_REGV01084029	EFV	3	90	1	Nomia_melanderi	REGV01084029.1	2	214	213	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_101_REGV01085978	NomMel_101	NomMel_101_REGV01085978	EFV	3	101	1	Nomia_melanderi	REGV01085978.1	2	719	718	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_80_REGV01088360	NomMel_80	NomMel_80_REGV01088360	EFV	3	80	1	Nomia_melanderi	REGV01088360.1	1	297	297	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_87_REGV01088361	NomMel_87	NomMel_87_REGV01088361	EFV	3	87	1	Nomia_melanderi	REGV01088361.1	1	222	222	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_108_REGV01091118	NomMel_108	NomMel_108_REGV01091118	EFV	3	108	1	Nomia_melanderi	REGV01091118.1	76	252	177	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_72_REGV01091174	NomMel_72	NomMel_72_REGV01091174	EFV	3	72	1	Nomia_melanderi	REGV01091174.1	9	263	255	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_74_REGV01091197	NomMel_74	NomMel_74_REGV01091197	EFV	3	74	1	Nomia_melanderi	REGV01091197.1	2	412	411	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_96_REGV01091564	NomMel_96	NomMel_96_REGV01091564	EFV	3	96	1	Nomia_melanderi	REGV01091564.1	2	517	516	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_88_REGV01091755	NomMel_88	NomMel_88_REGV01091755	EFV	3	88	1	Nomia_melanderi	REGV01091755.1	3	395	393	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_119_REGV01092169	NomMel_119	NomMel_119_REGV01092169	EFV	3	119	1	Nomia_melanderi	REGV01092169.1	128	280	153	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_77_REGV01092441	NomMel_77	NomMel_77_REGV01092441	EFV	3	77	1	Nomia_melanderi	REGV01092441.1	1	384	384	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_66_REGV01092516	NomMel_66	NomMel_66_REGV01092516	EFV	3	66	1	Nomia_melanderi	REGV01092516.1	2	451	450	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_98_REGV01092580	NomMel_98	NomMel_98_REGV01092580	EFV	3	98	1	Nomia_melanderi	REGV01092580.1	8	313	306	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_110_REGV01092706	NomMel_110	NomMel_110_REGV01092706	EFV	3	110	1	Nomia_melanderi	REGV01092706.1	2	319	318	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_95_REGV01093040	NomMel_95	NomMel_95_REGV01093040	EFV	3	95	1	Nomia_melanderi	REGV01093040.1	7	291	285	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_99_REGV01093291	NomMel_99	NomMel_99_REGV01093291	EFV	3	99	1	Nomia_melanderi	REGV01093291.1	27	242	216	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_116_REGV01093320	NomMel_116	NomMel_116_REGV01093320	EFV	3	116	1	Nomia_melanderi	REGV01093320.1	3	299	297	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_75_REGV01093438	NomMel_75	NomMel_75_REGV01093438	EFV	3	75	1	Nomia_melanderi	REGV01093438.1	2	454	453	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-NomMel_86_REGV01093916	NomMel_86	NomMel_86_REGV01093916	EFV	3	86	1	Nomia_melanderi	REGV01093916.1	1	333	333	negative	Ceratina-Pestinsect-EFV	FlaviPesti	PL2	Bee
-OsmBic_1_MPJT01000491	OsmBic_1	OsmBic_1_MPJT01000491	EFV	3	1	1	Osmia_bicornis_bicornis	MPJT01000491.1	16257	17396	1140	negative	FlaviPesti	FlaviPesti	PL2	Bee
-OsmBic_2_MPJT01000491	OsmBic_2	OsmBic_2_MPJT01000491	EFV	3	2	1	Osmia_bicornis_bicornis	MPJT01000491.1	19495	21079	1585	negative	FlaviPesti	FlaviPesti	PL2	Bee
-EFV-Pestinsect.4.1.1-Andricus_cur	Pestinsect.4.1.1	EFV-Pestinsect.4.1.1-Andricus_cur	EFV	4	1	1	Andricus curvator	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	PL2	
-EFV-Pestinsect.4.1.1-Andricus_que	Pestinsect.4.1.1	EFV-Pestinsect.4.1.1-Andricus_que	EFV	4	1	1	Andricus quercusramuli	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	PL2	
-EFV-Pestinsect.4.1.2-Andricus_que	Pestinsect.4.1.2	EFV-Pestinsect.4.1.2-Andricus_que	EFV	4	1	2	Andricus quercusramuli	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	PL2	
-EFV-Pestinsect.5.1.1-Anoplophora	Pestinsect.5.1.1	EFV-Pestinsect.5.1.1-Anoplophora	EFV	5	1	1	Anoplophora_glabripennis	KB933796.1	242392	242742	351	positive	FlaviPesti	FlaviPesti	PL2	
-EFV-Pestinsect.1.1.3-Calycopis	Pestinsect.1.1.3	EFV-Pestinsect.1.1.3-Calycopis	EFV	1	3	1	Calycopis_cecrops	LUGF01005621.1	81384	81909	525	positive	FlaviPesti	FlaviPesti	PL2	
-EFV-Pestinsect.1.1.1-Calycopis	Pestinsect.1.1.1	EFV-Pestinsect.1.1.1-Calycopis	EFV	1	1	1	Calycopis_cecrops	LUGF01005621.1	81912	82433	521	positive	FlaviPesti	FlaviPesti	PL2	
-EFV-Pestinsect.1.1.4-Calycopis	Pestinsect.1.1.4	EFV-Pestinsect.1.1.4-Calycopis	EFV	1	4	1	Calycopis_cecrops	LUGF01006995.1	11590	11976	386	negative	FlaviPesti	FlaviPesti	PL2	
-EFV-Pestinsect.1.1.2-Calycopis	Pestinsect.1.1.2	EFV-Pestinsect.1.1.2-Calycopis	EFV	1	2	1	Calycopis_cecrops	LUGF01022944.1	133	1668	1535	positive	FlaviPesti	FlaviPesti	PL2	
-EFV-Pestinsect.2.1.2-Euschistus	Pestinsect.2.1.2	EFV-Pestinsect.2.1.2-Euschistus	EFV	2	1	2	Euschistus_heros	RCWM01000197.1	413514	416204	2691	negative	FlaviPesti	FlaviPesti	PL2	
-EFV-Pestinsect.2.1.1-Euschistus	Pestinsect.2.1.1	EFV-Pestinsect.2.1.1-Euschistus	EFV	2	1	1	Euschistus_heros	RCWM01000536.1	8707	10181	1475	positive	FlaviPesti	FlaviPesti	PL2	
-EFV-Pestinsect.7.1.1-Operophtera	Pestinsect.7.1.1	EFV-Pestinsect.7.1.1-Operophtera	EFV	7	1	1	Operophtera brumata	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	PL2	
-EFV-Pestinsect.7.2.1-Operophtera	Pestinsect.7.2.1	EFV-Pestinsect.7.2.1-Operophtera	EFV	7	2	1	Operophtera brumata	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	PL2	
-XenBra_1_OFSG01001798	XenBra_1	XenBra_1_OFSG01001798	EFV	5	1	1	Xenocatantops_brachycerus	OFSG01001798.1	488	9202	8715	negative	FlaviPesti	FlaviPesti	PL2	Grasshopper
-XenBra_4_OFSG01001798	XenBra_4	XenBra_4_OFSG01001798	EFV	5	4	1	Xenocatantops_brachycerus	OFSG01001798.1	13353	17300	3948	negative	FlaviPesti	FlaviPesti	PL2	Grasshopper
-XenBra_16_OFSG01001799	XenBra_16	XenBra_16_OFSG01001799	EFV	5	16	1	Xenocatantops_brachycerus	OFSG01001799.1	2343	2834	492	positive	FlaviPesti	FlaviPesti	PL2	Grasshopper
-XenBra_14_OFSG01001800	XenBra_14	XenBra_14_OFSG01001800	EFV	5	14	1	Xenocatantops_brachycerus	OFSG01001800.1	2343	2822	480	positive	FlaviPesti	FlaviPesti	PL2	Grasshopper
-XenBra_15_OFSG01001802	XenBra_15	XenBra_15_OFSG01001802	EFV	5	15	1	Xenocatantops_brachycerus	OFSG01001802.1	173	652	480	negative	FlaviPesti	FlaviPesti	PL2	Grasshopper
-XenBra_3_OFSG01020321	XenBra_3	XenBra_3_OFSG01020321	EFV	5	3	1	Xenocatantops_brachycerus	OFSG01020321.1	489	7505	7017	negative	FlaviPesti	FlaviPesti	PL2	Grasshopper
-XenBra_9_OFSG01027479	XenBra_9	XenBra_9_OFSG01027479	EFV	5	9	1	Xenocatantops_brachycerus	OFSG01027479.1	1	513	513	positive	FlaviPesti	FlaviPesti	PL2	Grasshopper
-XenBra_11_OFSG01027522	XenBra_11	XenBra_11_OFSG01027522	EFV	5	11	1	Xenocatantops_brachycerus	OFSG01027522.1	2	712	711	negative	FlaviPesti	FlaviPesti	PL2	Grasshopper
-XenBra_6_OFSG01031643	XenBra_6	XenBra_6_OFSG01031643	EFV	5	6	1	Xenocatantops_brachycerus	OFSG01031643.1	24	1022	999	positive	FlaviPesti	FlaviPesti	PL2	Grasshopper
-XenBra_2_OFSG01039133	XenBra_2	XenBra_2_OFSG01039133	EFV	5	2	1	Xenocatantops_brachycerus	OFSG01039133.1	492	6512	6021	negative	FlaviPesti	FlaviPesti	PL2	Grasshopper
-XenBra_10_OFSG01039134	XenBra_10	XenBra_10_OFSG01039134	EFV	5	10	1	Xenocatantops_brachycerus	OFSG01039134.1	8	673	666	negative	FlaviPesti	FlaviPesti	PL2	Grasshopper
-XenBra_13_OFSG01039141	XenBra_13	XenBra_13_OFSG01039141	EFV	5	13	1	Xenocatantops_brachycerus	OFSG01039141.1	6	227	222	negative	FlaviPesti	FlaviPesti	PL2	Grasshopper
-XenBra_5_OFSG01039142	XenBra_5	XenBra_5_OFSG01039142	EFV	5	5	1	Xenocatantops_brachycerus	OFSG01039142.1	13	1491	1479	negative	FlaviPesti	FlaviPesti	PL2	Grasshopper
-XenBra_12_OFSG01039197	XenBra_12	XenBra_12_OFSG01039197	EFV	5	12	1	Xenocatantops_brachycerus	OFSG01039197.1	910	1593	684	positive	FlaviPesti	FlaviPesti	PL2	Grasshopper
-XenBra_7_OFSG01039583	XenBra_7	XenBra_7_OFSG01039583	EFV	5	7	1	Xenocatantops_brachycerus	OFSG01039583.1	24	1130	1107	negative	FlaviPesti	FlaviPesti	PL2	Grasshopper
-XenBra_8_OFSG01040772	XenBra_8	XenBra_8_OFSG01040772	EFV	5	8	1	Xenocatantops_brachycerus	OFSG01040772.1	1	273	273	negative	FlaviPesti	FlaviPesti	PL2	Grasshopper
+sequenceID	name	full_name	class	integration	fragment	duplicate	organism	scaffold	start	end	length	orientation	sublineage	subfamily	sublineage	genus	clade
+EFV-Tamana.3.1.2-Amphinemura	Tamana.3.1.2	EFV-Tamana.3.1.2-Amphinemura	EFV	3	5	2	Amphinemura_sulcicollis	LVVV01392456.1	786	1118	332	negative	FlaviPesti	FlaviPesti	Flavi-like	Tamanavirus	cISF
+EFV-Tamana.3.1.1-Amphinemura	Tamana.3.1.1	EFV-Tamana.3.1.1-Amphinemura	EFV	3	4	1	Amphinemura_sulcicollis	LVVV01416251.1	202	663	461	negative	FlaviPesti	FlaviPesti	Flavi-like	Tamanavirus	cISF
+EFV-Tamana.2.1.2-Laupala	Tamana.2.1.2	EFV-Tamana.2.1.2-Laupala	EFV	2	2	2	Laupala_kohalensis	NNCF01133646.1	4424	5161	737	positive	FlaviPesti	FlaviPesti	Flavi-like	Tamanavirus	cISF
+EFV-Tamana.2.1.1-Laupala	Tamana.2.1.1	EFV-Tamana.2.1.1-Laupala	EFV	2	1	1	Laupala_kohalensis	NNCF01138054.1	2838	3204	366	positive	FlaviPesti	FlaviPesti	Flavi-like	Tamanavirus	cISF
+EFV-X1.1.2-Priapulus	X1.1.2	EFV-X1.1.2-Priapulus	EFV	1	1	2	Priapulus_caudatus	AXZU02047183.1	11361	11957	596	positive	FlaviPesti	FlaviPesti	Flavi-like	X1	cISF
+EFV-X1.1.1-Priapulus	X1.1.1	EFV-X1.1.1-Priapulus	EFV	1	1	1	Priapulus_caudatus	AXZU02072455.1	446	1327	881	negative	FlaviPesti	FlaviPesti	Flavi-like	X1	cISF
+EFV-X2.1.1.4-Austrofundulus	X2.1.1.4	EFV-X2.1.1.4-Austrofundulus	EFV	1	1	4	Austrofundulus_limnaeus	LDAR01072918.1	3265	3434	169	negative	FlaviPesti	FlaviPesti	Flavi-like	X2	cISF
+EFV-X2.1.1.1-Austrofundulus	X2.1.1.1	EFV-X2.1.1.1-Austrofundulus	EFV	1	1	1	Austrofundulus_limnaeus	LDAR01072919.1	490	1010	520	negative	FlaviPesti	FlaviPesti	Flavi-like	X2	cISF
+EFV-X2.1.1.3-Austrofundulus	X2.1.1.3	EFV-X2.1.1.3-Austrofundulus	EFV	1	1	3	Austrofundulus_limnaeus	LDAR01115895.1	2521	2682	161	positive	FlaviPesti	FlaviPesti	Flavi-like	X2	cISF
+EFV-X2.1.1.2-Austrofundulus	X2.1.1.2	EFV-X2.1.1.2-Austrofundulus	EFV	1	1	2	Austrofundulus_limnaeus	LDAR01120950.1	7080	7771	691	positive	FlaviPesti	FlaviPesti	Flavi-like	X2	cISF
+EFV-X2.3.1.3-Eurytemora	X2.3.1.3	EFV-X2.3.1.3-Eurytemora	EFV	3	1	3	Eurytemora_affinis	AZAI02001696.1	27515	27844	329	positive	FlaviPesti	FlaviPesti	Flavi-like	X2	cISF
+EFV-X2.3.1.4-Eurytemora	X2.3.1.4	EFV-X2.3.1.4-Eurytemora	EFV	3	1	4	Eurytemora_affinis	AZAI02001696.1	28848	28955	107	negative	FlaviPesti	FlaviPesti	Flavi-like	X2	cISF
+EFV-X2.3.1.5-Eurytemora	X2.3.1.5	EFV-X2.3.1.5-Eurytemora	EFV	3	1	5	Eurytemora_affinis	AZAI02001696.1	29779	29892	113	negative	FlaviPesti	FlaviPesti	Flavi-like	X2	cISF
+EFV-X2.3.1.2-Eurytemora	X2.3.1.2	EFV-X2.3.1.2-Eurytemora	EFV	3	1	2	Eurytemora_affinis	AZAI02001696.1	29835	30098	263	negative	FlaviPesti	FlaviPesti	Flavi-like	X2	cISF
+EFV-X2.3.1.6-Eurytemora	X2.3.1.6	EFV-X2.3.1.6-Eurytemora	EFV	3	1	6	Eurytemora_affinis	AZAI02001696.1	32254	32397	143	positive	FlaviPesti	FlaviPesti	Flavi-like	X2	cISF
+EFV-X2.3.1.1-Eurytemora	X2.3.1.1	EFV-X2.3.1.1-Eurytemora	EFV	3	1	1	Eurytemora_affinis	AZAI02004990.1	18061	18687	626	negative	FlaviPesti	FlaviPesti	Flavi-like	X2	cISF
+EFV-X2.2.1.2-Stylephorus	X2.2.1.2	EFV-X2.2.1.2-Stylephorus	EFV	2	1	2	Stylephorus_chordatus	OMPB01008367.1	963	1265	302	negative	FlaviPesti	FlaviPesti	Flavi-like	X2	cISF
+EFV-X2.2.1.1-Stylephorus	X2.2.1.1	EFV-X2.2.1.1-Stylephorus	EFV	2	1	1	Stylephorus_chordatus	OMPB01032799.1	397	822	425	negative	FlaviPesti	FlaviPesti	Flavi-like	X2	cISF
+EFV-cISF.1.1.1-Aedes_aeg	cISF.1.1.1	EFV-cISF.1.1.1-Aedes_aeg	EFV	1	1	1	Aedes_aegypti	NIGP01000003.1	191324702	191321900	2802	negative	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.1.1.2-Aedes_aeg	cISF.1.1.2	EFV-cISF.1.1.2-Aedes_aeg	EFV	1	1	2	Aedes_aegypti	NIGP01000003.1	191335257	191332455	2802	negative	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.1.2.5-Aedes_aeg	cISF.1.2.5	EFV-cISF.1.2.5-Aedes_aeg	EFV	1	4	5	Aedes_aegypti	NIGP01000003.1	313468414	313468898	484	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.1.4.1-Aedes_aeg	cISF.1.4.1	EFV-cISF.1.4.1-Aedes_aeg	EFV	1	4	1	Aedes_aegypti	NIGP01000003.1	313469044	313470128	1084	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.1.2.1-Aedes_aeg	cISF.1.2.1	EFV-cISF.1.2.1-Aedes_aeg	EFV	1	4	1	Aedes_aegypti	NIGP01000003.1	313470274	313470666	392	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.1.2.4-Aedes_aeg	cISF.1.2.4	EFV-cISF.1.2.4-Aedes_aeg	EFV	1	2	4	Aedes_aegypti	NIGP01000003.1	313471100	313471747	647	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.1.2.3-Aedes_aeg	cISF.1.2.3	EFV-cISF.1.2.3-Aedes_aeg	EFV	1	2	3	Aedes_aegypti	NIGP01000003.1	313471893	313472977	1084	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.1.2.2-Aedes_aeg	cISF.1.2.2	EFV-cISF.1.2.2-Aedes_aeg	EFV	1	2	2	Aedes_aegypti	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.1.3.1-Aedes_aeg	cISF.1.3.1	EFV-cISF.1.3.1-Aedes_aeg	EFV	1	3	1	Aedes_aegypti	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.1.5.1-Aedes_aeg	cISF.1.5.1	EFV-cISF.1.5.1-Aedes_aeg	EFV	1	5	1	Aedes_aegypti	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.7.1-Aedes_alb	cISF.2.7.1	EFV-cISF.2.7.1-Aedes_alb	EFV	2	7	1	Aedes_albopictus	JXUM01154598.1	9496	10269	773	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.3.3-Aedes_alb	cISF.2.3.3	EFV-cISF.2.3.3-Aedes_alb	EFV	2	3	1	Aedes_albopictus	MNAF02000296	818358	819023	665	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.4.1-Aedes_alb	cISF.2.4.1	EFV-cISF.2.4.1-Aedes_alb	EFV	2	4	1	Aedes_albopictus	MNAF02000296	831164	832192	1028	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.5.1-Aedes_alb	cISF.2.5.1	EFV-cISF.2.5.1-Aedes_alb	EFV	2	5	1	Aedes_albopictus	MNAF02000296	839698	840363	665	negative	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.6.1-Aedes_alb	cISF.2.6.1	EFV-cISF.2.6.1-Aedes_alb	EFV	2	6	1	Aedes_albopictus	MNAF02000296	840335	841336	1001	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.1.1-Aedes_alb	cISF.2.1.1	EFV-cISF.2.1.1-Aedes_alb	EFV	2	1	1	Aedes_albopictus	MNAF02000296.1	814503	819023	4520	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.8.1-Aedes_alb	cISF.2.8.1	EFV-cISF.2.8.1-Aedes_alb	EFV	2	3	1	Aedes_albopictus	MNAF02000570.1	12136	12522	386	negative	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.7.1-Aedes_alb	cISF.2.7.1	EFV-cISF.2.7.1-Aedes_alb	EFV	2	7	1	Aedes_albopictus	MNAF02001128.1	891781	893424	1643	negative	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.2.1-Aedes_alb	cISF.2.2.1	EFV-cISF.2.2.1-Aedes_alb	EFV	2	9	1	Aedes_albopictus	MNAF02001471.1	142492	143616	1124	negative	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.2.6-Aedes_alb	cISF.2.2.6	EFV-cISF.2.2.6-Aedes_alb	EFV	2	2	6	Aedes_albopictus	MNAF02001471.1	155612	155752	140	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.2.7-Aedes_alb	cISF.2.2.7	EFV-cISF.2.2.7-Aedes_alb	EFV	2	2	7	Aedes_albopictus	MNAF02001471.1	176323	176499	176	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.2.3-Aedes_alb	cISF.2.2.3	EFV-cISF.2.2.3-Aedes_alb	EFV	2	2	3	Aedes_albopictus	MNAF02001716.1	1647455	1648564	1109	negative	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.2.5-Aedes_alb	cISF.2.2.5	EFV-cISF.2.2.5-Aedes_alb	EFV	2	2	5	Aedes_albopictus	MNAF02001716.1	1652672	1653055	383	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.2.4-Aedes_alb	cISF.2.2.4	EFV-cISF.2.2.4-Aedes_alb	EFV	2	2	4	Aedes_albopictus	MNAF02001716.1	1662010	1662252	242	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.3.2-Aedes_alb	cISF.2.3.2	EFV-cISF.2.3.2-Aedes_alb	EFV	2	3	2	Aedes_albopictus	MNAF02001716.1	1662155	1663522	1367	negative	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.2.2-Aedes_alb	cISF.2.2.2	EFV-cISF.2.2.2-Aedes_alb	EFV	2	10	2	Aedes_albopictus	MNAF02001716.1	1685819	1687009	1190	negative	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.2.3.1-Aedes_alb	cISF.2.3.1	EFV-cISF.2.3.1-Aedes_alb	EFV	2	3	1	Aedes_albopictus	MNAF02001716.1	1706320	1707831	1511	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.5.2.1-Tipula	cISF.5.2.1	EFV-cISF.5.2.1-Tipula	EFV	5	2	1	Tipula_oleracea	JXPP01036443.1	1374	2034	660	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.5.3.1-Tipula	cISF.5.3.1	EFV-cISF.5.3.1-Tipula	EFV	5	3	1	Tipula_oleracea	JXPP01119385.1	699	812	113	negative	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.5.1.1-Tipula	cISF.5.1.1	EFV-cISF.5.1.1-Tipula	EFV	5	1	1	Tipula_oleracea	JXPP01124776.1	2147	3275	1128	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-cISF.5.4.1-Tipula	cISF.5.4.1	EFV-cISF.5.4.1-Tipula	EFV	5	4	1	Tipula_oleracea	JXPP01151535.1	1319	1627	308	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	cISF
+EFV-Flavi.1.3.1-Craspedacusta	Flavi.1.3.1	EFV-Flavi.1.3.1-Craspedacusta	EFV	1	3	1	Craspedacusta_sowerbii	QQSS01028249.1	46	807	761	negative	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	Jellyfish
+EFV-Flavi.1.2.1-Craspedacusta	Flavi.1.2.1	EFV-Flavi.1.2.1-Craspedacusta	EFV	1	2	1	Craspedacusta_sowerbii	QQSS01028249.1	2131	3075	944	negative	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	Jellyfish
+EFV-Flavi.1.1.2-Craspedacusta	Flavi.1.1.2	EFV-Flavi.1.1.2-Craspedacusta	EFV	1	1	2	Craspedacusta_sowerbii	QQSS01051271.1	11592	14349	2757	negative	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	Jellyfish
+EFV-Flavi.1.5.1-Craspedacusta	Flavi.1.5.1	EFV-Flavi.1.5.1-Craspedacusta	EFV	1	5	1	Craspedacusta_sowerbii	QQSS01132398.1	1980	6427	4447	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	Jellyfish
+EFV-Flavi.1.6.1-Craspedacusta	Flavi.1.6.1	EFV-Flavi.1.6.1-Craspedacusta	EFV	1	6	1	Craspedacusta_sowerbii	QQSS01132398.1	1980	6427	4447	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	Jellyfish
+EFV-Flavi.1.1.1-Craspedacusta	Flavi.1.1.1	EFV-Flavi.1.1.1-Craspedacusta	EFV	1	1	1	Craspedacusta_sowerbii	QQSS01398420.1	2	2757	2755	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	Jellyfish
+EFV-Flavi.1.4.1-Craspedacusta	Flavi.1.4.1	EFV-Flavi.1.4.1-Craspedacusta	EFV	1	4	1	Craspedacusta_sowerbii	QQSS01422136.1	1	681	680	negative	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	Jellyfish
+EFV-Flavi.2.1.1-Daphnia	Flavi.2.1.1	EFV-Flavi.2.1.1-Daphnia	EFV	2	1	1	Daphnia_magna	LRGB01002801.1	179805	185034	5229	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	Crustacean
+EFV-Flavi.2.2.1-Daphnia	Flavi.2.2.1	EFV-Flavi.2.2.1-Daphnia	EFV	2	1	2	Daphnia_magna	LRGB01003275.1	107884	108810	926	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	Crustacean
+EFV-Flavi.3.2.1-Lepidurus	Flavi.3.2.1	EFV-Flavi.3.2.1-Lepidurus	EFV	3	2	1	Lepidurus_arcticus	RJJA01000657.1	13151	14749	1599	negative	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	Crustacean
+EFV-Flavi.3.3.1-Lepidurus	Flavi.3.3.1	EFV-Flavi.3.3.1-Lepidurus	EFV	3	3	1	Lepidurus_arcticus	RJJA01000859.1	5426	6178	753	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	Crustacean
+EFV-Flavi.3.1.1-Lepidurus	Flavi.3.1.1	EFV-Flavi.3.1.1-Lepidurus	EFV	3	1	1	Lepidurus_arcticus	RJJA01001389.1	1843	2796	954	positive	FlaviPesti	FlaviPesti	Flavi-like	Flavivirus	Crustacean
+EJV-JMTV1.1.1.1-Chironomus_riparius	JMTV1.1.1.1	EFV-JMTV1.1.1.1-Chironomus_riparius	EFV	1	1	1	Chironomus_riparius	JXPV01001963 	3958	5159	1201	negative	FlaviPesti	FlaviPesti	Flavi-like	Jingmenvirus	Jingmenvirus
+EJV-JMTV1.1.1.1-Chironomus_tentans	JMTV1.1.1.1	EFV-JMTV1.1.1.1-Chironomus_tentans	EFV	1	1	1	Chironomus_tentans	HG429170	32608	34715	2107	negative	FlaviPesti	FlaviPesti	Flavi-like	Jingmenvirus	Jingmenvirus
+EJV-JMTV1.2.1.1-Gerris	JMTV1.2.1.1	EFV-JMTV1.2.1.1-Gerris	EFV	2	1	1	Gerris_buenoi	JHBY02101284.1	2219	3765	1546	negative	FlaviPesti	FlaviPesti	Flavi-like	Jingmenvirus	Jingmenvirus
+EJV-JMTV3.1.1.1-Gerris	JMTV3.1.1.1	EFV-JMTV3.1.1.1-Gerris	EFV	1	1	1	Gerris_buenoi	JHBY02071018.1	4807	6720	1913	negative	FlaviPesti	FlaviPesti	Flavi-like	Jingmenvirus	Jingmenvirus
+CerAus_1_SHCU01001306	CerAus_1	CerAus_1_SHCU01001306	EFV	3	1	1	Ceratina_australensis	SHCU01001306.1	14225	20686	6462	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerAus_2_SHCU01006948	CerAus_2	CerAus_2_SHCU01006948	EFV	3	2	1	Ceratina_australensis	SHCU01006948.1	50	1315	1266	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_2_LSNX01000230	CerCal_2	CerCal_2_LSNX01000230	EFV	3	2	1	Ceratina_calcarata	LSNX01000230.1	2	11549	11548	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_17_SHCU01001306	CerCal_17	CerCal_17_SHCU01001306	EFV	3	17	1	Ceratina_calcarata	LSNX01000230.1	16528	17259	732	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_20_LSNX01013676	CerCal_20	CerCal_20_LSNX01013676	EFV	3	20	1	Ceratina_calcarata	LSNX01000366.1	1	513	513	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_18_LSNX01015099	CerCal_18	CerCal_18_LSNX01015099	EFV	3	18	1	Ceratina_calcarata	LSNX01000419.1	3	1329	1327	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_24_LSNX01017109	CerCal_24	CerCal_24_LSNX01017109	EFV	3	24	1	Ceratina_calcarata	LSNX01000694.1	2	502	501	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_3_LSNX01011448	CerCal_3	CerCal_3_LSNX01011448	EFV	3	3	1	Ceratina_calcarata	LSNX01000710.1	2117	8515	6399	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_10_LSNX01030159	CerCal_10	CerCal_10_LSNX01030159	EFV	3	10	1	Ceratina_calcarata	LSNX01001226.1	10802	13084	2283	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_22_LSNX01031071	CerCal_22	CerCal_22_LSNX01031071	EFV	3	22	1	Ceratina_calcarata	LSNX01001307.1	3	485	483	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_45_LSNX01033181	CerCal_45	CerCal_45_LSNX01033181	EFV	3	45	1	Ceratina_calcarata	LSNX01002163.1	2	316	315	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_29_LSNX01029438	CerCal_29	CerCal_29_LSNX01029438	EFV	3	29	1	Ceratina_calcarata	LSNX01003284.1	2	436	435	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_32_LSNX01018195	CerCal_32	CerCal_32_LSNX01018195	EFV	3	32	1	Ceratina_calcarata	LSNX01003467.1	1	435	435	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_5_LSNX01005083	CerCal_5	CerCal_5_LSNX01005083	EFV	3	5	1	Ceratina_calcarata	LSNX01004551.1	31	7116	7086	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_47_LSNX01045128	CerCal_47	CerCal_47_LSNX01045128	EFV	3	47	1	Ceratina_calcarata	LSNX01004653.1	9	353	345	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_6_LSNX01007571	CerCal_6	CerCal_6_LSNX01007571	EFV	3	6	1	Ceratina_calcarata	LSNX01005083.1	3	13504	13502	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_26_LSNX01009627	CerCal_26	CerCal_26_LSNX01009627	EFV	3	26	1	Ceratina_calcarata	LSNX01005180.1	26	403	378	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_27_LSNX01032777	CerCal_27	CerCal_27_LSNX01032777	EFV	3	27	1	Ceratina_calcarata	LSNX01005227.1	26	403	378	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_31_LSNX01023980	CerCal_31	CerCal_31_LSNX01023980	EFV	3	31	1	Ceratina_calcarata	LSNX01005386.1	2	400	399	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_63_LSNX01030735	CerCal_63	CerCal_63_LSNX01030735	EFV	3	63	1	Ceratina_calcarata	LSNX01005431.1	160	399	240	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_36_SHCU01006948	CerCal_36	CerCal_36_SHCU01006948	EFV	3	36	1	Ceratina_calcarata	LSNX01005555.1	3	398	396	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_35_LSNX01027670	CerCal_35	CerCal_35_LSNX01027670	EFV	3	35	1	Ceratina_calcarata	LSNX01005859.1	1	393	393	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_42_LSNX01000366	CerCal_42	CerCal_42_LSNX01000366	EFV	3	42	1	Ceratina_calcarata	LSNX01006512.1	2	382	381	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_40_LSNX01001226	CerCal_40	CerCal_40_LSNX01001226	EFV	3	40	1	Ceratina_calcarata	LSNX01006710.1	1	381	381	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_34_LSNX01036068	CerCal_34	CerCal_34_LSNX01036068	EFV	3	34	1	Ceratina_calcarata	LSNX01007166.1	2	373	372	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_16_LSNX01017523	CerCal_16	CerCal_16_LSNX01017523	EFV	3	16	1	Ceratina_calcarata	LSNX01007571.1	3881	5041	1161	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_54_LSNX01041523	CerCal_54	CerCal_54_LSNX01041523	EFV	3	54	1	Ceratina_calcarata	LSNX01007748.1	62	367	306	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_41_LSNX01048950	CerCal_41	CerCal_41_LSNX01048950	EFV	3	41	1	Ceratina_calcarata	LSNX01008620.1	2	355	354	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_30_LSNX01010817	CerCal_30	CerCal_30_LSNX01010817	EFV	3	30	1	Ceratina_calcarata	LSNX01008973.1	1	351	351	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_49_LSNX01042023	CerCal_49	CerCal_49_LSNX01042023	EFV	3	49	1	Ceratina_calcarata	LSNX01009221.1	2	349	348	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_48_LSNX01026740	CerCal_48	CerCal_48_LSNX01026740	EFV	3	48	1	Ceratina_calcarata	LSNX01009627.1	2	328	327	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_65_LSNX01027129	CerCal_65	CerCal_65_LSNX01027129	EFV	3	65	1	Ceratina_calcarata	LSNX01010037.1	4	342	339	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_66_LSNX01004551	CerCal_66	CerCal_66_LSNX01004551	EFV	3	66	1	Ceratina_calcarata	LSNX01010817.1	48	332	285	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_13_LSNX01003467	CerCal_13	CerCal_13_LSNX01003467	EFV	3	13	1	Ceratina_calcarata	LSNX01011448.1	1757	3355	1599	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_8_LSNX01005180	CerCal_8	CerCal_8_LSNX01005180	EFV	3	8	1	Ceratina_calcarata	LSNX01011448.1	5463	7913	2451	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_33_LSNX01023177	CerCal_33	CerCal_33_LSNX01023177	EFV	3	33	1	Ceratina_calcarata	LSNX01012448.1	2	319	318	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_43_LSNX01048978	CerCal_43	CerCal_43_LSNX01048978	EFV	3	43	1	Ceratina_calcarata	LSNX01013676.1	1	309	309	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_39_LSNX01049465	CerCal_39	CerCal_39_LSNX01049465	EFV	3	39	1	Ceratina_calcarata	LSNX01015099.1	3	296	294	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_59_LSNX01029617	CerCal_59	CerCal_59_LSNX01029617	EFV	3	59	1	Ceratina_calcarata	LSNX01015710.1	2	292	291	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_77_LSNX01022624	CerCal_77	CerCal_77_LSNX01022624	EFV	3	77	1	Ceratina_calcarata	LSNX01016155.1	8	289	282	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_55_LSNX01010037	CerCal_55	CerCal_55_LSNX01010037	EFV	3	55	1	Ceratina_calcarata	LSNX01017109.1	3	281	279	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_37_LSNX01019655	CerCal_37	CerCal_37_LSNX01019655	EFV	3	37	1	Ceratina_calcarata	LSNX01017523.1	3	281	279	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_60_LSNX01015710	CerCal_60	CerCal_60_LSNX01015710	EFV	3	60	1	Ceratina_calcarata	LSNX01017576.1	2	280	279	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_61_LSNX01035444	CerCal_61	CerCal_61_LSNX01035444	EFV	3	61	1	Ceratina_calcarata	LSNX01017633.1	2	280	279	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_80_LSNX01019418	CerCal_80	CerCal_80_LSNX01019418	EFV	3	80	1	Ceratina_calcarata	LSNX01018195.1	2	277	276	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_44_LSNX01001307	CerCal_44	CerCal_44_LSNX01001307	EFV	3	44	1	Ceratina_calcarata	LSNX01019418.1	2	271	270	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_46_LSNX01044617	CerCal_46	CerCal_46_LSNX01044617	EFV	3	46	1	Ceratina_calcarata	LSNX01019655.1	2	271	270	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_71_LSNX01008620	CerCal_71	CerCal_71_LSNX01008620	EFV	3	71	1	Ceratina_calcarata	LSNX01019724.1	2	268	267	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_62_LSNX01030536	CerCal_62	CerCal_62_LSNX01030536	EFV	3	62	1	Ceratina_calcarata	LSNX01021754.1	3	260	258	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_7_LSNX01000419	CerCal_7	CerCal_7_LSNX01000419	EFV	3	7	1	Ceratina_calcarata	LSNX01022530.1	1058	3373	2316	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_75_LSNX01007166	CerCal_75	CerCal_75_LSNX01007166	EFV	3	75	1	Ceratina_calcarata	LSNX01022624.1	1	255	255	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_56_LSNX01035027	CerCal_56	CerCal_56_LSNX01035027	EFV	3	56	1	Ceratina_calcarata	LSNX01022802.1	2	253	252	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_83_LSNX01047144	CerCal_83	CerCal_83_LSNX01047144	EFV	3	83	1	Ceratina_calcarata	LSNX01023177.1	61	255	195	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_68_LSNX01022530	CerCal_68	CerCal_68_LSNX01022530	EFV	3	68	1	Ceratina_calcarata	LSNX01023980.1	2	250	249	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_76_LSNX01005859	CerCal_76	CerCal_76_LSNX01005859	EFV	3	76	1	Ceratina_calcarata	LSNX01026740.1	55	240	186	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_79_LSNX01042962	CerCal_79	CerCal_79_LSNX01042962	EFV	3	79	1	Ceratina_calcarata	LSNX01026984.1	1	240	240	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_72_LSNX01016155	CerCal_72	CerCal_72_LSNX01016155	EFV	3	72	1	Ceratina_calcarata	LSNX01027129.1	56	241	186	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_82_LSNX01000230	CerCal_82	CerCal_82_LSNX01000230	EFV	3	82	1	Ceratina_calcarata	LSNX01027654.1	2	172	171	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_89_LSNX01027654	CerCal_89	CerCal_89_LSNX01027654	EFV	3	89	1	Ceratina_calcarata	LSNX01027670.1	92	238	147	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_51_LSNX01031839	CerCal_51	CerCal_51_LSNX01031839	EFV	3	51	1	Ceratina_calcarata	LSNX01029144.1	3	233	231	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_52_LSNX01017576	CerCal_52	CerCal_52_LSNX01017576	EFV	3	52	1	Ceratina_calcarata	LSNX01029438.1	3	233	231	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_69_LSNX01030159	CerCal_69	CerCal_69_LSNX01030159	EFV	3	69	1	Ceratina_calcarata	LSNX01029617.1	1	231	231	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_9_LSNX01005227	CerCal_9	CerCal_9_LSNX01005227	EFV	3	9	1	Ceratina_calcarata	LSNX01030159.1	1	2334	2334	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_28_LSNX01029144	CerCal_28	CerCal_28_LSNX01029144	EFV	3	28	1	Ceratina_calcarata	LSNX01030159.1	6047	6463	417	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_85_LSNX01045745	CerCal_85	CerCal_85_LSNX01045745	EFV	3	85	1	Ceratina_calcarata	LSNX01030536.1	1	174	174	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_70_LSNX01040369	CerCal_70	CerCal_70_LSNX01040369	EFV	3	70	1	Ceratina_calcarata	LSNX01030735.1	3	230	228	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_53_LSNX01017633	CerCal_53	CerCal_53_LSNX01017633	EFV	3	53	1	Ceratina_calcarata	LSNX01031071.1	2	229	228	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_57_LSNX01009221	CerCal_57	CerCal_57_LSNX01009221	EFV	3	57	1	Ceratina_calcarata	LSNX01031839.1	2	226	225	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_50_LSNX01026984	CerCal_50	CerCal_50_LSNX01026984	EFV	3	50	1	Ceratina_calcarata	LSNX01032777.1	2	223	222	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_73_LSNX01000694	CerCal_73	CerCal_73_LSNX01000694	EFV	3	73	1	Ceratina_calcarata	LSNX01033181.1	2	223	222	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_64_LSNX01019724	CerCal_64	CerCal_64_LSNX01019724	EFV	3	64	1	Ceratina_calcarata	LSNX01034754.1	2	220	219	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_67_LSNX01006710	CerCal_67	CerCal_67_LSNX01006710	EFV	3	67	1	Ceratina_calcarata	LSNX01035027.1	1	219	219	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_84_LSNX01005386	CerCal_84	CerCal_84_LSNX01005386	EFV	3	84	1	Ceratina_calcarata	LSNX01035444.1	4	216	213	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_90_LSNX01037518	CerCal_90	CerCal_90_LSNX01037518	EFV	3	90	1	Ceratina_calcarata	LSNX01035518.1	3	104	102	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_11_LSNX01003284	CerCal_11	CerCal_11_LSNX01003284	EFV	3	11	1	Ceratina_calcarata	LSNX01035665.1	21	1823	1803	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_88_LSNX01002163	CerCal_88	CerCal_88_LSNX01002163	EFV	3	88	1	Ceratina_calcarata	LSNX01036068.1	5	106	102	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_86_LSNX01005431	CerCal_86	CerCal_86_LSNX01005431	EFV	3	86	1	Ceratina_calcarata	LSNX01037518.1	1	147	147	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_14_LSNX01012448	CerCal_14	CerCal_14_LSNX01012448	EFV	3	14	1	Ceratina_calcarata	LSNX01040369.1	4	1266	1263	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_23_LSNX01007748	CerCal_23	CerCal_23_LSNX01007748	EFV	3	23	1	Ceratina_calcarata	LSNX01041523.1	3	1191	1189	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_78_LSNX01035518	CerCal_78	CerCal_78_LSNX01035518	EFV	3	78	1	Ceratina_calcarata	LSNX01042023.1	2	205	204	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_87_LSNX01034754	CerCal_87	CerCal_87_LSNX01034754	EFV	3	87	1	Ceratina_calcarata	LSNX01042962.1	3	137	135	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_81_LSNX01049465	CerCal_81	CerCal_81_LSNX01049465	EFV	3	81	1	Ceratina_calcarata	LSNX01044617.1	3	197	195	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_74_LSNX01045588	CerCal_74	CerCal_74_LSNX01045588	EFV	3	74	1	Ceratina_calcarata	LSNX01045128.1	2	199	198	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_25_LSNX01022802	CerCal_25	CerCal_25_LSNX01022802	EFV	3	25	1	Ceratina_calcarata	LSNX01045588.1	189	710	522	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_15_LSNX01005555	CerCal_15	CerCal_15_LSNX01005555	EFV	3	15	1	Ceratina_calcarata	LSNX01045745.1	2	952	951	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_19_LSNX01006512	CerCal_19	CerCal_19_LSNX01006512	EFV	3	19	1	Ceratina_calcarata	LSNX01047144.1	10	696	687	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_1_LSNX01011448	CerCal_1	CerCal_1_LSNX01011448	EFV	3	1	1	Ceratina_calcarata	LSNX01048950.1	2693	17097	14405	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_21_LSNX01004653	CerCal_21	CerCal_21_LSNX01004653	EFV	3	21	1	Ceratina_calcarata	LSNX01048978.1	2	592	591	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_12_LSNX01008973	CerCal_12	CerCal_12_LSNX01008973	EFV	3	12	1	Ceratina_calcarata	LSNX01049465.1	583	3504	2922	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_4_LSNX01000710	CerCal_4	CerCal_4_LSNX01000710	EFV	3	4	1	Ceratina_calcarata	LSNX01049465.1	4703	11637	6935	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_38_LSNX01035665	CerCal_38	CerCal_38_LSNX01035665	EFV	3	38	1	Ceratina_calcarata	SHCU01001306.1	14225	20686	6462	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+CerCal_58_LSNX01021754	CerCal_58	CerCal_58_LSNX01021754	EFV	3	58	1	Ceratina_calcarata	SHCU01006948.1	50	1315	1266	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+DufNov_4_NW_015373905	DufNov_4	DufNov_4_NW_015373905	EFV	3	4	1	Dufourea_novaeangliae	NW_015373905.1	1526901	1527215	315	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+DufNov_2_NW_015373905	DufNov_2	DufNov_2_NW_015373905	EFV	3	2	1	Dufourea_novaeangliae	NW_015373905.1	1529275	1532851	3577	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+DufNov_3_NW_015373907	DufNov_3	DufNov_3_NW_015373907	EFV	3	3	1	Dufourea_novaeangliae	NW_015373907.1	13307	14390	1084	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+DufNov_6_NW_015373949	DufNov_6	DufNov_6_NW_015373949	EFV	3	6	1	Dufourea_novaeangliae	NW_015373949.1	55376	59003	3628	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+DufNov_5_NW_015374004	DufNov_5	DufNov_5_NW_015374004	EFV	3	5	1	Dufourea_novaeangliae	NW_015374004.1	745179	746304	1126	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+DufNov_12_NW_015374014	DufNov_12	DufNov_12_NW_015374014	EFV	3	12	1	Dufourea_novaeangliae	NW_015374014.1	468128	468346	219	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+DufNov_1_NW_015374131	DufNov_1	DufNov_1_NW_015374131	EFV	3	1	1	Dufourea_novaeangliae	NW_015374131.1	120625	122715	2091	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+DufNov_7_NW_015374131	DufNov_7	DufNov_7_NW_015374131	EFV	3	7	1	Dufourea_novaeangliae	NW_015374131.1	135751	139506	3756	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+DufNov_10_NW_015374136	DufNov_10	DufNov_10_NW_015374136	EFV	3	10	1	Dufourea_novaeangliae	NW_015374136.1	2043	2981	939	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+DufNov_13_NW_015374205	DufNov_13	DufNov_13_NW_015374205	EFV	3	13	1	Dufourea_novaeangliae	NW_015374205.1	287333	288226	894	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+DufNov_11_NW_015374226	DufNov_11	DufNov_11_NW_015374226	EFV	3	11	1	Dufourea_novaeangliae	NW_015374226.1	12237	12800	564	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+DufNov_9_NW_015374420	DufNov_9	DufNov_9_NW_015374420	EFV	3	9	1	Dufourea_novaeangliae	NW_015374420.1	11308	12375	1068	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+DufNov_8_NW_015374420	DufNov_8	DufNov_8_NW_015374420	EFV	3	8	1	Dufourea_novaeangliae	NW_015374420.1	18973	19392	420	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_21_NW_016907884	EufMex_21	EufMex_21_NW_016907884	EFV	3	21	1	Eufriesea_mexicana	NW_016907884.1	370	642	273	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_15_NW_016910756	EufMex_15	EufMex_15_NW_016910756	EFV	3	15	1	Eufriesea_mexicana	NW_016910756.1	8952	13723	4772	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_17_NW_016911683	EufMex_17	EufMex_17_NW_016911683	EFV	3	17	1	Eufriesea_mexicana	NW_016911683.1	5517	7069	1553	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_28_NW_016914389	EufMex_28	EufMex_28_NW_016914389	EFV	3	28	1	Eufriesea_mexicana	NW_016914389.1	28582	29352	771	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_34_NW_016915982	EufMex_34	EufMex_34_NW_016915982	EFV	3	34	1	Eufriesea_mexicana	NW_016915982.1	26171	26924	754	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_27_NW_016916939	EufMex_27	EufMex_27_NW_016916939	EFV	3	27	1	Eufriesea_mexicana	NW_016916939.1	45737	50177	4441	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_33_NW_016923200	EufMex_33	EufMex_33_NW_016923200	EFV	3	33	1	Eufriesea_mexicana	NW_016923200.1	656	826	171	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_18_NW_016930208	EufMex_18	EufMex_18_NW_016930208	EFV	3	18	1	Eufriesea_mexicana	NW_016930208.1	3	828	826	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_31_NW_016930386	EufMex_31	EufMex_31_NW_016930386	EFV	3	31	1	Eufriesea_mexicana	NW_016930386.1	38731	39687	957	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_32_NW_016934935	EufMex_32	EufMex_32_NW_016934935	EFV	3	32	1	Eufriesea_mexicana	NW_016934935.1	82	381	300	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_23_NW_016935298	EufMex_23	EufMex_23_NW_016935298	EFV	3	23	1	Eufriesea_mexicana	NW_016935298.1	16136	16729	594	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_20_NW_016993331	EufMex_20	EufMex_20_NW_016993331	EFV	3	20	1	Eufriesea_mexicana	NW_016993331.1	3	257	255	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_26_NW_017010398	EufMex_26	EufMex_26_NW_017010398	EFV	3	26	1	Eufriesea_mexicana	NW_017010398.1	37	204	168	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_24_NW_017014459	EufMex_24	EufMex_24_NW_017014459	EFV	3	24	1	Eufriesea_mexicana	NW_017014459.1	17	196	180	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_19_NW_017058141	EufMex_19	EufMex_19_NW_017058141	EFV	3	19	1	Eufriesea_mexicana	NW_017058141.1	1	234	234	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_25_NW_017076911	EufMex_25	EufMex_25_NW_017076911	EFV	3	25	1	Eufriesea_mexicana	NW_017076911.1	1	267	267	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_22_NW_017077887	EufMex_22	EufMex_22_NW_017077887	EFV	3	22	1	Eufriesea_mexicana	NW_017077887.1	92	271	180	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_29_NW_017092148	EufMex_29	EufMex_29_NW_017092148	EFV	3	29	1	Eufriesea_mexicana	NW_017092148.1	43	453	411	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_30_NW_017092964	EufMex_30	EufMex_30_NW_017092964	EFV	3	30	1	Eufriesea_mexicana	NW_017092964.1	124	612	489	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+EufMex_14_NW_017094858	EufMex_14	EufMex_14_NW_017094858	EFV	3	14	1	Eufriesea_mexicana	NW_017094858.1	139	1266	1128	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_41_NW_017100152	HabLab_41	HabLab_41_NW_017100152	EFV	3	41	1	Habropoda_laboriosa	NW_017100152.1	1892731	1896951	4221	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_39_NW_017100158	HabLab_39	HabLab_39_NW_017100158	EFV	3	39	1	Habropoda_laboriosa	NW_017100158.1	320175	321185	1011	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_35_NW_017100158	HabLab_35	HabLab_35_NW_017100158	EFV	3	35	1	Habropoda_laboriosa	NW_017100158.1	327149	330570	3422	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_46_NW_017100164	HabLab_46	HabLab_46_NW_017100164	EFV	3	46	1	Habropoda_laboriosa	NW_017100164.1	1459463	1461215	1753	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_36_NW_017100254	HabLab_36	HabLab_36_NW_017100254	EFV	3	36	1	Habropoda_laboriosa	NW_017100254.1	262245	264713	2469	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_51_NW_017100267	HabLab_51	HabLab_51_NW_017100267	EFV	3	51	1	Habropoda_laboriosa	NW_017100267.1	190333	190705	373	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_50_NW_017100298	HabLab_50	HabLab_50_NW_017100298	EFV	3	50	1	Habropoda_laboriosa	NW_017100298.1	209745	210071	327	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_58_NW_017100298	HabLab_58	HabLab_58_NW_017100298	EFV	3	58	1	Habropoda_laboriosa	NW_017100298.1	256439	256663	225	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_44_NW_017100316	HabLab_44	HabLab_44_NW_017100316	EFV	3	44	1	Habropoda_laboriosa	NW_017100316.1	36036	38377	2342	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_43_NW_017100397	HabLab_43	HabLab_43_NW_017100397	EFV	3	43	1	Habropoda_laboriosa	NW_017100397.1	922978	924362	1385	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_57_NW_017100397	HabLab_57	HabLab_57_NW_017100397	EFV	3	57	1	Habropoda_laboriosa	NW_017100397.1	955329	955526	198	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_56_NW_017100426	HabLab_56	HabLab_56_NW_017100426	EFV	3	56	1	Habropoda_laboriosa	NW_017100426.1	163639	163869	231	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_42_NW_017100498	HabLab_42	HabLab_42_NW_017100498	EFV	3	42	1	Habropoda_laboriosa	NW_017100498.1	182171	184625	2455	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_45_NW_017100671	HabLab_45	HabLab_45_NW_017100671	EFV	3	45	1	Habropoda_laboriosa	NW_017100671.1	48754	49857	1104	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_40_NW_017100753	HabLab_40	HabLab_40_NW_017100753	EFV	3	40	1	Habropoda_laboriosa	NW_017100753.1	21612	24634	3023	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_53_NW_017100786	HabLab_53	HabLab_53_NW_017100786	EFV	3	53	1	Habropoda_laboriosa	NW_017100786.1	199006	199657	652	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_55_NW_017100814	HabLab_55	HabLab_55_NW_017100814	EFV	3	55	1	Habropoda_laboriosa	NW_017100814.1	92423	92794	372	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_38_NW_017100833	HabLab_38	HabLab_38_NW_017100833	EFV	3	38	1	Habropoda_laboriosa	NW_017100833.1	47702	49563	1862	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_47_NW_017100896	HabLab_47	HabLab_47_NW_017100896	EFV	3	47	1	Habropoda_laboriosa	NW_017100896.1	321642	323854	2213	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_49_NW_017100971	HabLab_49	HabLab_49_NW_017100971	EFV	3	49	1	Habropoda_laboriosa	NW_017100971.1	94311	94915	605	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_54_NW_017101204	HabLab_54	HabLab_54_NW_017101204	EFV	3	54	1	Habropoda_laboriosa	NW_017101204.1	28357	28578	222	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_37_NW_017101451	HabLab_37	HabLab_37_NW_017101451	EFV	3	37	1	Habropoda_laboriosa	NW_017101451.1	32588	36294	3707	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_48_NW_017102650	HabLab_48	HabLab_48_NW_017102650	EFV	3	48	1	Habropoda_laboriosa	NW_017102650.1	6717	7145	429	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+HabLab_52_NW_017123952	HabLab_52	HabLab_52_NW_017123952	EFV	3	52	1	Habropoda_laboriosa	NW_017123952.1	2	247	246	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+LasAlb_64_KB639126	LasAlb_64	LasAlb_64_KB639126	EFV	3	64	1	Lasioglossum_albipes	KB639126.1	27398	28416	1019	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+LasAlb_59_KB639126	LasAlb_59	LasAlb_59_KB639126	EFV	3	59	1	Lasioglossum_albipes	KB639126.1	54847	55593	747	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+LasAlb_63_KB640114	LasAlb_63	LasAlb_63_KB640114	EFV	3	63	1	Lasioglossum_albipes	KB640114.1	14000	14575	576	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+LasAlb_60_KB640877	LasAlb_60	LasAlb_60_KB640877	EFV	3	60	1	Lasioglossum_albipes	KB640877.1	76903	81999	5097	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+LasAlb_61_KB641283	LasAlb_61	LasAlb_61_KB641283	EFV	3	61	1	Lasioglossum_albipes	KB641283.1	430729	430911	183	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+LasAlb_62_KB641373	LasAlb_62	LasAlb_62_KB641373	EFV	3	62	1	Lasioglossum_albipes	KB641373.1	445	1020	576	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_4_NW_003797111	MetRot	MetRot_4_NW_003797111	EFV	3	4	1	Megachile_rotundata	NW_003797111	67412	71386	3975	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_1_NW_003797121	MetRot	MetRot_1_NW_003797121	EFV	3	1	1	Megachile_rotundata	NW_003797121	20669	27478	6810	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_16_NW_003797189	MetRot	MetRot_16_NW_003797189	EFV	3	16	1	Megachile_rotundata	NW_003797189	124287	125051	765	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_14_NW_003797238	MetRot	MetRot_14_NW_003797238	EFV	3	14	1	Megachile_rotundata	NW_003797238	319277	320197	921	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_35_NW_003797238	MetRot	MetRot_35_NW_003797238	EFV	3	35	1	Megachile_rotundata	NW_003797238	330455	330616	162	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_24_NW_003797246	MetRot	MetRot_24_NW_003797246	EFV	3	24	1	Megachile_rotundata	NW_003797246	118872	121060	2189	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_20_NW_003797246	MetRot	MetRot_20_NW_003797246	EFV	3	20	1	Megachile_rotundata	NW_003797246	130490	133971	3482	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_17_NW_003797246	MetRot	MetRot_17_NW_003797246	EFV	3	17	1	Megachile_rotundata	NW_003797246	137037	138326	1290	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_9_NW_003797272	MetRot	MetRot_9_NW_003797272	EFV	3	9	1	Megachile_rotundata	NW_003797272	83178	85367	2190	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_34_NW_003797288	MetRot	MetRot_34_NW_003797288	EFV	3	34	1	Megachile_rotundata	NW_003797288	39710	39925	216	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_23_NW_003797288	MetRot	MetRot_23_NW_003797288	EFV	3	23	1	Megachile_rotundata	NW_003797288	44833	45606	774	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_26_NW_003797298	MetRot	MetRot_26_NW_003797298	EFV	3	26	1	Megachile_rotundata	NW_003797298	3077	3696	620	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_25_NW_003797445	MetRot	MetRot_25_NW_003797445	EFV	3	25	1	Megachile_rotundata	NW_003797445	110805	111215	411	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_15_NW_003797490	MetRot	MetRot_15_NW_003797490	EFV	3	15	1	Megachile_rotundata	NW_003797490	234	1725	1492	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_12_NW_003797490	MetRot	MetRot_12_NW_003797490	EFV	3	12	1	Megachile_rotundata	NW_003797490	10066	11127	1062	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_3_NW_003797511	MetRot	MetRot_3_NW_003797511	EFV	3	3	1	Megachile_rotundata	NW_003797511	421737	427560	5824	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_8_NW_003797511	MetRot	MetRot_8_NW_003797511	EFV	3	8	1	Megachile_rotundata	NW_003797511	439045	440601	1557	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_2_NW_003797545	MetRot	MetRot_2_NW_003797545	EFV	3	2	1	Megachile_rotundata	NW_003797545	58856	68569	9714	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_19_NW_003797570	MetRot	MetRot_19_NW_003797570	EFV	3	19	1	Megachile_rotundata	NW_003797570	46464	47877	1414	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_6_NW_003797584	MetRot	MetRot_6_NW_003797584	EFV	3	6	1	Megachile_rotundata	NW_003797584	8584	12109	3526	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_27_NW_003797584	MetRot	MetRot_27_NW_003797584	EFV	3	27	1	Megachile_rotundata	NW_003797584	14447	14890	444	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_13_NW_003797647	MetRot	MetRot_13_NW_003797647	EFV	3	13	1	Megachile_rotundata	NW_003797647	50884	54004	3121	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_10_NW_003797810	MetRot	MetRot_10_NW_003797810	EFV	3	10	1	Megachile_rotundata	NW_003797810	4580	12004	7425	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_7_NW_003797921	MetRot	MetRot_7_NW_003797921	EFV	3	7	1	Megachile_rotundata	NW_003797921	3441	6609	3169	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_29_NW_003797921	MetRot	MetRot_29_NW_003797921	EFV	3	29	1	Megachile_rotundata	NW_003797921	9266	9727	462	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_5_NW_003797921	MetRot	MetRot_5_NW_003797921	EFV	3	5	1	Megachile_rotundata	NW_003797921	11174	17373	6200	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_32_NW_003798105	MetRot	MetRot_32_NW_003798105	EFV	3	32	1	Megachile_rotundata	NW_003798105	79	435	357	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_18_NW_003798129	MetRot	MetRot_18_NW_003798129	EFV	3	18	1	Megachile_rotundata	NW_003798129	49028	50534	1507	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_21_NW_003798129	MetRot	MetRot_21_NW_003798129	EFV	3	21	1	Megachile_rotundata	NW_003798129	52604	53275	672	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_11_NW_003798350	MetRot	MetRot_11_NW_003798350	EFV	3	11	1	Megachile_rotundata	NW_003798350	3	1343	1341	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_31_NW_003799095	MetRot	MetRot_31_NW_003799095	EFV	3	31	1	Megachile_rotundata	NW_003799095	161	708	548	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_28_NW_003800314	MetRot	MetRot_28_NW_003800314	EFV	3	28	1	Megachile_rotundata	NW_003800314	1	357	357	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_36_NW_003800315	MetRot	MetRot_36_NW_003800315	EFV	3	36	1	Megachile_rotundata	NW_003800315	191	343	153	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_33_NW_003801728	MetRot	MetRot_33_NW_003801728	EFV	3	33	1	Megachile_rotundata	NW_003801728	3	254	252	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_30_NW_003802216	MetRot	MetRot_30_NW_003802216	EFV	3	30	1	Megachile_rotundata	NW_003802216	18	305	288	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+MetRot_22_NW_003803131	MetRot	MetRot_22_NW_003803131	EFV	3	22	1	Megachile_rotundata	NW_003803131	4	921	918	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_109_REGV01000573	NomMel_109	NomMel_109_REGV01000573	EFV	3	109	1	Nomia_melanderi	REGV01000573.1	4789683	4789934	252	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_114_REGV01000573	NomMel_114	NomMel_114_REGV01000573	EFV	3	114	1	Nomia_melanderi	REGV01000573.1	4792039	4792737	699	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_71_REGV01000573	NomMel_71	NomMel_71_REGV01000573	EFV	3	71	1	Nomia_melanderi	REGV01000573.1	4809615	4809860	246	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_120_REGV01000573	NomMel_120	NomMel_120_REGV01000573	EFV	3	120	1	Nomia_melanderi	REGV01000573.1	4811830	4812267	438	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_121_REGV01004661	NomMel_121	NomMel_121_REGV01004661	EFV	3	121	1	Nomia_melanderi	REGV01004661.1	202746	203556	811	positive	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_73_REGV01013577	NomMel_73	NomMel_73_REGV01013577	EFV	3	73	1	Nomia_melanderi	REGV01013577.1	2	412	411	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_91_REGV01015499	NomMel_91	NomMel_91_REGV01015499	EFV	3	91	1	Nomia_melanderi	REGV01015499.1	1	411	411	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_106_REGV01016021	NomMel_106	NomMel_106_REGV01016021	EFV	3	106	1	Nomia_melanderi	REGV01016021.1	3	257	255	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_79_REGV01016176	NomMel_79	NomMel_79_REGV01016176	EFV	3	79	1	Nomia_melanderi	REGV01016176.1	8	256	249	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_82_REGV01016177	NomMel_82	NomMel_82_REGV01016177	EFV	3	82	1	Nomia_melanderi	REGV01016177.1	8	301	294	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_81_REGV01016959	NomMel_81	NomMel_81_REGV01016959	EFV	3	81	1	Nomia_melanderi	REGV01016959.1	2	298	297	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_117_REGV01018078	NomMel_117	NomMel_117_REGV01018078	EFV	3	117	1	Nomia_melanderi	REGV01018078.1	1	351	351	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_118_REGV01018080	NomMel_118	NomMel_118_REGV01018080	EFV	3	118	1	Nomia_melanderi	REGV01018080.1	1	351	351	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_78_REGV01028072	NomMel_78	NomMel_78_REGV01028072	EFV	3	78	1	Nomia_melanderi	REGV01028072.1	3	224	222	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_102_REGV01028599	NomMel_102	NomMel_102_REGV01028599	EFV	3	102	1	Nomia_melanderi	REGV01028599.1	2	571	570	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_100_REGV01028602	NomMel_100	NomMel_100_REGV01028602	EFV	3	100	1	Nomia_melanderi	REGV01028602.1	2	577	576	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_76_REGV01033365	NomMel_76	NomMel_76_REGV01033365	EFV	3	76	1	Nomia_melanderi	REGV01033365.1	1	384	384	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_107_REGV01033935	NomMel_107	NomMel_107_REGV01033935	EFV	3	107	1	Nomia_melanderi	REGV01033935.1	2	259	258	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_105_REGV01033936	NomMel_105	NomMel_105_REGV01033936	EFV	3	105	1	Nomia_melanderi	REGV01033936.1	2	301	300	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_65_REGV01034394	NomMel_65	NomMel_65_REGV01034394	EFV	3	65	1	Nomia_melanderi	REGV01034394.1	2	451	450	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_112_REGV01035729	NomMel_112	NomMel_112_REGV01035729	EFV	3	112	1	Nomia_melanderi	REGV01035729.1	1	231	231	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_113_REGV01035730	NomMel_113	NomMel_113_REGV01035730	EFV	3	113	1	Nomia_melanderi	REGV01035730.1	1	231	231	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_68_REGV01036200	NomMel_68	NomMel_68_REGV01036200	EFV	3	68	1	Nomia_melanderi	REGV01036200.1	2	472	471	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_111_REGV01037586	NomMel_111	NomMel_111_REGV01037586	EFV	3	111	1	Nomia_melanderi	REGV01037586.1	2	319	318	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_83_REGV01045940	NomMel_83	NomMel_83_REGV01045940	EFV	3	83	1	Nomia_melanderi	REGV01045940.1	3	257	255	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_84_REGV01045941	NomMel_84	NomMel_84_REGV01045941	EFV	3	84	1	Nomia_melanderi	REGV01045941.1	3	332	330	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_115_REGV01048206	NomMel_115	NomMel_115_REGV01048206	EFV	3	115	1	Nomia_melanderi	REGV01048206.1	3	299	297	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_104_REGV01050064	NomMel_104	NomMel_104_REGV01050064	EFV	3	104	1	Nomia_melanderi	REGV01050064.1	2639	7533	4895	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_97_REGV01058706	NomMel_97	NomMel_97_REGV01058706	EFV	3	97	1	Nomia_melanderi	REGV01058706.1	33	571	539	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_92_REGV01058708	NomMel_92	NomMel_92_REGV01058708	EFV	3	92	1	Nomia_melanderi	REGV01058708.1	33	572	540	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_103_REGV01061581	NomMel_103	NomMel_103_REGV01061581	EFV	3	103	1	Nomia_melanderi	REGV01061581.1	1	548	548	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_93_REGV01065152	NomMel_93	NomMel_93_REGV01065152	EFV	3	93	1	Nomia_melanderi	REGV01065152.1	9	293	285	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_94_REGV01065153	NomMel_94	NomMel_94_REGV01065153	EFV	3	94	1	Nomia_melanderi	REGV01065153.1	9	293	285	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_89_REGV01072449	NomMel_89	NomMel_89_REGV01072449	EFV	3	89	1	Nomia_melanderi	REGV01072449.1	50	301	252	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_67_REGV01074717	NomMel_67	NomMel_67_REGV01074717	EFV	3	67	1	Nomia_melanderi	REGV01074717.1	6	421	416	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_70_REGV01075132	NomMel_70	NomMel_70_REGV01075132	EFV	3	70	1	Nomia_melanderi	REGV01075132.1	2	250	249	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_69_REGV01075133	NomMel_69	NomMel_69_REGV01075133	EFV	3	69	1	Nomia_melanderi	REGV01075133.1	2	295	294	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_85_REGV01084028	NomMel_85	NomMel_85_REGV01084028	EFV	3	85	1	Nomia_melanderi	REGV01084028.1	2	451	450	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_90_REGV01084029	NomMel_90	NomMel_90_REGV01084029	EFV	3	90	1	Nomia_melanderi	REGV01084029.1	2	214	213	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_101_REGV01085978	NomMel_101	NomMel_101_REGV01085978	EFV	3	101	1	Nomia_melanderi	REGV01085978.1	2	719	718	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_80_REGV01088360	NomMel_80	NomMel_80_REGV01088360	EFV	3	80	1	Nomia_melanderi	REGV01088360.1	1	297	297	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_87_REGV01088361	NomMel_87	NomMel_87_REGV01088361	EFV	3	87	1	Nomia_melanderi	REGV01088361.1	1	222	222	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_108_REGV01091118	NomMel_108	NomMel_108_REGV01091118	EFV	3	108	1	Nomia_melanderi	REGV01091118.1	76	252	177	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_72_REGV01091174	NomMel_72	NomMel_72_REGV01091174	EFV	3	72	1	Nomia_melanderi	REGV01091174.1	9	263	255	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_74_REGV01091197	NomMel_74	NomMel_74_REGV01091197	EFV	3	74	1	Nomia_melanderi	REGV01091197.1	2	412	411	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_96_REGV01091564	NomMel_96	NomMel_96_REGV01091564	EFV	3	96	1	Nomia_melanderi	REGV01091564.1	2	517	516	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_88_REGV01091755	NomMel_88	NomMel_88_REGV01091755	EFV	3	88	1	Nomia_melanderi	REGV01091755.1	3	395	393	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_119_REGV01092169	NomMel_119	NomMel_119_REGV01092169	EFV	3	119	1	Nomia_melanderi	REGV01092169.1	128	280	153	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_77_REGV01092441	NomMel_77	NomMel_77_REGV01092441	EFV	3	77	1	Nomia_melanderi	REGV01092441.1	1	384	384	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_66_REGV01092516	NomMel_66	NomMel_66_REGV01092516	EFV	3	66	1	Nomia_melanderi	REGV01092516.1	2	451	450	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_98_REGV01092580	NomMel_98	NomMel_98_REGV01092580	EFV	3	98	1	Nomia_melanderi	REGV01092580.1	8	313	306	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_110_REGV01092706	NomMel_110	NomMel_110_REGV01092706	EFV	3	110	1	Nomia_melanderi	REGV01092706.1	2	319	318	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_95_REGV01093040	NomMel_95	NomMel_95_REGV01093040	EFV	3	95	1	Nomia_melanderi	REGV01093040.1	7	291	285	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_99_REGV01093291	NomMel_99	NomMel_99_REGV01093291	EFV	3	99	1	Nomia_melanderi	REGV01093291.1	27	242	216	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_116_REGV01093320	NomMel_116	NomMel_116_REGV01093320	EFV	3	116	1	Nomia_melanderi	REGV01093320.1	3	299	297	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_75_REGV01093438	NomMel_75	NomMel_75_REGV01093438	EFV	3	75	1	Nomia_melanderi	REGV01093438.1	2	454	453	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+NomMel_86_REGV01093916	NomMel_86	NomMel_86_REGV01093916	EFV	3	86	1	Nomia_melanderi	REGV01093916.1	1	333	333	negative	Ceratina-Pestinsect-EFV	FlaviPesti	Pesti-like	PL2	Bee
+OsmBic_1_MPJT01000491	OsmBic_1	OsmBic_1_MPJT01000491	EFV	3	1	1	Osmia_bicornis_bicornis	MPJT01000491.1	16257	17396	1140	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+OsmBic_2_MPJT01000491	OsmBic_2	OsmBic_2_MPJT01000491	EFV	3	2	1	Osmia_bicornis_bicornis	MPJT01000491.1	19495	21079	1585	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Bee
+EFV-Pestinsect.4.1.1-Andricus_cur	Pestinsect.4.1.1	EFV-Pestinsect.4.1.1-Andricus_cur	EFV	4	1	1	Andricus curvator	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	Pesti-like	PL2	
+EFV-Pestinsect.4.1.1-Andricus_que	Pestinsect.4.1.1	EFV-Pestinsect.4.1.1-Andricus_que	EFV	4	1	1	Andricus quercusramuli	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	Pesti-like	PL2	
+EFV-Pestinsect.4.1.2-Andricus_que	Pestinsect.4.1.2	EFV-Pestinsect.4.1.2-Andricus_que	EFV	4	1	2	Andricus quercusramuli	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	Pesti-like	PL2	
+EFV-Pestinsect.5.1.1-Anoplophora	Pestinsect.5.1.1	EFV-Pestinsect.5.1.1-Anoplophora	EFV	5	1	1	Anoplophora_glabripennis	KB933796.1	242392	242742	351	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	
+EFV-Pestinsect.1.1.3-Calycopis	Pestinsect.1.1.3	EFV-Pestinsect.1.1.3-Calycopis	EFV	1	3	1	Calycopis_cecrops	LUGF01005621.1	81384	81909	525	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	
+EFV-Pestinsect.1.1.1-Calycopis	Pestinsect.1.1.1	EFV-Pestinsect.1.1.1-Calycopis	EFV	1	1	1	Calycopis_cecrops	LUGF01005621.1	81912	82433	521	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	
+EFV-Pestinsect.1.1.4-Calycopis	Pestinsect.1.1.4	EFV-Pestinsect.1.1.4-Calycopis	EFV	1	4	1	Calycopis_cecrops	LUGF01006995.1	11590	11976	386	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	
+EFV-Pestinsect.1.1.2-Calycopis	Pestinsect.1.1.2	EFV-Pestinsect.1.1.2-Calycopis	EFV	1	2	1	Calycopis_cecrops	LUGF01022944.1	133	1668	1535	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	
+EFV-Pestinsect.2.1.2-Euschistus	Pestinsect.2.1.2	EFV-Pestinsect.2.1.2-Euschistus	EFV	2	1	2	Euschistus_heros	RCWM01000197.1	413514	416204	2691	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	
+EFV-Pestinsect.2.1.1-Euschistus	Pestinsect.2.1.1	EFV-Pestinsect.2.1.1-Euschistus	EFV	2	1	1	Euschistus_heros	RCWM01000536.1	8707	10181	1475	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	
+EFV-Pestinsect.7.1.1-Operophtera	Pestinsect.7.1.1	EFV-Pestinsect.7.1.1-Operophtera	EFV	7	1	1	Operophtera brumata	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	Pesti-like	PL2	
+EFV-Pestinsect.7.2.1-Operophtera	Pestinsect.7.2.1	EFV-Pestinsect.7.2.1-Operophtera	EFV	7	2	1	Operophtera brumata	NULL	0	0	0	NULL	FlaviPesti	FlaviPesti	Pesti-like	PL2	
+XenBra_1_OFSG01001798	XenBra_1	XenBra_1_OFSG01001798	EFV	5	1	1	Xenocatantops_brachycerus	OFSG01001798.1	488	9202	8715	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
+XenBra_4_OFSG01001798	XenBra_4	XenBra_4_OFSG01001798	EFV	5	4	1	Xenocatantops_brachycerus	OFSG01001798.1	13353	17300	3948	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
+XenBra_16_OFSG01001799	XenBra_16	XenBra_16_OFSG01001799	EFV	5	16	1	Xenocatantops_brachycerus	OFSG01001799.1	2343	2834	492	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
+XenBra_14_OFSG01001800	XenBra_14	XenBra_14_OFSG01001800	EFV	5	14	1	Xenocatantops_brachycerus	OFSG01001800.1	2343	2822	480	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
+XenBra_15_OFSG01001802	XenBra_15	XenBra_15_OFSG01001802	EFV	5	15	1	Xenocatantops_brachycerus	OFSG01001802.1	173	652	480	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
+XenBra_3_OFSG01020321	XenBra_3	XenBra_3_OFSG01020321	EFV	5	3	1	Xenocatantops_brachycerus	OFSG01020321.1	489	7505	7017	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
+XenBra_9_OFSG01027479	XenBra_9	XenBra_9_OFSG01027479	EFV	5	9	1	Xenocatantops_brachycerus	OFSG01027479.1	1	513	513	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
+XenBra_11_OFSG01027522	XenBra_11	XenBra_11_OFSG01027522	EFV	5	11	1	Xenocatantops_brachycerus	OFSG01027522.1	2	712	711	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
+XenBra_6_OFSG01031643	XenBra_6	XenBra_6_OFSG01031643	EFV	5	6	1	Xenocatantops_brachycerus	OFSG01031643.1	24	1022	999	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
+XenBra_2_OFSG01039133	XenBra_2	XenBra_2_OFSG01039133	EFV	5	2	1	Xenocatantops_brachycerus	OFSG01039133.1	492	6512	6021	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
+XenBra_10_OFSG01039134	XenBra_10	XenBra_10_OFSG01039134	EFV	5	10	1	Xenocatantops_brachycerus	OFSG01039134.1	8	673	666	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
+XenBra_13_OFSG01039141	XenBra_13	XenBra_13_OFSG01039141	EFV	5	13	1	Xenocatantops_brachycerus	OFSG01039141.1	6	227	222	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
+XenBra_5_OFSG01039142	XenBra_5	XenBra_5_OFSG01039142	EFV	5	5	1	Xenocatantops_brachycerus	OFSG01039142.1	13	1491	1479	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
+XenBra_12_OFSG01039197	XenBra_12	XenBra_12_OFSG01039197	EFV	5	12	1	Xenocatantops_brachycerus	OFSG01039197.1	910	1593	684	positive	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
+XenBra_7_OFSG01039583	XenBra_7	XenBra_7_OFSG01039583	EFV	5	7	1	Xenocatantops_brachycerus	OFSG01039583.1	24	1130	1107	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
+XenBra_8_OFSG01040772	XenBra_8	XenBra_8_OFSG01040772	EFV	5	8	1	Xenocatantops_brachycerus	OFSG01040772.1	1	273	273	negative	FlaviPesti	FlaviPesti	Pesti-like	PL2	Grasshopper
