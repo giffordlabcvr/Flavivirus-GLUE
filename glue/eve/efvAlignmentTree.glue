@@ -121,7 +121,7 @@
   alignment AL_Jingmenvirus
 
 	extract child AL_EJP-Jingmen.1-Chironomus  -r REF_EJP-Jingmen.1-Chironomus
-	demote member AL_EJP-Jingmen.1-Chironomus  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EFV-Jingmen.1-Chironomus'"
+	demote member AL_EJP-Jingmen.1-Chironomus  -w "sequence.source.name = 'fasta-eve' and sequence.locus_data.locus_id = 'EJP-Jingmen.1-Chironomus'"
     exit
 
   #
@@ -268,12 +268,18 @@
     derive segments AL_EFV_UNC_Austrolofundulus -a --existingMembersOnly
     exit
 
+  alignment AL_EFV_X2.3-StyCho
+    derive segments AL_EFV_UNC_Stylophorus -a --existingMembersOnly
+    exit
+
+
+
   #
   # Jingmenvirus
   #
 
   alignment AL_EJP-Jingmen.1-Chironomus
-    derive segments AL_EFV_UNC_JMTV1_Chironomus -a --existingMembersOnly
+    derive segments AL_EJP_UNC_JMTV1_Chironomus -a --existingMembersOnly
     exit
 
   #

@@ -8,8 +8,9 @@ module unconstrainedAlignmentImporter
   import AL_EFV_UNC_Priapulus                -f alignments/eve/tip/x1/x1-priapulus.fna
 
   #~# X2
-  import AL_EFV_UNC_Austrolofundulus         -f alignments/eve/tip/x2/x2-austrolofundulus.fna
-  import AL_EFV_UNC_Eurytemora               -f alignments/eve/tip/x2/x2-eurytemora.fna
+  import AL_EFV_UNC_Eurytemora               -f alignments/eve/tip/x2/efv-x2.1-EurAff.aln.fna
+  import AL_EFV_UNC_Austrolofundulus         -f alignments/eve/tip/x2/efv-x2.2-AusLim.aln.fna
+  import AL_EFV_UNC_Stylophorus              -f alignments/eve/tip/x2/efv-x2.3-StyCho.aln.fna
 
   #~# Flavirus
   import AL_EFV_UNC_Flavi_Daphnia            -f alignments/eve/tip/flavivirus/flavivirus-daphnia.fna
@@ -26,7 +27,7 @@ module unconstrainedAlignmentImporter
   import AL_EFV_UNC_Tamana_Laupala           -f alignments/eve/tip/tamanavirus/tamana-laupala.fna
 
   #~# Jingmenvirus
-  import AL_EFV_UNC_JMTV1_Chironomus         -f alignments/eve/tip/jingmenvirus/jmtv1-chironomus.fna
+  import AL_EJP_UNC_JMTV1_Chironomus         -f alignments/eve/tip/jingmenvirus/jmtv1-chironomus.fna
 
   #~# Pestinsect
   #import AL_EFV_UNC_Pestinsect_Calycopis    -f alignments/eve/tip/pl2/pestinsect-calycopis.fna
