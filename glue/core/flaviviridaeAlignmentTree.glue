@@ -133,7 +133,7 @@
   #
   
   alignment AL_MASTER_Flaviviridae_ROOT
-    derive segments AL_UNC_Flaviviridae -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_Flaviviridae -a --exist --mergeStrategy OVERWRITE
     exit
 
 
