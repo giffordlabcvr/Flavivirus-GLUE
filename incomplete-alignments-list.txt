@@ -23,3 +23,8 @@
  AL_EFV_1-ElyChl
  AL_Hepacivirus
  AL_Pegivirus
+
+AL_EFV_UNC_Flavi_Craspedacusta
+AL_EFV_UNC_Flavi_Lepidurus
+AL_MASTER_Flaviviridae_ROOT
+AL_UNC_Flaviviridae
