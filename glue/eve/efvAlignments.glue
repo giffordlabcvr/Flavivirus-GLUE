@@ -2,38 +2,36 @@
 
 module unconstrainedAlignmentImporter	
 	
-  # Import EVE 'tip' alignments (alignments of multicopy EVE loci believed to have a common origin)
+  #~# Import EVE 'tip' alignments (alignments of multicopy EVE loci believed to have a common origin)
 
-  #~# X1
+  # X1
   import AL_EFV_UNC_Priapulus                -f alignments/eve/tip/x1/efv-x2.1-PriCau.aln.fna
 
-  #~# X2
+  # X2
   #import AL_EFV_UNC_Eurytemora               -f alignments/eve/tip/x2/efv-x2.1-EurAff.aln.fna
   #import AL_EFV_UNC_Austrolofundulus         -f alignments/eve/tip/x2/efv-x2.2-AusLim.aln.fna
   #import AL_EFV_UNC_Stylophorus              -f alignments/eve/tip/x2/efv-x2.3-StyCho.aln.fna
 
-  #~# Flavirus
+  # Flavirus
   import AL_EFV_UNC_Flavi_Daphnia            -f alignments/eve/tip/flavivirus/flavivirus-daphnia.fna
   import AL_EFV_UNC_Flavi_Craspedacusta      -f alignments/eve/tip/flavivirus/flavivirus-craspadecusta.fna
   import AL_EFV_UNC_Flavi_Lepidurus          -f alignments/eve/tip/flavivirus/flavivirus-lepidurus.fna
 
-  #~# cISF
+  # cISF
   import AL_EFV_UNC_cISF_Aedes_aeg           -f alignments/eve/tip/flavivirus-cisf/cisf-aedes-aeg.fna
   import AL_EFV_UNC_cISF_Aedes_alb           -f alignments/eve/tip/flavivirus-cisf/cisf-aedes-alb.fna
   import AL_EFV_UNC_cISF_Tipula              -f alignments/eve/tip/flavivirus-cisf/cisf-tipula.fna
 
-  #~# Tamanavirus
+  # Tamanavirus
   import AL_EFV_UNC_Tamana_Amphinemura       -f alignments/eve/tip/tamanavirus/tamana-amphinemura.fna
   import AL_EFV_UNC_Tamana_Laupala           -f alignments/eve/tip/tamanavirus/tamana-laupala.fna
 
-  #~# Jingmenvirus
+  # Jingmenvirus
   import AL_EJP_UNC_JMTV1_Chironomus         -f alignments/eve/tip/jingmenvirus/jmtv1-chironomus.fna
 
-  #~# Pestinsect
+  # Pestinsect
   #import AL_EFV_UNC_Pestinsect_Calycopis    -f alignments/eve/tip/pl2/pestinsect-calycopis.fna
   import AL_EFV_UNC_Pestinsect_Andricus      -f alignments/eve/tip/pl2/pestinsect-andricus.fna
   import AL_EFV_UNC_Pestinsect_Operophtera   -f alignments/eve/tip/pl2/pestinsect-operophtera.fna
 
   exit
-
-
