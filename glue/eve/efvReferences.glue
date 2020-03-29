@@ -35,9 +35,9 @@ create reference REF_EFV-Tamana.4-StyCho        fasta-eve-refseqs EFV-Tamana.4-S
 create reference REF_EFV-X1.1-PriCau            fasta-eve-refseqs EFV-X1.1-PriCau-con
 
 ### X2
-create reference REF_EFV-X2.1-EurAff            fasta-eve-refseqs EFV-X2.1-EurAff-con
-create reference REF_EFV-X2.2-AusLim            fasta-eve-refseqs EFV-X2.2-AusLim-con
-create reference REF_EFV-X2.3-StyCho            fasta-eve-refseqs EFV-X2.3-StyCho-con
+create reference REF_EFV-X2.1-AusLim            fasta-eve-refseqs EFV-X2.1-AusLim-con
+create reference REF_EFV-X2.2-StyCho            fasta-eve-refseqs EFV-X2.2-StyCho-con
+create reference REF_EFV-X2.3-EurAff            fasta-eve-refseqs EFV-X2.3-EurAff-con
 
 ### Jingmenvirus
 create reference REF_EJP-Jingmen.1-Chironomus   fasta-eve-refseqs EJP-Jingmen.1-Chironomus-con

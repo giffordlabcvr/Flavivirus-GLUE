@@ -126,7 +126,7 @@ function process_virus_isolates() {
 	// Numbers in each clade category
 }
 
-// Process virus isolates sequences 
+// Process EVE sequences 
 function process_eves() {
 
 

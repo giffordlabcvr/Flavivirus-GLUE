@@ -8,9 +8,9 @@ module unconstrainedAlignmentImporter
   import AL_EFV_UNC_Priapulus                -f alignments/eve/tip/x1/efv-x2.1-PriCau.aln.fna
 
   #~# X2
-  import AL_EFV_UNC_Eurytemora               -f alignments/eve/tip/x2/efv-x2.1-EurAff.aln.fna
-  import AL_EFV_UNC_Austrolofundulus         -f alignments/eve/tip/x2/efv-x2.2-AusLim.aln.fna
-  import AL_EFV_UNC_Stylophorus              -f alignments/eve/tip/x2/efv-x2.3-StyCho.aln.fna
+  #import AL_EFV_UNC_Eurytemora               -f alignments/eve/tip/x2/efv-x2.1-EurAff.aln.fna
+  #import AL_EFV_UNC_Austrolofundulus         -f alignments/eve/tip/x2/efv-x2.2-AusLim.aln.fna
+  #import AL_EFV_UNC_Stylophorus              -f alignments/eve/tip/x2/efv-x2.3-StyCho.aln.fna
 
   #~# Flavirus
   import AL_EFV_UNC_Flavi_Daphnia            -f alignments/eve/tip/flavivirus/flavivirus-daphnia.fna
