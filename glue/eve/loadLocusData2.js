@@ -1,7 +1,7 @@
-// Load EVE data from tab file 
+// Load flavivirus EVE data from tab file 
 var loadResult;
 glue.inMode("module/flaviviridaeTabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/locus/efv-locus-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/efv-digs/efv-side-data.tsv"]));
 	//glue.log("INFO", "load result was:", loadResult);
 });
 

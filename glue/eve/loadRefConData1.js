@@ -1,5 +1,5 @@
-// list the circovirus EVE sequences
-var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'fasta-eve-refseqs'"]);
+// list the flavivirus EVE sequences
+var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'fasta-refseqs-eve'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIds = glue.getTableColumn(listSeqResult, "sequenceID");
@@ -13,7 +13,7 @@ _.each(seqIds, function(seqId) {
     glue.command(["create", "custom-table-row", "refcon_data", seqId]);
     
     // associate the corresponding sequence with this object.
-    glue.inMode("sequence/fasta-eve-refseqs/"+seqId, function() {
+    glue.inMode("sequence/fasta-refseqs-eve/"+seqId, function() {
         glue.command(["set", "link-target", "refcon_data", "custom-table-row/refcon_data/"+seqId]);    
     });
 
