@@ -1,13 +1,6 @@
 # Import pre-built alignments
 
 module unconstrainedAlignmentImporter	
-
-  #~# Import EVE 'tip' alignments (alignments of multicopy EVE loci believed to have a common origin)
-
-  # X1
-  import AL_EFV_UNC_Priapulus                -f alignments/eve/tip/x1/efv-x2.1-PriCau.aln.fna
-
-
 	
   #~# Import EVE 'tip' alignments (alignments of multicopy EVE loci believed to have a common origin)
 

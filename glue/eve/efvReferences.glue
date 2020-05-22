@@ -1,44 +1,44 @@
 #### EFV reference sequences
 
 ### HepaPegi
-create reference REF_EFV-HepaPegi.1-ElyChl      fasta-eve-refseqs EFV-HepaPegi.1-ElyChl
+create reference REF_EFV-HepaPegi.1-ElyChl      fasta-refseqs-eve EFV-HepaPegi.1-ElyChl
 
 ### Pesti-like 2
-create reference REF_EFV-PL2.1-CalCec           fasta-eve-refseqs EFV-PL2.1-CalCec-con
-create reference REF_EFV-PL2.3-CerCal           fasta-eve-refseqs EFV-PL2.3-CerCal-con
-create reference REF_EFV-PL2.6-XenBra           fasta-eve-refseqs EFV-PL2.6-XenBra-con
-#create reference REF_EFV-PL2.7-Operophtera      fasta-eve-refseqs EFV-PL2.7-Operophtera
-#create reference REF_EFV-PL2.2-EusHer          fasta-eve-refseqs EFV-PL2.2-EusHer-con
-#create reference REF_EFV-PL2.4-Andricus        fasta-eve-refseqs EFV-PL2.4-Andricus
-#create reference REF_EFV-PL2.5-Anoplophora     fasta-eve-refseqs EFV-PL2.5-Anoplophora
+create reference REF_EFV-PL2.1-CalCec           fasta-refseqs-eve EFV-PL2.1-CalCec-con
+create reference REF_EFV-PL2.3-CerCal           fasta-refseqs-eve EFV-PL2.3-CerCal-con
+create reference REF_EFV-PL2.6-XenBra           fasta-refseqs-eve EFV-PL2.6-XenBra-con
+#create reference REF_EFV-PL2.7-Operophtera      fasta-refseqs-eve EFV-PL2.7-Operophtera
+#create reference REF_EFV-PL2.2-EusHer          fasta-refseqs-eve EFV-PL2.2-EusHer-con
+#create reference REF_EFV-PL2.4-Andricus        fasta-refseqs-eve EFV-PL2.4-Andricus
+#create reference REF_EFV-PL2.5-Anoplophora     fasta-refseqs-eve EFV-PL2.5-Anoplophora
 
 ### cISF 
-create reference REF_EFV-cISF.1-AedAeg          fasta-eve-refseqs EFV-cISF.1-AedAeg-con  
-create reference REF_EFV-cISF.2-AedAlb          fasta-eve-refseqs EFV-cISF.2-AedAlb-con  
-create reference REF_EFV-cISF.3-AnoMin          fasta-eve-refseqs EFV-cISF.3-AnoMin  
-create reference REF_EFV-cISF.4-AnoSin          fasta-eve-refseqs EFV-cISF.4-AnoSin  
-create reference REF_EFV-cISF.5-TipOle          fasta-eve-refseqs EFV-cISF.5-TipOle-con
-create reference REF_EFV-cISF.6-ConPat          fasta-eve-refseqs EFV-cISF.6-ConPat
+create reference REF_EFV-cISF.1-AedAeg          fasta-refseqs-eve EFV-cISF.1-AedAeg-con  
+create reference REF_EFV-cISF.2-AedAlb          fasta-refseqs-eve EFV-cISF.2-AedAlb-con  
+create reference REF_EFV-cISF.3-AnoMin          fasta-refseqs-eve EFV-cISF.3-AnoMin  
+create reference REF_EFV-cISF.4-AnoSin          fasta-refseqs-eve EFV-cISF.4-AnoSin  
+create reference REF_EFV-cISF.5-TipOle          fasta-refseqs-eve EFV-cISF.5-TipOle-con
+create reference REF_EFV-cISF.6-ConPat          fasta-refseqs-eve EFV-cISF.6-ConPat
 
 ### Flavivirus 
-create reference REF_EFV-Flavi.1-CraSow         fasta-eve-refseqs EFV-Flavi.1-CraSow-con
-create reference REF_EFV-Flavi.2-DapMag         fasta-eve-refseqs EFV-Flavi.2-DapMag-con
-create reference REF_EFV-Flavi.3-LepArc         fasta-eve-refseqs EFV-Flavi.3-LepArc-con
+create reference REF_EFV-Flavi.1-CraSow         fasta-refseqs-eve EFV-Flavi.1-CraSow-con
+create reference REF_EFV-Flavi.2-DapMag         fasta-refseqs-eve EFV-Flavi.2-DapMag-con
+create reference REF_EFV-Flavi.3-LepArc         fasta-refseqs-eve EFV-Flavi.3-LepArc-con
 
 ### Tamanavirus
-create reference REF_EFV-Tamana.1-LedTum        fasta-eve-refseqs EFV-Tamana.1-LedTum
-create reference REF_EFV-Tamana.2-LauKoh        fasta-eve-refseqs EFV-Tamana.2-LauKoh-con
-create reference REF_EFV-Tamana.3-AmpSul        fasta-eve-refseqs EFV-Tamana.3-AmpSul-con
-create reference REF_EFV-Tamana.4-StyCho        fasta-eve-refseqs EFV-Tamana.4-StyCho
+create reference REF_EFV-Tamana.1-LedTum        fasta-refseqs-eve EFV-Tamana.1-LedTum
+create reference REF_EFV-Tamana.2-LauKoh        fasta-refseqs-eve EFV-Tamana.2-LauKoh-con
+create reference REF_EFV-Tamana.3-AmpSul        fasta-refseqs-eve EFV-Tamana.3-AmpSul-con
+create reference REF_EFV-Tamana.4-StyCho        fasta-refseqs-eve EFV-Tamana.4-StyCho
 
 ### X1
-create reference REF_EFV-X1.1-PriCau            fasta-eve-refseqs EFV-X1.1-PriCau-con
+create reference REF_EFV-X1.1-PriCau            fasta-refseqs-eve EFV-X1.1-PriCau-con
 
 ### X2
-create reference REF_EFV-X2.1-AusLim            fasta-eve-refseqs EFV-X2.1-AusLim-con
-create reference REF_EFV-X2.2-StyCho            fasta-eve-refseqs EFV-X2.2-StyCho-con
-create reference REF_EFV-X2.3-EurAff            fasta-eve-refseqs EFV-X2.3-EurAff-con
+create reference REF_EFV-X2.1-AusLim            fasta-refseqs-eve EFV-X2.1-AusLim-con
+create reference REF_EFV-X2.2-StyCho            fasta-refseqs-eve EFV-X2.2-StyCho-con
+create reference REF_EFV-X2.3-EurAff            fasta-refseqs-eve EFV-X2.3-EurAff-con
 
 ### Jingmenvirus
-create reference REF_EJP-Jingmen.1-Chironomus   fasta-eve-refseqs EJP-Jingmen.1-Chironomus-con
+create reference REF_EJP-Jingmen.1-Chironomus   fasta-refseqs-eve EJP-Jingmen.1-Chironomus-con
 

@@ -11,8 +11,8 @@ project flaviviridae
   run file glue/eve/efvModules.glue
 
   # Import sources
-  import source sources/fasta-eve-refseqs/
-  import source sources/fasta-eve/
+  import source sources/fasta-refseqs-eve/
+  import source sources/fasta-digs-eve/
 
   # Create references
   run file glue/eve/efvReferences.glue
