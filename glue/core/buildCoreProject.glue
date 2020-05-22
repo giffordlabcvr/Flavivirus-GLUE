@@ -20,7 +20,7 @@ project flaviviridae
   run file glue/core/flaviviridaeReferences.glue
 
   # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/virus/flavi-reference_feature_locations.tsv  -r
+  module featureLocationTextToGlue transform tabular/core/flavi-reference_feature_locations.tsv  -r
 
   # Add variations
   #run file glue/core/flaviviridaeVariations.glue

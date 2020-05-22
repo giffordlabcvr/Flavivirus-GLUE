@@ -8,10 +8,10 @@
  
   # Import metadata for reference/consensus EVE sequences
   module efvSideDataImporterRefcon
-    populate -f tabular/eve/efv-refseq-side-data.tsv
+    populate -f tabular/efv-refseqs/efv-refseq-side-data.tsv
     exit
 
   # Import metadata for rank & file EVE sequences
   module efvSideDataImporter 
-    populate -f tabular/locus/efv-locus-data.tsv
+    populate -f tabular/efv-digs/efv-side-data.tsv
     exit

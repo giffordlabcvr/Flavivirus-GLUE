@@ -1,4 +1,4 @@
-// list the circovirus EVE sequences
+// list the flavivirus EVE sequences
 var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'fasta-refseqs-eve'"]);
 
 // extract from the result a list of sequence IDs.
