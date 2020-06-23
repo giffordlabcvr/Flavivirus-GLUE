@@ -150,9 +150,9 @@
     derive segments AL_UNC_FLAVI_PESTI -a --mergeStrategy OVERWRITE
     exit
 
-    alignment AL_PestiLike
+  alignment AL_PestiLike
     derive segments AL_UNC_PESTI_LIKE -a --mergeStrategy OVERWRITE
-    exit
+   exit
 
   alignment AL_FlaviLike
     derive segments AL_UNC_FLAVI_LIKE -a --mergeStrategy OVERWRITE

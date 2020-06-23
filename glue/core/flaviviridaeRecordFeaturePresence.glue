@@ -1,0 +1,32 @@
+  delete module flaviviridaeFeaturePresenceRecorder
+  create module -f modules/flaviviridaeFeaturePresenceRecorder.xml
+
+  module flaviviridaeFeaturePresenceRecorder 
+
+    #~# Root alignment
+    record feature-presence AL_MASTER_Flaviviridae_ROOT --recursive --featureName whole_genome --descendentFeatures
+
+    #~# Major subclade alignments
+    record feature-presence AL_HepaPegi --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_FlaviPesti --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_PestiLike --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_FlaviLike --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_FlaviTamana --recursive --featureName whole_genome --descendentFeatures
+    
+    #~# Genus alignments
+    record feature-presence AL_Pestivirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_PL1 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_PL2 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Jingmenvirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Tamanavirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Flavivirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_mosquito-2 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_tick --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_dISF1A --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_dISF1B --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_dISF2 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_NKV1 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_NKV2 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_crustacean --recursive --featureName whole_genome --descendentFeatures
+    exit
+

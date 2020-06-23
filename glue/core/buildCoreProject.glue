@@ -30,6 +30,12 @@ project flaviviridae
 
   # Import alignment tree
   run file glue/core/flaviviridaeAlignmentTree.glue
+
+  # Record feature coverage in alignments
+  run file glue/core/flaviviridaeRecordFeaturePresence.glue
+
+  # Create phylogenies
+  #run file glue/core/flaviviridaeCreateRootPhylogenies.glue
  
   validate
 
