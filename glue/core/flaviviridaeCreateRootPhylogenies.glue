@@ -151,9 +151,7 @@
 
 
   # Export annotations
-  module FlaviFigTreeAnnotationExporter 
-    #export figtree-annotation AL_UNC_Flavi_membrane -f trees/Flavi-membrane.figtree-annotations.tsv
-    #export figtree-annotation AL_UNC_Flavi_premembrane -f trees/Flavi-premembrane.figtree-annotations.tsv
+  module flaviviridaeFigTreeAnnotationExporter 
     export figtree-annotation AL_UNC_Flavi_whole_genome -f trees/Flavi-whole_genome.figtree-annotations.tsv
     export figtree-annotation AL_UNC_Flavi_precursor_polyprotein -f trees/Flavi-precursor_polyprotein.figtree-annotations.tsv
     export figtree-annotation AL_UNC_Flavi_structural_proteins -f trees/Flavi-structural_proteins.figtree-annotations.tsv
