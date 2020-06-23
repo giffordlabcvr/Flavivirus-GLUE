@@ -1,0 +1,173 @@
+  # Clean up from any previous run of this file
+  delete alignment AL_UNC_Flavi_whole_genome
+  delete alignment AL_UNC_Flavi_2K
+  delete alignment AL_UNC_Flavi_NS2A
+  delete alignment AL_UNC_Flavi_NS2B
+  delete alignment AL_UNC_Flavi_NS4A
+  delete alignment AL_UNC_Flavi_NS4B
+  delete alignment AL_UNC_Flavi_NS1
+  delete alignment AL_UNC_Flavi_NS3
+  delete alignment AL_UNC_Flavi_NS5
+  delete alignment AL_UNC_Flavi_non_structural_proteins
+  delete alignment AL_UNC_Flavi_structural_proteins
+  delete alignment AL_UNC_Flavi_capsid
+  delete alignment AL_UNC_Flavi_envelope
+  delete alignment AL_UNC_Flavi_precursor_polyprotein
+
+  delete module fastaAlignmentExporter
+  delete module flaviviridaeTreeAlignmentImporterNucs
+  delete module raxmlPhylogenyGenerator
+  delete module flaviviridaePhyloUtility
+  delete module flaviviridaeFigTreeAnnotationExporter
+  
+  # Create all the modules we need
+  create module -f modules/fastaAlignmentExporter.xml
+  create module -f modules/flaviviridaeTreeAlignmentImporterNucs.xml
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/flaviviridaePhyloUtility.xml
+  create module -f modules/flaviviridaeFigTreeAnnotationExporter.xml
+
+  # Export the gene alignments
+  module fastaAlignmentExporter
+ 	export AL_Flavivirus -r  REF_MASTER_YFV -f whole_genome -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Flavi-whole_genome.aln.fna
+ 	export AL_Flavivirus -r  REF_MASTER_YFV -f 2K -w "fLocNotes.featureLoc.feature.name = '2K' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Flavi-2K.aln.fna
+ 	export AL_Flavivirus -r  REF_MASTER_YFV -f flavi-NS2A -w "fLocNotes.featureLoc.feature.name = 'flavi-NS2A' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Flavi-NS2A.aln.fna
+ 	export AL_Flavivirus -r  REF_MASTER_YFV -f flavi-NS2B -w "fLocNotes.featureLoc.feature.name = 'flavi-NS2B' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Flavi-NS2B.aln.fna
+ 	export AL_Flavivirus -r  REF_MASTER_YFV -f flavi-NS4A -w "fLocNotes.featureLoc.feature.name = 'flavi-NS4A' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Flavi-NS4A.aln.fna
+ 	export AL_Flavivirus -r  REF_MASTER_YFV -f flavi-NS4B -w "fLocNotes.featureLoc.feature.name = 'flavi-NS4B' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Flavi-NS4B.aln.fna
+ 	export AL_Flavivirus -r  REF_MASTER_YFV -f NS1 -w "fLocNotes.featureLoc.feature.name = 'NS1' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Flavi-NS1.aln.fna
+ 	export AL_Flavivirus -r  REF_MASTER_YFV -f NS3 -w "fLocNotes.featureLoc.feature.name = 'NS3' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Flavi-NS3.aln.fna
+ 	export AL_Flavivirus -r  REF_MASTER_YFV -f NS5 -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Flavi-NS5.aln.fna
+ 	export AL_Flavivirus -r  REF_MASTER_YFV -f non_structural_proteins -w "fLocNotes.featureLoc.feature.name = 'non_structural_proteins' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Flavi-non_structural_proteins.aln.fna
+ 	export AL_Flavivirus -r  REF_MASTER_YFV -f structural_proteins -w "fLocNotes.featureLoc.feature.name = 'structural_proteins' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Flavi-structural_proteins.aln.fna
+ 	export AL_Flavivirus -r  REF_MASTER_YFV -f flavi-capsid -w "fLocNotes.featureLoc.feature.name = 'flavi-capsid' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Flavi-capsid.aln.fna
+ 	export AL_Flavivirus -r  REF_MASTER_YFV -f flavi-envelope -w "fLocNotes.featureLoc.feature.name = 'flavi-envelope' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Flavi-envelope.aln.fna
+ 	export AL_Flavivirus -r  REF_MASTER_YFV -f precursor_polyprotein -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Flavi-precursor_polyprotein.aln.fna
+	exit
+
+  # Import the flavivirus alignments to GLUE
+  module flaviviridaeTreeAlignmentImporterNucs import AL_UNC_Flavi_whole_genome -f alignments/tree/Flavi-whole_genome.aln.fna
+  module flaviviridaeTreeAlignmentImporterNucs import AL_UNC_Flavi_precursor_polyprotein -f alignments/tree/Flavi-precursor_polyprotein.aln.fna
+  module flaviviridaeTreeAlignmentImporterNucs import AL_UNC_Flavi_structural_proteins -f alignments/tree/Flavi-structural_proteins.aln.fna
+  module flaviviridaeTreeAlignmentImporterNucs import AL_UNC_Flavi_capsid -f alignments/tree/Flavi-capsid.aln.fna
+  module flaviviridaeTreeAlignmentImporterNucs import AL_UNC_Flavi_envelope -f alignments/tree/Flavi-envelope.aln.fna
+  module flaviviridaeTreeAlignmentImporterNucs import AL_UNC_Flavi_non_structural_proteins -f alignments/tree/Flavi-non_structural_proteins.aln.fna
+  module flaviviridaeTreeAlignmentImporterNucs import AL_UNC_Flavi_2K -f alignments/tree/Flavi-2K.aln.fna
+  module flaviviridaeTreeAlignmentImporterNucs import AL_UNC_Flavi_NS1 -f alignments/tree/Flavi-NS1.aln.fna
+  module flaviviridaeTreeAlignmentImporterNucs import AL_UNC_Flavi_NS2A -f alignments/tree/Flavi-NS2A.aln.fna
+  module flaviviridaeTreeAlignmentImporterNucs import AL_UNC_Flavi_NS2B -f alignments/tree/Flavi-NS2B.aln.fna
+  module flaviviridaeTreeAlignmentImporterNucs import AL_UNC_Flavi_NS3 -f alignments/tree/Flavi-NS3.aln.fna
+  module flaviviridaeTreeAlignmentImporterNucs import AL_UNC_Flavi_NS4A -f alignments/tree/Flavi-NS4A.aln.fna
+  module flaviviridaeTreeAlignmentImporterNucs import AL_UNC_Flavi_NS4B -f alignments/tree/Flavi-NS4B.aln.fna
+  module flaviviridaeTreeAlignmentImporterNucs import AL_UNC_Flavi_NS5 -f alignments/tree/Flavi-NS5.aln.fna
+
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_UNC_Flavi_whole_genome -a -o trees/Flavi-whole_genome.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Flavi_precursor_polyprotein -a -o trees/Flavi-precursor_polyprotein.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Flavi_structural_proteins -a -o trees/Flavi-structural_proteins.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Flavi_capsid -a -o trees/Flavi-capsid.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Flavi_envelope -a -o trees/Flavi-envelope.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Flavi_non_structural_proteins -a -o trees/Flavi-non_structural_proteins.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Flavi_2K -a -o trees/Flavi-2K.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Flavi_NS1 -a -o trees/Flavi-NS1.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Flavi_NS2A -a -o trees/Flavi-NS2A.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Flavi_NS2B -a -o trees/Flavi-NS2B.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Flavi_NS3 -a -o trees/Flavi-NS3.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Flavi_NS4A -a -o trees/Flavi-NS4A.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Flavi_NS4B -a -o trees/Flavi-NS4B.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Flavi_NS5 -a -o trees/Flavi-NS5.export_nucs.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  # Re-root phylogeny 
+  module flaviviridaePhyloUtility 
+
+	reroot-phylogeny \
+      --inputFile trees/Flavi-whole_genome.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Flavi-whole_genome.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Flavi-precursor_polyprotein.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Flavi-precursor_polyprotein.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Flavi-structural_proteins.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Flavi-structural_proteins.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Flavi-capsid.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Flavi-capsid.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Flavi-envelope.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Flavi-envelope.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Flavi-2K.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Flavi-2K.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Flavi-NS1.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Flavi-NS1.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Flavi-NS2A.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Flavi-NS2A.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Flavi-NS2B.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Flavi-NS2B.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Flavi-NS3.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Flavi-NS3.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Flavi-NS4A.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Flavi-NS4A.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Flavi-NS4B.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Flavi-NS4B.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Flavi-NS5.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Flavi-NS5.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+
+
+  # Export annotations
+  module FlaviFigTreeAnnotationExporter 
+    #export figtree-annotation AL_UNC_Flavi_membrane -f trees/Flavi-membrane.figtree-annotations.tsv
+    #export figtree-annotation AL_UNC_Flavi_premembrane -f trees/Flavi-premembrane.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Flavi_whole_genome -f trees/Flavi-whole_genome.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Flavi_precursor_polyprotein -f trees/Flavi-precursor_polyprotein.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Flavi_structural_proteins -f trees/Flavi-structural_proteins.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Flavi_capsid   -f trees/Flavi-capsid.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Flavi_envelope -f trees/Flavi-envelope.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Flavi_2K -f trees/Flavi-2K.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Flavi_NS1 -f trees/Flavi-NS1.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Flavi_NS2A -f trees/Flavi-NS2A.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Flavi_NS2B -f trees/Flavi-NS2B.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Flavi_NS3 -f trees/Flavi-NS3.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Flavi_NS4A -f trees/Flavi-NS4A.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Flavi_NS4B -f trees/Flavi-NS4B.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Flavi_NS5 -f trees/Flavi-NS5.figtree-annotations.tsv
+
+  exit
+
+
