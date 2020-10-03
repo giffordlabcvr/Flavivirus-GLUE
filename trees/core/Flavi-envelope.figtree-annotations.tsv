@@ -1,0 +1,9 @@
+taxon	sequenceID	subfamily	genus	clade	host_group	vector_group	isolate	sampled_host_sci_name	sample_date	country
+alignment/AL_UNC_Flavi_envelope/member/ncbi-refseqs/NC_001477	NC_001477	FlaviPesti	Flavivirus	Mosq1	Aedes	mosquito	-	-	-	-
+alignment/AL_UNC_Flavi_envelope/member/ncbi-refseqs/NC_002031	NC_002031	FlaviPesti	Flavivirus	Mosq2	Aedes	mosquito	-	-	-	-
+alignment/AL_UNC_Flavi_envelope/member/ncbi-refseqs/NC_003676	NC_003676	FlaviPesti	Flavivirus	NKV1	Apodemus	unknown	-	-	-	-
+alignment/AL_UNC_Flavi_envelope/member/ncbi-refseqs/NC_003687	NC_003687	FlaviPesti	Flavivirus	Tick	Ixodes	tick	-	-	-	-
+alignment/AL_UNC_Flavi_envelope/member/ncbi-refseqs/NC_005064	NC_005064	FlaviPesti	Flavivirus	cISF	Aedes	none	SR-82	-	-	-
+alignment/AL_UNC_Flavi_envelope/member/ncbi-refseqs/NC_024806	NC_024806	FlaviPesti	Flavivirus	dISF1B	Aedes	none	M0719	mosquito	-	Finland
+alignment/AL_UNC_Flavi_envelope/member/ncbi-refseqs/NC_026624	NC_026624	FlaviPesti	Flavivirus	NKV2	ticks	ticks	-	Vespertilio pipistrellus	-	Kyrgyzstan
+alignment/AL_UNC_Flavi_envelope/member/ncbi-refseqs/NC_027999	NC_027999	FlaviPesti	Flavivirus	dISF2	Lutzomyia	none	Ecuador2012	Lutzomyia abonnenci	-	Ecuador

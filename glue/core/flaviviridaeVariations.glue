@@ -1,0 +1,102 @@
+reference REF_MASTER_YFV
+
+  feature-location NS3
+  
+    create variation WalkerA -t aminoAcidRegexPolymorphism --labeledCodon 200 205
+    variation WalkerA
+      set metatag REGEX_AA_PATTERN PG[SA]GKT
+    exit
+
+    create variation RelaxedWalkerA -t aminoAcidRegexPolymorphism --labeledCodon 200 205
+    variation RelaxedWalkerA
+      set metatag REGEX_AA_PATTERN A\w{4}GKS
+    exit
+
+    create variation NS3M1a -t aminoAcidRegexPolymorphism --labeledCodon 225 235
+    variation NS3M1a
+      set metatag REGEX_AA_PATTERN VLAPTRVV[AL][AS]E
+    exit
+
+    create variation WalkerB -t aminoAcidRegexPolymorphism --labeledCodon 288 292
+    variation WalkerB
+      set metatag REGEX_AA_PATTERN MDEAH
+    exit
+
+    create variation NS3M3 -t aminoAcidRegexPolymorphism --labeledCodon 319 326
+    variation NS3M3
+      set metatag REGEX_AA_PATTERN MTATPPGT
+    exit
+
+    create variation NS3M4 -t aminoAcidRegexPolymorphism --labeledCodon 365 370
+    variation NS3M4
+      set metatag REGEX_AA_PATTERN WF[VL]PS[VI]
+    exit
+    
+    create variation NS3M5 -t aminoAcidRegexPolymorphism --labeledCodon 411 420
+    variation NS3M5
+      set metatag REGEX_AA_PATTERN [IVL][TA]TDI[SA]MGA
+    exit
+
+    create variation NS3M6 -t aminoAcidRegexPolymorphism --labeledCodon 459 464
+    variation NS3M6
+      set metatag REGEX_AA_PATTERN AQRRGR[VTI]GR
+    exit
+    
+  exit
+
+
+ feature-location NS5
+  
+    #create variation N-extent -t aminoAcidRegexPolymorphism --labeledCodon 96 108
+    #variation N-extent
+    #  set metatag REGEX_AA_PATTERN [KG][KNE]RI[QEK][KR][LI][KR][ER]E[FYH][ASN][TS][TWH
+    #exit
+
+    create variation Index -t aminoAcidRegexPolymorphism --labeledCodon 343 363
+    variation Index
+      set metatag REGEX_AA_PATTERN AMTDTTPFGQQRVFKEKVDT[KR]
+    exit
+
+    create variation MotifG -t aminoAcidRegexPolymorphism --labeledCodon 402 412
+    variation MotifG
+      set metatag REGEX_AA_PATTERN [AKR]KV[NR][ST][NH]AA[LIM]GA
+    exit
+
+    create variation MotifF -t aminoAcidRegexPolymorphism --labeledCodon 451 478
+    variation MotifF
+      set metatag REGEX_AA_PATTERN C[IV]YNMMGKREKK[PL]GEFGKAKGSRAIW[FY]M
+    exit
+
+    create variation MotifA -t aminoAcidRegexPolymorphism --labeledCodon 531 541
+    variation MotifA
+      set metatag REGEX_AA_PATTERN [MIF]YADDAGWDT
+    exit
+
+    create variation MotifB -t aminoAcidRegexPolymorphism --labeledCodon 602 615
+    variation MotifB
+      set metatag REGEX_AA_PATTERN GSGQV[VG]TY[AG]LNT[IF]T
+    exit
+
+    create variation MotifC -t aminoAcidRegexPolymorphism --labeledCodon 661 671
+    variation MotifC
+      set metatag REGEX_AA_PATTERN RMA[IV]SGDDCVV
+    exit
+
+    create variation MotifD -t aminoAcidRegexPolymorphism --labeledCodon 684 693
+    variation MotifD
+      set metatag REGEX_AA_PATTERN [FAH]LN[AD]M[SG]KVRK
+    exit
+
+    create variation MotifE -t aminoAcidRegexPolymorphism --labeledCodon 713 733
+    variation MotifE
+      set metatag REGEX_AA_PATTERN CS[HN]HF[QTH]E[IL][VI]MKDGR[STRK][IL]V[VT]PCR
+    exit
+
+    #create variation PrimingLoop -t aminoAcidRegexPolymorphism --labeledCodon 789 813
+    #variation PrimingLoop
+    #  set metatag REGEX_AA_PATTERN [TV][SDNH]WVPT[GS]T[TS]WSIH[SA][KGH][GGH][EQ]WMTTEDM
+    #exit
+    
+  exit
+
+exit

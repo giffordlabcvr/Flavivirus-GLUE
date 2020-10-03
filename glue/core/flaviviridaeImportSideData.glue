@@ -1,0 +1,8 @@
+  # Import metadata for exogenous reference sequences from GenBank files
+  run script glue/core/loadIsolateData.js
+  module genbankXmlPopulator populate
+
+  # Import metadata for exogenous reference sequences from tabular
+  module flaviviridaeSideDataImporter 
+    populate -f tabular/core/flavi-ncbi-refseqs-side-data.tsv
+    exit

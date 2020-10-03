@@ -1,0 +1,243 @@
+  ### Declare constrained alignment tree
+
+  #
+  # Root alignment
+  #
+  
+  create alignment AL_MASTER_Flaviviridae_ROOT -r REF_MASTER_YFV
+  alignment AL_MASTER_Flaviviridae_ROOT
+
+    add member --allSequences
+  
+	extract child AL_FlaviPesti -r REF_MASTER_YFV
+	demote member AL_FlaviPesti --whereClause "sequence.subfamily = 'FlaviPesti'"
+
+	extract child AL_HepaPegi -r REF_HCV
+	demote member AL_HepaPegi --whereClause "sequence.subfamily = 'HepaPegi'"	
+	exit
+	
+
+  #
+  # Hepa-Pegi-like
+  #
+
+  alignment AL_HepaPegi 
+  
+	extract child AL_Hepacivirus -r REF_HCV
+	demote member AL_Hepacivirus --whereClause "sequence.genus = 'Hepacivirus'"
+
+	extract child AL_Pegivirus -r REF_HPgV2
+	demote member AL_Pegivirus --whereClause "sequence.genus = 'Pegivirus'"
+    exit
+
+  #
+  # Pesti-Flavi-like
+  #
+
+  alignment AL_FlaviPesti
+
+	extract child AL_FlaviLike  --refName REF_MASTER_YFV  # NC_002031
+	demote member AL_FlaviLike  --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus' or sequence.genus = 'Jingmenvirus'"
+
+ 	extract child AL_PestiLike  --refName REF_BVDV1 # NC_001461
+	demote member AL_PestiLike  --whereClause "sequence.genus = 'Pestivirus' or sequence.genus = 'Pesti-like'" 
+    exit
+
+
+
+  #
+  # PestiLike lineage
+  #
+
+   alignment AL_PestiLike 
+
+	extract child AL_Pestivirus  --refName REF_BVDV1
+	demote member AL_Pestivirus  --whereClause "sequence.genus = 'Pestivirus'" 
+
+	extract child AL_PL1 --refName REF_SCNV5
+	demote member AL_PL1  --whereClause "sequence.clade = 'PL1'" 
+
+	extract child AL_PL2 --refName REF_SLV2
+	demote member AL_PL2 --whereClause "sequence.clade = 'PL2'" 
+    exit
+
+
+  #
+  # FlaviLike lineage
+  #
+
+
+ alignment AL_FlaviLike
+
+	extract child AL_Jingmenvirus        --refName REF_JMTV_CONCAT
+	demote member AL_Jingmenvirus        --whereClause "sequence.genus  = 'Jingmenvirus'"
+
+	extract child AL_FlaviTamana         --refName REF_MASTER_YFV
+	demote member AL_FlaviTamana         --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus'"
+    exit
+    
+  alignment AL_FlaviTamana
+	
+	extract child AL_Flavivirus          --refName REF_MASTER_YFV
+	demote member AL_Flavivirus          --whereClause "sequence.genus = 'Flavivirus'"
+
+	extract child AL_Tamanavirus         --refName REF_TABV
+	demote member AL_Tamanavirus         --whereClause "sequence.genus = 'Tamanavirus'" 
+    exit
+
+  #
+  # Flavivirus genus subclades
+  #
+  alignment AL_Flavivirus
+
+	extract child AL_mosquito-2  --refName REF_MASTER_YFV
+	demote member AL_mosquito-2  --whereClause "sequence.clade = 'Mosq2'" 
+
+	extract child AL_mosquito-1  --refName REF_DEN1
+	demote member AL_mosquito-1  --whereClause "sequence.clade = 'Mosq1'" 
+
+	extract child AL_cISF        --refName REF_KRV
+	demote member AL_cISF        --whereClause "sequence.clade = 'cISF'" 
+
+	extract child AL_dISF1        --refName REF_LTNV
+	demote member AL_dISF1        --whereClause "sequence.clade = 'dISF1'" 
+
+	extract child AL_dISF1A       --refName REF_NHUV
+	demote member AL_dISF1A       --whereClause "sequence.clade = 'dISF1A'" 
+
+	extract child AL_dISF1B       --refName REF_LAMV
+	demote member AL_dISF1B       --whereClause "sequence.clade = 'dISF1B'" 
+
+	extract child AL_dISF2       --refName REF_EPEV
+	demote member AL_dISF2       --whereClause "sequence.clade = 'dISF2'" 
+
+	extract child AL_tick        --refName REF_POWV
+	demote member AL_tick        --whereClause "sequence.clade = 'Tick'" 
+ 
+ 	extract child AL_NKV1        --refName REF_APOIV
+	demote member AL_NKV1        --whereClause "sequence.clade = 'NKV1'" 
+ 
+ 	extract child AL_NKV2        --refName REF_SOKV
+	demote member AL_NKV2        --whereClause "sequence.clade = 'NKV2'" 
+
+ 	extract child AL_crustacean  --refName REF_ccCFV
+	demote member AL_crustacean  --whereClause "sequence.clade = 'Crustacean'" 
+    exit
+
+
+  ### Derive constrained alignment segments from unconstrained alignments  
+
+  #
+  # ROOT NODE
+  #
+  
+  alignment AL_MASTER_Flaviviridae_ROOT
+    derive segments AL_UNC_Flaviviridae -a --exist --mergeStrategy OVERWRITE
+    exit
+
+
+  #
+  # MAIN BRANCHES
+  #
+
+
+  alignment AL_HepaPegi
+    derive segments AL_UNC_HEPA_PEGI -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_FlaviPesti
+    derive segments AL_UNC_FLAVI_PESTI -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_PestiLike
+    derive segments AL_UNC_PESTI_LIKE -a --mergeStrategy OVERWRITE
+   exit
+
+  alignment AL_FlaviLike
+    derive segments AL_UNC_FLAVI_LIKE -a --mergeStrategy OVERWRITE
+    exit
+
+
+  #
+  # PESTIVIRUS-LIKE SUBGROUPS
+  #
+
+  alignment AL_Pestivirus
+    derive segments AL_UNC_PESTI -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_PL1
+    derive segments AL_UNC_PL1 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_PL2
+    derive segments AL_UNC_PL2 -a --mergeStrategy OVERWRITE
+    exit
+
+  #
+  # FLAVIVIRUS-LIKE SUBGROUPS
+  #  
+  
+
+  alignment AL_Jingmenvirus
+    derive segments AL_UNC_JMTV_SEG1 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_Tamanavirus
+    derive segments AL_UNC_TABV -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_FlaviTamana
+    derive segments AL_UNC_FLAVI_TABV -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_Flavivirus
+    derive segments AL_UNC_FLAVI -a --mergeStrategy OVERWRITE
+    exit
+
+ 
+  #
+  # FLAVIVIRUS SUBGROUPS
+  #  
+
+  alignment AL_mosquito-1
+    derive segments AL_UNC_FLAVI_mosq1 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_mosquito-2
+    derive segments AL_UNC_FLAVI_mosq2 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_tick
+    derive segments AL_UNC_FLAVI_tick -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_cISF
+    derive segments AL_UNC_FLAVI_cISF -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_dISF1A
+    derive segments AL_UNC_FLAVI_dISF1A -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_dISF1B
+    derive segments AL_UNC_FLAVI_dISF1B -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_dISF2
+    derive segments AL_UNC_FLAVI_dISF2 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_NKV1
+    derive segments AL_UNC_FLAVI_NKV1 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_NKV2
+    derive segments AL_UNC_FLAVI_NKV2 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_crustacean
+    derive segments AL_UNC_FLAVI_crustacean -a --mergeStrategy OVERWRITE
+    exit
+
+

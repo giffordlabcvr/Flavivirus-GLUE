@@ -1,0 +1,17 @@
+
+  # Create link to locus data table and load linked data
+  run script glue/eve/loadLocusData1.js
+  run script glue/eve/loadLocusData2.js
+
+  # Link reference/consensus EVE sequences to refcon custom table
+  run script glue/eve/loadRefConData1.js
+ 
+  # Import metadata for reference/consensus EVE sequences
+  module efvSideDataImporterRefcon
+    populate -f tabular/efv-refseqs/efv-refseq-side-data.tsv
+    exit
+
+  # Import metadata for rank & file EVE sequences
+  module efvSideDataImporter 
+    populate -f tabular/efv-digs/efv-side-data.tsv
+    exit

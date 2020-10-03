@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<textFilePopulator>
+
+    <columnDelimiterRegex>\t</columnDelimiterRegex>
+    
+    <textFileColumn>
+        <identifier>true</identifier>
+        <header>sequenceID</header>
+        <property>sequenceID</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>name</header>
+        <property>name</property>
+    </textFileColumn>
+    
+    <textFileColumn>
+        <header>full_name</header>
+        <property>full_name</property>
+    </textFileColumn>
+    
+    <textFileColumn>
+        <header>subfamily</header>
+        <property>subfamily</property>
+    </textFileColumn>
+    
+    <textFileColumn>
+        <header>genus</header>
+        <property>genus</property>
+    </textFileColumn>
+    
+    <textFileColumn>
+        <header>clade</header>
+        <property>clade</property>
+    </textFileColumn>
+  
+    <textFileColumn>
+        <header>reftype</header>
+        <property>refcon_data.reftype</property>
+    </textFileColumn>
+  
+    <textFileColumn>
+        <header>host_group_taxlevel</header>
+        <property>refcon_data.host_group_taxlevel</property>
+    </textFileColumn>
+    
+    <textFileColumn>
+        <header>host_group_name</header>
+        <property>refcon_data.host_group_name</property>
+    </textFileColumn>
+    
+    <textFileColumn>
+        <header>host_group_common_name</header>
+        <property>refcon_data.host_group_common_name</property>
+    </textFileColumn>
+    
+    <textFileColumn>
+        <header>num_copies</header>
+        <property>refcon_data.num_copies</property>
+    </textFileColumn>
+    
+    <textFileColumn>
+        <header>locus_id</header>
+        <property>refcon_data.locus_id</property>
+    </textFileColumn>
+
+    <skipMissing>true</skipMissing>
+
+
+</textFilePopulator>

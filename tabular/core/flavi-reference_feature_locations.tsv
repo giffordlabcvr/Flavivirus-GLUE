@@ -1,0 +1,186 @@
+sequenceID	referenceName	Genus	Clade	featureName	startNT	endNT
+NC_005064	REF_KRV	Flavivirus	cISF	whole_genome	1	11375
+NC_005064	REF_KRV	Flavivirus	cISF	5UTR	1	96
+NC_005064	REF_KRV	Flavivirus	cISF	precursor_polyprotein	97	10170
+NC_005064	REF_KRV	Flavivirus	cISF	structural_proteins	97	2250
+NC_005064	REF_KRV	Flavivirus	cISF	flavi-capsid	97	525
+NC_005064	REF_KRV	Flavivirus	cISF	premembrane	526	954
+NC_005064	REF_KRV	Flavivirus	cISF	flavi-envelope	955	2250
+NC_005064	REF_KRV	Flavivirus	cISF	non_structural_proteins	2251	10167
+NC_005064	REF_KRV	Flavivirus	cISF	NS1	2251	3420
+NC_005064	REF_KRV	Flavivirus	cISF	flavi-NS2A	3421	4041
+NC_005064	REF_KRV	Flavivirus	cISF	flavi-NS2B	4042	4488
+NC_005064	REF_KRV	Flavivirus	cISF	NS3	4489	6249
+NC_005064	REF_KRV	Flavivirus	cISF	flavi-NS4A	6250	6654
+NC_005064	REF_KRV	Flavivirus	cISF	2K	6655	6723
+NC_005064	REF_KRV	Flavivirus	cISF	flavi-NS4B	6724	7503
+NC_005064	REF_KRV	Flavivirus	cISF	NS5	7504	10167
+NC_005064	REF_KRV	Flavivirus	cISF	3UTR	10168	11375
+NC_027999	REF_EPEV	Flavivirus	dISF1	whole_genome	1	10761
+NC_027999	REF_EPEV	Flavivirus	dISF1	5UTR	1	119
+NC_027999	REF_EPEV	Flavivirus	dISF1	precursor_polyprotein	120	10445
+NC_027999	REF_EPEV	Flavivirus	dISF1	3UTR	10446	10761
+NC_024806	REF_LAMV	Flavivirus	dISF2	whole_genome	1	10320
+NC_024806	REF_LAMV	Flavivirus	dISF2	5UTR	1	15
+NC_024806	REF_LAMV	Flavivirus	dISF2	precursor_polyprotein	16	10320
+NC_024806	REF_LAMV	Flavivirus	dISF2	structural_proteins	16	2385
+NC_024806	REF_LAMV	Flavivirus	dISF2	flavi-capsid	16	381
+NC_024806	REF_LAMV	Flavivirus	dISF2	premembrane	382	888
+NC_024806	REF_LAMV	Flavivirus	dISF2	flavi-envelope	889	2385
+NC_024806	REF_LAMV	Flavivirus	dISF2	NS1	2386	3444
+NC_024806	REF_LAMV	Flavivirus	dISF2	flavi-NS2A	3445	4125
+NC_024806	REF_LAMV	Flavivirus	dISF2	flavi-NS2B	4126	4518
+NC_024806	REF_LAMV	Flavivirus	dISF2	NS3	4519	6381
+NC_024806	REF_LAMV	Flavivirus	dISF2	flavi-NS4A	6382	6759
+NC_024806	REF_LAMV	Flavivirus	dISF2	2K	6760	6828
+NC_024806	REF_LAMV	Flavivirus	dISF2	flavi-NS4B	6829	7593
+NC_024806	REF_LAMV	Flavivirus	dISF2	NS5	7594	10317
+NC_024806	REF_LAMV	Flavivirus	dISF2	non_structural_proteins	2386	10317
+NC_001477	REF_DEN1	Flavivirus	Mosq1	whole_genome	1	10735
+NC_001477	REF_DEN1	Flavivirus	Mosq1	5UTR	1	94
+NC_001477	REF_DEN1	Flavivirus	Mosq1	precursor_polyprotein	95	10273
+NC_001477	REF_DEN1	Flavivirus	Mosq1	structural_proteins	95	2419
+NC_001477	REF_DEN1	Flavivirus	Mosq1	flavi-capsid	95	436
+NC_001477	REF_DEN1	Flavivirus	Mosq1	premembrane	437	934
+NC_001477	REF_DEN1	Flavivirus	Mosq1	flavi-envelope	935	2419
+NC_001477	REF_DEN1	Flavivirus	Mosq1	non_structural_proteins	2420	10270
+NC_001477	REF_DEN1	Flavivirus	Mosq1	NS1	2420	3475
+NC_001477	REF_DEN1	Flavivirus	Mosq1	flavi-NS2A	3476	4129
+NC_001477	REF_DEN1	Flavivirus	Mosq1	flavi-NS2B	4130	4519
+NC_001477	REF_DEN1	Flavivirus	Mosq1	NS3	4520	6376
+NC_001477	REF_DEN1	Flavivirus	Mosq1	flavi-NS4A	6377	6757
+NC_001477	REF_DEN1	Flavivirus	Mosq1	2K	6758	6826
+NC_001477	REF_DEN1	Flavivirus	Mosq1	flavi-NS4B	6827	7573
+NC_001477	REF_DEN1	Flavivirus	Mosq1	NS5	7574	10270
+NC_001477	REF_DEN1	Flavivirus	Mosq1	3UTR	10274	10735
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	whole_genome	1	10862
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	5UTR	1	118
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	precursor_polyprotein	119	10354
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	structural_proteins	119	2452
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	flavi-capsid	119	481
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	premembrane	482	973
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	flavi-envelope	974	2452
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	non_structural_proteins	2453	10351
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	NS1	2453	3508
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	flavi-NS2A	3509	4180
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	flavi-NS2B	4181	4570
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	NS3	4571	6439
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	flavi-NS4A	6440	6817
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	2K	6818	6886
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	flavi-NS4B	6887	7636
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	NS5	7637	10351
+NC_002031	REF_MASTER_YFV	Flavivirus	Mosq2	3UTR	10355	10862
+NC_003676	REF_APOIV	Flavivirus	NKV1	whole_genome	1	10116
+NC_003676	REF_APOIV	Flavivirus	NKV1	precursor_polyprotein	1	10116
+NC_003676	REF_APOIV	Flavivirus	NKV1	structural_proteins	1	2268
+NC_003676	REF_APOIV	Flavivirus	NKV1	flavi-capsid	1	330
+NC_003676	REF_APOIV	Flavivirus	NKV1	premembrane	331	813
+NC_003676	REF_APOIV	Flavivirus	NKV1	membrane	589	813
+NC_003676	REF_APOIV	Flavivirus	NKV1	flavi-envelope	814	2268
+NC_003676	REF_APOIV	Flavivirus	NKV1	NS1	2269	3327
+NC_003676	REF_APOIV	Flavivirus	NKV1	flavi-NS2A	3328	4002
+NC_003676	REF_APOIV	Flavivirus	NKV1	flavi-NS2B	4003	4392
+NC_003676	REF_APOIV	Flavivirus	NKV1	NS3	4393	6240
+NC_003676	REF_APOIV	Flavivirus	NKV1	flavi-NS4A	6241	6597
+NC_003676	REF_APOIV	Flavivirus	NKV1	2K	6598	6666
+NC_003676	REF_APOIV	Flavivirus	NKV1	flavi-NS4B	6667	7422
+NC_003676	REF_APOIV	Flavivirus	NKV1	NS5	7423	10113
+NC_003676	REF_APOIV	Flavivirus	NKV1	non_structural_proteins	2269	10116
+NC_026624	REF_SOKV	Flavivirus	NKV2	whole_genome	1	10242
+NC_026624	REF_SOKV	Flavivirus	NKV2	precursor_polyprotein	1	10242
+MK473878	REF_ccCFV	Flavivirus	Crustacean	whole_genome	1	11434
+NC_003687	REF_POWV	Flavivirus	Tick	whole_genome	1	10839
+NC_003687	REF_POWV	Flavivirus	Tick	5UTR	1	111
+NC_003687	REF_POWV	Flavivirus	Tick	precursor_polyprotein	112	10359
+NC_003687	REF_POWV	Flavivirus	Tick	structural_proteins	112	2436
+NC_003687	REF_POWV	Flavivirus	Tick	flavi-capsid	112	441
+NC_003687	REF_POWV	Flavivirus	Tick	premembrane	442	945
+NC_003687	REF_POWV	Flavivirus	Tick	flavi-envelope	946	2436
+NC_003687	REF_POWV	Flavivirus	Tick	non_structural_proteins	2437	10356
+NC_003687	REF_POWV	Flavivirus	Tick	NS1	2437	3495
+NC_003687	REF_POWV	Flavivirus	Tick	flavi-NS2A	3496	4185
+NC_003687	REF_POWV	Flavivirus	Tick	flavi-NS2B	4186	4578
+NC_003687	REF_POWV	Flavivirus	Tick	NS3	4579	6444
+NC_003687	REF_POWV	Flavivirus	Tick	flavi-NS4A	6445	6822
+NC_003687	REF_POWV	Flavivirus	Tick	2K	6823	6891
+NC_003687	REF_POWV	Flavivirus	Tick	flavi-NS4B	6892	7647
+NC_003687	REF_POWV	Flavivirus	Tick	NS5	7648	10356
+NC_003687	REF_POWV	Flavivirus	Tick	3UTR	10357	10839
+NC_004102	REF_HCV	Hepacivirus	Primate	whole_genome	1	9646
+NC_004102	REF_HCV	Hepacivirus	Primate	5UTR	1	341
+NC_004102	REF_HCV	Hepacivirus	Primate	precursor_polyprotein	342	9377
+NC_004102	REF_HCV	Hepacivirus	Primate	structural_proteins	342	2579
+NC_004102	REF_HCV	Hepacivirus	Primate	core	342	914
+NC_004102	REF_HCV	Hepacivirus	Primate	e1_hepaci	915	1490
+NC_004102	REF_HCV	Hepacivirus	Primate	e2_hepaci	1491	2579
+NC_004102	REF_HCV	Hepacivirus	Primate	non_structural_proteins	2580	9374
+NC_004102	REF_HCV	Hepacivirus	Primate	hepaci-p7	2580	2768
+NC_004102	REF_HCV	Hepacivirus	Primate	hepaci-NS2	2769	3419
+NC_004102	REF_HCV	Hepacivirus	Primate	NS3	3420	5312
+NC_004102	REF_HCV	Hepacivirus	Primate	hepaci-NS4A	5313	5474
+NC_004102	REF_HCV	Hepacivirus	Primate	hepaci-NS4B	5475	6257
+NC_004102	REF_HCV	Hepacivirus	Primate	NS5	6258	9374
+NC_004102	REF_HCV	Hepacivirus	Primate	NS5A	6258	7601
+NC_004102	REF_HCV	Hepacivirus	Primate	NS5B	7602	9374
+NC_004102	REF_HCV	Hepacivirus	Primate	3UTR	9378	9646
+NC_027998	REF_HPgV2	Pegivirus		whole_genome	1	9867
+NC_027998	REF_HPgV2	Pegivirus		5UTR	1	327
+NC_027998	REF_HPgV2	Pegivirus		precursor_polyprotein	328	9501
+NC_027998	REF_HPgV2	Pegivirus		structural_proteins	328	2199
+NC_027998	REF_HPgV2	Pegivirus		s_peptide	328	564
+NC_027998	REF_HPgV2	Pegivirus		e1_hepaci	565	1137
+NC_027998	REF_HPgV2	Pegivirus		e2_hepaci	1138	2199
+NC_027998	REF_HPgV2	Pegivirus		x_peptide	2200	2910
+NC_027998	REF_HPgV2	Pegivirus		non_structural_proteins	2911	9498
+NC_027998	REF_HPgV2	Pegivirus		hepaci-NS2	2911	3630
+NC_027998	REF_HPgV2	Pegivirus		NS3	3631	5514
+NC_027998	REF_HPgV2	Pegivirus		hepaci-NS4A	5515	5637
+NC_027998	REF_HPgV2	Pegivirus		hepaci-NS4B	5638	6423
+NC_027998	REF_HPgV2	Pegivirus		NS5	6424	9498
+NC_027998	REF_HPgV2	Pegivirus		NS5A	6424	7797
+NC_027998	REF_HPgV2	Pegivirus		NS5B	7798	9498
+NC_027998	REF_HPgV2	Pegivirus		3UTR	9502	9867
+NC_024077	REF_SCNV5	Pesti-like	PL1	whole_genome	1	19199
+NC_024077	REF_SCNV5	Pesti-like	PL1	5UTR	1	350
+NC_024077	REF_SCNV5	Pesti-like	PL1	precursor_polyprotein	351	18068
+NC_024077	REF_SCNV5	Pesti-like	PL1	3UTR	18069	19199
+NC_028373	REF_SLV2	Pestinsect	PL2	whole_genome	1	18554
+NC_028373	REF_SLV2	Pestinsect	PL2	5UTR	1	199
+NC_028373	REF_SLV2	Pestinsect	PL2	precursor_polyprotein	200	17905
+NC_028373	REF_SLV2	Pestinsect	PL2	3UTR	17906	18554
+NC_001461	REF_BVDV1	Pestivirus		whole_genome	1	12573
+NC_001461	REF_BVDV1	Pestivirus		5UTR	1	385
+NC_001461	REF_BVDV1	Pestivirus		precursor_polyprotein	386	12352
+NC_001461	REF_BVDV1	Pestivirus		structural_proteins	386	3583
+NC_001461	REF_BVDV1	Pestivirus		N-proteinase	386	889
+NC_001461	REF_BVDV1	Pestivirus		pesti-capsid	890	1195
+NC_001461	REF_BVDV1	Pestivirus		RNAse	1196	1876
+NC_001461	REF_BVDV1	Pestivirus		e1_pesti	1877	2461
+NC_001461	REF_BVDV1	Pestivirus		e2_pesti	2462	3583
+NC_001461	REF_BVDV1	Pestivirus		pesti-p7	3584	3793
+NC_001461	REF_BVDV1	Pestivirus		NS3	3794	7471
+NC_001461	REF_BVDV1	Pestivirus		pesti-NS4A	7472	7663
+NC_001461	REF_BVDV1	Pestivirus		pesti-NS4B	7664	8704
+NC_001461	REF_BVDV1	Pestivirus		NS5	8705	12349
+NC_001461	REF_BVDV1	Pestivirus		NS5A	8705	10192
+NC_001461	REF_BVDV1	Pestivirus		NS5B	10193	12349
+NC_001461	REF_BVDV1	Pestivirus		3UTR	12360	12573
+NC_003996	REF_TABV	Tamanavirus		whole_genome	1	10053
+NC_003996	REF_TABV	Tamanavirus		precursor_polyprotein	1	10053
+NC_003996	REF_TABV	Tamanavirus		structural_proteins	1	2358
+NC_003996	REF_TABV	Tamanavirus		flavi-capsid	1	345
+NC_003996	REF_TABV	Tamanavirus		premembrane	346	852
+NC_003996	REF_TABV	Tamanavirus		membrane	655	852
+NC_003996	REF_TABV	Tamanavirus		flavi-envelope	853	2358
+NC_003996	REF_TABV	Tamanavirus		non_structural_proteins	2359	10050
+NC_003996	REF_TABV	Tamanavirus		NS1	2359	3390
+NC_003996	REF_TABV	Tamanavirus		flavi-NS2A	3391	3978
+NC_003996	REF_TABV	Tamanavirus		flavi-NS2B	3979	4431
+NC_003996	REF_TABV	Tamanavirus		NS3	4432	6303
+NC_003996	REF_TABV	Tamanavirus		flavi-NS4A	6304	6687
+NC_003996	REF_TABV	Tamanavirus		2K	6688	6762
+NC_003996	REF_TABV	Tamanavirus		flavi-NS4B	6763	7557
+NC_003996	REF_TABV	Tamanavirus		NS5	7558	10050
+JMTV_CONCAT	REF_JMTV_CONCAT	Jingmenvirus		whole_genome	1	5938
+JMTV_CONCAT	REF_JMTV_CONCAT	Jingmenvirus		seg3-NS3	117	2543
+JMTV_CONCAT	REF_JMTV_CONCAT	Jingmenvirus		seg1-NS5	2824	5673
