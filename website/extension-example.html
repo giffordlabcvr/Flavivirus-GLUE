@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127420264-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-127420264-1');
+	</script>
+
+
+
+    <meta charset="UTF-8">
+    <title>Parvoviridae-GLUE by giffordlabcvr</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/github-light.css" media="screen">
+
+  </head>
+
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Parvoviridae-GLUE</h1>
+      <h2 class="project-tagline">A GLUE project for circular Rep-encoding single-stranded DNA (CRESS DNA) viruses.</h2>
+      <a href="../index.html" class="btn">Home</a>
+      <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tarball/master" class="btn">Download .tar.gz</a>
+      <a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/tree/master" class="btn">View on GitHub</a>
+    </section>
+
+    <section class="main-content">
+
+	   <h3>
+		 <a id="usageBackground" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Example: extending Parvoviridae-GLUE</strong>
+	   </h3>
+
+		 Parvoviridae-GLUE can be used a straightforward data repository, with no requirement for use of the GLUE software framework.
+		 [GLUE](http://glue-tools.cvr.gla.ac.uk) is an open source, data-centric bioinformatics environment specialised for developing virus genome data resources (VGDR).
+
+		 Parvoviridae-GLUE can provide the basis for in depth studies of specific viruses. 
+		 For example 
+
+
+      	   
+	   <p>
+	
+         On computers with <a href="http://glue-tools.cvr.gla.ac.uk/#/installation">GLUE installed</a>,
+         the <b>Parvoviridae-GLUE</b> project can be instantiated by navigating to the project folder,
+         initiating GLUE, and issuing the following command in the GLUE shell:
+         
+  <pre>
+  <code>Mode path: /
+  GLUE> run file parvoviridaeProject.glue</code></pre>
+		 
+	   </p>
+
+
+	   <h3>
+		 <a id="extensionExample" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Example: extending Parvoviridae-GLUE</strong>
+	   </h3>
+
+
+
+
+
+		 <p>
+		   The resources collated in this GLUE project can be used to perform comparative studies of 
+		   CRESS DNA viruses. 
+		 </p>
+
+
+	   <h3>
+		 <a id="extensionExample" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Example: extending Parvoviridae-GLUE</strong>
+	   </h3>
+
+		 <p>
+
+
+         Setting up and maintaining a sequence database using GLUE
+
+
+         GLUE provides tools that make it easy to stay on top of the new data in NCBI Genbank.
+         </p>
+
+		 <p>
+
+         I thought maybe this would be a good place to start - demonstrating a few simple commands that can be used to set up and maintain a resource focussed on a particular virus group.
+         </p>
+
+		 <p>
+
+         As well as showing how to get started quickly, the aim would be to lay out a workflow wherein all the value-add that occurs when the data set is cleaned/parsed/prepped for analysis gets preserved, so that in future these steps can be avoided.
+         </p>
+
+		 <p>
+
+         This would be super useful. The process I went through for putting together a database of CRESS genomes was quite painful, and I think it ends up limiting the scope of a study if it’s time consuming work. I would definitely like to have a tool available for future studies in which I need to first compile a large database of exogenous virus genomes, e.g. for use as a query database for EVE discovery.
+         </p>
+
+		 <p>
+
+         Great - GLUE is designed to make this less painful - this gives me the idea to document the steps entailed in doing this via GLUE, probably as the next bit of documentation on Parvoviridae-GLUE
+         </p>
+
+
+
+	  <h3>
+	  <a id="examples-of-usage" class="anchor" href="#whos-it-for" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>How to use Circoviridae GLUE</strong>
+	  </h3>
+
+		 <p>
+		 Circoviridae-GLUE can be used a straightforward data repository, with no 
+		 requirement for use of the GLUE software framework.
+		 Here are some examples of this kind of use:
+		 </p>
+
+		 <p>
+
+		   <b>Viral Metagenomics</b>: circoviruses appear to extremely common, and often 
+		   form a component of viral metagenomics datasets. 
+
+		 </p>
+
+
+		 <p>
+		 The raw EVE sequences used to construct consensuses can be found here:
+		 and the alignment here:
+		 </p>
+
+
+		 <p>
+
+2. Normalising the coordinate space 
+
+		 </p>
+
+
+		 <p>
+An issue with comparative analysis of CRESS virus genomes is that many are circular, and the first nucleotide positions can differ so that sequences end up ‘staggered’ in an alignment.
+		 </p>
+
+
+		 <p>
+
+GLUE can be used to normalise all sequences in a project to a given start position. 
+There are also tools for dealing with reverse complemented sequences - also an issue in CRESS due to the ambisense nature fo the genomes. 
+ 		 </p>
+
+
+		 <p>
+
+Again this would be very valuable for any work relating to circular genomes (I know an Anellovirus researcher who had major issues with Genbank due to this). 
+The one potential issue I can see is incomplete genomes, which are often labelled as complete. Some care would be needed to not introduce a deletion by artificially moving sequence from beginning to end for example. 
+
+		 </p>
+
+
+		 <p>
+
+Indeed - this issue actually came up in out HBV-GLUE set-up. 
+http://hbv-glue.cvr.gla.ac.uk
+I think we have appropriate measure in GLUE to deal with it now
+		 </p>
+
+
+		 <p>
+
+For my project looking at CRESS EVEs I ran into the issue that alignments begin to be impossible for whole genomes across families. I therefore took the approach of extracting the Rep and Cap protein sequences, and am working with these separately. Therefore for me a consistent start position of source genomes became less important.
+ 
+3. Genotyping
+Since you are (as I understand it)  interested in the deep variation among CRESS viruses, I thought we could use the curated sequences in Parvoviridae-GLUE to create a genotyping tool. The tool could incorporated EVE data.
+ 		 </p>
+
+
+		 <p>
+
+This does sound good. It would probably make sense to focus on the Rep for genotyping, since this is the best characterised and easiest to align.
+With that said, I am working on trying to create some kind of classification for capsids also, at least within the framework of the ongoing study into CRESS EVEs in Eukaryotes. 
+Biologically speaking the best genotyping for CRESS viruses would assess both the Rep and Cap, since these can move around independently to a lesser or greater extent. 
+		 </p>
+
+
+		 <p>
+
+
+Yes I’m guessing that at this point, even an approximate genotyping algorithm would be useful, s that might be the place to start
+		 </p>
+
+
+		 <p>
+
+ 
+A quick update from my end: I am back in the lab now working alongside a guest researcher to try to express some CRESS capsid proteins for (hopefully) structural work. Ultimately I envision that these structures could be useful to resolve some deeper relationships among the SJR capsids of CRESS viruses.
+
+ 
+		 </p>
+
+
+
+
+
+
+
+
+
+	 <footer class="site-footer">
+	   <span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/Parvoviridae-GLUE/">Parvoviridae-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.</span>
+
+	   <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+	 </footer>
+
+    </section>
+
+
+  </body>
+  
+</html>
+
+
+
