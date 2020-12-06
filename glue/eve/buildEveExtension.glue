@@ -6,7 +6,6 @@ schema-project flaviviridae
 
 project flaviviridae
 
-
   # Create modules
   run file glue/eve/efvModules.glue
 
