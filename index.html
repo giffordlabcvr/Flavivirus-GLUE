@@ -26,11 +26,11 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">Flaviviridae-GLUE</h1>
-      <h2 class="project-tagline">A GLUE project for flaviviruses.</h2>
+      <h2 class="project-tagline">A sequence data resource for flaviviruses.</h2>
       <a href="./website/project.html" class="btn">Viruses</a>
       <a href="./website/paleovirology.html" class="btn">Paleoviruses</a>
-      <a href="https://github.com/giffordlabcvr/CRESS-GLUE/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/giffordlabcvr/CRESS-GLUE/tree/master" class="btn">View on GitHub</a>
+      <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master" class="btn">View on GitHub</a>
     </section>
 
     <section class="main-content">
@@ -41,79 +41,12 @@
 
 	   <p>
 		 This is <b>Flaviviridae-GLUE</b>, a <a href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a> project
-		 designed to support comparative genomic and evolutionary analysis of <a target="_blank" href="https://viralzone.expasy.org/43">flaviviruses</a>.
+		 designed to support comparative genomic and evolutionary analysis of <a target="_blank" href="https://viralzone.expasy.org/9">flaviviruses</a>
+		 (family <i>Flaviviridae</i>).
 		 <b>Flaviviridae-GLUE</b> contains aligned, annotated genome sequence data for:
 		 <ol>
-		   <li><a target="_blank" href="https://viralzone.expasy.org/43">Flaviviruses</a> (family <i>Flaviviridae</i>)</li> 
+		   <li><a target="_blank" href="https://viralzone.expasy.org/9">Flaviviruses</a></li> 
 		   <li>Endogenous viral elements (EVEs) derived from flaviviruses</li>
-		 </ol>
-	   </p>
-
-	   <h3>
-		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence data</strong>
-	   </h3>
-	   
-	   <p>
-		 The sequence data in this project have been organised into the following
-		 <b>sources</b>:<br>
-	   </p>
-	   
-	   	   
-	   <p>	      
-		 <b>ncbi-refseqs</b>: Genome-length reference sequences of <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master/sources/ncbi-refseqs">representative flavivirus species</a>.		 
-		 These
-		 <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master/sources/ncbi-refseqs">XML-formatted files</a>
-		  are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI</a> using a 
-		 <a href="https://github.com/giffordlabcvr/HIV-GLUE/blob/master/modules/core/hivNcbiImporterReferences.xml">GLUE module</a>
-		 and are uniquely identified within this project by their <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
-	   </p>
-	   
-	   <p>
-		 <b>fasta-curated</b>: A non-redundant set of 
-		 <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/blob/master/tabular/efv-side-data.tsv">flavivirus-derived EVE loci</a>.
-		 These
-		 <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master/sources/fasta-curated">FASTA sequences</a>
-		 have been curated via systematic screening of whole genome sequence (WGS) assemblies using the 
-		 <a target="_blank" href="https://giffordlabcvr.github.io/DIGS-tool/">DIGS tool</a>.
-		 Sequences in this source have unique IDs based on arbitrary numbering. 
-	   </p>
-	      	   
-	   <p>
-		 <b>fasta-refseqs</b>: EVE reference sequences - i.e. best-guess estimates of the ancestral flavivirus sequences that gave rise to EVEs.
-		 Where possible these are consensus/ancestral sequences derived from alignments
-		 <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master/alignments/tips">included in this project</a>.
-		 Sequence IDs used in this source correspond to the names of the unique EVE loci they represent
-		 (see <a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">here</a> for details).
-	   </p>
- 
-	   <h3>
-	   <a id="sequenceSideData" class="anchor" href="#sequenceSideData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence-associated data</strong>
-	   </h3>
-	   
-	   <p>
-         Sequences included in this project are linked to auxiliary data in tabular format, this includes:
-		 
-		 <ol>
-		   <li><a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/blob/master/tabular/flavi-ncbi-refseqs-side-data.tsv">Basic taxonomic data</a> for genome-length virus reference sequence in <b>ncbi-refseqs</b>.</li> 
-		   <li><a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/blob/master/tabular/efv-side-data.tsv">Locus data</a> for the EVE sequences in <b>fasta-curated</b>.</li> 
-		   <!-- <li><a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/blob/master/tabular/locus-side-data.tsv">Evolutionary history</a> of the EVE loci represented in <b>fasta-refseqs</b>.</li> -->
-		 </ol>
-		 
-	   </p>
-		 
-	   <h3>
-		 <a id="alignments" class="anchor" href="#alignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments (MSAs)</strong>
-	   </h3>
-	   
-	   <p>
-		 Several distinct categories of MSA are included in this project, each representing a distinct taxonomic level.
-		
-		 <ol>
-		   <li><b>Tip (i)</b>: Virus species</a> (genome-length)</li> 
-		   <li><b>Tip (ii)</b>: <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master/alignments/tips">EVE lineages</a>.
-		   These alignments contain sets of EVE sequences derived from the same ancestral germline colonisation event (i.e. orthologs or duplicates)</li> 
-		   <li><b>Internal</b>: <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master/alignments/internal">Virus genera and cross-genus MSAs</a></li> 
-		   <li><b>Root</b>: <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master/alignments/root">Viruses and EVE reference sequences</a></li> 
 		 </ol>
 	   </p>
 
@@ -137,27 +70,93 @@
 
 
 
+
+
+
+	   <h3>
+	   <a id="WhatGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What is a GLUE project?</strong>
+	   </h3>
+
+
+	   <p>
+		 <a href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a> is an open, integrated
+		 software toolkit that provides functionality for storage and interpretation of
+		 sequence data. 
+	   </p>
+
+	   <p>
+		 <b>GLUE</b> supports the development of <b>“projects”</b> containing the data items
+		 required for comparative genomic analysis 
+		 (e.g.  sequences, multiple sequence alignments, genome feature annotations,
+		 and other sequence-associated data). 
+	   </p>
+
+	   <p>
+		 Projects are loaded into the <b>GLUE "engine"</b>, creating a relational database
+		 that represents the semantic relationships between data items.
+		 This provides a robust foundation for the implementation of systematic
+		 comparative analyses and the development of <b>sequence based resources</b>. 
+	   </p>
+
+	   <p>		 
+		  The core schema of the database can be extended to accommodate
+		  the idiosyncrasies of different projects. 
+		  GLUE provides a scripting layer (based on JavaScript) for developing custom
+		  analysis tools. 
+	   </p>
+
+
+	   <p>
+		  Hosting of GLUE projects in an online version control system (e.g. GitHub) provides
+		  a mechanism for their stable, collaborative development.
+	   </p>
+	   
+
+
+	   <h3>
+	   <a id="WhyGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What does building the Flaviviridae-GLUE project offer?</strong>
+	   </h3>
+
+		 
+ 
+	   <p>
+		 
+		  Flaviviridae-GLUE offers a number of advantages for performing comparative sequence
+		  analysis of flaviviruses:
+
+		 <ol>
+		   <li> <strong>Standardisation of the genomic co-ordinate space</strong>. GLUE
+		   projects allow all sequences to utilise the coordinate space of a chosen 
+		   reference sequence. Contingencies associated with insertions and deletions
+		   (indels) are handled in a systematic way.
+		   </li>
+		   <li> <strong>Predefined, fully annotated reference sequences</strong>:
+		   This project includes fully-annotated reference sequences for major lineages
+		   within the <i>Flaviviridae</i> family.
+		   </li>
+		   <li> <strong>Alignment trees</strong>:
+		   GLUE allows linking of alignments constructed at distinct taxonomic levels
+		   via an "alignment tree" data structure.
+		   </li>
+
+
+		 </ol>
+
+	   </p>
+
+
+        
+
 	   <h3>
 		 <a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
 	   </h3>
 	   
 	   <p>
 
-		 Access to this GitHub repository is currently restricted. To request access please contact:
 
 		 <p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>
-		 <p>Josh Singer (<a href="mailto:josh.singer@glasgow.ac.uk">josh.singer@glasgow.ac.uk</a>)</p>
 
 		 
-	   </p>
-
-
-	   <h3>
-		 <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>License</strong>
-	   </h3>
-
-	   <p>
-		 This project is licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero General Public License v. 3.0</a>.
 	   </p>
 
 
