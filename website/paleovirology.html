@@ -34,9 +34,50 @@
           We have used GLUE to organise the fossil record of flaviviruses.
           You can access these data
           <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master">in this repository</a>. 
-          This website provides quick links to specific data items. 
-
+          This website provides a description of CRESS-GLUE's paleovirus component, and
+          quick links to specific data items. 
+          
 		</p>
+
+
+        <p><img src="./images/eve-header.png" alt="Species with endogenous flaviviruses" /></p>
+
+
+
+	   <h3>
+		 <a id="dataProvenance" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Where do the EVE data come from?</strong>
+	   </h3>
+
+	   <h3>
+		 <a id="schemaExtensions" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Paleovirus-specific schema extensions</strong>
+	   </h3>
+
+
+		 <p>
+		   The paleovirus component of CRESS-GLU extends GLUE's
+		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
+		   to allow the capture of EVE-specific data.
+		   These schema extensions are defined in 
+           <a href="https://github.com/giffordlabcvr/CRESS-GLUE/blob/master/glue/core/cressSchemaExtensionsPaleovirus.glue"><b>this file</b></a>
+		   and comprise two additional table: 'locus_data' and 'refcon_data'.
+		   Both tables are linked to the main 'sequence' table via the 'sequenceID' field.
+  		</p>
+
+
+ 		<p>
+		   The '<b>locus_data</b>' table contains EVE locus information: e.g. species, assembly, scaffold, location coordinates.
+		</p>
+
+ 		<p>
+		   The '<b>refcon_data</b>' table contains summary information for individual
+		   EVE insertions. It refers to the reference sequences constructed to represent
+		   each insertion, which reflect our best efforts to reconstruct progenitor virus
+		   sequences as they might have looked when they initially integrated into 
+		   the germline of ancestral species. 
+		</p>
+
+
+
 
 
 	   <h3>
