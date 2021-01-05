@@ -20,7 +20,7 @@ project flaviviridae
   run file glue/eve/efvImportSideData.glue
 
   # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/efv-refseqs/efv-reference_feature_locations.tsv -r
+  module featureLocationTextToGlue transform tabular/eve/efv-reference_feature_locations.tsv -r
 
   # Import alignments
   run file glue/eve/efvAlignments.glue
