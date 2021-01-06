@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ncbiImporter>
+    <sourceName>ncbi-denv</sourceName>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+	<specificPrimaryAccessions>
+		<!-- DENV serotype 1 -->
+		<primaryAccession>NC_001477</primaryAccession>
+		
+		<!-- DENV1 other references used for assembly -->
+		<primaryAccession>KJ933413</primaryAccession>
+		<primaryAccession>LC128301</primaryAccession>
+                
+		<!-- DENV serotype 2 main reference -->
+		<primaryAccession>NC_001474</primaryAccession>
+		
+		<!-- DENV2 other references used for assembly -->
+		<primaryAccession>EF051521</primaryAccession>
+		<primaryAccession>DQ645543</primaryAccession>
+		<primaryAccession>KR920365</primaryAccession>
+		<primaryAccession>AY858035</primaryAccession>
+		
+		<!-- DENV serotype 3 main reference -->
+		<primaryAccession>NC_001475</primaryAccession>
+		
+		<!-- DENV3 other references used for assembly -->
+		<primaryAccession>DQ675519</primaryAccession> 
+		<primaryAccession>KU509279</primaryAccession>  
+         
+		
+		<!-- DENV serotype 4 main reference -->
+		<primaryAccession>NC_002640</primaryAccession>
+		
+		<!-- DENV4 other references used for assembly -->
+		<primaryAccession>GQ398256</primaryAccession>
+		<primaryAccession>KC333651</primaryAccession>
+
+		
+		
+		
+	</specificPrimaryAccessions>
+	<eFetchBatchSize>20</eFetchBatchSize>
+</ncbiImporter>
+

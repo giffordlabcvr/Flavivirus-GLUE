@@ -1,0 +1,9 @@
+create module --fileName modules/denvNcbiImporter.xml
+create module --fileName modules/denvKuiken2006CodonLabeler.xml
+
+create module --fileName modules/denvBlastFastaAlignmentImporter.xml
+create module --fileName modules/denvBlastProteinFastaAlignmentImporter.xml
+
+create module --fileName modules/denvSamReporter.xml
+create module --fileName modules/denvSamReferenceIdentifier.xml
+create module --fileName modules/denvSamTipAlmtIdentifier.xml

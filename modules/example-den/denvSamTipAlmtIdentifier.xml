@@ -1,0 +1,23 @@
+<textToQueryTransformer>
+	<dataClass>Alignment</dataClass>
+	<valueConverter>
+		<matchPattern>.*NC_001477.*</matchPattern>
+		<outputTemplate>name = 'AL_1'</outputTemplate>
+	</valueConverter>
+	<valueConverter>
+		<matchPattern>.*NC_001474.*</matchPattern>
+		<outputTemplate>name = 'AL_2'</outputTemplate>
+	</valueConverter>
+	<valueConverter>
+		<matchPattern>.*NC_001475.*</matchPattern>
+		<outputTemplate>name = 'AL_3'</outputTemplate>
+	</valueConverter>
+	<valueConverter>
+		<matchPattern>.*NC_002640.*</matchPattern>
+		<outputTemplate>name = 'AL_4'</outputTemplate>
+	</valueConverter>
+	<valueConverter>
+		<matchPattern>(.*)</matchPattern>
+		<errorTemplate>No GLUE project tip alignment known for SAM reference sequence "${g1}"</errorTemplate>
+	</valueConverter>
+</textToQueryTransformer>
