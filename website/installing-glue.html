@@ -42,73 +42,48 @@
 	   <hr>
 
 	   <p>
-		 The sequence data in this project derive from multiple distinct sources:<br>
-	   </p>
-	   	  	   <p>	      
-		 <b>ncbi-refseqs</b>: Genome-length reference sequences of <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/blob/master/tabular/core/cress-refseqs-side-data.tsv">representative flavivirus species</a>.		 
-		 These
-		 <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master/sources/ncbi-refseqs">XML-formatted files</a>
-		  are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI</a>
-		 and are uniquely identified within this project by their <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
-	   </p>
-	   
-	   <p>
-		 <b>fasta-curated</b>: A non-redundant set of 
-		 <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/blob/master/tabular/locus/ecv-locus-data.tsv">flavivirus-derived EVE loci</a>.
-		 These
-		 <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master/sources/fasta-curated-ecv">FASTA sequences</a>
-		 have been curated via systematic screening of whole genome sequence (WGS) assemblies using the 
-		 <a target="_blank" href="https://giffordlabcvr.github.io/DIGS-tool/">DIGS tool</a>.
-		 Sequences in this source have unique IDs based on arbitrary numbering. 
-	   </p>
-	      	   
-	   <p>
-		 <b>fasta-refseqs</b>:
-		 
-		 <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/blob/master/tabular/eve/ecv-refseqs-side-data.tsv">EVE reference sequences</a>
-		 - i.e. best-guess estimates of the ancestral sequences of
-		 the flaviviruses that gave rise to EVEs.
-		 Where possible these are consensus/ancestral sequences derived from alignments
-		 <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master/alignments/eve/tip/">included in this project</a>.
-		 Sequence IDs used in this source correspond to the names of the unique EVE loci they represent
-		 (see <a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">here</a> for details).
-	   </p>
- 
-	   <br>
-	   <h3>
-	   <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence-associated data</strong>
-	   </h3>
-	   <hr>
-	   
-	   <p>
-         Sequences included in this project are linked to auxiliary data in tabular format, this includes:
-		 
-		 <ol>
-		   <li><a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/blob/master/tabular/eve/ecv-refseqs-side-data.tsv">Basic taxonomic data</a> for genome-length virus reference sequence in <b>ncbi-refseqs</b>.</li> 
-		   <li><a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/blob/master/tabular/locus/ecv-locus-data.tsv">Locus data</a> for the EVE sequences in <b>fasta-curated</b>.</li> 
-		 </ol>
-		 
-	   </p>
-		 
-	   <br>
-	   <h3>
-		 <a id="alignments" class="anchor" href="#alignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments (MSAs)</strong>
-	   </h3>
-	   <hr>
-	   
-	   <p>
-		 Several distinct categories of MSA are included in this project, each representing a distinct taxonomic level.
-		
-		 <ol>
-		   <li><b>Tip (i)</b>: Virus species (genome-length alignment)</li> 
-		   <li><b>Tip (ii)</b>: <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master/alignments/eve/tip/">EVE lineages</a>.
-		   These alignments contain sets of EVE sequences derived from the same ancestral germline colonisation event (i.e. orthologs or duplicates)</li> 
-		   <li><b>Internal</b>: <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master/alignments/eve/internal">Virus genera</a></li> 
-		   <li><b>Root</b>: <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master/alignments/virus/root">Viruses and EVE reference sequences</a></li> 
-		 </ol>
+2017-05-22 - HIV-GLUE set-up
+
+Install 
+
+●	Atlassian SourceTree
+●	GLUE 
+●	MySQL
+
+
 	   </p>
 
 
+	   <p>
+
+Things to add:
+
+●	Reference sequences
+●	Genome features (done)
+●	Feature locations for reference sequences 
+●	Curated sequence sets
+●	Multiple sequence alignments
+●	‘Side data’ for sequences
+
+Spend some time learning about the unix/linux command line.
+
+
+	   </p>
+
+
+	   <p>
+
+
+BASIC STUFF
+
+Downloaded text editor (TextWrangler/BBEdit)
+Set up NCBI reference importer and ran import for one genome
+Added new reference sequences to project 
+Created development branch am_1 in the repo
+Set up NCBI curated importer module (unfinished)
+
+
+	   </p>
 
 
 
