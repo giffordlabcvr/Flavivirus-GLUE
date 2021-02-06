@@ -1,13 +1,13 @@
 Begin SCREENDB;
-	db_name=eve_1_circo;
+	db_name=eve_1_flavi;
 	mysql_server=localhost;
 ENDBLOCK;
 
 BEGIN SCREENSETS;
-	query_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/circo_probes.faa;
-	#reference_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/circo_refs.faa;
-	reference_aa_fasta=/home2/giff01r/DIGS/projects/eve/NCBI_viruses_none-missing.faa;
-	output_path=./tmp/;
+	query_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/flavi_probes.faa;
+	reference_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/flavi_refs_plus_ncbi.faa;
+	consolidated_reference_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/flavi_refs_consolidate_final.faa;
+    output_path=./tmp/;
 	bitscore_min_tblastn=60;
 	seq_length_minimum=40;
 	defragment_range=10;
