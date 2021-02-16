@@ -1,7 +1,0 @@
-sequenceID	name	full_name	class	integration	fragment	duplicate	organism	scaffold	start	end	length	orientation	sublineage	subfamily	genus	clade
-EFV-cISF.3-AnoMin	cISF.3.1.1	EFV-cISF.3.1.1-Anopheles_minimus	EFV	3	1	1	Anopheles_minimus	APHL01005937.1	206	1978	1772	positive	FlaviPesti	Flavi-like	Flavivirus	cISF
-EFV-cISF.4-AnoSin	cISF.4.1.1	EFV-cISF.4.1.1-Anopheles_sinensis	EFV	4	1	1	Anopheles_sinensis	ATLV01019207.1	3627	4277	650	negative	FlaviPesti	Flavi-like	Flavivirus	cISF
-EFV-Flavi.2.1.1-Condylostylus	Flavi.2.1.1	EFV-Flavi.2.1.1-Condylostylus	EFV	2	1	1	Condylostylus_patibulatus	JXOW01150519.1	1	2205	2204	negative	FlaviPesti	Flavi-like	Flavivirus	
-EFV-Tamana.2.1.1-Lednia	Tamana.2.1.1	EFV-Tamana.2.1.1-Lednia	EFV	2	3	1	Lednia_tumana	QKMV01058854.1	3	1369	1366	positive	FlaviPesti	Flavi-like	Tamanavirus	
-EFV-Tamana.4.1.1-Stylephorus	Tamana.4.1.1	EFV-Tamana.4.1.1-Stylephorus	EFV	4	1	1	Stylephorus chordatus	OMPB01035808	993	2414	1421	negative	FlaviPesti	Flavi-like	Tamanavirus	
-EFV-Hepaci.1.1.1-Elysia	Hepaci.1.1.1	EFV-Hepaci.1.1.1-Elysia	EFV	1	1	1	Elysia_chlorotica	RQTK01000193.1	67319	68359	1040	negative	PegiHepaci	Mollusc	Mollusc	
