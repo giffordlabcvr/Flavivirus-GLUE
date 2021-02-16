@@ -1,5 +1,5 @@
   delete module flaviviridaeFeaturePresenceRecorder
-  create module -f modules/flaviviridaeFeaturePresenceRecorder.xml
+  create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
 
   module flaviviridaeFeaturePresenceRecorder 
 

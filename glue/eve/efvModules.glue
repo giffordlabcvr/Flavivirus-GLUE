@@ -1,5 +1,5 @@
   delete module efvSideDataImporter
   delete module efvSideDataImporterRefcon
   
-  create module -f modules/efvSideDataImporter.xml
-  create module -f modules/efvSideDataImporterRefcon.xml
+  create module -f modules/eve/efvSideDataImporter.xml
+  create module -f modules/eve/efvSideDataImporterRefcon.xml
