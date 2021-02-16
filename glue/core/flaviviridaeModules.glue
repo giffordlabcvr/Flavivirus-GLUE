@@ -1,9 +1,9 @@
-  create module -f modules/flaviviridaeGenbankXmlPopulator.xml genbankXmlPopulator
-  create module -f modules/flaviviridaeSideDataImporter.xml
-  create module -f modules/unconstrainedAlignmentImporter.xml unconstrainedAlignmentImporter
-  create module -f modules/featureLocationTextToGlue.xml 
-  create module -f modules/fastaAlignmentExporter.xml 
-  create module -f modules/flaviviridaeTabularUtility.xml flaviviridaeTabularUtility
-  create module -f modules/flaviviridaeFeaturePresenceRecorder.xml
-  create module -f modules/flavivirusCompoundAligner.xml  
+  create module -f modules/core/flaviviridaeGenbankXmlPopulator.xml genbankXmlPopulator
+  create module -f modules/core/flaviviridaeSideDataImporter.xml
+  create module -f modules/core/unconstrainedAlignmentImporter.xml unconstrainedAlignmentImporter
+  create module -f modules/core/featureLocationTextToGlue.xml 
+  create module -f modules/core/fastaAlignmentExporter.xml 
+  create module -f modules/core/flaviviridaeTabularUtility.xml flaviviridaeTabularUtility
+  create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
+  create module -f modules/core/flavivirusCompoundAligner.xml  
 
