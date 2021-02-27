@@ -22,15 +22,15 @@
 
 
   # Create all the modules we need
-  create module -f modules/fastaAlignmentExporter.xml
-  create module -f modules/flaviTreeAlignmentImporterNucs.xml
+  create module -f modules/core/fastaAlignmentExporter.xml
+  create module -f modules/core/flaviTreeAlignmentImporterNucs.xml
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/flaviPhyloUtility.xml
-  create module -f modules/flaviFigTreeAnnotationExporter.xml
-  create module -f modules/flaviviridaeFeaturePresenceRecorder.xml
-  create module -f modules/alignmentColumnsSelectorFlaviCore.xml
-  create module -f modules/alignmentColumnsSelectorFlaviPolymerase.xml
-  create module -f modules/alignmentColumnsSelectorFlaviSurface.xml
+  create module -f modules/core/flaviPhyloUtility.xml
+  create module -f modules/core/flaviFigTreeAnnotationExporter.xml
+  create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
+  create module -f modules/core/alignmentColumnsSelectorFlaviCore.xml
+  create module -f modules/core/alignmentColumnsSelectorFlaviPolymerase.xml
+  create module -f modules/core/alignmentColumnsSelectorFlaviSurface.xml
 
 
   # Export the recursively populated root gene alignments 
