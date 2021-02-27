@@ -5,7 +5,7 @@
   delete module flaviTreeAlignmentImporterNucs
   delete module raxmlPhylogenyGenerator
   delete module flaviviridaePhyloUtility
-  delete module flaviviridaeFigTreeAnnotationExporter
+  delete module flaviFigTreeAnnotationExporter
   delete module flaviviridaeFeaturePresenceRecorder
   delete module alignmentColumnsSelectorFlaviCapsid
   delete module alignmentColumnsSelectorFlaviCore
@@ -13,34 +13,26 @@
   delete module alignmentColumnsSelectorFlaviMembrane
   delete module alignmentColumnsSelectorFlaviEnvelope
   delete module alignmentColumnsSelectorFlaviNS1
-  delete module alignmentColumnsSelectorFlaviNS2A
-  delete module alignmentColumnsSelectorFlaviNS2B
+  delete module alignmentColumnsSelectorFlaviNs2A
+  delete module alignmentColumnsSelectorFlaviNs2B
   delete module alignmentColumnsSelectorFlaviNS3
-  delete module alignmentColumnsSelectorFlaviNS4A
-  delete module alignmentColumnsSelectorFlaviNS4B
-  delete module alignmentColumnsSelectorFlaviNS5
+  delete module alignmentColumnsSelectorFlaviNs4A
+  delete module alignmentColumnsSelectorFlaviNs4B
+  delete module alignmentColumnsSelectorFlaviNs5
 
 
   # Create all the modules we need
-  create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/core/flaviTreeAlignmentImporterNucs.xml
+  create module -f modules/fastaAlignmentExporter.xml
+  create module -f modules/flaviTreeAlignmentImporterNucs.xml
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/flaviviridaePhyloUtility.xml
-  create module -f modules/core/flaviviridaeFigTreeAnnotationExporter.xml
-  create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviCapsid.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviCore.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviPremembrane.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviMembrane.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviEnvelope.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviNS1.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviNS2A.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviNS2B.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviNS3.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviNS4A.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviNS4B.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviNS5.xml
-
+  create module -f modules/flaviviridaePhyloUtility.xml
+  create module -f modules/flaviviridaeFigTreeAnnotationExporter.xml
+  create module -f modules/flaviviridaeFeaturePresenceRecorder.xml
+  
+  # Create alignment column selector modules
+  create module -f modules/alignmentColumnsSelectorFlaviCapsid.xml
+  create module -f modules/alignmentColumnsSelectorFlaviCore.xml
+  create module -f modules/alignmentColumnsSelectorFlaviPremembrane.xml
 
 
   # Export the recursively populated root gene alignments 
@@ -91,7 +83,7 @@
 
 
   # Export annotations
-  module flaviviridaeFigTreeAnnotationExporter 
+  module flaviFigTreeAnnotationExporter 
   
     export figtree-annotation AL_TREE_Flaviviridae -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-root/Flavi-root-core.figtree-annotations.tsv
