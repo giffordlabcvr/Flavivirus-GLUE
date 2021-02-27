@@ -7,18 +7,7 @@
   delete module flaviviridaePhyloUtility
   delete module flaviviridaeFigTreeAnnotationExporter
   delete module flaviviridaeFeaturePresenceRecorder
-  delete module alignmentColumnsSelectorFlaviCapsid
-  delete module alignmentColumnsSelectorFlaviCore
-  delete module alignmentColumnsSelectorFlaviPremembrane
-  delete module alignmentColumnsSelectorFlaviMembrane
-  delete module alignmentColumnsSelectorFlaviEnvelope
-  delete module alignmentColumnsSelectorFlaviNS1
-  delete module alignmentColumnsSelectorFlaviNS2A
-  delete module alignmentColumnsSelectorFlaviNS2B
-  delete module alignmentColumnsSelectorFlaviNS3
-  delete module alignmentColumnsSelectorFlaviNS4A
-  delete module alignmentColumnsSelectorFlaviNS4B
-  delete module alignmentColumnsSelectorFlaviNS5
+  delete module alignmentColumnsSelectorFlaviviridaeNS5
 
 
   # Create all the modules we need
@@ -28,17 +17,7 @@
   create module -f modules/core/flaviviridaePhyloUtility.xml
   create module -f modules/core/flaviviridaeFigTreeAnnotationExporter.xml
   create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviCapsid.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviCore.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviPremembrane.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviMembrane.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviEnvelope.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviNS1.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviNS2A.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviNS2B.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviNS3.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviNS4A.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviNS4B.xml
+
   create module -f modules/core/alignmentColumnsSelectorFlaviNS5.xml
 
 
