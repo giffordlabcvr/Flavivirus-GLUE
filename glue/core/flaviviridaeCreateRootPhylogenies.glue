@@ -24,26 +24,26 @@
 
   # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter
- 	export AL_Flaviviridae -r  REF_Ortho_MASTER_HBV -f whole_genome --recursive -a  -e -o alignments/tree/Flaviviridae-all.aln.fna
+ 	export AL_MASTER_Flaviviridae_ROOT -r  REF_MASTER_YFV -f NS5 --recursive -a  -e -o alignments/tree/Flaviviridae-all.aln.fna
 	exit
 
   # Re-import the recursively populated root alignment into the project
   module flaviTreeAlignmentImporterNucs import AL_UNC_TREE_Flaviviridae -f alignments/tree/Flaviviridae-all.aln.fna
-  create alignment AL_TREE_Flaviviridae -r REF_Ortho_MASTER_HBV
+  create alignment AL_TREE_Flaviviridae_Root -r REF_MASTER_YFV
 
-  alignment AL_TREE_Flaviviridae
-	derive segments AL_UNC_TREE_Flaviviridae -a --mergeStrategy OVERWRITE
+  alignment AL_TREE_Flaviviridae_Root
+	derive segments AL_TREE_Flaviviridae_Root -a --mergeStrategy OVERWRITE
 	exit
 	
   module flaviviridaeFeaturePresenceRecorder
-    record feature-presence AL_TREE_Flaviviridae --featureName whole_genome --descendentFeatures
+    record feature-presence AL_TREE_Flaviviridae_Root --featureName whole_genome --descendentFeatures
     exit
 
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_TREE_Flaviviridae -s alignmentColumnsSelectorFlaviCore \
+    generate nucleotide phylogeny AL_TREE_Flaviviridae_Root -s alignmentColumnsSelectorFlaviCore \
       -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-root/Flavi-core.export_nucs.tre NEWICK_BOOTSTRAPS
 
