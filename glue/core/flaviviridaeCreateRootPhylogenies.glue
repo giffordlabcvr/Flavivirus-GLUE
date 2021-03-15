@@ -24,7 +24,7 @@
 
   # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter
- 	export AL_Flaviviridae -r  REF_Ortho_MASTER_HBV -f whole_genome --recursive -a  -e -o alignments/tree/Flaviviridae-all.aln.fna
+ 	export AL_MASTER_Flaviviridae_ROOT -r  REF_MASTER_YFV -f NS5 --recursive -a  -e -o alignments/tree/Flaviviridae-all.aln.fna
 	exit
 
   # Re-import the recursively populated root alignment into the project
