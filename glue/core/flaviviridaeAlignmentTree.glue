@@ -99,14 +99,14 @@
 	extract child AL_cISF        --refName REF_KRV
 	demote member AL_cISF        --whereClause "sequence.clade = 'cISF'" 
 
-	extract child AL_dISF1        --refName REF_LTNV
-	demote member AL_dISF1        --whereClause "sequence.clade = 'dISF1'" 
+	extract child AL_dISF1       --refName REF_LTNV
+	demote member AL_dISF1       --whereClause "sequence.clade = 'dISF1'" 
 
-	extract child AL_dISF1A       --refName REF_NHUV
-	demote member AL_dISF1A       --whereClause "sequence.clade = 'dISF1A'" 
+	extract child AL_dISF1A      --refName REF_NHUV
+	demote member AL_dISF1A      --whereClause "sequence.clade = 'dISF1A'" 
 
-	extract child AL_dISF1B       --refName REF_LAMV
-	demote member AL_dISF1B       --whereClause "sequence.clade = 'dISF1B'" 
+	extract child AL_dISF1B      --refName REF_LAMV
+	demote member AL_dISF1B      --whereClause "sequence.clade = 'dISF1B'" 
 
 	extract child AL_dISF2       --refName REF_EPEV
 	demote member AL_dISF2       --whereClause "sequence.clade = 'dISF2'" 
