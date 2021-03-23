@@ -43,17 +43,9 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_TREE_Flaviviridae_Root -s alignmentColumnsSelectorFlaviCore \
+    generate nucleotide phylogeny AL_TREE_Flaviviridae_Root -s alignmentColumnsSelectorFlaviNS5 \
       -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-root/Flavi-core.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_TREE_Flaviviridae -s alignmentColumnsSelectorFlaviPolymerase \
-      -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-root/Flavi-pol.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_TREE_Flaviviridae -s alignmentColumnsSelectorFlaviSurface \
-      -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-root/Flavi-surface.export_nucs.tre NEWICK_BOOTSTRAPS
 
     exit
 
