@@ -137,7 +137,7 @@
 
 
   #
-  # MAIN BRANCHES
+  # DEEP INTERNAL  NODES
   #
 
 
@@ -148,6 +148,30 @@
   alignment AL_FlaviPesti
     derive segments AL_UNC_FLAVI_PESTI -a --mergeStrategy OVERWRITE
     exit
+
+
+
+
+  #
+  # HepaPegi-like internal noces
+  #
+
+
+  alignment AL_Hepacivirus
+    derive segments AL_UNC_HEPACI -a --mergeStrategy OVERWRITE
+   exit
+
+  alignment AL_Pegivirus
+    derive segments AL_UNC_PEGI -a --mergeStrategy OVERWRITE
+    exit
+
+
+
+
+  #
+  # FlaviPesti-like internal noces
+  #
+
 
   alignment AL_PestiLike
     derive segments AL_UNC_PESTI_LIKE -a --mergeStrategy OVERWRITE
