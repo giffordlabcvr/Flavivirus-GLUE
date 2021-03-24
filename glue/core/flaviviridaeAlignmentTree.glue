@@ -69,12 +69,17 @@
 
  alignment AL_FlaviLike
 
-	extract child AL_Jingmenvirus        --refName REF_JMTV_CONCAT
-	demote member AL_Jingmenvirus        --whereClause "sequence.genus  = 'Jingmenvirus'"
+	extract child AL_Jingmenvirus_Seg3        --refName REF_JMTV_Seg3
+	demote member AL_Jingmenvirus_Seg3        --whereClause "sequence.genus  = 'Jingmenvirus' and sequence.name like '%Seg3'"
 
-	extract child AL_FlaviTamana         --refName REF_MASTER_YFV
-	demote member AL_FlaviTamana         --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus'"
+	extract child AL_Jingmenvirus_Seg1        --refName REF_JMTV_Seg1
+	demote member AL_Jingmenvirus_Seg1        --whereClause "sequence.genus  = 'Jingmenvirus' and sequence.name like '%Seg1'"
+
+	extract child AL_FlaviTamana              --refName REF_MASTER_YFV
+	demote member AL_FlaviTamana              --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus'"
+
     exit
+
     
   alignment AL_FlaviTamana
 	
@@ -203,8 +208,13 @@
   #  
   
 
-  alignment AL_Jingmenvirus
+  alignment AL_Jingmenvirus_Seg1
     derive segments AL_UNC_JMTV_SEG1 -a --mergeStrategy OVERWRITE
+    exit
+
+
+  alignment AL_Jingmenvirus_Seg3
+    derive segments AL_UNC_JMTV_SEG3 -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_Tamanavirus
