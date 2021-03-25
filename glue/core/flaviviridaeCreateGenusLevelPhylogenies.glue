@@ -17,11 +17,6 @@
   create module -f modules/flaviviridaeFigTreeAnnotationExporter.xml
   create module -f modules/flaviviridaeFeaturePresenceRecorder.xml
   
-  # Create alignment column selector modules
-  create module -f modules/alignmentColumnsSelectorFlaviCapsid.xml
-  create module -f modules/alignmentColumnsSelectorFlaviCore.xml
-  create module -f modules/alignmentColumnsSelectorFlaviPremembrane.xml
-
 
   # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter
