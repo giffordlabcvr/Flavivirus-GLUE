@@ -1,4 +1,3 @@
-
   # Clean up from any previous run of this file
   delete alignment AL_TREE_Flaviviridae
 
@@ -8,6 +7,20 @@
   delete module flaviviridaePhyloUtility
   delete module flaviFigTreeAnnotationExporter
   delete module flaviviridaeFeaturePresenceRecorder
+  
+  delete module alignmentColumnsSelectorFlaviCapsid
+  delete module alignmentColumnsSelectorFlaviCore
+  delete module alignmentColumnsSelectorFlaviPremembrane
+  delete module alignmentColumnsSelectorFlaviMembrane
+  delete module alignmentColumnsSelectorFlaviEnvelope
+  delete module alignmentColumnsSelectorFlaviNS1
+  delete module alignmentColumnsSelectorFlaviNs2A
+  delete module alignmentColumnsSelectorFlaviNs2B
+  delete module alignmentColumnsSelectorFlaviNS3
+  delete module alignmentColumnsSelectorFlaviNs4A
+  delete module alignmentColumnsSelectorFlaviNs4B
+  delete module alignmentColumnsSelectorFlaviNs5
+
 
   # Create all the modules we need
   create module -f modules/fastaAlignmentExporter.xml
@@ -68,4 +81,19 @@
       --outputFile trees/main-root/Flavi-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
+
+
+  # Export annotations
+  module flaviFigTreeAnnotationExporter 
+  
+    export figtree-annotation AL_TREE_Flaviviridae -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-root/Flavi-root-core.figtree-annotations.tsv
+      
+    export figtree-annotation AL_TREE_Flaviviridae -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-root/Flavi-root-pol.figtree-annotations.tsv
+      
+    export figtree-annotation AL_TREE_Flaviviridae -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-root/Flavi-root-surface.figtree-annotations.tsv
+      
+  exit
 
