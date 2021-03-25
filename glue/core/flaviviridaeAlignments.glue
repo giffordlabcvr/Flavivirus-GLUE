@@ -10,7 +10,7 @@
 
     #~# Minor lineages
     import AL_UNC_PESTI_LIKE          -f alignments/internal/minor-lineage/pesti-like.aln.fna
-    import AL_UNC_FLAVI_LIKE          -f alignments/internal/minor-lineage/flavi-tabv.aln.fna
+    import AL_UNC_FLAVI_LIKE          -f alignments/internal/minor-lineage/flavi-like.aln.fna
     import AL_UNC_FLAVI_TABV          -f alignments/internal/minor-lineage/flavi-tabv.aln.fna
 
     #~# Genera

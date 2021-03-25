@@ -17,7 +17,8 @@
     record feature-presence AL_Pestivirus --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_PL1 --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_PL2 --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Jingmenvirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Jingmenvirus_Seg1 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_Jingmenvirus_Seg3 --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_Tamanavirus --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_Flavivirus --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_mosquito-2 --recursive --featureName whole_genome --descendentFeatures

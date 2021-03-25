@@ -149,17 +149,17 @@ NC_027998	Human pegivirus 2	HPgV-2	Flaviviridae	HepaPegi	Pegivirus			Primates	no
 NC_025679	Norway rat pegivirus	NPgV	Flaviviridae	HepaPegi	Pegivirus			Rattus	none	none	NrPgV/NYC-E13	Americas	Rattus norvegicus
 NC_001837	Pegivirus A	GBV-A	Flaviviridae	HepaPegi	Pegivirus			Primates	none	none	-	-	-
 NC_021154	Rodent pegivirus	RPgV	Flaviviridae	HepaPegi	Pegivirus			Neotoma	none	none	CC61	Americas	Neotoma lepida
-NC_024377	Simian pegivirus	SPgV	Flaviviridae	HepaPegi	Pegivirus			Piliocolobus	none	none	SPgVkrc_RC08	Africa	Piliocolobus tephrosceles (red colobus monkey)
+NC_024377	Simian pegivirus	SPgV	Flaviviridae	HepaPegi	Pegivirus			Piliocolobus	none	none	SPgVkrc_RC08	Africa	Piliocolobus tephrosceles
 KC145265	Theiler's disease-associated virus	TDAV	Flaviviridae	HepaPegi	Pegivirus			Saguinus	none	none	-	-	Saguinus
 JMTV_CONCAT	Jingmen tick virus	JMTV_CONCAT	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus		Ixodes	ticks	mammals	H3	-	Ixodes persulcatus
-MH158415	Alongshan virus 	Alongshan	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	1	Ixodes	ticks	mammals	H3	-	Ixodes persulcatus
-KX883002	Changjiang Jingmen-like virus 	Changjiang	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	1	Procambarus	none	none	CJLX28200	-	Procambarus clarkii
-KM521552	Guaico Culex virus 	Guaico	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	1	Culex	none	none	ACH27	-	Culex interrogator
-NC_024113	Jingmen tick virus	JMTV	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	1	Rhipicephalus	ticks	mammals	SY84	-	Rhipicephalus microplus
-KR902721	Wuhan Aphid	WuhanAphid	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	1	Hyalopterus	none	none	-	-	Hyalopterus pruni
-KP757924	Drosophila-associated Flavivirus-like 2	Daflv	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	1	Drosophila	none	none	-	-	-
-NC_028396	Shuangao insect virus 7	Siv7	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	1	Chrysopidae spp	none	none	-	-	-
-NC_024114	Jingmen tick virus	JMTV	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	3	Rhipicephalus	ticks	mammals	SY84	-	Ixodes persulcatus
-KX883003	Changjiang Jingmen-like virus 	Changjiang	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	3	Procambarus	none	none	CJLX28200		Procambarus clarkii
-KR902723	Wuhan Aphid	WuhanAphid	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	3	Hyalopterus	none	none	-		Hyalopterus pruni
-KM521553	Guaico Culex virus 	Guaico	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	3	Culex	none	none	ACH27		Culex interrogator
+MH158415	Alongshan virus 	Alongshan_Seg1	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	1	Ixodes	ticks	mammals	H3	-	Ixodes persulcatus
+KX883002	Changjiang Jingmen-like virus 	Changjiang_Seg1	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	1	Procambarus	none	none	CJLX28200	-	Procambarus clarkii
+KM521552	Guaico Culex virus 	Guaico_Seg1	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	1	Culex	none	none	ACH27	-	Culex interrogator
+NC_024113	Jingmen tick virus	JMTV_Seg1	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	1	Rhipicephalus	ticks	mammals	SY84	-	Rhipicephalus microplus
+KR902721	Wuhan Aphid	WuhanAphid_Seg1	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	1	Hyalopterus	none	none	-	-	Hyalopterus pruni
+KP757924	Drosophila-associated Flavivirus-like 2	Daflv_Seg1	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	1	Drosophila	none	none	-	-	-
+NC_028396	Shuangao insect virus 7	Siv7_Seg1	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	1	Chrysopidae spp	none	none	-	-	-
+NC_024114	Jingmen tick virus	JMTV_Seg3	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	3	Rhipicephalus	ticks	mammals	SY84	-	Ixodes persulcatus
+KX883003	Changjiang Jingmen-like virus 	Changjiang_Seg3	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	3	Procambarus	none	none	CJLX28200		Procambarus clarkii
+KR902723	Wuhan Aphid	WuhanAphid_Seg3	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	3	Hyalopterus	none	none	-		Hyalopterus pruni
+KM521553	Guaico Culex virus 	Guaico_Seg3	Jingmenvirus	FlaviPesti	Jingmenvirus	Jingmenvirus	3	Culex	none	none	ACH27		Culex interrogator

@@ -19,6 +19,8 @@
 
   ### Jingmen
   create reference REF_JMTV_CONCAT fasta-refseqs  JMTV_CONCAT 
+  create reference REF_JMTV_Seg3   ncbi-refseqs   NC_024114 
+  create reference REF_JMTV_Seg1   ncbi-refseqs   NC_024113 
 
   ### Pestivirus
   create reference REF_BVDV1       ncbi-refseqs   NC_001461  
