@@ -8,6 +8,8 @@ glue.inMode("module/flaviviridaeTabularUtility", function() {
 _.each(loadResult, function(eveObj) {
 
 	glue.inMode("custom-table-row/locus_data/"+eveObj.sequenceID, function() {
+
+	    //glue.log("INFO", "eveObj result was:", eveObj);
 	
 		glue.command(["set", "field", "scaffold", eveObj.scaffold]);
 		glue.command(["set", "field", "start", eveObj.start]);
