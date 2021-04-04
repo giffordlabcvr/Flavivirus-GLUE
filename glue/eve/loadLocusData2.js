@@ -9,16 +9,15 @@ _.each(loadResult, function(eveObj) {
 
 	glue.inMode("custom-table-row/locus_data/"+eveObj.sequenceID, function() {
 
-	    //glue.log("INFO", "eveObj result was:", eveObj);
+	    glue.log("INFO", "eveObj result was:", eveObj);
 	
 		glue.command(["set", "field", "scaffold", eveObj.scaffold]);
-		glue.command(["set", "field", "start", eveObj.start]);
-		glue.command(["set", "field", "end", eveObj.end]);
+		glue.command(["set", "field", "start", eveObj.extract_start]);
+		glue.command(["set", "field", "end", eveObj.extract_end]);
 		glue.command(["set", "field", "orientation", eveObj.orientation]);
-		glue.command(["set", "field", "length", eveObj.length]);
-		glue.command(["set", "field", "integration", eveObj.integration]);
-		glue.command(["set", "field", "fragment", eveObj.fragment]);
-		glue.command(["set", "field", "duplicate", eveObj.duplicate]);
+		//glue.command(["set", "field", "integration", eveObj.integration]);
+	    //glue.command(["set", "field", "fragment", eveObj.fragment]);
+		//glue.command(["set", "field", "duplicate", eveObj.duplicate]);
 
 	});
 });
