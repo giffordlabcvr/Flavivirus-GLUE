@@ -11,7 +11,3 @@
     populate -f tabular/eve/efv-refseq-side-data.tsv
     exit
 
-  # Import metadata for rank & file EVE sequences
-  module efvSideDataImporter 
-    populate -f tabular/eve/efv-side-data.tsv
-    exit
