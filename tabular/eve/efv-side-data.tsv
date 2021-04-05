@@ -38,13 +38,6 @@ EFV-cISF.2.28-Aedes_albopictus	EFV-cISF	2	28	Aedes_albopictus	complete	v1.1	GCA_
 EFV-cISF.2.29-Aedes_albopictus	EFV-cISF	2	29	Aedes_albopictus	complete	v1.1	GCA_001444175.2_A.albopictus_v1.1_genomic.fna	KQ560193.1	+	303890	307767	EFV-cISF.2	3878
 EFV-cISF.2.30-Aedes_albopictus	EFV-cISF	2	30	Aedes_albopictus	complete	v1.1	GCA_001444175.2_A.albopictus_v1.1_genomic.fna	KQ565019.1	-	79477	79647	EFV-cISF.2	171
 EFV-cISF.2.31-Aedes_albopictus	EFV-cISF	2	31	Aedes_albopictus	complete	v1.1	GCA_001444175.2_A.albopictus_v1.1_genomic.fna	KQ604578.1	+	468	674	EFV-cISF.2	207
-EFV-cISF.NULL-Aedes_aegypti	EFV-cISF	NULL		Aedes_aegypti	complete	AaegL2	GCF_000004015.3_AaegL2_genomic.fna	NW_001811003.1	+	1406821	1407812	EFV-cISF.NULL	992
-EFV-cISF.NULL-Aedes_aegypti	EFV-cISF	NULL		Aedes_aegypti	complete	AaegL2	GCF_000004015.3_AaegL2_genomic.fna	NW_001809901.1	-	114281	115061	EFV-cISF.NULL	781
-EFV-cISF.NULL-Aedes_albopictus	EFV-cISF	NULL		Aedes_albopictus	complete	Aalbo_primary.1	GCA_006496715.1_Aalbo_primary.1_genomic.fna	SWKY01000101.1	+	52628	53340	EFV-cISF.NULL	713
-EFV-cISF.NULL-Aedes_albopictus	EFV-cISF	NULL		Aedes_albopictus	complete	v1.1	GCA_001444175.2_A.albopictus_v1.1_genomic.fna	KQ565019.1	-	88360	89525	EFV-cISF.NULL	1166
-EFV-cISF.NULL-Aedes_albopictus	EFV-cISF	NULL		Aedes_albopictus	complete	Aalbo_primary.1	GCA_006496715.1_Aalbo_primary.1_genomic.fna	SWKY01000101.1	+	36136	36916	EFV-cISF.NULL	781
-EFV-cISF.v-Aedes_albopictus	EFV-cISF	v		Aedes_albopictus	complete	Aalbo_primary.1	GCA_006496715.1_Aalbo_primary.1_genomic.fna	SWKY01000042.1	-	5487242	5487523	EFV-cISF.v	282
-EFV-cISF.v-Aedes_albopictus	EFV-cISF	v		Aedes_albopictus	complete	Aalbo_primary.1	GCA_006496715.1_Aalbo_primary.1_genomic.fna	SWKY01000042.1	-	5474148	5474357	EFV-cISF.v	210
 EFV-cISF.3-Anopheles_minimus	EFV-cISF	3		Anopheles_minimus	low_coverage	Anop_mini_MINIMUS1_V1	GCA_000349025.1_Anop_mini_MINIMUS1_V1_genomic.fna	KB664005.1	+	23	1987	EFV-cISF.3	1965
 EFV-cISF.4-Anopheles_sinensis	EFV-cISF	4		Anopheles_sinensis	low_coverage	AS2	GCA_000441895.2_AS2_genomic.fna	KE525264.1	-	411745	413407	EFV-cISF.4	1663
 EFV-cISF.6-Condylostylus_patibulatus	EFV-cISF	6		Condylostylus_patibulatus	low_coverage	ASM101487v1	GCA_001014875.1_ASM101487v1_genomic.fna	JXOW01150519.1	-	3	587	EFV-cISF.6	585
