@@ -31,8 +31,8 @@ module unconstrainedAlignmentImporter
   import AL_EJP_UNC_JMTV1_Chironomus          -f alignments/tip/eve/jingmenvirus/jmtv1-chironomus.fna
 
   # Pestinsect
-  import AL_EFV_UNC_Pestinsect_Calycopis     -f alignments/tip/eve/pl2/pestinsect-calycopis.fna
-  import AL_EFV_UNC_Pestinsect_Andricus      -f alignments/tip/eve/pl2/pestinsect-andricus.fna
+  import AL_EFV_UNC_Pestinsect_Calycopis     -f alignments/tip/eve/pl2/PL2-calycopis.aln.fna
+  import AL_EFV_UNC_Pestinsect_Andricus      -f alignments/tip/eve/pl2/PL2-andricus.aln.fna
   #import AL_EFV_UNC_Pestinsect_Operophtera   -f alignments/tip/eve/pl2/pestinsect-operophtera.fna
 
   exit
