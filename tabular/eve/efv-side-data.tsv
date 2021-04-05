@@ -365,4 +365,3 @@ EFV-X2.4.1-Takifugu_bimaculatus	503	EFV-X2.4	EFV-X2	4	1	Takifugu_bimaculatus	low
 EFV-X2.4.2-Takifugu_bimaculatus	500	EFV-X2.4	EFV-X2	4	2	Takifugu_bimaculatus	low_coverage	ASM402614v1	GCA_004026145.1_ASM402614v1_genomic.fna	CP034996.1	+	3097464	3097963
 EFV-X2.4.3-Takifugu_bimaculatus	503	EFV-X2.4	EFV-X2	4	3	Takifugu_bimaculatus	low_coverage	ASM402614v1	GCA_004026145.1_ASM402614v1_genomic.fna	CP034996.1	-	2493774	2494276
 EFV-X2.4.1-Takifugu_flavidus	219	EFV-X2.4	EFV-X2	4	1	Takifugu_flavidus	low_coverage	v1	GCA_000400755.1_version_1_of_Takifugu_flavidus_genome_genomic.fna	KE122403.1	+	13757	13975
-EFV-X1.1.1-Priapulus_caudatus			EFV-X1	1	1	Priapulus_caudatus	low_coverage			AXZU02072455		446	1327
