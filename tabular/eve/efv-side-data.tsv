@@ -362,3 +362,4 @@ EFV-X2.6-Mora_moro	168	EFV-X2.6	X2	EFV-X2	6		Mora_moro	low_coverage	Mora_mora_as
 EFV-X2.7-Brosme_brosme	441	EFV-X2.7	X2	EFV-X2	7		Brosme_brosme	low_coverage	ASM90030242v1	GCA_900302425.1_ASM90030242v1_genomic.fna	OMKX01003740.1	+	5708	6148
 EFV-X2.7-Boleophthalmus_pectinirostris	798	EFV-X2.7	X2	EFV-X2	7		Boleophthalmus_pectinirostris	low_coverage	1_BP	GCA_000788275.1_BP.fa_genomic.fna	KN521974.1	+	1448566	1449363
 EFV-X2.8-Maccullochella_peelii	180	EFV-X2.8	X2	EFV-X2	8		Maccullochella_peelii	low_coverage	mcod_v1	GCA_002120245.1_mcod_v1_genomic.fna	LKNJ01003435.1	-	40729	40908
+EFV-X1.1.1-Priapulus_caudatus			X1	EFV-X1	1	1	Priapulus_caudatus	low_coverage			AXZU02072455		446	1327

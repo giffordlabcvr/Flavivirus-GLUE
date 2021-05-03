@@ -14,6 +14,7 @@ _.each(loadResult, function(eveObj) {
 
 		glue.command(["set", "field", "locus_id", eveObj.locus_numeric_id]);	
 		glue.command(["set", "field", "duplicate_id", eveObj.duplicate_id]);	
+		glue.command(["set", "field", "organism", eveObj.organism]);	
 		glue.command(["set", "field", "scaffold", eveObj.scaffold]);
 		glue.command(["set", "field", "start", eveObj.extract_start]);
 		glue.command(["set", "field", "end", eveObj.extract_end]);
@@ -27,7 +28,6 @@ _.each(loadResult, function(eveObj) {
 	
 		glue.command(["set", "field", "name", eveObj.sequenceID]);
 		glue.command(["set", "field", "full_name", eveObj.sequenceID]);
-		glue.command(["set", "field", "organism", eveObj.organism]);
 		glue.command(["set", "field", "length", eveObj.sequence_length]);
 		
 	});
