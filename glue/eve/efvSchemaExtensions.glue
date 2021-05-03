@@ -21,14 +21,13 @@
 
   table locus_data
     create field locus_id VARCHAR 80
+    create field duplicate_id INTEGER
     create field scaffold VARCHAR 50
     create field start INTEGER
     create field end INTEGER
     create field orientation VARCHAR 10
     create field length INTEGER
-    create field integration INTEGER
-    create field fragment INTEGER
-    create field duplicate INTEGER
+
   exit
 
   create link sequence locus_data

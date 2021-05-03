@@ -1,4 +1,4 @@
-sequenceID	sequence_length	locus_name	genus	stem	locus_numeric_id	duplicateID	organism	target_datatype	target_version	target_name	scaffold	orientation	extract_start	extract_end
+sequenceID	sequence_length	locus_name	genus	stem	locus_numeric_id	duplicate_id	organism	target_datatype	target_version	target_name	scaffold	orientation	extract_start	extract_end
 EFV-cISF.1.1-Aedes_aegypti	13814	EFV-cISF.1	cISF	EFV-cISF	1	1	Aedes_aegypti	complete	AaegL2	GCF_000004015.3_AaegL2_genomic.fna	NW_001811003.1	+	1363194	1377007
 EFV-cISF.1.2-Aedes_aegypti	2864	EFV-cISF.1	cISF	EFV-cISF	1	2	Aedes_aegypti	complete	AaegL2	GCF_000004015.3_AaegL2_genomic.fna	NW_001810938.1	-	1126141	1129004
 EFV-cISF.1.3-Aedes_aegypti	13973	EFV-cISF.1	cISF	EFV-cISF	1	3	Aedes_aegypti	complete	AaegL2	GCF_000004015.3_AaegL2_genomic.fna	NW_001811003.1	+	1385240	1399212
