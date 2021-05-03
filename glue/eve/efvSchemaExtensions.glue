@@ -22,6 +22,7 @@
   table locus_data
     create field locus_id VARCHAR 80
     create field duplicate_id INTEGER
+    create field organism VARCHAR 80
     create field scaffold VARCHAR 50
     create field start INTEGER
     create field end INTEGER

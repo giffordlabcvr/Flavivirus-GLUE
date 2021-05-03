@@ -19,6 +19,7 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "end", eveObj.extract_end]);
 		glue.command(["set", "field", "orientation", eveObj.orientation]);
 
+
 	});
 	
 
@@ -26,8 +27,7 @@ _.each(loadResult, function(eveObj) {
 	
 		glue.command(["set", "field", "name", eveObj.sequenceID]);
 		glue.command(["set", "field", "full_name", eveObj.sequenceID]);
-		glue.command(["set", "field", "species", eveObj.organism]);
-
+		glue.command(["set", "field", "organism", eveObj.organism]);
 		glue.command(["set", "field", "length", eveObj.sequence_length]);
 		
 	});

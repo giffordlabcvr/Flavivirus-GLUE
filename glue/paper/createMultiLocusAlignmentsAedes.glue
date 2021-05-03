@@ -1,6 +1,6 @@
 delete alignment AL_EFV_UNC_cISF_Aedes_aeg
 
 create alignment AL_EFV_UNC_cISF_Aedes_aeg -r REF_EFV-cISF.1-AedAeg
-alignment AL_EFV_UNC_cISF_Aedes_aeg add member --whereClause "source.name = 'fasta-digs-eve' and "
-compute alignment AL_Pestinsect_6_Xenocatantops --whereClause "sequence.source = 'xenocatantops-rescreen'" flavivirusCompoundAligner 
+alignment AL_EFV_UNC_cISF_Aedes_aeg add member --whereClause "source.name = 'fasta-digs-eve' and sequenceID like 'EFV-cISF.2%'"
+compute alignment AL_EFV_UNC_cISF_Aedes_aeg flavivirusCompoundAligner 
 

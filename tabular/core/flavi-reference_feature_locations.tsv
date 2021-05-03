@@ -16,6 +16,8 @@ NC_005064	REF_KRV	Flavivirus	cISF	2K	6655	6723
 NC_005064	REF_KRV	Flavivirus	cISF	flavi-NS4B	6724	7503
 NC_005064	REF_KRV	Flavivirus	cISF	NS5	7504	10167
 NC_005064	REF_KRV	Flavivirus	cISF	3UTR	10168	11375
+NC_012932	REF_Aedes_FV	Flavivirus	cISF	whole_genome	1	11064
+NC_012932	REF_Aedes_FV	Flavivirus	cISF	precursor_polyprotein	97	10122
 NC_027999	REF_EPEV	Flavivirus	dISF1	whole_genome	1	10761
 NC_027999	REF_EPEV	Flavivirus	dISF1	5UTR	1	119
 NC_027999	REF_EPEV	Flavivirus	dISF1	precursor_polyprotein	120	10445

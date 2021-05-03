@@ -11,6 +11,7 @@
   create reference REF_APOIV       ncbi-refseqs   NC_003676  # NKV1
   create reference REF_SOKV        ncbi-refseqs   NC_026624  # NKV2
   create reference REF_KRV         ncbi-refseqs   NC_005064  # cISF
+  create reference REF_Aedes_FV    ncbi-refseqs   NC_012932  # Aedes flavivirus
   create reference REF_ccCFV       ncbi-refseqs   MK473878   # crustacean
   create reference REF_ssFV        fasta-refseqs  SsFV_consensus  # arachnid
 
