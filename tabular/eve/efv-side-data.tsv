@@ -38,13 +38,13 @@ EFV-cISF.2.28-Aedes_albopictus	321	EFV-cISF.2	cISF	EFV-cISF	2	28	Aedes_albopictu
 EFV-cISF.2.29-Aedes_albopictus	3878	EFV-cISF.2	cISF	EFV-cISF	2	29	Aedes_albopictus	complete	v1.1	GCA_001444175.2_A.albopictus_v1.1_genomic.fna	KQ560193.1	+	303890	307767
 EFV-cISF.2.30-Aedes_albopictus	171	EFV-cISF.2	cISF	EFV-cISF	2	30	Aedes_albopictus	complete	v1.1	GCA_001444175.2_A.albopictus_v1.1_genomic.fna	KQ565019.1	-	79477	79647
 EFV-cISF.2.31-Aedes_albopictus	207	EFV-cISF.2	cISF	EFV-cISF	2	31	Aedes_albopictus	complete	v1.1	GCA_001444175.2_A.albopictus_v1.1_genomic.fna	KQ604578.1	+	468	674
-EFV-cISF.3-Anopheles_minimus	1965	EFV-cISF.3	cISF	EFV-cISF	3		Anopheles_minimus	low_coverage	Anop_mini_MINIMUS1_V1	GCA_000349025.1_Anop_mini_MINIMUS1_V1_genomic.fna	KB664005.1	+	23	1987
-EFV-cISF.4-Anopheles_sinensis	1663	EFV-cISF.4	cISF	EFV-cISF	4		Anopheles_sinensis	low_coverage	AS2	GCA_000441895.2_AS2_genomic.fna	KE525264.1	-	411745	413407
+EFV-cISF.3-Anopheles_minimus	1965	EFV-cISF.3	cISF	EFV-cISF	3	1	Anopheles_minimus	low_coverage	Anop_mini_MINIMUS1_V1	GCA_000349025.1_Anop_mini_MINIMUS1_V1_genomic.fna	KB664005.1	+	23	1987
+EFV-cISF.4-Anopheles_sinensis	1663	EFV-cISF.4	cISF	EFV-cISF	4	1	Anopheles_sinensis	low_coverage	AS2	GCA_000441895.2_AS2_genomic.fna	KE525264.1	-	411745	413407
 EFV-cISF.5.1-Tipula_oleracea	2740	EFV-cISF.5	cISF	EFV-cISF	5	1	Tipula_oleracea	low_coverage	v1	GCA_001017535.1_ASM101753v1_genomic.fna	JXPP01124776.1	+	1264	4003
 EFV-cISF.5.2-Tipula_oleracea	1067	EFV-cISF.5	cISF	EFV-cISF	5	2	Tipula_oleracea	low_coverage	v1	GCA_001017535.1_ASM101753v1_genomic.fna	JXPP01151535.1	+	859	1925
 EFV-cISF.5.3-Tipula_oleracea	1186	EFV-cISF.5	cISF	EFV-cISF	5	3	Tipula_oleracea	low_coverage	v1	GCA_001017535.1_ASM101753v1_genomic.fna	JXPP01036443.1	+	885	2070
 EFV-cISF.5.4-Tipula_oleracea	1075	EFV-cISF.5	cISF	EFV-cISF	5	4	Tipula_oleracea	low_coverage	v1	GCA_001017535.1_ASM101753v1_genomic.fna	JXPP01119385.1	-	86	1160
-EFV-cISF.6-Condylostylus_patibulatus	585	EFV-cISF.6	cISF	EFV-cISF	6		Condylostylus_patibulatus	low_coverage	ASM101487v1	GCA_001014875.1_ASM101487v1_genomic.fna	JXOW01150519.1	-	3	587
+EFV-cISF.6-Condylostylus_patibulatus	585	EFV-cISF.6	cISF	EFV-cISF	6	1	Condylostylus_patibulatus	low_coverage	ASM101487v1	GCA_001014875.1_ASM101487v1_genomic.fna	JXOW01150519.1	-	3	587
 EFV-Flavi.1.1-Craspedacusta_sowerbyi	4469	EFV-Flavi.1	Flavi	EFV-Flavi	1	1	Craspedacusta_sowerbyi	low_coverage	ASM368756v1	GCA_003687565.1_ASM368756v1_genomic.fna	QQSS01132398.1	+	1992	6460
 EFV-Flavi.1.2-Craspedacusta_sowerbyi	2558	EFV-Flavi.1	Flavi	EFV-Flavi	1	2	Craspedacusta_sowerbyi	low_coverage	ASM368756v1	GCA_003687565.1_ASM368756v1_genomic.fna	QQSS01398420.1	+	140	2697
 EFV-Flavi.1.3-Craspedacusta_sowerbyi	1125	EFV-Flavi.1	Flavi	EFV-Flavi	1	3	Craspedacusta_sowerbyi	low_coverage	ASM368756v1	GCA_003687565.1_ASM368756v1_genomic.fna	QQSS01051271.1	-	11592	12716
@@ -63,20 +63,20 @@ EFV-Flavi.2.2-Daphnia_magna	1588	EFV-Flavi.2	Flavi	EFV-Flavi	2	2	Daphnia_magna	l
 EFV-Flavi.3.1-Lepidurus_arcticus	1599	EFV-Flavi.3	Flavi	EFV-Flavi	3	1	Lepidurus_arcticus	low_coverage	ASM372404v1	GCA_003724045.1_ASM372404v1_genomic.fna	RJJA01000657.1	-	13151	14749
 EFV-Flavi.3.2-Lepidurus_arcticus	954	EFV-Flavi.3	Flavi	EFV-Flavi	3	2	Lepidurus_arcticus	low_coverage	ASM372404v1	GCA_003724045.1_ASM372404v1_genomic.fna	RJJA01001389.1	+	1843	2796
 EFV-Flavi.3.3-Lepidurus_arcticus	753	EFV-Flavi.3	Flavi	EFV-Flavi	3	3	Lepidurus_arcticus	low_coverage	ASM372404v1	GCA_003724045.1_ASM372404v1_genomic.fna	RJJA01000859.1	+	5426	6178
-EFV-Flavi.5-Tipula_oleracea	276	EFV-Flavi.5	Flavi	EFV-Flavi	5		Tipula_oleracea	low_coverage	v1	GCA_001017535.1_ASM101753v1_genomic.fna	JXPP01186655.1	-	1030	1305
-EFV-Hepaci.1-Elysia_chlorotica	741	EFV-Hepaci.1	Hepaci	EFV-Hepaci	1		Elysia_chlorotica	low_coverage	ElyChl2.0	GCA_003991915.1_ElyChl2.0_genomic.fna	RQTK01000193.1	-	67319	68059
-EFV-Jingmen.1-Chironomus_tentans	2108	EFV-Jingmen.1	Jingmen	EFV-Jingmen	1		Chironomus_tentans	low_coverage	CT01	GCA_000786525.1_CT01_genomic.fna	HG429170.1	-	32608	34715
-EFV-Jingmen.1-Chironomus_riparius	2307	EFV-Jingmen.1	Jingmen	EFV-Jingmen	1		Chironomus_riparius	low_coverage	ASM101450v1	GCA_001014505.1_ASM101450v1_genomic.fna	JXPV01001963.1	-	3919	6225
-EFV-Jingmen.2-Gerris_buenoi	1572	EFV-Jingmen.2	Jingmen	EFV-Jingmen	2		Gerris_buenoi	low_coverage	Gbue_1.0	GCA_001010745.1_Gbue_1.0_genomic.fna	KQ064150.1	-	54576	56147
-EFV-Jingmen.3-Gerris_buenoi	1404	EFV-Jingmen.3	Jingmen	EFV-Jingmen	3		Gerris_buenoi	low_coverage	Gbue_1.0	GCA_001010745.1_Gbue_1.0_genomic.fna	KQ066217.1	-	2361	3764
-EFV-Jingmen.3-Gerris_buenoi	525	EFV-Jingmen.4	Jingmen	EFV-Jingmen	3		Gerris_buenoi	low_coverage	Gbue_1.0	GCA_001010745.1_Gbue_1.0_genomic.fna	KQ065038.1	+	26099	26623
+EFV-Flavi.5-Tipula_oleracea	276	EFV-Flavi.5	Flavi	EFV-Flavi	5	1	Tipula_oleracea	low_coverage	v1	GCA_001017535.1_ASM101753v1_genomic.fna	JXPP01186655.1	-	1030	1305
+EFV-Hepaci.1-Elysia_chlorotica	741	EFV-Hepaci.1	Hepaci	EFV-Hepaci	1	1	Elysia_chlorotica	low_coverage	ElyChl2.0	GCA_003991915.1_ElyChl2.0_genomic.fna	RQTK01000193.1	-	67319	68059
+EFV-Jingmen.1-Chironomus_tentans	2108	EFV-Jingmen.1	Jingmen	EFV-Jingmen	1	1	Chironomus_tentans	low_coverage	CT01	GCA_000786525.1_CT01_genomic.fna	HG429170.1	-	32608	34715
+EFV-Jingmen.1-Chironomus_riparius	2307	EFV-Jingmen.1	Jingmen	EFV-Jingmen	1	1	Chironomus_riparius	low_coverage	ASM101450v1	GCA_001014505.1_ASM101450v1_genomic.fna	JXPV01001963.1	-	3919	6225
+EFV-Jingmen.2-Gerris_buenoi	1572	EFV-Jingmen.2	Jingmen	EFV-Jingmen	2	1	Gerris_buenoi	low_coverage	Gbue_1.0	GCA_001010745.1_Gbue_1.0_genomic.fna	KQ064150.1	-	54576	56147
+EFV-Jingmen.3-Gerris_buenoi	1404	EFV-Jingmen.3	Jingmen	EFV-Jingmen	3	1	Gerris_buenoi	low_coverage	Gbue_1.0	GCA_001010745.1_Gbue_1.0_genomic.fna	KQ066217.1	-	2361	3764
+EFV-Jingmen.3-Gerris_buenoi	525	EFV-Jingmen.4	Jingmen	EFV-Jingmen	3	1	Gerris_buenoi	low_coverage	Gbue_1.0	GCA_001010745.1_Gbue_1.0_genomic.fna	KQ065038.1	+	26099	26623
 EFV-PL2.1.6-Calycopis_cecrops	423	EFV-PL2.1	PL2	EFV-PL2	1	6	Calycopis_cecrops	low_coverage	v2	GCA_001625245.1_3306_assembly_v2_genomic.fna	LUGF01002716.1	-	2063	2485
 EFV-PL2.1.1-Calycopis_cecrops	3732	EFV-PL2.1	PL2	EFV-PL2	1	1	Calycopis_cecrops	low_coverage	v2	GCA_001625245.1_3306_assembly_v2_genomic.fna	LUGF01003838.1	-	1433	5164
 EFV-PL2.1.2-Calycopis_cecrops	1996	EFV-PL2.1	PL2	EFV-PL2	1	2	Calycopis_cecrops	low_coverage	v2	GCA_001625245.1_3306_assembly_v2_genomic.fna	LUGF01006995.1	-	11404	13399
 EFV-PL2.1.3-Calycopis_cecrops	516	EFV-PL2.1	PL2	EFV-PL2	1	3	Calycopis_cecrops	low_coverage	v2	GCA_001625245.1_3306_assembly_v2_genomic.fna	LUGF01020455.1	-	4791	5306
 EFV-PL2.1.4-Calycopis_cecrops	1659	EFV-PL2.1	PL2	EFV-PL2	1	4	Calycopis_cecrops	low_coverage	v2	GCA_001625245.1_3306_assembly_v2_genomic.fna	LUGF01022944.1	+	31	1689
 EFV-PL2.1.5-Calycopis_cecrops	959	EFV-PL2.1	PL2	EFV-PL2	1	5	Calycopis_cecrops	low_coverage	v2	GCA_001625245.1_3306_assembly_v2_genomic.fna	LUGF01005621.1	+	81472	82430
-EFV-PL2.2-Euschistus_heros	1661	EFV-PL2.2	PL2	EFV-PL2	2		Euschistus_heros	low_coverage	GCA_003667255	GCA_003667255.1_E_heros_v1.0_sep_2018_genomic.fna	RCWM01000536.1	+	8602	10262
+EFV-PL2.2-Euschistus_heros	1661	EFV-PL2.2	PL2	EFV-PL2	2	1	Euschistus_heros	low_coverage	GCA_003667255	GCA_003667255.1_E_heros_v1.0_sep_2018_genomic.fna	RCWM01000536.1	+	8602	10262
 EFV-PL2.2.1-Euschistus_heros	2703	EFV-PL2.2	PL2	EFV-PL2	2	1	Euschistus_heros	low_coverage	GCA_003667255	GCA_003667255.1_E_heros_v1.0_sep_2018_genomic.fna	RCWM01000197.1	-	413502	416204
 EFV-PL2.2.2-Euschistus_heros	471	EFV-PL2.2	PL2	EFV-PL2	2	2	Euschistus_heros	low_coverage	GCA_003667255	GCA_003667255.1_E_heros_v1.0_sep_2018_genomic.fna	RCWM01002751.1	-	35764	36234
 EFV-PL2.3.1-Megachile_rotundata	2189	EFV-PL2.10	PL2	EFV-PL2	3	1	Megachile_rotundata	low_coverage	MROT_1.0	mro_ref_MROT_1.0_chrUn.fa	gi|383080474|ref|NW_003797246.1|	-	118872	121060
@@ -337,7 +337,7 @@ EFV-PL2.3.255-Eufriesea_mexicana	594	EFV-PL2.3	PL2	EFV-PL2	3	255	Eufriesea_mexic
 EFV-PL2.3.256-Habropoda_laboriosa	372	EFV-PL2.3	PL2	EFV-PL2	3	256	Habropoda_laboriosa	low_coverage	ASM126327v1	GCF_001263275.1_ASM126327v1_genomic.fna	NW_017100814.1	-	92423	92794
 EFV-PL2.8.257-Nomia_melanderi	2653	EFV-PL2.8	PL2	EFV-PL2	8	257	Nomia_melanderi	low_coverage	GCA_003710045	GCA_003710045.1_USU_Nmel_1.2_genomic.fna	REGV01000573.1	-	4809615	4812267
 EFV-PL2.9.258-Nomia_melanderi	3055	EFV-PL2.9	PL2	EFV-PL2	9	258	Nomia_melanderi	low_coverage	GCA_003710045	GCA_003710045.1_USU_Nmel_1.2_genomic.fna	REGV01000573.1	-	4789683	4792737
-EFV-Tamana.1-Lednia_tumana	747	EFV-Tamana.1	Tamana	EFV-Tamana	1		Lednia_tumana	low_coverage	Ltum_v1.0	GCA_003287335.1_Ltum_v1.0_genomic.fna	QKMV01058854.1	+	558	1304
+EFV-Tamana.1-Lednia_tumana	747	EFV-Tamana.1	Tamana	EFV-Tamana	1	1	Lednia_tumana	low_coverage	Ltum_v1.0	GCA_003287335.1_Ltum_v1.0_genomic.fna	QKMV01058854.1	+	558	1304
 EFV-Tamana.2.1-Laupala_kohalensis	1425	EFV-Tamana.2	Tamana	EFV-Tamana	2	1	Laupala_kohalensis	low_coverage	ASM231320v1	GCA_002313205.1_ASM231320v1_genomic.fna	NNCF01133646.1	+	4106	5530
 EFV-Tamana.2.2-Laupala_kohalensis	367	EFV-Tamana.2	Tamana	EFV-Tamana	2	2	Laupala_kohalensis	low_coverage	ASM231320v1	GCA_002313205.1_ASM231320v1_genomic.fna	NNCF01138054.1	+	2838	3204
 EFV-Tamana.3.1-Amphinemura_sulcicollis	546	EFV-Tamana.3	Tamana	EFV-Tamana	3	1	Amphinemura_sulcicollis	low_coverage	ASM167632v1	GCA_001676325.1_ASM167632v1_genomic.fna	LVVV01416251.1	-	151	696
@@ -356,10 +356,9 @@ EFV-X2.4.1-Takifugu_bimaculatus	503	EFV-X2.4	X2	EFV-X2	4	1	Takifugu_bimaculatus	
 EFV-X2.4.2-Takifugu_bimaculatus	500	EFV-X2.4	X2	EFV-X2	4	2	Takifugu_bimaculatus	low_coverage	ASM402614v1	GCA_004026145.1_ASM402614v1_genomic.fna	CP034996.1	+	3097464	3097963
 EFV-X2.4.3-Takifugu_bimaculatus	503	EFV-X2.4	X2	EFV-X2	4	3	Takifugu_bimaculatus	low_coverage	ASM402614v1	GCA_004026145.1_ASM402614v1_genomic.fna	CP034996.1	-	2493774	2494276
 EFV-X2.4.1-Takifugu_flavidus	219	EFV-X2.4	X2	EFV-X2	4	1	Takifugu_flavidus	low_coverage	v1	GCA_000400755.1_version_1_of_Takifugu_flavidus_genome_genomic.fna	KE122403.1	+	13757	13975
-EFV-X2.5-Phycis_phycis	759	EFV-X2.5	X2	EFV-X2	5		Phycis_phycis	low_coverage	ASM90030233v1	GCA_900302335.1_ASM90030233v1_genomic.fna	OMKQ01018326.1	-	11151	11909
-EFV-X2.5-Phycis_blennoides	925	EFV-X2.5	X2	EFV-X2	5		Phycis_blennoides	low_coverage	ASM90030231v1	GCA_900302315.1_ASM90030231v1_genomic.fna	OMKI01014494.1	+	12379	13303
-EFV-X2.6-Mora_moro	168	EFV-X2.6	X2	EFV-X2	6		Mora_moro	low_coverage	Mora_mora_assembly	GCA_900303205.1_Mora_mora_assembly_genomic.fna	OMNR01010451.1	-	629	796
-EFV-X2.7-Brosme_brosme	441	EFV-X2.7	X2	EFV-X2	7		Brosme_brosme	low_coverage	ASM90030242v1	GCA_900302425.1_ASM90030242v1_genomic.fna	OMKX01003740.1	+	5708	6148
-EFV-X2.7-Boleophthalmus_pectinirostris	798	EFV-X2.7	X2	EFV-X2	7		Boleophthalmus_pectinirostris	low_coverage	1_BP	GCA_000788275.1_BP.fa_genomic.fna	KN521974.1	+	1448566	1449363
-EFV-X2.8-Maccullochella_peelii	180	EFV-X2.8	X2	EFV-X2	8		Maccullochella_peelii	low_coverage	mcod_v1	GCA_002120245.1_mcod_v1_genomic.fna	LKNJ01003435.1	-	40729	40908
-EFV-X1.1.1-Priapulus_caudatus			X1	EFV-X1	1	1	Priapulus_caudatus	low_coverage			AXZU02072455		446	1327
+EFV-X2.5-Phycis_phycis	759	EFV-X2.5	X2	EFV-X2	5	1	Phycis_phycis	low_coverage	ASM90030233v1	GCA_900302335.1_ASM90030233v1_genomic.fna	OMKQ01018326.1	-	11151	11909
+EFV-X2.5-Phycis_blennoides	925	EFV-X2.5	X2	EFV-X2	5	1	Phycis_blennoides	low_coverage	ASM90030231v1	GCA_900302315.1_ASM90030231v1_genomic.fna	OMKI01014494.1	+	12379	13303
+EFV-X2.6-Mora_moro	168	EFV-X2.6	X2	EFV-X2	6	1	Mora_moro	low_coverage	Mora_mora_assembly	GCA_900303205.1_Mora_mora_assembly_genomic.fna	OMNR01010451.1	-	629	796
+EFV-X2.7-Brosme_brosme	441	EFV-X2.7	X2	EFV-X2	7	1	Brosme_brosme	low_coverage	ASM90030242v1	GCA_900302425.1_ASM90030242v1_genomic.fna	OMKX01003740.1	+	5708	6148
+EFV-X2.7-Boleophthalmus_pectinirostris	798	EFV-X2.7	X2	EFV-X2	7	1	Boleophthalmus_pectinirostris	low_coverage	1_BP	GCA_000788275.1_BP.fa_genomic.fna	KN521974.1	+	1448566	1449363
+EFV-X2.8-Maccullochella_peelii	180	EFV-X2.8	X2	EFV-X2	8	1	Maccullochella_peelii	low_coverage	mcod_v1	GCA_002120245.1_mcod_v1_genomic.fna	LKNJ01003435.1	-	40729	40908
