@@ -1,4 +1,4 @@
-sequenceID	name	locus_id	full_name	subfamily	genus	clade	#	host_group_taxlevel	host_group_name	host_group_common_name	reftype	num_copies	In project?	host_group	vector_group
+sequenceID	name	locus_id	full_name	subfamily	genus	clade	locus_numeric_id	host_group_taxlevel	host_group_name	host_group_common_name	reftype	num_copies	In project?	host_group	vector_group
 EFV-cISF.1-AedAeg-con	EFV-cISF.1-AedAeg	EFV-cISF.1-AedAeg	EFV-cISF.1-AedAeg	FlaviPesti	Flavivirus	cISF	1	species	Aedes aegypti**	Yellow fever mosquito	consensus	10	no	NULL	NULL
 EFV-cISF.2-AedAlb-con	EFV-cISF.2-AedAlb	EFV-cISF.2-AedAlb	EFV-cISF.2-AedAlb	FlaviPesti	Flavivirus	cISF	2	species	Aedes albopictus**	Tiger mosquito	consensus	16	no	NULL	NULL
 EFV-cISF.3-AnoMin	EFV-cISF.3-AnoMin	EFV-cISF.3-AnoMin	EFV-cISF.3-AnoMin	FlaviPesti	Flavivirus	cISF	3	species	Anopheles minimus**		reference	1	n/a	NULL	NULL
@@ -35,4 +35,4 @@ EFV-PL2.8-EusHer	EFV-PL2.8-EusHer	EFV-PL2.8-EusHer	EFV-PL2.8-EusHer	FlaviPesti	P
 EFV-HepaPegi.1-ElyChl	EFV-HepaPegi.1-ElyChl	EFV-HepaPegi.1-ElyChl	EFV-HepaPegi.1-ElyChl	HepaPegi	HepaPegi	Invertebrate	1	species	Elysia chlorotica	Green sea	reference	1		NULL	NULL
 EJP-Jingmen.1-Chironomus-con	EJP-Jingmen.1-Chironomus	EJP-Jingmen.1-Chironomus	EJP-Jingmen.1-Chironomus	FlaviPesti	JMTV1	Jingmenvirus	1	genus	Chironomus	Chironomus	consensus	2		NULL	NULL
 EJP-Jingmen.2-GerBue	EJP-Jingmen.2-GerBue	EJP-Jingmen.2-GerBue	EJP-Jingmen.2-GerBue	FlaviPesti	JMTV1	Jingmenvirus	2	species	Gerris buenoi	Water strider	reference	1		NULL	NULL
-EJH-Jingmen.2-GerBue	EJH-Jingmen.1-GerBue	EJH-Jingmen.1-GerBue	EJH-Jingmen.1-GerBue	FlaviPesti	JMTV3	Jingmenvirus	1	species	Gerris buenoi	Water strider	reference	1		NULL	NULL
+EJH-Jingmen.1-GerBue	EJH-Jingmen.1-GerBue	EJH-Jingmen.1-GerBue	EJH-Jingmen.1-GerBue	FlaviPesti	JMTV3	Jingmenvirus	1	species	Gerris buenoi	Water strider	reference	1		NULL	NULL
