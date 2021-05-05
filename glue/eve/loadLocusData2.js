@@ -35,14 +35,14 @@ _.each(loadResult, function(eveObj) {
 
 	if (eveObj.locus_name != 'NK') { // Skip elements that haven't been assigned to a locus
 	
-		// Does an alignment exist for this locus ID
-		glue.log("INFO", "Getting taxonomic data for sequence:", sequenceID);
-
-		// Get the taxonomy 
+		// Get the reference details for this EVE sequences
 		var locus_numeric_id = eveObj.locus_numeric_id;
 		var locus_name = eveObj.locus_name;
 		
+		// Does an alignment exist for this locus ID
+		glue.log("INFO", "Getting taxonomic data for sequence:", sequenceID, "locus name:", locus_name);
 		
+		// Get the taxonomy 
 		var efvRefConObj = efvRefseqResultMap[locus_name];
 		glue.log("INFO", "LOADED REFCON INFO ", efvRefConObj);
 	
@@ -64,8 +64,6 @@ _.each(loadResult, function(eveObj) {
 	}
 
 });
-
-
 
 
 // get a list of sequence IDs from a given source in an alignment
