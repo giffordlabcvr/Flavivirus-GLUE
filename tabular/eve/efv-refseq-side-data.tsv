@@ -13,12 +13,18 @@ EFV-Tamana.2-LauKoh	EFV-Tamana.2-LauKoh	EFV-Tamana.2-LauKoh	EFV-Tamana.2-LauKoh	
 EFV-Tamana.3-AmpSul	EFV-Tamana.3-AmpSul	EFV-Tamana.3-AmpSul	EFV-Tamana.3-AmpSul	FlaviPesti	Tamanavirus	Tamana	3	species	Amphinemura sulcicollis	Spring stonefly	consensus	2		NULL	NULL
 EFV-Tamana.4-StyCho	EFV-Tamana.4-StyCho	EFV-Tamana.4-StyCho	EFV-Tamana.4-StyCho	FlaviPesti	Tamanavirus	Tamana	4	species	Stylephorus chordatus	Tube-eye	reference	1	n/a	NULL	NULL
 EFV-X1.1-PriCau	EFV-X1.1-PriCau	EFV-X1.1-PriCau	EFV-X1.1-PriCau	FlaviPesti	X1	X1	1	species	Priapulus caudatus	Penis worm	consensus	2		NULL	NULL
-EFV-X2.1-EurAff	EFV-X2.1-EurAff	EFV-X2.1-EurAff	EFV-X2.1-EurAff	FlaviPesti	X2	X2	1	species	Eurytemora affinis	Copepod	consensus	6		NULL	NULL
-EFV-X2.2-AusLim	EFV-X2.2-AusLim	EFV-X2.2-AusLim	EFV-X2.2-AusLim	FlaviPesti	X2	X2	2	species	Austrofundulus limnaeus	Mangrove killifish	consensus	4		NULL	NULL
-EFV-X2.3-StyCho	EFV-X2.3-StyCho	EFV-X2.3-StyCho	EFV-X2.3-StyCho	FlaviPesti	X2	X2	3	species	Stylephorus chordatus	Tube-eye	reference	1		NULL	NULL
+EFV-X2.3-EurAff	EFV-X2.3-EurAff	EFV-X2.3-EurAff	EFV-X2.3-EurAff	FlaviPesti	X2	X2	1	species	Eurytemora affinis	Copepod	consensus	6		NULL	NULL
+EFV-X2.1-AusLim	EFV-X2.1-AusLim	EFV-X2.1-AusLim	EFV-X2.1-AusLim	FlaviPesti	X2	X2	2	species	Austrofundulus limnaeus	Mangrove killifish	consensus	4		NULL	NULL
+EFV-X2.2-StyCho	EFV-X2.2-StyCho	EFV-X2.2-StyCho	EFV-X2.2-StyCho	FlaviPesti	X2	X2	3	species	Stylephorus chordatus	Tube-eye	reference	1		NULL	NULL
+EFV-X2.4-Takifugu	EFV-X2.4-Takifugu	EFV-X2.4-Takifugu	EFV-X2.4-Takifugu	FlaviPesti	X2	X2	4	genus	Takifugu	Takifugu	reference	1		NULL	NULL
+EFV-X2.5-Phycis	EFV-X2.5-Phycis	EFV-X2.5-Phycis	EFV-X2.5-Phycis	FlaviPesti	X2	X2	5	species	Phycis	Phycis	reference	1		NULL	NULL
+EFV-X2.6-MorMor	EFV-X2.6-MorMor	EFV-X2.6-MorMor	EFV-X2.6-MorMor	FlaviPesti	X2	X2	6	species	Mora moro	Common mora	reference	1		NULL	NULL
+EFV-X2.7-BroBro	EFV-X2.7-BroBro	EFV-X2.7-BroBro	EFV-X2.7-BroBro	FlaviPesti	X2	X2	7	species	Brosme brosme	Cusk	reference	1		NULL	NULL
+EFV-X2.8-MacPee	EFV-X2.8-MacPee	EFV-X2.8-MacPee	EFV-X2.8-MacPee	FlaviPesti	X2	X2	8	species	Maccullochella peelii	Murray cod	reference	1		NULL	NULL
+EFV-X2.9-BolPec	EFV-X2.9-BolPec	EFV-X2.9-BolPec	EFV-X2.9-BolPec	FlaviPesti	X2	X2	9	species	Boleophthalmus pectinirostris	Bluespotted mudhopper	reference	1		NULL	NULL
 EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	FlaviPesti	PL2	Bee	1	species	Calycopis cecrops	Red-banded hairstreak	consensus			NULL	NULL
 EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	FlaviPesti	PL2	Bee	2	species	Euschistus heros	Stink bug	consensus	1		NULL	NULL
-EFV-PL2.3-CerCal	EFV-PL2.3-CerCal	EFV-PL2.3-CerCal	EFV-PL2.3-CerCal	FlaviPesti	PL2	Bee	3	species	Ceratina calcarata	Small blue-black bee	consensus			NULL	NULL
+EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	FlaviPesti	PL2	Bee	3	species	Ceratina calcarata	Small blue-black bee	consensus			NULL	NULL
 EFV-PL2.3-CerAus	EFV-PL2.3-Ceratina	EFV-PL2.3-Ceratina	EFV-PL2.3-Ceratina	FlaviPesti	PL2	Bee	3	species	Ceratina australensis	Carpenter bee	consensus			NULL	NULL
 EFV-PL2.3-HabLab	EFV-PL2.3-HabLab	EFV-PL2.3-HabLab	EFV-PL2.3-HabLab	FlaviPesti	PL2	Bee	3	species	Habropoda laboriosa	Blueberry bee	consensus			NULL	NULL
 EFV-PL2.3-EufMex	EFV-PL2.3-EufMex	EFV-PL2.3-EufMex	EFV-PL2.3-EufMex	FlaviPesti	PL2	Bee	3	species	Eufriesea mexicana	Orchid bee	consensus			NULL	NULL
