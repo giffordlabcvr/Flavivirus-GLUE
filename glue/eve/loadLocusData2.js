@@ -40,9 +40,10 @@ _.each(loadResult, function(eveObj) {
 
 		// Get the taxonomy 
 		var locus_numeric_id = eveObj.locus_numeric_id;
+		var locus_name = eveObj.locus_name;
 		
 		
-		var efvRefConObj = efvRefseqResultMap[sequenceID];
+		var efvRefConObj = efvRefseqResultMap[locus_name];
 		glue.log("INFO", "LOADED REFCON INFO ", efvRefConObj);
 	
 		var subfamily   = efvRefConObj.subfamily;
