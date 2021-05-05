@@ -279,17 +279,13 @@
   # Jingmenvirus
   #
 
-  #alignment AL_EJP-Jingmen.1-Chironomus
-  #  derive segments AL_EJP_UNC_JMTV1_Chironomus -a --existingMembersOnly
-  #  exit
+  alignment AL_EJP-Jingmen.1-Chironomus
+    derive segments AL_EJP_UNC_JMTV1_Chironomus -a --existingMembersOnly
+    exit
 
   #
   # Tamanavirus
   #
-
-  #alignment AL_EFV-Tamana.1-LedTum
-  #  derive segments AL_UNC_Flaviviridae -a --existingMembersOnly
-  #  exit
 
   alignment AL_EFV_Tamana.2-LauKoh
     derive segments AL_EFV_UNC_Tamana_Laupala -a --existingMembersOnly
