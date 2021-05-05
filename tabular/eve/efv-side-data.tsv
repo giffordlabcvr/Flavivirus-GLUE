@@ -68,9 +68,9 @@ EJP-Jingmen.1-Chironomus_riparius	2307	EJP-Jingmen.1-Chironomus	Jingmen	EFV-Jing
 EJP-Jingmen.1-Chironomus_tentans	2108	EJP-Jingmen.1-Chironomus	Jingmen	EFV-Jingmen	1	1	Chironomus_tentans	low_coverage	CT01	GCA_000786525.1_CT01_genomic.fna	HG429170.1	-	32608	34715
 EJH-Jingmen.1-Gerris_buenoi	1572	EJH-Jingmen.1-GerBue	Jingmen	EFV-Jingmen	2	1	Gerris_buenoi	low_coverage	Gbue_1.0	GCA_001010745.1_Gbue_1.0_genomic.fna	KQ064150.1	-	54576	56147
 EJP-Jingmen.2-Gerris_buenoi	1404	EJP-Jingmen.2-GerBue	Jingmen	EFV-Jingmen	3	1	Gerris_buenoi	low_coverage	Gbue_1.0	GCA_001010745.1_Gbue_1.0_genomic.fna	KQ066217.1	-	2361	3764
-EFV-PL2.3.59-Andricus_curvator	1842	EFV-PL2.4	PL2	EFV-PL2	3	59	Andricus_curvator	low_coverage	Andcurv	GCA_900474205.1_Andcurv_genomic.fna	UWUC012241304.1	+	1185	3026
-EFV-PL2.3.60-Andricus_curvator	6440	EFV-PL2.4	PL2	EFV-PL2	3	60	Andricus_curvator	low_coverage	Andcurv	GCA_900474205.1_Andcurv_genomic.fna	UWUC012385754.1	+	220	6659
-EFV-PL2.3.61-Andricus_quercusramuli	7927	EFV-PL2.4	PL2	EFV-PL2	3	61	Andricus_quercusramuli	low_coverage	Andqra	GCA_900474265.1_Andqra_genomic.fna	UWUE012530407.1	+	71	7997
+EFV-PL2.3.59-Andricus_curvator	1842	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	59	Andricus_curvator	low_coverage	Andcurv	GCA_900474205.1_Andcurv_genomic.fna	UWUC012241304.1	+	1185	3026
+EFV-PL2.3.60-Andricus_curvator	6440	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	60	Andricus_curvator	low_coverage	Andcurv	GCA_900474205.1_Andcurv_genomic.fna	UWUC012385754.1	+	220	6659
+EFV-PL2.3.61-Andricus_quercusramuli	7927	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	61	Andricus_quercusramuli	low_coverage	Andqra	GCA_900474265.1_Andqra_genomic.fna	UWUE012530407.1	+	71	7997
 EFV-PL2.3.121-Andricus_quercusramuli	1062	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	121	Andricus_quercusramuli	low_coverage	Andqra	GCA_900474265.1_Andqra_genomic.fna	UWUE012419155.1	-	45	1106
 EFV-PL2.3.173-Anoplophora_glabripennis	351	EFV-PL2.5-AnoGla	PL2	EFV-PL2	3	173	Anoplophora_glabripennis	low_coverage	Agla_1.0	GCA_000390285.1_Agla_1.0_genomic.fna	KB933796.1	+	242392	242742
 EFV-PL2.1.6-Calycopis_cecrops	423	EFV-PL2.1-CalCec	PL2	EFV-PL2	1	6	Calycopis_cecrops	low_coverage	v2	GCA_001625245.1_3306_assembly_v2_genomic.fna	LUGF01002716.1	-	2063	2485
@@ -200,9 +200,9 @@ EFV-PL2.3.221-Eufriesea_mexicana	5402	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	221	Eufrie
 EFV-PL2.3.236-Eufriesea_mexicana	4772	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	236	Eufriesea_mexicana	low_coverage	ASM148370v1	GCF_001483705.1_ASM148370v1_genomic.fna	NW_016910756.1	-	8952	13723
 EFV-PL2.3.241-Eufriesea_mexicana	180	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	241	Eufriesea_mexicana	low_coverage	ASM148370v1	GCF_001483705.1_ASM148370v1_genomic.fna	NW_017077887.1	+	92	271
 EFV-PL2.3.255-Eufriesea_mexicana	594	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	255	Eufriesea_mexicana	low_coverage	ASM148370v1	GCF_001483705.1_ASM148370v1_genomic.fna	NW_016935298.1	+	16136	16729
-EFV-PL2.2-Euschistus_heros	1661	EFV-X2.1-EurAff	PL2	EFV-PL2	2	1	Euschistus_heros	low_coverage	GCA_003667255	GCA_003667255.1_E_heros_v1.0_sep_2018_genomic.fna	RCWM01000536.1	+	8602	10262
-EFV-PL2.2.1-Euschistus_heros	2703	EFV-X2.1-EurAff	PL2	EFV-PL2	2	1	Euschistus_heros	low_coverage	GCA_003667255	GCA_003667255.1_E_heros_v1.0_sep_2018_genomic.fna	RCWM01000197.1	-	413502	416204
-EFV-PL2.2.2-Euschistus_heros	471	EFV-X2.1-EurAff	PL2	EFV-PL2	2	2	Euschistus_heros	low_coverage	GCA_003667255	GCA_003667255.1_E_heros_v1.0_sep_2018_genomic.fna	RCWM01002751.1	-	35764	36234
+EFV-PL2.2-Euschistus_heros	1661	EFV-PL2.2-EucHer	PL2	EFV-PL2	2	1	Euschistus_heros	low_coverage	GCA_003667255	GCA_003667255.1_E_heros_v1.0_sep_2018_genomic.fna	RCWM01000536.1	+	8602	10262
+EFV-PL2.2.1-Euschistus_heros	2703	EFV-PL2.2-EucHer	PL2	EFV-PL2	2	1	Euschistus_heros	low_coverage	GCA_003667255	GCA_003667255.1_E_heros_v1.0_sep_2018_genomic.fna	RCWM01000197.1	-	413502	416204
+EFV-PL2.2.2-Euschistus_heros	471	EFV-PL2.2-EucHer	PL2	EFV-PL2	2	2	Euschistus_heros	low_coverage	GCA_003667255	GCA_003667255.1_E_heros_v1.0_sep_2018_genomic.fna	RCWM01002751.1	-	35764	36234
 EFV-PL2.3.40-Habropoda_laboriosa	373	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	40	Habropoda_laboriosa	low_coverage	ASM126327v1	GCF_001263275.1_ASM126327v1_genomic.fna	NW_017100267.1	+	190333	190705
 EFV-PL2.3.52-Habropoda_laboriosa	652	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	52	Habropoda_laboriosa	low_coverage	ASM126327v1	GCF_001263275.1_ASM126327v1_genomic.fna	NW_017100786.1	-	199006	199657
 EFV-PL2.3.58-Habropoda_laboriosa	225	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	58	Habropoda_laboriosa	low_coverage	ASM126327v1	GCF_001263275.1_ASM126327v1_genomic.fna	NW_017100298.1	-	256439	256663
