@@ -35,8 +35,6 @@ module unconstrainedAlignmentImporter
   import AL_EFV_UNC_Pestinsect_Calycopis       -f alignments/tip/pl2/PL2.1-calycopis.aln.fna
   #import AL_EFV_UNC_Pestinsect_Apoidae        -f alignments/tip/pl2/PL2.3-apoidae.aln.fna
   import AL_EFV_UNC_Pestinsect_Andricus        -f alignments/tip/pl2/PL2.4-andricus.aln.fna
-
-  #import AL_EFV_UNC_Pestinsect_Andricus       -f alignments/tip/pl2/PL2.4-andricus.aln.fna
   #import AL_EFV_UNC_Pestinsect_Xenocatantops  -f alignments/tip/pl2/PL2.6-xenocatantops.aln.fna
   import AL_EFV_UNC_Pestinsect_Operophtera     -f alignments/tip/pl2/PL2.7-operophtera.aln.fna
 
