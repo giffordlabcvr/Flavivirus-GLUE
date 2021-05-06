@@ -1,8 +1,28 @@
 # Import pre-built alignments
 
 module unconstrainedAlignmentImporter	
+
+
+  #~# Root
+  #import AL_EFV_UNC_Flaviviridae        -f alignments/root/flaviviridae-root.fna
+
+  #~# Major lineages
+  #import AL_EFV_UNC_HEPA_PEGI           -f alignments/internal/major-lineage/hepa-pegi.aln.fna
+  #import AL_EFV_UNC_FLAVI_PESTI         -f alignments/internal/major-lineage/flavi-pesti.aln.fna
+
+  #~# Genera
+  import AL_EFV_UNC_FLAVI               -f alignments/internal/genus/flavivirus+efv.aln.fna
+  import AL_EFV_UNC_TABV                -f alignments/internal/genus/tamanavirus+efv.aln.fna   
+  import AL_EFV_UNC_PL2                 -f alignments/internal/genus/pl2+eve.aln.fna
+  #import AL_EFV_UNC_JMTV_SEG1           -f alignments/internal/genus/jmtvSeg1+eve.aln.fna    
+  #import AL_EFV_UNC_JMTV_SEG3           -f alignments/internal/genus/jmtvSeg3+eve.aln.fna    
+
+  #~# Genus subgroups
+  #import AL_EFV_UNC_FLAVI_cISF          -f alignments/internal/subgroup/cISF+eve.aln.fna
+  
 	
   #~# Import EVE 'tip' alignments (alignments of multicopy EVE loci believed to have a common origin)
+  
 
   # X1
   import AL_EFV_UNC_Priapulus                  -f alignments/tip/x1/efv-x1.1-PriCau.aln.fna
@@ -37,5 +57,6 @@ module unconstrainedAlignmentImporter
   import AL_EFV_UNC_Pestinsect_Andricus        -f alignments/tip/pl2/PL2.4-andricus.aln.fna
   #import AL_EFV_UNC_Pestinsect_Xenocatantops  -f alignments/tip/pl2/PL2.6-xenocatantops.aln.fna
   import AL_EFV_UNC_Pestinsect_Operophtera     -f alignments/tip/pl2/PL2.7-operophtera.aln.fna
+
 
   exit

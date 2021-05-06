@@ -124,7 +124,7 @@
   alignment AL_Jingmenvirus_Seg1
 
 	extract child AL_EJP-Jingmen.1-Chironomus  -r REF_EJP-Jingmen.1-Chironomus
-	demote member AL_EJP-Jingmen.1-Chironomus  -w "sequence.source.name = 'fasta-digs-eve' and sequence.locus_data.locus_id like 'EJP-Jingmen.1%'"
+	demote member AL_EJP-Jingmen.1-Chironomus  -w "sequence.source.name = 'fasta-digs-eve' and sequence.sequenceID like 'EJP-Jingmen.1%'"
 
     exit
 
@@ -186,9 +186,9 @@
   # ROOT NODE
   #
   
-  #alignment AL_MASTER_Flaviviridae_ROOT
-  #  derive segments AL_UNC_Flaviviridae -a --existingMembersOnly
-  #  exit
+  alignment AL_MASTER_Flaviviridae_ROOT
+    derive segments AL_UNC_Flaviviridae -a --existingMembersOnly
+    exit
 
 
   #
@@ -227,13 +227,13 @@
   #  
   
 
-  #alignment AL_Jingmenvirus
-  #  derive segments AL_UNC_JMTV_SEG1 -a --mergeStrategy 
-  #  exit
+  alignment AL_Jingmenvirus
+    derive segments AL_UNC_JMTV_SEG1 -a --mergeStrategy 
+    exit
 
-  #alignment AL_Tamanavirus
-  #  derive segments AL_UNC_TABV -a --mergeStrategy 
-  #  exit
+  alignment AL_Tamanavirus
+    derive segments AL_UNC_TABV -a --mergeStrategy 
+    exit
 
   #alignment AL_FlaviTamana
   #  derive segments AL_UNC_FLAVI_TABV -a --mergeStrategy 
