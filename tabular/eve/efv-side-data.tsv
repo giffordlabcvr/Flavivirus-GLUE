@@ -315,8 +315,8 @@ EFV-PL2.3.258-Nomia_melanderi	3055	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	258	Nomia_mel
 EFV-PL2.3.83-Osmia_bicornis_bicornis	4823	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	83	Osmia_bicornis_bicornis	low_coverage	Obicornis_v3	GCA_004153925.1_Obicornis_v3_genomic.fna	MPJT01000491.1	-	16257	21079
 EFV-PL2.4.2-Andricus_curvator	1842	EFV-PL2.4-Andricus	PL2	EFV-PL2	4	2	Andricus_curvator	low_coverage	Andcurv	GCA_900474205.1_Andcurv_genomic.fna	UWUC012241304.1	+	1185	3026
 EFV-PL2.4.2-Andricus_curvator	6440	EFV-PL2.4-Andricus	PL2	EFV-PL2	4	3	Andricus_curvator	low_coverage	Andcurv	GCA_900474205.1_Andcurv_genomic.fna	UWUC012385754.1	+	220	6659
-EFV-PL2.3.61-Andricus_quercusramuli	7927	EFV-PL2.4-Andricus	PL2	EFV-PL2	4	1	Andricus_quercusramuli	low_coverage	Andqra	GCA_900474265.1_Andqra_genomic.fna	UWUE012530407.1	+	71	7997
-EFV-PL2.3.121-Andricus_quercusramuli	1062	EFV-PL2.4-Andricus	PL2	EFV-PL2	4	1	Andricus_quercusramuli	low_coverage	Andqra	GCA_900474265.1_Andqra_genomic.fna	UWUE012419155.1	-	45	1106
+EFV-PL2.4.1-Andricus_quercusramuli	7927	EFV-PL2.4-Andricus	PL2	EFV-PL2	4	1	Andricus_quercusramuli	low_coverage	Andqra	GCA_900474265.1_Andqra_genomic.fna	UWUE012530407.1	+	71	7997
+EFV-PL2.4.1-Andricus_quercusramuli	1062	EFV-PL2.4-Andricus	PL2	EFV-PL2	4	1	Andricus_quercusramuli	low_coverage	Andqra	GCA_900474265.1_Andqra_genomic.fna	UWUE012419155.1	-	45	1106
 EFV-PL2.5.1-Anoplophora_glabripennis	351	EFV-PL2.5-AnoGla	PL2	EFV-PL2	5	1	Anoplophora_glabripennis	low_coverage	Agla_1.0	GCA_000390285.1_Agla_1.0_genomic.fna	KB933796.1	+	242392	242742
 EFV-PL2.3.174-Xenocatantops_brachycerus	16813	EFV-PL2.6-XenBra	PL2	EFV-PL2	6	1	Xenocatantops_brachycerus	low_coverage	ASM90024965v1	GCA_900249655.1_ASM90024965v1_genomic.fna	OFSG01001798.1	-	488	17300
 EFV-PL2.3.175-Xenocatantops_brachycerus	7017	EFV-PL2.6-XenBra	PL2	EFV-PL2	6	2	Xenocatantops_brachycerus	low_coverage	ASM90024965v1	GCA_900249655.1_ASM90024965v1_genomic.fna	OFSG01020321.1	-	489	7505
