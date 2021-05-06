@@ -7,7 +7,7 @@ create reference REF_EFV-HepaPegi.1-ElyChl      fasta-refseqs-eve EFV-HepaPegi.1
 create reference REF_EFV-PL2.1-CalCec           fasta-refseqs-eve EFV-PL2.1-CalCec
 create reference REF_EFV-PL2.2-EusHer           fasta-refseqs-eve EFV-PL2.2-EusHer
 create reference REF_EFV-PL2.3-Apoidae          fasta-refseqs-eve EFV-PL2.3-Apoidae
-create reference REF_EFV-PL2.4-AndCur           fasta-refseqs-eve EFV-PL2.4-AndCur
+create reference REF_EFV-PL2.4-Andricus         fasta-refseqs-eve EFV-PL2.4-Andricus
 create reference REF_EFV-PL2.6-XenBra           fasta-refseqs-eve EFV-PL2.6-XenBra
 create reference REF_EFV-PL2.7-OpeBru           fasta-refseqs-eve EFV-PL2.7-OpeBru
 create reference REF_EFV-PL2.8-AnoPla           fasta-refseqs-eve EFV-PL2.8-AnoPla

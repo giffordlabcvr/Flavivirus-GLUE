@@ -22,6 +22,8 @@ EFV-X2.6-MorMor	EFV-X2.6-MorMor	EFV-X2.6-MorMor	EFV-X2.6-MorMor	FlaviPesti	X2	X2
 EFV-X2.7-BroBro	EFV-X2.7-BroBro	EFV-X2.7-BroBro	EFV-X2.7-BroBro	FlaviPesti	X2	X2	7	species	Brosme brosme	Cusk	reference	1		NULL	NULL
 EFV-X2.8-MacPee	EFV-X2.8-MacPee	EFV-X2.8-MacPee	EFV-X2.8-MacPee	FlaviPesti	X2	X2	8	species	Maccullochella peelii	Murray cod	reference	1		NULL	NULL
 EFV-X2.9-BolPec	EFV-X2.9-BolPec	EFV-X2.9-BolPec	EFV-X2.9-BolPec	FlaviPesti	X2	X2	9	species	Boleophthalmus pectinirostris	Bluespotted mudhopper	reference	1		NULL	NULL
+EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	FlaviPesti	PL2	Bee	1	species	Calycopis cecrops	Red-banded hairstreak	consensus			NULL	NULL
+EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	FlaviPesti	PL2	Bee	2	species	Euschistus heros	Stink bug	consensus	1		NULL	NULL
 EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	FlaviPesti	PL2	Bee	3	family	Apoidae	Sweat bees	consensus			NULL	NULL
 EFV-PL2.4-Andricus	EFV-PL2.4-Andricus	EFV-PL2.4-Andricus	EFV-PL2.4-Andricus	FlaviPesti	PL2	Bee	4	genus	Andricus	Cottonwool gall wasp	consensus	2		NULL	NULL
 EFV-PL2.5-AnoGla	EFV-PL2.5-AnoGla	EFV-PL2.5-AnoGla	EFV-PL2.5-AnoGla	FlaviPesti	PL2	Bee	5	species	Anoplophora glabripennis	Long-horned beetle	reference			NULL	NULL
