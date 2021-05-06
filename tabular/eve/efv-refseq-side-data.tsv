@@ -22,18 +22,8 @@ EFV-X2.6-MorMor	EFV-X2.6-MorMor	EFV-X2.6-MorMor	EFV-X2.6-MorMor	FlaviPesti	X2	X2
 EFV-X2.7-BroBro	EFV-X2.7-BroBro	EFV-X2.7-BroBro	EFV-X2.7-BroBro	FlaviPesti	X2	X2	7	species	Brosme brosme	Cusk	reference	1		NULL	NULL
 EFV-X2.8-MacPee	EFV-X2.8-MacPee	EFV-X2.8-MacPee	EFV-X2.8-MacPee	FlaviPesti	X2	X2	8	species	Maccullochella peelii	Murray cod	reference	1		NULL	NULL
 EFV-X2.9-BolPec	EFV-X2.9-BolPec	EFV-X2.9-BolPec	EFV-X2.9-BolPec	FlaviPesti	X2	X2	9	species	Boleophthalmus pectinirostris	Bluespotted mudhopper	reference	1		NULL	NULL
-EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	FlaviPesti	PL2	Bee	1	species	Calycopis cecrops	Red-banded hairstreak	consensus			NULL	NULL
-EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	FlaviPesti	PL2	Bee	2	species	Euschistus heros	Stink bug	consensus	1		NULL	NULL
-EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	FlaviPesti	PL2	Bee	3	species	Ceratina calcarata	Small blue-black bee	consensus			NULL	NULL
-EFV-PL2.3-CerAus	EFV-PL2.3-Ceratina	EFV-PL2.3-Ceratina	EFV-PL2.3-Ceratina	FlaviPesti	PL2	Bee	3	species	Ceratina australensis	Carpenter bee	consensus			NULL	NULL
-EFV-PL2.3-HabLab	EFV-PL2.3-HabLab	EFV-PL2.3-HabLab	EFV-PL2.3-HabLab	FlaviPesti	PL2	Bee	3	species	Habropoda laboriosa	Blueberry bee	consensus			NULL	NULL
-EFV-PL2.3-EufMex	EFV-PL2.3-EufMex	EFV-PL2.3-EufMex	EFV-PL2.3-EufMex	FlaviPesti	PL2	Bee	3	species	Eufriesea mexicana	Orchid bee	consensus			NULL	NULL
-EFV-PL2.3-LasAlb	EFV-PL2.3-LasAlb	EFV-PL2.3-LasAlb	EFV-PL2.3-LasAlb	FlaviPesti	PL2	Bee	3	species	Lasioglossum albipes	Bloomed furrow bee	consensus			NULL	NULL
-EFV-PL2.3-NomMel	EFV-PL2.3-NomMel	EFV-PL2.3-NomMel	EFV-PL2.3-NomMel	FlaviPesti	PL2	Bee	3	species	Nomia melanderi	Sweat bee	consensus			NULL	NULL
-EFV-PL2.3-OsmBic	EFV-PL2.3-OsmBic	EFV-PL2.3-OsmBic	EFV-PL2.3-OsmBic	FlaviPesti	PL2	Bee	3	species	Osmia bicornis	Mason bee	consensus			NULL	NULL
-EFV-PL2.3-MegRot	EFV-PL2.3-MegRot	EFV-PL2.3-MegRot	EFV-PL2.3-MegRot	FlaviPesti	PL2	Bee	3	species	Megachile rotundata	Alfalfa leafcutter bee	consensus			NULL	NULL
-EFV-PL2.3-DufNov	EFV-PL2.3-DufNov	EFV-PL2.3-DufNov	EFV-PL2.3-DufNov	FlaviPesti	PL2	Bee	3	species	Dufourea novaeangliae	Pickerel bee	consensus			NULL	NULL
-EFV-PL2.4-AndQue	EFV-PL2.4-AndQue	EFV-PL2.4-AndQue	EFV-PL2.4-AndQue	FlaviPesti	PL2	Bee	4	species	Andricus quercusramuli	Cottonwool gall wasp	consensus	2		NULL	NULL
+EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	FlaviPesti	PL2	Bee	3	family	Apoidae	Sweat bees	consensus			NULL	NULL
+EFV-PL2.4-Andricus	EFV-PL2.4-Andricus	EFV-PL2.4-Andricus	EFV-PL2.4-Andricus	FlaviPesti	PL2	Bee	4	genus	Andricus	Cottonwool gall wasp	consensus	2		NULL	NULL
 EFV-PL2.5-AnoGla	EFV-PL2.5-AnoGla	EFV-PL2.5-AnoGla	EFV-PL2.5-AnoGla	FlaviPesti	PL2	Bee	5	species	Anoplophora glabripennis	Long-horned beetle	reference			NULL	NULL
 EFV-PL2.6-XenBra	EFV-PL2.6-XenBra	EFV-PL2.6-XenBra	EFV-PL2.6-XenBra	FlaviPesti	PL2	Bee	6	species	Xenocatantops brachycerus*	Grasshopper	consensus	16		NULL	NULL
 EFV-PL2.7-OpeBru	EFV-PL2.7-OpeBru	EFV-PL2.7-OpeBru	EFV-PL2.7-OpeBru	FlaviPesti	PL2	Bee	7	species	Operophtera brumata	Winter moth	reference	2		NULL	NULL
