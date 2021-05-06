@@ -41,8 +41,8 @@
 	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'Tamanavirus'"
 	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'Tamanavirus'"
 
-	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'Jingmenvirus'"
-	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'Jingmenvirus'"
+	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus like 'JMTV%'"
+	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus like 'JMTV%'"
 
 	demote member AL_PestiLike -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'PL2'"
 	demote member AL_PestiLike -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'PL2'"
@@ -76,8 +76,7 @@
 
 	demote member AL_FlaviTamana -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'Flavivirus'"
 	demote member AL_FlaviTamana -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'Flavivirus'"
-	demote member AL_FlaviTamana -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'Tamanavirus'"
-	demote member AL_FlaviTamana -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'Tamanavirus'"
+
 
 	demote member AL_Jingmenvirus_Seg1 -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'JMTV1'"
 	demote member AL_Jingmenvirus_Seg1 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'JMTV1'"
@@ -123,8 +122,8 @@
 
   alignment AL_Jingmenvirus_Seg1
 
-	#extract child AL_EJP-Jingmen.1-Chironomus  -r REF_EJP-Jingmen.1-Chironomus
-	#demote member AL_EJP-Jingmen.1-Chironomus  -w "sequence.source.name = 'fasta-digs-eve' and sequence.locus_data.locus_id = 'EJP-Jingmen.1-Chironomus'"
+	extract child AL_EJP-Jingmen.1-Chironomus  -r REF_EJP-Jingmen.1-Chironomus
+	demote member AL_EJP-Jingmen.1-Chironomus  -w "sequence.source.name = 'fasta-digs-eve' and sequence.locus_data.locus_id = 'EJP-Jingmen.1-Chironomus'"
     exit
 
   #
@@ -132,9 +131,6 @@
   #
 
   alignment AL_Tamanavirus
-
-	extract child AL_EFV-Tamana.1-LedTum  -r REF_EFV-Tamana.1-LedTum
-	demote member AL_EFV-Tamana.1-LedTum  -w "sequence.sequenceID like 'EFV-Tamana.1%'"
 
 	extract child AL_EFV_Tamana.2-LauKoh  -r REF_EFV-Tamana.2-LauKoh
 	demote member AL_EFV_Tamana.2-LauKoh  -w "sequence.sequenceID like 'EFV-Tamana.2%'"
