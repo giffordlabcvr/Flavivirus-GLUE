@@ -317,8 +317,8 @@ EFV-PL2.3.239-Nomia_melanderi	216	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	239	Nomia_mela
 EFV-PL2.3.240-Nomia_melanderi	306	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	240	Nomia_melanderi	low_coverage	GCA_003710045	GCA_003710045.1_USU_Nmel_1.2_genomic.fna	REGV01092580.1	-	8	313
 EFV-PL2.3.257-Nomia_melanderi	2653	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	257	Nomia_melanderi	low_coverage	GCA_003710045	GCA_003710045.1_USU_Nmel_1.2_genomic.fna	REGV01000573.1	-	4809615	4812267
 EFV-PL2.3.258-Nomia_melanderi	3055	EFV-PL2.3-Apoidae	PL2	EFV-PL2	3	258	Nomia_melanderi	low_coverage	GCA_003710045	GCA_003710045.1_USU_Nmel_1.2_genomic.fna	REGV01000573.1	-	4789683	4792737
-EFV-PL2.3.189-Operophtera_brumata	708	EFV-PL2.7-OpeBru	PL2	EFV-PL2	3	189	Operophtera_brumata	low_coverage	ASM126657v1	GCA_001266575.1_ASM126657v1_genomic.fna	JTDY01000214.1	-	99289	99996
-EFV-PL2.3.190-Operophtera_brumata	324	EFV-PL2.7-OpeBru	PL2	EFV-PL2	3	190	Operophtera_brumata	low_coverage	ASM126657v1	GCA_001266575.1_ASM126657v1_genomic.fna	JTDY01002107.1	-	70740	71063
+EFV-PL2.7.189-Operophtera_brumata	708	EFV-PL2.7-OpeBru	PL2	EFV-PL2	7	189	Operophtera_brumata	low_coverage	ASM126657v1	GCA_001266575.1_ASM126657v1_genomic.fna	JTDY01000214.1	-	99289	99996
+EFV-PL2.7.190-Operophtera_brumata	324	EFV-PL2.7-OpeBru	PL2	EFV-PL2	7	190	Operophtera_brumata	low_coverage	ASM126657v1	GCA_001266575.1_ASM126657v1_genomic.fna	JTDY01002107.1	-	70740	71063
 EFV-PL2.3.83-Osmia_bicornis_bicornis	4823	EFV-PL2.3-OsmBic	PL2	EFV-PL2	3	83	Osmia_bicornis_bicornis	low_coverage	Obicornis_v3	GCA_004153925.1_Obicornis_v3_genomic.fna	MPJT01000491.1	-	16257	21079
 EFV-PL2.3.174-Xenocatantops_brachycerus	16813	EFV-PL2.6-XenBra	PL2	EFV-PL2	3	174	Xenocatantops_brachycerus	low_coverage	ASM90024965v1	GCA_900249655.1_ASM90024965v1_genomic.fna	OFSG01001798.1	-	488	17300
 EFV-PL2.3.175-Xenocatantops_brachycerus	7017	EFV-PL2.6-XenBra	PL2	EFV-PL2	3	175	Xenocatantops_brachycerus	low_coverage	ASM90024965v1	GCA_900249655.1_ASM90024965v1_genomic.fna	OFSG01020321.1	-	489	7505
