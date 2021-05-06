@@ -18,7 +18,7 @@ _.each(loadResult, function(eveObj) {
     var sequenceID = eveObj.sequenceID;
 	glue.inMode("custom-table-row/locus_data/"+sequenceID, function() {
 
-	    glue.log("INFO", "eveObj result was:", eveObj);
+	    //glue.log("INFO", "eveObj result was:", eveObj);
 
   
 		glue.command(["set", "field", "locus_id", eveObj.locus_numeric_id]);	
@@ -44,7 +44,7 @@ _.each(loadResult, function(eveObj) {
 		
 		// Get the taxonomy 
 		var efvRefConObj = efvRefseqResultMap[locus_name];
-		glue.log("INFO", "LOADED REFCON INFO ", efvRefConObj);
+		//glue.log("INFO", "LOADED REFCON INFO ", efvRefConObj);
 	
 		var subfamily   = efvRefConObj.subfamily;
 		var genus       = efvRefConObj.genus;
