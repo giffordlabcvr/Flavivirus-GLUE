@@ -70,9 +70,9 @@
 	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'X1'"
 	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'X1'"
 
-	#extract child AL_EFV_X2 -r REF_EFV-X2.2-StyCho
-	#demote member AL_EFV_X2 -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'X2'"
-	#demote member AL_EFV_X2 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'X2'"
+	extract child AL_EFV_X2 -r REF_EFV-X2.2-StyCho
+	demote member AL_EFV_X2 -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'X2'"
+	demote member AL_EFV_X2 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'X2'"
 
 	demote member AL_FlaviTamana -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'Flavivirus'"
 	demote member AL_FlaviTamana -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'Flavivirus'"
@@ -103,17 +103,19 @@
   # X2
   #
 
-  #alignment AL_EFV_X2
+  alignment AL_EFV_X2
 
-	#extract child AL_EFV_X2.1-EurAff  -r REF_EFV-X2.1-EurAff
-	#demote member AL_EFV_X2.1-EurAff  -w "sequence.sequenceID like 'EFV-X2.1%'"
 
-	#extract child AL_EFV_X2.2-AusLim  -r REF_EFV-X2.2-AusLim
-	#demote member AL_EFV_X2.2-AusLim  -w "sequence.sequenceID like 'EFV-X2.2%'"
+	extract child AL_EFV_X2.1-AusLim  -r REF_EFV-X2.1-AusLim
+	demote member AL_EFV_X2.1-AusLim  -w "sequence.sequenceID like 'EFV-X2.1%'"
 
-	#extract child AL_EFV_X2.3-StyCho  -r REF_EFV-X2.3-StyCho
-	#demote member AL_EFV_X2.3-StyCho  -w "sequence.sequenceID like 'EFV-X2.3%'"
-    #exit
+	extract child AL_EFV_X2.2-StyCho  -r REF_EFV-X2.2-StyCho
+	demote member AL_EFV_X2.2-StyCho  -w "sequence.sequenceID like 'EFV-X2.2%'"
+
+	extract child AL_EFV_X2.3-EurAff  -r REF_EFV-X2.3-EurAff
+	demote member AL_EFV_X2.3-EurAff  -w "sequence.sequenceID like 'EFV-X2.3%'"
+
+    exit
 
   #
   # Jingmenvirus
