@@ -10,7 +10,7 @@ module unconstrainedAlignmentImporter
   #~# Genera
   import AL_EFV_UNC_FLAVI               -f alignments/internal/genus/flavivirus+efv.aln.fna
   import AL_EFV_UNC_TABV                -f alignments/internal/genus/tamanavirus+efv.aln.fna   
-  import AL_EFV_UNC_PL2                 -f alignments/internal/genus/pl2+eve.aln.fna
+  import AL_EFV_UNC_PL2                 -f alignments/internal/genus/pl2+efv.aln.fna
   import AL_EFV_UNC_X2                  -f alignments/internal/genus/X2.aln.fna   
   #import AL_EFV_UNC_JMTV_SEG1           -f alignments/internal/genus/jmtvSeg1+eve.aln.fna    
   #import AL_EFV_UNC_JMTV_SEG3           -f alignments/internal/genus/jmtvSeg3+eve.aln.fna
