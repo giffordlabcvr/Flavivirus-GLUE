@@ -6,31 +6,24 @@
   
   alignment AL_MASTER_Flaviviridae_ROOT
 
-    add member  -w "source.name = 'fasta-refseqs-eve' or source.name = 'fasta-digs-eve'"    
-	demote member AL_FlaviPesti -w "sequence.source.name like '%-eve' and sequence.subfamily = 'FlaviPesti'"		
+    add member  -w "source.name = 'fasta-refseqs-eve' or source.name = 'fasta-digs-eve'"
+    
+	demote member AL_FlaviPesti -w "sequence.source.name like '%-eve' and sequence.subfamily = 'FlaviPesti'"
+		
 	demote member AL_HepaPegi -w "sequence.source.name like '%-eve' and sequence.subfamily = 'HepaPegi'"
+
+	extract child AL_EFV_X1 -r REF_EFV-X1.1-PriCau
+	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'X1'"
+	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'X1'"
+
 	exit
 	
-
-  #
-  # Hepa-Pegi-like
-  #
-
-  alignment AL_HepaPegi
-  
-	extract child AL_EFV_1-ElyChl -r REF_EFV-HepaPegi.1-ElyChl
-	demote member AL_EFV_1-ElyChl -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.refcon_data.locus_id = 'EFV-HepaPegi.1-ElyChl'"
-    exit
-
 
   #
   # Pesti-Flavi-like
   #
 
   alignment AL_FlaviPesti
-
-	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'X1'"
-	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'X1'"
 
 	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'X2'"
 	demote member AL_FlaviLike -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'X2'"
@@ -66,9 +59,6 @@
 
   alignment AL_FlaviLike
 
-	extract child AL_EFV_X1 -r REF_EFV-X1.1-PriCau
-	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'X1'"
-	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'X1'"
 
 	extract child AL_EFV_X2 -r REF_EFV-X2.2-StyCho
 	demote member AL_EFV_X2 -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'X2'"
