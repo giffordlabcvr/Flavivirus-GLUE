@@ -261,17 +261,17 @@
   # TIP ALIGNS
   #  
 
-  #alignment AL_EFV_X2.1-EurAff
-  #  derive segments AL_EFV_UNC_Eurytemora -a --existingMembersOnly
-  #  exit
+  alignment AL_EFV_X2.1-EurAff
+    derive segments AL_EFV_UNC_Eurytemora -a --existingMembersOnly
+    exit
 
   #alignment AL_EFV_X2.2-AusLim
   #  derive segments AL_EFV_UNC_Austrolofundulus -a --existingMembersOnly
   #  exit
 
-  #alignment AL_EFV_X2.3-StyCho
-  #  derive segments AL_EFV_UNC_Stylophorus -a --existingMembersOnly
-  #  exit
+  alignment AL_EFV_X2.3-StyCho
+    derive segments AL_EFV_UNC_Stylophorus -a --existingMembersOnly
+    exit
 
 
 

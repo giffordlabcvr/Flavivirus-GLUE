@@ -5,13 +5,14 @@ module unconstrainedAlignmentImporter
   #~# Import EVE 'tip' alignments (alignments of multicopy EVE loci believed to have a common origin)
 
   # X1
-  import AL_EFV_UNC_Priapulus                -f alignments/tip/eve/x1/efv-x2.1-PriCau.aln.fna
+  import AL_EFV_UNC_Priapulus                 -f alignments/tip/eve/x1/efv-x1.1-PriCau.aln.fna
 
   # X2
   #import AL_EFV_UNC_Austrofundulus           -f alignments/tip/eve/x2/efv-x2.2-AusLim.aln.fna
   import AL_EFV_UNC_Stylophorus               -f alignments/tip/eve/x2/efv-x2.2-StyCho.aln.fna
   import AL_EFV_UNC_Eurytemora                -f alignments/tip/eve/x2/efv-x2.3-EurAff.aln.fna
   import AL_EFV_UNC_Takifugu                  -f alignments/tip/eve/x2/efv-x2.4-Takifugu.aln.fna
+  import AL_EFV_UNC_Phycis                    -f alignments/tip/eve/x2/efv-x2.5-Phycis.aln.fna
 
   # Flavirus
   import AL_EFV_UNC_Flavi_Daphnia             -f alignments/tip/eve/flavivirus/flavivirus-daphnia.aln.fna
@@ -32,6 +33,9 @@ module unconstrainedAlignmentImporter
 
   # Pestinsect
   import AL_EFV_UNC_Pestinsect_Calycopis      -f alignments/tip/eve/pl2/PL2.1-calycopis.aln.fna
+  #import AL_EFV_UNC_Pestinsect_Apoidae        -f alignments/tip/eve/pl2/PL2.3-apoidae.aln.fna
+  #import AL_EFV_UNC_Pestinsect_Andricus       -f alignments/tip/eve/pl2/PL2.4-andricus.aln.fna
+  #import AL_EFV_UNC_Pestinsect_Xenocatantops  -f alignments/tip/eve/pl2PL2.6-xenocatantops.aln.fna
   import AL_EFV_UNC_Pestinsect_Andricus       -f alignments/tip/eve/pl2/PL2.4-andricus.aln.fna
   import AL_EFV_UNC_Pestinsect_Operophtera    -f alignments/tip/eve/pl2/PL2.7-operophtera.aln.fna
 
