@@ -217,8 +217,8 @@
   #  
   
 
-  alignment AL_Jingmenvirus
-    derive segments AL_EFV_UNC_JMTV_SEG1 -a --mergeStrategy 
+  alignment AL_Jingmenvirus_Seg1
+    derive segments AL_EFV_UNC_JMTV_SEG1 -a --existingMembersOnly 
     exit
 
   alignment AL_Tamanavirus
