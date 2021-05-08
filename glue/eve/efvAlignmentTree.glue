@@ -13,8 +13,8 @@
 	demote member AL_HepaPegi -w "sequence.source.name like '%-eve' and sequence.subfamily = 'HepaPegi'"
 
 	extract child AL_EFV_X1 -r REF_EFV-X1.1-PriCau
-	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'X1'"
-	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'X1'"
+	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.subfamily = 'X1'"
+	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-digs-eve' and sequence.subfamily = 'X1'"
 
 	exit
 	
@@ -176,9 +176,9 @@
   # ROOT NODE
   #
   
-  alignment AL_MASTER_Flaviviridae_ROOT
-    derive segments AL_EFV_UNC_Flaviviridae -a --existingMembersOnly
-    exit
+  #alignment AL_MASTER_Flaviviridae_ROOT
+  #  derive segments AL_EFV_UNC_Flaviviridae -a --existingMembersOnly
+  #  exit
 
 
   #
