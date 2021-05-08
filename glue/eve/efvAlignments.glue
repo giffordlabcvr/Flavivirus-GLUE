@@ -4,7 +4,7 @@ module efvUnconstrainedAlignmentImporter
 
 
   #~# Major lineages
-  #import AL_EFV_UNC_HEPA_PEGI           -f alignments/internal/major-lineage/hepa-pegi+eve.aln.fna
+  import AL_EFV_UNC_HEPA_PEGI           -f alignments/internal/major-lineage/hepa-pegi+eve.aln.fna
   #import AL_EFV_UNC_FLAVI_PESTI         -f alignments/internal/major-lineage/flavi-pesti+eve.aln.fna
 
   #~# Genera
