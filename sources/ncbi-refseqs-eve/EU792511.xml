@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>EU792511</GBSeq_locus>
+    <GBSeq_length>2296</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>INV</GBSeq_division>
+    <GBSeq_update-date>22-SEP-2008</GBSeq_update-date>
+    <GBSeq_create-date>14-JUL-2008</GBSeq_create-date>
+    <GBSeq_definition>Toxocara canis ANT-34 mRNA, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>EU792511</GBSeq_primary-accession>
+    <GBSeq_accession-version>EU792511.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|EU792511.1|</GBSeqid>
+      <GBSeqid>gi|193733197</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Toxocara canis (dog roundworm)</GBSeq_source>
+    <GBSeq_organism>Toxocara canis</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida; Spirurina; Ascaridomorpha; Ascaridoidea; Toxocaridae; Toxocara</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2296</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tetteh,K.K.</GBAuthor>
+          <GBAuthor>Loukas,A.</GBAuthor>
+          <GBAuthor>Tripp,C.</GBAuthor>
+          <GBAuthor>Maizels,R.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification of abundantly expressed novel and conserved genes from the infective larval stage of Toxocara canis by an expressed sequence tag strategy</GBReference_title>
+        <GBReference_journal>Infect. Immun. 67 (9), 4771-4779 (1999)</GBReference_journal>
+        <GBReference_pubmed>10456930</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2296</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Callister,D.M.</GBAuthor>
+          <GBAuthor>Winter,A.D.</GBAuthor>
+          <GBAuthor>Page,A.P.</GBAuthor>
+          <GBAuthor>Maizels,R.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Four abundant novel transcript genes from Toxocara canis with unrelated coding sequences share untranslated region tracts implicated in the control of gene expression</GBReference_title>
+        <GBReference_journal>Mol. Biochem. Parasitol. (2008) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.molbiopara.2008.07.004</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>18703093</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..2296</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Callister,D.M.</GBAuthor>
+          <GBAuthor>Maizels,R.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (04-JUN-2008) Institute of Immunology and Infection Research, University of Edinburgh, West Mains Road, Edinburgh EH9 3JT, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2296</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2296</GBInterval_to>
+            <GBInterval_accession>EU792511.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Toxocara canis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:6265</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>5'UTR</GBFeature_key>
+        <GBFeature_location>1..238</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>238</GBInterval_to>
+            <GBInterval_accession>EU792511.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>239..2065</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>239</GBInterval_from>
+            <GBInterval_to>2065</GBInterval_to>
+            <GBInterval_accession>EU792511.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to RNA helicase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>ANT-34</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ACF19855.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MLIRLWTWVTWGGPPQIRNPIDGERLIVVYLPKLNEACVIASSYQEVCTGKGFFKGPATIPGLSGGAVFGVSRIPGDGEVFSDEVELIGLAGTNISSRGLSTFYGDEDVTWQVEYMQHRTETTIDLGDEPGYIKMAQIMQSPGTGKTRQHVPRMAFQALQAGIQVVVSPPTRVICGEVATLLDEIPGARVTRNWRGGLRRRDWNIMVTPHAVLFRLLYLRSGMLKKQTVFFIDEAHFSDTKTIALCKFLRHRVEETLDTAIFLTATGKDWKTGQDRICDISNYPIADHDIPSHNVVQFVEDHLRSWMGKKVIVFCNSVGGEGLSIRTFWRKLRNNPAADVIAFSRNTFERNYPLVKKDPEMDKAMIVLTTNMSECGININADIVVDTGQQVAFKVKNGCVVRSMERTTMAQQVQRRGRVGRRKPGDYYKVVSHEPQYTISRPMEIEEIEALVLCDKAGIPLTHLEKCKVDALGLVVTDSQIVRWLDGETQSLIGATVVYDTEGNIRTASGRAALINSWKDRGEIVNFGSRKVRLRYYDARDRELFVKALKLGGIKDEEHEEEHQDKCEACGTLWYHHFDGRSCRSKCPTCVCEEVEAAELAKIADDVE</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>3'UTR</GBFeature_key>
+        <GBFeature_location>2066..2296</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>2066</GBInterval_from>
+            <GBInterval_to>2296</GBInterval_to>
+            <GBInterval_accession>EU792511.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contains lin-4 like element</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctagctgtggcgagcgtcatctacttctggagagtggcaccgacatttgagcaaaagaagtttccaactaagaagataggattcagagatgggatgtatgaagcgcattattgcgtgcttggtttcagggtagctaaggcaaccggagtcgcttggcgaggggtgctgcaccttaacttccatcttgctggaaacacctgtgtggactatggcggagagatgatagagccctcctatgatgttgataaggttatggacctgggtcacctggggaggtcccccgcagataagaaaccctattgacggtgaacggctaattgtggtttacttgccaaagctcaatgaggcctgtgtgatcgcgagtagttatcaggaagtgtgcacagggaaaggcttctttaaggggccagccacaataccaggactttcaggnggagccgttttcggagtcagtagaattccgggtgatggtgaagtcttttctgatgaagtggaactgattggacttgctggaactaacatatcgagcagagggttatccaccttctatggagatgaagatgtgacatggcaggttgagtatatgcagcataggacagagaccaccatcgatttgggtgatgaaccaggttacataaagatggctcaaataatgcagtcacctggaactgggaagacaagacaacatgttccaagaatggctttccaagctctccaggcaggaattcaggtagtagtgtcacctcctacgcgagttatttgcggagaggttgccacgttgcttgatgagatcccgggagcgagagttactcggaattggcgaggaggtttgagaaggagagattggaatatcatggttaccccgcatgctgtccttttcagactgctctacttgagatcaggaatgttgaagaagcagactgtcttctttatagatgaggcccatttctcagatacgaagacgatagcactctgcaagtttctgaggcacagagtggaagaaacgcttgatactgctatatttttgacagccacaggaaaagattggaaaactggtcaagataggatatgtgacatcagcaattatcctattgcagatcatgatattccaagtcacaatgttgttcaatttgttgaagaccatttgcgcagttggatgggaaagaaggtgattgtcttctgcaattcagtaggaggcgaaggcctttctataagaacattttggagaaagttgcgcaataatccagcagctgacgtcatagctttttcaagaaacacctttgagaggaattatcctctggtgaagaaggatcctgagatggataaggcaatgattgtgttgacgaccaacatgtcagaatgcggcataaacatcaatgctgacatagtggtggacacaggtcagcaagttgcttttaaggttaagaatggttgtgttgtcagaagtatggaaaggacaactatggcccagcaagtccaacgaagaggaagagttggaagaagaaagccaggagactattataaggtggttagtcatgaaccacagtataccatcagcagacctatggagattgaagagatagaagctctcgtattgtgtgacaaggctggcatacctttgacccatcttgagaaatgcaaggttgatgctctcggtcttgtggtaactgatagccagattgttaggtggcttgatggtgaaacacagagcttgataggagcaactgttgtctatgacacggaaggtaacatcaggacggctagtgggagagcagccttgatcaacagctggaaagatcgtggtgagattgtcaactttggcagcaggaaagtgagactccgttattatgatgcaagagatcgtgagttgtttgtaaaagcgctcaaacttgggggtatcaaagatgaggagcatgaggaagaacatcaggacaaatgtgaagcgtgtggaacactttggtaccatcattttgatggaagatcgtgtagaagtaaatgtcctacttgtgtgtgtgaggaggttgaagcagccgaactagcgaagatagccgatgacgtagagtagatgaatcgtatgatccgaggccgacaggtaagagaggccagaaagatctatgtttgttaacattatgataaaaggagattgcgagggaggccggagggggctctgcagtatctcaagacagatggagcgtagctactagaggattgaatcctcgcaattgattggtagtgagactacactggttgaggtcaagcagggctcttgaagcctcaagcatgatctaaaaaaaaa</GBSeq_sequence>
+  </GBSeq>

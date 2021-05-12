@@ -1,0 +1,7 @@
+delete module efvNcbiReferenceImporter
+create module -f modules/eve/efvNcbiReferenceImporter.xml efvNcbiReferenceImporter
+
+# Download NCBI sequences 
+module efvNcbiReferenceImporter import
+
+export source ncbi-refseqs-eve

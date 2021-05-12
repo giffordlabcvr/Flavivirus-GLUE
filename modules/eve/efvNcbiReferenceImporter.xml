@@ -1,0 +1,17 @@
+<ncbiImporter>
+
+  <sourceName>ncbi-refseqs-eve</sourceName>
+  
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  
+  <specificPrimaryAccessions>
+   
+	<primaryAccession>EU792511</primaryAccession>
+
+  </specificPrimaryAccessions>
+  
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  
+</ncbiImporter>

@@ -1,7 +1,7 @@
 delete module flaviviridaeNcbiReferenceImporter
-create module -f modules/ncbi-importer/flaviviridaeNcbiReferenceImporter.xml ncbiImporter
+create module -f modules/core/flaviviridaeNcbiReferenceImporter.xml flaviviridaeNcbiReferenceImporter
 
 # Download NCBI sequences 
-module ncbiImporter import
+module flaviviridaeNcbiReferenceImporter import
 
 export source ncbi-refseqs
