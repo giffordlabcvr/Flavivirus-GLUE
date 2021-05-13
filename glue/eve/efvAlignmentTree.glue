@@ -12,10 +12,6 @@
 		
 	demote member AL_HepaPegi -w "sequence.source.name like '%-eve' and sequence.subfamily = 'HepaPegi'"
 
-	extract child AL_EFV_X1 -r REF_EFV-X1.1-PriCau
-	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.subfamily = 'X1'"
-	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-digs-eve' and sequence.subfamily = 'X1'"
-
 	exit
 	
 
@@ -39,6 +35,11 @@
 
 	demote member AL_PestiLike -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'PL2'"
 	demote member AL_PestiLike -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'PL2'"
+ 
+	extract child AL_EFV_X1 -r REF_EFV-X1.1-PriCau
+	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'X1'"
+	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'X1'"
+
     exit
 
   #
@@ -222,15 +223,15 @@
     exit
 
   alignment AL_Tamanavirus
-    derive segments AL_EFV_UNC_TABV -a --mergeStrategy 
+    derive segments AL_EFV_UNC_TABV -a --existingMembersOnly 
     exit
 
   #alignment AL_FlaviTamana
-  #  derive segments AL_EFV_UNC_FLAVI_TABV -a --mergeStrategy 
+  #  derive segments AL_EFV_UNC_FLAVI_TABV -a --existingMembersOnly 
   #  exit
 
   #alignment AL_Flavivirus
-  #  derive segments AL_EFV_UNC_FLAVI -a --mergeStrategy 
+  #  derive segments AL_EFV_UNC_FLAVI -a --existingMembersOnly 
   #  exit
 
  
@@ -239,11 +240,11 @@
   #  
 
   #alignment AL_cISF
-  #  derive segments AL_EFV_UNC_FLAVI_cISF -a --mergeStrategy 
+  #  derive segments AL_EFV_UNC_FLAVI_cISF -a --existingMembersOnly 
   #  exit
 
   #alignment AL_crustacean
-  #  derive segments AL_EFV_UNC_FLAVI_crustacean -a --mergeStrategy 
+  #  derive segments AL_EFV_UNC_FLAVI_crustacean -a --existingMembersOnly 
   #  exit
 
  
