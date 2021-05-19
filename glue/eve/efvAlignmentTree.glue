@@ -191,9 +191,9 @@
     derive segments AL_EFV_UNC_HEPA_PEGI -a --existingMembersOnly
     exit
 
-  #alignment AL_FlaviPesti
-  #  derive segments AL_EFV_UNC_FLAVI_PESTI -a --existingMembersOnly
-  #  exit
+  alignment AL_FlaviPesti
+    derive segments AL_EFV_UNC_FLAVI_PESTI -a --existingMembersOnly
+    exit
 
   #alignment AL_PestiLike
   #  derive segments AL_EFV_UNC_PESTI_LIKE -a --existingMembersOnly
@@ -208,9 +208,9 @@
   # PESTIVIRUS-LIKE SUBGROUPS
   #
 
-  #alignment AL_PL2
-  #  derive segments AL_EFV_UNC_PL2 -a --mergeStrategy 
-  #  exit
+  alignment AL_PL2
+    derive segments AL_EFV_UNC_PL2 -a --existingMembersOnly 
+    exit
 
 
   #

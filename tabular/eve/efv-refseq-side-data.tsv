@@ -12,7 +12,7 @@ EFV-Tamana.1-LedTum	EFV-Tamana.1-LedTum	EFV-Tamana.1-LedTum	EFV-Tamana.1-LedTum	
 EFV-Tamana.2-LauKoh	EFV-Tamana.2-LauKoh	EFV-Tamana.2-LauKoh	EFV-Tamana.2-LauKoh	FlaviPesti	Tamanavirus	Tamana	2	species	Laupala kohalensis	Hawaiian cricket	consensus	2		NULL	NULL
 EFV-Tamana.3-AmpSul	EFV-Tamana.3-AmpSul	EFV-Tamana.3-AmpSul	EFV-Tamana.3-AmpSul	FlaviPesti	Tamanavirus	Tamana	3	species	Amphinemura sulcicollis	Spring stonefly	consensus	2		NULL	NULL
 EFV-Tamana.4-StyCho	EFV-Tamana.4-StyCho	EFV-Tamana.4-StyCho	EFV-Tamana.4-StyCho	FlaviPesti	Tamanavirus	Tamana	4	species	Stylephorus chordatus	Tube-eye	reference	1	n/a	NULL	NULL
-EFV-X1.1-PriCau	EFV-X1.1-PriCau	EFV-X1.1-PriCau	EFV-X1.1-PriCau	X1	X1	X1	1	species	Priapulus caudatus	Penis worm	consensus	2		NULL	NULL
+EFV-X1.1-PriCau	EFV-X1.1-PriCau	EFV-X1.1-PriCau	EFV-X1.1-PriCau	FlaviPesti	X1	X1	1	species	Priapulus caudatus	Penis worm	consensus	2		NULL	NULL
 EFV-X2.3-EurAff	EFV-X2.3-EurAff	EFV-X2.3-EurAff	EFV-X2.3-EurAff	FlaviPesti	X2	X2	1	species	Eurytemora affinis	Copepod	consensus	6		NULL	NULL
 EFV-X2.1-AusLim	EFV-X2.1-AusLim	EFV-X2.1-AusLim	EFV-X2.1-AusLim	FlaviPesti	X2	X2	2	species	Austrofundulus limnaeus	Mangrove killifish	consensus	4		NULL	NULL
 EFV-X2.2-StyCho	EFV-X2.2-StyCho	EFV-X2.2-StyCho	EFV-X2.2-StyCho	FlaviPesti	X2	X2	3	species	Stylephorus chordatus	Tube-eye	reference	1		NULL	NULL
