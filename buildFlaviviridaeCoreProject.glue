@@ -1,6 +1,6 @@
 delete project flaviviridae
 
-create project flaviviridae "GLUE project for the Flaviviridae" --minVersion 1.1.65
+create project flaviviridae "A GLUE project for the Flaviviridae" --minVersion 1.1.65
 
 schema-project flaviviridae
 
