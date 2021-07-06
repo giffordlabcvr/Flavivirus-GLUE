@@ -1,0 +1,58 @@
+  delete module raxmlPhylogenyGenerator
+  delete module flaviviridaePhyloUtility
+  delete module alignmentColumnsSelectorCisf
+  delete module alignmentColumnsSelectorTbfv
+  delete module alignmentColumnsSelectorMbfv1
+  delete module alignmentColumnsSelectorMbfv2
+  delete module alignmentColumnsSelectorNkv1
+  delete module alignmentColumnsSelectorNkv2
+  delete module alignmentColumnsSelectorCrustacean
+  
+  # Create all the modules we need
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/core/flaviviridaePhyloUtility.xml
+  create module -f modules/core/flaviviridaeFigTreeAnnotationExporter.xml
+  create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
+  create module -f modules/core/alignmentColumnsSelectorCisf.xml
+  create module -f modules/core/alignmentColumnsSelectorTbfv.xml
+  create module -f modules/core/alignmentColumnsSelectorMbfv1.xml
+  create module -f modules/core/alignmentColumnsSelectorMbfv2.xml
+  create module -f modules/core/alignmentColumnsSelectorNkv1.xml
+  create module -f modules/core/alignmentColumnsSelectorNkv2.xml
+  create module -f modules/core/alignmentColumnsSelectorCrustacean.xml
+
+
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
+
+    generate nucleotide phylogeny AL_cISF -s alignmentColumnsSelectorCisf \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus-level/cisf.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_tick -s alignmentColumnsSelectorTbfv \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus-level/tbfv.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny REF_DEN1 -s alignmentColumnsSelectorMbfv1 \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus-level/mbfv1.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny REF_MASTER_YFV -s alignmentColumnsSelectorMbfv2 \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus-level/mbfv2.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny REF_APOIV -s alignmentColumnsSelectorNkv1 \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus-level/nkv1.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny REF_SOKV -s alignmentColumnsSelectorNkv2 \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus-level/nkv2.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny REF_ccCFV -s alignmentColumnsSelectorCrustacean \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus-level/crustacean.tre NEWICK_BOOTSTRAPS
+
+    exit
+
+ 
