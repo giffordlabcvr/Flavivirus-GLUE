@@ -26,7 +26,7 @@
 
     record feature-presence AL_FLAVI_SUBGENUS_MBFV1 --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_FLAVI_SUBGENUS_MBFV2 --recursive --featureName whole_genome --descendentFeatures
-   record feature-presence AL_FLAVI_SUBGENUS_TBFV --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_FLAVI_SUBGENUS_TBFV --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_FLAVI_SUBGENUS_dISF1A --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_FLAVI_SUBGENUS_dISF1B --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_FLAVI_SUBGENUS_dISF2 --recursive --featureName whole_genome --descendentFeatures

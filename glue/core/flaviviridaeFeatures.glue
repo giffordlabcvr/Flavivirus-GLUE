@@ -53,6 +53,20 @@
   feature precursor_polyprotein set metatag OWN_CODON_NUMBERING true
   feature precursor_polyprotein set metatag CODES_AMINO_ACIDS true
 
+
+  # Some flaviviruses have an internal frameshift, this is the current way of dealing with that
+
+  create feature precursor_polyprotein1 -p whole_genome "Precursor polyprotein 1"
+  feature precursor_polyprotein1 set field displayName "Precursor polyprotein"
+  feature precursor_polyprotein1 set metatag OWN_CODON_NUMBERING true
+  feature precursor_polyprotein1 set metatag CODES_AMINO_ACIDS true
+
+  create feature precursor_polyprotein2 -p whole_genome "Precursor polyprotein 2"
+  feature precursor_polyprotein2 set field displayName "Precursor polyprotein"
+  feature precursor_polyprotein2 set metatag OWN_CODON_NUMBERING true
+  feature precursor_polyprotein2 set metatag CODES_AMINO_ACIDS true
+
+
   ## Structural proteins
 
   create feature structural_proteins -p precursor_polyprotein "Structural proteins"
