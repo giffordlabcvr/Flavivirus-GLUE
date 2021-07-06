@@ -1,0 +1,29 @@
+
+
+  # Export annotations
+  module flaviFigTreeAnnotationExporter 
+
+    export figtree-annotation AL_FLAVI_SUBGENUS_cISF -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/cisf.figtree-annotations.tsv
+
+    export figtree-annotation AL_FLAVI_SUBGENUS_TBFV -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/tbfv.figtree-annotations.tsv
+
+    export figtree-annotation AL_FLAVI_SUBGENUS_MBFV1 -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/mbfv1.figtree-annotations.tsv
+
+    export figtree-annotation AL_FLAVI_SUBGENUS_MBFV2 -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/mbfv2.figtree-annotations.tsv
+
+    export figtree-annotation AL_FLAVI_SUBGENUS_NKV1 -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/nkv1.figtree-annotations.tsv
+
+    export figtree-annotation AL_FLAVI_SUBGENUS_NKV2 -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/nkv2.figtree-annotations.tsv
+
+    export figtree-annotation AL_FLAVI_SUBGENUS_crustacean -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/crustacean.figtree-annotations.tsv
+
+  exit
+
+

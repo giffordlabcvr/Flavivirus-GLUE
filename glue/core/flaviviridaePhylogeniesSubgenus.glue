@@ -20,6 +20,11 @@
   create module -f modules/core/alignmentColumnsSelectorNkv1.xml
   create module -f modules/core/alignmentColumnsSelectorNkv2.xml
   create module -f modules/core/alignmentColumnsSelectorCrustacean.xml
+  create module -f modules/core/alignmentColumnsSelectorDisf1.xml
+  create module -f modules/core/alignmentColumnsSelectorDisf1A.xml
+  create module -f modules/core/alignmentColumnsSelectorDisf1B.xml
+  create module -f modules/core/alignmentColumnsSelectorDisf2.xml
+
 
 
   # Create the phylogenies
@@ -53,6 +58,22 @@
     #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
     #  -o trees/subgenus-level/crustacean.tre NEWICK_BOOTSTRAPS
 
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF1 -s alignmentColumnsSelectorCrustacean \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus-level/disf1.tre NEWICK_BOOTSTRAPS
+
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF1A -s alignmentColumnsSelectorCrustacean \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus-level/disf1A.tre NEWICK_BOOTSTRAPS
+
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF1B -s alignmentColumnsSelectorCrustacean \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus-level/disf1B.tre NEWICK_BOOTSTRAPS
+
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF2 -s alignmentColumnsSelectorCrustacean \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus-level/disf2.tre NEWICK_BOOTSTRAPS
+
     exit
 
- 
+

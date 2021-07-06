@@ -1,0 +1,42 @@
+
+  # Re-root phylogeny 
+  module flaviPhyloUtility 
+
+	reroot-phylogeny \
+      --inputFile trees/main-genus/cisf.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/cisf.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-genus/tbfv.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/tbfv-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-genus/mbfv1.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/mbfv1-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-genus/mbfv2.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/mbfv2-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-genus/nkv1.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/nkv1-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	#reroot-phylogeny \
+    #  --inputFile trees/main-genus/nkv2.tre NEWICK_BOOTSTRAPS \
+    #  --midpoint \
+    #  --outputFile trees/main-genus/nkv2-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	#reroot-phylogeny \
+    #  --inputFile trees/main-genus/crustacean.tre NEWICK_BOOTSTRAPS \
+    #  --midpoint \
+    #  --outputFile trees/main-genus/crustacean-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+
+

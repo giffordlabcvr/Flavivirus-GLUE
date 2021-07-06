@@ -36,7 +36,19 @@ project flaviviridae
 
   # Create phylogenies
   #run file glue/core/flaviviridaeCreateRootPhylogenies.glue
-  run file glue/core/flaviviridaeCreateSubgenusLevelPhylogenies.glue
+
+
+  # Create subgenus-level phylogenies
+  run file glue/core/flaviviridaePhylogeniesSubgenus.glue
+  run file glue/core/flaviviridaePhylogeniesSubgenusReroot.glue
+  run file glue/core/flaviviridaePhylogeniesSubgenusAnnotations.glue
+
+  # Create genus-level phylogenies
+  run file glue/core/flaviviridaePhylogeniesGenus.glue
+  run file glue/core/flaviviridaePhylogeniesGenusReroot.glue
+  run file glue/core/flaviviridaePhylogeniesGenusAnnotations.glue
+
+
   validate
 
   exit
