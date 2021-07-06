@@ -21,13 +21,18 @@
     record feature-presence AL_Jingmenvirus_Seg3 --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_Tamanavirus --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_Flavivirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_mosquito-2 --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_tick --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_dISF1A --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_dISF1B --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_dISF2 --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_NKV1 --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_NKV2 --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_crustacean --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_FLAVI_SUBGENUS_cISF --recursive --featureName whole_genome --descendentFeatures
+
+
+    record feature-presence AL_FLAVI_SUBGENUS_MBFV1 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_FLAVI_SUBGENUS_MBFV2 --recursive --featureName whole_genome --descendentFeatures
+   record feature-presence AL_FLAVI_SUBGENUS_TBFV --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_FLAVI_SUBGENUS_dISF1A --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_FLAVI_SUBGENUS_dISF1B --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_FLAVI_SUBGENUS_dISF2 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_FLAVI_SUBGENUS_NKV1 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_FLAVI_SUBGENUS_NKV2 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_FLAVI_SUBGENUS_crustacean --recursive --featureName whole_genome --descendentFeatures
     exit
+
 

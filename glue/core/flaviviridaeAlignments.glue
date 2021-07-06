@@ -27,14 +27,11 @@
     #~# Genus subgroups
     import AL_UNC_FLAVI_cISF          -f alignments/internal/subgroup/cISF.aln.fna
     import AL_UNC_FLAVI_crustacean    -f alignments/internal/subgroup/crustacean.aln.fna
-    import AL_UNC_FLAVI_MBV1          -f alignments/internal/subgroup/mosquito-1.aln.fna
-    import AL_UNC_FLAVI_MBV2          -f alignments/internal/subgroup/mosquito-2.aln.fna
-    import AL_UNC_FLAVI_TBV           -f alignments/internal/subgroup/ticks.aln.fna
-
+    import AL_UNC_FLAVI_MBFV1         -f alignments/internal/subgroup/mosquito-1.aln.fna
+    import AL_UNC_FLAVI_MBFV2         -f alignments/internal/subgroup/mosquito-2.aln.fna
+    import AL_UNC_FLAVI_TBFV          -f alignments/internal/subgroup/ticks.aln.fna
     import AL_UNC_FLAVI_NKV1          -f alignments/internal/subgroup/NKV1.aln.fna
     import AL_UNC_FLAVI_NKV2          -f alignments/internal/subgroup/NKV2.aln.fna
-
-
     import AL_UNC_FLAVI_dISF1         -f alignments/internal/subgroup/dISF1.aln.fna
     import AL_UNC_FLAVI_dISF1a        -f alignments/internal/subgroup/dISF1a.aln.fna
     import AL_UNC_FLAVI_dISF1b        -f alignments/internal/subgroup/dISF1b.aln.fna
