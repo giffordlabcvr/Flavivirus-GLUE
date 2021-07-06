@@ -1,0 +1,54 @@
+  
+  # Clean-up
+  delete module raxmlPhylogenyGenerator
+  delete module flaviviridaePhyloUtility
+  delete module alignmentColumnsSelectorFlavivirus
+  delete module alignmentColumnsSelectorTamanavirus
+  delete module alignmentColumnsSelectorPestivirus
+  delete module alignmentColumnsSelectorHepacivirus
+  delete module alignmentColumnsSelectorPegivirus
+  delete module alignmentColumnsSelectorJingmenvirus_Seg1
+  delete module alignmentColumnsSelectorJingmenvirus_Seg3
+  
+  # Create all the modules we need
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/core/flaviviridaePhyloUtility.xml
+  create module -f modules/core/flaviviridaeFigTreeAnnotationExporter.xml
+  create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
+  create module -f modules/core/alignmentColumnsSelectorFlavivirus.xml
+  create module -f modules/core/alignmentColumnsSelectorTamanavirus.xml
+  create module -f modules/core/alignmentColumnsSelectorHepacivirus.xml
+  create module -f modules/core/alignmentColumnsSelectorPegivirus.xml
+  create module -f modules/core/alignmentColumnsSelectorJingmenvirus_Seg1.xml
+  create module -f modules/core/alignmentColumnsSelectorJingmenvirus_Seg3.xml
+
+
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
+
+    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorFlavivirus \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus-level/cisf.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTamanavirus \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus-level/tbfv.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_MBFV1 -s alignmentColumnsSelectorHepacivirus \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus-level/mbfv1.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_MBFV2 -s alignmentColumnsSelectorPegivirus \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus-level/mbfv2.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV1 -s alignmentColumnsSelectorJingmenvirus_Seg1 \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus-level/nkv1.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorJingmenvirus_Seg3 \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus-level/nkv2.tre NEWICK_BOOTSTRAPS
+
+    exit
+

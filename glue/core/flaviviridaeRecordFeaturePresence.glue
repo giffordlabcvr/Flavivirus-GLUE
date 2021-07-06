@@ -14,16 +14,17 @@
     record feature-presence AL_FlaviTamana --recursive --featureName whole_genome --descendentFeatures
     
     #~# Genus alignments
-    record feature-presence AL_Pestivirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_PL1 --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_PL2 --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Jingmenvirus_Seg1 --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Jingmenvirus_Seg3 --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Tamanavirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Flavivirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Pestivirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_PL1 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_PL2 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Jingmenvirus_Seg1 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Jingmenvirus_Seg3 --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Tamanavirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Flavivirus --recursive --featureName whole_genome --descendentFeatures
+ 
+     
+    #~# Subgenus alignments
     record feature-presence AL_FLAVI_SUBGENUS_cISF --recursive --featureName whole_genome --descendentFeatures
-
-
     record feature-presence AL_FLAVI_SUBGENUS_MBFV1 --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_FLAVI_SUBGENUS_MBFV2 --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_FLAVI_SUBGENUS_TBFV --recursive --featureName whole_genome --descendentFeatures
@@ -34,5 +35,4 @@
     record feature-presence AL_FLAVI_SUBGENUS_NKV2 --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_FLAVI_SUBGENUS_crustacean --recursive --featureName whole_genome --descendentFeatures
     exit
-
 

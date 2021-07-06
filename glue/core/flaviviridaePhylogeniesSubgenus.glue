@@ -1,5 +1,6 @@
+  
+  # Clean-up
   delete module raxmlPhylogenyGenerator
-  delete module flaviviridaePhyloUtility
   delete module alignmentColumnsSelectorCisf
   delete module alignmentColumnsSelectorTbfv
   delete module alignmentColumnsSelectorMbfv1
@@ -7,11 +8,14 @@
   delete module alignmentColumnsSelectorNkv1
   delete module alignmentColumnsSelectorNkv2
   delete module alignmentColumnsSelectorCrustacean
+  delete module alignmentColumnsSelectorDisf1
+  delete module alignmentColumnsSelectorDisf1A
+  delete module alignmentColumnsSelectorDisf1B
+  delete module alignmentColumnsSelectorDisf2
+
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/flaviviridaePhyloUtility.xml
-  create module -f modules/core/flaviviridaeFigTreeAnnotationExporter.xml
   create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
   create module -f modules/core/alignmentColumnsSelectorCisf.xml
   create module -f modules/core/alignmentColumnsSelectorTbfv.xml
@@ -24,7 +28,6 @@
   create module -f modules/core/alignmentColumnsSelectorDisf1A.xml
   create module -f modules/core/alignmentColumnsSelectorDisf1B.xml
   create module -f modules/core/alignmentColumnsSelectorDisf2.xml
-
 
 
   # Create the phylogenies
