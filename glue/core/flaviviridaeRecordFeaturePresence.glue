@@ -4,14 +4,14 @@
   module flaviviridaeFeaturePresenceRecorder 
 
     #~# Root alignment
-    record feature-presence AL_MASTER_Flaviviridae_ROOT --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_ROOT_Flaviviridae_ROOT --recursive --featureName whole_genome --descendentFeatures
 
     #~# Major subclade alignments
-    record feature-presence AL_HepaPegi --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_FlaviPesti --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_PestiLike --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_FlaviLike --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_FlaviTamana --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SUBCLADE_HepaPegi --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SUBCLADE_FlaviPesti --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SUBCLADE_PestiLike --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SUBCLADE_FlaviLike --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SUBCLADE_FlaviTamana --recursive --featureName whole_genome --descendentFeatures
     
     #~# Genus alignments
     record feature-presence AL_GENUS_Pestivirus --recursive --featureName whole_genome --descendentFeatures
@@ -22,7 +22,6 @@
     record feature-presence AL_GENUS_Tamanavirus --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_GENUS_Flavivirus --recursive --featureName whole_genome --descendentFeatures
  
-     
     #~# Subgenus alignments
     record feature-presence AL_FLAVI_SUBGENUS_cISF --recursive --featureName whole_genome --descendentFeatures
     record feature-presence AL_FLAVI_SUBGENUS_MBFV1 --recursive --featureName whole_genome --descendentFeatures

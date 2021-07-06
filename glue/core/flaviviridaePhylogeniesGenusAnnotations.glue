@@ -3,26 +3,26 @@
   # Export annotations
   module flaviFigTreeAnnotationExporter 
 
-    export figtree-annotation AL_FLAVI_SUBGENUS_cISF -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/cisf.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Flavivirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/flavivirus.figtree-annotations.tsv
 
-    export figtree-annotation AL_FLAVI_SUBGENUS_TBFV -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/tbfv.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Tamanavirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/tamanavirus.figtree-annotations.tsv
 
-    export figtree-annotation AL_FLAVI_SUBGENUS_MBFV1 -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/mbfv1.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Hepacivirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/hepacivirus.figtree-annotations.tsv
 
-    export figtree-annotation AL_FLAVI_SUBGENUS_MBFV2 -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/mbfv2.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Pegivirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/pegivirus.figtree-annotations.tsv
 
-    export figtree-annotation AL_FLAVI_SUBGENUS_NKV1 -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/nkv1.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Pestivirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/pestivirus.figtree-annotations.tsv
 
-    export figtree-annotation AL_FLAVI_SUBGENUS_NKV2 -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/nkv2.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Jingmenvirus_Seg1 -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/jingmenvirus_seg1.figtree-annotations.tsv
 
-    export figtree-annotation AL_FLAVI_SUBGENUS_crustacean -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/crustacean.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Jingmenvirus_Seg3 -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/jingmenvirus_seg3.figtree-annotations.tsv
 
   exit
 

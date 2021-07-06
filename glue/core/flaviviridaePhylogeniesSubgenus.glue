@@ -16,7 +16,6 @@
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
   create module -f modules/core/alignmentColumnsSelectorCisf.xml
   create module -f modules/core/alignmentColumnsSelectorTbfv.xml
   create module -f modules/core/alignmentColumnsSelectorMbfv1.xml
