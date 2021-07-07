@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_LTNV</relRefName>
+    <relRefName>REF_TABV</relRefName>
          
     <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startCodon>1</startCodon>
-        <endCodon>3415</endCodon>
+        <startCodon>2776</startCodon>
+        <endCodon>3239</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>112</startNt>
-        <endNt>10354</endNt>
+        <startNt>8326</startNt>
+        <endNt>9717</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

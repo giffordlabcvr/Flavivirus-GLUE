@@ -6,7 +6,7 @@
   create module -f modules/core/flaviviridaeFigTreeAnnotationExporter.xml
 
   # Export annotations
-  module flaviFigTreeAnnotationExporter 
+  module flaviviridaeFigTreeAnnotationExporter 
 
     export figtree-annotation AL_FLAVI_SUBGENUS_cISF -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/subgenus/cisf.figtree-annotations.tsv

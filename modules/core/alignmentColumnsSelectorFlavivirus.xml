@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_LTNV</relRefName>
+    <relRefName>REF_MASTER_YFV</relRefName>
          
     <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startCodon>1</startCodon>
-        <endCodon>3415</endCodon>
+        <startCodon>2518</startCodon>
+        <endCodon>3408</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>112</startNt>
-        <endNt>10354</endNt>
+        <startNt>7670</startNt>
+        <endNt>10340</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

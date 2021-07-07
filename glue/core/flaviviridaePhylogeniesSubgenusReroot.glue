@@ -31,7 +31,7 @@
       --outputFile trees/subgenus/mbfv2-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/subgenus/nkv1.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/subgenus/nkv1.tre NEWICK_BOOTSTRAPS \
       --midpoint \
       --outputFile trees/subgenus/nkv1-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
