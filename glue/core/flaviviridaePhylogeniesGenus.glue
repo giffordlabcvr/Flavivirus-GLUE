@@ -134,73 +134,26 @@
       -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
       -o trees/genus/flavivirus.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_TREE_Tamanavirus -s alignmentColumnsSelectorTamanavirus \
-      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
-      -o trees/genus/tamanavirus.tre NEWICK_BOOTSTRAPS
+    #generate nucleotide phylogeny AL_TREE_Tamanavirus -s alignmentColumnsSelectorTamanavirus \
+    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
+    #  -o trees/genus/tamanavirus.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_TREE_Hepacivirus -s alignmentColumnsSelectorHepacivirus \
       -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
       -o trees/genus/hepacivirus.tre NEWICK_BOOTSTRAPS
 
+    generate nucleotide phylogeny AL_TREE_Pegivirus -s alignmentColumnsSelectorPegivirus \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
+      -o trees/genus/pegivirus.tre NEWICK_BOOTSTRAPS
+
     generate nucleotide phylogeny AL_TREE_Pestivirus -s alignmentColumnsSelectorPestivirus \
       -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
       -o trees/genus/pestivirus.tre NEWICK_BOOTSTRAPS
 
-    exit
+    generate nucleotide phylogeny AL_TREE_Jingmenvirus_Seg3 -s alignmentColumnsSelectorJingmenvirus_Seg3 \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
+      -o trees/genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS
 
 
-
-
-
-
-  create module -f modules/core/alignmentColumnsSelector.xml
-  create module -f modules/core/alignmentColumnsSelector.xml
-  create module -f modules/core/alignmentColumnsSelectorPegivirus.xml
-  create module -f modules/core/alignmentColumnsSelectorJingmenvirus_Seg1.xml
-  create module -f modules/core/alignmentColumnsSelectorJingmenvirus_Seg3.xml
-
-
-
-
-
-
-
-
-
-
-  alignment AL_TREE_Jingmenvirus_Seg1
-    derive segments AL_UNC_JMTV_SEG1 -a --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_GENUS_Jingmenvirus_Seg3
-    derive segments AL_UNC_JMTV_SEG3 -a --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_GENUS_Tamanavirus
-    derive segments AL_UNC_TABV -a --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_GENUS_Flavivirus
-    derive segments AL_UNC_FLAVI -a --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_GENUS_Hepacivirus
-    derive segments AL_UNC_HEPACI -a --mergeStrategy OVERWRITE
-   exit
-
-  alignment AL_GENUS_Pegivirus
-    derive segments AL_UNC_PEGI -a --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_GENUS_Pestivirus
-    derive segments AL_UNC_PESTI -a --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_GENUS_PL1
-    derive segments AL_UNC_PL1 -a --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_GENUS_PL2
-    derive segments AL_UNC_PL2 -a --mergeStrategy OVERWRITE
     exit
 
