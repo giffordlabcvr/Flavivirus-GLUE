@@ -24,14 +24,14 @@
          
     <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startCodon>2861</startCodon>
-        <endCodon>3415</endCodon>
+        <startCodon>2420</startCodon>
+        <endCodon>2526</endCodon>
     </aminoAcidRegionSelector>
          
     <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startCodon>2861</startCodon>
-        <endCodon>3415</endCodon>
+        <startCodon>2575</startCodon>
+        <endCodon>2861</endCodon>
     </aminoAcidRegionSelector>
 
 
