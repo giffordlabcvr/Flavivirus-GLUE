@@ -9,11 +9,11 @@
 
     add member --allSequences
   
-	extract child AL_SUBCLADE_FlaviPesti -r REF_MASTER_YFV
-	demote member AL_SUBCLADE_FlaviPesti --whereClause "sequence.subfamily = 'FlaviPesti'"
+	extract child AL_MAJOR1_FlaviPesti -r REF_MASTER_YFV
+	demote member AL_MAJOR1_FlaviPesti --whereClause "sequence.subfamily = 'FlaviPesti'"
 
-	extract child AL_SUBCLADE_HepaPegi -r REF_HCV
-	demote member AL_SUBCLADE_HepaPegi --whereClause "sequence.subfamily = 'HepaPegi'"	
+	extract child AL_MAJOR1_HepaPegi -r REF_HCV
+	demote member AL_MAJOR1_HepaPegi --whereClause "sequence.subfamily = 'HepaPegi'"	
 	exit
 	
 
@@ -21,7 +21,7 @@
   # Hepa-Pegi-like
   #
 
-  alignment AL_SUBCLADE_HepaPegi 
+  alignment AL_MAJOR1_HepaPegi 
   
 	extract child AL_GENUS_Hepacivirus -r REF_HCV
 	demote member AL_GENUS_Hepacivirus --whereClause "sequence.genus = 'Hepacivirus'"
@@ -34,13 +34,13 @@
   # Pesti-Flavi-like
   #
 
-  alignment AL_SUBCLADE_FlaviPesti
+  alignment AL_MAJOR1_FlaviPesti
 
-	extract child AL_SUBCLADE_FlaviLike  --refName REF_MASTER_YFV  # NC_002031
-	demote member AL_SUBCLADE_laviLike  --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus' or sequence.genus = 'Jingmenvirus'"
+	extract child AL_MAJOR2_FlaviLike  --refName REF_MASTER_YFV  # NC_002031
+	demote member AL_MAJOR2_FlaviLike  --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus' or sequence.genus = 'Jingmenvirus'"
 
- 	extract child AL_SUBCLADE_PestiLike  --refName REF_BVDV1 # NC_001461
-	demote member AL_SUBCLADE_PestiLike  --whereClause "sequence.genus = 'Pestivirus' or sequence.genus = 'Pesti-like'"
+ 	extract child AL_MAJOR2_PestiLike  --refName REF_BVDV1 # NC_001461
+	demote member AL_MAJOR2_PestiLike  --whereClause "sequence.genus = 'Pestivirus' or sequence.genus = 'Pesti-like'"
     exit
 
 
@@ -48,7 +48,7 @@
   # PestiLike lineage
   #
 
-   alignment AL_SUBCLADE_PestiLike 
+   alignment AL_MAJOR2_PestiLike 
 
 	extract child AL_GENUS_Pestivirus  --refName REF_BVDV1
 	demote member AL_GENUS_Pestivirus  --whereClause "sequence.genus = 'Pestivirus'"
@@ -67,7 +67,7 @@
   #
 
 
- alignment AL_FlaviLike
+ alignment AL_MAJOR2_FlaviLike
 
 	extract child AL_GENUS_Jingmenvirus_Seg3   --refName REF_JMTV_Seg3
 	demote member AL_GENUS_Jingmenvirus_Seg3   --whereClause "sequence.genus  = 'Jingmenvirus' and sequence.name like '%Seg3'"
@@ -75,13 +75,13 @@
 	extract child AL_GENUS_Jingmenvirus_Seg1   --refName REF_JMTV_Seg1
 	demote member AL_GENUS_Jingmenvirus_Seg1   --whereClause "sequence.genus  = 'Jingmenvirus' and sequence.name like '%Seg1'"
 
-	extract child AL_SUBCLADE_FlaviTamana               --refName REF_MASTER_YFV
-	demote member AL_SUBCLADE_FlaviTamana               --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus'"
+	extract child AL_MINOR_FlaviTamana         --refName REF_MASTER_YFV
+	demote member AL_MINOR_FlaviTamana         --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus'"
 
     exit
 
     
-  alignment AL_FlaviTamana
+  alignment AL_MINOR_FlaviTamana
 	
 	extract child AL_GENUS_Flavivirus    --refName REF_MASTER_YFV
 	demote member AL_GENUS_Flavivirus    --whereClause "sequence.genus = 'Flavivirus'"
@@ -151,23 +151,23 @@
   #
 
 
-  alignment AL_SUBCLADE_HepaPegi
+  alignment AL_MINOR_HepaPegi
     derive segments AL_UNC_HEPA_PEGI -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_SUBCLADE_FlaviPesti
+  alignment AL_MINOR_FlaviPesti
     derive segments AL_UNC_FLAVI_PESTI -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_SUBCLADE_PestiLike
+  alignment AL_MINOR_PestiLike
     derive segments AL_UNC_PESTI_LIKE -a --mergeStrategy OVERWRITE
    exit
 
-  alignment AL_SUBCLADE_FlaviLike
+  alignment AL_MINOR_FlaviLike
     derive segments AL_UNC_FLAVI_LIKE -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_SUBCLADE_FlaviTamana
+  alignment AL_MINOR_FlaviTamana
     derive segments AL_UNC_FLAVI_TABV -a --mergeStrategy OVERWRITE
     exit
 

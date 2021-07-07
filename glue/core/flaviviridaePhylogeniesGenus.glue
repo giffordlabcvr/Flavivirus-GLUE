@@ -1,6 +1,20 @@
-  
-  # Clean-up
+
+  # Clean up from any previous run of this file
+  delete alignment AL_UNC_TREE_Flavivirus_EPV
+  delete alignment AL_TREE_Flavivirus_EPV
+  delete alignment AL_UNC_TREE_Tamanavirus_EPV
+  delete alignment AL_TREE_Flavivirus_EPV
+
+  delete alignment AL_UNC_TREE_Tamanavirus_EPV
+  delete alignment AL_TREE_Flavivirus_EPV
+
+
+  delete module fastaAlignmentExporter
   delete module raxmlPhylogenyGenerator
+
+  
+  delete module flaviviridaeFeaturePresenceRecorder
+  delete module flaviviridaeTreeAlignmentImporterNucs 
   delete module alignmentColumnsSelectorFlavivirus
   delete module alignmentColumnsSelectorTamanavirus
   delete module alignmentColumnsSelectorHepacivirus
@@ -19,37 +33,42 @@
   create module -f modules/core/alignmentColumnsSelectorJingmenvirus_Seg1.xml
   create module -f modules/core/alignmentColumnsSelectorJingmenvirus_Seg3.xml
 
+  
+  # Create all the modules we need
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/core/fastaAlignmentExporter.xml
+  create module -f modules/core/flaviviridaeTreeAlignmentImporterNucs.xml
+  create module -f modules/core/flaviviridaePhyloUtility.xml
+  create module -f modules/core/flaviviridaeFigTreeAnnotationExporter.xml
+  create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
+  create module -f modules/core/alignmentColumnsSelectorFlavivirusRep78.xml
+  #create module -f modules/core/alignmentColumnsSelectorFlavivirusRoot.xml
 
+
+  # Export the recursively populated root gene alignments 
+  module fastaAlignmentExporter
+ 	export AL_Flavivirus -r REF_MASTER_Proto_CPV -f whole_genome --recursive -a  -e -o alignments/tree/Flavivirus-all.aln.eve.fna
+	exit
+
+  # Re-import the recursively populated root alignment into the project
+  module flaviviridaeTreeAlignmentImporterNucs import AL_UNC_TREE_Flavivirus_EPV -f alignments/tree/Flavivirus-all.aln.eve.fna
+  create alignment AL_TREE_Flavivirus_EPV -r REF_MASTER_Proto_CPV
+  
+  alignment AL_TREE_Flavivirus_EPV
+	derive segments AL_UNC_TREE_Flavivirus_EPV -a --mergeStrategy OVERWRITE
+	exit
+	
+  module flaviviridaeFeaturePresenceRecorder
+    record feature-presence AL_TREE_Flavivirus_EPV --featureName whole_genome --descendentFeatures
+    exit
+
+  
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_GENUS_Flavivirus -s alignmentColumnsSelectorFlavivirus \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus-level/flavivirus.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_GENUS_Tamanavirus -s alignmentColumnsSelectorTamanavirus \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus-level/tamanavirus.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_GENUS_Hepacivirus -s alignmentColumnsSelectorHepacivirus \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus-level/hepacivirus.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_GENUS_Pegivirus -s alignmentColumnsSelectorPegivirus \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus-level/pegivirus.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_GENUS_Pestivirus -s alignmentColumnsSelectorPestivirus \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus-level/pestivirus.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_GENUS_Jingmenvirus_Seg1 -s alignmentColumnsSelectorJingmenvirus_Seg1 \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus-level/jingmenvirus_seg1.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_GENUS_Jingmenvirus_Seg3 -s alignmentColumnsSelectorJingmenvirus_Seg3 \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus-level/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_Flavivirus_EPV -s alignmentColumnsSelectorFlavivirusRep78 \
+      -w "fLocNotes.featureLoc.feature.name = 'Rep78' and fLocNotes.ref_nt_coverage_pct >= 10" \
+      -o trees/subfamily-level/Flavivirus-root+eves-Rep78_nucs.tre NEWICK_BOOTSTRAPS
 
     exit
 
