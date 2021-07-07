@@ -3,6 +3,6 @@
     <idClauseExtractorFormatter>
       <matchPattern>(.*)\|.*</matchPattern>   
     </idClauseExtractorFormatter>
-    <minRowCoveragePercent>90.0</minRowCoveragePercent>
+    <minRowCoveragePercent>70.0</minRowCoveragePercent>
 </blastFastaAlignmentImporter>
          

@@ -5,14 +5,14 @@
 
     <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startCodon>1655</startCodon>
-        <endCodon>2833</endCodon>
+        <startCodon>1677</startCodon>
+        <endCodon>1926</endCodon>
     </aminoAcidRegionSelector>
    
     <nucleotideRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>10418</startNt>
-        <endNt>12214</endNt>
+        <startNt>5147</startNt>
+        <endNt>5896</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

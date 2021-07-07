@@ -20,16 +20,6 @@
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -t fastaAlignmentExporter
-  create module -t flaviTreeAlignmentImporterNucs
-  create module -t flaviviridaeFeaturePresenceRecorder
-  create module -f modules/core/alignmentColumnsSelectorFlaviPesti.xml
-  create module -f modules/core/alignmentColumnsSelectorHepaciPegi.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviLike.xml
-  create module -f modules/core/alignmentColumnsSelectorPestiLike.xml
-
-  # Create all the modules we need
-  create module -t raxmlPhylogenyGenerator
   create module -f modules/core/fastaAlignmentExporter.xml
   create module -f modules/core/flaviTreeAlignmentImporterNucs.xml
   create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
@@ -37,6 +27,7 @@
   create module -f modules/core/alignmentColumnsSelectorHepaciPegi.xml
   create module -f modules/core/alignmentColumnsSelectorFlaviLike.xml
   create module -f modules/core/alignmentColumnsSelectorPestiLike.xml
+
   
 
   # Export the recursively populated root gene alignments 
@@ -61,21 +52,21 @@
 	exit
   
   # Create constrained alignments 
-  create alignment AL_TREE_FlaviPesti         -r REF_MASTER_YFV
-  create alignment AL_TREE_HepaPegi           -r REF_HCV
-  create alignment AL_TREE_FlaviLike          -r REF_MASTER_YFV
-  create alignment AL_TREE_PestiLike          -r REF_BVDV1
+  create alignment AL_TREE_FlaviPesti    -r REF_MASTER_YFV
+  create alignment AL_TREE_HepaPegi      -r REF_HCV
+  create alignment AL_TREE_FlaviLike     -r REF_MASTER_YFV
+  create alignment AL_TREE_PestiLike     -r REF_BVDV1
 
 
 
   # Derive constrained alignments from unconstrained alignments
   
   alignment AL_TREE_FlaviPesti
-	derive segments AL_TREE_FlaviPesti -a --mergeStrategy OVERWRITE
+	derive segments AL_UNC_TREE_FlaviPesti -a --mergeStrategy OVERWRITE
 	exit
   
   alignment AL_TREE_HepaPegi
-	derive segments AL_UNC_TREE_HepaPegiAL_UNC_TREE_Tamanavirus -a --mergeStrategy OVERWRITE
+	derive segments AL_UNC_TREE_HepaPegi  -a --mergeStrategy OVERWRITE
 	exit
   
   alignment AL_TREE_FlaviLike
@@ -85,7 +76,6 @@
   alignment AL_TREE_PestiLike
 	derive segments AL_UNC_TREE_PestiLike -a --mergeStrategy OVERWRITE
 	exit
-  
 
 
   module flaviviridaeFeaturePresenceRecorder
@@ -101,21 +91,21 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    #generate nucleotide phylogeny AL_TREE_Flavivirus -s alignmentColumnsSelectorFlavivirus \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
-    #  -o trees/genus/flavivirus.tre NEWICK_BOOTSTRAPS
+    #generate nucleotide phylogeny AL_TREE_FlaviPesti -s alignmentColumnsSelectorFlaviPesti \
+    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
+    #  -o trees/major-lineage/major1_flavipesti.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_TREE_Tamanavirus -s alignmentColumnsSelectorTamanavirus \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 20" \
-    #  -o trees/genus/tamanavirus.tre NEWICK_BOOTSTRAPS
+    #generate nucleotide phylogeny AL_TREE_HepaPegi -s alignmentColumnsSelectorHepaciPegi \
+    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
+    #  -o trees/major-lineage/major1_hepapegi.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_TREE_Jingmenvirus_Seg1 -s alignmentColumnsSelectorJingmenvirus_Seg1 \
+    generate nucleotide phylogeny AL_TREE_FlaviLike -s alignmentColumnsSelectorFlaviLike \
       -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-      -o trees/genus/jingmenvirus_seg1.tre NEWICK_BOOTSTRAPS
+      -o trees/major-lineage/flavilike.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_TREE_Jingmenvirus_Seg3 -s alignmentColumnsSelectorJingmenvirus_Seg3 \
+    generate nucleotide phylogeny AL_TREE_PestiLike -s alignmentColumnsSelectorPestiLike \
       -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-      -o trees/genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS
+      -o trees/major-lineage/pestilike.tre NEWICK_BOOTSTRAPS
 
 
     exit

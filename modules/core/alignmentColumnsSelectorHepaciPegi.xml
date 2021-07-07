@@ -8,12 +8,11 @@
         <startCodon>1655</startCodon>
         <endCodon>2833</endCodon>
     </aminoAcidRegionSelector>
- 
    
     <nucleotideRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>10418</startNt>
-        <endNt>12214</endNt>
+        <startNt>3129</startNt>
+        <endNt>9104</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>
