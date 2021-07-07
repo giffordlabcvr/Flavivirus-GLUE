@@ -9,25 +9,31 @@
   module flaviviridaeFigTreeAnnotationExporter 
 
     export figtree-annotation AL_GENUS_Flavivirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/flavivirus.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 60" -f trees/genus/flavivirus.figtree-annotations.tsv
 
-    export figtree-annotation AL_GENUS_Tamanavirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/tamanavirus.figtree-annotations.tsv
-
-    export figtree-annotation AL_GENUS_Hepacivirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/hepacivirus.figtree-annotations.tsv
-
-    export figtree-annotation AL_GENUS_Pegivirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/pegivirus.figtree-annotations.tsv
+    #export figtree-annotation AL_GENUS_Tamanavirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+    #  and fLocNotes.ref_nt_coverage_pct >= 20" -f trees/genus/tamanavirus.figtree-annotations.tsv
 
     export figtree-annotation AL_GENUS_Pestivirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/pestivirus.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 60" -f trees/genus/pestivirus.figtree-annotations.tsv
 
     export figtree-annotation AL_GENUS_Jingmenvirus_Seg1 -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/jingmenvirus_seg1.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 40" -f trees/genus/jingmenvirus_seg1.figtree-annotations.tsv
 
     export figtree-annotation AL_GENUS_Jingmenvirus_Seg3 -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/jingmenvirus_seg3.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 40" -f trees/genus/jingmenvirus_seg3.figtree-annotations.tsv
+
+    export figtree-annotation AL_GENUS_PL1 -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 10" -f trees/genus/pl1.figtree-annotations.tsv
+
+    export figtree-annotation AL_GENUS_PL2 -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 10" -f trees/genus/pl2.figtree-annotations.tsv
+
+    export figtree-annotation AL_GENUS_Hepacivirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 60" -f trees/genus/hepacivirus.figtree-annotations.tsv
+
+    export figtree-annotation AL_GENUS_Pegivirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 60" -f trees/genus/pegivirus.figtree-annotations.tsv
 
   exit
 

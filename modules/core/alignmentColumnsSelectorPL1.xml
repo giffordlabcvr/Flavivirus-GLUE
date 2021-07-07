@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_HPgV2</relRefName>
+    <relRefName>REF_SCNV5</relRefName>
 
     <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startCodon>2490</startCodon>
-        <endCodon>3025</endCodon>
+        <startCodon>4967</startCodon>
+        <endCodon>5310</endCodon>
     </aminoAcidRegionSelector>
- 
+    
     <nucleotideRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>7795</startNt>
-        <endNt>9402</endNt>
+        <startNt>15249</startNt>
+        <endNt>16820</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

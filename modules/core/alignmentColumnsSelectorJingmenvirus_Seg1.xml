@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_SOKV</relRefName>
+    <relRefName>REF_JMTV_Seg1</relRefName>
          
-
     <aminoAcidRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
+        <featureName>NS5</featureName>
         <startCodon>1</startCodon>
-        <endCodon>3414</endCodon>
+        <endCodon>914</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
-        <startNt>1</startNt>
-        <endNt>10240</endNt>
+        <featureName>NS5</featureName>
+        <startNt>105</startNt>
+        <endNt>2844</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

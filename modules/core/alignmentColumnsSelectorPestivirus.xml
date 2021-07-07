@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_LTNV</relRefName>
-         
+    <relRefName>REF_BVDV1</relRefName>
+
     <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startCodon>1</startCodon>
-        <endCodon>3415</endCodon>
+        <startCodon>1655</startCodon>
+        <endCodon>2833</endCodon>
     </aminoAcidRegionSelector>
+ 
+    <aminoAcidRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startCodon>3345</startCodon>
+        <endCodon>3943</endCodon>
+    </aminoAcidRegionSelector>
+ 
     
     <nucleotideRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>112</startNt>
-        <endNt>10354</endNt>
+        <startNt>5348</startNt>
+        <endNt>8884</endNt>
+    </nucleotideRegionSelector>
+
+   
+    <nucleotideRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startNt>10418</startNt>
+        <endNt>12214</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

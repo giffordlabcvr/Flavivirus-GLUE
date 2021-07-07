@@ -16,6 +16,11 @@
   delete alignment AL_TREE_Jingmenvirus_Seg1
   delete alignment AL_UNC_TREE_Jingmenvirus_Seg3
   delete alignment AL_TREE_Jingmenvirus_Seg3
+  delete alignment AL_UNC_TREE_PL1
+  delete alignment AL_TREE_PL1
+  delete alignment AL_UNC_TREE_PL2
+  delete alignment AL_TREE_PL2
+
 
   # Delete modules
   delete module fastaAlignmentExporter
@@ -27,6 +32,8 @@
   delete module alignmentColumnsSelectorHepacivirus
   delete module alignmentColumnsSelectorPestivirus
   delete module alignmentColumnsSelectorPegivirus
+  delete module alignmentColumnsSelectorPL1
+  delete module alignmentColumnsSelectorPL2
   delete module alignmentColumnsSelectorJingmenvirus_Seg1
   delete module alignmentColumnsSelectorJingmenvirus_Seg3
   
@@ -39,6 +46,8 @@
   create module -f modules/core/alignmentColumnsSelectorTamanavirus.xml
   create module -f modules/core/alignmentColumnsSelectorHepacivirus.xml
   create module -f modules/core/alignmentColumnsSelectorPestivirus.xml
+  create module -f modules/core/alignmentColumnsSelectorPL1.xml
+  create module -f modules/core/alignmentColumnsSelectorPL2.xml
   create module -f modules/core/alignmentColumnsSelectorPegivirus.xml
   create module -f modules/core/alignmentColumnsSelectorJingmenvirus_Seg1.xml
   create module -f modules/core/alignmentColumnsSelectorJingmenvirus_Seg3.xml
@@ -50,6 +59,8 @@
  	export AL_GENUS_Flavivirus        -r REF_MASTER_YFV -f whole_genome --recursive -a  -e -o alignments/tree/genus_flavivirus-all.aln.fna
  	export AL_GENUS_Tamanavirus       -r REF_TABV       -f whole_genome --recursive -a  -e -o alignments/tree/genus_tamanavirus-all.aln.fna
   	export AL_GENUS_Pestivirus        -r REF_BVDV1      -f whole_genome --recursive -a  -e -o alignments/tree/genus_pestivirus-all.aln.fna
+ 	export AL_GENUS_PL1               -r REF_SCNV5      -f whole_genome --recursive -a  -e -o alignments/tree/genus_pl1-all.aln.fna
+ 	export AL_GENUS_PL2               -r REF_SLV2       -f whole_genome --recursive -a  -e -o alignments/tree/genus_pl2-all.aln.fna
  	export AL_GENUS_Hepacivirus       -r REF_HCV        -f whole_genome --recursive -a  -e -o alignments/tree/genus_hepacivirus-all.aln.fna
  	export AL_GENUS_Pegivirus         -r REF_HPgV2      -f whole_genome --recursive -a  -e -o alignments/tree/genus_pegivirus-all.aln.fna
   	export AL_GENUS_Jingmenvirus_Seg1 -r REF_JMTV_Seg1  -f whole_genome --recursive -a  -e -o alignments/tree/genus_jingmenvirus-seg1-all.aln.fna
@@ -63,11 +74,13 @@
   
     import AL_UNC_TREE_Flavivirus        -f alignments/tree/genus_flavivirus-all.aln.fna
     import AL_UNC_TREE_Tamanavirus       -f alignments/tree/genus_tamanavirus-all.aln.fna	
-    import AL_UNC_TREE_Hepacivirus       -f alignments/tree/genus_hepacivirus-all.aln.fna
     import AL_UNC_TREE_Pestivirus        -f alignments/tree/genus_pestivirus-all.aln.fna
-    import AL_UNC_TREE_Pegivirus         -f alignments/tree/genus_pegivirus-all.aln.fna	
+    import AL_UNC_TREE_PL1               -f alignments/tree/genus_pl1-all.aln.fna
+    import AL_UNC_TREE_PL2               -f alignments/tree/genus_pl2-all.aln.fna
     import AL_UNC_TREE_Jingmenvirus_Seg1 -f alignments/tree/genus_jingmenvirus-seg1-all.aln.fna	
     import AL_UNC_TREE_Jingmenvirus_Seg3 -f alignments/tree/genus_jingmenvirus-seg3-all.aln.fna
+    import AL_UNC_TREE_Pegivirus         -f alignments/tree/genus_pegivirus-all.aln.fna	
+    import AL_UNC_TREE_Hepacivirus       -f alignments/tree/genus_hepacivirus-all.aln.fna
      
 	exit
   
@@ -76,6 +89,8 @@
   create alignment AL_TREE_Flavivirus         -r REF_MASTER_YFV
   create alignment AL_TREE_Tamanavirus        -r REF_TABV
   create alignment AL_TREE_Pestivirus         -r REF_BVDV1
+  create alignment AL_TREE_PL1                -r REF_SCNV5
+  create alignment AL_TREE_PL2                -r REF_SLV2
   create alignment AL_TREE_Pegivirus          -r REF_HPgV2
   create alignment AL_TREE_Hepacivirus        -r REF_HCV
   create alignment AL_TREE_Jingmenvirus_Seg1  -r REF_JMTV_Seg1
@@ -101,6 +116,14 @@
 	derive segments AL_UNC_TREE_Pestivirus -a --mergeStrategy OVERWRITE
 	exit
   
+  alignment AL_TREE_PL1 
+	derive segments AL_UNC_TREE_PL1  -a --mergeStrategy OVERWRITE
+	exit
+  
+  alignment AL_TREE_PL2
+	derive segments AL_UNC_TREE_PL2  -a --mergeStrategy OVERWRITE
+	exit
+
   alignment AL_TREE_Pegivirus
 	derive segments AL_UNC_TREE_Pegivirus -a --mergeStrategy OVERWRITE
 	exit
@@ -119,6 +142,8 @@
     record feature-presence AL_TREE_Flavivirus        --featureName whole_genome --descendentFeatures
     record feature-presence AL_TREE_Tamanavirus       --featureName whole_genome --descendentFeatures
     record feature-presence AL_TREE_Pestivirus        --featureName whole_genome --descendentFeatures
+    record feature-presence AL_TREE_PL1               --featureName whole_genome --descendentFeatures
+    record feature-presence AL_TREE_PL2               --featureName whole_genome --descendentFeatures
     record feature-presence AL_TREE_Pegivirus         --featureName whole_genome --descendentFeatures
     record feature-presence AL_TREE_Hepacivirus       --featureName whole_genome --descendentFeatures
     record feature-presence AL_TREE_Jingmenvirus_Seg1 --featureName whole_genome --descendentFeatures
@@ -135,8 +160,20 @@
     #  -o trees/genus/flavivirus.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_TREE_Tamanavirus -s alignmentColumnsSelectorTamanavirus \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
+    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 20" \
     #  -o trees/genus/tamanavirus.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_TREE_Jingmenvirus_Seg1 -s alignmentColumnsSelectorJingmenvirus_Seg1 \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
+      -o trees/genus/jingmenvirus_seg1.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_TREE_Jingmenvirus_Seg3 -s alignmentColumnsSelectorJingmenvirus_Seg3 \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
+      -o trees/genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_TREE_Pestivirus -s alignmentColumnsSelectorPestivirus \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
+      -o trees/genus/pestivirus.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_TREE_Hepacivirus -s alignmentColumnsSelectorHepacivirus \
       -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
@@ -146,19 +183,13 @@
       -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
       -o trees/genus/pegivirus.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_TREE_Jingmenvirus_Seg1 -s alignmentColumnsSelectorJingmenvirus_Seg1 \
-      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
-      -o trees/genus/jingmenvirus_seg1.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_PL1 -s alignmentColumnsSelectorPL1 \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 10" \
+      -o trees/genus/pl1.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_TREE_Jingmenvirus_Seg3 -s alignmentColumnsSelectorJingmenvirus_Seg3 \
-      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
-      -o trees/genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS
-
-
-    generate nucleotide phylogeny AL_TREE_Jingmenvirus_Seg3 -s alignmentColumnsSelectorJingmenvirus_Seg3 \
-      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
-      -o trees/genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS
-
+    generate nucleotide phylogeny AL_TREE_PL2 -s alignmentColumnsSelectorPL2 \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 10" \
+      -o trees/genus/pl2.tre NEWICK_BOOTSTRAPS
 
     exit
 
