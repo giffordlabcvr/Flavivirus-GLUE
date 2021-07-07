@@ -34,47 +34,47 @@
 
     generate nucleotide phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisf \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus-level/cisf.tre NEWICK_BOOTSTRAPS
+      -o trees/subgenus/cisf.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfv \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus-level/tbfv.tre NEWICK_BOOTSTRAPS
+      -o trees/subgenus/tbfv.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_FLAVI_SUBGENUS_MBFV1 -s alignmentColumnsSelectorMbfv1 \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus-level/mbfv1.tre NEWICK_BOOTSTRAPS
+      -o trees/subgenus/mbfv1.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_FLAVI_SUBGENUS_MBFV2 -s alignmentColumnsSelectorMbfv2 \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus-level/mbfv2.tre NEWICK_BOOTSTRAPS
+      -o trees/subgenus/mbfv2.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV1 -s alignmentColumnsSelectorNkv1 \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus-level/nkv1.tre NEWICK_BOOTSTRAPS
+      -o trees/subgenus/nkv1.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorNkv2 \
     #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus-level/nkv2.tre NEWICK_BOOTSTRAPS
+    #  -o trees/subgenus/nkv2.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_crustacean -s alignmentColumnsSelectorCrustacean \
     #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus-level/crustacean.tre NEWICK_BOOTSTRAPS
+    #  -o trees/subgenus/crustacean.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF1 -s alignmentColumnsSelectorCrustacean \
     #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus-level/disf1.tre NEWICK_BOOTSTRAPS
+    #  -o trees/subgenus/disf1.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF1A -s alignmentColumnsSelectorCrustacean \
     #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus-level/disf1A.tre NEWICK_BOOTSTRAPS
+    #  -o trees/subgenus/disf1A.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF1B -s alignmentColumnsSelectorCrustacean \
     #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus-level/disf1B.tre NEWICK_BOOTSTRAPS
+    #  -o trees/subgenus/disf1B.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF2 -s alignmentColumnsSelectorCrustacean \
     #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus-level/disf2.tre NEWICK_BOOTSTRAPS
+    #  -o trees/subgenus/disf2.tre NEWICK_BOOTSTRAPS
 
     exit
 

@@ -4,8 +4,8 @@
   # Root alignment
   #
   
-  create alignment AL_ROOT_Flaviviridae_ROOT -r REF_MASTER_YFV
-  alignment AL_ROOT_Flaviviridae_ROOT
+  create alignment AL_ROOT_Flaviviridae -r REF_MASTER_YFV
+  alignment AL_ROOT_Flaviviridae
 
     add member --allSequences
   
@@ -141,7 +141,7 @@
   # ROOT NODE
   #
   
-  alignment AL_ROOT_Flaviviridae_ROOT
+  alignment AL_ROOT_Flaviviridae
     derive segments AL_UNC_Flaviviridae -a --exist --mergeStrategy OVERWRITE
     exit
 
@@ -150,26 +150,26 @@
   # DEEP INTERNAL  NODES
   #
 
-
-  alignment AL_MINOR_HepaPegi
+  alignment AL_MAJOR1_HepaPegi
     derive segments AL_UNC_HEPA_PEGI -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_MINOR_FlaviPesti
+  alignment AL_MAJOR1_FlaviPesti
     derive segments AL_UNC_FLAVI_PESTI -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_MINOR_PestiLike
+  alignment AL_MAJOR2_PestiLike
     derive segments AL_UNC_PESTI_LIKE -a --mergeStrategy OVERWRITE
    exit
 
-  alignment AL_MINOR_FlaviLike
+  alignment AL_MAJOR2_FlaviLike
     derive segments AL_UNC_FLAVI_LIKE -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_MINOR_FlaviTamana
     derive segments AL_UNC_FLAVI_TABV -a --mergeStrategy OVERWRITE
     exit
+
 
 
   #
