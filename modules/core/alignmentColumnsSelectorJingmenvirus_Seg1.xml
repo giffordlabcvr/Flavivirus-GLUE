@@ -4,13 +4,13 @@
     <relRefName>REF_JMTV_Seg1</relRefName>
          
     <aminoAcidRegionSelector>
-        <featureName>NS5</featureName>
+        <featureName>seg1-NS5</featureName>
         <startCodon>1</startCodon>
         <endCodon>914</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>NS5</featureName>
+        <featureName>seg1-NS5</featureName>
         <startNt>105</startNt>
         <endNt>2844</endNt>
     </nucleotideRegionSelector>

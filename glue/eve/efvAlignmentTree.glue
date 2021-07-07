@@ -4,7 +4,7 @@
   # Root alignment
   #
   
-  alignment AL_MASTER_Flaviviridae_ROOT
+  alignment AL_ROOT_Flaviviridae
 
     add member  -w "source.name = 'fasta-refseqs-eve' or source.name = 'fasta-digs-eve'"
     
@@ -177,7 +177,7 @@
   # ROOT NODE
   #
   
-  #alignment AL_MASTER_Flaviviridae_ROOT
+  #alignment AL_ROOT_Flaviviridae
   #  derive segments AL_EFV_UNC_Flaviviridae -a --existingMembersOnly
   #  exit
 

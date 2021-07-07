@@ -38,3 +38,23 @@
 
   ### Pegivirus
   create reference REF_HPgV2       ncbi-refseqs   NC_027998  
+
+
+
+  ### Crustacean
+  reference REF_ccCFV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 11434
+      exit
+
+    add feature-location precursor_polyprotein
+    feature-location precursor_polyprotein
+      add segment 97   4197 --spliceIndex 1
+      add segment 4359 10976 --spliceIndex 2
+      exit
+
+  exit 
+
+

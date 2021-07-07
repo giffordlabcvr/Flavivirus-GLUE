@@ -96,9 +96,6 @@ NC_003676	REF_APOIV	Flavivirus	NKV1	NS5	7423	10113
 NC_003676	REF_APOIV	Flavivirus	NKV1	non_structural_proteins	2269	10116
 NC_026624	REF_SOKV	Flavivirus	NKV2	whole_genome	1	10242
 NC_026624	REF_SOKV	Flavivirus	NKV2	precursor_polyprotein	1	10242
-MK473878	REF_ccCFV	Flavivirus	Crustacean	whole_genome	1	11434
-MK473878	REF_ccCFV	Flavivirus	Crustacean	precursor_polyprotein1	97	4197
-MK473878	REF_ccCFV	Flavivirus	Crustacean	precursor_polyprotein2	4359	10976
 NC_003687	REF_POWV	Flavivirus	Tick	whole_genome	1	10839
 NC_003687	REF_POWV	Flavivirus	Tick	5UTR	1	111
 NC_003687	REF_POWV	Flavivirus	Tick	precursor_polyprotein	112	10359
@@ -192,9 +189,9 @@ NC_003996	REF_TABV	Tamanavirus		2K	6688	6762
 NC_003996	REF_TABV	Tamanavirus		flavi-NS4B	6763	7557
 NC_003996	REF_TABV	Tamanavirus		NS5	7558	10050
 JMTV_CONCAT	REF_JMTV_CONCAT	Jingmenvirus		whole_genome	1	5938
-JMTV_CONCAT	REF_JMTV_CONCAT	Jingmenvirus		NS3	117	2543
-JMTV_CONCAT	REF_JMTV_CONCAT	Jingmenvirus		NS5	2824	5673
+JMTV_CONCAT	REF_JMTV_CONCAT	Jingmenvirus		seg3-NS3	117	2543
+JMTV_CONCAT	REF_JMTV_CONCAT	Jingmenvirus		seg1-NS5	2824	5673
 REF_JMTV_Seg1	REF_JMTV_Seg1	Jingmenvirus		whole_genome	1	3114
-REF_JMTV_Seg1	REF_JMTV_Seg1	Jingmenvirus		NS5	105	2849
+REF_JMTV_Seg1	REF_JMTV_Seg1	Jingmenvirus		seg1-NS5	105	2849
 REF_JMTV_Seg3	REF_JMTV_Seg3	Jingmenvirus		whole_genome	1	2824
-REF_JMTV_Seg3	REF_JMTV_Seg3	Jingmenvirus		NS3	117	2543
+REF_JMTV_Seg3	REF_JMTV_Seg3	Jingmenvirus		seg3-NS3	117	2543

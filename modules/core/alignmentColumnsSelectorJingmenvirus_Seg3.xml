@@ -4,13 +4,13 @@
     <relRefName>REF_JMTV_Seg3</relRefName>
          
     <aminoAcidRegionSelector>
-        <featureName>NS3</featureName>
+        <featureName>seg3-NS3</featureName>
         <startCodon>1</startCodon>
         <endCodon>808</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>NS3</featureName>
+        <featureName>seg3-NS3</featureName>
         <startNt>117</startNt>
         <endNt>2538</endNt>
     </nucleotideRegionSelector>
