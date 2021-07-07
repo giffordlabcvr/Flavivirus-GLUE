@@ -1,0 +1,41 @@
+
+  # Re-root phylogeny 
+  module flaviPhyloUtility 
+
+	reroot-phylogeny \
+      --inputFile trees/main-genus/flavivirus.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/flavivirus.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-genus/tamanavirus.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/tamanavirus-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-genus/hepacivirus.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/hepacivirus-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-genus/pegivirus.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/pegivirus-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-genus/pestivirus.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/pestivirus-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-genus/jingmenvirus_seg1.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/jingmenvirus_seg1-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/jingmenvirus_seg3-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+

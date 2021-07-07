@@ -43,11 +43,15 @@ project flaviviridae
   run file glue/core/flaviviridaePhylogeniesSubgenusReroot.glue
   run file glue/core/flaviviridaePhylogeniesSubgenusAnnotations.glue
 
-  # Create genus-level phylogenies
+  # Create recursively-populated genus-level phylogenies
   run file glue/core/flaviviridaePhylogeniesGenus.glue
   run file glue/core/flaviviridaePhylogeniesGenusReroot.glue
   run file glue/core/flaviviridaePhylogeniesGenusAnnotations.glue
 
+  # Create recursively-populated minor-lineage-level phylogenies
+  run file glue/core/flaviviridaePhylogeniesGenus.glue
+  run file glue/core/flaviviridaePhylogeniesGenusReroot.glue
+  run file glue/core/flaviviridaePhylogeniesGenusAnnotations.glue
 
   validate
 
