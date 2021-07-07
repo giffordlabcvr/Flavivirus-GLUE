@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_HCV</relRefName>
+
+    <aminoAcidRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startCodon>1655</startCodon>
+        <endCodon>2833</endCodon>
+    </aminoAcidRegionSelector>
+ 
+   
+    <nucleotideRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startNt>10418</startNt>
+        <endNt>12214</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>
