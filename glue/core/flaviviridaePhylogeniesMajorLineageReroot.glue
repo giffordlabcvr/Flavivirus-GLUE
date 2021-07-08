@@ -10,30 +10,25 @@
   # Re-root phylogeny 
   module flaviviridaePhyloUtility 
 
-
-  # Re-root phylogeny 
-  module flaviPhyloUtility 
+	reroot-phylogeny \
+      --inputFile trees/major-lineage/major1_flavipesti.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/major-lineage/major1_flavipesti.MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-genus/major1_flavipesti.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/major-lineage/major1_hepapegi.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-genus/major1_flavipesti.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/major-lineage/major1_hepapegi-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-genus/major1_hepapegi.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/major-lineage/major1_flavilike.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-genus/major1_hepapegi-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/major-lineage/major1_flavilike-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-genus/flavilike.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/major-lineage/major1_pestilike.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-genus/flavilike-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/main-genus/pestilike.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/main-genus/pestilike-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/major-lineage/major1_pestilike-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
-
 

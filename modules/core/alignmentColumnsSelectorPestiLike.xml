@@ -5,8 +5,8 @@
 
     <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startCodon>1655</startCodon>
-        <endCodon>2833</endCodon>
+        <startCodon>3522</startCodon>
+        <endCodon>3688</endCodon>
     </aminoAcidRegionSelector>
  
     <nucleotideRegionSelector>
