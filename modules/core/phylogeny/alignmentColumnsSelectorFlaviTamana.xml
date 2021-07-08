@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_MASTER_YFV</relRefName>
+
+ 
+    <aminoAcidRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startCodon>2514</startCodon>
+        <endCodon>3284</endCodon>
+    </aminoAcidRegionSelector>
+ 
+   
+    <nucleotideRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startNt>7658</startNt>
+        <endNt>9970</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>

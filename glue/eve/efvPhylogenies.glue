@@ -1,20 +1,20 @@
 
   # Create subgenus-level phylogenies
-  run file glue/core/efvNucPhylogeniesSubgenus.glue
-  run file glue/core/efvNucPhylogeniesSubgenusReroot.glue
-  run file glue/core/efvNucPhylogeniesSubgenusAnnotations.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesSubgenus.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesSubgenusReroot.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesSubgenusAnnotations.glue
 
   # Create recursively-populated genus-level phylogenies
-  run file glue/core/efvNucPhylogeniesGenus.glue
-  run file glue/core/efvNucPhylogeniesGenusReroot.glue
-  run file glue/core/efvNucPhylogeniesGenusAnnotations.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesGenus.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesGenusReroot.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesGenusAnnotations.glue
 
   # Create recursively-populated major-lineage-level phylogenies
-  run file glue/core/efvNucPhylogeniesMajorLineage.glue
-  run file glue/core/efvNucPhylogeniesMajorLineageReroot.glue
-  run file glue/core/efvNucPhylogeniesMajorLineageAnnotations.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesMajorLineage.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesMajorLineageReroot.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesMajorLineageAnnotations.glue
 
   # Create recursively-populated minor-lineage-level phylogenies
-  #run file glue/core/efvNucPhylogeniesMinorLineage.glue
-  #run file glue/core/efvNucPhylogeniesMinorLineageReroot.glue
-  #run file glue/core/efvNucPhylogeniesMinorLineageAnnotations.glue
+  #run file glue/eve/build-phylogenies/efvNucPhylogeniesMinorLineage.glue
+  #run file glue/eve/build-phylogenies/efvNucPhylogeniesMinorLineageReroot.glue
+  #run file glue/eve/build-phylogenies/efvNucPhylogeniesMinorLineageAnnotations.glue

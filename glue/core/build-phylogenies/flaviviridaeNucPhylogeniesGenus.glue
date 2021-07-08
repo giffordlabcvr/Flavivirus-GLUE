@@ -39,18 +39,18 @@
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/core/flaviTreeAlignmentImporterNucs.xml
-  create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
-  create module -f modules/core/alignmentColumnsSelectorFlavivirus.xml
-  create module -f modules/core/alignmentColumnsSelectorTamanavirus.xml
-  create module -f modules/core/alignmentColumnsSelectorHepacivirus.xml
-  create module -f modules/core/alignmentColumnsSelectorPestivirus.xml
-  create module -f modules/core/alignmentColumnsSelectorPL1.xml
-  create module -f modules/core/alignmentColumnsSelectorPL2.xml
-  create module -f modules/core/alignmentColumnsSelectorPegivirus.xml
-  create module -f modules/core/alignmentColumnsSelectorJingmenvirus_Seg1.xml
-  create module -f modules/core/alignmentColumnsSelectorJingmenvirus_Seg3.xml
+  create module -f modules/core/phylogeny/fastaAlignmentExporter.xml
+  create module -f modules/core/phylogeny/flaviTreeAlignmentImporterNucs.xml
+  create module -f modules/core/phylogeny/flaviviridaeFeaturePresenceRecorder.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorFlavivirus.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorTamanavirus.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorHepacivirus.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorPestivirus.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorPL1.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorPL2.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorPegivirus.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorJingmenvirus_Seg1.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorJingmenvirus_Seg3.xml
   
 
   # Export the recursively populated root gene alignments 

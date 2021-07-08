@@ -4,7 +4,7 @@ var source_name = 'fasta-digs-eve';
 // Load the refcon data and store relationships between locus and viral taxonomy
 var efvRefseqResultMap  = {};
 get_refcon_data(efvRefseqResultMap, refconDataPath);
-glue.log("INFO", "RESULT WAS ", efvRefseqResultMap);
+//glue.log("INFO", "RESULT WAS ", efvRefseqResultMap);
  
 // Load flavivirus EVE data from tab file 
 var loadResult;

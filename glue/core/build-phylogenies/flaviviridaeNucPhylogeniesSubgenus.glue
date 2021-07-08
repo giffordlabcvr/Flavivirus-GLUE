@@ -16,17 +16,17 @@
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/alignmentColumnsSelectorCisf.xml
-  create module -f modules/core/alignmentColumnsSelectorTbfv.xml
-  create module -f modules/core/alignmentColumnsSelectorMbfv1.xml
-  create module -f modules/core/alignmentColumnsSelectorMbfv2.xml
-  create module -f modules/core/alignmentColumnsSelectorNkv1.xml
-  create module -f modules/core/alignmentColumnsSelectorNkv2.xml
-  create module -f modules/core/alignmentColumnsSelectorCrustacean.xml
-  create module -f modules/core/alignmentColumnsSelectorDisf1.xml
-  create module -f modules/core/alignmentColumnsSelectorDisf1A.xml
-  create module -f modules/core/alignmentColumnsSelectorDisf1B.xml
-  create module -f modules/core/alignmentColumnsSelectorDisf2.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorCisf.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorTbfv.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorMbfv1.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorMbfv2.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorNkv1.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorNkv2.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorCrustacean.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorDisf1.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorDisf1A.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorDisf1B.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorDisf2.xml
 
 
   # Create the phylogenies

@@ -1,6 +1,0 @@
-schema-project denv
-  table sequence
-    create field gb_gi_number VARCHAR
-    create field serotype VARCHAR 10
-    exit
-  exit
