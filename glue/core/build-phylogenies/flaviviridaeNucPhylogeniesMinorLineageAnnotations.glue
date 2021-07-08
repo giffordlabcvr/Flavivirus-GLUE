@@ -9,7 +9,7 @@
   module flaviviridaeFigTreeAnnotationExporter 
 
     export figtree-annotation AL_TREE_FlaviPesti -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 40" -f trees/major-lineage/minor_flavitamana.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 40" -f trees/minor-lineage/minor_flavitamana.figtree-annotations.tsv
 
 
   exit

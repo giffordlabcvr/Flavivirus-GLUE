@@ -11,9 +11,9 @@
   module flaviviridaePhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/major-lineage/minor_flavitamana.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/minor-lineage/minor_flavitamana.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/major-lineage/minor_flavitamana.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/minor-lineage/minor_flavitamana.MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
