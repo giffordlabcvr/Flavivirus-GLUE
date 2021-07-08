@@ -1,0 +1,21 @@
+  
+  # Clean-up
+  delete module raxmlPhylogenyGenerator
+  delete module alignmentColumnsSelectorCisf
+
+  
+  # Create all the modules we need
+  create module -t raxmlPhylogenyGenerator
+
+
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
+
+    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisf \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 5" \
+      -o trees/subgenus/cisf-efv.tre NEWICK_BOOTSTRAPS
+
+
+    exit
+
+

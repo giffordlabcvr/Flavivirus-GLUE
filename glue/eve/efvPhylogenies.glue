@@ -1,0 +1,20 @@
+
+  # Create subgenus-level phylogenies
+  run file glue/core/efvNucPhylogeniesSubgenus.glue
+  run file glue/core/efvNucPhylogeniesSubgenusReroot.glue
+  run file glue/core/efvNucPhylogeniesSubgenusAnnotations.glue
+
+  # Create recursively-populated genus-level phylogenies
+  run file glue/core/efvNucPhylogeniesGenus.glue
+  run file glue/core/efvNucPhylogeniesGenusReroot.glue
+  run file glue/core/efvNucPhylogeniesGenusAnnotations.glue
+
+  # Create recursively-populated major-lineage-level phylogenies
+  run file glue/core/efvNucPhylogeniesMajorLineage.glue
+  run file glue/core/efvNucPhylogeniesMajorLineageReroot.glue
+  run file glue/core/efvNucPhylogeniesMajorLineageAnnotations.glue
+
+  # Create recursively-populated minor-lineage-level phylogenies
+  #run file glue/core/efvNucPhylogeniesMinorLineage.glue
+  #run file glue/core/efvNucPhylogeniesMinorLineageReroot.glue
+  #run file glue/core/efvNucPhylogeniesMinorLineageAnnotations.glue

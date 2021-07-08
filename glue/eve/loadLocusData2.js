@@ -40,7 +40,7 @@ _.each(loadResult, function(eveObj) {
 		var locus_name = eveObj.locus_name;
 		
 		// Does an alignment exist for this locus ID
-		glue.log("INFO", "Getting taxonomic data for sequence:", sequenceID, "locus name:", locus_name);
+		//glue.log("INFO", "Getting taxonomic data for sequence:", sequenceID, "locus name:", locus_name);
 		
 		// Get the taxonomy 
 		var efvRefConObj = efvRefseqResultMap[locus_name];

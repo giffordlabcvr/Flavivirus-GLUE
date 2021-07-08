@@ -29,6 +29,10 @@ project flaviviridae
   # Import alignment tree
   run file glue/eve/efvAlignmentTree.glue
 
+  # Create phylogenies
+  run file glue/eve/efvPhylogenies.glue
+
+
   # Validate
   validate
 
