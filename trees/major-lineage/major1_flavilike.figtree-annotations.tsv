@@ -26,6 +26,7 @@ alignment/AL_TREE_FlaviLike/member/ncbi-refseqs/KM225265	KM225265	Torres	FlaviPe
 alignment/AL_TREE_FlaviLike/member/ncbi-refseqs/KY347801	KY347801	MMV	FlaviPesti	Flavivirus	NULL	Aedes	none	HU 4528/07	Ochlerotatus caspius	-	Spain
 alignment/AL_TREE_FlaviLike/member/ncbi-refseqs/MF776369	MF776369	LFLV	FlaviPesti	Tamanavirus	NULL	Cyclopterus	none	R170217-6L	Cyclopterus lumpus	-	Norway
 alignment/AL_TREE_FlaviLike/member/ncbi-refseqs/MG599986	MG599986	WenSFV	FlaviPesti	Tamanavirus	NULL	Scoliodon	none	-	Scoliodon macrorhynchos	-	China
+alignment/AL_TREE_FlaviLike/member/ncbi-refseqs/MK473875	MK473875	SpsFV	FlaviPesti	Tamanavirus	NULL	-	none	201405	Idiosepius notoides	-	Australia
 alignment/AL_TREE_FlaviLike/member/ncbi-refseqs/NC_000943	NC_000943	MVEV	FlaviPesti	Flavivirus	NULL	Culex	mosquito	-	-	-	-
 alignment/AL_TREE_FlaviLike/member/ncbi-refseqs/NC_001437	NC_001437	JEV	FlaviPesti	Flavivirus	NULL	Culex	mosquito	-	-	-	-
 alignment/AL_TREE_FlaviLike/member/ncbi-refseqs/NC_001474	NC_001474	DENV2	FlaviPesti	Flavivirus	NULL	Aedes	mosquito	-	-	-	Thailand

@@ -57,7 +57,7 @@
   module fastaAlignmentExporter
  	
  	export AL_GENUS_Flavivirus        -r REF_MASTER_YFV -f whole_genome --recursive -a  -e -o alignments/tree/genus_flavivirus-all.aln.fna
- 	export AL_GENUS_Tamanavirus       -r REF_TABV       -f whole_genome --recursive -a  -e -o alignments/tree/genus_tamanavirus-all.aln.fna
+ 	export AL_GENUS_Tamanavirus       -r REF_TABV       -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_tamanavirus-all.aln.fna
   	export AL_GENUS_Pestivirus        -r REF_BVDV1      -f whole_genome --recursive -a  -e -o alignments/tree/genus_pestivirus-all.aln.fna
  	export AL_GENUS_PL1               -r REF_SCNV5      -f whole_genome --recursive -a  -e -o alignments/tree/genus_pl1-all.aln.fna
  	export AL_GENUS_PL2               -r REF_SLV2       -f whole_genome --recursive -a  -e -o alignments/tree/genus_pl2-all.aln.fna
@@ -155,13 +155,13 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_TREE_Flavivirus -s alignmentColumnsSelectorFlavivirus \
-      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/genus/flavivirus.tre NEWICK_BOOTSTRAPS
+    #generate nucleotide phylogeny AL_TREE_Flavivirus -s alignmentColumnsSelectorFlavivirus \
+    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    # -o trees/genus/flavivirus.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_TREE_Tamanavirus -s alignmentColumnsSelectorTamanavirus \
-      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 20" \
-      -o trees/genus/tamanavirus.tre NEWICK_BOOTSTRAPS
+    #generate nucleotide phylogeny AL_TREE_Tamanavirus -s alignmentColumnsSelectorTamanavirus \
+    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 20" \
+    #  -o trees/genus/tamanavirus.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_TREE_Jingmenvirus_Seg1 -s alignmentColumnsSelectorJingmenvirus_Seg1 \
       -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
