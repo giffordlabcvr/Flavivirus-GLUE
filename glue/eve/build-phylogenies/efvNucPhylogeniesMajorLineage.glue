@@ -20,13 +20,13 @@
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/core/flaviTreeAlignmentImporterNucs.xml
-  create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviPesti.xml
-  create module -f modules/core/alignmentColumnsSelectorHepaciPegi.xml
-  create module -f modules/core/alignmentColumnsSelectorFlaviLike.xml
-  create module -f modules/core/alignmentColumnsSelectorPestiLike.xml
+  create module -f modules/core/build-phylogenies/fastaAlignmentExporter.xml
+  create module -f modules/core/build-phylogenies/flaviTreeAlignmentImporterNucs.xml
+  create module -f modules/core/build-phylogenies/flaviviridaeFeaturePresenceRecorder.xml
+  create module -f modules/core/build-phylogenies/alignmentColumnsSelectorFlaviPesti.xml
+  create module -f modules/core/build-phylogenies/alignmentColumnsSelectorHepaciPegi.xml
+  create module -f modules/core/build-phylogenies/alignmentColumnsSelectorFlaviLike.xml
+  create module -f modules/core/build-phylogenies/alignmentColumnsSelectorPestiLike.xml
 
   
 

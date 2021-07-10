@@ -51,9 +51,9 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_TREE_FlaviTamana -s alignmentColumnsSelectorFlaviTamana \
-      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-      -o trees/major-lineage/minor_flavitamana.tre NEWICK_BOOTSTRAPS
+    #generate nucleotide phylogeny AL_TREE_FlaviTamana -s alignmentColumnsSelectorFlaviTamana \
+    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
+    # -o trees/minor-lineage/minor_flavitamana.tre NEWICK_BOOTSTRAPS
 
 
 

@@ -6,6 +6,7 @@
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
+  create module -f modules/core/build-phylogenies/phylogeny/alignmentColumnsSelectorCisf.xml
 
 
   # Create the phylogenies

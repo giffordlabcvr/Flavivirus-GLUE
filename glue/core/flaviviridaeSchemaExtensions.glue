@@ -8,6 +8,8 @@
     create field vector_group VARCHAR 50
     create field length INTEGER
     create field pubmed_id INTEGER
+    create field gb_create_date DATE
+    create field gb_update_date DATE
     exit
 
   table alignment

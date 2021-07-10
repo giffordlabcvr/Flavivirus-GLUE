@@ -1,6 +1,26 @@
 <genbankXmlPopulator>
 
 
+	<gbLength>
+		<propertyPopulator property="length"/>
+	</gbLength>
+	
+	<gbReference>
+		<gbRefPubmed>
+			<propertyPopulator property="pubmed_id"/>
+		</gbRefPubmed>
+	</gbReference>
+		
+	<gbCreateDate>
+		<propertyPopulator property="gb_create_date"/>
+	</gbCreateDate>
+
+	<gbUpdateDate>
+		<propertyPopulator property="gb_update_date"/>
+	</gbUpdateDate>
+
+	
+
 	<!-- #### ORGANISM -->			
 	<gbOrganism>
 		<propertyPopulator property="full_name">
