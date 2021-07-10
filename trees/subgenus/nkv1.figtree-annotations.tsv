@@ -1,7 +1,7 @@
-taxon	sequenceID	subfamily	genus	clade	host_group	vector_group	isolate	sampled_host_sci_name	sample_date	country
-alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/KJ469370	KJ469370	FlaviPesti	Flavivirus	NKV1	unknown	unknown	-	Cynopterus brachyotis	-	Malaysia
-alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/NC_003635	NC_003635	FlaviPesti	Flavivirus	NKV1	Peromyscus	unknown	-	-	-	USA:Modoc county
-alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/NC_003675	NC_003675	FlaviPesti	Flavivirus	NKV1	Tadarida	unknown	-	-	-	-
-alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/NC_003676	NC_003676	FlaviPesti	Flavivirus	NKV1	Apodemus	unknown	-	-	-	-
-alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/NC_004119	NC_004119	FlaviPesti	Flavivirus	NKV1	Myotis	unknown	-	-	-	USA:Montana
-alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/NC_026620	NC_026620	FlaviPesti	Flavivirus	NKV1	Sigmodon	unknown	-	Sigmodon hispidus	-	Guatemala
+taxon	sequenceID	name	subfamily	genus	clade	host_group	vector_group	isolate	sampled_host_sci_name	sample_date	country
+alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/KJ469370	KJ469370	BCV	FlaviPesti	Flavivirus	NULL	unknown	unknown	-	Cynopterus brachyotis	-	Malaysia
+alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/NC_003635	NC_003635	MODV	FlaviPesti	Flavivirus	NULL	Peromyscus	unknown	-	-	-	USA:Modoc county
+alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/NC_003675	NC_003675	RBV	FlaviPesti	Flavivirus	NULL	Tadarida	unknown	-	-	-	-
+alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/NC_003676	NC_003676	APOIV	FlaviPesti	Flavivirus	NULL	Apodemus	unknown	-	-	-	-
+alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/NC_004119	NC_004119	MMLV	FlaviPesti	Flavivirus	NULL	Myotis	unknown	-	-	-	USA:Montana
+alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/NC_026620	NC_026620	JUTV	FlaviPesti	Flavivirus	NULL	Sigmodon	unknown	-	Sigmodon hispidus	-	Guatemala

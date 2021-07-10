@@ -155,41 +155,41 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    #generate nucleotide phylogeny AL_TREE_Flavivirus -s alignmentColumnsSelectorFlavivirus \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
-    #  -o trees/genus/flavivirus.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_Flavivirus -s alignmentColumnsSelectorFlavivirus \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/genus/flavivirus.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_TREE_Tamanavirus -s alignmentColumnsSelectorTamanavirus \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 20" \
-    #  -o trees/genus/tamanavirus.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_Tamanavirus -s alignmentColumnsSelectorTamanavirus \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 20" \
+      -o trees/genus/tamanavirus.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_TREE_Jingmenvirus_Seg1 -s alignmentColumnsSelectorJingmenvirus_Seg1 \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-    #  -o trees/genus/jingmenvirus_seg1.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_Jingmenvirus_Seg1 -s alignmentColumnsSelectorJingmenvirus_Seg1 \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
+      -o trees/genus/jingmenvirus_seg1.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_TREE_Jingmenvirus_Seg3 -s alignmentColumnsSelectorJingmenvirus_Seg3 \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-    #  -o trees/genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_Jingmenvirus_Seg3 -s alignmentColumnsSelectorJingmenvirus_Seg3 \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
+      -o trees/genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_TREE_Pestivirus -s alignmentColumnsSelectorPestivirus \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
-    #  -o trees/genus/pestivirus.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_Pestivirus -s alignmentColumnsSelectorPestivirus \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/genus/pestivirus.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_TREE_Hepacivirus -s alignmentColumnsSelectorHepacivirus \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
-    #  -o trees/genus/hepacivirus.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_Hepacivirus -s alignmentColumnsSelectorHepacivirus \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/genus/hepacivirus.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_TREE_Pegivirus -s alignmentColumnsSelectorPegivirus \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 60" \
-    #  -o trees/genus/pegivirus.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_Pegivirus -s alignmentColumnsSelectorPegivirus \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/genus/pegivirus.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_TREE_PL1 -s alignmentColumnsSelectorPL1 \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 10" \
-    #  -o trees/genus/pl1.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_PL1 -s alignmentColumnsSelectorPL1 \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 10" \
+      -o trees/genus/pl1.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_TREE_PL2 -s alignmentColumnsSelectorPL2 \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 10" \
-    #  -o trees/genus/pl2.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_PL2 -s alignmentColumnsSelectorPL2 \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 10" \
+      -o trees/genus/pl2.tre NEWICK_BOOTSTRAPS
 
     exit
 

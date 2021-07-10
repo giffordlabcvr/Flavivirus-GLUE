@@ -15,6 +15,6 @@
   run file glue/eve/build-phylogenies/efvNucPhylogeniesMajorLineageAnnotations.glue
 
   # Create recursively-populated minor-lineage-level phylogenies
-  #run file glue/eve/build-phylogenies/efvNucPhylogeniesMinorLineage.glue
-  #run file glue/eve/build-phylogenies/efvNucPhylogeniesMinorLineageReroot.glue
-  #run file glue/eve/build-phylogenies/efvNucPhylogeniesMinorLineageAnnotations.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesMinorLineage.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesMinorLineageReroot.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesMinorLineageAnnotations.glue

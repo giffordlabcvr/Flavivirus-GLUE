@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
 <textFilePopulator>
+
     <columnDelimiterRegex>\t</columnDelimiterRegex>
     
     <textFileColumn>
@@ -12,18 +14,27 @@
         <header>name</header>
         <property>name</property>
     </textFileColumn>
+
     <textFileColumn>
         <header>full_name</header>
         <property>full_name</property>
     </textFileColumn>
+
     <textFileColumn>
         <header>subfamily</header>
         <property>subfamily</property>
     </textFileColumn>
+
     <textFileColumn>
         <header>genus</header>
         <property>genus</property>
     </textFileColumn>
+
+    <textFileColumn>
+        <header>subgenus</header>
+        <property>subgenus</property>
+    </textFileColumn>
+    
     <textFileColumn>
         <header>clade</header>
         <property>clade</property>
@@ -33,6 +44,7 @@
         <header>vector_group</header>
         <property>vector_group</property>
     </textFileColumn>
+
     <textFileColumn>
         <header>host_group</header>
         <property>host_group</property>
@@ -41,3 +53,4 @@
     <skipMissing>true</skipMissing>
 
 </textFilePopulator>
+

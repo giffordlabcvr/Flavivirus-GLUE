@@ -6,6 +6,11 @@
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
+		<annotationName>name</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.name')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
 		<annotationName>subfamily</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.subfamily')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>

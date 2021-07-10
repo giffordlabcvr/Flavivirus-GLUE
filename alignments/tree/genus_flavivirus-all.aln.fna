@@ -1,4 +1,4 @@
->HE574574|CTFV.Flavivirus.cISF
+>HE574574|CTFV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------GCTCAGGGCAGGGCGCAAGTTC
 CCTGGCCCGGAGAAGTGAAGAAGAAGAAGGAGAAGGAGAGGGACACCGCCGAA---------AAAGTGCC
@@ -155,7 +155,7 @@ TGGGTTGAAGATCCTGGGCAGATACCGGGTCACCAGGGATCCCATC------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->JQ268258|HANKV.Flavivirus.cISF
+>JQ268258|HANKV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------CCCGACAAGGGGAAGAAAAATC
 GT------CGGCAGGGCGGGATCGCGAAGGGGGTTGATCGGAAGATCATCCCTTCTTCGGGATCAAGGAA
@@ -312,7 +312,7 @@ TTTCCTGAGTGGCATGGGACGATTTAGAGAAGAAAATGATCCAATG------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->KC505248|PCV.Flavivirus.cISF
+>KC505248|PCV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------AGGGGTATGGGGAGGTTCCCC-
 --------AAGAAGGGGAACAAGAATTCTGTTGCCGTGGCCAGGGTGCCACCGCAGCAAGGAGGAAGAGA
@@ -469,7 +469,7 @@ TGGGTTATCCATTCTAGGACGGTATGTTCACCACGTCGATCCTGTG------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_001564|CFAV.Flavivirus.cISF
+>NC_001564|CFAV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------CGAGGAAAAGCGCCAGGGAGGG
 AT---TTTAGAGAAGGTAGGAGAAAGGACAAGGAAAAGGGAGGGGAGTCTCCCTCAAATCGGCAACTGAA
@@ -626,7 +626,7 @@ CGAGCTCTCAGTTATGAGTCGATATCGAAGAGGAAATGATGTCATT------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_005064|KRV.Flavivirus.cISF
+>NC_005064|KRV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------GGGCCTCCGGGCCCAACATCCA
 ACCGTCCGTCGGCGGGAAAACGAGTCAAACAAGTGGCCCCACCACCAACTAGGGGTCACATGGAGCTCTC
@@ -783,7 +783,7 @@ TGAGCTCTCGGTGATGAGTCGTTTCCGGAAGGGGAATGACGTCATT------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_008604|CxFV.Flavivirus.cISF
+>NC_008604|CxFV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------AAGAAGAAGGGGCCGGGCTCCT
 CCGGATGGGCTGGCTTAGGAAGGAAGGAGGAGAAAAAGAAGAAGGAGAAGAGGGGTGTGCGG--------
@@ -940,7 +940,7 @@ AGGGTTGCGGATACTTGGGCGATACCGAGCTCCAACCGACGACGTG------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_012671|QBV.Flavivirus.cISF
+>NC_012671|QBV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------GTGGAGAGAGGACGTGGAACGC
 GT------CGTGGAGGAGGAGCTCCTCCGAAGAAGGAGAGAGATCGAGGAGGCCAAAAGGTCTCGGGGAC
@@ -1097,7 +1097,7 @@ TGGACTCCAAATCCTGGGGAGATACAAAGTTCACCAGGATCCCGTG------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_012932|AEFV.Flavivirus.cISF
+>NC_012932|AEFV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------GGGCCTTCGGGCCAAACATCTG
 GTCGGCCACCAGCGGAAAAGAGGGTAAAAAGGGCCGCAGGAAACAAGACCAGCAAAAACCAG--------
@@ -1254,7 +1254,7 @@ TGGGCTGGTCATCATGTCGCGTTTCCGAAAGAGTAATGACGTGATA------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_021069|MosqFV.Flavivirus.cISF
+>NC_021069|MosqFV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------GAGAGAGGACGCGGTACGCGCC
 CTCCG---GGAAAAGTTCCTCCGAAGAAGGAAAGAGATCGAGGAGGCCAAGTGGTTTCACGCTCTCCAAG
@@ -1411,7 +1411,7 @@ TGGATTGCAGATCCTAGGGAGATACAAGACCCACCGAGATCCCGTG------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_024299|NIEV.Flavivirus.cISF
+>NC_024299|NIEV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------TATGGGAGAAGGGAAGCTATCC
 CGCCC---------CCTCCCATTAAGGAGAAAAAGGATAGAAAGAAGAAAAGAGATGACGTGAAGCTCGT
@@ -1568,7 +1568,7 @@ AGGACTTGATATCCTGGGAAGATACCGACAACCCATACCCAGGATG------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_027817|PaRV.Flavivirus.cISF
+>NC_027817|PaRV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------CCCCTCCGAGGGAAGAAAAAGA
 AA------TCACAGGGCAGGGTCTTGCCGAAGAGCGACTGGAAGGGAGCTCCGAAACAGGATCTAAAGAA
@@ -1725,7 +1725,7 @@ CTTTCTTGGCGGAATGGGCCGGTTCCAAACGTACACTGACCCCATG------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_027819|MECDV.Flavivirus.cISF
+>NC_027819|MECDV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------AAGAAGGGA-------------
 --------CTGGGAGGAGGAGGAAAACGGGGCTTTGAGATGAAAAAGGCCCCACAACATAAC--------
@@ -1882,7 +1882,7 @@ CGCTCTTGGAATGTTCGCGCGATACGCAAAGCCGGAAGTGTCATTG------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_030400|NAKV.Flavivirus.cISF
+>NC_030400|NAKV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------GGAGGATTGGGAAGGTTCCCG-
 --------AACAAAGGGAACAAAAAAGTAGGACGAGAGAAGGTTCTCACCCCTAGTAGAAGAGAAGGGGA
@@ -2039,7 +2039,7 @@ TGGGTTATCGATTCTAGGACGCTATGTGCAACGGGTAGACCCGGTG------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_031327|AnophFV.Flavivirus.cISF
+>NC_031327|AnophFV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------CGTGAGGGAGGAGGCGGAAAGC
 CT--------------------------------------------------------------------
@@ -2196,7 +2196,7 @@ CGGACTTGCAATCCTGGGTCGATACCACGCGACCCTGCCCCCCGCG------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_016997|DONV/DGV.Flavivirus.dISF1B
+>NC_016997|DONV/DGV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGTCTTTCGAGCTAGGA
 GGCCCGTTCGGGCCGTCGATATA---ATAAAACGTAAGCTGCCTTACGTTCCGCCACCAATGAGGGCCAA
@@ -2353,7 +2353,7 @@ CTATTTGGCCATTCAAAATCGCTTCATGCCCCCTCTCCAATTTAGATTGGGAAGCGTCCTG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_017086|CHAOV.Flavivirus.dISF1B
+>NC_017086|CHAOV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGCGAATAAACCCAAGA
 AGCCCGGACGGGCTATCGATATA---GTGAGACGTGCGTTGCCTCGCGTCTCGGGACCGAAAAAGTTAAA
@@ -2510,7 +2510,7 @@ TTACCTCCAAGCCCAGAATAGATTCAGCATTCCTGCCGAATTCACCATGGGCAACATATTG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_024805|ILOV.Flavivirus.dISF1B
+>NC_024805|ILOV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGTTTTTCGAACCAGAA
 GACCCGTTCGGGTCGTCGATATA---ATTAAACGCAGGCTACCACGCGTGCCACCCCCCAAAAGGGCTAA
@@ -2667,7 +2667,7 @@ TTACTTGTCCATCCAGAAGCGGTTTGCCGAGCCAGAAATGTTTAGGATGGGCTCGATCCTT---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_024806|LAMV.Flavivirus.dISF1B
+>NC_024806|LAMV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGCGAATAAACCCAAGA
 AGCCCGCTCGGGCTATCGATATA---GTGAGACGCGCGTTGCCCCGCGTCTCGGGACCCAAAAGGTTAGC
@@ -2824,7 +2824,7 @@ CTATTTGCAGGCCCAAAACAGATTCAGCATTCCAGCTGAATTCACAATGGGAAACATATTG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->KY347801|MMV.Flavivirus.dISF2
+>KY347801|MMV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------TTTCGAGCTAGGAGGCCCGTTA
 AACGGGCC------------------GTCGATATAATAAAACGTAAGCTGCCTTACGTTCCGCCAGCCAA
@@ -2981,7 +2981,7 @@ CTTGGGCCGACAACATA-----------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_027999|EPEV.Flavivirus.dISF2
+>NC_027999|EPEV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------AGAGTAGGATCTCGGGTTAAAA
 CCCGAGGT------------------GTCAATATGATTAGGCGTACTGGAAAGACTGTGAAAACATCAAG
@@ -3138,7 +3138,7 @@ CATGGGCGTGGTCTATG-----------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->AY632538|IGUV.Flavivirus.Mosq1
+>AY632538|IGUV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAAGGT
 CCGGCAATCGGATCGTCAGTATG---TTGAAACGCGGGCCGTCCCGTGTTCCGAATCCAGTGGATGTAAA
@@ -3295,7 +3295,7 @@ CTATCTCAAAGCCCAAGGGAGATACAGAAAAGAGGAGACTGAAACA---GGTGTTCTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->AY632542|ROCV.Flavivirus.Mosq1
+>AY632542|ROCV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAGGAC
 CCGCCGGACGGGTTGTCAATATG---CTGAAACGCCCAGCCAGC---GTTTCC---CCAATAAAAATAAA
@@ -3452,7 +3452,7 @@ TTATATGCCAGCACAGACAAGGTTC---GCACATGAAGCAGAGGGA---GGAGTTCTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->AY898809|ALFV.Flavivirus.Mosq1
+>AY898809|ALFV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAGGAC
 CCGGAAGACGGGTCGTCAGTATG---CTAAGACGCGGAGCATCCCGCGTTTCC---CCGCTTATGATAAA
@@ -3609,7 +3609,7 @@ TTACATGCAATCATTGAGGAGGTAT---GAAGAGGCAACAATAGAC---AGAGTGCTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->D00246|KUNV.Flavivirus.Mosq1
+>D00246|KUNV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAGGGC
 CCGGCAAACGGGCTGTCAATATG---CTAAAACGCGGAATGCCCCGCGTGTTG---TCCTTGACTCTGAA
@@ -3766,7 +3766,7 @@ TTACATGAGTTCATTGAAGAGATAT---GAAGACACAACATTGGAT---ACAGTATTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->EU082199|YAOV.Flavivirus.Mosq1
+>EU082199|YAOV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAGGGC
 CCGGAGGGCGGGCAATCAATATG---CTGAAACGCGGTCTACCCCGCGTATAC---CCCCTAGTGGTGAA
@@ -3923,7 +3923,7 @@ TTATATGCAAACTCTAAAGAGGTAT---GAGGATGCCACTGTGGAC---TCGGTTTTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->EU082200|KOUV.Flavivirus.Mosq1
+>EU082200|KOUV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAGGGC
 CCGGTAAACGGGCTGTCAATATG---CTAAAACGCGGAATGCCCCGCGTACCG---TCCTTGATTCTAAA
@@ -4080,7 +4080,7 @@ TTACATGAGTACTCTAAGGAGATAT---GAAGATGCCAGTGTGGAT---TCAGTTTTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->EU159426|NOUV.Flavivirus.Mosq1
+>EU159426|NOUV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGCTAATACCAAGAAGC
 CCGTCGCTCGGGCGAACAATATG---CTAACCCGAACGAATAAGCGGGTGACCGATGCCATGGCAGTCAA
@@ -4237,7 +4237,7 @@ CTACCTAGGGTCCATGCTACGGTACGGAGGCTCAGAGAGTGAGTGT---GGCGTTTCA------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->JF312912|BYDV.Flavivirus.Mosq1
+>JF312912|BYDV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAAGAC
 CCGGCTCACGGGTTGTCAATATG---CTAAAGCGCGGAACGTCCCGCGGAAAT---CCGCTAGCGATAAA
@@ -4394,7 +4394,7 @@ TTACATGCCAACTCTAAACAGGTTC---AAATCCATTGAAAGCGAA---GGTGTCTTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->JF926699|LayV.Flavivirus.Mosq1
+>JF926699|LayV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAAGAC
 CCGGCTCACGGGTTGTCAATATG---CTAAAGCGCGGAACGTCCCGCGGAAAT---CCGCTAGCGATAAA
@@ -4551,7 +4551,7 @@ TTACATGCCAACTCTAAACAGGTTC---AAACCCATTGAAAGCGAA---GGTGTCTTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->JX477686|STWV.Flavivirus.Mosq1
+>JX477686|STWV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAAGAC
 CCGGCTCACGGGTAGTCAATATG---CTAAAGCGCGGAACGTCCCGCGGAAAT---CCGTTAGCGATAAA
@@ -4708,7 +4708,7 @@ TTATATGCCAACCCTCAATAGGTTC---AAACCCATTGAAAGCGAG---GGCGTTTTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->KC734550|ITV.Flavivirus.Mosq1
+>KC734550|ITV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAAAAC
 CCGGGGCACGGGTTGTCAATATG---CTAAAGCGCGGTGCATCCCGCGGAAAT---CCGATATCTATCAA
@@ -4865,7 +4865,7 @@ CTACATGCCAACCCTAAACCGCTTC---AGAGCAGTGGAGACAGAT---GGGGTTCTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->KF917538|NJLV.Flavivirus.Mosq1
+>KF917538|NJLV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGCTAAACCAGGAAAAC
 CCGGCGTACGGGTTGTCAATATG---CTAAAGCGTACTGCGACCAACGCAGCCAGCCCAGTGAGGGCGAA
@@ -5022,7 +5022,7 @@ TTACCTCAGCTCACAGCAGCGCTATGAGGTTTGGCGTGAGCCATCA---GGAGTGCTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->KM225263|STRV.Flavivirus.Mosq1
+>KM225263|STRV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGCCCAAACCAGGAAAGC
 CCGGGAGGCGGGCTGTCAATATG---CTAAAGCGCGGTGCATCCCGCGCGCTCGGCCCACTGGCCCTGAA
@@ -5179,7 +5179,7 @@ TTACCTGATCAGCCAGAGGAGATATGACGTGGCAGAGAAATTGACA---GGAGTGTTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->KM225264|Bainyik.Flavivirus.Mosq1
+>KM225264|Bainyik.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGACCAAACCAGGAAAGC
 CCGGTAGACGGGCTGTCAATATG---CTAAAGCGCGGCGCATCCCGCGCGCTTGGTCCAATGATCCTTAA
@@ -5336,7 +5336,7 @@ TTACCTAGGTACACAAAAGAGGTACGATGCTGAGAAGAGGGTGAGT---GGTGTTTTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->KM225265|Torres.Flavivirus.Mosq1
+>KM225265|Torres.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGACCAAACCAGGAAAGC
 CCGGGAAACGGGCTGTCAATATG---CTGAAGCGCGGCGCATCCCGCGCGCTTGGCCCCTTAGCCCTTAA
@@ -5493,7 +5493,7 @@ CTACCTGAGCAGCCAAAAGAGGTACGATGTGGAGGAAAGTGTCACA---GGGGTTCTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_000943|MVEV.Flavivirus.Mosq1
+>NC_000943|MVEV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAGGAC
 CCGGGAAGCGGGTCGTCAATATG---CTAAAACGCGGCATACCCCGCGTATTC---CCACTAGTGGTGAA
@@ -5650,7 +5650,7 @@ CTACGTGCAGTCGCTGAGGAGGTAT---GAAGAAACTCATGTGGAT---AGGGTCTTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_001437|JEV.Flavivirus.Mosq1
+>NC_001437|JEV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGACTAAACCAGGAGGGC
 CCGGTAAACGGGCTATCAATATG---CTGAAACGCGGCCTACCCCGCGTATTC---CCACTAGTGGTGAA
@@ -5807,7 +5807,7 @@ CTACATGACCTCACTCAGGAGATAC---GAAGACGTCCTGATCGAC---AGGGTCATC------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_001474|DENV2.Flavivirus.Mosq1
+>NC_001474|DENV2.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGAATAACCAACGGAAAA
 AGGCGAAAACGCCTTTCAATATG---CTGAAACGCGAGAGAAACCGCGTGTCGACTGTGCAACAGACAAA
@@ -5964,7 +5964,7 @@ TTACATGCCATCCATGAAAAGATTCAGAAGAGAAGAGGAAGAAGCA---GGAGTTCTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_001475|DENV3.Flavivirus.Mosq1
+>NC_001475|DENV3.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGAACAACCAACGGAAGA
 AGACGGGACCGTCTATCAATATG---CTGAAACGCGTGAGAAACCGTGTGTCAACTGGATCACAGGCGAA
@@ -6121,7 +6121,7 @@ CTACATGCCTTCAATGAAGAGATTCAGGAAGGAAGAGGAGTCGGAG---GGAGCCATT------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_001477|DENV1.Flavivirus.Mosq1
+>NC_001477|DENV1.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGAACAACCAACGGAAAA
 AGACGGGTCCGTCTTTCAATATG---CTGAAACGCGCGAGAAACCGCGTGTCAACTGTTTCACAGGCGAA
@@ -6278,7 +6278,7 @@ CTTCATGACATCAATGAAGAGATTCAAAAACGAGAGTGATCCCGAA---GGGGCACTC------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_001563|WNV.Flavivirus.Mosq1
+>NC_001563|WNV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAGGGC
 CCGGTAAACGGGCTGTCAATATG---CTAAAACGCGGTATGCCCCGCGGATTG---TCCTTGATACTAAA
@@ -6435,7 +6435,7 @@ TTACATGAGCTCCTTGAGGAGGTAT---GAAGACACCATTGTAGAC---ACTGTTTTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_002640|DEN4.Flavivirus.Mosq1
+>NC_002640|DEN4.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGAAC---CAACGAAAAA
 AGGTGGTTCCACCTTTCAATATG---CTGAAACGCGAGAGAAACCGCGTATCAACCCCTCAAGGGGTGAA
@@ -6592,7 +6592,7 @@ TTACATGCCAGTAATGAAAAGATACAGTGCTCCTTCAGAGAGTGAA---GGAGTTCTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_006551|USUV.Flavivirus.Mosq1
+>NC_006551|USUV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAGGGC
 CCGGAAGACGGGCCATCAATATG---CTGAAACGCGGCATACCCCGCGTATTC---CCACTAGTGGTGAA
@@ -6749,7 +6749,7 @@ TTACATGCTTTCACTTAGAAGATAT---GAAGAAGTTAATGTCGAC---AGGGTTTTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_007580|SLEV.Flavivirus.Mosq1
+>NC_007580|SLEV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAAAAC
 CCGGTAGACGGGTTGTCAATATG---CTAAAACGCGGCGTATCCCGCGTGAAC---CCCTTGACGTTGAA
@@ -6906,7 +6906,7 @@ CTACATGGTTGCCCAAAACAGATTTGGTAGGGAAGAAACTCATGGA---GGAGTGCTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_009026|BSQV.Flavivirus.Mosq1
+>NC_009026|BSQV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGCTAAACCAGGAAGAC
 CCGGAGGACGGGTCGTCAATATG---CTAAAGCGTACGGCGGCCAACGCAGCCAGCCCCTTGGGGGCAAA
@@ -7063,7 +7063,7 @@ TCATTTGAGTTCTCAGCAAAGATTTGAAAATTGGGGAGAAGTGTCA---GGAGTCCTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_009028|ILHV.Flavivirus.Mosq1
+>NC_009028|ILHV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAAAGT
 CCGCTGCACGGACTGTCAATATG---CTAAAACGC---CTGGCTAGCGTGTCC---CCC---TCAGGGCG
@@ -7220,7 +7220,7 @@ CTGCATGGTGTCCCAGCACAGGTTCGAAACACCTTCGCCCGTGACC---GGCGCCATC------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_009029|KOKV.Flavivirus.Mosq1
+>NC_009029|KOKV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGACCAAACCAGGAAGGC
 CCGGTAGACGGGCCGTCAATATG---CTAAAGCGCGGTGCGTCCCGCGCGCTTGGTCCAATGATCCTTAA
@@ -7377,7 +7377,7 @@ CTATCTGGGAACACAGAAGAGGTATGAGAGTGAGAAGAGAGTTCGA---GGAGTTCTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_012532|ZIKV.Flavivirus.Mosq1
+>NC_012532|ZIKV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGAAACCCAAAGAAGAAA
 TCCGGAGGCGGATTGTCAATATG---CTAAAACGCGGAGTAGCCCGTGTAAAC---CCCTTGGGATTGAA
@@ -7534,7 +7534,7 @@ CTATCTATCCACCCAAGTCCGCTAC---TTGGGTGAGGAAGGGCCC---GGAGTGTTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_012533|KEDV.Flavivirus.Mosq1
+>NC_012533|KEDV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGAAA---ACCCAAAAAA
 GGGCCGCACGGCCTATCAATATG---CTGAAGCGCTTTGGATCTAGCGCTGGC------CTTTTCCTAAA
@@ -7691,7 +7691,7 @@ TTACCTAGGAGTGCAAGACAGGTAC---TCCACCCACTCATTGACA---GGAGCCTTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_012534|BAGV.Flavivirus.Mosq1
+>NC_012534|BAGV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTTTAAACCAGGAAAAC
 CCGGGGCACGGGTTGTCAATATG---CTAAAGCGCGGTGCATCCCGCGGAAAT---CCGATATCTATCAA
@@ -7848,7 +7848,7 @@ CTATATGCCAACTCTAAACCGCTTC---AGGGCAGTGGAAACAGAT---GGGGTTCTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_015843|TMUV.Flavivirus.Mosq1
+>NC_015843|TMUV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAAGAC
 CCGGCTCACGGGTTGTCAATATG---CTAAAGCGCGGAACGTCCCGCGGAAAT---CCGCTAGCGATAAA
@@ -8005,7 +8005,7 @@ TTACATGCCAACTCTAAACAGGTTC---AAACCCATTGAAAGCGAA---GGTGTCTTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_018705|NTAV.Flavivirus.Mosq1
+>NC_018705|NTAV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCAAAACCAGGAAGAC
 CCGGGGCACGGGTTGTCAATATG---CTAAAGCGCGGCGCATCCCGCGGAAAT---CCGATATCTATCAA
@@ -8162,7 +8162,7 @@ CTATATGCCCACTCTAAACAGATTT---AAGGCAGTGGAATCGGAG---GGAGTGCTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_026623|CPCV.Flavivirus.Mosq1
+>NC_026623|CPCV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGTCTAAACCAGGAGGAC
 CCGGCAAGCGGGTCGTCAATATG---CTGAAGCGCGGAGCATCCCGCGCTGGG---CCTTTGCAGCTGAA
@@ -8319,7 +8319,7 @@ CTATATGCCCTCACAGCGTAGATTT---GAGGAAACACGGGTAGAC---CCGGTTTTT------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_029055|SPOV.Flavivirus.Mosq1
+>NC_029055|SPOV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATG---AACCCAAAAAGAG
 CCGGTAGCCGGCTTGTCAATATG---CTAAGACGCGGTGCAGCCCGTGTCATCCCTCCAGGAGGACTCAA
@@ -8476,7 +8476,7 @@ CTACATGAGCACACAGGTCCGCTAT---GGCTCGGAGGAAGGGGCT---GGTGTGTTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_032088|NMV.Flavivirus.Mosq1
+>NC_032088|NMV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGACTAAACCAGGAAAGT
 CCGGCAATCGGACTGTCAATATG---CTAAAGCGCGGAGCATCCCGCGCACTTGGCCCACTAGCCTTTAA
@@ -8633,7 +8633,7 @@ TTATATGGGAACCCAAAAGCGGTATGAATTGGAAAATGTACCCGAA---GGAGTCATT------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->DQ859056|BANV.Flavivirus.Mosq2
+>DQ859056|BANV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGGTTAATCCA----------
 --------------GTCAATGTAATGAAGCGGGCTGCCCAAAAAAAAAAGAAGGCAGTT-----------
@@ -8790,7 +8790,7 @@ CTACATGGAATCTATGGACAGGTATACACAGAGGTGTAGTTAC------GGAGAGTTGCTG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->DQ859067|POTV.Flavivirus.Mosq2
+>DQ859067|POTV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGGTTAATCCA----------
 --------------GTCAATGTAGTGAAGCGGTTGGCCCAAAAAAAAAAGAAAGTGGCT-----------
@@ -8947,7 +8947,7 @@ TTACCTAGCAACTATGGATAGGTTCTCCAGTTCCACCTCC---CTTGTAGGGGAACTTATT---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_002031|YFV.Flavivirus.Mosq2
+>NC_002031|YFV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGTCTGGTCGTAAAGCTCAGG
 GAAAAACCCTGGGCGTCAATATGGTACGACGAGGAGTTCGCTCCTTGTCAAACAAAATAAAACAAAAAAC
@@ -9104,7 +9104,7 @@ CTACCTAACAGTCATGGACAGGTATTCTGTGGATGCTGACCTGCAACTGGGTGAGCTTATC---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_005039|YOKV.Flavivirus.NKV2
+>NC_005039|YOKV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGAAAAATCGT---------A
 ACACCCGAATTTCGGGTGTCAATATAAACAAAAAACAAACAAAAAAAACATCTGTTGTAAAAAGAGGCAA
@@ -9261,7 +9261,7 @@ TTACCTTGAAACTCAAAACAGGTTCACCATAGTCCAA---CATCTTGTTGGAGATATCCTG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_008718|ENTV.Flavivirus.NKV2
+>NC_008718|ENTV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGAATAATCGC---------A
 ACACCCGGAAAAAGGGTGTCAACTTAAAAAAAGGACCGGGGAAACCCGGTCCTAAGAAGATGAGGGGAAG
@@ -9418,7 +9418,7 @@ CTACATGCAAACACAAACAAGGTTTACAATAGTTCGAACATTC------GGTGATGTGTTG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_008719|SEPV.Flavivirus.Mosq2
+>NC_008719|SEPV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGGCAACAAGAAAGTCTCGGG
 TCACGACCCGGGGCGTCAATATGGTGAAGAGTCTGGCCGTCAAAAAAAACAAAACAAAA-----------
@@ -9575,7 +9575,7 @@ TTATATGTCTACCATGGACCGATATGAGCTAGACGAA---GAAGGTCCAGGAGAAATCCTT---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_012735|WSLV.Flavivirus.Mosq2
+>NC_012735|WSLV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGGCAACAAAGAAGTCTCGGG
 CTCGATCCCGAGGCGTCAATATGGTAAAGAACCTAGCCGTTAAAAAAAACAAAACAAAA-----------
@@ -9732,7 +9732,7 @@ CTATCTAGCCACTATGGACAGATTCGAACTCGATGAG---AGTGGCCCTGGAGAAGTCTTG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_026624|SOKV.Flavivirus.NKV2
+>NC_026624|SOKV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGAATAATCGT---------A
 ACACCCGGAAACCGGGTGTCAACTTAAGAAAGGGGCCTAGCATGCCTAGGTCCCGTAAGACCAAGAACGG
@@ -9889,7 +9889,7 @@ CTATCTCCAGACGCAGAATAGATTCACTGCGCTGCAGCGGTTC------GGAGATGTCCTG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_027999|EPEV.Flavivirus.dISF2
+>NC_027999|EPEV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGGTTGAGAAAGGATCTCGGG
 TTAAAACCCGAGGTGTCAATATGATTAAGACTGTGAAAACAGTCAGGAATGCCAGAAAAAATGTGGAG--
@@ -10046,7 +10046,7 @@ CTATCTGAACACCCAAGATAGATTCGACACAACTGAACCAACTGGATTTGGGACAATATTG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_030289|EHV.Flavivirus.Mosq2
+>NC_030289|EHV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGCCTGTTCGC---------A
 ATAAGCCTAAGGGCGTCAATGTAATGGGGAAAGTCGCCCAAAAAAAAAACAAGTTGAAGAGTAAGGCCAA
@@ -10203,7 +10203,7 @@ CCATTTGTCAGTCATGGGCAGGTACTACTCAGTGCAA------GAAGTTGGAACAGTTTTG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_033693|BOUV.Flavivirus.Mosq2
+>NC_033693|BOUV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGGTTAATCCA----------
 --------------GTCAATGTAATGAAACGGGTTGCCCAAAAAAAAAAGAAAATGGTA-----------
@@ -10360,7 +10360,7 @@ TTACCTAAGCTCGATGGACAGGTTCACACAATTGGAAGAG------TATGGACACTTAATC---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_033697|SABV.Flavivirus.Mosq2
+>NC_033697|SABV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGGTTAATCCA----------
 --------------GTCAATGTAGTGAAACGGCTGGCCCAAAAAAAAAAGAAGGTGGCC-----------
@@ -10517,7 +10517,7 @@ TTATTTAGCAACTATGGATAGGTTTTCTAGTTCCACCTCC---CTTGTAGGGGAACTTATC---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_033698|UGSV.Flavivirus.Mosq2
+>NC_033698|UGSV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGGTTAATCCA----------
 --------------GTCAATGTAATGAAACGGGTTGCCCAAAAAAAAAAGAGAGTAGTG-----------
@@ -10674,7 +10674,7 @@ TTACATGGAAAACATGGATAGGTTCACCAAGACAAGTGGG---ACCTATGGAGAACTCATA---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_033699|JUGV.Flavivirus.Mosq2
+>NC_033699|JUGV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGGTAAATCCA----------
 --------------GTCAATGTAGTGAAGCGGTTGGCCCAAAAAAGAAGAAAGGCGGTC-----------
@@ -10831,7 +10831,7 @@ TTACTTAGGAGTTATGGACAGGTACACCATAGCAGGGCCC---ACAGTGGGCGATCTGATC---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->KJ469370|BCV.Flavivirus.NKV1
+>KJ469370|BCV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGGTCACGCAGCCTCGGCGAG
 GTAATTTG------------------AAAAAACAAATTAAGAGCGGAAAGAAAAGAGATGGTGGT-----
@@ -10988,7 +10988,7 @@ CTACCTGAGTGAAATCGGGAGGTAC------TCCGAAGAAGAGTTT------GCCTTGTAC---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_003635|MODV.Flavivirus.NKV1
+>NC_003635|MODV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGTGCGAAAATAACAGGAAAA
 AGAACCCT------------------GGAAAGGGTTCAAAAAAGAATGCTGGAAGGAATGGGAAG-----
@@ -11145,7 +11145,7 @@ CTACCTTAGGAACATGGGTAGGTATGAG---TCACAAGAAGAATTT------TCAATGTAT---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_003675|RBV.Flavivirus.NKV1
+>NC_003675|RBV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGGTAGGTAAATTGAAA----
 -----AAC------------------GCAAAA------AATAAAGGGACCCGGCTACGCCGGCCT-----
@@ -11302,7 +11302,7 @@ CTACCTTGGAGCAATGGGACGCTAT------GAATGTGATGATTTC------CAACTGTAT---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_003676|APOIV.Flavivirus.NKV1
+>NC_003676|APOIV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGGCGGGGAATTTGAAGAAGA
 AATCTGCC------------------AAACCCAAGGCCCAAAGGAGACCACCTCAGGGCCGAGGA-----
@@ -11459,7 +11459,7 @@ CTACTTGAGCAATATGGGTAGGTACCAAGAAGGGACGGAAGAGTTC------CACATGTGG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_004119|MMLV.Flavivirus.NKV1
+>NC_004119|MMLV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGACGAAAGGCAAAATG---A
 AAAACGCG------------------AATAAAAAGAAAGCAAAAAACTCTAAGACCAATCCTGGT-----
@@ -11616,7 +11616,7 @@ CTACATGGATTGTATTGGAAGATAT------CATGTTGGCCACTTC------TGCCTGTAC---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_026620|JUTV.Flavivirus.NKV1
+>NC_026620|JUTV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGCTTAACAATAGCAAAAAGA
 AGCCCTCT------------------GGTGGTGGC---CAGAGGGCGTCTGGGAGAAGAAAGAAA-----
@@ -11773,7 +11773,7 @@ TTACCTTCAAGTGATGGGCAGGTTTGTTCAAAAACAGCCTTCATTC------TCCATGTAT---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_005039|YOKV.Flavivirus.NKV2
+>NC_005039|YOKV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------AATCGTAGACAAAACACCCGAA
 TTTCGGGT------GTCAATATAAAAAAGCAAAATCCAAAAAACAAAAAACAAACAAAAATAAAATCTGT
@@ -11930,7 +11930,7 @@ TTACCTTGAAACTCAAAACAGGTTCAGGACCATAGTCCAACATCTTGTTGGAGATATCCTG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_008718|ENTV.Flavivirus.NKV2
+>NC_008718|ENTV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------AATCGCAGAAGTAACACCCGGA
 AAAAGGGT------GTCAACTTAAAATTGCAAAATCAAAATAAAAAAGGACCGGGGAAACCCGGTAAGAA
@@ -12087,7 +12087,7 @@ CTACATGCAAACACAAACAAGGTTTGCCACAATAGTTCGAACAATGTTCGGTGATGTGTTG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_026624|SOKV.Flavivirus.NKV2
+>NC_026624|SOKV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------AATCGTAAGAGTAACACCCGGA
 AACCGGGT------GTCAACTTAAAATTGCAAAATCAAAAAAGAAAGGGGCCTAGCATGCCTAGGCGTAA
@@ -12244,7 +12244,7 @@ CTATCTCCAGACGCAGAATAGATTCGTGACTGCGCTGCAGCGGGTGTTCGGAGATGTCCTG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->DQ235149|RFV.Flavivirus.Tick
+>DQ235149|RFV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGCTGGCAAAGCCAAAG
 GTAAGGGG---------------------GGTGGCCCCCCTGGGAAGAGACCCAAAGTGGCCATAAGAAA
@@ -12401,7 +12401,7 @@ CTACCTGTCATGCATGGACAGACATGAAGCTCCGTGGATGACGGACCTGAATAGCGACATC---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->DQ235151|TSEV.Flavivirus.Tick
+>DQ235151|TSEV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGCTGGGAAAGCCAAGG
 GAAAGGGG---------------------GGCGGTCCCCCGCGACGAGTGTTGAAAGAGACCGCAAGGAA
@@ -12558,7 +12558,7 @@ TTACCTCTCCTGCATGGACCGCCATGACCTGCACTGGGAGCCTCGGCTGGAGAGCTCAATC---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->JF416960|KFDV.Flavivirus.Tick
+>JF416960|KFDV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGCCAAAGGAGCCAAAG
 GAAAGGGG---------------------GGCGGTCCCCCTAGGCGAGTGCCGAAAGAGACCGCAAAAAA
@@ -12715,7 +12715,7 @@ TTATCTCTCCTGCATGGACAGGCATGAGCTCCACTGGGACCTGAAGTTGGAAAGCAATATC---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_001672|TBEV.Flavivirus.Tick
+>NC_001672|TBEV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGTCAAGAAGGCCAAAG
 GTAAGGGG---------------------GGCGGTCCCCCTCGACGAGTGTCGAAAGAGACCGCAACGAA
@@ -12872,7 +12872,7 @@ CTATCTCTCCTGTATGGACCGCCATGACCTGCACTGGGAGCTCAGACTGGAGAGCTCAATA---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_001809|LIV.Flavivirus.Tick
+>NC_001809|LIV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGGCAGGAAGACCAAAG
 GCAAGGGG---------------------GGCGGTCCCCCTCGACGAGTGTCGAAAGAGACCGCGACGAA
@@ -13029,7 +13029,7 @@ CTATCTCTCCTGCATGGACCGCCATGACCTACACTGGGAGCTCAAGCTAGAGAGCTCAATA---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_003687|POWV.Flavivirus.Tick
+>NC_003687|POWV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGATGACCACTTCTAAAG
 GAAAGGGG---------------------GGCGGTCCCCCTAGGCGCAAGCTTAAAGTGACCGCAAATAA
@@ -13186,7 +13186,7 @@ CTACTTATCAAGCATGGACAGACATGACCTGCACTGGGAGCTCAAGCTAGAGAGCTCGATA---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_003690|LGTV.Flavivirus.Tick
+>NC_003690|LGTV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGCCGGGAAGGCCAAAG
 GAAAGGGG---------------------GGGGGTCCCCCTCGACGAGCGTCGAAAGTGGCCCCAAAGAA
@@ -13343,7 +13343,7 @@ CTACTTGTCAAGCATGGACAGACACGACCTACACTGGGAGCTCAAACTGGAGAGCTCAATA---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_005062|OMSKV.Flavivirus.Tick
+>NC_005062|OMSKV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGCCGGGAAGGCCAAAG
 GAAAGGGG---------------------GGCGGTCCCCCTCGACGAGTGTCGAAAGAGACCGCTAAGAA
@@ -13500,7 +13500,7 @@ CTACCTTTCCTGCATGGACCGGCATGAACTGCACTGGGAGCTCAAAGTGGAGAGCTCAATA---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_023424|TYUV.Flavivirus.Tick
+>NC_023424|TYUV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGCCCTCAGTTTTAAAGG
 GCGGCGGA---------------------AAGCCTGTCACGCAAGTGACCAAAACCGCCATGAAAAATAA
@@ -13657,7 +13657,7 @@ CTATCTGCAGGCAATGGACAGATTTGGGCCAACCAAGTCTGTCCCTCTGACAAGCGACATC---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_023439|KAMV.Flavivirus.Tick
+>NC_023439|KAMV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGCCTTCGGTTTTGAAAG
 GCGGCGGT---------------------AAGCCTGCTGCGTATGCAGCTAAAACCGCC---AAGAAAAC
@@ -13814,7 +13814,7 @@ CTACCTCTCGGTGATGGACAGATATGGGGGCGGCGTGGCTGTGCCCATAACTAGTGACATT---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_027709|SGEV.Flavivirus.Tick
+>NC_027709|SGEV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGGCAGGAAGTCCAAAG
 GTAAGGGG---------------------GGCGGTCCCCCTCGACGAGTGTCGAAAGAGACCGCAACGAA
@@ -13971,7 +13971,7 @@ CTATCTCTCCTGCATGGACCGTCATGACCTGCACTGGGAGCTCAAGCTGGAGAGCTCGATA---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_033721|MEAV.Flavivirus.Tick
+>NC_033721|MEAV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGCCTTCAGTTTTGAAAG
 GCGGCGGG---------------------AAGCCTGCTGCGAAAGCAGCTAAAACCGCC---AAAAATAA
@@ -14128,7 +14128,7 @@ CTACCTTTCCGTGATGGACAGGTACGGAGGGGGAACCCCCGTACCAATGACTAGTGACATC---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_033723|GGYV.Flavivirus.Tick
+>NC_033723|GGYV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGACTAACAAAGGCAAAG
 GAAGGGGG---------------------AGTGGTCCCCCCGGGCGAAGGCCCAAAGAGACCACAAAAAA
@@ -14285,7 +14285,7 @@ TTACCTATCATGTATGGACAGACATGAGCTCCACTGGGAAACACCAAGTGAGAGCGACATC---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_033724|KADV.Flavivirus.Tick
+>NC_033724|KADV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGCCTGCTTTGAAGCGAG
 GAGGTGCC---------------------CGAGCC------------CCTAGGGGGCCA---AAGAACTC
@@ -14442,7 +14442,7 @@ CTACATGACAGTCATGGACAGGTTTGAGTTGCATCAGGAAGAGGAGTTGGGGAGCAACATC---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_033726|SREV.Flavivirus.Tick
+>NC_033726|SREV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGCCTTCGATTTTGAAGG
 GCGGCGGA---------------------AAGCCTACTGCGAAAGCAGTGAAAACCGCC---AAGAAAAA
@@ -14599,7 +14599,7 @@ CTACTTGATGGTCATGGACAGATACCAAGGGGGTGAAGCACTCCCTGTAGTGAGTGACATC---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_001477|DENV1.Flavivirus.Mosq1
+>NC_001477|DENV1.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGAACAACCAACGGAAAA
 AGACGGGTCCGTCTTTCAATATG---CTGAAACGCGCGAGAAACCGCGTGTCAACTGTTTCACAGGCGAA
@@ -14756,7 +14756,7 @@ CTTCATGACATCAATGAAGAGATTCAAAAACGAGAGTGATCCCGAA---GGGGCACTCTGG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_002031|YFV.Flavivirus.Mosq2
+>NC_002031|YFV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGTCTGGTCGTAAAGCTCAGG
 GAAAAACCCTGGGCGTCAATATGGTACGACGAGGAGTTCGCTCCTTGTCAAACAAAATAAAACAAAAAAC
@@ -14913,7 +14913,7 @@ CTACCTAACAGTCATGGACAGGTATTCTGTGGATGCTGACCTGCAACTGGGTGAGCTTATC---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_003676|APOIV.Flavivirus.NKV1
+>NC_003676|APOIV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------ATGGCGGGGAATTTGAAGAAGA
 AATCTGCC------------------AAACCCAAGGCCCAAAGGAGACCACCTCAGGGCCGAGGA-----
@@ -15070,7 +15070,7 @@ CTACTTGAGCAATATGGGTAGGTACCAAGAAGGGACGGAAGAGTTC------CACATGTGG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_003687|POWV.Flavivirus.Tick
+>NC_003687|POWV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGATGACCACTTCTAAAG
 GAAAGGGG---------------------GGCGGTCCCCCTAGGCGCAAGCTTAAAGTGACCGCAAATAA
@@ -15227,7 +15227,7 @@ CTACTTATCAAGCATGGACAGACATGACCTGCACTGGGAGCTCAAGCTAGAGAGCTCGATA---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_005064|KRV.Flavivirus.cISF
+>NC_005064|KRV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------GGGCCTCCGGGCCCAACATCCA
 ACCGTCCGTCGGCGGGAAAACGAGTCAAACAAGTGGCCCCACCACCAACTAGGGGTCACATGGAGCTCTC
@@ -15384,7 +15384,7 @@ TGAGCTCTCGGTGATGAGTCGTTTCCGGAAGGGGAATGACGTCATT------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_024806|LAMV.Flavivirus.dISF1B
+>NC_024806|LAMV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ---------------------------------------------------ATGGCGAATAAACCCAAGA
 AGCCCGCTCGGGCTATCGATATA---GTGAGACGCGCGTTGCCCCGCGTCTCGGGACCCAAAAGGTTAGC
@@ -15541,7 +15541,7 @@ CTATTTGCAGGCCCAAAACAGATTCAGCATTCCAGCTGAATTCACAATGGGAAACATATTG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_026624|SOKV.Flavivirus.NKV2
+>NC_026624|SOKV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------AATCGTAAGAGTAACACCCGGA
 AACCGGGT------GTCAACTTAAAATTGCAAAATCAAAAAAGAAAGGGGCCTAGCATGCCTAGGCGTAA
@@ -15698,7 +15698,7 @@ CTATCTCCAGACGCAGAATAGATTCGTGACTGCGCTGCAGCGGGTGTTCGGAGATGTCCTG---------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------
->NC_027999|EPEV.Flavivirus.dISF2
+>NC_027999|EPEV.Flavivirus.NULL
 ----------------------------------------------------------------------
 ------------------------------------------------AGAGTAGGATCTCGGGTTAAAA
 CCCGAGGT------------------GTCAATATGATTAGGCGTACTGGAAAGACTGTGAAAACATCAAG

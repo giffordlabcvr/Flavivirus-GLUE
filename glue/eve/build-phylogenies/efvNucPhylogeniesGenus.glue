@@ -30,12 +30,12 @@
   create module -f modules/core/fastaAlignmentExporter.xml
   create module -f modules/core/flaviTreeAlignmentImporterNucs.xml
   create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
-  create module -f modules/core/alignmentColumnsSelectorFlavivirus.xml
-  create module -f modules/core/alignmentColumnsSelectorTamanavirus.xml
-  create module -f modules/core/alignmentColumnsSelectorPL1.xml
-  create module -f modules/core/alignmentColumnsSelectorPL2.xml
-  create module -f modules/core/alignmentColumnsSelectorJingmenvirus_Seg1.xml
-  create module -f modules/core/alignmentColumnsSelectorJingmenvirus_Seg3.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorFlavivirus.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorTamanavirus.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorPL1.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorPL2.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorJingmenvirus_Seg1.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorJingmenvirus_Seg3.xml
   
 
   # Export the recursively populated root gene alignments 
