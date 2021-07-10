@@ -1,1 +1,4 @@
 taxon	sequenceID	subfamily	genus	clade	host_group	vector_group	isolate	sampled_host_sci_name	sample_date	country
+alignment/AL_FLAVI_SUBGENUS_NKV2/member/ncbi-refseqs/NC_005039	NC_005039	FlaviPesti	Flavivirus	NKV2	mosquito	mosquito	-	-	-	-
+alignment/AL_FLAVI_SUBGENUS_NKV2/member/ncbi-refseqs/NC_008718	NC_008718	FlaviPesti	Flavivirus	NKV2	unknown	unknown	-	bat	-	Uganda
+alignment/AL_FLAVI_SUBGENUS_NKV2/member/ncbi-refseqs/NC_026624	NC_026624	FlaviPesti	Flavivirus	NKV2	ticks	ticks	-	Vespertilio pipistrellus	-	Kyrgyzstan

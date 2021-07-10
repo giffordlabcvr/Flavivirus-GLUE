@@ -8,7 +8,7 @@
   # Export annotations
   module flaviviridaeFigTreeAnnotationExporter 
 
-    export figtree-annotation AL_FLAVI_SUBGENUS_cISF -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+    export figtree-annotation AL_FLAVI_SUBGENUS_cISF -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
       and fLocNotes.ref_nt_coverage_pct >= 5" -f trees/subgenus/cisf-efv.figtree-annotations.tsv
 
 

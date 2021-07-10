@@ -1,1 +1,14 @@
 taxon	sequenceID	subfamily	genus	clade	host_group	vector_group	isolate	sampled_host_sci_name	sample_date	country
+alignment/AL_TREE_PestiLike/member/ncbi-refseqs/NC_001461	NC_001461	FlaviPesti	Pestivirus	A	Bos	none	-	-	-	-
+alignment/AL_TREE_PestiLike/member/ncbi-refseqs/NC_002657	NC_002657	FlaviPesti	Pestivirus	C	Sus	none	-	-	-	-
+alignment/AL_TREE_PestiLike/member/ncbi-refseqs/NC_003678	NC_003678	FlaviPesti	Pestivirus	G	Giraffa	none	giraffe-1 H138	Giraffa camelopardalis	-	-
+alignment/AL_TREE_PestiLike/member/ncbi-refseqs/NC_003679	NC_003679	FlaviPesti	Pestivirus	D	Ovis	none	-	-	-	-
+alignment/AL_TREE_PestiLike/member/ncbi-refseqs/NC_012812	NC_012812	FlaviPesti	Pestivirus	H	Bos	none	-	Bos taurus	-	Thailand
+alignment/AL_TREE_PestiLike/member/ncbi-refseqs/NC_018713	NC_018713	FlaviPesti	Pestivirus	I	Ovis	none	-	sheep	-	Turkey
+alignment/AL_TREE_PestiLike/member/ncbi-refseqs/NC_023176	NC_023176	FlaviPesti	Pestivirus	F	Sus	none	Bungowannah	-	-	Australia
+alignment/AL_TREE_PestiLike/member/ncbi-refseqs/NC_024018	NC_024018	FlaviPesti	Pestivirus	E	Antilocapra	none	-	pronghorn antelope	-	USA
+alignment/AL_TREE_PestiLike/member/ncbi-refseqs/NC_024077	NC_024077	FlaviPesti	Pesti-like	PL1	Heterodera	none	-	Heterodera glycines	-	USA
+alignment/AL_TREE_PestiLike/member/ncbi-refseqs/NC_025677	NC_025677	FlaviPesti	Pestivirus	J	Rattus	none	NrPV/NYC-D23	Rattus norvegicus	-	USA: New York, New York City
+alignment/AL_TREE_PestiLike/member/ncbi-refseqs/NC_028370	NC_028370	FlaviPesti	Pesti-like	Ungrouped	Velarifictorus	none	-	Velarifictorus micado	-	China
+alignment/AL_TREE_PestiLike/member/ncbi-refseqs/NC_028373	NC_028373	FlaviPesti	Pesti-like	PL2	Chrysopida	none	-	Chrysopidae sp.	-	China
+alignment/AL_TREE_PestiLike/member/ncbi-refseqs/NC_028375	NC_028375	FlaviPesti	Pesti-like	Ungrouped	Musca	none	-	Musca domestica	-	China

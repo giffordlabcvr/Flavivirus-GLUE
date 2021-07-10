@@ -1,1 +1,36 @@
 taxon	sequenceID	subfamily	genus	clade	host_group	vector_group	isolate	sampled_host_sci_name	sample_date	country
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/AY632538	AY632538	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	-
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/AY632542	AY632542	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	-
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/AY898809	AY898809	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	Australia
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/D00246	D00246	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	-
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/EU082199	EU082199	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	Cameroon
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/EU082200	EU082200	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	Senegal
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/EU159426	EU159426	FlaviPesti	Flavivirus	Mosq1	Aedes	mosquito	-	Uranotaenia mashonaensis	-	Cote d'Ivoire
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/JF312912	JF312912	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	duck	-	China
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/JF926699	JF926699	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	layer	-	China
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/JX477686	JX477686	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	Malaysia
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KC734550	KC734550	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	Israel/618/1995	domestic turkey	-	Israel
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KF917538	KF917538	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	sentinel hamster	-	Ecuador
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KM225263	KM225263	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	Australia
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KM225264	KM225264	FlaviPesti	Flavivirus	Mosq1	Aedes	mosquito	-	Aedes sp. (mosquito)	-	Papua New Guinea
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KM225265	KM225265	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	mosquito	-	Australia
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_000943	NC_000943	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	-
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001437	NC_001437	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	-
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001474	NC_001474	FlaviPesti	Flavivirus	Mosq1	Aedes	mosquito	-	-	-	Thailand
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001475	NC_001475	FlaviPesti	Flavivirus	Mosq1	Aedes	mosquito	D3/H/IMTSSA-SRI/2000/1266	-	-	Sri Lanka
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001477	NC_001477	FlaviPesti	Flavivirus	Mosq1	Aedes	mosquito	-	-	-	-
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001563	NC_001563	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	-
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_002640	NC_002640	FlaviPesti	Flavivirus	Mosq1	Aedes	mosquito	-	-	-	-
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_006551	NC_006551	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	Austria
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_007580	NC_007580	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	USA
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_009026	NC_009026	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	BeAn 4073	-	-	-
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_009028	NC_009028	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	-
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_009029	NC_009029	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	-
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_012532	NC_012532	FlaviPesti	Flavivirus	Mosq1	Aedes	mosquito	-	sentinel monkey	-	Uganda
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_012533	NC_012533	FlaviPesti	Flavivirus	Mosq1	Aedes	mosquito	-	mosquito	-	Senegal
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_012534	NC_012534	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	mosquito	-	Central African Republic
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_015843	NC_015843	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	goose	-	China
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_018705	NC_018705	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	IPDIA	-	-	-
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_026623	NC_026623	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	Formicarius analis	-	Brazil
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_029055	NC_029055	FlaviPesti	Flavivirus	Mosq1	Aedes	mosquito	-	-	-	South Africa
+alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_032088	NC_032088	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	mosquito	-	Australia: New Mapoon

@@ -5,13 +5,13 @@
          
 
     <aminoAcidRegionSelector>
-        <featureName>precursor_polyprotein2</featureName>
+        <featureName>precursor_polyprotein</featureName>
         <startCodon>1</startCodon>
         <endCodon>3357</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>precursor_polyprotein2</featureName>
+        <featureName>precursor_polyprotein</featureName>
         <startNt>97</startNt>
         <endNt>10165</endNt>
     </nucleotideRegionSelector>

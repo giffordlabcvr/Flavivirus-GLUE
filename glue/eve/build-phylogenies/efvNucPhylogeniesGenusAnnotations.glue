@@ -8,16 +8,16 @@
   # Export annotations
   module flaviviridaeFigTreeAnnotationExporter 
 
-    export figtree-annotation AL_GENUS_Flavivirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+    export figtree-annotation AL_GENUS_Flavivirus -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
       and fLocNotes.ref_nt_coverage_pct >= 60" -f trees/genus/flavivirus-efv.figtree-annotations.tsv
 
-    export figtree-annotation AL_GENUS_Tamanavirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+    export figtree-annotation AL_GENUS_Tamanavirus -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
       and fLocNotes.ref_nt_coverage_pct >= 20" -f trees/genus/tamanavirus-efv.figtree-annotations.tsv
 
-    export figtree-annotation AL_GENUS_Pestivirus -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+    export figtree-annotation AL_GENUS_Pestivirus -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
       and fLocNotes.ref_nt_coverage_pct >= 60" -f trees/genus/pestivirus-efv.figtree-annotations.tsv
 
-    export figtree-annotation AL_GENUS_Jingmenvirus_Seg1 -w "fLocNotes.featureLoc.feature.name = 'polyprotein'  \
+    export figtree-annotation AL_GENUS_Jingmenvirus_Seg1 -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
       and fLocNotes.ref_nt_coverage_pct >= 40" -f trees/genus/jingmenvirus_seg1-efv.figtree-annotations.tsv
 
 
