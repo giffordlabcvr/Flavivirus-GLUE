@@ -1,0 +1,25 @@
+  
+  # Clean-up
+  delete module flaviviridaeFigTreeAnnotationExporter
+
+  # Create all the modules we need
+  create module -f modules/core/flaviviridaeFigTreeAnnotationExporter.xml
+
+  # Export annotations
+  module flaviviridaeFigTreeAnnotationExporter 
+
+    export figtree-annotation AL_TREE_HepaPegi -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 40" -f trees/major-lineage/major1_hepapegi.figtree-annotations.tsv
+
+    export figtree-annotation AL_TREE_FlaviPesti -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 40" -f trees/major-lineage/major1_flavipesti.figtree-annotations.tsv
+
+    export figtree-annotation AL_TREE_FlaviLike -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 40" -f trees/major-lineage/major1_flavilike.figtree-annotations.tsv
+
+    export figtree-annotation AL_TREE_PestiLike -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 40" -f trees/major-lineage/major1_pestilike.figtree-annotations.tsv
+
+
+  exit
+

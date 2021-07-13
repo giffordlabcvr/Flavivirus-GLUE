@@ -1,0 +1,61 @@
+
+  # Clean up from any previous run of this file
+  
+  # Delete alignments
+  delete alignment AL_UNC_TREE_FlaviTamana
+  delete alignment AL_TREE_FlaviTamana
+
+  # Delete modules  
+  delete module raxmlPhylogenyGenerator
+  delete module alignmentColumnsSelectorFlaviTamana
+  
+  # Create all the modules we need
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/core/fastaAlignmentExporter.xml
+  create module -f modules/core/flaviTreeAlignmentImporterNucs.xml
+  create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorFlaviTamana.xml
+  
+
+  # Export the recursively populated root gene alignments 
+  module fastaAlignmentExporter	
+ 	export AL_MINOR_FlaviTamana   -r REF_MASTER_YFV -f whole_genome --recursive -a  -e -o alignments/tree/minor_flavitamana-all.aln.fna	
+	exit
+
+
+  # Re-import the recursively populated root alignment into the project
+  module flaviTreeAlignmentImporterNucs
+  
+    import AL_UNC_TREE_FlaviTamana        -f alignments/tree/minor_flavitamana-all.aln.fna     
+	exit
+
+  
+  # Create constrained alignments  
+  create alignment AL_TREE_FlaviTamana    -r REF_MASTER_YFV
+
+
+  # Derive constrained alignments from unconstrained alignments 
+  alignment AL_TREE_FlaviTamana
+	derive segments AL_UNC_TREE_FlaviTamana -a --mergeStrategy OVERWRITE
+	exit
+
+
+  # Record feature presence  
+  module flaviviridaeFeaturePresenceRecorder
+
+    record feature-presence AL_TREE_FlaviTamana       --featureName whole_genome --descendentFeatures
+ 
+    exit
+
+
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
+
+    generate amino-acid phylogeny AL_TREE_FlaviTamana -s alignmentColumnsSelectorFlaviTamana \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 50" \
+     -o trees/minor-lineage/minor_flavitamana.tre NEWICK_BOOTSTRAPS
+
+
+
+    exit
+

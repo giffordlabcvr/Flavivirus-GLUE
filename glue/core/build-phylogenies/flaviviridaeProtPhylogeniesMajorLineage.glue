@@ -2,13 +2,13 @@
   # Clean up from any previous run of this file
   
   # Delete alignments
-  delete alignment AL_UNC_EFV_TREE_HepaciPegi
+  delete alignment AL_UNC_TREE_HepaciPegi
   delete alignment AL_TREE_HepaciPegi
-  delete alignment AL_UNC_EFV_TREE_FlaviPesti
+  delete alignment AL_UNC_TREE_FlaviPesti
   delete alignment AL_TREE_FlaviPesti
-  delete alignment AL_UNC_EFV_TREE_PestiLike
+  delete alignment AL_UNC_TREE_PestiLike
   delete alignment AL_TREE_PestiLike
-  delete alignment AL_UNC_EFV_TREE_FlaviLike
+  delete alignment AL_UNC_TREE_FlaviLike
   delete alignment AL_TREE_FlaviLike
 
   # Delete modules  
@@ -44,10 +44,10 @@
   # Re-import the recursively populated root alignment into the project
   module flaviTreeAlignmentImporterNucs
   
-    import AL_UNC_EFV_TREE_FlaviPesti        -f alignments/tree/major1_flavipesti-all.aln.fna
-    import AL_UNC_EFV_TREE_HepaPegi          -f alignments/tree/major1_hepacipegi-all.aln.fna	
-    import AL_UNC_EFV_TREE_FlaviLike         -f alignments/tree/major2_flavilike-all.aln.fna
-    import AL_UNC_EFV_TREE_PestiLike         -f alignments/tree/major2_pestilike-all.aln.fna
+    import AL_UNC_TREE_FlaviPesti        -f alignments/tree/major1_flavipesti-all.aln.fna
+    import AL_UNC_TREE_HepaPegi          -f alignments/tree/major1_hepacipegi-all.aln.fna	
+    import AL_UNC_TREE_FlaviLike         -f alignments/tree/major2_flavilike-all.aln.fna
+    import AL_UNC_TREE_PestiLike         -f alignments/tree/major2_pestilike-all.aln.fna
      
 	exit
 
@@ -64,19 +64,19 @@
   # Derive constrained alignments from unconstrained alignments
   
   alignment AL_TREE_FlaviPesti
-	derive segments AL_UNC_EFV_TREE_FlaviPesti -a --mergeStrategy OVERWRITE
+	derive segments AL_UNC_TREE_FlaviPesti -a --mergeStrategy OVERWRITE
 	exit
   
   alignment AL_TREE_HepaPegi
-	derive segments AL_UNC_EFV_TREE_HepaPegi  -a --mergeStrategy OVERWRITE
+	derive segments AL_UNC_TREE_HepaPegi  -a --mergeStrategy OVERWRITE
 	exit
   
   alignment AL_TREE_FlaviLike
-	derive segments AL_UNC_EFV_TREE_FlaviLike -a --mergeStrategy OVERWRITE
+	derive segments AL_UNC_TREE_FlaviLike -a --mergeStrategy OVERWRITE
 	exit
   
   alignment AL_TREE_PestiLike
-	derive segments AL_UNC_EFV_TREE_PestiLike -a --mergeStrategy OVERWRITE
+	derive segments AL_UNC_TREE_PestiLike -a --mergeStrategy OVERWRITE
 	exit
 
 
@@ -95,21 +95,21 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    #generate nucleotide phylogeny AL_TREE_FlaviPesti -s alignmentColumnsSelectorFlaviPesti \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-    #  -o trees/major-lineage/major1_flavipesti.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_TREE_FlaviPesti -s alignmentColumnsSelectorFlaviPesti \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
+      -o trees/major-lineage/major1_flavipesti.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_TREE_HepaPegi -s alignmentColumnsSelectorHepaciPegi \
-      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 5" \
+    generate amino-acid phylogeny AL_TREE_HepaPegi -s alignmentColumnsSelectorHepaciPegi \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
       -o trees/major-lineage/major1_hepapegi.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_TREE_FlaviLike -s alignmentColumnsSelectorFlaviLike \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-    #  -o trees/major-lineage/major1_flavilike.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_TREE_FlaviLike -s alignmentColumnsSelectorFlaviLike \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
+      -o trees/major-lineage/major1_flavilike.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_TREE_PestiLike -s alignmentColumnsSelectorPestiLike \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-    #  -o trees/major-lineage/major1_pestilike.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_TREE_PestiLike -s alignmentColumnsSelectorPestiLike \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
+      -o trees/major-lineage/major1_pestilike.tre NEWICK_BOOTSTRAPS
 
 
     exit

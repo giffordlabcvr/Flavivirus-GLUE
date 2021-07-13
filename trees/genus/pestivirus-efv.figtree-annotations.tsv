@@ -1,0 +1,10 @@
+taxon	sequenceID	name	subfamily	genus	clade	host_group	vector_group	isolate	sampled_host_sci_name	sample_date	country
+alignment/AL_GENUS_Pestivirus/member/ncbi-refseqs/NC_001461	NC_001461	BVDV1	FlaviPesti	Pestivirus	NULL	Bos	none	-	-	-	-
+alignment/AL_GENUS_Pestivirus/member/ncbi-refseqs/NC_002657	NC_002657	CSFV	FlaviPesti	Pestivirus	NULL	Sus	none	-	-	-	-
+alignment/AL_GENUS_Pestivirus/member/ncbi-refseqs/NC_003678	NC_003678	GiPeV	FlaviPesti	Pestivirus	NULL	Giraffa	none	giraffe-1 H138	Giraffa camelopardalis	-	-
+alignment/AL_GENUS_Pestivirus/member/ncbi-refseqs/NC_003679	NC_003679	BDV	FlaviPesti	Pestivirus	NULL	Ovis	none	-	-	-	-
+alignment/AL_GENUS_Pestivirus/member/ncbi-refseqs/NC_012812	NC_012812	BVDV3	FlaviPesti	Pestivirus	NULL	Bos	none	-	Bos taurus	-	Thailand
+alignment/AL_GENUS_Pestivirus/member/ncbi-refseqs/NC_018713	NC_018713	Aydin	FlaviPesti	Pestivirus	NULL	Ovis	none	-	sheep	-	Turkey
+alignment/AL_GENUS_Pestivirus/member/ncbi-refseqs/NC_023176	NC_023176	PoPeV	FlaviPesti	Pestivirus	NULL	Sus	none	Bungowannah	-	-	Australia
+alignment/AL_GENUS_Pestivirus/member/ncbi-refseqs/NC_024018	NC_024018	PAPeV	FlaviPesti	Pestivirus	NULL	Antilocapra	none	-	pronghorn antelope	-	USA
+alignment/AL_GENUS_Pestivirus/member/ncbi-refseqs/NC_025677	NC_025677	NrPeV	FlaviPesti	Pestivirus	NULL	Rattus	none	NrPV/NYC-D23	Rattus norvegicus	-	USA: New York, New York City
