@@ -1,6 +1,6 @@
   
   # Clean-up
-  delete module raxmlPhylogenyGenerator
+  delete module flaviviridaeRaxmlPhylogenyGeneratorProt
   delete module alignmentColumnsSelectorCisf
   delete module alignmentColumnsSelectorTbfv
   delete module alignmentColumnsSelectorMbfv1
@@ -15,7 +15,7 @@
 
   
   # Create all the modules we need
-  create module -t raxmlPhylogenyGenerator
+  create module -f modules/core/flaviviridaeRaxmlPhylogenyGeneratorProt.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorCisf.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorTbfv.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorMbfv1.xml
@@ -23,58 +23,36 @@
   create module -f modules/core/phylogeny/alignmentColumnsSelectorNkv1.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorNkv2.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorCrustacean.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorDisf1.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorDisf1A.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorDisf1B.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorDisf2.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorDisf.xml
 
 
   # Create the phylogenies
-  module raxmlPhylogenyGenerator
+  module flaviviridaeRaxmlPhylogenyGeneratorProt
 
     generate amino-acid phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisf \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_aa_coverage_pct >= 50" \
-      -o trees/subgenus/cisf.tre NEWICK_BOOTSTRAPS
+      -a -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfv \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_aa_coverage_pct >= 50" \
-      -o trees/subgenus/tbfv.tre NEWICK_BOOTSTRAPS
+      -a -o trees/subgenus/tbfv-aa.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_FLAVI_SUBGENUS_MBFV1 -s alignmentColumnsSelectorMbfv1 \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_aa_coverage_pct >= 50" \
-      -o trees/subgenus/mbfv1.tre NEWICK_BOOTSTRAPS
+      -a -o trees/subgenus/mbfv1-aa.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_FLAVI_SUBGENUS_MBFV2 -s alignmentColumnsSelectorMbfv2 \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_aa_coverage_pct >= 50" \
-      -o trees/subgenus/mbfv2.tre NEWICK_BOOTSTRAPS
+      -a -o trees/subgenus/mbfv2-aa.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_FLAVI_SUBGENUS_NKV1 -s alignmentColumnsSelectorNkv1 \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_aa_coverage_pct >= 50" \
-      -o trees/subgenus/nkv1.tre NEWICK_BOOTSTRAPS
+      -a -o trees/subgenus/nkv1-aa.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorNkv2 \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_aa_coverage_pct >= 50" \
-      -o trees/subgenus/nkv2.tre NEWICK_BOOTSTRAPS
+      -a -o trees/subgenus/nkv2-aa.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_FLAVI_SUBGENUS_crustacean -s alignmentColumnsSelectorCrustacean \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_aa_coverage_pct >= 50" \
-      -o trees/subgenus/crustacean.tre NEWICK_BOOTSTRAPS
+      -a -o trees/subgenus/crustacean-aa.tre NEWICK_BOOTSTRAPS
 
-    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_dISF1 -s alignmentColumnsSelectorCrustacean \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_aa_coverage_pct >= 50" \
-      -o trees/subgenus/disf1.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_dISF1 -s alignmentColumnsSelectorDisf \
+      -a -o trees/subgenus/disf-aa.tre NEWICK_BOOTSTRAPS
 
-    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_dISF1A -s alignmentColumnsSelectorCrustacean \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_aa_coverage_pct >= 50" \
-      -o trees/subgenus/disf1A.tre NEWICK_BOOTSTRAPS
-
-    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_dISF1B -s alignmentColumnsSelectorCrustacean \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_aa_coverage_pct >= 50" \
-      -o trees/subgenus/disf1B.tre NEWICK_BOOTSTRAPS
-
-    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_dISF2 -s alignmentColumnsSelectorCrustacean \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_aa_coverage_pct >= 50" \
-      -o trees/subgenus/disf2.tre NEWICK_BOOTSTRAPS
 
     exit
 

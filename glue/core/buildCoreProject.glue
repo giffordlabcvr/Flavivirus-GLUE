@@ -35,7 +35,7 @@ project flaviviridae
   run file glue/core/flaviviridaeRecordFeaturePresence.glue
 
   # Create phylogenies
-  run file glue/core/flaviviridaeNucPhylogenies.glue
+  #run file glue/core/flaviviridaeNucPhylogenies.glue
   run file glue/core/flaviviridaeProtPhylogenies.glue
 
 

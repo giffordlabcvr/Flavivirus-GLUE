@@ -1,6 +1,6 @@
   
   # Clean-up
-  delete module raxmlPhylogenyGenerator
+  delete module flaviviridaeRaxmlPhylogenyGeneratorNucs
   delete module alignmentColumnsSelectorCisf
   delete module alignmentColumnsSelectorTbfv
   delete module alignmentColumnsSelectorMbfv1
@@ -8,14 +8,11 @@
   delete module alignmentColumnsSelectorNkv1
   delete module alignmentColumnsSelectorNkv2
   delete module alignmentColumnsSelectorCrustacean
-  delete module alignmentColumnsSelectorDisf1
-  delete module alignmentColumnsSelectorDisf1A
-  delete module alignmentColumnsSelectorDisf1B
-  delete module alignmentColumnsSelectorDisf2
+  delete module alignmentColumnsSelectorDisf
 
   
   # Create all the modules we need
-  create module -t raxmlPhylogenyGenerator
+  create module -f modules/core/flaviviridaeRaxmlPhylogenyGeneratorNucs.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorCisf.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorTbfv.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorMbfv1.xml
@@ -23,14 +20,11 @@
   create module -f modules/core/phylogeny/alignmentColumnsSelectorNkv1.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorNkv2.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorCrustacean.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorDisf1.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorDisf1A.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorDisf1B.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorDisf2.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorDisf.xml
 
 
   # Create the phylogenies
-  module raxmlPhylogenyGenerator
+  module flaviviridaeRaxmlPhylogenyGeneratorNucs
 
     #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisf \
     #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
@@ -60,21 +54,9 @@
     #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
     #  -o trees/subgenus/crustacean.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF1 -s alignmentColumnsSelectorCrustacean \
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF -s alignmentColumnsSelectorDisf \
     #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
     #  -o trees/subgenus/disf1.tre NEWICK_BOOTSTRAPS
-
-    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF1A -s alignmentColumnsSelectorCrustacean \
-    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus/disf1A.tre NEWICK_BOOTSTRAPS
-
-    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF1B -s alignmentColumnsSelectorCrustacean \
-    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus/disf1B.tre NEWICK_BOOTSTRAPS
-
-    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF2 -s alignmentColumnsSelectorCrustacean \
-    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus/disf2.tre NEWICK_BOOTSTRAPS
 
     exit
 
