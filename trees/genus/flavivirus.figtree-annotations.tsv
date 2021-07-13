@@ -23,7 +23,6 @@ alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KJ469370	KJ469370	BCV	FlaviPest
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KM225263	KM225263	STRV	FlaviPesti	Flavivirus	NULL	Culex	mosquito	-	-	-	Australia
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KM225264	KM225264	Bainyik	FlaviPesti	Flavivirus	NULL	Aedes	mosquito	-	Aedes sp. (mosquito)	-	Papua New Guinea
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KM225265	KM225265	Torres	FlaviPesti	Flavivirus	NULL	Culex	mosquito	-	mosquito	-	Australia
-alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KY347801	KY347801	MMV	FlaviPesti	Flavivirus	NULL	Aedes	none	HU 4528/07	Ochlerotatus caspius	-	Spain
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_000943	NC_000943	MVEV	FlaviPesti	Flavivirus	NULL	Culex	mosquito	-	-	-	-
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_001437	NC_001437	JEV	FlaviPesti	Flavivirus	NULL	Culex	mosquito	-	-	-	-
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_001474	NC_001474	DENV2	FlaviPesti	Flavivirus	NULL	Aedes	mosquito	-	-	-	Thailand

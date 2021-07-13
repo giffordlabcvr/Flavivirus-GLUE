@@ -27,8 +27,8 @@
     #~# Genus subgenuss
     import AL_UNC_FLAVI_cISF          -f alignments/internal/subgenus/cISF.aln.fna
     import AL_UNC_FLAVI_crustacean    -f alignments/internal/subgenus/crustacean.aln.fna
-    import AL_UNC_FLAVI_MBFV1         -f alignments/internal/subgenus/MBV1.aln.fna
-    import AL_UNC_FLAVI_MBFV2         -f alignments/internal/subgenus/MBV2.aln.fna
+    import AL_UNC_FLAVI_MBFV1         -f alignments/internal/subgenus/MBFV1.aln.fna
+    import AL_UNC_FLAVI_MBFV2         -f alignments/internal/subgenus/MBFV2.aln.fna
     import AL_UNC_FLAVI_TBFV          -f alignments/internal/subgenus/TBFV.aln.fna
     import AL_UNC_FLAVI_NKV1          -f alignments/internal/subgenus/NKV1.aln.fna
     import AL_UNC_FLAVI_NKV2          -f alignments/internal/subgenus/NKV2.aln.fna
