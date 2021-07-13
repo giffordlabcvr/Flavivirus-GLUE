@@ -54,10 +54,10 @@
 	demote member AL_GENUS_Pestivirus  --whereClause "sequence.genus = 'Pestivirus'"
 
 	extract child AL_GENUS_PL1 --refName REF_SCNV5
-	demote member AL_GENUS_PL1  --whereClause "sequence.clade = 'PL1'"
+	demote member AL_GENUS_PL1  --whereClause "sequence.subgenus= 'PL1'"
 
 	extract child AL_GENUS_PL2 --refName REF_SLV2
-	demote member AL_GENUS_PL2 --whereClause "sequence.clade = 'PL2'"
+	demote member AL_GENUS_PL2 --whereClause "sequence.subgenus= 'PL2'"
 	
     exit
 
@@ -99,28 +99,28 @@
   alignment AL_GENUS_Flavivirus
 
 	extract child AL_FLAVI_SUBGENUS_MBFV2       --refName REF_MASTER_YFV
-	demote member AL_FLAVI_SUBGENUS_MBFV2       --whereClause "sequence.clade = 'Mosq2'"
+	demote member AL_FLAVI_SUBGENUS_MBFV2       --whereClause "sequence.subgenus= 'Mosq2'"
 
 	extract child AL_FLAVI_SUBGENUS_MBFV1       --refName REF_DEN1
-	demote member AL_FLAVI_SUBGENUS_MBFV1       --whereClause "sequence.clade = 'Mosq1'"
+	demote member AL_FLAVI_SUBGENUS_MBFV1       --whereClause "sequence.subgenus= 'Mosq1'"
 
 	extract child AL_FLAVI_SUBGENUS_cISF        --refName REF_KRV
-	demote member AL_FLAVI_SUBGENUS_cISF        --whereClause "sequence.clade = 'cISF'"
+	demote member AL_FLAVI_SUBGENUS_cISF        --whereClause "sequence.subgenus= 'cISF'"
 
 	extract child AL_FLAVI_SUBGENUS_dISF        --refName REF_LAMV
-	demote member AL_FLAVI_SUBGENUS_dISF        --whereClause "sequence.clade = 'dISF'"
+	demote member AL_FLAVI_SUBGENUS_dISF        --whereClause "sequence.subgenus= 'dISF'"
 
 	extract child AL_FLAVI_SUBGENUS_TBFV        --refName REF_POWV
-	demote member AL_FLAVI_SUBGENUS_TBFV        --whereClause "sequence.clade = 'TBFV'"
+	demote member AL_FLAVI_SUBGENUS_TBFV        --whereClause "sequence.subgenus= 'TBFV'"
  
  	extract child AL_FLAVI_SUBGENUS_NKV1        --refName REF_APOIV
-	demote member AL_FLAVI_SUBGENUS_NKV1        --whereClause "sequence.clade = 'NKV1'"
+	demote member AL_FLAVI_SUBGENUS_NKV1        --whereClause "sequence.subgenus= 'NKV1'"
  
  	extract child AL_FLAVI_SUBGENUS_NKV2        --refName REF_SOKV
-	demote member AL_FLAVI_SUBGENUS_NKV2        --whereClause "sequence.clade = 'NKV2'"
+	demote member AL_FLAVI_SUBGENUS_NKV2        --whereClause "sequence.subgenus= 'NKV2'"
 
  	extract child AL_FLAVI_SUBGENUS_crustacean  --refName REF_ccCFV
-	demote member AL_FLAVI_SUBGENUS_crustacean  --whereClause "sequence.clade = 'Crustacean'"
+	demote member AL_FLAVI_SUBGENUS_crustacean  --whereClause "sequence.subgenus= 'Crustacean'"
 	
     exit
 

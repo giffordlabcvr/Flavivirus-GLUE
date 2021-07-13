@@ -22,26 +22,6 @@
     #  --outputFile trees/genus/tamanavirus-MidpointRerooted-efv.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/genus/hepacivirus-efv.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/genus/hepacivirus-MidpointRerooted-efv.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/genus/pegivirus-efv.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/genus/pegivirus-MidpointRerooted-efv.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/genus/pestivirus-efv.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/genus/pestivirus-MidpointRerooted-efv.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/genus/pl1-efv.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/genus/pl1-MidpointRerooted-efv.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
       --inputFile trees/genus/pl2-efv.tre NEWICK_BOOTSTRAPS \
       --midpoint \
       --outputFile trees/genus/pl2-MidpointRerooted-efv.tree NEWICK_BOOTSTRAPS

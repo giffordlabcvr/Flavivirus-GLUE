@@ -23,7 +23,6 @@ alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/KJ469370	KJ469370	BCV	FlaviPes
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/KM225263	KM225263	STRV	FlaviPesti	Flavivirus	NULL	Culex	mosquito	-	-	-	Australia
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/KM225264	KM225264	Bainyik	FlaviPesti	Flavivirus	NULL	Aedes	mosquito	-	Aedes sp. (mosquito)	-	Papua New Guinea
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/KM225265	KM225265	Torres	FlaviPesti	Flavivirus	NULL	Culex	mosquito	-	mosquito	-	Australia
-alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/KY347801	KY347801	MMV	FlaviPesti	Flavivirus	NULL	Aedes	none	HU 4528/07	Ochlerotatus caspius	-	Spain
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/MF776369	MF776369	LFLV	FlaviPesti	Tamanavirus	NULL	Cyclopterus	none	R170217-6L	Cyclopterus lumpus	-	Norway
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/MG599986	MG599986	WenSFV	FlaviPesti	Tamanavirus	NULL	Scoliodon	none	-	Scoliodon macrorhynchos	-	China
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_000943	NC_000943	MVEV	FlaviPesti	Flavivirus	NULL	Culex	mosquito	-	-	-	-

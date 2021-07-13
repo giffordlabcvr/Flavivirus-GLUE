@@ -99,9 +99,9 @@
     #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
     #  -o trees/major-lineage/major1_flavipesti.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_TREE_HepaPegi -s alignmentColumnsSelectorHepaciPegi \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-    #  -o trees/major-lineage/major1_hepapegi.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_HepaPegi -s alignmentColumnsSelectorHepaciPegi \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 5" \
+      -o trees/major-lineage/major1_hepapegi.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_TREE_FlaviLike -s alignmentColumnsSelectorFlaviLike \
     #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
