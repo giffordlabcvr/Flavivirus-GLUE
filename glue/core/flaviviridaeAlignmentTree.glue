@@ -107,17 +107,8 @@
 	extract child AL_FLAVI_SUBGENUS_cISF        --refName REF_KRV
 	demote member AL_FLAVI_SUBGENUS_cISF        --whereClause "sequence.clade = 'cISF'"
 
-	extract child AL_FLAVI_SUBGENUS_dISF1       --refName REF_LTNV
-	demote member AL_FLAVI_SUBGENUS_dISF1       --whereClause "sequence.clade = 'dISF1'"
-
-	extract child AL_FLAVI_SUBGENUS_dISF1A      --refName REF_NHUV
-	demote member AL_FLAVI_SUBGENUS_dISF1A      --whereClause "sequence.clade = 'dISF1A'"
-
-	extract child AL_FLAVI_SUBGENUS_dISF1B      --refName REF_LAMV
-	demote member AL_FLAVI_SUBGENUS_dISF1B      --whereClause "sequence.clade = 'dISF1B'"
-
-	extract child AL_FLAVI_SUBGENUS_dISF2       --refName REF_EPEV
-	demote member AL_FLAVI_SUBGENUS_dISF2       --whereClause "sequence.clade = 'dISF2'"
+	extract child AL_FLAVI_SUBGENUS_dISF        --refName REF_LAMV
+	demote member AL_FLAVI_SUBGENUS_dISF        --whereClause "sequence.clade = 'dISF'"
 
 	extract child AL_FLAVI_SUBGENUS_TBFV        --refName REF_POWV
 	demote member AL_FLAVI_SUBGENUS_TBFV        --whereClause "sequence.clade = 'TBFV'"
@@ -246,15 +237,15 @@
     derive segments AL_UNC_FLAVI_TBFV -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_FLAVI_SUBGENUS_dISF1A
-    derive segments AL_UNC_FLAVI_dISF1A -a --mergeStrategy OVERWRITE
+  alignment AL_FLAVI_SUBGENUS_dISF
+    derive segments AL_UNC_FLAVI_dISF -a --mergeStrategy OVERWRITE
     exit
+    
 
-  alignment AL_FLAVI_SUBGENUS_dISF1B
-    derive segments AL_UNC_FLAVI_dISF1B -a --mergeStrategy OVERWRITE
-    exit
 
-  alignment AL_FLAVI_SUBGENUS_dISF2
-    derive segments AL_UNC_FLAVI_dISF2 -a --mergeStrategy OVERWRITE
-    exit
+
+
+
+
+
 
