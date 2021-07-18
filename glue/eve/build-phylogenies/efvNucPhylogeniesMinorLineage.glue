@@ -19,14 +19,14 @@
 
   # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter	
- 	export AL_MINOR_FlaviTamana   -r REF_MASTER_YFV -f whole_genome --recursive -a  -e -o alignments/tree/minor_flavitamana-all.aln.fna	
+ 	export AL_MINOR_FlaviTamana   -r REF_MASTER_YFV -f whole_genome --recursive -a  -e -o alignments/tree/minor_flavitamana-all.eve.aln.fna	
 	exit
 
 
   # Re-import the recursively populated root alignment into the project
   module flaviTreeAlignmentImporterNucs
   
-    import AL_UNC_TREE_FlaviTamana        -f alignments/tree/minor_flavitamana-all.aln.fna     
+    import AL_UNC_TREE_FlaviTamana        -f alignments/tree/minor_flavitamana-all.eve.aln.fna     
 	exit
 
   

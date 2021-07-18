@@ -12,14 +12,14 @@
   delete alignment AL_TREE_FlaviLike
 
   # Delete modules  
-  delete module raxmlPhylogenyGenerator
+  delete module flaviviridaeRaxmlPhylogenyGeneratorNucs
   delete module alignmentColumnsSelectorFlaviPesti
   delete module alignmentColumnsSelectorHepaciPegi
   delete module alignmentColumnsSelectorFlaviLike
   delete module alignmentColumnsSelectorPestiLike
   
   # Create all the modules we need
-  create module -f modules/core/raxmlPhylogenyGenerator.xml
+  create module -f modules/core/flaviviridaeRaxmlPhylogenyGeneratorNucs.xml
   create module -f modules/core/fastaAlignmentExporter.xml
   create module -f modules/core/flaviTreeAlignmentImporterNucs.xml
   create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
@@ -93,7 +93,7 @@
 
 
   # Create the phylogenies
-  module raxmlPhylogenyGenerator
+  module flaviviridaeRaxmlPhylogenyGeneratorNucs
 
     #generate nucleotide phylogeny AL_TREE_FlaviPesti -s alignmentColumnsSelectorFlaviPesti \
     #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \

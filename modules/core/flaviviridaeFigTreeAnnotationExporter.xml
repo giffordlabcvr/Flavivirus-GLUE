@@ -21,8 +21,8 @@
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
-		<annotationName>clade</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.clade')}</valueFreemarkerTemplate>
+		<annotationName>subgenus</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.subgenus')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 	
 	<figTreeAnnotation>

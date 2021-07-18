@@ -1,6 +1,6 @@
-taxon	sequenceID	name	subfamily	genus	clade	host_group	vector_group	isolate	sampled_host_sci_name	sample_date	country
-alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MF776369	MF776369	LFLV	FlaviPesti	Tamanavirus	NULL	Cyclopterus	none	R170217-6L	Cyclopterus lumpus	-	Norway
-alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MG599986	MG599986	WenSFV	FlaviPesti	Tamanavirus	NULL	Scoliodon	none	-	Scoliodon macrorhynchos	-	China
-alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MK473875	MK473875	SpsFV	FlaviPesti	Tamanavirus	NULL	-	none	201405	Idiosepius notoides	-	Australia
-alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MK473880	MK473880	FfsFV	FlaviPesti	Tamanavirus	NULL	-	none	Wat_scin_armtip_sample_4	Watasenia scintillans	-	Japan
-alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/NC_003996	NC_003996	TABV	FlaviPesti	Tamanavirus	NULL	Pteronotus	none	-	Pteronotus parnellii	-	Trinidad and Tobago: Tamana cave
+taxon	sequenceID	name	subfamily	genus	subgenus	host_group	vector_group	isolate	sampled_host_sci_name	sample_date	country
+alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MF776369	MF776369	LFLV	FlaviPesti	Tamanavirus	-	Cyclopterus	none	R170217-6L	Cyclopterus lumpus	-	Norway
+alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MG599986	MG599986	WenSFV	FlaviPesti	Tamanavirus	-	Scoliodon	none	-	Scoliodon macrorhynchos	-	China
+alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MK473875	MK473875	SpsFV	FlaviPesti	Tamanavirus	Squid	-	none	201405	Idiosepius notoides	-	Australia
+alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MK473880	MK473880	FfsFV	FlaviPesti	Tamanavirus	Squid	-	none	Wat_scin_armtip_sample_4	Watasenia scintillans	-	Japan
+alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/NC_003996	NC_003996	TABV	FlaviPesti	Tamanavirus	TABV	Pteronotus	none	-	Pteronotus parnellii	-	Trinidad and Tobago: Tamana cave

@@ -155,9 +155,9 @@
   # Create the phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorNucs
 
-    #generate nucleotide phylogeny AL_TREE_Flavivirus -s alignmentColumnsSelectorFlavivirus \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    # -o trees/genus/flavivirus.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_Flavivirus -s alignmentColumnsSelectorFlavivirus \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 50" \
+     -o trees/genus/flavivirus.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_TREE_Tamanavirus -s alignmentColumnsSelectorTamanavirus \
     #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 20" \
