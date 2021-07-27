@@ -5,5 +5,5 @@
   create module -f modules/core/fastaAlignmentExporter.xml 
   create module -f modules/core/flaviviridaeTabularUtility.xml flaviviridaeTabularUtility
   create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
-  create module -f modules/core/flavivirusCompoundAligner.xml  
+  create module -f modules/core/flaviviridaeCompoundAligner.xml  
 
