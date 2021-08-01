@@ -26,41 +26,41 @@ NC_016997	Donggang virus	DONV/DGV	Flaviviridae	FlaviPesti	Flavivirus	dISF	NULL		
 NC_024805	Ilomantsi virus	ILOV	Flaviviridae	FlaviPesti	Flavivirus	dISF	NULL		Aedes	none	none	M0724	Europe	Ochlerotatus riparius and/or Anopheles spp. 
 NC_024806	Lammi virus	LAMV	Flaviviridae	FlaviPesti	Flavivirus	dISF	NULL		Aedes	none	none	M0719	Europe	Ae. cinereus
 KY347801	Marisma mosquito virus	MMV	Flaviviridae	FlaviPesti	Flavivirus	dISF	NULL		Aedes	none	none	HU 4528/07	Europe	Aedes caspius
-AY898809	Alfuy virus	ALFV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	MRM3929	Oceania	Centropus phasianius
-NC_012534	Bagaza virus	BAGV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	DakArB 209	Africa	Culex
-KM225264	Bainyik virus	Bainyik	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Aedes	mosquito	mammals	MK7979	Oceania	Aedes sp. (mosquito)
-NC_009026	Bussuquara virus	BSQV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	primates	BeAn 4073	Americas	Alouatta beelzebul Sentinel
-NC_026623	Cacipacore virus	CPCV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	BeAn 327600	Americas	Formicarius analis
-NC_001477	Dengue virus 1	DENV1	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Aedes	mosquito	primates	45AZ5	Africa/Asia	-
-NC_001474	Dengue virus 2	DENV2	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Aedes	mosquito	primates	16681	Asia	Homo sapiens
-NC_001475	Dengue virus 3	DENV3	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Aedes	mosquito	primates	D3SriLa1266	Asia	-
-NC_002640	Dengue virus 4	DEN4	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Aedes	mosquito	primates	-	Africa/Asia	-
-AY632538	Iguape virus	IGUV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	bird/mammal	SPAn 71686	Americas	Mus musculus
-NC_009028	Ilheus virus	ILHV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	-	Americas	Psorophora spp. 
-NC_001437	Japanese encephalitis virus	JEV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	bird/mammal		Asia	Homo sapiens
-NC_012533	Kedougou virus	KEDV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Aedes	mosquito	unknown	ArD 14701	Africa	Aedes minutus
-EU082200	Koutango virus	KOUV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	DakAnD 5443	Africa	Tatera kempi
-NC_000943	Murray Valley encephalitis virus	MVEV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	MVE/1/1951	Oceania	Homo sapiens
-NC_032088	New Mapoon virus	NMV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	unknown	CY1014	Oceania	Culex annulirostris
-EU159426	Nounane virus	NOUV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Aedes	mosquito	unknown	Nounane_B3	Africa	Uranotaenia mashonaensis
-NC_018705	Ntaya virus	NTAV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	unknown	IPDIA	Africa	-
-AY632542	Rocio virus	ROCV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	SPH 34675	Americas	Homo sapiens
-NC_029055	Spondweni virus	SPOV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Aedes	mosquito	unknown	SAAr 94	Africa	Mansonia uniformis
-NC_007580	St. Louis encephalitis virus	SLEV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	-	Americas	Homo sapiens
-KM225263	Stratford virus	STRV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	marsupials	C338	Oceania	Aedes vigilax
-NC_015843	Tembusu virus	TMUV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	JS804	Asia	Anser cygnoides
-KM225265	Torres virus	Torres	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	TS5273	Oceania	Aedes albopictus
-NC_006551	Usutu virus	USUV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	SAAr 1776	Africa	Culex neavei
-NC_001563	West Nile virus	WNV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	B956	Africa	Homo sapiens
-EU082199	Yaounde virus	YAOV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	ArY 276	Africa	Culex nebulosis
-NC_012532	Zika virus	ZIKV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Aedes	mosquito	mammals	MR 766	Africa	sentinel monkey
-D00246	Kunjin virus 	KUNV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	MRM61C	-	-
-KC734550	Israel turkey meningoencephalomyelitis virus	ITV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	Israel/618/1995	-	Meleagris 
-JX477686	Sitiawan virus 	STWV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	-	-	-
-JF312912	Baiyangdian virus	BYDV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	-	-	Anas
-KF917538	Naranjal virus 	NJLV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	mammals	25008	-	Cricetinae
-NC_009029	Kokobera virus 	KOKV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	mammals	AusMRM 32	-	-
-JF926699	Layer flavivirus	LayV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	NULL		Culex	mosquito	birds	CJD05	-	-
+AY898809	Alfuy virus	ALFV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	MRM3929	Oceania	Centropus phasianius
+NC_012534	Bagaza virus	BAGV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	DakArB 209	Africa	Culex
+KM225264	Bainyik virus	Bainyik	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Aedes		Aedes	mosquito	mammals	MK7979	Oceania	Aedes sp. (mosquito)
+NC_009026	Bussuquara virus	BSQV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	primates	BeAn 4073	Americas	Alouatta beelzebul Sentinel
+NC_026623	Cacipacore virus	CPCV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	BeAn 327600	Americas	Formicarius analis
+NC_001477	Dengue virus 1	DENV1	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Aedes		Aedes	mosquito	primates	45AZ5	Africa/Asia	-
+NC_001474	Dengue virus 2	DENV2	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Aedes		Aedes	mosquito	primates	16681	Asia	Homo sapiens
+NC_001475	Dengue virus 3	DENV3	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Aedes		Aedes	mosquito	primates	D3SriLa1266	Asia	-
+NC_002640	Dengue virus 4	DEN4	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Aedes		Aedes	mosquito	primates	-	Africa/Asia	-
+AY632538	Iguape virus	IGUV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	bird/mammal	SPAn 71686	Americas	Mus musculus
+NC_009028	Ilheus virus	ILHV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	-	Americas	Psorophora spp. 
+NC_001437	Japanese encephalitis virus	JEV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	bird/mammal		Asia	Homo sapiens
+NC_012533	Kedougou virus	KEDV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Aedes		Aedes	mosquito	unknown	ArD 14701	Africa	Aedes minutus
+EU082200	Koutango virus	KOUV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	DakAnD 5443	Africa	Tatera kempi
+NC_000943	Murray Valley encephalitis virus	MVEV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	MVE/1/1951	Oceania	Homo sapiens
+NC_032088	New Mapoon virus	NMV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	unknown	CY1014	Oceania	Culex annulirostris
+EU159426	Nounane virus	NOUV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Aedes		Aedes	mosquito	unknown	Nounane_B3	Africa	Uranotaenia mashonaensis
+NC_018705	Ntaya virus	NTAV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	unknown	IPDIA	Africa	-
+AY632542	Rocio virus	ROCV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	SPH 34675	Americas	Homo sapiens
+NC_029055	Spondweni virus	SPOV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Aedes		Aedes	mosquito	unknown	SAAr 94	Africa	Mansonia uniformis
+NC_007580	St. Louis encephalitis virus	SLEV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	-	Americas	Homo sapiens
+KM225263	Stratford virus	STRV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	marsupials	C338	Oceania	Aedes vigilax
+NC_015843	Tembusu virus	TMUV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	JS804	Asia	Anser cygnoides
+KM225265	Torres virus	Torres	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	TS5273	Oceania	Aedes albopictus
+NC_006551	Usutu virus	USUV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	SAAr 1776	Africa	Culex neavei
+NC_001563	West Nile virus	WNV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	B956	Africa	Homo sapiens
+EU082199	Yaounde virus	YAOV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	ArY 276	Africa	Culex nebulosis
+NC_012532	Zika virus	ZIKV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Aedes		Aedes	mosquito	mammals	MR 766	Africa	sentinel monkey
+D00246	Kunjin virus 	KUNV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	MRM61C	-	-
+KC734550	Israel turkey meningoencephalomyelitis virus	ITV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	Israel/618/1995	-	Meleagris 
+JX477686	Sitiawan virus 	STWV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	-	-	-
+JF312912	Baiyangdian virus	BYDV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	-	-	Anas
+KF917538	Naranjal virus 	NJLV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	mammals	25008	-	Cricetinae
+NC_009029	Kokobera virus 	KOKV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	mammals	AusMRM 32	-	-
+JF926699	Layer flavivirus	LayV	Flaviviridae	FlaviPesti	Flavivirus	Mosq1	Culex		Culex	mosquito	birds	CJD05	-	-
 NC_027999	Paraiso Escondido virus	EPEV	Flaviviridae	FlaviPesti	Flavivirus	Mosq2	NULL		Lutzomyia	none	none	Ecuador2012	Americas	Lutzomyia abonnenci
 DQ859056	Banzi virus	BANV	Flaviviridae	FlaviPesti	Flavivirus	Mosq2	NULL		Aedes	mosquito	rodents	H336	Africa	Homo sapiens
 NC_033693	Bouboui virus	BOUV	Flaviviridae	FlaviPesti	Flavivirus	Mosq2	NULL		Aedes	mosquito	unknown	DakArB 490	Africa	Anopheles paludis

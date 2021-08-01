@@ -2,12 +2,6 @@
 <alignmentColumnsSelector>
 
     <relRefName>REF_SOKV</relRefName>
-
-    <aminoAcidRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
-        <startCodon>1</startCodon>
-        <endCodon>3413</endCodon>
-    </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>precursor_polyprotein</featureName>
