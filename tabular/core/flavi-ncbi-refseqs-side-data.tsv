@@ -80,8 +80,8 @@ NC_004119	Montana myotis leukoencephalitis virus	MMLV	Flaviviridae	FlaviPesti	Fl
 NC_003675	Rio Bravo virus	RBV	Flaviviridae	FlaviPesti	Flavivirus	NKV1	NULL		Tadarida	unknown	bat	M64	Americas	Tadarida brasiliensis mexicana
 KJ469370	Batu Cave virus	BCV	Flaviviridae	FlaviPesti	Flavivirus	NKV1	NULL		unknown	unknown	unknown	-	-	-
 NC_008718	Entebbe bat virus	ENTV	Flaviviridae	FlaviPesti	Flavivirus	NKV2	NULL		unknown	unknown	bat	UgIL-30	Africa	Tadarida limbata
-NC_026624	Sokuluk virus	SOKV	Flaviviridae	FlaviPesti	Flavivirus	NKV2	NULL		ticks	ticks	bat	LEIV-400K	Asia	Vespertilio pipistrellus
-NC_005039	Yokose virus	YOKV	Flaviviridae	FlaviPesti	Flavivirus	NKV2	NULL		mosquito	mosquito	bat	Oita 36	Asia	Miniopterus fuliginosus
+NC_026624	Sokuluk virus	SOKV	Flaviviridae	FlaviPesti	Flavivirus	NKV2	NULL		unknown	unknown	bat	LEIV-400K	Asia	Vespertilio pipistrellus
+NC_005039	Yokose virus	YOKV	Flaviviridae	FlaviPesti	Flavivirus	NKV2	NULL		unknown	unknown	bat	Oita 36	Asia	Miniopterus fuliginosus
 NC_033723	Gadgets Gully virus	GGYV	Flaviviridae	FlaviPesti	Flavivirus	TBFV	NULL		Ixodes	tick	birds	CSIRO 122	Oceania	Ixodes uriae
 NC_033724	Kadam virus	KADV	Flaviviridae	FlaviPesti	Flavivirus	TBFV	NULL		Rhipicephalus	tick	mammals	AMP 6640	Africa	Rhipicephalus pravus
 NC_023439	Kama virus	KAMV	Flaviviridae	FlaviPesti	Flavivirus	TBFV	NULL		Ixodes	tick	birds	-	Europe	Ixodes lividus
