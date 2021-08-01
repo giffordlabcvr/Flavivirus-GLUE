@@ -3,10 +3,10 @@
 
     <relRefName>REF_SLV2</relRefName>
 
-    <nucleotideRegionSelector>
+    <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>14393</startNt>
-        <endNt>17242</endNt>
-    </nucleotideRegionSelector>
+        <startCodon>4732</startCodon>
+        <endCodon>5681</endCodon>
+    </aminoAcidRegionSelector>
     
 </alignmentColumnsSelector>

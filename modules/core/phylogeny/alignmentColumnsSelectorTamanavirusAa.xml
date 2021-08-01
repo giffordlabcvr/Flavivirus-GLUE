@@ -3,10 +3,10 @@
 
     <relRefName>REF_TABV</relRefName>
          
-    <nucleotideRegionSelector>
+    <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>8326</startNt>
-        <endNt>9717</endNt>
-    </nucleotideRegionSelector>
+        <startCodon>2776</startCodon>
+        <endCodon>3239</endCodon>
+    </aminoAcidRegionSelector>
     
 </alignmentColumnsSelector>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_SLV2</relRefName>
+    <relRefName>REF_HPgV2</relRefName>
 
-    <nucleotideRegionSelector>
+    <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>14393</startNt>
-        <endNt>17242</endNt>
-    </nucleotideRegionSelector>
+        <startCodon>2490</startCodon>
+        <endCodon>3025</endCodon>
+    </aminoAcidRegionSelector>
     
 </alignmentColumnsSelector>

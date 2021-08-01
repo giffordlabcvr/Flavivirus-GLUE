@@ -26,29 +26,29 @@
   # Create the phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
-    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisfAa \
-    #  -a -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisfAa \
+      -a -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfvAa \
-    #  -a -o trees/subgenus/tbfv-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfvAa \
+      -a -o trees/subgenus/tbfv-aa.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_MBFV1 -s alignmentColumnsSelectorMbfv1Aa \
-    #  -a -o trees/subgenus/mbfv1-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_MBFV1 -s alignmentColumnsSelectorMbfv1Aa \
+      -a -o trees/subgenus/mbfv1-aa.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_MBFV2 -s alignmentColumnsSelectorMbfv2Aa \
-    #  -a -o trees/subgenus/mbfv2-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_MBFV2 -s alignmentColumnsSelectorMbfv2Aa \
+      -a -o trees/subgenus/mbfv2-aa.tre NEWICK_BOOTSTRAPS
     
-    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_NKV1 -s alignmentColumnsSelectorNkv1Aa \
-    #  -a -o trees/subgenus/nkv1-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_NKV1 -s alignmentColumnsSelectorNkv1Aa \
+      -a -o trees/subgenus/nkv1-aa.tre NEWICK_BOOTSTRAPS
+
+    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_dISF1 -s alignmentColumnsSelectorDisfAa \
+      -a -o trees/subgenus/disf-aa.tre NEWICK_BOOTSTRAPS
 
     #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorNkv2Aa \
     #  -a -o trees/subgenus/nkv2-aa.tre NEWICK_BOOTSTRAPS
 
     #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_crustacean -s alignmentColumnsSelectorCrustaceanAa \
     #  -a -o trees/subgenus/crustacean-aa.tre NEWICK_BOOTSTRAPS
-
-    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_dISF -s alignmentColumnsSelectorDisfAa \
-      -a -o trees/subgenus/disf-aa.tre NEWICK_BOOTSTRAPS
 
     exit
 

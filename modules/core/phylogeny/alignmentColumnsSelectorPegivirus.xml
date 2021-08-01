@@ -2,12 +2,6 @@
 <alignmentColumnsSelector>
 
     <relRefName>REF_HPgV2</relRefName>
-
-    <aminoAcidRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
-        <startCodon>2490</startCodon>
-        <endCodon>3025</endCodon>
-    </aminoAcidRegionSelector>
  
     <nucleotideRegionSelector>
         <featureName>precursor_polyprotein</featureName>
