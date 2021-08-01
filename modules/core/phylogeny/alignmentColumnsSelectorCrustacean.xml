@@ -3,12 +3,6 @@
 
     <relRefName>REF_ccCFV</relRefName>
          
-
-    <aminoAcidRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
-        <startCodon>1</startCodon>
-        <endCodon>3357</endCodon>
-    </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>precursor_polyprotein</featureName>

@@ -2,11 +2,11 @@
 <alignmentColumnsSelector>
 
     <relRefName>REF_APOIV</relRefName>
-    
-    <nucleotideRegionSelector>
+
+    <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>1</startNt>
-        <endNt>10113</endNt>
-    </nucleotideRegionSelector>
+        <startCodon>1</startCodon>
+        <endCodon>3371</endCodon>
+    </aminoAcidRegionSelector>
     
 </alignmentColumnsSelector>

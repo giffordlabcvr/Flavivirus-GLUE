@@ -3,10 +3,10 @@
 
     <relRefName>REF_MASTER_YFV</relRefName>
          
-    <nucleotideRegionSelector>
+    <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>119</startNt>
-        <endNt>10349</endNt>
-    </nucleotideRegionSelector>
-    
+        <startCodon>1</startCodon>
+        <endCodon>3411</endCodon>
+    </aminoAcidRegionSelector>
+        
 </alignmentColumnsSelector>

@@ -26,11 +26,11 @@
   # Create the phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorNucs
 
-    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisf \
+    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisfAa \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/subgenus/cisf.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfv \
+    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfvAa \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/subgenus/tbfv.tre NEWICK_BOOTSTRAPS
 

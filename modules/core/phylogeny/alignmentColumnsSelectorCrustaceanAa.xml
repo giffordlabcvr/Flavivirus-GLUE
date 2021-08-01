@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_MASTER_YFV</relRefName>
+    <relRefName>REF_ccCFV</relRefName>
          
-    <nucleotideRegionSelector>
+
+    <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>119</startNt>
-        <endNt>10349</endNt>
-    </nucleotideRegionSelector>
+        <startCodon>1</startCodon>
+        <endCodon>3357</endCodon>
+    </aminoAcidRegionSelector>
     
 </alignmentColumnsSelector>

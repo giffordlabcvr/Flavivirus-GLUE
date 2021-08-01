@@ -2,11 +2,11 @@
 <alignmentColumnsSelector>
 
     <relRefName>REF_DEN1</relRefName>
-    
-    <nucleotideRegionSelector>
+
+    <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>95</startNt>
-        <endNt>10268</endNt>
-    </nucleotideRegionSelector>
-    
+        <startCodon>1</startCodon>
+        <endCodon>3392</endCodon>
+    </aminoAcidRegionSelector>
+     
 </alignmentColumnsSelector>

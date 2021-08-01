@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_APOIV</relRefName>
-    
-    <nucleotideRegionSelector>
+    <relRefName>REF_KRV</relRefName>
+
+    <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>1</startNt>
-        <endNt>10113</endNt>
-    </nucleotideRegionSelector>
+        <startCodon>1</startCodon>
+        <endCodon>3357</endCodon>
+    </aminoAcidRegionSelector>
     
 </alignmentColumnsSelector>
