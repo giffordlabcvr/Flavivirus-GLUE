@@ -2,11 +2,11 @@
 <alignmentColumnsSelector>
 
     <relRefName>REF_MASTER_YFV</relRefName>
-   
-    <nucleotideRegionSelector>
+
+    <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>5147</startNt>
-        <endNt>5896</endNt>
-    </nucleotideRegionSelector>
-    
+        <startCodon>2514</startCodon>
+        <endCodon>3284</endCodon>
+    </aminoAcidRegionSelector>
+ 
 </alignmentColumnsSelector>

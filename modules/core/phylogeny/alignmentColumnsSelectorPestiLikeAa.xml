@@ -2,11 +2,11 @@
 <alignmentColumnsSelector>
 
     <relRefName>REF_BVDV1</relRefName>
- 
-    <nucleotideRegionSelector>
+
+    <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>10950</startNt>
-        <endNt>11447</endNt>
-    </nucleotideRegionSelector>
-    
+        <startCodon>3522</startCodon>
+        <endCodon>3688</endCodon>
+    </aminoAcidRegionSelector>
+     
 </alignmentColumnsSelector>

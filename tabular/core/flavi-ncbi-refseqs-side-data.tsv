@@ -72,7 +72,6 @@ NC_033698	Uganda S virus	UGSV	Flaviviridae	FlaviPesti	Flavivirus	Mosq2	NULL		Aed
 NC_012735	Wesselsbron virus	WSLV	Flaviviridae	FlaviPesti	Flavivirus	Mosq2	NULL		Aedes	mosquito	ungulates	van Tonder	Africa	Merino sheep
 NC_002031	Yellow fever virus	YFV	Flaviviridae	FlaviPesti	Flavivirus	Mosq2	NULL		Aedes	mosquito	primates	-	Africa/Americas	Aedes aegypti, Aedes albopictus
 DQ859067	Potiskum virus	POTV	Flaviviridae	FlaviPesti	Flavivirus	Mosq2	NULL		Aedes	mosquito	mammals	IBAN 10069	-	-
-KJ152564	Ecuador Paraiso Escondido virus	EPEV	Flaviviridae	FlaviPesti	Flavivirus	Mosq2	NULL		sandfly	unknown	unknown	Ecuador2012	Americas	Lutzomyia abonnenci
 NC_003676	Apoi virus	APOIV	Flaviviridae	FlaviPesti	Flavivirus	NKV1	NULL		Apodemus	unknown	rodents	-	Asia	Apodemus spp.
 NC_026620	Jutiapa virus	JUTV	Flaviviridae	FlaviPesti	Flavivirus	NKV1	NULL		Sigmodon	unknown	rodents	JG-128	Americas	Sigmodon hispidus
 NC_003635	Modoc virus	MODV	Flaviviridae	FlaviPesti	Flavivirus	NKV1	NULL		Peromyscus	unknown	rodents	M544	Americas	Peromyscus maniculatus
