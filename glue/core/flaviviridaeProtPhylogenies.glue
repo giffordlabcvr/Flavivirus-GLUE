@@ -15,7 +15,7 @@
 
   # Create recursively-populated major-lineage-level phylogenies
   run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMajorLineageTreeAlignments.glue
-  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMajorLineage.glue
+  #run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMajorLineage.glue
   run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMajorLineageReroot.glue
   run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMajorLineageAnnotations.glue
 
