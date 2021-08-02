@@ -1,8 +1,17 @@
+
+  # Clean up from any previous run of this file
+  
+  # Delete alignments
+  delete alignment AL_UNC_TREE_FlaviTamana
+  delete alignment AL_TREE_FlaviTamana
+
+  # Delete modules
   delete module fastaAlignmentExporter
   delete module flaviTreeAlignmentImporterNucs
   delete module flaviviridaeFeaturePresenceRecorder
   delete module alignmentColumnsSelectorFlaviTamanaAa
 
+  # Create modules
   create module -f modules/core/fastaAlignmentExporter.xml
   create module -f modules/core/flaviTreeAlignmentImporterNucs.xml
   create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml

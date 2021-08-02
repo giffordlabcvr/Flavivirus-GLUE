@@ -6,7 +6,6 @@ alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/D00246	D00246	KUNV	FlaviPesti	
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/DQ235149	DQ235149	RFV	FlaviPesti	Flavivirus	TBFV	Argas	tick	-	-	-	Afghanistan
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/DQ235151	DQ235151	TSEV	FlaviPesti	Flavivirus	TBFV	Ixodes	tick	-	-	-	Turkey
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/DQ859056	DQ859056	BANV	FlaviPesti	Flavivirus	Mosq2	Aedes	mosquito	-	-	-	South Africa
-alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/DQ859067	DQ859067	POTV	FlaviPesti	Flavivirus	Mosq2	Aedes	mosquito	-	-	-	Nigeria
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/EU082199	EU082199	YAOV	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	Cameroon
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/EU082200	EU082200	KOUV	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	Senegal
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/EU159426	EU159426	NOUV	FlaviPesti	Flavivirus	Mosq1	Aedes	mosquito	-	Uranotaenia mashonaensis	-	Cote d'Ivoire
@@ -47,7 +46,7 @@ alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_003687	NC_003687	POWV	Flavi
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_003690	NC_003690	LGTV	FlaviPesti	Flavivirus	TBFV	Ixodes	tick	-	-	-	-
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_003996	NC_003996	TABV	FlaviPesti	Tamanavirus	TABV	Pteronotus	none	-	Pteronotus parnellii	-	Trinidad and Tobago: Tamana cave
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_004119	NC_004119	MMLV	FlaviPesti	Flavivirus	NKV1	Myotis	unknown	-	-	-	USA:Montana
-alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_005039	NC_005039	YOKV	FlaviPesti	Flavivirus	NKV2	mosquito	mosquito	-	-	-	-
+alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_005039	NC_005039	YOKV	FlaviPesti	Flavivirus	NKV2	unknown	unknown	-	-	-	-
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_005062	NC_005062	OMSKV	FlaviPesti	Flavivirus	TBFV	Dermacentor	tick	-	-	-	-
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_005064	NC_005064	KRV	FlaviPesti	Flavivirus	cISF	Aedes	none	SR-82	-	-	-
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_006551	NC_006551	USUV	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	Austria
@@ -77,7 +76,7 @@ alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_024805	NC_024805	ILOV	Flavi
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_024806	NC_024806	LAMV	FlaviPesti	Flavivirus	dISF	Aedes	none	M0719	mosquito	-	Finland
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_026620	NC_026620	JUTV	FlaviPesti	Flavivirus	NKV1	Sigmodon	unknown	-	Sigmodon hispidus	-	Guatemala
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_026623	NC_026623	CPCV	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	Formicarius analis	-	Brazil
-alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_026624	NC_026624	SOKV	FlaviPesti	Flavivirus	NKV2	ticks	ticks	-	Vespertilio pipistrellus	-	Kyrgyzstan
+alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_026624	NC_026624	SOKV	FlaviPesti	Flavivirus	NKV2	unknown	unknown	-	Vespertilio pipistrellus	-	Kyrgyzstan
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_027709	NC_027709	SGEV	FlaviPesti	Flavivirus	TBFV	Ixodes	tick	AstGoatIREC2011	Bermeya goat	-	Spain
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_027817	NC_027817	PaRV	FlaviPesti	Flavivirus	cISF	Aedes	none	92-B115745	-	-	Australia
 alignment/AL_TREE_FlaviTamana/member/ncbi-refseqs/NC_027819	NC_027819	MECDV	FlaviPesti	Flavivirus	cISF	Culex	none	ER-M10	Culex sp.	-	Panama

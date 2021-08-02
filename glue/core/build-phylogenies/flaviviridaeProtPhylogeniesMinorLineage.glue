@@ -1,9 +1,5 @@
 
   # Clean up from any previous run of this file
-  
-  # Delete alignments
-  delete alignment AL_UNC_TREE_FlaviTamana
-  delete alignment AL_TREE_FlaviTamana
 
   # Delete modules  
   delete module alignmentColumnsSelectorFlaviTamana
