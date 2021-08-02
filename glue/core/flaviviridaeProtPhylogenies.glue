@@ -20,6 +20,7 @@
   run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMajorLineageAnnotations.glue
 
   # Create recursively-populated minor-lineage-level phylogenies
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMinorLineageTreeAlignments.glue
   run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMinorLineage.glue
   run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMinorLineageReroot.glue
   run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMinorLineageAnnotations.glue

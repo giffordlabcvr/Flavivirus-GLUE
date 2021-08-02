@@ -1,0 +1,41 @@
+  delete module fastaAlignmentExporter
+  delete module flaviTreeAlignmentImporterNucs
+  delete module flaviviridaeFeaturePresenceRecorder
+  delete module alignmentColumnsSelectorFlaviTamanaAa
+
+  create module -f modules/core/fastaAlignmentExporter.xml
+  create module -f modules/core/flaviTreeAlignmentImporterNucs.xml
+  create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorFlaviTamanaAa.xml
+  
+
+  # Export the recursively populated root gene alignments 
+  module fastaAlignmentExporter	
+ 	export AL_MINOR_FlaviTamana   -r REF_MASTER_YFV -f whole_genome --recursive -a  -e -o alignments/tree/minor_flavitamana-all.aln.fna	
+	exit
+
+
+  # Re-import the recursively populated root alignment into the project
+  module flaviTreeAlignmentImporterNucs
+  
+    import AL_UNC_TREE_FlaviTamana        -f alignments/tree/minor_flavitamana-all.aln.fna     
+	exit
+
+  
+  # Create constrained alignments  
+  create alignment AL_TREE_FlaviTamana    -r REF_MASTER_YFV
+
+
+  # Derive constrained alignments from unconstrained alignments 
+  alignment AL_TREE_FlaviTamana
+	derive segments AL_UNC_TREE_FlaviTamana -a --mergeStrategy OVERWRITE
+	exit
+
+
+  # Record feature presence  
+  module flaviviridaeFeaturePresenceRecorder
+
+    record feature-presence AL_TREE_FlaviTamana --featureName whole_genome --descendentFeatures
+ 
+    exit
+
