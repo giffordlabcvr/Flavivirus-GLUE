@@ -17,8 +17,8 @@
     export figtree-annotation AL_TREE_Pestivirus -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
       and fLocNotes.ref_nt_coverage_pct >= 60" -f trees/genus/pestivirus.figtree-annotations.tsv
 
-    export figtree-annotation AL_TREE_Jingmenvirus_Seg1 -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 40" -f trees/genus/jingmenvirus_seg1.figtree-annotations.tsv
+    #export figtree-annotation AL_TREE_Jingmenvirus_Seg1 -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
+    #  and fLocNotes.ref_nt_coverage_pct >= 40" -f trees/genus/jingmenvirus_seg1.figtree-annotations.tsv
 
   exit
 

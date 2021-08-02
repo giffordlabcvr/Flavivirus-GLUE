@@ -46,15 +46,15 @@
       --midpoint \
       --outputFile trees/genus/pl2-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-	reroot-phylogeny \
-      --inputFile trees/genus/jingmenvirus_seg1.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/genus/jingmenvirus_seg1-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+	#reroot-phylogeny \
+    #  --inputFile trees/genus/jingmenvirus_seg1.tre NEWICK_BOOTSTRAPS \
+    #  --midpoint \
+    #  --outputFile trees/genus/jingmenvirus_seg1-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-	reroot-phylogeny \
-      --inputFile trees/genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/genus/jingmenvirus_seg3-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+	#reroot-phylogeny \
+    #  --inputFile trees/genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS \
+    #  --midpoint \
+    #  --outputFile trees/genus/jingmenvirus_seg3-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
