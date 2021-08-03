@@ -2,9 +2,9 @@
   #run file glue/core/build-phylogenies/flaviviridaeCreateRootNucPhylogenies.glue
 
   # Create subgenus-level phylogenies
-  #run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenus.glue
-  #run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenusReroot.glue
-  #run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenusAnnotations.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenus.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenusReroot.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenusAnnotations.glue
 
   # Create recursively-populated genus-level phylogenies
   run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesGenus.glue
