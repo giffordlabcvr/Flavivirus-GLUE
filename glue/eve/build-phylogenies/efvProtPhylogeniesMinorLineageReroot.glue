@@ -1,0 +1,19 @@
+ 
+  # Clean-up
+  delete module flaviviridaePhyloUtility
+
+  
+  # Create all the modules we need
+  create module -f modules/core/flaviviridaePhyloUtility.xml
+
+
+  # Re-root phylogeny 
+  module flaviviridaePhyloUtility 
+
+	reroot-phylogeny \
+      --inputFile trees/minor-lineage/minor_flavitamana.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/minor-lineage/minor_flavitamana.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+

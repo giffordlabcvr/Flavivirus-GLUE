@@ -1,0 +1,34 @@
+ 
+  # Clean-up
+  delete module flaviviridaePhyloUtility
+
+  
+  # Create all the modules we need
+  create module -f modules/core/flaviviridaePhyloUtility.xml
+
+
+  # Re-root phylogeny 
+  module flaviviridaePhyloUtility 
+
+	reroot-phylogeny \
+      --inputFile trees/major-lineage/major1_flavipesti.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/major-lineage/major1_flavipesti.MidpointRerooted-aa.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/major-lineage/major1_hepapegi.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/major-lineage/major1_hepapegi-MidpointRerooted-aa.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/major-lineage/major1_flavilike.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/major-lineage/major1_flavilike-MidpointRerooted-aa.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/major-lineage/major1_pestilike.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/major-lineage/major1_pestilike-MidpointRerooted-aa.tree NEWICK_BOOTSTRAPS
+
+    exit
+
