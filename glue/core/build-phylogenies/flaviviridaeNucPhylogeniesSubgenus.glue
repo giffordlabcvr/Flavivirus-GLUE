@@ -26,11 +26,11 @@
   # Create the phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorNucs
 
-    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisfAa \
+    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisf \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/subgenus/cisf.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfvAa \
+    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfv     \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/subgenus/tbfv.tre NEWICK_BOOTSTRAPS
 
@@ -46,17 +46,20 @@
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/subgenus/nkv1.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorNkv2 \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus/nkv2.tre NEWICK_BOOTSTRAPS
+    # Currently too few genera
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorNkv2 \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus/nkv2.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_crustacean -s alignmentColumnsSelectorCrustacean \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus/crustacean.tre NEWICK_BOOTSTRAPS
+    # Currently too few genera
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_crustacean -s alignmentColumnsSelectorCrustacean \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus/crustacean.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF -s alignmentColumnsSelectorDisf \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus/disf1.tre NEWICK_BOOTSTRAPS
+    # Currently too few genera
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF -s alignmentColumnsSelectorDisf \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus/disf1.tre NEWICK_BOOTSTRAPS
 
     exit
 

@@ -33,8 +33,9 @@ project flaviviridae
   run file glue/eve/efvRecordFeaturePresence.glue
 
   # Create phylogenies
-  #run file glue/eve/efvPhylogenies.glue
-
+  #run file glue/eve/efvNucPhylogenies.glue
+  run file glue/eve/efvProtPhylogenies.glue
+  
   # Validate
   validate
 

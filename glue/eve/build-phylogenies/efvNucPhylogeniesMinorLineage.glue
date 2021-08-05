@@ -15,23 +15,22 @@
   create module -f modules/core/flaviTreeAlignmentImporterNucs.xml
   create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorFlaviTamana.xml
-  
 
   # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter	
- 	export AL_MINOR_FlaviTamana   -r REF_MASTER_YFV -f whole_genome --recursive -a  -e -o alignments/tree/minor_flavitamana-all.eve.aln.fna	
+ 	export AL_MINOR_FlaviTamana -r REF_MASTER_YFV -f whole_genome --recursive -a  -e -o alignments/tree/minor_flavitamana-all.eve.aln.fna	
 	exit
 
 
   # Re-import the recursively populated root alignment into the project
   module flaviTreeAlignmentImporterNucs
   
-    import AL_UNC_TREE_FlaviTamana        -f alignments/tree/minor_flavitamana-all.eve.aln.fna     
+    import AL_UNC_TREE_FlaviTamana -f alignments/tree/minor_flavitamana-all.eve.aln.fna     
 	exit
 
   
   # Create constrained alignments  
-  create alignment AL_TREE_FlaviTamana    -r REF_MASTER_YFV
+  create alignment AL_TREE_FlaviTamana -r REF_MASTER_YFV
 
 
   # Derive constrained alignments from unconstrained alignments 
@@ -43,8 +42,7 @@
   # Record feature presence  
   module flaviviridaeFeaturePresenceRecorder
 
-    record feature-presence AL_TREE_FlaviTamana       --featureName whole_genome --descendentFeatures
- 
+    record feature-presence AL_TREE_FlaviTamana --featureName whole_genome --descendentFeatures
     exit
 
 
@@ -54,8 +52,6 @@
     generate nucleotide phylogeny AL_TREE_FlaviTamana -s alignmentColumnsSelectorFlaviTamana \
       -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
      -o trees/minor-lineage/minor_flavitamana-efv.tre NEWICK_BOOTSTRAPS
-
-
 
     exit
 
