@@ -5,7 +5,7 @@
   run file glue/eve/build-phylogenies/efvNucPhylogeniesSubgenusAnnotations.glue
 
   # Create recursively-populated genus-level phylogenies
-  run file glue/eve/build-phylogenies/efvNucPhylogeniesGenusCreateTreeAlignments
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesGenusCreateTreeAlignments.glue
   run file glue/eve/build-phylogenies/efvNucPhylogeniesGenus.glue
   run file glue/eve/build-phylogenies/efvNucPhylogeniesGenusReroot.glue
   run file glue/eve/build-phylogenies/efvNucPhylogeniesGenusAnnotations.glue

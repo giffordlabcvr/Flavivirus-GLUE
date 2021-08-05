@@ -7,6 +7,7 @@
   #run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenusAnnotations.glue
 
   # Create recursively-populated genus-level phylogenies
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesGenusCreateTreeAlignments.glue
   run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesGenus.glue
   run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesGenusReroot.glue
   run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesGenusAnnotations.glue
