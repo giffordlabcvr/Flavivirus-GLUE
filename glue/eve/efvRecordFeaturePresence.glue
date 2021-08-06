@@ -5,24 +5,6 @@
 
     #~# Root alignment
     record feature-presence AL_ROOT_Flaviviridae --recursive --featureName whole_genome --descendentFeatures
-
-    #~# Major subclade alignments
-    record feature-presence AL_MAJOR1_HepaPegi --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_MAJOR1_FlaviPesti --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_MAJOR2_PestiLike --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_MAJOR2_FlaviLike --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_MINOR_FlaviTamana --recursive --featureName whole_genome --descendentFeatures
-    
-    #~# Genus alignments
-    record feature-presence AL_GENUS_Pestivirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_GENUS_PL2 --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_GENUS_Jingmenvirus_Seg1 --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_GENUS_Jingmenvirus_Seg3 --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_GENUS_Tamanavirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_GENUS_Flavivirus --recursive --featureName whole_genome --descendentFeatures
- 
-    #~# Subgenus alignments
-    record feature-presence AL_FLAVI_SUBGENUS_cISF --recursive --featureName whole_genome --descendentFeatures
     exit
 
 

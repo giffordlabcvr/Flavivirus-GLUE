@@ -172,14 +172,6 @@
 
    ### Derive constrained alignment segments from unconstrained alignments  
 
-  #
-  # ROOT NODE
-  #
-  
-  #alignment AL_ROOT_Flaviviridae
-  #  derive segments AL_EFV_UNC_Flaviviridae -a --existingMembersOnly
-  #  exit
-
 
   #
   # MAIN BRANCHES
@@ -194,11 +186,7 @@
     derive segments AL_EFV_UNC_FLAVI_PESTI -a --existingMembersOnly
     exit
 
-  #alignment AL_MAJOR2_PestiLike
-  #  derive segments AL_EFV_UNC_PESTI_LIKE -a --existingMembersOnly
-  #  exit
-
-  #alignment AL_MAJOR2_FlaviLike
+  #alignment AL_MAJOR2_FlaviLike (contains X1)
   #  derive segments AL_EFV_UNC_FLAVI_LIKE -a --existingMembersOnly
   #  exit
 
@@ -225,26 +213,31 @@
     derive segments AL_EFV_UNC_TABV -a --existingMembersOnly 
     exit
 
-  #alignment AL_MINOR_FlaviTamana
-  #  derive segments AL_EFV_UNC_FLAVI_TABV -a --existingMembersOnly 
-  #  exit
-
-  #alignment AL_GENUS_Flavivirus
-  #  derive segments AL_EFV_UNC_FLAVI -a --existingMembersOnly 
-  #  exit
+  alignment AL_GENUS_Flavivirus
+    derive segments AL_EFV_UNC_FLAVI -a --existingMembersOnly 
+    exit
 
  
   #
   # FLAVIVIRUS SUBGROUPS
   #  
 
+  alignment AL_FLAVI_SUBGENUS_cISF remove member -w "sequence.sequenceID = 'EFV-cISF.3-Anopheles_minimus'"
+  alignment AL_FLAVI_SUBGENUS_cISF remove member -w "sequence.sequenceID = 'EFV-cISF.4-Anopheles_sinensis'"
+  alignment AL_FLAVI_SUBGENUS_cISF remove member -w "sequence.sequenceID = 'EFV-cISF.6-Condylostylus_patibulatus'"
   alignment AL_FLAVI_SUBGENUS_cISF
     derive segments AL_EFV_UNC_FLAVI_cISF -a --existingMembersOnly 
     exit
 
-  alignment AL_crustacean
+  alignment AL_FLAVI_SUBGENUS_crustacean
     derive segments AL_EFV_UNC_FLAVI_crustacean -a --existingMembersOnly 
     exit
+
+
+
+
+
+
 
  
   #

@@ -1,0 +1,17 @@
+  
+  # Clean-up
+  delete module flaviviridaeFigTreeAnnotationExporter
+
+  # Create all the modules we need
+  create module -f modules/core/flaviviridaeFigTreeAnnotationExporter.xml
+
+  # Export annotations
+  module flaviviridaeFigTreeAnnotationExporter 
+
+    export figtree-annotation AL_FLAVI_SUBGENUS_cISF -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
+      and fLocNotes.ref_nt_coverage_pct >= 5" -f trees/subgenus/cisf-efv.figtree-annotations-aa.tsv
+
+
+  exit
+
+
