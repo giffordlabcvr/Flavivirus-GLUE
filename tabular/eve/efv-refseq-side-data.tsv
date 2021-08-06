@@ -1,13 +1,25 @@
 sequenceID	name	locus_id	full_name	subfamily	genus	clade	locus_numeric_id	host_group_taxlevel	host_group_name	host_group_common_name	reftype	num_copies	In project?	host_group	vector_group
 EFV-cISF.1-AedAeg	EFV-cISF.1-AedAeg	EFV-cISF.1-AedAeg	EFV-cISF.1-AedAeg	FlaviPesti	Flavivirus	cISF	1	species	Aedes aegypti**	Yellow fever mosquito	consensus	10	no	NULL	NULL
 EFV-cISF.2-AedAlb	EFV-cISF.2-AedAlb	EFV-cISF.2-AedAlb	EFV-cISF.2-AedAlb	FlaviPesti	Flavivirus	cISF	2	species	Aedes albopictus**	Tiger mosquito	consensus	16	no	NULL	NULL
-EFV-cISF.3-Anopheles_minimus	EFV-cISF.3-AnoMin	EFV-cISF.3-AnoMin	EFV-cISF.3-AnoMin	FlaviPesti	Flavivirus	cISF	3	species	Anopheles minimus**		reference	1	n/a	NULL	NULL
-EFV-cISF.4-Anopheles_sinensis	EFV-cISF.4-AnoSin	EFV-cISF.4-AnoSin	EFV-cISF.4-AnoSin	FlaviPesti	Flavivirus	cISF	4	species	Anopheles sinensis**		reference	1	n/a	NULL	NULL
+EFV-cISF.3-AnoMin	EFV-cISF.3-AnoMin	EFV-cISF.3-AnoMin	EFV-cISF.3-AnoMin	FlaviPesti	Flavivirus	cISF	3	species	Anopheles minimus**		reference	1	n/a	NULL	NULL
+EFV-cISF.4-AnoSin	EFV-cISF.4-AnoSin	EFV-cISF.4-AnoSin	EFV-cISF.4-AnoSin	FlaviPesti	Flavivirus	cISF	4	species	Anopheles sinensis**		reference	1	n/a	NULL	NULL
 EFV-cISF.5-TipOle	EFV-cISF.5-TipOle	EFV-cISF.5-TipOle	EFV-cISF.5-TipOle	FlaviPesti	Flavivirus	cISF	5	species	Tipula oleracea	Marsh crane fly	consensus	4		NULL	NULL
-EFV-cISF.6-Condylostylus_patibulatus	EFV-cISF.6-ConPat	EFV-cISF.6-ConPat	EFV-cISF.6-ConPat	FlaviPesti	Flavivirus	cISF	6	species	Condylostylus patibulatus	Long-legged fly	reference	1	n/a	NULL	NULL
+EFV-cISF.6-ConPat	EFV-cISF.6-ConPat	EFV-cISF.6-ConPat	EFV-cISF.6-ConPat	FlaviPesti	Flavivirus	cISF	6	species	Condylostylus patibulatus	Long-legged fly	reference	1	n/a	NULL	NULL
 EFV-Flavi.1-CraSow	EFV-Flavi.1-CraSow	EFV-Flavi.1-CraSow	EFV-Flavi.1-CraSow	FlaviPesti	Flavivirus	Cnidarian	1	species	Craspedacusta sowerbii	Freshwater jellyfish	consensus	7		NULL	NULL
 EFV-Flavi.2-DapMag	EFV-Flavi.2-DapMag	EFV-Flavi.2-DapMag	EFV-Flavi.2-DapMag	FlaviPesti	Flavivirus	Crustacean	2	species	Daphnia magna	Water flea	consensus	2		NULL	NULL
 EFV-Flavi.3-LepArc	EFV-Flavi.3-LepArc	EFV-Flavi.3-LepArc	EFV-Flavi.3-LepArc	FlaviPesti	Flavivirus	Crustacean	3	species	Lepidurus arcticus	Tadpole shrimp	consensus	3		NULL	NULL
+EFV-HepaPegi.1-ElyChl	EFV-HepaPegi.1-ElyChl	EFV-HepaPegi.1-ElyChl	EFV-HepaPegi.1-ElyChl	HepaPegi	HepaPegi	Invertebrate	1	species	Elysia chlorotica	Green sea	reference	1		NULL	NULL
+EJP-Jingmen.1-Chironomus	EJP-Jingmen.1-Chironomus	EJP-Jingmen.1-Chironomus	EJP-Jingmen.1-Chironomus	FlaviPesti	JMTV1	Jingmenvirus	1	genus	Chironomus	Chironomus	consensus	2		NULL	NULL
+EJP-Jingmen.2-GerBue	EJP-Jingmen.2-GerBue	EJP-Jingmen.2-GerBue	EJP-Jingmen.2-GerBue	FlaviPesti	JMTV1	Jingmenvirus	2	species	Gerris buenoi	Water strider	reference	1		NULL	NULL
+EJH-Jingmen.1-GerBue	EJH-Jingmen.1-GerBue	EJH-Jingmen.1-GerBue	EJH-Jingmen.1-GerBue	FlaviPesti	JMTV3	Jingmenvirus	1	species	Gerris buenoi	Water strider	reference	1		NULL	NULL
+EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	FlaviPesti	PL2	Bee	1	species	Calycopis cecrops	Red-banded hairstreak	consensus			NULL	NULL
+EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	FlaviPesti	PL2	Bee	2	species	Euschistus heros	Stink bug	consensus	1		NULL	NULL
+EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	FlaviPesti	PL2	Bee	3	family	Apoidae	Sweat bees	consensus			NULL	NULL
+EFV-PL2.4-Andricus	EFV-PL2.4-Andricus	EFV-PL2.4-Andricus	EFV-PL2.4-Andricus	FlaviPesti	PL2	Bee	4	genus	Andricus	Cottonwool gall wasp	consensus	2		NULL	NULL
+EFV-PL2.5-AnoGla	EFV-PL2.5-AnoGla	EFV-PL2.5-AnoGla	EFV-PL2.5-AnoGla	FlaviPesti	PL2	Bee	5	species	Anoplophora glabripennis	Long-horned beetle	reference			NULL	NULL
+EFV-PL2.6-XenBra	EFV-PL2.6-XenBra	EFV-PL2.6-XenBra	EFV-PL2.6-XenBra	FlaviPesti	PL2	Bee	6	species	Xenocatantops brachycerus*	Grasshopper	consensus	16		NULL	NULL
+EFV-PL2.7-OpeBru	EFV-PL2.7-OpeBru	EFV-PL2.7-OpeBru	EFV-PL2.7-OpeBru	FlaviPesti	PL2	Bee	7	species	Operophtera brumata	Winter moth	reference	2		NULL	NULL
+EFV-PL2.8-EusHer	EFV-PL2.8-EusHer	EFV-PL2.8-EusHer	EFV-PL2.8-EusHer	FlaviPesti	PL2	Bee	9	species	Euschistus heros	Stink bug	consensus	1		NULL	NULL
 EFV-Tamana.1-LedTum	EFV-Tamana.1-LedTum	EFV-Tamana.1-LedTum	EFV-Tamana.1-LedTum	FlaviPesti	Tamanavirus	Tamana	1	species	Lednia tumana	Meltwater stonefly	reference	1	n/a	NULL	NULL
 EFV-Tamana.2-LauKoh	EFV-Tamana.2-LauKoh	EFV-Tamana.2-LauKoh	EFV-Tamana.2-LauKoh	FlaviPesti	Tamanavirus	Tamana	2	species	Laupala kohalensis	Hawaiian cricket	consensus	2		NULL	NULL
 EFV-Tamana.3-AmpSul	EFV-Tamana.3-AmpSul	EFV-Tamana.3-AmpSul	EFV-Tamana.3-AmpSul	FlaviPesti	Tamanavirus	Tamana	3	species	Amphinemura sulcicollis	Spring stonefly	consensus	2		NULL	NULL
@@ -22,15 +34,3 @@ EFV-X2.6-MorMor	EFV-X2.6-MorMor	EFV-X2.6-MorMor	EFV-X2.6-MorMor	FlaviPesti	X2	X2
 EFV-X2.7-BroBro	EFV-X2.7-BroBro	EFV-X2.7-BroBro	EFV-X2.7-BroBro	FlaviPesti	X2	X2	7	species	Brosme brosme	Cusk	reference	1		NULL	NULL
 EFV-X2.8-MacPee	EFV-X2.8-MacPee	EFV-X2.8-MacPee	EFV-X2.8-MacPee	FlaviPesti	X2	X2	8	species	Maccullochella peelii	Murray cod	reference	1		NULL	NULL
 EFV-X2.9-BolPec	EFV-X2.9-BolPec	EFV-X2.9-BolPec	EFV-X2.9-BolPec	FlaviPesti	X2	X2	9	species	Boleophthalmus pectinirostris	Bluespotted mudhopper	reference	1		NULL	NULL
-EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	EFV-PL2.1-CalCec	FlaviPesti	PL2	Bee	1	species	Calycopis cecrops	Red-banded hairstreak	consensus			NULL	NULL
-EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	EFV-PL2.2-EusHer	FlaviPesti	PL2	Bee	2	species	Euschistus heros	Stink bug	consensus	1		NULL	NULL
-EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	EFV-PL2.3-Apoidae	FlaviPesti	PL2	Bee	3	family	Apoidae	Sweat bees	consensus			NULL	NULL
-EFV-PL2.4-Andricus	EFV-PL2.4-Andricus	EFV-PL2.4-Andricus	EFV-PL2.4-Andricus	FlaviPesti	PL2	Bee	4	genus	Andricus	Cottonwool gall wasp	consensus	2		NULL	NULL
-EFV-PL2.5-AnoGla	EFV-PL2.5-AnoGla	EFV-PL2.5-AnoGla	EFV-PL2.5-AnoGla	FlaviPesti	PL2	Bee	5	species	Anoplophora glabripennis	Long-horned beetle	reference			NULL	NULL
-EFV-PL2.6-XenBra	EFV-PL2.6-XenBra	EFV-PL2.6-XenBra	EFV-PL2.6-XenBra	FlaviPesti	PL2	Bee	6	species	Xenocatantops brachycerus*	Grasshopper	consensus	16		NULL	NULL
-EFV-PL2.7-OpeBru	EFV-PL2.7-OpeBru	EFV-PL2.7-OpeBru	EFV-PL2.7-OpeBru	FlaviPesti	PL2	Bee	7	species	Operophtera brumata	Winter moth	reference	2		NULL	NULL
-EFV-PL2.8-EusHer	EFV-PL2.8-EusHer	EFV-PL2.8-EusHer	EFV-PL2.8-EusHer	FlaviPesti	PL2	Bee	9	species	Euschistus heros	Stink bug	consensus	1		NULL	NULL
-EFV-HepaPegi.1-ElyChl	EFV-HepaPegi.1-ElyChl	EFV-HepaPegi.1-ElyChl	EFV-HepaPegi.1-ElyChl	HepaPegi	HepaPegi	Invertebrate	1	species	Elysia chlorotica	Green sea	reference	1		NULL	NULL
-EJP-Jingmen.1-Chironomus	EJP-Jingmen.1-Chironomus	EJP-Jingmen.1-Chironomus	EJP-Jingmen.1-Chironomus	FlaviPesti	JMTV1	Jingmenvirus	1	genus	Chironomus	Chironomus	consensus	2		NULL	NULL
-EJP-Jingmen.2-Gerris_buenoi	EJP-Jingmen.2-GerBue	EJP-Jingmen.2-GerBue	EJP-Jingmen.2-GerBue	FlaviPesti	JMTV1	Jingmenvirus	2	species	Gerris buenoi	Water strider	reference	1		NULL	NULL
-EJH-Jingmen.1-Gerris_buenoi	EJH-Jingmen.1-GerBue	EJH-Jingmen.1-GerBue	EJH-Jingmen.1-GerBue	FlaviPesti	JMTV3	Jingmenvirus	1	species	Gerris buenoi	Water strider	reference	1		NULL	NULL

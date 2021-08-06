@@ -16,45 +16,8 @@ module efvUnconstrainedAlignmentImporter
   import AL_EFV_UNC_JMTV_SEG3            -f alignments/internal/genus/jmtvSeg3-eve.aln.fna
 
   #~# Genus subgroups
-  import AL_EFV_UNC_FLAVI_cISF          -f alignments/internal/subgroup/cISF-eve.aln.fna
+  import AL_EFV_UNC_FLAVI_cISF          -f alignments/internal/subgenus/crustacean-efv.aln.fna
+  import AL_EFV_UNC_FLAVI_crustacean    -f alignments/internal/subgenus/cISF-efv.aln.fna
   
-	
-  #~# Import EVE 'tip' alignments (alignments of multicopy EVE loci believed to have a common origin)
-  
-
-  # X1
-  import AL_EFV_UNC_Priapulus                  -f alignments/tip/x1/efv-x1.1-PriCau.aln.fna
-
-  # X2
-  import AL_EFV_UNC_Austrofundulus             -f alignments/tip/x2/efv-x2.1-AusLim.aln.fna
-  import AL_EFV_UNC_Stylophorus                -f alignments/tip/x2/efv-x2.2-StyCho.aln.fna
-  import AL_EFV_UNC_Eurytemora                 -f alignments/tip/x2/efv-x2.3-EurAff.aln.fna
-  import AL_EFV_UNC_Takifugu                   -f alignments/tip/x2/efv-x2.4-Takifugu.aln.fna
-  import AL_EFV_UNC_Phycis                     -f alignments/tip/x2/efv-x2.5-Phycis.aln.fna
-
-  # Flavirus
-  import AL_EFV_UNC_Flavi_Daphnia              -f alignments/tip/flavivirus/flavivirus-daphnia.aln.fna
-  import AL_EFV_UNC_Flavi_Craspedacusta        -f alignments/tip/flavivirus/flavivirus-craspadecusta.aln.fna
-  import AL_EFV_UNC_Flavi_Lepidurus            -f alignments/tip/flavivirus/flavivirus-lepidurus.aln.fna
-
-  # cISF
-  import AL_EFV_UNC_cISF_Aedes_aeg             -f alignments/tip/flavivirus-cisf/cisf-aedes-aeg.aln.fna
-  import AL_EFV_UNC_cISF_Aedes_alb             -f alignments/tip/flavivirus-cisf/cisf-aedes-alb.aln.fna
-  import AL_EFV_UNC_cISF_Tipula                -f alignments/tip/flavivirus-cisf/cisf-tipula.aln.fna
-
-  # Tamanavirus
-  import AL_EFV_UNC_Tamana_Amphinemura         -f alignments/tip/tamanavirus/tamana-amphinemura.aln.fna
-  import AL_EFV_UNC_Tamana_Laupala             -f alignments/tip/tamanavirus/tamana-laupala.aln.fna
-
-  # Jingmenvirus
-  import AL_EJP_UNC_JMTV1_Chironomus           -f alignments/tip/jingmenvirus/jmtv1-chironomus.aln.fna
-
-  # Pestinsect
-  import AL_EFV_UNC_Pestinsect_Calycopis       -f alignments/tip/pl2/PL2.1-calycopis.aln.fna
-  #import AL_EFV_UNC_Pestinsect_Apoidae        -f alignments/tip/pl2/PL2.3-apoidae.aln.fna
-  import AL_EFV_UNC_Pestinsect_Andricus        -f alignments/tip/pl2/PL2.4-andricus.aln.fna
-  #import AL_EFV_UNC_Pestinsect_Xenocatantops  -f alignments/tip/pl2/PL2.6-xenocatantops.aln.fna
-  import AL_EFV_UNC_Pestinsect_Operophtera     -f alignments/tip/pl2/PL2.7-operophtera.aln.fna
-
 
   exit

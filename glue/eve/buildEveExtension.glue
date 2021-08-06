@@ -23,19 +23,23 @@ project flaviviridae
   # Add feature locations to reference sequences
   module featureLocationTextToGlue transform tabular/eve/efv-reference_feature_locations.tsv -r
 
-  # Import alignments
+  # Import internal node alignments with EVEs
   run file glue/eve/efvAlignments.glue
 
-  # Import alignment tree
-  run file glue/eve/efvAlignmentTree.glue
-
-  # Record feature coverage in alignments
+  # Record feature coverage in internal node alignments
   run file glue/eve/efvRecordFeaturePresence.glue
+
+  # Import consensus EVE locus alignments
+  run file glue/eve/efvImportTipAlignments.glue
+
+  # Update alignment tree
+  run file glue/eve/efvAlignmentTree.glue
 
   # Create phylogenies
   #run file glue/eve/efvNucPhylogenies.glue
   run file glue/eve/efvProtPhylogenies.glue
   
+
   # Validate
   validate
 
