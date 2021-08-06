@@ -1,18 +1,16 @@
 
   # Clean up from any previous run of this file
   
-  # Delete alignments
-  delete alignment AL_UNC_TREE_FlaviTamana
-  delete alignment AL_TREE_FlaviTamana
-
   # Delete modules  
-  delete module flaviviridaeRaxmlPhylogenyGeneratorNucs
-  delete module alignmentColumnsSelectorFlaviTamana
+  delete module fastaAlignmentExporter
+  delete module flaviTreeAlignmentImporterNucs
+  delete module flaviviridaeFeaturePresenceRecorder
   
   # Create all the modules we need
-  create module -f modules/core/flaviviridaeRaxmlPhylogenyGeneratorNucs.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorFlaviTamana.xml
-  
+  create module -f modules/core/fastaAlignmentExporter.xml
+  create module -f modules/core/flaviTreeAlignmentImporterNucs.xml
+  create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
+
 
   # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter	
@@ -42,17 +40,5 @@
 
     record feature-presence AL_TREE_FlaviTamana       --featureName whole_genome --descendentFeatures
  
-    exit
-
-
-  # Create the phylogenies
-  module flaviviridaeRaxmlPhylogenyGeneratorNucs
-
-    generate nucleotide phylogeny AL_TREE_FlaviTamana -s alignmentColumnsSelectorFlaviTamana \
-      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/minor-lineage/minor_flavitamana.tre NEWICK_BOOTSTRAPS
-
-
-
     exit
 

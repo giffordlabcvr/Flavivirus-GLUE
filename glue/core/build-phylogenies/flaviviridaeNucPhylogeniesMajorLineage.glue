@@ -1,16 +1,6 @@
 
   # Clean up from any previous run of this file
   
-  # Delete alignments
-  delete alignment AL_UNC_TREE_HepaciPegi
-  delete alignment AL_TREE_HepaciPegi
-  delete alignment AL_UNC_TREE_FlaviPesti
-  delete alignment AL_TREE_FlaviPesti
-  delete alignment AL_UNC_TREE_PestiLike
-  delete alignment AL_TREE_PestiLike
-  delete alignment AL_UNC_TREE_FlaviLike
-  delete alignment AL_TREE_FlaviLike
-
   # Delete modules  
   delete module flaviviridaeRaxmlPhylogenyGeneratorNucs
   delete module alignmentColumnsSelectorFlaviPesti
@@ -20,96 +10,30 @@
   
   # Create all the modules we need
   create module -f modules/core/flaviviridaeRaxmlPhylogenyGeneratorNucs.xml
-  create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/core/flaviTreeAlignmentImporterNucs.xml
-  create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorFlaviPesti.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorHepaciPegi.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorFlaviLike.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorPestiLike.xml
 
-  
-
-  # Export the recursively populated root gene alignments 
-  module fastaAlignmentExporter
- 	
- 	export AL_MAJOR1_FlaviPesti   -r REF_MASTER_YFV -f whole_genome --recursive -a  -e -o alignments/tree/major1_flavipesti-all.aln.fna
- 	export AL_MAJOR1_HepaPegi     -r REF_HCV        -f whole_genome --recursive -a  -e -o alignments/tree/major1_hepacipegi-all.aln.fna
-  	export AL_MAJOR2_FlaviLike    -r REF_MASTER_YFV -f whole_genome --recursive -a  -e -o alignments/tree/major2_flavilike-all.aln.fna
- 	export AL_MAJOR2_PestiLike    -r REF_BVDV1      -f whole_genome --recursive -a  -e -o alignments/tree/major2_pestilike-all.aln.fna
-	
-	exit
-
-
-  # Re-import the recursively populated root alignment into the project
-  module flaviTreeAlignmentImporterNucs
-  
-    import AL_UNC_TREE_FlaviPesti        -f alignments/tree/major1_flavipesti-all.aln.fna
-    import AL_UNC_TREE_HepaPegi          -f alignments/tree/major1_hepacipegi-all.aln.fna	
-    import AL_UNC_TREE_FlaviLike         -f alignments/tree/major2_flavilike-all.aln.fna
-    import AL_UNC_TREE_PestiLike         -f alignments/tree/major2_pestilike-all.aln.fna
-     
-	exit
-
-  
-  # Create constrained alignments
-   
-  create alignment AL_TREE_FlaviPesti    -r REF_MASTER_YFV
-  create alignment AL_TREE_HepaPegi      -r REF_HCV
-  create alignment AL_TREE_FlaviLike     -r REF_MASTER_YFV
-  create alignment AL_TREE_PestiLike     -r REF_BVDV1
-
-
-
-  # Derive constrained alignments from unconstrained alignments
-  
-  alignment AL_TREE_FlaviPesti
-	derive segments AL_UNC_TREE_FlaviPesti -a --mergeStrategy OVERWRITE
-	exit
-  
-  alignment AL_TREE_HepaPegi
-	derive segments AL_UNC_TREE_HepaPegi  -a --mergeStrategy OVERWRITE
-	exit
-  
-  alignment AL_TREE_FlaviLike
-	derive segments AL_UNC_TREE_FlaviLike -a --mergeStrategy OVERWRITE
-	exit
-  
-  alignment AL_TREE_PestiLike
-	derive segments AL_UNC_TREE_PestiLike -a --mergeStrategy OVERWRITE
-	exit
-
-
-  # Record feature presence
-  
-  module flaviviridaeFeaturePresenceRecorder
-
-    record feature-presence AL_TREE_FlaviPesti       --featureName whole_genome --descendentFeatures
-    record feature-presence AL_TREE_HepaPegi         --featureName whole_genome --descendentFeatures
-    record feature-presence AL_TREE_FlaviLike        --featureName whole_genome --descendentFeatures
-    record feature-presence AL_TREE_PestiLike        --featureName whole_genome --descendentFeatures
- 
-    exit
-
 
   # Create the phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorNucs
 
-    #generate nucleotide phylogeny AL_TREE_FlaviPesti -s alignmentColumnsSelectorFlaviPesti \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-    #  -o trees/major-lineage/major1_flavipesti.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_FlaviPesti -s alignmentColumnsSelectorFlaviPesti \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
+      -o trees/major-lineage/major1_flavipesti.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_TREE_HepaPegi -s alignmentColumnsSelectorHepaciPegi \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-    #  -o trees/major-lineage/major1_hepapegi.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_HepaPegi -s alignmentColumnsSelectorHepaciPegi \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
+      -o trees/major-lineage/major1_hepapegi.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_TREE_FlaviLike -s alignmentColumnsSelectorFlaviLike \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-    #  -o trees/major-lineage/major1_flavilike.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_FlaviLike -s alignmentColumnsSelectorFlaviLike \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
+      -o trees/major-lineage/major1_flavilike.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_TREE_PestiLike -s alignmentColumnsSelectorPestiLike \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-    #  -o trees/major-lineage/major1_pestilike.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_TREE_PestiLike -s alignmentColumnsSelectorPestiLike \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
+      -o trees/major-lineage/major1_pestilike.tre NEWICK_BOOTSTRAPS
 
 
     exit

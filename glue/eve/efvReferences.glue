@@ -15,10 +15,10 @@ create reference REF_EFV-PL2.8-AnoPla           fasta-refseqs-eve EFV-PL2.8-AnoP
 ### cISF 
 create reference REF_EFV-cISF.1-AedAeg          fasta-refseqs-eve EFV-cISF.1-AedAeg  
 create reference REF_EFV-cISF.2-AedAlb          fasta-refseqs-eve EFV-cISF.2-AedAlb  
-create reference REF_EFV-cISF.3-AnoMin          fasta-refseqs-eve EFV-cISF.3-AnoMin  
-create reference REF_EFV-cISF.4-AnoSin          fasta-refseqs-eve EFV-cISF.4-AnoSin  
+create reference REF_EFV-cISF.3-AnoMin          fasta-refseqs-eve EFV-cISF.3-Anopheles_minimus  
+create reference REF_EFV-cISF.4-AnoSin          fasta-refseqs-eve EFV-cISF.4-Anopheles_sinensis  
 create reference REF_EFV-cISF.5-TipOle          fasta-refseqs-eve EFV-cISF.5-TipOle
-create reference REF_EFV-cISF.6-ConPat          fasta-refseqs-eve EFV-cISF.6-ConPat
+create reference REF_EFV-cISF.6-ConPat          fasta-refseqs-eve EFV-cISF.6-Condylostylus_patibulatus
 
 ### Flavivirus 
 create reference REF_EFV-Flavi.1-CraSow         fasta-refseqs-eve EFV-Flavi.1-CraSow

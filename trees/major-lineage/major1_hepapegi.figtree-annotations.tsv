@@ -1,0 +1,19 @@
+taxon	sequenceID	name	subfamily	genus	subgenus	host_group	vector_group	isolate	sampled_host_sci_name	sample_date	country
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/KY370092	KY370092	RHCV	HepaPegi	Hepacivirus	-	Meriones meridianus	none	RtMm-HCV/IM2014	Meriones meridianus	-	China
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/MG334001	MG334001	THCV	HepaPegi	Hepacivirus	-	Trachemys scripta elegans	none	-	Trachemys scripta elegans	-	USA
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/MG599987	MG599987	YterHCV	HepaPegi	Hepacivirus	-	Teratoscincus roborowskii	none	-	Teratoscincus roborowskii	-	China
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/MG599990	MG599990	WmeHCV	HepaPegi	Hepacivirus	-	Chordata	none	-	Gymnothorax reticularis	-	China
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/MG599991	MG599991	XgHCV	HepaPegi	Hepacivirus	-	Rhinobatos hynnicephalus	none	-	Rhinobatos hynnicephalus	-	China
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/MG599993	MG599993	WHCV	HepaPegi	Hepacivirus	-	Protopterus annectens	none	-	Protopterus annectens	-	Nigeria
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/MG599996	MG599996	NHCV	HepaPegi	Hepacivirus	-	Chimaera sp.	none	-	Chimaera sp.	-	China
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/NC_001710	NC_001710	HGV1	HepaPegi	Pegivirus	-	Primates	none	-	-	-	-
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/NC_004102	NC_004102	HCV	HepaPegi	Hepacivirus	Genotype 1	Homo	none	H77	-	-	-
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/NC_020902	NC_020902	EPgV	HepaPegi	Pegivirus	-	Equus	none	C0035	horse	-	USA
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/NC_021153	NC_021153	RHV-339	HepaPegi	Hepacivirus	-	Peromyscus	none	RHV-339	Peromyscus maniculatus	-	USA
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/NC_021154	NC_021154	RPgV	HepaPegi	Pegivirus	-	Neotoma	none	CC61	Neotoma lepida	-	USA
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/NC_024889	NC_024889	EHCV	HepaPegi	Hepacivirus	-	Equus	none	-	Equus caballus	-	Japan
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/NC_025672	NC_025672	RHCV-1	HepaPegi	Hepacivirus	-	Rattus	none	NrHV-1/NYC-C12	Rattus norvegicus	-	USA: New York, New York City
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/NC_025673	NC_025673	RHCV-2	HepaPegi	Hepacivirus	-	Rattus	none	NrHV-2/NYC-E43	Rattus norvegicus	-	USA: New York, New York City
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/NC_026797	NC_026797	BHCV	HepaPegi	Hepacivirus	-	Bos	none	GHC25	Bos taurus	-	Ghana
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/NC_027998	NC_027998	HPgV-2	HepaPegi	Pegivirus	-	Primates	none	UC0125.US	Homo sapiens	-	USA
+alignment/AL_TREE_HepaPegi/member/ncbi-refseqs/NC_028377	NC_028377	WLSV	HepaPegi	Hepacivirus	-	Proscyllium habereri	none	-	Proscyllium habereri	-	China

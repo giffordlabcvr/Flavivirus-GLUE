@@ -1,10 +1,8 @@
-	
-  #run file glue/core/build-phylogenies/flaviviridaeCreateRootNucPhylogenies.glue
 
   # Create subgenus-level phylogenies
-  #run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenus.glue
-  #run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenusReroot.glue
-  #run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenusAnnotations.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenus.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenusReroot.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenusAnnotations.glue
 
   # Create recursively-populated genus-level phylogenies
   run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesGenusCreateTreeAlignments.glue
@@ -13,11 +11,13 @@
   run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesGenusAnnotations.glue
 
   # Create recursively-populated major-lineage-level phylogenies
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMajorLineageCreateTreeAlignments.glue
   run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMajorLineage.glue
   run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMajorLineageReroot.glue
   run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMajorLineageAnnotations.glue
 
   # Create recursively-populated minor-lineage-level phylogenies
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMinorLineageCreateTreeAlignments.glue
   run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMinorLineage.glue
   run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMinorLineageReroot.glue
   run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMinorLineageAnnotations.glue
