@@ -30,14 +30,14 @@ project flaviviridae
   run file glue/eve/efvRecordFeaturePresence.glue
 
   # Import consensus EVE locus alignments
-  run file glue/eve/efvImportTipAlignments.glue
+  #run file glue/eve/efvImportTipAlignments.glue
 
   # Update alignment tree
   run file glue/eve/efvAlignmentTree.glue
 
   # Create phylogenies
   #run file glue/eve/efvNucPhylogenies.glue
-  run file glue/eve/efvProtPhylogenies.glue
+  #run file glue/eve/efvProtPhylogenies.glue
   
 
   # Validate

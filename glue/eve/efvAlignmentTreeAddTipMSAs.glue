@@ -1,0 +1,79 @@
+  #
+  # X2
+  #
+
+  alignment AL_EFV_X2
+
+
+	extract child AL_EFV_X2.1-AusLim  -r REF_EFV-X2.1-AusLim
+	demote member AL_EFV_X2.1-AusLim  -w "sequence.sequenceID like 'EFV-X2.1%'"
+
+	extract child AL_EFV_X2.2-StyCho  -r REF_EFV-X2.2-StyCho
+	demote member AL_EFV_X2.2-StyCho  -w "sequence.sequenceID like 'EFV-X2.2%'"
+
+	extract child AL_EFV_X2.3-EurAff  -r REF_EFV-X2.3-EurAff
+	demote member AL_EFV_X2.3-EurAff  -w "sequence.sequenceID like 'EFV-X2.3%'"
+
+    exit
+
+  #
+  # Jingmenvirus
+  #
+
+  alignment AL_GENUS_Jingmenvirus_Seg1
+
+	extract child AL_EJP-Jingmen.1-Chironomus  -r REF_EJP-Jingmen.1-Chironomus
+	demote member AL_EJP-Jingmen.1-Chironomus  -w "sequence.source.name = 'fasta-digs-eve' and sequence.sequenceID like 'EJP-Jingmen.1%'"
+
+    exit
+
+  #
+  # Tamanavirus
+  #
+
+  alignment AL_GENUS_Tamanavirus
+
+	extract child AL_EFV_Tamana.2-LauKoh  -r REF_EFV-Tamana.2-LauKoh
+	demote member AL_EFV_Tamana.2-LauKoh  -w "sequence.sequenceID like 'EFV-Tamana.2%'"
+
+	extract child AL_EFV-Tamana.3-AmpSul  -r REF_EFV-Tamana.3-AmpSul
+	demote member AL_EFV-Tamana.3-AmpSul  -w "sequence.sequenceID like 'EFV-Tamana.3%'"
+
+	extract child AL_EFV-Tamana.4-StyCho  -r REF_EFV-Tamana.4-StyCho
+	demote member AL_EFV-Tamana.4-StyCho  -w "sequence.sequenceID like 'EFV-Tamana.4%'"
+    exit
+
+  #
+  # Flavivirus
+  #
+
+  alignment AL_GENUS_Flavivirus
+
+	extract child AL_EFV-Flavi.1-CraSow  -r REF_EFV-Flavi.1-CraSow
+	demote member AL_EFV-Flavi.1-CraSow  -w "sequence.sequenceID like 'EFV-Flavi.1%'"
+
+	extract child AL_EFV-Flavi.2-DapMag  -r REF_EFV-Flavi.2-DapMag
+	demote member AL_EFV-Flavi.2-DapMag  -w "sequence.sequenceID like 'EFV-Flavi.2%'"
+
+	extract child AL_EFV-Flavi.3-LepArc  -r REF_EFV-Flavi.3-LepArc
+	demote member AL_EFV-Flavi.3-LepArc  -w "sequence.sequenceID like 'EFV-Flavi.3%'"
+
+	demote member AL_FLAVI_SUBGENUS_cISF -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.clade = 'cISF'"
+	demote member AL_FLAVI_SUBGENUS_cISF -w "sequence.source.name = 'fasta-digs-eve' and sequence.clade = 'cISF'"
+    exit
+
+  #
+  # cISF
+  #
+
+  alignment AL_FLAVI_SUBGENUS_cISF
+
+	extract child AL_EFV-cISF.1-AedAeg  -r REF_EFV-cISF.1-AedAeg
+	demote member AL_EFV-cISF.1-AedAeg  -w "sequence.sequenceID like 'EFV-cISF.1%'"
+                  
+	extract child AL_EFV-cISF.2-AedAlb  -r REF_EFV-cISF.2-AedAlb
+	demote member AL_EFV-cISF.2-AedAlb  -w "sequence.sequenceID like 'EFV-cISF.2%'"
+
+	extract child AL_EFV-cISF.5-TipOle  -r REF_EFV-cISF.5-TipOle
+	demote member AL_EFV-cISF.5-TipOle  -w "sequence.sequenceID like 'EFV-cISF.5%'"
+    exit

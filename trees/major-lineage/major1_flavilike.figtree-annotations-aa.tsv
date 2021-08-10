@@ -6,6 +6,12 @@ alignment/AL_TREE_FlaviLike/member/ncbi-refseqs/D00246	D00246	KUNV	FlaviPesti	Fl
 alignment/AL_TREE_FlaviLike/member/ncbi-refseqs/DQ235149	DQ235149	RFV	FlaviPesti	Flavivirus	TBFV	Argas	tick	-	-	-	Afghanistan
 alignment/AL_TREE_FlaviLike/member/ncbi-refseqs/DQ235151	DQ235151	TSEV	FlaviPesti	Flavivirus	TBFV	Ixodes	tick	-	-	-	Turkey
 alignment/AL_TREE_FlaviLike/member/ncbi-refseqs/DQ859056	DQ859056	BANV	FlaviPesti	Flavivirus	Mosq2	Aedes	mosquito	-	-	-	South Africa
+alignment/AL_TREE_FlaviLike/member/fasta-refseqs-eve/EFV-cISF.1-AedAeg	EFV-cISF.1-AedAeg	EFV-cISF.1-AedAeg	FlaviPesti	Flavivirus	-	-	-	-	-	-	-
+alignment/AL_TREE_FlaviLike/member/fasta-digs-eve/EFV-cISF.1.1-Aedes_aegypti	EFV-cISF.1.1-Aedes_aegypti	EFV-cISF.1.1-Aedes_aegypti	FlaviPesti	Flavivirus	-	-	-	-	-	-	-
+alignment/AL_TREE_FlaviLike/member/fasta-refseqs-eve/EFV-cISF.2-AedAlb	EFV-cISF.2-AedAlb	EFV-cISF.2-AedAlb	FlaviPesti	Flavivirus	-	-	-	-	-	-	-
+alignment/AL_TREE_FlaviLike/member/fasta-refseqs-eve/EFV-Flavi.1-CraSow	EFV-Flavi.1-CraSow	EFV-Flavi.1-CraSow	FlaviPesti	Flavivirus	-	-	-	-	-	-	-
+alignment/AL_TREE_FlaviLike/member/fasta-refseqs-eve/EFV-Flavi.2-DapMag	EFV-Flavi.2-DapMag	EFV-Flavi.2-DapMag	FlaviPesti	Flavivirus	-	-	-	-	-	-	-
+alignment/AL_TREE_FlaviLike/member/fasta-digs-eve/EFV-Flavi.2.1-Daphnia_magna	EFV-Flavi.2.1-Daphnia_magna	EFV-Flavi.2.1-Daphnia_magna	FlaviPesti	Flavivirus	-	-	-	-	-	-	-
 alignment/AL_TREE_FlaviLike/member/ncbi-refseqs/EU082199	EU082199	YAOV	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	Cameroon
 alignment/AL_TREE_FlaviLike/member/ncbi-refseqs/EU082200	EU082200	KOUV	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	Senegal
 alignment/AL_TREE_FlaviLike/member/ncbi-refseqs/EU159426	EU159426	NOUV	FlaviPesti	Flavivirus	Mosq1	Aedes	mosquito	-	Uranotaenia mashonaensis	-	Cote d'Ivoire

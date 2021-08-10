@@ -1,8 +1,8 @@
 
   # Create subgenus-level phylogenies
-  run file glue/eve/build-phylogenies/efvProtPhylogeniesSubgenus.glue
-  run file glue/eve/build-phylogenies/efvProtPhylogeniesSubgenusReroot.glue
-  run file glue/eve/build-phylogenies/efvProtPhylogeniesSubgenusAnnotations.glue
+  #run file glue/eve/build-phylogenies/efvProtPhylogeniesSubgenus.glue
+  #run file glue/eve/build-phylogenies/efvProtPhylogeniesSubgenusReroot.glue
+  #run file glue/eve/build-phylogenies/efvProtPhylogeniesSubgenusAnnotations.glue
 
   # Create recursively-populated genus-level phylogenies
   run file glue/eve/build-phylogenies/efvProtPhylogeniesGenusCreateTreeAlignments.glue

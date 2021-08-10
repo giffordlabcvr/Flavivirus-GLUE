@@ -1,11 +1,9 @@
  
   # Clean-up
   delete module flaviviridaePhyloUtility
-
   
   # Create all the modules we need
   create module -f modules/core/flaviviridaePhyloUtility.xml
-
 
   # Re-root phylogeny 
   module flaviviridaePhyloUtility 

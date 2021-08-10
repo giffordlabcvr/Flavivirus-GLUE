@@ -170,6 +170,9 @@
 	<primaryAccession>KJ152564</primaryAccession>
 	<primaryAccession>KM521553</primaryAccession>
 
+	<primaryAccession>LC582740</primaryAccession>
+
+
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

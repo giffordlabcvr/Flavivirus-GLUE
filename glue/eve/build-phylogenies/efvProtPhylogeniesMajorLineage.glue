@@ -18,19 +18,19 @@
 
     generate amino-acid phylogeny AL_TREE_FlaviPesti -s alignmentColumnsSelectorFlaviPestiAa \
       -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-      -o trees/major-lineage/major1_flavipesti-aa.tre NEWICK_BOOTSTRAPS
+      -o trees/major-lineage/major1_flavipesti-efv-aa.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_TREE_HepaPegi -s alignmentColumnsSelectorHepaciPegiAa \
       -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-      -o trees/major-lineage/major1_hepapegi-aa.tre NEWICK_BOOTSTRAPS
+      -o trees/major-lineage/major1_hepapegi-efv-aa.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_TREE_FlaviLike -s alignmentColumnsSelectorFlaviLikeAa \
       -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-      -o trees/major-lineage/major1_flavilike-aa.tre NEWICK_BOOTSTRAPS
+      -o trees/major-lineage/major1_flavilike-efv-aa.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_TREE_PestiLike -s alignmentColumnsSelectorPestiLikeAa \
       -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 40" \
-      -o trees/major-lineage/major1_pestilike-aa.tre NEWICK_BOOTSTRAPS
+      -o trees/major-lineage/major1_pestilike-efv-aa.tre NEWICK_BOOTSTRAPS
 
     exit
 
