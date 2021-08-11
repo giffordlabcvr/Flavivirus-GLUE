@@ -1,13 +1,13 @@
-run file glue/eve/efvDeletePreviousBuild.glue
+run file glue/build/eve/efvDeletePreviousBuild.glue
 
 schema-project flaviviridae
-  run file glue/eve/efvSchemaExtensions.glue
+  run file glue/build/eve/efvSchemaExtensions.glue
   exit
 
 project flaviviridae
 
   # Create modules
-  run file glue/eve/efvModules.glue
+  run file glue/build/eve/efvModules.glue
 
   # Import sources
   import source sources/fasta-refseqs-eve/
@@ -15,30 +15,27 @@ project flaviviridae
   import source sources/ncbi-refseqs-eve/
 
   # Create references
-  run file glue/eve/efvReferences.glue
+  run file glue/build/eve/efvReferences.glue
 
   # Import sequence-associated data
-  run file glue/eve/efvImportSideData.glue
+  run file glue/build/eve/efvImportSideData.glue
 
   # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/eve/efv-reference_feature_locations.tsv -r
+  module featureLocationTextToGlue
+    transform tabular/eve/efv-reference_feature_locations.tsv -r
+    exit
 
   # Import internal node alignments with EVEs
-  run file glue/eve/efvAlignments.glue
+  run file glue/build/eve/efvAlignments.glue
 
   # Record feature coverage in internal node alignments
-  run file glue/eve/efvRecordFeaturePresence.glue
+  run file glue/build/eve/efvRecordFeaturePresence.glue
 
   # Import consensus EVE locus alignments
-  #run file glue/eve/efvImportTipAlignments.glue
+  #run file glue/build/eve/efvImportTipAlignments.glue
 
   # Update alignment tree
-  run file glue/eve/efvAlignmentTree.glue
-
-  # Create phylogenies
-  #run file glue/eve/efvNucPhylogenies.glue
-  #run file glue/eve/efvProtPhylogenies.glue
-  
+  run file glue/build/eve/efvAlignmentTree.glue  
 
   # Validate
   validate

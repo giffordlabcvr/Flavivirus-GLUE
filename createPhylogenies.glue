@@ -2,3 +2,8 @@
   # Create phylogenies
   #run file glue/core/flaviviridaeNucPhylogenies.glue
   #run file glue/core/flaviviridaeProtPhylogenies.glue
+
+
+  # Create phylogenies
+  #run file glue/build/eve/efvNucPhylogenies.glue
+  #run file glue/build/eve/efvProtPhylogenies.glue

@@ -1,6 +1,6 @@
 
   # Link reference/consensus EVE sequences to refcon custom table
-  run script glue/eve/loadRefConData1.js
+  run script glue/build/eve/loadRefConData1.js
 
  
   # Import metadata for reference/consensus EVE sequences
@@ -9,5 +9,5 @@
     exit
 
   # Create link to locus data table and load linked data
-  run script glue/eve/loadLocusData1.js
-  run script glue/eve/loadLocusData2.js
+  run script glue/build/eve/loadLocusData1.js
+  run script glue/build/eve/loadLocusData2.js
