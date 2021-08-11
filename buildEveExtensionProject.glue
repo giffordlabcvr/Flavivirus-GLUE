@@ -1,3 +1,0 @@
-# Build endogenous flavivirus component
-run file glue/eve/buildEveExtension.glue
-

@@ -1,41 +1,14 @@
-run file glue/build/eve/efvDeletePreviousBuild.glue
-
-schema-project flaviviridae
-  run file glue/build/eve/efvSchemaExtensions.glue
-  exit
 
 project flaviviridae
 
-  # Create modules
-  run file glue/build/eve/efvModules.glue
 
-  # Import sources
-  import source sources/fasta-refseqs-eve/
   import source sources/fasta-digs-eve/
-  import source sources/ncbi-refseqs-eve/
 
-  # Create references
-  run file glue/build/eve/efvReferences.glue
-
-  # Import sequence-associated data
-  run file glue/build/eve/efvImportSideData.glue
-
-  # Add feature locations to reference sequences
-  module featureLocationTextToGlue
-    transform tabular/eve/efv-reference_feature_locations.tsv -r
-    exit
-
-  # Import internal node alignments with EVEs
-  run file glue/build/eve/efvAlignments.glue
-
-  # Record feature coverage in internal node alignments
-  run file glue/build/eve/efvRecordFeaturePresence.glue
+  # Import locus sequence-associated data
+  run file glue/build/eve/efvImportSideDataLocus.glue
 
   # Import consensus EVE locus alignments
   #run file glue/build/eve/efvImportTipAlignments.glue
-
-  # Update alignment tree
-  run file glue/build/eve/efvAlignmentTree.glue  
 
   # Validate
   validate

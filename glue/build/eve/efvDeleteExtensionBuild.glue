@@ -1,0 +1,11 @@
+ schema-project flaviviridae
+  delete custom-table locus_data
+  exit
+
+project flaviviridae
+
+  delete source --whereClause "name like '%digs-eve%'"
+
+  
+  exit
+ 

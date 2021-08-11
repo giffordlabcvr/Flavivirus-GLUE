@@ -1,0 +1,3 @@
+  # Create link to locus data table and load linked EVE data
+  run script glue/build/eve/loadLocusData1.js
+  run script glue/build/eve/loadLocusData2.js

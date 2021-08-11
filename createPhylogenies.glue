@@ -1,9 +1,108 @@
 
-  # Create phylogenies
-  #run file glue/core/flaviviridaeNucPhylogenies.glue
-  #run file glue/core/flaviviridaeProtPhylogenies.glue
+  ### Create the core (i.e. virus-only) phylogenies
+
+  ## Create nucleotide-level phylogenies
+
+  # Create subgenus-level phylogenies
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenus.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenusReroot.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesSubgenusAnnotations.glue
+
+  # Create recursively-populated genus-level phylogenies
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesGenusCreateTreeAlignments.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesGenus.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesGenusReroot.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesGenusAnnotations.glue
+
+  # Create recursively-populated major-lineage-level phylogenies
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMajorLineageCreateTreeAlignments.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMajorLineage.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMajorLineageReroot.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMajorLineageAnnotations.glue
+
+  # Create recursively-populated minor-lineage-level phylogenies
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMinorLineageCreateTreeAlignments.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMinorLineage.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMinorLineageReroot.glue
+  run file glue/core/build-phylogenies/flaviviridaeNucPhylogeniesMinorLineageAnnotations.glue
 
 
-  # Create phylogenies
-  #run file glue/build/eve/efvNucPhylogenies.glue
-  #run file glue/build/eve/efvProtPhylogenies.glue
+  ## Create polypeptide-level phylogenies
+
+  # Create subgenus-level phylogenies
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesSubgenus.glue
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesSubgenusReroot.glue
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesSubgenusAnnotations.glue
+
+  # Create recursively-populated genus-level phylogenies
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesGenusCreateTreeAlignments.glue
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesGenus.glue
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesGenusReroot.glue
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesGenusAnnotations.glue
+
+  # Create recursively-populated major-lineage-level phylogenies
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMajorLineageTreeAlignments.glue
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMajorLineage.glue
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMajorLineageReroot.glue
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMajorLineageAnnotations.glue
+
+  # Create recursively-populated minor-lineage-level phylogenies
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMinorLineageTreeAlignments.glue
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMinorLineage.glue
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMinorLineageReroot.glue
+  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesMinorLineageAnnotations.glue
+
+
+
+  ### Create the core (i.e. virus-only) phylogenies
+
+  # Create nucleotide-level phylogenies
+
+  # Create subgenus-level phylogenies
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesSubgenus.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesSubgenusReroot.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesSubgenusAnnotations.glue
+
+  # Create recursively-populated genus-level phylogenies
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesGenusCreateTreeAlignments.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesGenus.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesGenusReroot.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesGenusAnnotations.glue
+
+  # Create recursively-populated major-lineage-level phylogenies
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesMajorLineageCreateTreeAlignments.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesMajorLineage.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesMajorLineageReroot.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesMajorLineageAnnotations.glue
+
+  # Create recursively-populated minor-lineage-level phylogenies
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesMinorLineageCreateTreeAlignments.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesMinorLineage.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesMinorLineageReroot.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesMinorLineageAnnotations.glue
+
+
+  ## Create polypeptide-level phylogenies
+
+  # Create subgenus-level phylogenies
+  #run file glue/eve/build-phylogenies/efvProtPhylogeniesSubgenus.glue
+  #run file glue/eve/build-phylogenies/efvProtPhylogeniesSubgenusReroot.glue
+  #run file glue/eve/build-phylogenies/efvProtPhylogeniesSubgenusAnnotations.glue
+
+  # Create recursively-populated genus-level phylogenies
+  run file glue/eve/build-phylogenies/efvProtPhylogeniesGenusCreateTreeAlignments.glue
+  run file glue/eve/build-phylogenies/efvProtPhylogeniesGenus.glue
+  run file glue/eve/build-phylogenies/efvProtPhylogeniesGenusReroot.glue
+  run file glue/eve/build-phylogenies/efvProtPhylogeniesGenusAnnotations.glue
+
+  # Create recursively-populated major-lineage-level phylogenies
+  run file glue/eve/build-phylogenies/efvProtPhylogeniesMajorLineageTreeAlignments.glue
+  run file glue/eve/build-phylogenies/efvProtPhylogeniesMajorLineage.glue
+  run file glue/eve/build-phylogenies/efvProtPhylogeniesMajorLineageReroot.glue
+  run file glue/eve/build-phylogenies/efvProtPhylogeniesMajorLineageAnnotations.glue
+
+  # Create recursively-populated minor-lineage-level phylogenies
+  run file glue/eve/build-phylogenies/efvProtPhylogeniesMinorLineageTreeAlignments.glue
+  run file glue/eve/build-phylogenies/efvProtPhylogeniesMinorLineage.glue
+  run file glue/eve/build-phylogenies/efvProtPhylogeniesMinorLineageReroot.glue
+  run file glue/eve/build-phylogenies/efvProtPhylogeniesMinorLineageAnnotations.glue
