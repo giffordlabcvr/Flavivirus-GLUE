@@ -4,6 +4,7 @@
   create reference REF_MASTER_YFV  ncbi-refseqs   NC_002031  # mosq2
   create reference REF_DEN1        ncbi-refseqs   NC_001477  # mosq1
   create reference REF_POWV        ncbi-refseqs   NC_003687  # tick
+  create reference REF_MPFV        ncbi-refseqs   LC582740   # Mpulungu
   create reference REF_LTNV        ncbi-refseqs   KY320649   # dISF1
   create reference REF_NHUV        ncbi-refseqs   NC_024017  # dISF1a
   create reference REF_LAMV        ncbi-refseqs   NC_024806  # dISF1b
@@ -38,23 +39,5 @@
 
   ### Pegivirus
   create reference REF_HPgV2       ncbi-refseqs   NC_027998  
-
-
-
-  ### Crustacean
-  reference REF_ccCFV
-
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 11434
-      exit
-
-    add feature-location precursor_polyprotein
-    feature-location precursor_polyprotein
-      add segment 97   4197 --spliceIndex 1
-      add segment 4359 10976 --spliceIndex 2
-      exit
-
-  exit 
 
 

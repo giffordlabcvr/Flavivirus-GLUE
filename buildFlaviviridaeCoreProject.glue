@@ -4,10 +4,10 @@ create project flaviviridae "A GLUE project for the Flaviviridae" --minVersion 1
 
 schema-project flaviviridae
 
-  run file glue/core/flaviviridaeSchemaExtensions.glue
+  run file glue/build/core/flaviviridaeSchemaExtensions.glue
   exit
 
 
 # Build core project
-run file glue/core/buildCoreProject.glue
+run file glue/build/core/buildCoreProject.glue
 

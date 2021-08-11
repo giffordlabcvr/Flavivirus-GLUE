@@ -1,0 +1,13 @@
+
+
+reference REF_MASTER_YFV
+
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-capsid
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-envelope
+
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS2A
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS2B 
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS4A
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS4B
+
+  exit

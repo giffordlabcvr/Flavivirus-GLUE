@@ -12,6 +12,17 @@
 
 # Include all virus species
 
+
+# Flavivirus genus
+module fastaProteinExporter
+  
+  export reference -f flavi-capsid -w "sequence.genus = 'Flavivirus' and sequence.source.name = 'ncbi-refseqs'" -p
+  
+  exit
+
+
+
+
 # Include a consensus or reference sequence for each EVE distinct locus 
 
 

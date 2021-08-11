@@ -1,5 +1,5 @@
   # Import metadata for exogenous reference sequences from GenBank files
-  run script glue/core/loadIsolateData.js
+  run script glue/build/core/loadIsolateData.js
   module genbankXmlPopulator populate
 
   # Import metadata for exogenous reference sequences from tabular
