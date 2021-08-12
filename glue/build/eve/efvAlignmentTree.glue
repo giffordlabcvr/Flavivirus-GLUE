@@ -124,10 +124,5 @@
     derive segments AL_EFV_UNC_FLAVI_cISF -a --existingMembersOnly 
     exit
 
-  alignment AL_FLAVI_SUBGENUS_crustacean
-    derive segments AL_EFV_UNC_FLAVI_crustacean -a --existingMembersOnly 
-    exit
-
-
 
 

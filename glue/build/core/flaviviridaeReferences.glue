@@ -3,24 +3,21 @@
   ### Flavivirus 
   create reference REF_MASTER_YFV  ncbi-refseqs   NC_002031  # mosq2
   create reference REF_DEN1        ncbi-refseqs   NC_001477  # mosq1
+  
   create reference REF_POWV        ncbi-refseqs   NC_003687  # tick
   create reference REF_MPFV        ncbi-refseqs   LC582740   # Mpulungu
-  create reference REF_LTNV        ncbi-refseqs   KY320649   # dISF1
-  create reference REF_NHUV        ncbi-refseqs   NC_024017  # dISF1a
-  create reference REF_LAMV        ncbi-refseqs   NC_024806  # dISF1b
-  create reference REF_EPEV        ncbi-refseqs   NC_027999  # dISF2
   create reference REF_APOIV       ncbi-refseqs   NC_003676  # NKV1
+  create reference REF_LAMV        ncbi-refseqs   NC_024806  # dISF
   create reference REF_SOKV        ncbi-refseqs   NC_026624  # NKV2
+  
   create reference REF_KRV         ncbi-refseqs   NC_005064  # cISF
-  create reference REF_Aedes_FV    ncbi-refseqs   NC_012932  # Aedes flavivirus
-  create reference REF_PaRV        ncbi-refseqs   NC_027817  # Parramatta River virus
   create reference REF_ccCFV       ncbi-refseqs   MK473878   # crustacean
   create reference REF_ssFV        fasta-refseqs  SsFV_consensus  # arachnid
 
   ### TABV
   create reference REF_TABV        ncbi-refseqs   NC_003996 
 
-  ### Jingmen
+  ### Jingmenvirus
   create reference REF_JMTV_CONCAT fasta-refseqs  JMTV_CONCAT 
   create reference REF_JMTV_Seg3   ncbi-refseqs   NC_024114 
   create reference REF_JMTV_Seg1   ncbi-refseqs   NC_024113 

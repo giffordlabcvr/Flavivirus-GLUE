@@ -1,22 +1,23 @@
-# Import pre-built alignments
 
-module efvUnconstrainedAlignmentImporter
+  # Import internal node alignments that contain EVEs
+  # These arise when EVE references cannot be confidently assigned to a tip-level taxonomic group 
+
+  module efvUnconstrainedAlignmentImporter
 
 
-  #~# Major lineages
-  import AL_EFV_UNC_HEPA_PEGI            -f alignments/internal/major-lineage/hepa-pegi-eve.aln.fna
-  import AL_EFV_UNC_FLAVI_PESTI          -f alignments/internal/major-lineage/flavi-pesti-eve.aln.fna
+	#~# Major lineages
+	import AL_EFV_UNC_HEPA_PEGI            -f alignments/internal/major-lineage/hepa-pegi-eve.aln.fna
+	import AL_EFV_UNC_FLAVI_PESTI          -f alignments/internal/major-lineage/flavi-pesti-eve.aln.fna
 
-  #~# Genera
-  import AL_EFV_UNC_FLAVI                -f alignments/internal/genus/flavivirus-efv.aln.fna
-  import AL_EFV_UNC_TABV                 -f alignments/internal/genus/tamanavirus-efv.aln.fna   
-  import AL_EFV_UNC_PL2                  -f alignments/internal/genus/pl2-efv.aln.fna
-  import AL_EFV_UNC_X2                   -f alignments/internal/genus/X2.aln.fna   
-  import AL_EFV_UNC_JMTV_SEG1            -f alignments/internal/genus/jmtvSeg1-eve.aln.fna    
-  import AL_EFV_UNC_JMTV_SEG3            -f alignments/internal/genus/jmtvSeg3-eve.aln.fna
+	#~# Genera
+	import AL_EFV_UNC_FLAVI                -f alignments/internal/genus/flavivirus-efv.aln.fna
+	import AL_EFV_UNC_TABV                 -f alignments/internal/genus/tamanavirus-efv.aln.fna   
+	import AL_EFV_UNC_PL2                  -f alignments/internal/genus/pl2-efv.aln.fna
+	import AL_EFV_UNC_X2                   -f alignments/internal/genus/X2.aln.fna   
+	import AL_EFV_UNC_JMTV_SEG1            -f alignments/internal/genus/jmtvSeg1-eve.aln.fna    
+	import AL_EFV_UNC_JMTV_SEG3            -f alignments/internal/genus/jmtvSeg3-eve.aln.fna
 
-  #~# Genus subgroups
-  import AL_EFV_UNC_FLAVI_crustacean     -f alignments/internal/subgenus/crustacean-efv.aln.fna
-  import AL_EFV_UNC_FLAVI_cISF           -f alignments/internal/subgenus/cISF-efv.aln.fna
+	#~# Genus subgroups
+	import AL_EFV_UNC_FLAVI_cISF           -f alignments/internal/subgenus/cISF-efv.aln.fna
   
-  exit
+	exit
