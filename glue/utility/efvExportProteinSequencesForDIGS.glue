@@ -1,0 +1,40 @@
+# This script will export sequence for use in database-integrated genome screening
+# https://giffordlabcvr.github.io/DIGS-tool/  
+
+# Create protein exporter modul
+create module -t fastaProteinExporter 
+
+
+# Export flavivirus probe sequences for DIGS
+# A minimal but broadly representative sequence set for use as 'probes'
+
+
+# Export flavivirus reference sequences for DIGS (individual hits)
+# The sequences exported by these commands comprise the 'reference sequence library'
+# that is used by DIGS to classify 'hits' - i.e. sets of similar sequences identified
+# in a BLAST search.
+
+# Include all virus species
+
+
+# Flavivirus genus
+module fastaProteinExporter
+  
+  export reference -f flavi-capsid   -w "sequence.genus = 'Flavivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/flavi-capsid.faa
+  export reference -f premembrane    -w "sequence.genus = 'Flavivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/flavi-premembrane.faa
+  export reference -f flavi-envelope -w "sequence.genus = 'Flavivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/flavi-envelope.faa 
+
+  export reference -f NS1          -w "sequence.genus = 'Flavivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/flavi-NS1.faa
+  export reference -f flavi-NS2A   -w "sequence.genus = 'Flavivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/flavi-NS2A.faa
+  export reference -f flavi-NS2B   -w "sequence.genus = 'Flavivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/flavi-NS2B.faa
+
+  export reference -f 2K           -w "sequence.genus = 'Flavivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/flavi-2K.faa
+
+  export reference -f NS3          -w "sequence.genus = 'Flavivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/flavi-NS3.faa
+  export reference -f flavi-NS4A   -w "sequence.genus = 'Flavivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/flavi-NS4A.faa
+  export reference -f flavi-NS4B   -w "sequence.genus = 'Flavivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/flavi-NS4B.faa
+
+  export reference -f NS5          -w "sequence.genus = 'Flavivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/flavi-NS5.faa
+
+  exit
+

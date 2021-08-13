@@ -1,0 +1,33 @@
+
+  ### Create the core (i.e. virus-only) phylogenies
+
+  ## Create nucleotide-level phylogenies
+
+
+
+  # Create subgenus-level phylogenies
+  run file glue/analysis/reconstruct-phylogeny/flaviviridaeNucPhylogeniesSubgenus.glue
+  run file glue/analysis/reconstruct-phylogeny/flaviviridaeNucPhylogeniesSubgenusReroot.glue
+  run file glue/analysis/reconstruct-phylogeny/flaviviridaeNucPhylogeniesSubgenusAnnotations.glue
+
+  # Create recursively-populated genus-level phylogenies
+  run file glue/analysis/reconstruct-phylogeny/flaviviridaeNucPhylogeniesGenusCreateTreeAlignments.glue
+  run file glue/analysis/reconstruct-phylogeny/flaviviridaeNucPhylogeniesGenus.glue
+  run file glue/analysis/reconstruct-phylogeny/flaviviridaeNucPhylogeniesGenusReroot.glue
+  run file glue/analysis/reconstruct-phylogeny/flaviviridaeNucPhylogeniesGenusAnnotations.glue
+
+
+  ### Create the core (i.e. virus-only) phylogenies
+
+  # Create nucleotide-level phylogenies
+
+  # Create subgenus-level phylogenies
+  run file glue/analysis/reconstruct-phylogeny/efvNucPhylogeniesSubgenus.glue
+  run file glue/analysis/reconstruct-phylogeny/efvNucPhylogeniesSubgenusReroot.glue
+  run file glue/analysis/reconstruct-phylogeny/efvNucPhylogeniesSubgenusAnnotations.glue
+
+  # Create recursively-populated genus-level phylogenies
+  run file glue/analysis/reconstruct-phylogeny/efvNucPhylogeniesGenusCreateTreeAlignments.glue
+  run file glue/analysis/reconstruct-phylogeny/efvNucPhylogeniesGenus.glue
+  run file glue/analysis/reconstruct-phylogeny/efvNucPhylogeniesGenusReroot.glue
+  run file glue/analysis/reconstruct-phylogeny/efvNucPhylogeniesGenusAnnotations.glue

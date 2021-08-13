@@ -125,6 +125,11 @@ MK473875	Southern pygmy squid flavivirus	SpsFV	Flaviviridae	FlaviPesti	Tamanavir
 MK473880	Firefly squid flavivirus	FfsFV	Flaviviridae	FlaviPesti	Tamanavirus	Squid	NULL			none	none			
 NC_003996	Tamana bat virus	TABV	Flaviviridae	FlaviPesti	Tamanavirus	TABV	NULL		Pteronotus	none	none	Tr127154	Americas	Pteronotus parnellii
 MF776369	Cyclopterus lumpus virus	LFLV	Flaviviridae	FlaviPesti	Tamanavirus		NULL		Cyclopterus	none	none	-	-	Cyclopterus lumpus
+MT075326	Salmon flavivirus	SFV	Flaviviridae	FlaviPesti	Tamanavirus		NULL			none	none			Oncorhynchus tshawytscha
+DnFV	Dianemobius nigrofasciatus flavivirus	DnFV	Flaviviridae	FlaviPesti	Tamanavirus		NULL			none	none			Dianemobius nigrofasciatus
+MW208755	Coleopteran flavi-related virus	ColFlaV	Flaviviridae	FlaviPesti	Tamanavirus		NULL			none	none			Pempsamacra sp.
+MW208760	Plectopteran flavi-related virus	PleFlaV	Flaviviridae	FlaviPesti	Tamanavirus		NULL			none	none			Perla marginata
+MW208759	Embiopteran flavi-related virus	EmbFlaV	Flaviviridae	FlaviPesti	Tamanavirus		NULL			none	none			Antipaluria urichi
 MH716818	Eastern red scorpionfish flavivirus	ErsFV	Flaviviridae	FlaviPesti	Tamanavirus		NULL		Scorpaena	none	none	-	-	Scorpaena jacksoniensis
 MG599986	Wenzhou shark flavivirus	WenSFV	Flaviviridae	FlaviPesti	Tamanavirus		NULL		Scoliodon	none	none	-	-	Scoliodon macrorhynchos
 NC_004102	Hepatitis C virus	HCV	Flaviviridae	HepaPegi	Hepacivirus	Genotype 1	NULL		Homo	none	none	H77		-

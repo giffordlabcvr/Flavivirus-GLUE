@@ -6,8 +6,6 @@ alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/D00246	D00246	KUNV	FlaviPesti	F
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/DQ235149	DQ235149	RFV	FlaviPesti	Flavivirus	TBFV	Argas	tick	-	-	-	Afghanistan
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/DQ235151	DQ235151	TSEV	FlaviPesti	Flavivirus	TBFV	Ixodes	tick	-	-	-	Turkey
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/DQ859056	DQ859056	BANV	FlaviPesti	Flavivirus	Mosq2	Aedes	mosquito	-	-	-	South Africa
-alignment/AL_TREE_Flavivirus/member/fasta-refseqs-eve/EFV-cISF.1-AedAeg	EFV-cISF.1-AedAeg	EFV-cISF.1-AedAeg	FlaviPesti	Flavivirus	-	-	-	-	-	-	-
-alignment/AL_TREE_Flavivirus/member/fasta-refseqs-eve/EFV-cISF.2-AedAlb	EFV-cISF.2-AedAlb	EFV-cISF.2-AedAlb	FlaviPesti	Flavivirus	-	-	-	-	-	-	-
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/EU082199	EU082199	YAOV	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	Cameroon
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/EU082200	EU082200	KOUV	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	Senegal
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/EU159426	EU159426	NOUV	FlaviPesti	Flavivirus	Mosq1	Aedes	mosquito	-	Uranotaenia mashonaensis	-	Cote d'Ivoire
@@ -27,6 +25,10 @@ alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KM225264	KM225264	Bainyik	Flavi
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KM225265	KM225265	Torres	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	mosquito	-	Australia
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KY290249	KY290249	LPKV	FlaviPesti	Flavivirus	dISF	Ochlerotatus	none	-	Ochlerotatus atlanticus	-	USA: Florida, Everglades National Park, Long Pine Key
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KY347801	KY347801	MMV	FlaviPesti	Flavivirus	dISF	Aedes	none	HU 4528/07	Ochlerotatus caspius	-	Spain
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/LC582740	LC582740	Mpulungu	FlaviPesti	Flavivirus	Mpulungu	unknown	unknown	-	Rhipicephalus muhsamae	-	Zambia: Mpulungu
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/MK473877	MK473877	GcFV	FlaviPesti	Flavivirus	Crustacean	Gammarus	crustacean	100_1	Gammarus chevreuxi	-	United Kingdom
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/MK473878	MK473878	CcFV	FlaviPesti	Flavivirus	Crustacean	Crangon	crustacean	-	Crangon crangon	-	Germany
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/MK473881	MK473881	GpFV	FlaviPesti	Flavivirus	Crustacean	Gammarus	crustacean	GPCM	Gammarus pulex	-	France
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_000943	NC_000943	MVEV	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	-
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_001437	NC_001437	JEV	FlaviPesti	Flavivirus	Mosq1	Culex	mosquito	-	-	-	-
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_001474	NC_001474	DENV2	FlaviPesti	Flavivirus	Mosq1	Aedes	mosquito	-	-	-	Thailand

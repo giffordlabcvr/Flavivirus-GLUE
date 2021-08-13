@@ -20,7 +20,6 @@ project flaviviridae
   run file glue/build/core/flaviviridaeReferences.glue
 
   # Add feature locations to reference sequences
- 
   module featureLocationTextToGlue # Load feature locations from a file
     transform tabular/core/flavi-reference_feature_locations.tsv  -r
     exit
@@ -32,6 +31,9 @@ project flaviviridae
 
   # Import alignment tree
   run file glue/build/core/flaviviridaeAlignmentTree.glue
+
+  # Inherit feature locations to species with no GenBank annotations
+  run file glue/build/core/flaviviridaeInheritFeatureLocations.glue
 
   # Remove unconstrained alignments (optional)
   run file glue/build/core/deleteUnconstrainedMSAs.glue
