@@ -13,6 +13,21 @@
       add segment 4359 10976 --spliceIndex 2
       exit
 
+    add feature-location flavi-capsid
+    feature-location flavi-capsid
+      add segment 97 534
+      exit
+
+    add feature-location premembrane
+    feature-location premembrane
+      add segment 535 1014
+      exit
+
+    add feature-location flavi-envelope
+    feature-location flavi-envelope
+      add segment 1015 2481
+      exit
+
     add feature-location NS1
     feature-location NS1
       add segment 2482 3570
@@ -47,10 +62,9 @@
     feature-location NS5
       add segment 8346 10850
       exit
-      
-
 
   exit 
+
 
   ### Mpulungu
   reference REF_MPFV
@@ -63,6 +77,21 @@
     add feature-location precursor_polyprotein
     feature-location precursor_polyprotein
       add segment 137   10342 
+      exit
+
+    add feature-location flavi-capsid
+    feature-location flavi-capsid
+      add segment 137 445
+      exit
+
+    add feature-location premembrane
+    feature-location premembrane
+      add segment 446 931
+      exit
+
+    add feature-location flavi-envelope
+    feature-location flavi-envelope
+      add segment 932 2419
       exit
 
     add feature-location NS1
@@ -100,7 +129,67 @@
       add segment 7631 10339
       exit
       
-
-
   exit 
+
+
+
+
+
+  ### Sokoluk
+  reference REF_SOKV
+
+
+    add feature-location flavi-capsid
+    feature-location flavi-capsid
+      add segment 1 363
+      exit
+
+    add feature-location premembrane
+    feature-location premembrane
+      add segment 364 861
+      exit
+
+    add feature-location flavi-envelope
+    feature-location flavi-envelope
+      add segment 862 2331
+      exit
+
+    add feature-location NS1
+    feature-location NS1
+      add segment 2332 3390
+      exit
+
+    add feature-location flavi-NS2A
+    feature-location flavi-NS2A
+      add segment 3391 4077
+      exit
+
+    add feature-location flavi-NS2B
+    feature-location flavi-NS2B
+      add segment 4078 4467
+      exit
+
+    add feature-location NS3
+    feature-location NS3
+      add segment 4468 6327
+      exit
+
+    add feature-location flavi-NS4A
+    feature-location flavi-NS4A
+      add segment 6328 6705
+      exit
+
+    add feature-location flavi-NS4B
+    feature-location flavi-NS4B
+      add segment 6775 7524
+      exit
+
+    add feature-location NS5
+    feature-location NS5
+      add segment 7525 10239
+      exit
+      
+  exit 
+
+
 

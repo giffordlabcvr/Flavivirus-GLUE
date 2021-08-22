@@ -7,4 +7,3 @@
     record feature-presence AL_ROOT_Flaviviridae --recursive --featureName whole_genome --descendentFeatures
     exit
 
-

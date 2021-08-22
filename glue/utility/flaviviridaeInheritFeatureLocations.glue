@@ -1,3 +1,54 @@
 
-  # Inherit feature locations to species with no GenBank annotations
-  run file glue/build/core/flaviviridaeInheritFeatureLocations.glue
+
+reference REF_MPFV
+
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV premembrane
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-capsid
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-envelope
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV NS1
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS2A
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS2B
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV NS3
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS4A
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS4B
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV NS5
+
+  exit
+
+
+reference REF_ccCFV
+
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV premembrane
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-capsid
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-envelope
+
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV NS1
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS2A
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS2B
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV NS3
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS4A
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS4B
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV NS5
+
+
+  exit
+
+
+reference REF_SOKV
+
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV premembrane
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-capsid
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-envelope
+
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV NS1
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS2A
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS2B
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV NS3
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS4A
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV flavi-NS4B
+  inherit feature-location --spanGaps AL_GENUS_Flavivirus --relRefName REF_MASTER_YFV NS5
+
+
+  exit
+
+

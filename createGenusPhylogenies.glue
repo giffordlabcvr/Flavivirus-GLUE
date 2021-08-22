@@ -5,13 +5,13 @@
   ## Create polypeptide-level phylogenies
   
   # Viruses only  
-  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesGenusCreateTreeAlignments.glue
-  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesGenus.glue
-  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesGenusReroot.glue
-  run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesGenusAnnotations.glue
+  run file glue/analysis/reconstruct-phylogeny/flaviviridaeNucsPhylogeniesGenusCreateTreeAlignments.glue
+  run file glue/analysis/reconstruct-phylogeny/flaviviridaeProtPhylogeniesGenus.glue
+  run file glue/analysis/reconstruct-phylogeny/flaviviridaeProtPhylogeniesGenusReroot.glue
+  run file glue/analysis/reconstruct-phylogeny/flaviviridaeProtPhylogeniesGenusAnnotations.glue
 
   # Viruses + EFVs
-  run file glue/eve/build-phylogenies/efvProtPhylogeniesGenusCreateTreeAlignments.glue
-  run file glue/eve/build-phylogenies/efvProtPhylogeniesGenus.glue
-  run file glue/eve/build-phylogenies/efvProtPhylogeniesGenusReroot.glue
-  run file glue/eve/build-phylogenies/efvProtPhylogeniesGenusAnnotations.glue
+  run file glue/analysis/reconstruct-phylogeny/efvProtPhylogeniesGenusCreateTreeAlignments.glue
+  run file glue/analysis/reconstruct-phylogeny/efvProtPhylogeniesGenus.glue
+  run file glue/analysis/reconstruct-phylogeny/efvProtPhylogeniesGenusReroot.glue
+  run file glue/analysis/reconstruct-phylogeny/efvProtPhylogeniesGenusAnnotations.glue

@@ -96,19 +96,19 @@ NC_027709	Spanish goat encephalitis virus	SGEV	Flaviviridae	FlaviPesti	Flaviviru
 NC_001672	Tick-borne encephalitis virus	TBEV	Flaviviridae	FlaviPesti	Flavivirus	TBFV	NULL		Ixodes	tick	rodents	Neudoerfl	Europe	-
 DQ235151	Turkish sheep encephalitis	TSEV	Flaviviridae	FlaviPesti	Flavivirus	TBFV	NULL		Ixodes	tick	ungulates	TTE80	Asia	-
 NC_023424	Tyuleniy virus	TYUV	Flaviviridae	FlaviPesti	Flavivirus	TBFV	NULL		Ixodes	tick	birds	LEIV 6C	Europe	Ixodes uriae
-NC_028367	Tacheng tick virus 8	TachengTV-8	Flaviviridae	FlaviPesti	Pesti-like	PL1	NULL		Dermacentor	none	none	-	-	Dermacentor marginatus
-NC_020252	Gentian Kobu-sho-associated virus	GKaV	Flaviviridae	FlaviPesti	Pesti-like	PL1	NULL		Gentiana	none	none	-	-	Gentiana triflora
-NC_024077	Soybean cyst nematode virus	SbCNV-5	Flaviviridae	FlaviPesti	Pesti-like	PL1	NULL		Heterodera	none	none	-	-	Heterodera glycines
-NC_035071	Apis flavivirus	ApisFV	Flaviviridae	FlaviPesti	Pesti-like	PL1	NULL		Apis	none	none	-	-	
-KR902737	Wuhan centipede virus	WuCentiV	Flaviviridae	FlaviPesti	Pesti-like	PL1	NULL			none	none			
-KR902735	Xinzhou spider virus 2	XinSpiFV	Flaviviridae	FlaviPesti	Pesti-like	PL1	NULL			none	none			
-KU754513	Takaungu virus 	TakV	Flaviviridae	FlaviPesti	Pesti-like	PL1	NULL			none	none			
-MH620810	Lampyris noctiluca flavivirus 1	LampV	Flaviviridae	FlaviPesti	Pesti-like	PL1	NULL			none	none			Lampyris noctiluca
-NC_028137	Macrosiphum euphorbiae virus 1	MEV-1	Flaviviridae	FlaviPesti	Pesti-like	PL2	NULL		Macrosiphum	none	none	-	-	Macrosiphum euphorbiae
-NC_028373	Shuangao lacewing virus 2 	SLV2	Flaviviridae	FlaviPesti	Pesti-like	PL2	NULL		Chrysopida	none	none	-	-	Chrysopidae sp
-MH778148	Sitobion miscanthi flavi-like virus 1	SmFlV	Flaviviridae	FlaviPesti	Pesti-like	PL2	NULL			none	none			
-NC_028375	Shayang fly virus 4	ShayangFlyV4	Flaviviridae	FlaviPesti	Pesti-like	Ungrouped	NULL		Musca	none	none	-	-	Musca domestica
-NC_028370	Xingshan cricket virus	XCV	Flaviviridae	FlaviPesti	Pesti-like	Ungrouped	NULL		Velarifictorus	none	none	-	-	Velarifictorus micado
+NC_028367	Tacheng tick virus 8	TachengTV-8	Flaviviridae	FlaviPesti	PL1	NULL	NULL		Dermacentor	none	none	-	-	Dermacentor marginatus
+NC_020252	Gentian Kobu-sho-associated virus	GKaV	Flaviviridae	FlaviPesti	PL1	NULL	NULL		Gentiana	none	none	-	-	Gentiana triflora
+NC_024077	Soybean cyst nematode virus	SbCNV-5	Flaviviridae	FlaviPesti	PL1	NULL	NULL		Heterodera	none	none	-	-	Heterodera glycines
+NC_035071	Apis flavivirus	ApisFV	Flaviviridae	FlaviPesti	PL1	NULL	NULL		Apis	none	none	-	-	
+KR902737	Wuhan centipede virus	WuCentiV	Flaviviridae	FlaviPesti	PL1	NULL	NULL			none	none			
+KR902735	Xinzhou spider virus 2	XinSpiFV	Flaviviridae	FlaviPesti	PL1	NULL	NULL			none	none			
+KU754513	Takaungu virus 	TakV	Flaviviridae	FlaviPesti	PL1	NULL	NULL			none	none			
+MH620810	Lampyris noctiluca flavivirus 1	LampV	Flaviviridae	FlaviPesti	PL1	NULL	NULL			none	none			Lampyris noctiluca
+NC_028137	Macrosiphum euphorbiae virus 1	MEV-1	Flaviviridae	FlaviPesti	PL2	NULL	NULL		Macrosiphum	none	none	-	-	Macrosiphum euphorbiae
+NC_028373	Shuangao lacewing virus 2 	SLV2	Flaviviridae	FlaviPesti	PL2	NULL	NULL		Chrysopida	none	none	-	-	Chrysopidae sp
+MH778148	Sitobion miscanthi flavi-like virus 1	SmFlV	Flaviviridae	FlaviPesti	PL2	NULL	NULL			none	none			
+NC_028375	Shayang fly virus 4	ShayangFlyV4	Flaviviridae	FlaviPesti	Ungrouped	NULL	NULL		Musca	none	none	-	-	Musca domestica
+NC_028370	Xingshan cricket virus	XCV	Flaviviridae	FlaviPesti	Ungrouped	NULL	NULL		Velarifictorus	none	none	-	-	Velarifictorus micado
 NC_001461	Bovine viral diarrhea virus 1	BVDV1	Flaviviridae	FlaviPesti	Pestivirus	A	NULL		Bos	none	none	-	-	Bos taurus
 NC_002032	Bovine viral diarrhea virus 2	BVDV2	Flaviviridae	FlaviPesti	Pestivirus	B	NULL		Bos	none	none	C413	Americas	Bos taurus
 NC_002657	Classical swine fever virus	CSFV	Flaviviridae	FlaviPesti	Pestivirus	C	NULL		Sus	none	none	Eystrup	-	Sus scrofa
