@@ -13,6 +13,43 @@
       add segment 4359 10976 --spliceIndex 2
       exit
 
+    add feature-location NS1
+    feature-location NS1
+      add segment 2482 3570
+      exit
+
+    add feature-location flavi-NS2A
+    feature-location flavi-NS2A
+      add segment 3571 4197
+      exit
+
+    add feature-location flavi-NS2B
+    feature-location flavi-NS2B
+      add segment 4806 5342
+      exit
+
+    add feature-location NS3
+    feature-location NS3
+      add segment 5343 7103
+      exit
+
+    add feature-location flavi-NS4A
+    feature-location flavi-NS4A
+      add segment 7104 7448
+      exit
+
+    add feature-location flavi-NS4B
+    feature-location flavi-NS4B
+      add segment 7518 8345
+      exit
+
+    add feature-location NS5
+    feature-location NS5
+      add segment 8346 10850
+      exit
+      
+
+
   exit 
 
   ### Mpulungu
@@ -27,6 +64,43 @@
     feature-location precursor_polyprotein
       add segment 137   10342 
       exit
+
+    add feature-location NS1
+    feature-location NS1
+      add segment 2420 3475
+      exit
+
+    add feature-location flavi-NS2A
+    feature-location flavi-NS2A
+      add segment 3476 4159
+      exit
+
+    add feature-location flavi-NS2B
+    feature-location flavi-NS2B
+      add segment 4160 4567
+      exit
+
+    add feature-location NS3
+    feature-location NS3
+      add segment 4568 6421
+      exit
+
+    add feature-location flavi-NS4A
+    feature-location flavi-NS4A
+      add segment 6422 6799
+      exit
+
+    add feature-location flavi-NS4B
+    feature-location flavi-NS4B
+      add segment 6869 7630
+      exit
+
+    add feature-location NS5
+    feature-location NS5
+      add segment 7631 10339
+      exit
+      
+
 
   exit 
 

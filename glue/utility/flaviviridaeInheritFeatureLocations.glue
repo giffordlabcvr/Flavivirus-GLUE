@@ -1,0 +1,3 @@
+
+  # Inherit feature locations to species with no GenBank annotations
+  run file glue/build/core/flaviviridaeInheritFeatureLocations.glue

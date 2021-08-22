@@ -32,9 +32,6 @@ project flaviviridae
   # Import alignment tree
   run file glue/build/core/flaviviridaeAlignmentTree.glue
 
-  # Inherit feature locations to species with no GenBank annotations
-  run file glue/build/core/flaviviridaeInheritFeatureLocations.glue
-
   # Remove unconstrained alignments (optional)
   run file glue/build/core/deleteUnconstrainedMSAs.glue
 

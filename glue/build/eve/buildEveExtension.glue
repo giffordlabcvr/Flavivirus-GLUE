@@ -8,7 +8,7 @@ project flaviviridae
   run file glue/build/eve/efvImportSideDataLocus.glue
 
   # Import consensus EVE locus alignments
-  #run file glue/build/eve/efvImportTipAlignments.glue
+  run file glue/build/eve/efvImportTipAlignments.glue
 
   # Validate
   validate

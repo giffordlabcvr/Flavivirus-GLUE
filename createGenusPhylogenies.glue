@@ -2,45 +2,15 @@
 
   ### Create the core (i.e. virus-only) phylogenies
 
-  ## Create nucleotide-level phylogenies
-
-  # Viruses only
-  # Create recursively-populated genus-level phylogenies
-  run file glue/analysis/reconstruct-phylogeny/flaviviridaeNucPhylogeniesGenusCreateTreeAlignments.glue
-  run file glue/analysis/reconstruct-phylogeny/flaviviridaeNucPhylogeniesGenus.glue
-  run file glue/analysis/reconstruct-phylogeny/flaviviridaeNucPhylogeniesGenusReroot.glue
-  run file glue/analysis/reconstruct-phylogeny/flaviviridaeNucPhylogeniesGenusAnnotations.glue
-
-  ## Viruses + EFVs
-  # Create recursively-populated genus-level phylogenies
-  run file glue/analysis/reconstruct-phylogeny/efvNucPhylogeniesGenusCreateTreeAlignments.glue
-  run file glue/analysis/reconstruct-phylogeny/efvNucPhylogeniesGenus.glue
-  run file glue/analysis/reconstruct-phylogeny/efvNucPhylogeniesGenusReroot.glue
-  run file glue/analysis/reconstruct-phylogeny/efvNucPhylogeniesGenusAnnotations.glue
-
   ## Create polypeptide-level phylogenies
-
-  # Create recursively-populated genus-level phylogenies
+  
+  # Viruses only  
   run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesGenusCreateTreeAlignments.glue
   run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesGenus.glue
   run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesGenusReroot.glue
   run file glue/core/build-phylogenies/flaviviridaeProtPhylogeniesGenusAnnotations.glue
 
-
-  run file glue/eve/build-phylogenies/efvNucPhylogeniesGenusCreateTreeAlignments.glue
-  run file glue/eve/build-phylogenies/efvNucPhylogeniesGenus.glue
-  run file glue/eve/build-phylogenies/efvNucPhylogeniesGenusReroot.glue
-  run file glue/eve/build-phylogenies/efvNucPhylogeniesGenusAnnotations.glue
-
-
-  ## Create polypeptide-level phylogenies
-
-  # Create subgenus-level phylogenies
-  #run file glue/eve/build-phylogenies/efvProtPhylogeniesSubgenus.glue
-  #run file glue/eve/build-phylogenies/efvProtPhylogeniesSubgenusReroot.glue
-  #run file glue/eve/build-phylogenies/efvProtPhylogeniesSubgenusAnnotations.glue
-
-  # Create recursively-populated genus-level phylogenies
+  # Viruses + EFVs
   run file glue/eve/build-phylogenies/efvProtPhylogeniesGenusCreateTreeAlignments.glue
   run file glue/eve/build-phylogenies/efvProtPhylogeniesGenus.glue
   run file glue/eve/build-phylogenies/efvProtPhylogeniesGenusReroot.glue

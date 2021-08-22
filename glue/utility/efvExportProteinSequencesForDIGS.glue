@@ -38,3 +38,67 @@ module fastaProteinExporter
 
   exit
 
+
+# Tamanavirus genus
+module fastaProteinExporter
+  
+  export reference -f flavi-capsid   -w "sequence.genus = 'Tamanavirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/tamana-capsid.faa
+  export reference -f premembrane    -w "sequence.genus = 'Tamanavirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/tamana-premembrane.faa
+  export reference -f flavi-envelope -w "sequence.genus = 'Tamanavirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/tamana-envelope.faa 
+
+  export reference -f NS1          -w "sequence.genus = 'Tamanavirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/tamana-NS1.faa
+  export reference -f flavi-NS2A   -w "sequence.genus = 'Tamanavirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/tamana-NS2A.faa
+  export reference -f flavi-NS2B   -w "sequence.genus = 'Tamanavirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/tamana-NS2B.faa
+
+  export reference -f 2K           -w "sequence.genus = 'Tamanavirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/tamana-2K.faa
+
+  export reference -f NS3          -w "sequence.genus = 'Tamanavirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/tamana-NS3.faa
+  export reference -f flavi-NS4A   -w "sequence.genus = 'Tamanavirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/tamana-NS4A.faa
+  export reference -f flavi-NS4B   -w "sequence.genus = 'Tamanavirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/tamana-NS4B.faa
+
+  export reference -f NS5          -w "sequence.genus = 'Tamanavirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/tamana-NS5.faa
+
+  exit
+
+
+# Jingmenvirus genus
+module fastaProteinExporter
+  
+  export reference -f NS3          -w "sequence.genus = 'Jingmenvirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/jingmen-NS3.faa
+  export reference -f seg-NS5      -w "sequence.genus = 'Jingmenvirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/jingmen-NS5.faa
+
+  exit
+
+
+# Pestivirus genus
+module fastaProteinExporter
+  
+  export reference -f pesti-capsid -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/pesti-capsid.faa
+  export reference -f e1_pesti     -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/pesti-e1_pesti.faa
+  export reference -f e2_pesti     -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/pesti-e2_pesti.faa 
+
+  export reference -f NS1          -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/pesti-NS1.faa
+  export reference -f flavi-NS2A   -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/pesti-NS2A.faa
+  export reference -f flavi-NS2B   -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/pesti-NS2B.faa
+
+  export reference -f pesti-p7     -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/pesti-p7.faa
+
+  export reference -f NS3          -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/pesti-NS3.faa
+  export reference -f pesti-NS4A   -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/pesti-NS4A.faa
+  export reference -f pesti-NS4B   -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/pesti-NS4B.faa
+
+  export reference -f NS5          -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/pesti-NS5.faa
+
+  exit
+
+
+
+# PL2 genus
+module fastaProteinExporter
+  
+
+  exit
+
+
+
+

@@ -1,0 +1,27 @@
+
+  ### Create the core (i.e. virus-only) subgenus-level phylogenies
+
+
+  # Nucleotide
+  run file glue/analysis/reconstruct-phylogeny/flaviviridaeNucPhylogeniesSubgenus.glue
+  run file glue/analysis/reconstruct-phylogeny/flaviviridaeNucPhylogeniesSubgenusReroot.glue
+  run file glue/analysis/reconstruct-phylogeny/flaviviridaeNucPhylogeniesSubgenusAnnotations.glue
+
+  # Polypeptide
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesSubgenus.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesSubgenusReroot.glue
+  run file glue/eve/build-phylogenies/efvNucPhylogeniesSubgenusAnnotations.glue
+
+  ### Create the core (i.e. virus-only) subgenus-level phylogenies
+
+  # Nucleotide
+  run file glue/analysis/reconstruct-phylogeny/efvNucPhylogeniesSubgenus.glue
+  run file glue/analysis/reconstruct-phylogeny/efvNucPhylogeniesSubgenusReroot.glue
+  run file glue/analysis/reconstruct-phylogeny/efvNucPhylogeniesSubgenusAnnotations.glue
+
+  # Polypeptide
+  run file glue/eve/build-phylogenies/efvProtPhylogeniesSubgenus.glue
+  run file glue/eve/build-phylogenies/efvProtPhylogeniesSubgenusReroot.glue
+  run file glue/eve/build-phylogenies/efvProtPhylogeniesSubgenusAnnotations.glue
+
+
