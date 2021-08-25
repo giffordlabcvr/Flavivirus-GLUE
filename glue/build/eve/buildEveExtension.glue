@@ -10,8 +10,16 @@ project flaviviridae
   # Import consensus EVE locus alignments
   run file glue/build/eve/efvImportTipAlignments.glue
 
+  # Add tip MSAs to alignment tree
+  run file glue/build/eve/efvAlignmentTreeAddTipMSAs.glue
+
+  # EFV derive constrained alignment tree
+  run file glue/build/eve/efvDeriveConstrainedTipMSAs.glue
+
+
   # Validate
   validate
 
   exit
+
 

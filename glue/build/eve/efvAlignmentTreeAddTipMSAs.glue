@@ -1,4 +1,71 @@
   #
+  # Root alignment
+  #
+  
+  alignment AL_ROOT_Flaviviridae
+
+    add member  -w "source.name = 'fasta-digs-eve'"
+    
+	demote member AL_MAJOR1_FlaviPesti -w "sequence.source.name like '%digs-eve' and sequence.subfamily = 'FlaviPesti'"		
+	demote member AL_MAJOR1_HepaPegi -w "sequence.source.name like '%digs-eve' and sequence.subfamily = 'HepaPegi'"
+
+	exit
+	
+
+  #
+  # Pesti-Flavi-like
+  #
+
+  alignment AL_MAJOR1_FlaviPesti
+
+	demote member AL_MAJOR2_FlaviLike -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'X2'"
+	demote member AL_MAJOR2_FlaviLike -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'Flavivirus'"
+	demote member AL_MAJOR2_FlaviLike -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'Tamanavirus'"
+	demote member AL_MAJOR2_FlaviLike -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus like 'JMTV%'"
+	demote member AL_MAJOR2_PestiLike -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'PL2'"
+
+	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'X1'"
+
+    exit
+
+  #
+  # Pesti-like
+  #
+
+  alignment AL_MAJOR2_PestiLike
+
+	demote member AL_GENUS_PL2 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'PL2'"
+
+    exit
+
+
+  #
+  # Flavi-like
+  #
+
+  alignment AL_MAJOR2_FlaviLike
+
+
+	extract child AL_EFV_X2 -r REF_EFV-X2.2-StyCho
+	demote member AL_EFV_X2 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'X2'"
+
+	demote member AL_MINOR_FlaviTamana -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'Flavivirus'"
+	demote member AL_MINOR_FlaviTamana -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'Tamanavirus'"
+	demote member AL_GENUS_Jingmenvirus_Seg1 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'JMTV1'"
+	demote member AL_GENUS_Jingmenvirus_Seg3 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'JMTV3'"
+ 
+    exit
+
+
+  alignment AL_MINOR_FlaviTamana
+
+	demote member AL_GENUS_Flavivirus -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'Flavivirus'"
+	demote member AL_GENUS_Tamanavirus -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'Tamanavirus'"
+    exit
+
+
+
+  #
   # X2
   #
 
@@ -58,7 +125,7 @@
 	extract child AL_EFV-Flavi.3-LepArc  -r REF_EFV-Flavi.3-LepArc
 	demote member AL_EFV-Flavi.3-LepArc  -w "sequence.sequenceID like 'EFV-Flavi.3%'"
 
-	demote member AL_FLAVI_SUBGENUS_cISF -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.clade = 'cISF'"
+	demote member AL_FLAVI_SUBGENUS_cISF -w "sequence.source.name = 'fasta-digs-eve' and sequence.clade = 'cISF'"
 	demote member AL_FLAVI_SUBGENUS_cISF -w "sequence.source.name = 'fasta-digs-eve' and sequence.clade = 'cISF'"
     exit
 

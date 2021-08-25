@@ -28,11 +28,15 @@ project flaviviridae
   # Import internal node alignments that contain EVEs
   run file glue/build/eve/efvAlignments.glue
 
-  # Record feature coverage in internal node alignments
-  run file glue/build/eve/efvRecordFeaturePresence.glue
 
   # Update alignment tree
   run file glue/build/eve/efvAlignmentTree.glue  
+
+  # Record feature coverage in internal node alignments
+  run file glue/build/eve/efvRecordFeaturePresence.glue
+
+
+
 
   # Validate
   validate

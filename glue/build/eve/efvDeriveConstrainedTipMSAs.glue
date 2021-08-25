@@ -1,44 +1,8 @@
-
-
-
  
   #
   # TIP ALIGNS
   #  
 
-  alignment AL_EFV_X2.1-AusLim
-    derive segments AL_EFV_UNC_Austrofundulus -a --existingMembersOnly
-    exit
-
-  alignment AL_EFV_X2.2-StyCho
-    derive segments AL_EFV_UNC_Stylophorus -a --existingMembersOnly
-    exit
-
-  alignment AL_EFV_X2.3-EurAff
-    derive segments AL_EFV_UNC_Eurytemora -a --existingMembersOnly
-    exit
-
-
-
-  #
-  # Jingmenvirus
-  #
-
-  alignment AL_EJP-Jingmen.1-Chironomus
-    derive segments AL_EJP_UNC_JMTV1_Chironomus -a --existingMembersOnly
-    exit
-
-  #
-  # Tamanavirus
-  #
-
-  alignment AL_EFV_Tamana.2-LauKoh
-    derive segments AL_EFV_UNC_Tamana_Laupala -a --existingMembersOnly
-    exit
-
-  alignment AL_EFV-Tamana.3-AmpSul
-    derive segments AL_EFV_UNC_Tamana_Amphinemura -a --existingMembersOnly
-    exit
 
 
   #
@@ -68,4 +32,40 @@
   alignment AL_EFV-cISF.5-TipOle
     derive segments AL_EFV_UNC_cISF_Tipula -a --existingMembersOnly
     exit
+
+
+  #
+  # Tamanavirus
+  #
+
+  alignment AL_EFV_Tamana.2-LauKoh
+    derive segments AL_EFV_UNC_Tamana_Laupala -a --existingMembersOnly
+    exit
+
+  alignment AL_EFV-Tamana.3-AmpSul
+    derive segments AL_EFV_UNC_Tamana_Amphinemura -a --existingMembersOnly
+    exit
+
+
+
+  #
+  # Jingmenvirus
+  #
+
+  alignment AL_EJP-Jingmen.1-Chironomus
+    derive segments AL_EJP_UNC_JMTV1_Chironomus -a --existingMembersOnly
+    exit
+
+  alignment AL_EFV_X2.1-AusLim
+    derive segments AL_EFV_UNC_Austrofundulus -a --existingMembersOnly
+    exit
+
+  alignment AL_EFV_X2.2-StyCho
+    derive segments AL_EFV_UNC_Stylophorus -a --existingMembersOnly
+    exit
+
+  alignment AL_EFV_X2.3-EurAff
+    derive segments AL_EFV_UNC_Eurytemora -a --existingMembersOnly
+    exit
+
 
