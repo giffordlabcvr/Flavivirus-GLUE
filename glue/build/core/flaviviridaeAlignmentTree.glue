@@ -66,11 +66,11 @@
    alignment AL_GENUS_LGF 
 
 
-	extract child AL_GENUS_PL1 --refName REF_SCNV5
-	demote member AL_GENUS_PL1  --whereClause "sequence.subgenus= 'PL1'"
+	extract child AL_SUBGENUS_PL1 --refName REF_SCNV5
+	demote member AL_SUBGENUS_PL1  --whereClause "sequence.subgenus= 'PL1'"
 
-	extract child AL_GENUS_PL2 --refName REF_SLV2
-	demote member AL_GENUS_PL2 --whereClause "sequence.subgenus= 'PL2'"
+	extract child AL_SUBGENUS_PL2 --refName REF_SLV2
+	demote member AL_SUBGENUS_PL2 --whereClause "sequence.subgenus= 'PL2'"
 	
     exit
 
@@ -209,11 +209,11 @@
     derive segments AL_UNC_PESTI -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_GENUS_PL1
+  alignment AL_SUBGENUS_PL1
     derive segments AL_UNC_PL1 -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_GENUS_PL2
+  alignment AL_SUBGENUS_PL2
     derive segments AL_UNC_PL2 -a --mergeStrategy OVERWRITE
     exit
 

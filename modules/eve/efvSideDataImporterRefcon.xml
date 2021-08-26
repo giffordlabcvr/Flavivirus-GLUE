@@ -23,7 +23,12 @@
         <header>subfamily</header>
         <property>subfamily</property>
     </textFileColumn>
-    
+ 
+      <textFileColumn>
+        <header>supergenus</header>
+        <property>supergenus</property>
+    </textFileColumn>
+   
     <textFileColumn>
         <header>genus</header>
         <property>genus</property>
