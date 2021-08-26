@@ -19,5 +19,5 @@
 
 	#~# Genus subgroups
 	import AL_EFV_UNC_FLAVI_cISF           -f alignments/internal/subgenus/cISF-efv.aln.fna
-  
+
 	exit

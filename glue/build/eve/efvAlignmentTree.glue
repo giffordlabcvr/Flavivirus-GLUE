@@ -77,15 +77,15 @@
 
 
   alignment AL_MAJOR1_HepaPegi
-    derive segments AL_EFV_UNC_HEPA_PEGI -a --existingMembersOnly
+    derive segments AL_EFV_UNC_HEPA_PEGI -a 
     exit
 
   alignment AL_MAJOR1_FlaviPesti
-    derive segments AL_EFV_UNC_FLAVI_PESTI -a --existingMembersOnly
+    derive segments AL_EFV_UNC_FLAVI_PESTI -a 
     exit
 
   #alignment AL_MAJOR2_FlaviLike (contains X1)
-  #  derive segments AL_EFV_UNC_FLAVI_LIKE -a --existingMembersOnly
+  #  derive segments AL_EFV_UNC_FLAVI_LIKE -a 
   #  exit
 
 
@@ -94,7 +94,7 @@
   #
 
   alignment AL_GENUS_PL2
-    derive segments AL_EFV_UNC_PL2 -a --existingMembersOnly 
+    derive segments AL_EFV_UNC_PL2 -a  
     exit
 
 
@@ -104,15 +104,15 @@
   
 
   alignment AL_GENUS_Jingmenvirus_Seg1
-    derive segments AL_EFV_UNC_JMTV_SEG1 -a --existingMembersOnly 
+    derive segments AL_EFV_UNC_JMTV_SEG1 -a  
     exit
 
   alignment AL_GENUS_Tamanavirus
-    derive segments AL_EFV_UNC_TABV -a --existingMembersOnly 
+    derive segments AL_EFV_UNC_TABV -a  
     exit
 
   alignment AL_GENUS_Flavivirus
-    derive segments AL_EFV_UNC_FLAVI -a --existingMembersOnly 
+    derive segments AL_EFV_UNC_FLAVI -a  
     exit
 
  
@@ -121,7 +121,7 @@
   #  
 
   alignment AL_FLAVI_SUBGENUS_cISF
-    derive segments AL_EFV_UNC_FLAVI_cISF -a --existingMembersOnly 
+    derive segments AL_EFV_UNC_FLAVI_cISF -a  
     exit
 
 

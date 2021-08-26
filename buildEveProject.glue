@@ -1,5 +1,5 @@
-
+  
 # Build endogenous flavivirus component of Flaviviridae-GLUE
-run file glue/build/eve/buildEveProject.glue
+run file glue/build/eve/buildEveCoreProject.glue
 run file glue/build/eve/buildEveExtension.glue
 
