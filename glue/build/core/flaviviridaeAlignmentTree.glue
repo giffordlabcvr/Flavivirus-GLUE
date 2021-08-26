@@ -40,7 +40,7 @@
 	demote member AL_MAJOR2_FlaviLike  --whereClause "sequence.supergenus = 'FlaviLike'"
 
  	extract child AL_MAJOR2_PestiLike  --refName REF_BVDV1 # NC_001461
-	demote member AL_MAJOR2_FlaviLike  --whereClause "sequence.supergenus = 'PestiLike'"
+	demote member AL_MAJOR2_PestiLike  --whereClause "sequence.supergenus = 'PestiLike'"
     exit
 
 
@@ -52,6 +52,19 @@
 
 	extract child AL_GENUS_Pestivirus  --refName REF_BVDV1
 	demote member AL_GENUS_Pestivirus  --whereClause "sequence.genus = 'Pestivirus'"
+
+	extract child AL_GENUS_LGF         --refName REF_SLV2
+	demote member AL_GENUS_LGF         --whereClause "sequence.genus = 'LGF'"
+
+	
+    exit
+
+  #
+  # Large-genome flavivirus (LGF) lineage
+  #
+
+   alignment AL_GENUS_LGF 
+
 
 	extract child AL_GENUS_PL1 --refName REF_SCNV5
 	demote member AL_GENUS_PL1  --whereClause "sequence.subgenus= 'PL1'"
