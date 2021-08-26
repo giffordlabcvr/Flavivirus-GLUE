@@ -37,10 +37,10 @@
   alignment AL_MAJOR1_FlaviPesti
 
 	extract child AL_MAJOR2_FlaviLike  --refName REF_MASTER_YFV  # NC_002031
-	demote member AL_MAJOR2_FlaviLike  --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus' or sequence.genus = 'Jingmenvirus'"
+	demote member AL_MAJOR2_FlaviLike  --whereClause "sequence.supergenus = 'FlaviLike'"
 
  	extract child AL_MAJOR2_PestiLike  --refName REF_BVDV1 # NC_001461
-	demote member AL_MAJOR2_PestiLike  --whereClause "sequence.genus = 'Pestivirus' or sequence.genus = 'PL1' or sequence.genus = 'PL2'"
+	demote member AL_MAJOR2_FlaviLike  --whereClause "sequence.supergenus = 'PestiLike'"
     exit
 
 
@@ -54,10 +54,10 @@
 	demote member AL_GENUS_Pestivirus  --whereClause "sequence.genus = 'Pestivirus'"
 
 	extract child AL_GENUS_PL1 --refName REF_SCNV5
-	demote member AL_GENUS_PL1  --whereClause "sequence.genus= 'PL1'"
+	demote member AL_GENUS_PL1  --whereClause "sequence.subgenus= 'PL1'"
 
 	extract child AL_GENUS_PL2 --refName REF_SLV2
-	demote member AL_GENUS_PL2 --whereClause "sequence.genus= 'PL2'"
+	demote member AL_GENUS_PL2 --whereClause "sequence.subgenus= 'PL2'"
 	
     exit
 
@@ -241,11 +241,6 @@
     derive segments AL_UNC_FLAVI_dISF -a --mergeStrategy OVERWRITE
     exit
     
-
-
-
-
-
 
 
 

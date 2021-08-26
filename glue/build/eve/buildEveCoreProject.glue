@@ -28,8 +28,11 @@ project flaviviridae
   # Import internal node alignments that contain EVEs
   run file glue/build/eve/efvAlignments.glue
 
-  # Update alignment tree
+  # Update alignment tree with EFV reference sequences
   run file glue/build/eve/efvAlignmentTree.glue  
+
+  # Inherit feature locations to EFV reference sequences
+  run file glue/build/eve/efvInheritFeatureLocations.glue
 
   # Record feature coverage in internal node alignments
   run file glue/build/eve/efvRecordFeaturePresence.glue

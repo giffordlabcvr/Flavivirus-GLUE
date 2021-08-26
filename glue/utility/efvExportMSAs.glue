@@ -1,0 +1,8 @@
+module fastaAlignmentExporter export AL_GENUS_Tamanavirus -r REF_TABV -f whole_genome -a -p
+module fastaAlignmentExporter export AL_FLAVI_SUBGENUS_cISF -r REF_MASTER_YFV -f whole_genome -a -p
+module fastaAlignmentExporter export AL_GENUS_Jingmenvirus_Seg1 -r REF_JMTV_Seg1 -f whole_genome -a -p
+module fastaAlignmentExporter export AL_GENUS_Jingmenvirus_Seg3 -r REF_JMTV_Seg3 -f whole_genome -a -p
+module fastaAlignmentExporter export AL_MAJOR1_HepaPegi -r REF_HCV  -f whole_genome -a -p
+
+
+
