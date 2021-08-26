@@ -16,6 +16,9 @@ project flaviviridae
   # EFV derive constrained alignment tree
   run file glue/build/eve/efvDeriveConstrainedTipMSAs.glue
 
+  # Remove unconstrained alignments (optional)
+  run file glue/build/eve/efvDeleteUnconstrainedMSAs.glue
+
 
   # Validate
   validate

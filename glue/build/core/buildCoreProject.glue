@@ -32,11 +32,12 @@ project flaviviridae
   # Import alignment tree
   run file glue/build/core/flaviviridaeAlignmentTree.glue
 
+  # Record feature coverage in alignments
+  run file glue/build/core/flaviviridaeRecordFeaturePresence.glue
+
   # Remove unconstrained alignments (optional)
   run file glue/build/core/deleteUnconstrainedMSAs.glue
 
-  # Record feature coverage in alignments
-  run file glue/build/core/flaviviridaeRecordFeaturePresence.glue
 
   validate
 

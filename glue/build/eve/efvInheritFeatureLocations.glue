@@ -1,0 +1,54 @@
+
+
+reference REF_EFV-cISF.1-AedAeg
+
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV premembrane
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-capsid
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-envelope
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV NS1
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-NS2A
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-NS2B
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV NS3
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-NS4A
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-NS4B
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV NS5
+
+  exit
+
+
+reference REF_EFV-cISF.2-AedAlb
+
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV premembrane
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-capsid
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-envelope
+
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV NS1
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-NS2A
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-NS2B
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV NS3
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-NS4A
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-NS4B
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV NS5
+
+
+  exit
+
+
+reference REF_EFV-cISF.5-TipOle
+
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV premembrane
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-capsid
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-envelope
+
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV NS1
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-NS2A
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-NS2B
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV NS3
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-NS4A
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV flavi-NS4B
+  inherit feature-location --spanGaps AL_FLAVI_SUBGENUS_cISF --relRefName REF_MASTER_YFV NS5
+
+
+  exit
+
+

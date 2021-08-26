@@ -45,8 +45,6 @@
 
   alignment AL_MAJOR2_FlaviLike
 
-
-	extract child AL_EFV_X2 -r REF_EFV-X2.2-StyCho
 	demote member AL_EFV_X2 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'X2'"
 
 	demote member AL_MINOR_FlaviTamana -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'Flavivirus'"
@@ -126,7 +124,9 @@
 	demote member AL_EFV-Flavi.3-LepArc  -w "sequence.sequenceID like 'EFV-Flavi.3%'"
 
 	demote member AL_FLAVI_SUBGENUS_cISF -w "sequence.source.name = 'fasta-digs-eve' and sequence.clade = 'cISF'"
+	demote member AL_FLAVI_SUBGENUS_cISF -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.clade = 'cISF'"
 	demote member AL_FLAVI_SUBGENUS_cISF -w "sequence.source.name = 'fasta-digs-eve' and sequence.clade = 'cISF'"
+ 
     exit
 
   #
@@ -135,6 +135,7 @@
 
   alignment AL_FLAVI_SUBGENUS_cISF
 
+	
 	extract child AL_EFV-cISF.1-AedAeg  -r REF_EFV-cISF.1-AedAeg
 	demote member AL_EFV-cISF.1-AedAeg  -w "sequence.sequenceID like 'EFV-cISF.1%'"
                   
