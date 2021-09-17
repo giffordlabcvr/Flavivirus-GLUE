@@ -23,8 +23,8 @@
 	demote member AL_MAJOR2_FlaviLike -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.supergenus = 'FlaviLike'"
 	demote member AL_MAJOR2_PestiLike -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.supergenus = 'PestLike'"
 
-	extract child AL_EFV_X1 -r REF_EFV-X1.1-PriCau
-	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'X1'"
+	#extract child AL_EFV_X1 -r REF_EFV-X1.1-PriCau
+	#demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-refseqs-eve' and sequence.genus = 'X1'"
 
     exit
 
@@ -101,10 +101,6 @@
   #
   # PESTIVIRUS-LIKE SUBGROUPS
   #
-
-  alignment AL_SUBGENUS_PL1
-    derive segments AL_EFV_UNC_PL1 -a  
-    exit
 
 
   alignment AL_SUBGENUS_PL2
