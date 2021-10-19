@@ -98,15 +98,15 @@
 	   <p>
 		   <b>NOTE</b>: those specifically interested in <b>hepatitis C virus (HCV)</b>
 		   may want to investigate    
-		   <a target="_blank" href="https://github.com/giffordlabcvr/HCV-GLUE"><b>HCV-GLUE</b></a>,
+		   <a target="_blank" href="https://github.com/giffordlabcvr/HCV-GLUE"><b>HCV-GLUE</b></a>
 		   and
 		   <a target="_blank" href="https://github.com/giffordlabcvr/NCBI-HCV-GLUE"><b>NCBI-HCV-GLUE</b></a>.		   
 		   
-		   This family of GLUE projects was developed specifically for HCV and incorporates
+		   These GLUE projects was developed specifically for HCV and incorporates
 		   a <b>graphical user interface (GUI)</b>
 		   that allows users to browse and interrogate the underlying GLUE database.
 		   The <b>MRC-University of Glasgow Centre for Virus Research</b> hosts a
-		   <a target="_blank" href="https://github.com/giffordlabcvr/HCV-GLUE-WEB"><b>GUI version of HCV-GLUE</b></a>.
+		   <a target="_blank" href="http://hcv-glue.cvr.gla.ac.uk/"><b>GUI version of HCV-GLUE</b></a>.
 	   </p>
 
 
@@ -130,8 +130,10 @@
 	   
 
 	   <p>
-		 GenBank XML files are imported into this project directly from <a target="_blank" href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI GenBank</a> using
-		 a GLUE module and are uniquely identified within this project by their <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
+		 GenBank XML files are imported into this project directly from
+		 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI GenBank</a> using
+		 a GLUE module and are uniquely identified within this project by their
+		 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
 
 		 Where possible, we prefer to use sequences obtained via GenBank since it
 		 represents the principle source of published nucleotide sequence data.
@@ -143,7 +145,7 @@
 
 
 	   <p>
-        Currently his project includes only one  NCBI-derived source
+        Currently this project includes only one NCBI-derived source
         - <a target="_blank" href="https://github.com/giffordlabcvr/Flavivirus-GLUE/tree/master/sources/ncbi-refseqs"><b>ncbi-refseqs</b></a>:
         It contains the reference genome sequences (one per flavivirus species) used in this project.		 		 
 	   </p>
@@ -160,13 +162,13 @@
 
 
 	   <h3>
-		 <a id="virusReferenceSequences" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Flavivirus reference sequences</strong>
+		 <a id="virusReferenceSequences" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong><i>Flaviviridae</i> reference sequences</strong>
 	   </h3>
 	   <hr>
 
 		<p>
 
- 		  For selected flaviviral genera, we defined a 'master' reference sequence, as follows:
+ 		  We defined a 'master' reference sequence to represent recognised flavivirus genera/subgenera, as follows:
 
 
 	   <h4>
@@ -242,6 +244,18 @@
 <blockquote>
 		<p>
 		  The schematic figure above shows the alignment tree structure in <b>Flavivirus-GLUE</b>.
+          For the highest taxonomic levels (i.e. at the root) we aligned only the most
+          conserved regions of the genome, whereas for the lower
+          taxonomic levels (i.e. within and below genus level) we aligned complete coding
+          sequences.
+
+          We used an alignment tree data structure to link these alignments,
+          via a set of common reference sequences.
+          The root alignment contains reference sequences for major clades,
+          whereas all children of the
+          root inherit at least one reference from their immediate parent.
+          Thus, all alignments are linked to one another via our chosen set of
+          master reference sequences.
 		</p>
          
 </blockquote>
@@ -249,21 +263,7 @@
 
  	    <br>
 
-
-		<p>       
-          For the lower
-          taxonomic levels (i.e. within and below genus level) we aligned complete coding
-          sequences.
-          For the highest taxonomic levels (i.e. at the root) we aligned only the most
-          conserved gene (the viral polymerase). 
-          We used an alignment tree data structure to link these  alignments,
-          via a set of common reference sequences.
-          The root alignment contains all reference sequences, whereas all children of the
-          root inherit at least one reference from their immediate parent.
-          Thus, all alignments are linked to one another via our chosen set of
-          master reference sequences.
- 		</p>
-             
+            
    
 		<p>
              
