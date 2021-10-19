@@ -227,13 +227,26 @@
 	   </h3>
 	   <hr>
 
-
 		<p>
-          Multiple sequence alignment constructed in this study are linked together using
-          GLUE's <b>alignment tree</b> data structure - 
+          Multiple sequence alignments (MSAs) are the basic currency of comparative genomic analysis.
+          MSAs constructed in this study are linked together using
+          GLUE's <b>constrained MSA tree</b> data structure.
+  		</p>
+
+         
+ 		<p>
+          A 'constrained MSA' is an alignment in which the coordinate space is defined by 
+          a select reference sequence. Where alignment members contain insertions relative
+          to the reference sequence, the inserted sequences are recorded and stored
+          (i.e. sequence data is never deleted).
+  		</p>
+
+         
+ 		<p>
+           
           GLUE projects have the option of using a data structure called an <b>alignment tree</b>
-          to link constrained multiple sequence alignments representing different
-          taxonomic levels, and we've used this approach in Flavivirus-GLUE.
+          to link constrained MSAs representing different taxonomic levels,
+          and we've used this approach in Flavivirus-GLUE.
  		</p>
 
 
