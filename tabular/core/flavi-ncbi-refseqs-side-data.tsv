@@ -166,3 +166,60 @@ NC_001837	Pegivirus A	GBV-A	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Prim
 NC_021154	Rodent pegivirus	RPgV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Neotoma	none	none	CC61	Americas	Neotoma lepida
 NC_024377	Simian pegivirus	SPgV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Piliocolobus	none	none	SPgVkrc_RC08	Africa	Piliocolobus tephrosceles
 KC145265	Theiler's disease-associated virus	TDAV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Saguinus	none	none	-	-	Saguinus
+NC_031950	Guereza hepacivirus	GuHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Primates	none	none			
+NC_038428	Hepacivirus I	HVI	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Rodent (Rhabdomys pumilio)	none	none			
+NC_038427	Hepacivirus F	HVF	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Rodent (Myodes glareolus)	none	none			
+NC_038429	Hepacivirus J	HVJ	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Rodent (Myodes glareolus)	none	none			
+NC_040815	Hepacivirus P	HVP	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Rodent (Citellus dauricus Brandt)	none	none			
+NC_031947	Bat Hepacivirus	BHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Bat (Otomops martiensseni)	none	none			
+NC_038432 	Hepacivirus N	HVN	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Bos	none	none			
+NC_038430 	Hepacivirus K	HVK	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Bat (Hipposideros vittatus)	none	none			
+NC_038426	Hepacivirus B	HVB	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Primate (Tamarin)					
+NC_031916	Hepacivirus L	HVL	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Bat (Hipposideros vittatus)					
+NC_038431 	Hepacivirus M	HVM	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Bat (Otomops martiensseni)					
+NC_001655	Hepatitis GB virus B	GBVB	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Primate (Tamarin)					
+BK013349	Bat Hepacivirus PM_01	BHV-PM_01	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Bat (Peropteryx_macrotis)					
+MH844500	Sloth hepacivirus	SHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Sloths (Bradypus variegatus)					
+MZ393518	Ringtail Racoon Hepacivirus	RRHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Racoon (Bassariscus astutus)					
+MN133813	Jogalong Hepacivirus	JHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Insect (culex annulirostris)?					
+MH824541	Sifaka Hepacivirus	SHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Primate (Lemur)					
+MK026585	Collins Beach Virus	CBV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Insect (Ixodes holocyclus)?					
+JQ181558	Canine Hepacivirus	CHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Dog					
+MH370348	Sigmodontinae hepacivirus	SHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Rodent (oligoryzomys nigripes)					
+MG599999	Chinese softshell turtle hepacivirus	STHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Turtle (Pelodiscus sinensis)					
+MG599994	Guangxi houndshark hepacivirus	GHHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Shark (Mustelus manazo)					
+MG599992	Xiamen sepia Stingray hepacivirus	XSSHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Ray (Urolophus aurantiacus)					
+MN062427	Bald Eagle Hepacivirus	BEHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Eagle (Haliaeetus leucocephalus)					
+MK737641	Duck Hepacivirus	DHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Duck					
+MG599993	African Lungfish Hepacivirus	ALHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Lung Fish					
+MG599995	Nanhai dogfish shark hepacivirus	NDSHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Dogfish Shark					
+MG599988	Guangxi chinese leopard gecko hepacivirus	LPHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Leopard Gecko					
+MG599987	Yili teratoscincus roborowskii hepacivirus	YTRHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Gecko (Teratoscincus roborowskii)					
+MT371443	Koala Hepacivirus	KHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Koala					
+MT371442	Pelican Hepacivirus	PHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Pelican					
+MT371441	Magpie Hepacivirus	MpHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Magpie					
+MT371440	Bandicoot Hepacivirus	BcHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Bandicoot					
+MT371439	Gecko Hepacivirus	GHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Gecko					
+MT371437	Marmoset Hepacivirus	MHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Marmoset					
+MT371436	Blue Tit Hepacivirus	BTHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Blue Tit					
+MT371434	Bush Baby Hepacivirus	BBHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Bush Baby					
+KC796073	Bat Pegivirus	BPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Bat	none	none	-	-	Saguinus
+NC_030291	Pegivirus B/GB-Virus D	GBVD	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Bat					
+KC796088	Pegivirus I	PVI	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Bat (sturnira lilium)					
+KU351670	Porcine Pegivirus	PPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Sus					
+NC_034442	Pegivirus K	PVK	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Sus					
+MK059751	Dophin Pegivirus	DPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Dolphin					
+NC_038434	Pegivirus F	PVF	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Bat (Carollia perspicillata)					
+NC_038435	Pegivirus G	PVG	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Bat (Scotophilus dinganii)					
+MW091548	Goose Pegivirus	GPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Geese (Anser cygnoides)					
+MH282911	Bat Pestivirus V4	BPVV4	Flaviviridae	FlaviPesti	PestiLike	Pestivirus		NULL		Bat	none	none	-	-	-
+MH282910	Bat Pestivirus V3	BPVV3	Flaviviridae	FlaviPesti	PestiLike	Pestivirus		NULL		Bat	none				
+MH282908	Bat Pestivirus V1	BPVV1	Flaviviridae	FlaviPesti	PestiLike	Pestivirus		NULL		Bat	none				
+KY370103	Rodent Pestivirus Nn	RPVNn	Flaviviridae	FlaviPesti	PestiLike	Pestivirus		NULL		Rodent					
+KY370102	Rodent Pestivirus Ad	RPVAd	Flaviviridae	FlaviPesti	PestiLike	Pestivirus		NULL		Rodent					
+KY370100	Rodent Pestivirus Ap	RPVAp	Flaviviridae	FlaviPesti	PestiLike	Pestivirus		NULL		Rodent					
+KY370099	Rodent Pestivirus Ne	RPVNe	Flaviviridae	FlaviPesti	PestiLike	Pestivirus		NULL		Rodent					
+NC_003678	Giraffe Pestivirus	GPV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus		NULL		Giraffe					
+NC_035432	Linda Virus	LPV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus		NULL		Sus					
+NC_018713 	Aydin Virus	APV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus		NULL		Ovis					
+MT513216	Southwest bike trail virus	SOBV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		primate (Aotus trivirgatus)					
