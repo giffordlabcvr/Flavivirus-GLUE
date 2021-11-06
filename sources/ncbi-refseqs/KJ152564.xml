@@ -18,7 +18,7 @@
     </GBSeq_other-seqids>
     <GBSeq_source>Paraiso Escondido virus</GBSeq_source>
     <GBSeq_organism>Paraiso Escondido virus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes; Amarillovirales; Flaviviridae; Flavivirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Riboviria; Flaviviridae; Flavivirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
