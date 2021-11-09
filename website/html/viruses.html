@@ -174,8 +174,17 @@
 	   <p>
 		 GenBank XML files are imported into this project directly from
 		 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI GenBank</a> using
-		 a GLUE module and are uniquely identified within this project by their
-		 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
+		 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/genbank/">an appropriately configured</a>
+		 version of GLUE's 
+		 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/genbank/">GenBank importer module</a>.
+		 The core Flaviviridae-GLUE project contains a single NCBI-derived source
+		 - <a target="_blank" href="https://github.com/giffordlabcvr/Flavivirus-GLUE/tree/master/sources/ncbi-refseqs"><b>ncbi-refseqs</b></a>,
+		 this source contains 'master reference' genome sequences for each flavivirus species included in this project.		 		 
+	   </p>
+
+
+
+	   <p>
 
 		 Where possible, we prefer to use sequences obtained via GenBank since it
 		 represents the principle source of published nucleotide sequence data.
@@ -185,14 +194,9 @@
 	   </p>
 
 
-
 	   <p>
-        Currently this project includes only one NCBI-derived source
-        - <a target="_blank" href="https://github.com/giffordlabcvr/Flavivirus-GLUE/tree/master/sources/ncbi-refseqs"><b>ncbi-refseqs</b></a>,
-        this source contains 'master reference' genome sequences for each flavivirus species included in this project.		 		 
-	   </p>
-
-	   <p>
+		 Genbank sequences are uniquely identified within GUE projects by their
+		 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
          Sequences included in this project are linked to
          <a target="_blank" href="https://github.com/giffordlabcvr/Flavivirus-GLUE/blob/master/tabular/core/flavi-ncbi-refseqs-side-data.tsv"><b>auxiliary data in tabular format</b></a>.
 	   </p>
