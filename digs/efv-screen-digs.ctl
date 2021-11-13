@@ -4,8 +4,8 @@ Begin SCREENDB;
 ENDBLOCK;
 
 BEGIN SCREENSETS;
-	query_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/flavi_probes.faa
-	reference_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/flavi_references.faa
+	query_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/flavi-probes.faa
+	reference_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/flavi-references.faa
     output_path=./tmp/;
 	bitscore_min_tblastn=60;
 	seq_length_minimum=40;
