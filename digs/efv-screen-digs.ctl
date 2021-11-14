@@ -7,7 +7,7 @@ BEGIN SCREENSETS;
     query_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/flavi-probes.faa
     reference_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/flavi-references.faa
     output_path=./tmp/;
-    bitscore_min_tblastn=60;
+    bitscore_min_tblastn=60; # Bitscore cut-off for recording tBLASTn hits 
     seq_length_minimum=40;
     defragment_range=10;
     consolidate_range=3000;
