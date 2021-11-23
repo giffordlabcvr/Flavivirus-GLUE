@@ -6,7 +6,7 @@
 
 Begin SCREENDB;
     db_name=eve_1_flavi;      # Screening database name
-    mysql_server=localhost;   # Using local MySQL database
+    mysql_server=localhost;   # Using local MySQL database server
 ENDBLOCK;
 
 
