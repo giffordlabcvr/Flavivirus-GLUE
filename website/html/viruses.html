@@ -30,7 +30,7 @@
 
 
 	   <h3>
-		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Flavivirus data</strong>
+		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Virus data included in Flavivirus-GLUE</strong>
 	   </h3>
 	   <hr>
 
@@ -156,8 +156,174 @@
          Sequences included in this project are linked to
          <a target="_blank" href="https://github.com/giffordlabcvr/Flavivirus-GLUE/blob/master/tabular/core/flavi-ncbi-refseqs-side-data.tsv"><b>auxiliary data in tabular format</b></a>.
 	   </p>
+	   <p>
+		 Flavivirus sequence-associated data recorded in Flavivirus GLUE are as follows:
+	   </p>
 
 
+       <br>
+
+	   
+	   <table>
+	
+		   <thead>
+			   <tr>
+				   <th>Parameter</th>
+				   <th>Type</th>
+				   <th>Definition</th>
+			   </tr>
+		   </thead>
+	
+		   <tbody>
+
+			   <tr>
+				   <td><i>full_name</i></td>
+				   <td>VARCHAR</td>
+				   <td>Full name of the virus this sequence is derived from</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>name</i></td>
+				   <td>VARCHAR</td>
+				   <td>Abbreviated name of the virus this sequence is derived from</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>subfamily</i></td>
+				   <td>VARCHAR</td>
+				   <td>Taxonomy - virus subfamily (proposed)</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>supergenus</i></td>
+				   <td>VARCHAR</td>
+				   <td>Taxonomy - virus supergenus (proposed)</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>genus</i></td>
+				   <td>VARCHAR</td>
+				   <td>Taxonomy - virus genus</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>subgenus</i></td>
+				   <td>VARCHAR</td>				   
+				   <td>Taxonomy - virus subgenus</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>clade</i></td>
+				   <td>VARCHAR</td>
+				   <td>Taxonomy - virus clade</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>segment</i></td>
+				   <td>INTEGER</td>
+				   <td>Genome segment (Jingmenviruses only)</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>host_group</i></td>
+				   <td>VARCHAR</td>
+				   <td>Taxonomic group of host species</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>vector_group</i></td>
+				   <td>VARCHAR</td>
+				   <td>Taxonomic group of vector species</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>reservoir_group</i></td>
+				   <td>VARCHAR</td>
+				   <td>Taxonomic group of reservoir species</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>isolate_name</i></td>
+				   <td>VARCHAR</td>
+				   <td>Name of the isolate this sequence is derived from</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>isolation_host</i></td>
+				   <td>VARCHAR</td>
+				   <td>Species (latin binomial) virus was isolated from</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>length</i></td>
+				   <td>INTEGER</td>
+				   <td>Length of the sequence</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>pubmed_id</i></td>
+				   <td>INTEGER</td>
+				   <td>PubMed ID of manuscript associated with sequence</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>gb_create_date</i></td>
+				   <td>GenBank</td>
+				   <td>GenBank creation date of the sequence</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>gb_update_date</i></td>
+				   <td>VARCHAR</td>
+				   <td>Date of most recent GenBank update</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>country</i></td>
+				   <td>VARCHAR</td>
+				   <td>Country where virus was isolated</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>place_sampled</i></td>
+				   <td>VARCHAR</td>
+				   <td>Location of sampling (state, region, or city)</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>collection_year</i></td>
+				   <td>INTEGER</td>
+				   <td>Year virus was isolated</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>collection_month</i></td>
+				   <td>VARCHAR</td>
+				   <td>Month virus was isolated</td>
+			   </tr>
+
+
+			   <tr>
+				   <td><i>collection_month_day</i></td>
+				   <td>VARCHAR</td>
+				   <td>Day of month virus was isolated</td>
+			   </tr>
+
+
+		   </tbody>
+		
+	   </table>
+
+	   <br>
+	   <p>
+
+
+		 These data are recorded in GLUE's underlying relational database. GLUE's
+		 <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core database schema</b></a>
+		 was extended to include these fields, as defined in this
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Flavivirus-GLUE/blob/master/glue/build/core/flaviviridaeSchemaExtensions.glue"><b>schema extensions file</b></a>.
+	  
+	   </p>
 
 
 
@@ -171,7 +337,7 @@
 
  		  We defined a 'master' reference sequence to represent recognised flavivirus genera/subgenera, as follows:
 
-
+	   <br>
 	   <h4>
 		 <a id="Genus Flavivirus" class="anchor" href="#Epiflavivirinae" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Genus <i>Flavivirus</i></strong>
 	   </h4>
@@ -193,7 +359,7 @@
 		</p>
 
 
-
+	   <br>
 	   <h4>
 		 <a id="Other Flaviviridae genera" class="anchor" href="#Epiflavivirinae" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Other <i>Flaviviridae</i> genera</strong>
 	   </h4>
