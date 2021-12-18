@@ -1,0 +1,73 @@
+
+  # Clean up from any previous run of this file
+  
+  # Delete alignments
+  delete alignment AL_UNC_TREE_Hepacivirus
+  delete alignment AL_TREE_Hepacivirus
+  delete alignment AL_UNC_TREE_Pestivirus
+  delete alignment AL_TREE_Pestivirus
+  delete alignment AL_UNC_TREE_Pegivirus
+  delete alignment AL_TREE_Pegivirus
+
+
+  # Delete modules
+  delete module fastaAlignmentExporter
+  delete module flaviviridaeFeaturePresenceRecorder
+  delete module flaviTreeAlignmentImporterNucs 
+  
+  # Create all the modules we need
+  create module -f modules/core/fastaAlignmentExporter.xml
+  create module -f modules/core/flaviTreeAlignmentImporterNucs.xml
+  create module -f modules/core/flaviviridaeFeaturePresenceRecorder.xml
+  
+
+  # Export the recursively populated root gene alignments 
+  module fastaAlignmentExporter
+  	export AL_GENUS_Pestivirus        -r REF_BVDV1      -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_pestivirus-all.aln.fna
+ 	export AL_GENUS_Hepacivirus       -r REF_HCV        -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_hepacivirus-all.aln.fna
+ 	export AL_GENUS_Pegivirus         -r REF_HPgV2      -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_pegivirus-all.aln.fna
+	
+	exit
+
+
+  # Re-import the recursively populated root alignment into the project
+  module flaviTreeAlignmentImporterNucs
+  
+    import AL_UNC_TREE_Pestivirus        -f alignments/tree/genus_pestivirus-all.aln.fna
+    import AL_UNC_TREE_Pegivirus         -f alignments/tree/genus_pegivirus-all.aln.fna	
+    import AL_UNC_TREE_Hepacivirus       -f alignments/tree/genus_hepacivirus-all.aln.fna
+     
+	exit
+  
+
+  # Create constrained alignments 
+  create alignment AL_TREE_Pestivirus         -r REF_BVDV1
+  create alignment AL_TREE_Pegivirus          -r REF_HPgV2
+  create alignment AL_TREE_Hepacivirus        -r REF_HCV
+
+
+
+  # Derive constrained alignments from unconstrained alignments
+  
+  alignment AL_TREE_Hepacivirus
+	derive segments AL_UNC_TREE_Hepacivirus -a --mergeStrategy OVERWRITE
+	exit
+  
+  alignment AL_TREE_Pestivirus
+	derive segments AL_UNC_TREE_Pestivirus -a --mergeStrategy OVERWRITE
+	exit
+
+  alignment AL_TREE_Pegivirus
+	derive segments AL_UNC_TREE_Pegivirus -a --mergeStrategy OVERWRITE
+	exit
+
+
+  module flaviviridaeFeaturePresenceRecorder
+
+    record feature-presence AL_TREE_Pestivirus        --featureName precursor_polyprotein --descendentFeatures
+    record feature-presence AL_TREE_Pegivirus         --featureName precursor_polyprotein --descendentFeatures
+    record feature-presence AL_TREE_Hepacivirus       --featureName precursor_polyprotein --descendentFeatures
+
+    exit
+
+
