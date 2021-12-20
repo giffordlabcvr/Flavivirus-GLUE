@@ -1,0 +1,5 @@
+taxon	sequenceID	name	subfamily	genus	subgenus	host_group	vector_group	isolate	sampled_host_sci_name	sample_date	country
+alignment/AL_TREE_Pegivirus/member/ncbi-refseqs/NC_001710	NC_001710	HGV1	HepaPegi	Pegivirus	-	Primates	none	-	-	-	-
+alignment/AL_TREE_Pegivirus/member/ncbi-refseqs/NC_020902	NC_020902	EPgV	HepaPegi	Pegivirus	-	Equus	none	C0035	horse	-	USA
+alignment/AL_TREE_Pegivirus/member/ncbi-refseqs/NC_021154	NC_021154	RPgV	HepaPegi	Pegivirus	-	Neotoma	none	CC61	Neotoma lepida	-	USA
+alignment/AL_TREE_Pegivirus/member/ncbi-refseqs/NC_027998	NC_027998	HPgV-2	HepaPegi	Pegivirus	-	Primates	none	UC0125.US	Homo sapiens	-	USA

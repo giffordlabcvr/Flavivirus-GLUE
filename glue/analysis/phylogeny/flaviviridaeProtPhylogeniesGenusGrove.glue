@@ -12,6 +12,7 @@
   create module -f modules/core/phylogeny/alignmentColumnsSelectorPegivirusAa.xml
 
 
+  # compute alignments with new taxa
 
   run file glue/analysis/phylogeny/flaviGroveProtPhylogeniesGenusCreateTreeAlignments.glue
   
@@ -34,52 +35,9 @@
     exit
 
  
-  # Clean-up
-  delete module flaviviridaePhyloUtility
+
+  run file glue/analysis/phylogeny/flaviviridaeRerootPhylogeniesGrove.glue
   
-  # Create all the modules we need
-  create module -f modules/core/flaviviridaePhyloUtility.xml
 
-  # Re-root phylogeny 
-  module flaviviridaePhyloUtility 
-
-	reroot-phylogeny \
-      --inputFile trees/grove/hepacivirus.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/grove/hepacivirus-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/grove/pegivirus.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/grove/pegivirus-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/grove/pestivirus.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/grove/pestivirus-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-    exit
-
-
-  # Clean-up
-  delete module flaviviridaeFigTreeAnnotationExporter
-
-  # Create all the modules we need
-  create module -f modules/core/flaviviridaeFigTreeAnnotationExporter.xml
-
-  # Export annotations
-  module flaviviridaeFigTreeAnnotationExporter 
-
-
-    export figtree-annotation AL_TREE_Pegivirus -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 60" -f trees/grove/pegivirus.figtree-annotations.tsv
-
-    export figtree-annotation AL_TREE_Pestivirus -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 60" -f trees/grove/pestivirus.figtree-annotations.tsv
-
-    export figtree-annotation AL_TREE_Hepacivirus -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein'  \
-      and fLocNotes.ref_nt_coverage_pct >= 60" -f trees/grove/hepacivirus.figtree-annotations.tsv
-
-
-  exit
-
+  run file glue/analysis/phylogeny/flaviviridaeExportAnnotationsGrove.glue
+  
