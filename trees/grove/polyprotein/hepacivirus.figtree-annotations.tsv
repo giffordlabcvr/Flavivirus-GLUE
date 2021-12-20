@@ -1,15 +1,45 @@
 taxon	sequenceID	name	subfamily	genus	subgenus	host_group	vector_group	isolate	sampled_host_sci_name	sample_date	country
-alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/KY370092	KY370092	RHCV	HepaPegi	Hepacivirus	-	Meriones meridianus	none	RtMm-HCV/IM2014	Meriones meridianus	-	China
-alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG334001	MG334001	THCV	HepaPegi	Hepacivirus	-	Trachemys scripta elegans	none	-	Trachemys scripta elegans	-	USA
-alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599987	MG599987	YterHCV	HepaPegi	Hepacivirus	-	Teratoscincus roborowskii	none	-	Teratoscincus roborowskii	-	China
-alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599990	MG599990	WmeHCV	HepaPegi	Hepacivirus	-	Chordata	none	-	Gymnothorax reticularis	-	China
-alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599991	MG599991	XgHCV	HepaPegi	Hepacivirus	-	Rhinobatos hynnicephalus	none	-	Rhinobatos hynnicephalus	-	China
-alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599993	MG599993	WHCV	HepaPegi	Hepacivirus	-	Protopterus annectens	none	-	Protopterus annectens	-	Nigeria
-alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599996	MG599996	NHCV	HepaPegi	Hepacivirus	-	Chimaera sp.	none	-	Chimaera sp.	-	China
-alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_004102	NC_004102	HCV	HepaPegi	Hepacivirus	Genotype 1	Homo	none	H77	-	-	-
-alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_021153	NC_021153	RHV-339	HepaPegi	Hepacivirus	-	Peromyscus	none	RHV-339	Peromyscus maniculatus	-	USA
-alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_024889	NC_024889	EHCV	HepaPegi	Hepacivirus	-	Equus	none	-	Equus caballus	-	Japan
-alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025672	NC_025672	RHCV-1	HepaPegi	Hepacivirus	-	Rattus	none	NrHV-1/NYC-C12	Rattus norvegicus	-	USA: New York, New York City
-alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025673	NC_025673	RHCV-2	HepaPegi	Hepacivirus	-	Rattus	none	NrHV-2/NYC-E43	Rattus norvegicus	-	USA: New York, New York City
-alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_026797	NC_026797	BHCV	HepaPegi	Hepacivirus	-	Bos	none	GHC25	Bos taurus	-	Ghana
-alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_028377	NC_028377	WLSV	HepaPegi	Hepacivirus	-	Proscyllium habereri	none	-	Proscyllium habereri	-	China
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/BK013349	BK013349	BHV-PM_01	HepaPegi	Hepacivirus	-	Mammalia	-	Peropteryx_macrotis/Hepacivirus/Pm_01	Peropteryx macrotis	-	-
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/KY370092	KY370092	RHCV	HepaPegi	Hepacivirus	-	Mammalia	none	RtMm-HCV/IM2014	Meriones meridianus	-	China
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG334001	MG334001	THCV	HepaPegi	Hepacivirus	-	Mammalia	none	-	Trachemys scripta elegans	-	USA
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599987	MG599987	YterHCV	HepaPegi	Hepacivirus	-	Reptiles	none	-	Teratoscincus roborowskii	-	China
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599988	MG599988	LPHV	HepaPegi	Hepacivirus	-	Reptiles	-	-	Goniurosaurus luii	-	China
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599990	MG599990	WmeHCV	HepaPegi	Hepacivirus	-	Actinopterygii	none	-	Gymnothorax reticularis	-	China
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599991	MG599991	XgHCV	HepaPegi	Hepacivirus	-	Actinopterygii	none	-	Rhinobatos hynnicephalus	-	China
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599992	MG599992	XSSHV	HepaPegi	Hepacivirus	-	Chondrichthyes	-	-	Urolophus aurantiacus	-	China
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599993	MG599993	WHCV	HepaPegi	Hepacivirus	-	Sarcopterygii	none	-	Protopterus annectens	-	Nigeria
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599994	MG599994	GHHV	HepaPegi	Hepacivirus	-	Chondrichthyes	-	-	Mustelus manazo	-	China
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599995	MG599995	NDSHV	HepaPegi	Hepacivirus	-	Chondrichthyes	-	-	Squalus brevirostris	-	China
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599996	MG599996	NHCV	HepaPegi	Hepacivirus	-	Chondrichthyes	none	-	Chimaera sp.	-	China
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599999	MG599999	STHV	HepaPegi	Hepacivirus	-	Testudines	-	-	Pelodiscus sinensis	-	China
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH370348	MH370348	SHV	HepaPegi	Hepacivirus	-	Mammalia	-	-	Oligoryzomys nigripes	-	Brazil
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH824541	MH824541	SHV	HepaPegi	Hepacivirus	-	Mammalia	-	-	Propithecus diadema (diademed sifaka)	-	Madagascar
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH844500	MH844500	SHV	HepaPegi	Hepacivirus	-	Mammalia	-	BV	Bradypus variegatus	-	Costa Rica
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MK737641	MK737641	DHV	HepaPegi	Hepacivirus	-	Aves	-	-	duck	-	China
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MN062427	MN062427	BEHV	HepaPegi	Hepacivirus	-	Aves	-	NA03-001	Haliaeetus leucocephalus	-	USA: Sauk County, Wisconsin
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MN133813	MN133813	JHV	HepaPegi	Hepacivirus	-	Insects	-	P1-10	Culex annulirostris	-	Australia
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371434	MT371434	BBHV	HepaPegi	Hepacivirus	-	Mammalia	-	Bushbaby_hep	Galago senegalensis; Senegal bushbaby	-	-
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371440	MT371440	BcHV	HepaPegi	Hepacivirus	-	Mammalia	-	Collinsbeach_1	Ixodes holocyclus; Tick	-	Australia
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371441	MT371441	MpHV	HepaPegi	Hepacivirus	-	Aves	-	Magpie_hep	Grallina cyanoleuca; Magpie lark	-	Australia
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371442	MT371442	PHV	HepaPegi	Hepacivirus	-	Aves	-	Pelican_hep	Pelecanus conspicillatus; Australian pelican	-	Australia
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371443	MT371443	KHV	HepaPegi	Hepacivirus	-	Mammalia	-	Koala_hep	Phascolarctos cinereus; Australian koala	-	Australia
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MZ393518	MZ393518	RRHV	HepaPegi	Hepacivirus	-	Mammalia	-	CO-09/924	Bassariscus astutus	-	Mexico
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_001655	NC_001655	GBVB	HepaPegi	Hepacivirus	-	Mammalia	-	-	-	-	-
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_004102	NC_004102	HCV	HepaPegi	Hepacivirus	Genotype 1	Mammalia	none	H77	-	-	-
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_021153	NC_021153	RHV-339	HepaPegi	Hepacivirus	-	Mammalia	none	RHV-339	Peromyscus maniculatus	-	USA
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_024889	NC_024889	EHCV	HepaPegi	Hepacivirus	-	Mammalia	none	-	Equus caballus	-	Japan
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025672	NC_025672	RHCV-1	HepaPegi	Hepacivirus	-	Mammalia	none	NrHV-1/NYC-C12	Rattus norvegicus	-	USA: New York, New York City
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025673	NC_025673	RHCV-2	HepaPegi	Hepacivirus	-	Mammalia	none	NrHV-2/NYC-E43	Rattus norvegicus	-	USA: New York, New York City
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_026797	NC_026797	BHCV	HepaPegi	Hepacivirus	-	Mammalia	none	GHC25	Bos taurus	-	Ghana
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_028377	NC_028377	WLSV	HepaPegi	Hepacivirus	-	Chondrichthyes	none	-	Proscyllium habereri	-	China
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031916	NC_031916	HVL	HepaPegi	Hepacivirus	-	Mammalia	-	PDB-112	Hipposideros vittatus	-	Kenya
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031947	NC_031947	BHV	HepaPegi	Hepacivirus	-	Mammalia	none	PDB-452	Otomops martiensseni	-	Kenya
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031950	NC_031950	GuHV	HepaPegi	Hepacivirus	-	Mammalia	none	GHV-2 BWC04	black-and-white colobus	-	Uganda
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038426	NC_038426	HVB	HepaPegi	Hepacivirus	-	Mammalia	-	-	Homo sapiens	-	-
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038427	NC_038427	HVF	HepaPegi	Hepacivirus	-	Mammalia	none	Hepacivirus/NLR07-oct70/NEL/2007	Myodes glareolus	-	Netherlands
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038428	NC_038428	HVI	HepaPegi	Hepacivirus	-	Mammalia	none	Hepacivirus/SAR-3/RSA/2008	Rhabdomys pumilio	-	South Africa
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038429	NC_038429	HVJ	HepaPegi	Hepacivirus	-	Mammalia	none	Hepacivirus/RMU10-3382/GER/2010	Myodes glareolus	-	Germany
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038430	NC_038430	HVK	HepaPegi	Hepacivirus	-	Mammalia	none	PDB-829	Hipposideros vittatus	-	Kenya
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038431	NC_038431	HVM	HepaPegi	Hepacivirus	-	Mammalia	-	PDB-491.1	Otomops martiensseni	-	Kenya
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038432	NC_038432	HVN	HepaPegi	Hepacivirus	-	Mammalia	none	BovHepV_463/Ger/2014	Bos taurus	-	Germany
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_040815	NC_040815	HVP	HepaPegi	Hepacivirus	-	Mammalia	none	RHV-GS2015	ground squirrel (Citellus dauricus Brandt)	-	China

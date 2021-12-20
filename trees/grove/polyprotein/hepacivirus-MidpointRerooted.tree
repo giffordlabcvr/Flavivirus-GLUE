@@ -1,1 +1,146 @@
-((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599990:1.41109802019123264927,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599987:0.93939905585112737363)50:0.02821681804270486510,((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599993:0.86670548268767821920,(((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599996:0.53184600672963144863,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_028377:0.61525304208083964053)100:0.22281736486591688373,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599991:0.78451364159186176561)50:0.04881915858593468410,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG334001:1.11812363904861600261)50:0.09923570029574614593)74:0.11640015698402181310,((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_004102:0.26231651784980219988,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_024889:0.41177708453775652142)100:0.47739647887254110792,(alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/KY370092:0.70188603568339524852,((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025673:0.40425800636567282842,(alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025672:0.31001837314307817417,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_021153:0.30590737760839958881)100:0.09525133743694169652)100:0.26686426029497700707,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_026797:0.64074750484961606745)84:0.11700954846264376152)91:0.10966848888278545038)36:0.07352937640606704850)50:0.10555534190555355273);
+#NEXUS
+begin taxa;
+	dimensions ntax=44;
+	taxlabels
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/BK013349'[&country="-",genus="Hepacivirus",host_group="Mammalia",isolate="Peropteryx_macrotis/Hepacivirus/Pm_01",name="BHV-PM_01",sample_date="-",sampled_host_sci_name="Peropteryx macrotis",sequenceID="BK013349",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/KY370092'[&country="China",genus="Hepacivirus",host_group="Mammalia",isolate="RtMm-HCV/IM2014",name="RHCV",sample_date="-",sampled_host_sci_name="Meriones meridianus",sequenceID="KY370092",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG334001'[&country="USA",genus="Hepacivirus",host_group="Mammalia",isolate="-",name="THCV",sample_date="-",sampled_host_sci_name="Trachemys scripta elegans",sequenceID="MG334001",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599987'[&country="China",genus="Hepacivirus",host_group="Reptiles",isolate="-",name="YterHCV",sample_date="-",sampled_host_sci_name="Teratoscincus roborowskii",sequenceID="MG599987",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599988'[&country="China",genus="Hepacivirus",host_group="Reptiles",isolate="-",name="LPHV",sample_date="-",sampled_host_sci_name="Goniurosaurus luii",sequenceID="MG599988",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599990'[&country="China",genus="Hepacivirus",host_group="Actinopterygii",isolate="-",name="WmeHCV",sample_date="-",sampled_host_sci_name="Gymnothorax reticularis",sequenceID="MG599990",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599991'[&country="China",genus="Hepacivirus",host_group="Actinopterygii",isolate="-",name="XgHCV",sample_date="-",sampled_host_sci_name="Rhinobatos hynnicephalus",sequenceID="MG599991",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599992'[&country="China",genus="Hepacivirus",host_group="Chondrichthyes",isolate="-",name="XSSHV",sample_date="-",sampled_host_sci_name="Urolophus aurantiacus",sequenceID="MG599992",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599993'[&country="Nigeria",genus="Hepacivirus",host_group="Sarcopterygii",isolate="-",name="WHCV",sample_date="-",sampled_host_sci_name="Protopterus annectens",sequenceID="MG599993",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599994'[&country="China",genus="Hepacivirus",host_group="Chondrichthyes",isolate="-",name="GHHV",sample_date="-",sampled_host_sci_name="Mustelus manazo",sequenceID="MG599994",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599995'[&country="China",genus="Hepacivirus",host_group="Chondrichthyes",isolate="-",name="NDSHV",sample_date="-",sampled_host_sci_name="Squalus brevirostris",sequenceID="MG599995",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599996'[&country="China",genus="Hepacivirus",host_group="Chondrichthyes",isolate="-",name="NHCV",sample_date="-",sampled_host_sci_name="Chimaera sp.",sequenceID="MG599996",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599999'[&country="China",genus="Hepacivirus",host_group="Testudines",isolate="-",name="STHV",sample_date="-",sampled_host_sci_name="Pelodiscus sinensis",sequenceID="MG599999",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH370348'[&country="Brazil",genus="Hepacivirus",host_group="Mammalia",isolate="-",name="SHV",sample_date="-",sampled_host_sci_name="Oligoryzomys nigripes",sequenceID="MH370348",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH824541'[&country="Madagascar",genus="Hepacivirus",host_group="Mammalia",isolate="-",name="SHV",sample_date="-",sampled_host_sci_name="Propithecus diadema (diademed sifaka)",sequenceID="MH824541",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH844500'[&country="Costa Rica",genus="Hepacivirus",host_group="Mammalia",isolate="BV",name="SHV",sample_date="-",sampled_host_sci_name="Bradypus variegatus",sequenceID="MH844500",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MK737641'[&country="China",genus="Hepacivirus",host_group="Aves",isolate="-",name="DHV",sample_date="-",sampled_host_sci_name="duck",sequenceID="MK737641",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MN062427'[&country="USA: Sauk County, Wisconsin",genus="Hepacivirus",host_group="Aves",isolate="NA03-001",name="BEHV",sample_date="-",sampled_host_sci_name="Haliaeetus leucocephalus",sequenceID="MN062427",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MN133813'[&country="Australia",genus="Hepacivirus",host_group="Insects",isolate="P1-10",name="JHV",sample_date="-",sampled_host_sci_name="Culex annulirostris",sequenceID="MN133813",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371434'[&country="-",genus="Hepacivirus",host_group="Mammalia",isolate="Bushbaby_hep",name="BBHV",sample_date="-",sampled_host_sci_name="Galago senegalensis; Senegal bushbaby",sequenceID="MT371434",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371440'[&country="Australia",genus="Hepacivirus",host_group="Mammalia",isolate="Collinsbeach_1",name="BcHV",sample_date="-",sampled_host_sci_name="Ixodes holocyclus; Tick",sequenceID="MT371440",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371441'[&country="Australia",genus="Hepacivirus",host_group="Aves",isolate="Magpie_hep",name="MpHV",sample_date="-",sampled_host_sci_name="Grallina cyanoleuca; Magpie lark",sequenceID="MT371441",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371442'[&country="Australia",genus="Hepacivirus",host_group="Aves",isolate="Pelican_hep",name="PHV",sample_date="-",sampled_host_sci_name="Pelecanus conspicillatus; Australian pelican",sequenceID="MT371442",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371443'[&country="Australia",genus="Hepacivirus",host_group="Mammalia",isolate="Koala_hep",name="KHV",sample_date="-",sampled_host_sci_name="Phascolarctos cinereus; Australian koala",sequenceID="MT371443",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MZ393518'[&country="Mexico",genus="Hepacivirus",host_group="Mammalia",isolate="CO-09/924",name="RRHV",sample_date="-",sampled_host_sci_name="Bassariscus astutus",sequenceID="MZ393518",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_001655'[&country="-",genus="Hepacivirus",host_group="Mammalia",isolate="-",name="GBVB",sample_date="-",sampled_host_sci_name="-",sequenceID="NC_001655",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_004102'[&country="-",genus="Hepacivirus",host_group="Mammalia",isolate="H77",name="HCV",sample_date="-",sampled_host_sci_name="-",sequenceID="NC_004102",subfamily="HepaPegi",subgenus="Genotype 1",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_021153'[&country="USA",genus="Hepacivirus",host_group="Mammalia",isolate="RHV-339",name="RHV-339",sample_date="-",sampled_host_sci_name="Peromyscus maniculatus",sequenceID="NC_021153",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_024889'[&country="Japan",genus="Hepacivirus",host_group="Mammalia",isolate="-",name="EHCV",sample_date="-",sampled_host_sci_name="Equus caballus",sequenceID="NC_024889",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025672'[&country="USA: New York, New York City",genus="Hepacivirus",host_group="Mammalia",isolate="NrHV-1/NYC-C12",name="RHCV-1",sample_date="-",sampled_host_sci_name="Rattus norvegicus",sequenceID="NC_025672",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025673'[&country="USA: New York, New York City",genus="Hepacivirus",host_group="Mammalia",isolate="NrHV-2/NYC-E43",name="RHCV-2",sample_date="-",sampled_host_sci_name="Rattus norvegicus",sequenceID="NC_025673",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_026797'[&country="Ghana",genus="Hepacivirus",host_group="Mammalia",isolate="GHC25",name="BHCV",sample_date="-",sampled_host_sci_name="Bos taurus",sequenceID="NC_026797",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_028377'[&country="China",genus="Hepacivirus",host_group="Chondrichthyes",isolate="-",name="WLSV",sample_date="-",sampled_host_sci_name="Proscyllium habereri",sequenceID="NC_028377",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031916'[&country="Kenya",genus="Hepacivirus",host_group="Mammalia",isolate="PDB-112",name="HVL",sample_date="-",sampled_host_sci_name="Hipposideros vittatus",sequenceID="NC_031916",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031947'[&country="Kenya",genus="Hepacivirus",host_group="Mammalia",isolate="PDB-452",name="BHV",sample_date="-",sampled_host_sci_name="Otomops martiensseni",sequenceID="NC_031947",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031950'[&country="Uganda",genus="Hepacivirus",host_group="Mammalia",isolate="GHV-2 BWC04",name="GuHV",sample_date="-",sampled_host_sci_name="black-and-white colobus",sequenceID="NC_031950",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038426'[&country="-",genus="Hepacivirus",host_group="Mammalia",isolate="-",name="HVB",sample_date="-",sampled_host_sci_name="Homo sapiens",sequenceID="NC_038426",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038427'[&country="Netherlands",genus="Hepacivirus",host_group="Mammalia",isolate="Hepacivirus/NLR07-oct70/NEL/2007",name="HVF",sample_date="-",sampled_host_sci_name="Myodes glareolus",sequenceID="NC_038427",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038428'[&country="South Africa",genus="Hepacivirus",host_group="Mammalia",isolate="Hepacivirus/SAR-3/RSA/2008",name="HVI",sample_date="-",sampled_host_sci_name="Rhabdomys pumilio",sequenceID="NC_038428",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038429'[&country="Germany",genus="Hepacivirus",host_group="Mammalia",isolate="Hepacivirus/RMU10-3382/GER/2010",name="HVJ",sample_date="-",sampled_host_sci_name="Myodes glareolus",sequenceID="NC_038429",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038430'[&country="Kenya",genus="Hepacivirus",host_group="Mammalia",isolate="PDB-829",name="HVK",sample_date="-",sampled_host_sci_name="Hipposideros vittatus",sequenceID="NC_038430",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038431'[&country="Kenya",genus="Hepacivirus",host_group="Mammalia",isolate="PDB-491.1",name="HVM",sample_date="-",sampled_host_sci_name="Otomops martiensseni",sequenceID="NC_038431",subfamily="HepaPegi",subgenus="-",vector_group="-"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038432'[&country="Germany",genus="Hepacivirus",host_group="Mammalia",isolate="BovHepV_463/Ger/2014",name="HVN",sample_date="-",sampled_host_sci_name="Bos taurus",sequenceID="NC_038432",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_040815'[&country="China",genus="Hepacivirus",host_group="Mammalia",isolate="RHV-GS2015",name="HVP",sample_date="-",sampled_host_sci_name="ground squirrel (Citellus dauricus Brandt)",sequenceID="NC_040815",subfamily="HepaPegi",subgenus="-",vector_group="none"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599990':1.300209,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599988':0.444676,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599987':0.4062)[&label=100]:0.451318)[&label=61]:0.028341,((((('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599995':0.494734,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_028377':0.380187,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599994':0.346264)[&label=100]:0.168954,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599996':0.517303)[&label=62]:0.035345)[&label=100]:0.172616,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599991':0.551057,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599992':0.532538)[&label=100]:0.216113)[&label=71]:0.047666,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599993':0.801077)[&label=66]:0.060117,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG334001':0.998102)[&label=60]:0.046015,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MK737641':0.586854,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371441':0.469698,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MN133813':0.58643,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371442':0.248578,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MN062427':0.210793)[&label=100]:0.225459)[&label=35]:0.082847)[&label=100]:0.219655)[&label=100]:0.28446,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599999':0.600435,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038429':0.482266)[&label=98]:0.180775,((('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038430':0.298367,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038431':0.001447,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031947':1.0E-6)[&label=100]:0.310384)[&label=100]:0.205375,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371434':0.297288,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_024889':0.260136)[&label=99]:0.10694,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_004102':0.286372)[&label=100]:0.251849)[&label=98]:0.182747,((('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038428':0.309738,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/KY370092':0.286881)[&label=77]:0.061966,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH370348':0.336493)[&label=100]:0.344348,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH824541':0.376786,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371443':0.469017,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371440':0.376802)[&label=91]:0.093101,((('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH844500':0.249535,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_040815':0.16784)[&label=100]:0.105712,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MZ393518':0.321101)[&label=99]:0.088679,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025673':0.416681,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025672':0.284902,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038427':0.231471,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_021153':0.19904)[&label=100]:0.106061)[&label=100]:0.057967)[&label=57]:0.043125)[&label=28]:0.028272)[&label=43]:0.034646)[&label=100]:0.244835,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031950':0.549488,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038432':0.029911,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_026797':0.01501)[&label=100]:0.561138)[&label=19]:0.062414,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/BK013349':0.391957,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038426':1.0E-6,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_001655':1.0E-6)[&label=100]:0.464801)[&label=99]:0.121887,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031916':0.438932)[&label=65]:0.060173)[&label=15]:0.049816)[&label=36]:0.048775)[&label=98]:0.14925)[&label=26]:0.045187)[&label=32]:0.070709)[&label=18]:0.038232)[&label=61]:0.116926);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="host_group";
+	set tipLabels.displayAttribute="name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
