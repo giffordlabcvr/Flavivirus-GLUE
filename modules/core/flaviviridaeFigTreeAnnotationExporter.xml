@@ -41,19 +41,9 @@
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
-		<annotationName>isolate</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.isolate')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-
-	<figTreeAnnotation>
 		<annotationName>sampled_host_sci_name</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.sampled_host_sci_name')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
-	<figTreeAnnotation>
-		<annotationName>sampled_host_sci_name</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.sampled_host_sci_name')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-	
 	
 </figTreeAnnotationExporter>

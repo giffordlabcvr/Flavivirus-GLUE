@@ -1,1 +1,146 @@
-((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599990:1.30020880419498374714,(alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599988:0.44467561381391501607,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599987:0.40619997913400401890)100:0.45131810069340333458)61:0.028340644792766767075,(((((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599995:0.49473388455822392418,((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_028377:0.38018724579818047316,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599994:0.34626438727613312318)100:0.16895422440092167093,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599996:0.51730278842466947964)62:0.03534540834239750795)100:0.17261636554355844209,(alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599991:0.55105675043200941232,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599992:0.53253789528753392446)100:0.21611260914675137212)71:0.04766557064019182749,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599993:0.80107745497846227778)66:0.06011662593508902003,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG334001:0.99810212416154286963)60:0.04601483690705326229,((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MK737641:0.58685439723688681557,(alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371441:0.46969821988632637355,(alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MN133813:0.58642965846951389253,(alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371442:0.24857761501024500106,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MN062427:0.21079349233017072307)100:0.22545940253667470787)35:0.08284662072592492710)100:0.21965525814411837602)100:0.28446013975376888139,((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599999:0.60043549740733226372,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038429:0.48226567577663881359)98:0.18077523726426478201,(((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038430:0.29836723127764452901,(alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038431:0.00144706809910392551,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031947:0.00000100000050002909)100:0.31038424558177774015)100:0.20537479707503483728,((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371434:0.29728797813322976884,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_024889:0.26013613069139929213)99:0.10694013135513560919,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_004102:0.28637242581131444608)100:0.25184888801610927356)98:0.18274675503646495289,(((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038428:0.30973774968238249050,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/KY370092:0.28688117407757729449)77:0.06196556294605189141,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH370348:0.33649345195967522715)100:0.34434833126939246029,((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH824541:0.37678607000522851278,((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371443:0.46901690025148651264,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371440:0.37680193019704805169)91:0.09310131924589135077,(((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH844500:0.24953477577967908552,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_040815:0.16784041009360067820)100:0.10571222838932949062,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MZ393518:0.32110144340170010402)99:0.08867873557376836080,(alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025673:0.41668137055522502799,(alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025672:0.28490217515488780453,(alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038427:0.23147060747123124336,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_021153:0.19904007309527130265)100:0.10606060198600823774)100:0.05796728238801746036)57:0.04312528455754911783)28:0.02827172749869251780)43:0.03464640279146791180)100:0.24483461292913669127,((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031950:0.54948762809691020781,(alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038432:0.02991086454041848655,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_026797:0.01500954533517082946)100:0.56113838675683747059)19:0.06241358165737481700,((alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/BK013349:0.39195715836139188859,(alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038426:0.00000100000050002909,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_001655:0.00000100000050002909)100:0.46480114575069275684)99:0.12188681604498233235,alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031916:0.43893246750232067788)65:0.06017304092776864372)15:0.04981637956633288428)36:0.04877455694507656231)98:0.14924965606181248012)26:0.04518690156491897425)32:0.07070897264600217724)18:0.03823168382001841670)61:0.116926088074406020475);
+#NEXUS
+begin taxa;
+	dimensions ntax=44;
+	taxlabels
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/BK013349'[&full_name="Bat hepacivirus",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Chiroptera",name="BHV-PM_01",sequenceID="BK013349",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/KY370092'[&full_name="Rodent hepacvirus",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Rodentia",name="RHCV",sequenceID="KY370092",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG334001'[&full_name="Hepacivirus sp.",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Rodentia",name="THCV",sequenceID="MG334001",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599987'[&full_name="Yili teratoscincus roborowskii hepacivirus",genus="Hepacivirus",host_major_group="Reptiles",host_minor_group="Squamata",name="YterHCV",sequenceID="MG599987",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599988'[&full_name="Guangxi chinese leopard gecko hepacivirus",genus="Hepacivirus",host_major_group="Reptiles",host_minor_group="-",name="LPHV",sequenceID="MG599988",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599990'[&full_name="Wenling moray eel hepacivirus",genus="Hepacivirus",host_major_group="Actinopterygii",host_minor_group="Actinopterygii",name="WmeHCV",sequenceID="MG599990",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599991'[&full_name="Xiamen guitarfish hepacivirus",genus="Hepacivirus",host_major_group="Chondrichthyes",host_minor_group="Chondrichthyes",name="XgHCV",sequenceID="MG599991",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599992'[&full_name="Xiamen sepia Stingray hepacivirus",genus="Hepacivirus",host_major_group="Chondrichthyes",host_minor_group="Chondrichthyes",name="XSSHV",sequenceID="MG599992",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599993'[&full_name="Western African lungfish hepacivirus",genus="Hepacivirus",host_major_group="Sarcopterygii",host_minor_group="-",name="WHCV",sequenceID="MG599993",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599994'[&full_name="Guangxi houndshark hepacivirus",genus="Hepacivirus",host_major_group="Chondrichthyes",host_minor_group="Chondrichthyes",name="GHHV",sequenceID="MG599994",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599995'[&full_name="Nanhai dogfish shark hepacivirus",genus="Hepacivirus",host_major_group="Chondrichthyes",host_minor_group="-",name="NDSHV",sequenceID="MG599995",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599996'[&full_name="Nanhai ghost shark hepacivirus 1",genus="Hepacivirus",host_major_group="Chondrichthyes",host_minor_group="Chondrichthyes",name="NHCV",sequenceID="MG599996",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599999'[&full_name="Chinese softshell turtle hepacivirus",genus="Hepacivirus",host_major_group="Reptiles",host_minor_group="Testudines",name="STHV",sequenceID="MG599999",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH370348'[&full_name="Sigmodontinae hepacivirus",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Rodentia",name="SHV",sequenceID="MH370348",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH824541'[&full_name="Sifaka hepacivirus",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Primates",name="SHV",sequenceID="MH824541",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH844500'[&full_name="Hepacivirus sp.",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Xenarthra",name="SHV",sequenceID="MH844500",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MK737641'[&full_name="Duck hepacivirus",genus="Hepacivirus",host_major_group="Aves",host_minor_group="Anseriformes",name="DHV",sequenceID="MK737641",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MN062427'[&full_name="Bald eagle hepacivirus",genus="Hepacivirus",host_major_group="Aves",host_minor_group="-",name="BEHV",sequenceID="MN062427",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MN133813'[&full_name="Jogalong virus",genus="Hepacivirus",host_major_group="Insects",host_minor_group="-",name="JHV",sequenceID="MN133813",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371434'[&full_name="Bushbaby hepacivirus",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Primates",name="BBHV",sequenceID="MT371434",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371440'[&full_name="Bandicoot hepacivirus",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="-",name="BcHV",sequenceID="MT371440",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371441'[&full_name="Magpie hepacivirus",genus="Hepacivirus",host_major_group="Aves",host_minor_group="-",name="MpHV",sequenceID="MT371441",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371442'[&full_name="Pelican hepacivirus",genus="Hepacivirus",host_major_group="Aves",host_minor_group="-",name="PHV",sequenceID="MT371442",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371443'[&full_name="Koala hepacivirus",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Marsupials",name="KHV",sequenceID="MT371443",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MZ393518'[&full_name="Ringtail hepacivirus",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Carnivora",name="RRHV",sequenceID="MZ393518",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_001655'[&full_name="GB virus-B",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Primates",name="GBVB",sequenceID="NC_001655",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_004102'[&full_name="Hepatitis C virus genotype 1",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Primates",name="HCV",sequenceID="NC_004102",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_021153'[&full_name="Rodent hepacivirus",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Rodentia",name="RHV-339",sequenceID="NC_021153",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_024889'[&full_name="Equine hepacivirus JPN3/JAPAN/2013",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Artiodactyla",name="EHCV",sequenceID="NC_024889",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025672'[&full_name="Norway rat hepacivirus 1",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Rodentia",name="RHCV-1",sequenceID="NC_025672",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025673'[&full_name="Norway rat hepacivirus 2",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Rodentia",name="RHCV-2",sequenceID="NC_025673",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_026797'[&full_name="Bovine hepacivirus",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Artiodactyla",name="BHCV",sequenceID="NC_026797",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_028377'[&full_name="Wenling shark virus",genus="Hepacivirus",host_major_group="Chondrichthyes",host_minor_group="Chondrichthyes",name="WLSV",sequenceID="NC_028377",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031916'[&full_name="Hepacivirus L",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Chiroptera",name="HVL",sequenceID="NC_031916",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031947'[&full_name="Bat hepacivirus",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Chiroptera",name="BHV",sequenceID="NC_031947",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031950'[&full_name="Guereza hepacivirus",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Primates",name="GuHV",sequenceID="NC_031950",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038426'[&full_name="Hepacivirus B",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Primates",name="HVB",sequenceID="NC_038426",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038427'[&full_name="Hepacivirus F",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Rodentia",name="HVF",sequenceID="NC_038427",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038428'[&full_name="Hepacivirus I",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Rodentia",name="HVI",sequenceID="NC_038428",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038429'[&full_name="Hepacivirus J",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Rodentia",name="HVJ",sequenceID="NC_038429",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038430'[&full_name="Hepacivirus K",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Chiroptera",name="HVK",sequenceID="NC_038430",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038431'[&full_name="Hepacivirus M",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Chiroptera",name="HVM",sequenceID="NC_038431",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038432'[&full_name="Hepacivirus N",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Artiodactyla",name="HVN",sequenceID="NC_038432",subfamily="HepaPegi"]
+	'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_040815'[&full_name="Hepacivirus P",genus="Hepacivirus",host_major_group="Mammalia",host_minor_group="Rodentia",name="HVP",sequenceID="NC_040815",subfamily="HepaPegi"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599990':1.300209,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599988':0.444676,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599987':0.4062)[&label=100]:0.451318)[&label=61]:0.028341,((((('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599995':0.494734,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_028377':0.380187,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599994':0.346264)[&label=100]:0.168954,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599996':0.517303)[&label=62]:0.035345)[&label=100]:0.172616,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599991':0.551057,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599992':0.532538)[&label=100]:0.216113)[&label=71]:0.047666,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599993':0.801077)[&label=66]:0.060117,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG334001':0.998102)[&label=60]:0.046015,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MK737641':0.586854,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371441':0.469698,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MN133813':0.58643,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371442':0.248578,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MN062427':0.210793)[&label=100]:0.225459)[&label=35]:0.082847)[&label=100]:0.219655)[&label=100]:0.28446,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599999':0.600435,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038429':0.482266)[&label=98]:0.180775,((('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038430':0.298367,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038431':0.001447,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031947':1.0E-6)[&label=100]:0.310384)[&label=100]:0.205375,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371434':0.297288,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_024889':0.260136)[&label=99]:0.10694,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_004102':0.286372)[&label=100]:0.251849)[&label=98]:0.182747,((('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038428':0.309738,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/KY370092':0.286881)[&label=77]:0.061966,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH370348':0.336493)[&label=100]:0.344348,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH824541':0.376786,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371443':0.469017,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371440':0.376802)[&label=91]:0.093101,((('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH844500':0.249535,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_040815':0.16784)[&label=100]:0.105712,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MZ393518':0.321101)[&label=99]:0.088679,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025673':0.416681,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025672':0.284902,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038427':0.231471,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_021153':0.19904)[&label=100]:0.106061)[&label=100]:0.057967)[&label=57]:0.043125)[&label=28]:0.028272)[&label=43]:0.034646)[&label=100]:0.244835,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031950':0.549488,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038432':0.029911,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_026797':0.01501)[&label=100]:0.561138)[&label=19]:0.062414,(('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/BK013349':0.391957,('alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038426':1.0E-6,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_001655':1.0E-6)[&label=100]:0.464801)[&label=99]:0.121887,'alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031916':0.438932)[&label=65]:0.060173)[&label=15]:0.049816)[&label=36]:0.048775)[&label=98]:0.14925)[&label=26]:0.045187)[&label=32]:0.070709)[&label=18]:0.038232)[&label=61]:0.116926);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="host_major_group";
+	set tipLabels.displayAttribute="full_name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
