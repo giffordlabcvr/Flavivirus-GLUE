@@ -24,11 +24,6 @@
 		<annotationName>genus</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.genus')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
-
-	<figTreeAnnotation>
-		<annotationName>subgenus</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.subgenus')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
 	
 	<figTreeAnnotation>
 		<annotationName>host_major_group</annotationName>
@@ -58,16 +53,6 @@
 	<figTreeAnnotation>
 		<annotationName>sampled_host_sci_name</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.sampled_host_sci_name')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-
-	<figTreeAnnotation>
-		<annotationName>sample_date</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.sample_date')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-
-	<figTreeAnnotation>
-		<annotationName>country</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.country')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 	
 	

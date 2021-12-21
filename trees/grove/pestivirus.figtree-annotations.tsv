@@ -1,17 +1,20 @@
-taxon	sequenceID	name	full_name	subfamily	genus	subgenus	host_major_group	host_minor_group	vector_group	isolate	sampled_host_sci_name	sampled_host_sci_name	sample_date	country
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/KY370099	KY370099	RPVNe	Rodent pestivirus	FlaviPesti	Pestivirus	-	Mammalia	Rodentia	-	RtNe-PestV/SC2014	Niviventer excelsior	Niviventer excelsior	-	China
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/KY370100	KY370100	RPVAp	Rodent pestivirus	FlaviPesti	Pestivirus	-	Mammalia	Rodentia	-	RtAp-PestV/JL2014	Apodemus peninsulae	Apodemus peninsulae	-	China
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/KY370102	KY370102	RPVAd	Rodent pestivirus	FlaviPesti	Pestivirus	-	Mammalia	Rodentia	-	RtAd-PestV/SAX2015	Apodemus draco	Apodemus draco	-	China
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/KY370103	KY370103	RPVNn	Rodent pestivirus	FlaviPesti	Pestivirus	-	Mammalia	Rodentia	-	RtNn-PestV/SAX2015	Niviventer niviventer	Niviventer niviventer	-	China
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/MH282908	MH282908	BPVV1	Bat pestivirus BtSk-PestV-1/GX2017	FlaviPesti	Pestivirus	-	Mammalia	Chiroptera	none	BtSk-PestV-1/GX2017	Scotophilus kuhlii	Scotophilus kuhlii	-	China
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/NC_001461	NC_001461	BVDV1	Bovine viral diarrhea virus 1	FlaviPesti	Pestivirus	A	Mammalia	-	none	-	-	-	-	-
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/NC_002657	NC_002657	CSFV	Classical swine fever virus	FlaviPesti	Pestivirus	C	Mammalia	Artiodactyla	none	-	-	-	-	-
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/NC_003678	NC_003678	GiPeV	Pestivirus giraffe-1 H138	FlaviPesti	Pestivirus	G	Mammalia	Artiodactyla	none	giraffe-1 H138	Giraffa camelopardalis	Giraffa camelopardalis	-	-
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/NC_003679	NC_003679	BDV	Border disease virus	FlaviPesti	Pestivirus	D	Mammalia	Artiodactyla	none	-	-	-	-	-
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/NC_012812	NC_012812	BVDV3	Bovine viral diarrhea virus 3 Th/04_KhonKaen	FlaviPesti	Pestivirus	H	Mammalia	Artiodactyla	none	-	Bos taurus	Bos taurus	-	Thailand
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/NC_018713	NC_018713	Aydin	Pestivirus strain Aydin/04-TR	FlaviPesti	Pestivirus	I	Mammalia	Artiodactyla	none	-	sheep	sheep	-	Turkey
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/NC_023176	NC_023176	PoPeV	Porcine pestivirus isolate Bungowannah	FlaviPesti	Pestivirus	F	Mammalia	Artiodactyla	none	Bungowannah	-	-	-	Australia
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/NC_024018	NC_024018	PAPeV	Pronghorn antelope pestivirus	FlaviPesti	Pestivirus	E	Mammalia	Artiodactyla	none	-	pronghorn antelope	pronghorn antelope	-	USA
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/NC_025677	NC_025677	NrPeV	Norway rat pestivirus	FlaviPesti	Pestivirus	J	Mammalia	Rodentia	none	NrPV/NYC-D23	Rattus norvegicus	Rattus norvegicus	-	USA: New York, New York City
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/NC_035432	NC_035432	LPV	Linda virus	FlaviPesti	Pestivirus	-	Mammalia	Artiodactyla	-	-	Sus scrofa	Sus scrofa	-	Austria
-alignment/AL_TREE_Pestivirus/member/ncbi-refseqs/NC_038964	NC_038964	APPeV	Porcine pestivirus 1	FlaviPesti	Pestivirus	K	Mammalia	Artiodactyla	none	-	Sus scrofa	Sus scrofa	-	USA
+taxon	sequenceID	name	full_name	subfamily	genus	host_major_group	host_minor_group	vector_group	isolate	sampled_host_sci_name	sampled_host_sci_name	country
+KC145265	KC145265	TDAV	Theiler's disease-associated virus	HepaPegi	Pegivirus	Mammalia	Primates	none	HorseA1_serum	Equus caballus	Equus caballus	USA
+KC796073	KC796073	BPV	Bat pegivirus	HepaPegi	Pegivirus	Mammalia	Chiroptera	none	PDB-303	Megaloglossus woermanni	Megaloglossus woermanni	Democratic Republic of the Congo
+KC796088	KC796088	PVI	bat pegivirus I	HepaPegi	Pegivirus	Mammalia	Chiroptera	-	PDB-1715	Sturnira lilium	Sturnira lilium	Guatemala
+KT439329	KT439329	HHpgV	Human hepegivirus	HepaPegi	Pegivirus	Mammalia	Primates	none	AK-790	Homo sapiens	Homo sapiens	USA
+KU351670	KU351670	PPV	Porcine pegivirus	HepaPegi	Pegivirus	Mammalia	Artiodactyla	-	PPgV_80F/Ger/2012	Sus scrofa	Sus scrofa	Germany
+MK059751	MK059751	DPV	Dolphin pegivirus	HepaPegi	Pegivirus	Mammalia	Artiodactyla	-	DPgV	Tursiops truncatus	Tursiops truncatus	USA
+MT513216	MT513216	SOBV	Southwest bike trail virus	HepaPegi	Pegivirus	Mammalia	Primates	-	cj1516	Callithrix jacchus	Callithrix jacchus	USA: Madison, WI
+MW091548	MW091548	GPV	Goose pegivirus 1	HepaPegi	Pegivirus	Aves	Anseriformes	-	-	Anser cygnoides	Anser cygnoides	China: Sichuan
+NC_001710	NC_001710	HGV1	GB virus C	HepaPegi	Pegivirus	Mammalia	Primates	none	-	-	-	-
+NC_001837	NC_001837	GBV-A	Pegivirus A	HepaPegi	Pegivirus	Mammalia	Primates	none	-	-	-	-
+NC_020902	NC_020902	EPgV	Equine pegivirus 1	HepaPegi	Pegivirus	Mammalia	Artiodactyla	none	C0035	horse	horse	USA
+NC_021154	NC_021154	RPgV	Rodent pegivirus	HepaPegi	Pegivirus	Mammalia	Rodentia	none	CC61	Neotoma lepida	Neotoma lepida	USA
+NC_024377	NC_024377	SPgV	Simian pegivirus	HepaPegi	Pegivirus	Mammalia	Primates	none	SPgVkrc_RC08	Piliocolobus tephrosceles (red colobus monkey)	Piliocolobus tephrosceles (red colobus monkey)	Uganda: Kibale National Park
+NC_025679	NC_025679	NPgV	Norway rat pegivirus	HepaPegi	Pegivirus	Mammalia	Rodentia	none	NrPgV/NYC-E13	Rattus norvegicus	Rattus norvegicus	USA: New York, New York City
+NC_027998	NC_027998	HPgV-2	Human pegivirus 2	HepaPegi	Pegivirus	Mammalia	Primates	none	UC0125.US	Homo sapiens	Homo sapiens	USA
+NC_030291	NC_030291	GBVD	GB virus-D	HepaPegi	Pegivirus	Mammalia	Chiroptera	-	-	Pteropus giganteus	Pteropus giganteus	Bangladesh
+NC_034442	NC_034442	PVK	Pegivirus K	HepaPegi	Pegivirus	Mammalia	Artiodactyla	-	PPgV_903/Ger/2013	Sus scrofa	Sus scrofa	Germany
+NC_038434	NC_038434	PVF	Pegivirus F	HepaPegi	Pegivirus	Mammalia	Chiroptera	-	PDB-1698	Carollia perspicillata	Carollia perspicillata	Guatemala
+NC_038435	NC_038435	PVG	Pegivirus G	HepaPegi	Pegivirus	Mammalia	Chiroptera	-	PDB-620	Scotophilus dinganii	Scotophilus dinganii	Kenya
