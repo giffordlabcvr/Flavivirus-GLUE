@@ -11,6 +11,11 @@
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
+		<annotationName>full_name</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.full_name')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
 		<annotationName>subfamily</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.subfamily')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
@@ -26,8 +31,13 @@
 	</figTreeAnnotation>
 	
 	<figTreeAnnotation>
-		<annotationName>host_group</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.host_group')}</valueFreemarkerTemplate>
+		<annotationName>host_major_group</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.host_major_group')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	
+	<figTreeAnnotation>
+		<annotationName>host_minor_group</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.host_minor_group')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 	
 	<figTreeAnnotation>
@@ -38,6 +48,11 @@
 	<figTreeAnnotation>
 		<annotationName>isolate</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.isolate')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>sampled_host_sci_name</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.sampled_host_sci_name')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>

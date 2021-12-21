@@ -51,8 +51,13 @@
     </textFileColumn>
 
     <textFileColumn>
-        <header>host_group</header>
-        <property>host_group</property>
+        <header>host_major_group</header>
+        <property>host_major_group</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>host_minor_group</header>
+        <property>host_minor_group</property>
     </textFileColumn>
 
     <skipMissing>true</skipMissing>

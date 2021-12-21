@@ -13,6 +13,8 @@
 
 
   # compute alignments with new taxa
+  run file glue/analysis/phylogeny/groveComputeAlignments.glue
+  
 
   run file glue/analysis/phylogeny/flaviGroveProtPhylogeniesGenusCreateTreeAlignments.glue
   
