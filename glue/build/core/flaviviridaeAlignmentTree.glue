@@ -12,7 +12,7 @@
 	extract child AL_MAJOR1_FlaviPesti -r REF_MASTER_YFV
 	demote member AL_MAJOR1_FlaviPesti --whereClause "sequence.subfamily = 'FlaviPesti'"
 
-	extract child AL_MAJOR1_HepaPegi -r REF_HCV
+	extract child AL_MAJOR1_HepaPegi -r REF_HEPACI_1_HCV
 	demote member AL_MAJOR1_HepaPegi --whereClause "sequence.subfamily = 'HepaPegi'"	
 	exit
 	
@@ -23,7 +23,7 @@
 
   alignment AL_MAJOR1_HepaPegi 
   
-	extract child AL_GENUS_Hepacivirus -r REF_HCV
+	extract child AL_GENUS_Hepacivirus -r REF_HEPACI_1_HCV
 	demote member AL_GENUS_Hepacivirus --whereClause "sequence.genus = 'Hepacivirus'"
 
 	extract child AL_GENUS_Pegivirus -r REF_HPgV2
@@ -137,6 +137,21 @@
 	
     exit
 
+
+
+  #
+  # Pegivirus genus subclades
+  #
+  
+  alignment AL_GENUS_Pegivirus
+
+	extract child AL_PEGI_SUBGENUS_1       --refName REF_HPgV2
+	demote member AL_PEGI_SUBGENUS_1       --whereClause "sequence.subgenus= 'Pegi1'"
+
+	extract child AL_PEGI_SUBGENUS_2       --refName REF_TDAV
+	demote member AL_PEGI_SUBGENUS_2       --whereClause "sequence.subgenus= 'Pegi2'"
+	
+    exit
 
 
   ### Derive constrained alignment segments from unconstrained alignments  
