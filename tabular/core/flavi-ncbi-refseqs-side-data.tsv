@@ -142,10 +142,10 @@ NC_003678	Pestivirus Giraffe-1	GiPeV	Flaviviridae	FlaviPesti	PestiLike	Pestiviru
 NC_012812	Bovine viral diarrhea virus 3	BVDV3	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Bos	none	none	-	Asia	Bos taurus
 NC_018713	Pestivirus strain Aydin/04-TR	Aydin	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Ovis	none	none	-	Asia	Ovis aries
 NC_025677	Norway rat pestivirus	NrPeV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Rodentia	Rattus	none	none	NrPV/NYC-D23	Americas	Rattus norvegicus
-NC_038964	Atypical porcine pestivirus	APPeV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Sus	none	none	-	-	-
+NC_038964	Atypical porcine pestivirus	APPeV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti3	NULL		Mammalia	Artiodactyla	Sus	none	none	-	-	-
 MH282911	Bat Pestivirus V4	BPVV4	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Chiroptera	Bat	none	none	-	-	-
 MH282910	Bat Pestivirus V3	BPVV3	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Chiroptera	Bat	none	none	-	-	-
-MH282908	Bat Pestivirus V1	BPVV1	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Chiroptera	Bat	none	none	-	-	-
+MH282908	Bat Pestivirus V1	BPVV1	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti3	NULL		Mammalia	Chiroptera	Bat	none	none	-	-	-
 KY370103	Rodent Pestivirus Nn	RPVNn	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Rodentia	Rodent	none	none	-	-	-
 KY370102	Rodent Pestivirus Ad	RPVAd	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Rodentia	Rodent	none	none	-	-	Apodemus draco
 KY370100	Rodent Pestivirus Ap	RPVAp	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Rodentia	Rodent	none	none	-	-	Apodemus peninsulae
