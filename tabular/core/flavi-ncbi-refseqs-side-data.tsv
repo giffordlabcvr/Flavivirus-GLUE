@@ -172,12 +172,12 @@ NC_038428	Hepacivirus I	HVI	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	N
 NC_038427	Hepacivirus F	HVF	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Rodent (Myodes glareolus)	none	none			Myodes glareolus
 NC_038429	Hepacivirus J	HVJ	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci4	NULL		Mammalia	Rodentia	Rodent (Myodes glareolus)	none	none			Myodes glareolus
 NC_040815	Hepacivirus P	HVP	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Rodent (Citellus dauricus Brandt)	none	none			
-NC_031947	Bat Hepacivirus	BHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Chiroptera	Bat (Otomops martiensseni)	none	none			
+NC_031947	Bat Hepacivirus	BHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci3	NULL		Mammalia	Chiroptera	Bat (Otomops martiensseni)	none	none			
 NC_038432 	Hepacivirus N	HVN	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Artiodactyla	Bos	none	none			
-NC_038430 	Hepacivirus K	HVK	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Chiroptera	Bat (Hipposideros vittatus)	none	none			
+NC_038430 	Hepacivirus K	HVK	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci3	NULL		Mammalia	Chiroptera	Bat (Hipposideros vittatus)	none	none			
 NC_038426	Hepacivirus B	HVB	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Primates	Primate (Tamarin)	none	none			
 NC_031916	Hepacivirus L	HVL	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Chiroptera	Bat (Hipposideros vittatus)	none	none			Hipposideros vittatus
-NC_038431 	Hepacivirus M	HVM	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Chiroptera	Bat (Otomops martiensseni)	none	none			Otomops martiensseni
+NC_038431 	Hepacivirus M	HVM	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci3	NULL		Mammalia	Chiroptera	Bat (Otomops martiensseni)	none	none			Otomops martiensseni
 NC_001655	Hepatitis GB virus B	GBVB	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Primates	Primate (Tamarin)	none	none			
 BK013349	Bat Hepacivirus PM_01	BHV-PM_01	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Chiroptera	Peropteryx_macrotis	none	none			Peropteryx_macrotis
 MH844500	Sloth hepacivirus	SHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Xenarthra	Sloths (Bradypus variegatus)	none	none			Bradypus variegatus
