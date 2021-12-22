@@ -138,6 +138,21 @@
     exit
 
 
+  #
+  # Hepacivirus genus subclades
+  #
+  
+  alignment AL_GENUS_Hepacivirus
+
+	extract child AL_HEPACI_SUBGENUS_1     --refName REF_HEPACI_1_HCV
+	demote member AL_HEPACI_SUBGENUS_1     --whereClause "sequence.subgenus= 'Hepaci1'"
+
+
+	
+    exit
+
+
+
 
   #
   # Pegivirus genus subclades
