@@ -39,7 +39,7 @@
 	extract child AL_MAJOR2_FlaviLike  --refName REF_MASTER_YFV  # NC_002031
 	demote member AL_MAJOR2_FlaviLike  --whereClause "sequence.supergenus = 'FlaviLike'"
 
- 	extract child AL_MAJOR2_PestiLike  --refName REF_BVDV1 # NC_001461
+ 	extract child AL_MAJOR2_PestiLike  --refName REF_PESTI_1_BVDV1 # NC_001461
 	demote member AL_MAJOR2_PestiLike  --whereClause "sequence.supergenus = 'PestiLike'"
     exit
 
@@ -50,7 +50,7 @@
 
    alignment AL_MAJOR2_PestiLike 
 
-	extract child AL_GENUS_Pestivirus  --refName REF_BVDV1
+	extract child AL_GENUS_Pestivirus  --refName REF_PESTI_1_BVDV1
 	demote member AL_GENUS_Pestivirus  --whereClause "sequence.genus = 'Pestivirus'"
 
 	extract child AL_GENUS_LGF         --refName REF_SLV2
@@ -146,6 +146,15 @@
 
 	extract child AL_HEPACI_SUBGENUS_1     --refName REF_HEPACI_1_HCV
 	demote member AL_HEPACI_SUBGENUS_1     --whereClause "sequence.subgenus= 'Hepaci1'"
+
+	extract child AL_HEPACI_SUBGENUS_2     --refName REF_HEPACI_2_HCV_L
+	demote member AL_HEPACI_SUBGENUS_2     --whereClause "sequence.subgenus= 'Hepaci2'"
+
+	extract child AL_HEPACI_SUBGENUS_3     --refName REF_HEPACI_3_HCV_K
+	demote member AL_HEPACI_SUBGENUS_3     --whereClause "sequence.subgenus= 'Hepaci3'"
+
+	extract child AL_HEPACI_SUBGENUS_4     --refName REF_HEPACI_4_HCV_K
+	demote member AL_HEPACI_SUBGENUS_4     --whereClause "sequence.subgenus= 'Hepaci3'"
 
 
 	

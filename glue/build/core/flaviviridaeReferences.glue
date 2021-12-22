@@ -23,7 +23,10 @@
   create reference REF_JMTV_Seg1        ncbi-refseqs   NC_024113 
 
   ### Pestivirus
-  create reference REF_BVDV1            ncbi-refseqs   NC_001461  
+  create reference REF_PESTI_1_BVDV1    ncbi-refseqs   NC_001461  
+  create reference REF_PESTI_2_NrPeV    ncbi-refseqs   NC_025677  
+  create reference REF_PESTI_3_APPeV    ncbi-refseqs   NC_038964  
+  create reference REF_PESTI_4_NdsPV    ncbi-refseqs   MG599984  
 
   ### Pesti-like 1 
   create reference REF_SCNV5            ncbi-refseqs   NC_024077
