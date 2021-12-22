@@ -32,10 +32,10 @@ project flaviviridae
   run file glue/build/eve/efvAlignmentTree.glue  
 
   # Inherit feature locations to EFV reference sequences
-  run file glue/build/eve/efvInheritFeatureLocations.glue
+  #run file glue/build/eve/efvInheritFeatureLocations.glue
 
   # Record feature coverage in internal node alignments
-  run file glue/build/eve/efvRecordFeaturePresence.glue
+  #run file glue/build/eve/efvRecordFeaturePresence.glue
 
   # Remove unconstrained alignments (optional)
   run file glue/build/eve/efvDeleteUnconstrainedMSAs.glue

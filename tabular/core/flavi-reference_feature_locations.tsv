@@ -101,40 +101,46 @@ NC_003687	REF_POWV	Flavivirus	Tick	2K	6823	6891
 NC_003687	REF_POWV	Flavivirus	Tick	flavi-NS4B	6892	7647
 NC_003687	REF_POWV	Flavivirus	Tick	NS5	7648	10356
 NC_003687	REF_POWV	Flavivirus	Tick	3UTR	10357	10839
-NC_004102	REF_HCV	Hepacivirus	Primate	whole_genome	1	9646
-NC_004102	REF_HCV	Hepacivirus	Primate	5UTR	1	341
-NC_004102	REF_HCV	Hepacivirus	Primate	precursor_polyprotein	342	9377
-NC_004102	REF_HCV	Hepacivirus	Primate	structural_proteins	342	2579
-NC_004102	REF_HCV	Hepacivirus	Primate	core	342	914
-NC_004102	REF_HCV	Hepacivirus	Primate	e1_hepaci	915	1490
-NC_004102	REF_HCV	Hepacivirus	Primate	e2_hepaci	1491	2579
-NC_004102	REF_HCV	Hepacivirus	Primate	non_structural_proteins	2580	9374
-NC_004102	REF_HCV	Hepacivirus	Primate	hepaci-p7	2580	2768
-NC_004102	REF_HCV	Hepacivirus	Primate	hepaci-NS2	2769	3419
-NC_004102	REF_HCV	Hepacivirus	Primate	NS3	3420	5312
-NC_004102	REF_HCV	Hepacivirus	Primate	hepaci-NS4A	5313	5474
-NC_004102	REF_HCV	Hepacivirus	Primate	hepaci-NS4B	5475	6257
-NC_004102	REF_HCV	Hepacivirus	Primate	NS5	6258	9374
-NC_004102	REF_HCV	Hepacivirus	Primate	NS5A	6258	7601
-NC_004102	REF_HCV	Hepacivirus	Primate	NS5B	7602	9374
-NC_004102	REF_HCV	Hepacivirus	Primate	3UTR	9378	9646
-NC_027998	REF_HPgV2	Pegivirus		whole_genome	1	9867
-NC_027998	REF_HPgV2	Pegivirus		5UTR	1	327
-NC_027998	REF_HPgV2	Pegivirus		precursor_polyprotein	328	9501
-NC_027998	REF_HPgV2	Pegivirus		structural_proteins	328	2199
-NC_027998	REF_HPgV2	Pegivirus		s_peptide	328	564
-NC_027998	REF_HPgV2	Pegivirus		e1_hepaci	565	1137
-NC_027998	REF_HPgV2	Pegivirus		e2_hepaci	1138	2199
-NC_027998	REF_HPgV2	Pegivirus		x_peptide	2200	2910
-NC_027998	REF_HPgV2	Pegivirus		non_structural_proteins	2911	9498
-NC_027998	REF_HPgV2	Pegivirus		hepaci-NS2	2911	3630
-NC_027998	REF_HPgV2	Pegivirus		NS3	3631	5514
-NC_027998	REF_HPgV2	Pegivirus		hepaci-NS4A	5515	5637
-NC_027998	REF_HPgV2	Pegivirus		hepaci-NS4B	5638	6423
-NC_027998	REF_HPgV2	Pegivirus		NS5	6424	9498
-NC_027998	REF_HPgV2	Pegivirus		NS5A	6424	7797
-NC_027998	REF_HPgV2	Pegivirus		NS5B	7798	9498
-NC_027998	REF_HPgV2	Pegivirus		3UTR	9502	9867
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	whole_genome	1	9646
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	5UTR	1	341
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	precursor_polyprotein	342	9377
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	structural_proteins	342	2579
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	core	342	914
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	e1_hepaci	915	1490
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	e2_hepaci	1491	2579
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	non_structural_proteins	2580	9374
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	hepaci-p7	2580	2768
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	hepaci-NS2	2769	3419
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	NS3	3420	5312
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	hepaci-NS4A	5313	5474
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	hepaci-NS4B	5475	6257
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	NS5	6258	9374
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	NS5A	6258	7601
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	NS5B	7602	9374
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	3UTR	9378	9646
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		whole_genome	1	9867
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		5UTR	1	327
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		precursor_polyprotein	328	9501
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		structural_proteins	328	2199
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		s_peptide	328	564
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		e1_hepaci	565	1137
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		e2_hepaci	1138	2199
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		x_peptide	2200	2910
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		non_structural_proteins	2911	9498
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		hepaci-NS2	2911	3630
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		NS3	3631	5514
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		hepaci-NS4A	5515	5637
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		hepaci-NS4B	5638	6423
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		NS5	6424	9498
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		NS5A	6424	7797
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		NS5B	7798	9498
+NC_027998	REF_PEGI_1_HPgV2	Pegivirus		3UTR	9502	9867
+KC145265	REF_PEGI_2_TDAV	Pegivirus		whole_genome	1	10479
+KC145265	REF_PEGI_2_TDAV	Pegivirus		precursor_polyprotein	618	10187
+KC145265	REF_PEGI_2_TDAV	Pegivirus		Core	618	695
+KC145265	REF_PEGI_2_TDAV	Pegivirus		e1_hepaci	696	1217
+KC145265	REF_PEGI_2_TDAV	Pegivirus		e2_hepaci	1218	2483
+KC145265	REF_PEGI_2_TDAV	Pegivirus		NS5B	8388	10184
 NC_024077	REF_SCNV5	Pesti-like	PL1	whole_genome	1	19199
 NC_024077	REF_SCNV5	Pesti-like	PL1	5UTR	1	350
 NC_024077	REF_SCNV5	Pesti-like	PL1	precursor_polyprotein	351	18068
