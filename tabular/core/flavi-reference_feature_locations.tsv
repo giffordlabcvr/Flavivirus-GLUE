@@ -101,23 +101,39 @@ NC_003687	REF_POWV	Flavivirus	Tick	2K	6823	6891
 NC_003687	REF_POWV	Flavivirus	Tick	flavi-NS4B	6892	7647
 NC_003687	REF_POWV	Flavivirus	Tick	NS5	7648	10356
 NC_003687	REF_POWV	Flavivirus	Tick	3UTR	10357	10839
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	whole_genome	1	9646
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	5UTR	1	341
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	precursor_polyprotein	342	9377
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	structural_proteins	342	2579
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	core	342	914
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	e1_hepaci	915	1490
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	e2_hepaci	1491	2579
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	non_structural_proteins	2580	9374
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	hepaci-p7	2580	2768
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	hepaci-NS2	2769	3419
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	NS3	3420	5312
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	hepaci-NS4A	5313	5474
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	hepaci-NS4B	5475	6257
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	NS5	6258	9374
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	NS5A	6258	7601
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	NS5B	7602	9374
-NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Primate	3UTR	9378	9646
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	whole_genome	1	9646
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	5UTR	1	341
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	precursor_polyprotein	342	9377
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	structural_proteins	342	2579
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	core	342	914
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	e1_hepaci	915	1490
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	e2_hepaci	1491	2579
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	non_structural_proteins	2580	9374
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	hepaci-p7	2580	2768
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	hepaci-NS2	2769	3419
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	NS3	3420	5312
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	hepaci-NS4A	5313	5474
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	hepaci-NS4B	5475	6257
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	NS5	6258	9374
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	NS5A	6258	7601
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	NS5B	7602	9374
+NC_004102	REF_HEPACI_1_HCV	Hepacivirus	Hepaci1	3UTR	9378	9646
+NC_031916	REF_HEPACI_2_HCV_L	Hepacivirus	Hepaci2	whole_genome	1	8916
+NC_031916	REF_HEPACI_2_HCV_L	Hepacivirus	Hepaci2	precursor_polyprotein	174	8879
+NC_038430	REF_HEPACI_3_HCV_K	Hepacivirus	Hepaci3	whole_genome	1	9609
+NC_038430	REF_HEPACI_3_HCV_K	Hepacivirus	Hepaci3	precursor_polyprotein	281	9355
+NC_038429	REF_HEPACI_4_HCV_J	Hepacivirus	Hepaci4	whole_genome	1	9687
+NC_038429	REF_HEPACI_4_HCV_J	Hepacivirus	Hepaci4	precursor_polyprotein	558	9602
+MN062427	REF_HEPACI_5_BEHV	Hepacivirus	Hepaci5	whole_genome	1	11013
+MN062427	REF_HEPACI_5_BEHV	Hepacivirus	Hepaci5	precursor_polyprotein	578	10870
+MT371439	REF_HEPACI_6_GHV	Hepacivirus	Hepaci6	whole_genome	1	10199
+MT371439	REF_HEPACI_6_GHV	Hepacivirus	Hepaci6	precursor_polyprotein	3	10127
+MG599993	REF_HEPACI_7_WHCV	Hepacivirus	Hepaci7	whole_genome	1	10272
+MG599993	REF_HEPACI_7_WHCV	Hepacivirus	Hepaci7	precursor_polyprotein	174	10241
+MG599990	REF_HEPACI_8_WmeHCV	Hepacivirus	Hepaci8	whole_genome	1	8697
+MG599990	REF_HEPACI_8_WmeHCV	Hepacivirus	Hepaci8	precursor_polyprotein	1	8622
+NC_028377	REF_HEPACI_9_WLSV	Hepacivirus	Hepaci9	whole_genome	1	9653
+NC_028377	REF_HEPACI_9_WLSV	Hepacivirus	Hepaci9	precursor_polyprotein	132	9392
 NC_027998	REF_PEGI_1_HPgV2	Pegivirus		whole_genome	1	9867
 NC_027998	REF_PEGI_1_HPgV2	Pegivirus		5UTR	1	327
 NC_027998	REF_PEGI_1_HPgV2	Pegivirus		precursor_polyprotein	328	9501
@@ -149,23 +165,29 @@ NC_028373	REF_SLV2	Pestinsect	PL2	whole_genome	1	18554
 NC_028373	REF_SLV2	Pestinsect	PL2	5UTR	1	199
 NC_028373	REF_SLV2	Pestinsect	PL2	precursor_polyprotein	200	17905
 NC_028373	REF_SLV2	Pestinsect	PL2	3UTR	17906	18554
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		whole_genome	1	12573
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		5UTR	1	385
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		precursor_polyprotein	386	12352
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		structural_proteins	386	3583
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		N-proteinase	386	889
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		pesti-capsid	890	1195
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		RNAse	1196	1876
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		e1_pesti	1877	2461
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		e2_pesti	2462	3583
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		pesti-p7	3584	3793
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		NS3	3794	7471
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		pesti-NS4A	7472	7663
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		pesti-NS4B	7664	8704
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		NS5	8705	12349
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		NS5A	8705	10192
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		NS5B	10193	12349
-NC_001461	REF_PESTI_1_BVDV1	Pestivirus		3UTR	12360	12573
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	whole_genome	1	12573
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	5UTR	1	385
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	precursor_polyprotein	386	12352
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	structural_proteins	386	3583
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	N-proteinase	386	889
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	pesti-capsid	890	1195
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	RNAse	1196	1876
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	e1_pesti	1877	2461
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	e2_pesti	2462	3583
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	pesti-p7	3584	3793
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	NS3	3794	7471
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	pesti-NS4A	7472	7663
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	pesti-NS4B	7664	8704
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	NS5	8705	12349
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	NS5A	8705	10192
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	NS5B	10193	12349
+NC_001461	REF_PESTI_1_BVDV1	Pestivirus	Pesti1	3UTR	12360	12573
+NC_025677	REF_PESTI_2_NrPeV	Pestivirus	Pesti2	whole_genome	1	12983
+NC_025677	REF_PESTI_2_NrPeV	Pestivirus	Pesti2	precursor_polyprotein	499	12480
+NC_038964	REF_PESTI_3_APPeV	Pestivirus	Pesti3	whole_genome	1	11276
+NC_038964	REF_PESTI_3_APPeV	Pestivirus	Pesti3	precursor_polyprotein	124	11031
+MG599984	REF_PESTI_4_NdsPV	Pestivirus	Pesti4	whole_genome	1	7797
+MG599984	REF_PESTI_4_NdsPV	Pestivirus	Pesti4	precursor_polyprotein	1	7770
 NC_003996	REF_TABV	Tamanavirus		whole_genome	1	10053
 NC_003996	REF_TABV	Tamanavirus		precursor_polyprotein	1	10053
 NC_003996	REF_TABV	Tamanavirus		structural_proteins	1	2358
