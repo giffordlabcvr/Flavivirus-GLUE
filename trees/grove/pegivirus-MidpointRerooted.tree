@@ -1,1 +1,121 @@
-(((NC_038435:0.29758637853412323038,((NC_021154:0.21370088186529789809,NC_025679:0.21810852288013915512)76:0.08452942557525700007,NC_038434:0.23634851942012435888)55:0.06414937535801452928)98:0.22093059476403906216,(KT439329:0.02018036260245565858,NC_027998:0.02529334587516931382)100:1.03152463021040863289)100:0.096769013299317392995,((KU351670:0.00000100000050002909,NC_034442:0.00418264282621395173)100:0.56768857170683084679,(((NC_001710:0.19496562084413124327,NC_024377:0.24279200638868142503)100:0.30837408034262181467,(NC_001837:0.28655732069675704521,MT513216:0.19930680798047348268)100:0.32069378475188120570)100:0.30525468469930799875,(((KC796073:0.30143322774240793871,NC_030291:0.27378598424774208686)100:0.13141101572304525469,KC796088:0.39387523222124198874)96:0.09875575346668385990,(MW091548:0.55132907165358213675,(MK059751:0.37880769501194944127,(KC145265:0.34298403554566819773,NC_020902:0.64021458143307263811)48:0.08343125402340394181)24:0.02976000572152495000)28:0.03463944113893822896)44:0.03639359345540708890)44:0.01530463002503737110)100:0.225776569211911718945);
+#NEXUS
+begin taxa;
+	dimensions ntax=19;
+	taxlabels
+	KC145265[&full_name="Theiler's disease-associated virus",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Primates",name="TDAV",sequenceID="KC145265",subfamily="HepaPegi"]
+	KC796073[&full_name="Bat pegivirus",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Chiroptera",name="BPV",sequenceID="KC796073",subfamily="HepaPegi"]
+	KC796088[&full_name="bat pegivirus I",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Chiroptera",name="PVI",sequenceID="KC796088",subfamily="HepaPegi"]
+	KT439329[&full_name="Human hepegivirus",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Primates",name="HHpgV",sequenceID="KT439329",subfamily="HepaPegi"]
+	KU351670[&full_name="Porcine pegivirus",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Artiodactyla",name="PPV",sequenceID="KU351670",subfamily="HepaPegi"]
+	MK059751[&full_name="Dolphin pegivirus",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Artiodactyla",name="DPV",sequenceID="MK059751",subfamily="HepaPegi"]
+	MT513216[&full_name="Southwest bike trail virus",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Primates",name="SOBV",sequenceID="MT513216",subfamily="HepaPegi"]
+	MW091548[&full_name="Goose pegivirus 1",genus="Pegivirus",host_major_group="Aves",host_minor_group="Anseriformes",name="GPV",sequenceID="MW091548",subfamily="HepaPegi"]
+	NC_001710[&full_name="GB virus C",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Primates",name="HGV1",sequenceID="NC_001710",subfamily="HepaPegi"]
+	NC_001837[&full_name="Pegivirus A",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Primates",name="GBV-A",sequenceID="NC_001837",subfamily="HepaPegi"]
+	NC_020902[&full_name="Equine pegivirus 1",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Artiodactyla",name="EPgV",sequenceID="NC_020902",subfamily="HepaPegi"]
+	NC_021154[&full_name="Rodent pegivirus",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Rodentia",name="RPgV",sequenceID="NC_021154",subfamily="HepaPegi"]
+	NC_024377[&full_name="Simian pegivirus",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Primates",name="SPgV",sequenceID="NC_024377",subfamily="HepaPegi"]
+	NC_025679[&full_name="Norway rat pegivirus",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Rodentia",name="NPgV",sequenceID="NC_025679",subfamily="HepaPegi"]
+	NC_027998[&full_name="Human pegivirus 2",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Primates",name="HPgV-2",sequenceID="NC_027998",subfamily="HepaPegi"]
+	NC_030291[&full_name="GB virus-D",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Chiroptera",name="GBVD",sequenceID="NC_030291",subfamily="HepaPegi"]
+	NC_034442[&full_name="Pegivirus K",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Artiodactyla",name="PVK",sequenceID="NC_034442",subfamily="HepaPegi"]
+	NC_038434[&full_name="Pegivirus F",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Chiroptera",name="PVF",sequenceID="NC_038434",subfamily="HepaPegi"]
+	NC_038435[&full_name="Pegivirus G",genus="Pegivirus",host_major_group="Mammalia",host_minor_group="Chiroptera",name="PVG",sequenceID="NC_038435",subfamily="HepaPegi"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((NC_038435:0.297586,((NC_021154:0.213701,NC_025679:0.218109)[&label=76]:0.084529,NC_038434:0.236349)[&label=55]:0.064149)[&label=98]:0.220931,(KT439329:0.02018,NC_027998:0.025293)[&label=100]:1.031525)[&label=100]:0.096769,((KU351670:1.0E-6,NC_034442:0.004183)[&label=100]:0.567689,(((NC_001710:0.194966,NC_024377:0.242792)[&label=100]:0.308374,(NC_001837:0.286557,MT513216:0.199307)[&label=100]:0.320694)[&label=100]:0.305255,(((KC796073:0.301433,NC_030291:0.273786)[&label=100]:0.131411,KC796088:0.393875)[&label=96]:0.098756,(MW091548:0.551329,(MK059751:0.378808,(KC145265:0.342984,NC_020902:0.640215)[&label=48]:0.083431)[&label=24]:0.02976)[&label=28]:0.034639)[&label=44]:0.036394)[&label=44]:0.015305)[&label=100]:0.225777);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="host_major_group";
+	set tipLabels.displayAttribute="full_name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

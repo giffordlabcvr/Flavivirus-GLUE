@@ -24,6 +24,7 @@
 	demote member AL_MAJOR2_FlaviLike -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus like 'JMTV%'"
 	demote member AL_MAJOR2_PestiLike -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'PL2'"
 
+	extract child AL_EFV_X1  -r REF_EFV-X1.1-PriCau
 	demote member AL_EFV_X1 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'X1'"
 
     exit
@@ -34,7 +35,7 @@
 
   alignment AL_MAJOR2_PestiLike
 
-	demote member AL_GENUS_PL2 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'PL2'"
+	demote member AL_SUBGENUS_PL2 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'PL2'"
 
     exit
 
