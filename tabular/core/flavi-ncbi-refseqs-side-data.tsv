@@ -182,7 +182,7 @@ NC_001655	Hepatitis GB virus B	GBVB	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		
 BK013349	Bat Hepacivirus PM_01	BHV-PM_01	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Mammalia	Chiroptera	Peropteryx_macrotis	none	none			Peropteryx_macrotis
 MH844500	Sloth hepacivirus	SHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Mammalia	Xenarthra	Sloths (Bradypus variegatus)	none	none			Bradypus variegatus
 MZ393518	Ringtail Racoon Hepacivirus	RRHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Mammalia	Carnivora	Racoon (Bassariscus astutus)	none	none			Bassariscus astutus
-MN133813	Jogalong Hepacivirus	JHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Arthropods	Insecta	Insect (culex annulirostris)?	none	none			Culex annulirostris
+MN133813	Jogalong Hepacivirus	JHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Aves	Podargiformes	Podargus strigoides	none	none			Culex annulirostris
 MH824541	Sifaka Hepacivirus	SHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Mammalia	Primates	Lemur	none	none			
 MK026585	Collins Beach Virus	CBV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Arthropods	Acari	Ixodes holocyclus	none	none			Ixodes holocyclus
 JQ181558	Canine Hepacivirus	CHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Mammalia	Carnivora	Dog	none	none			
@@ -212,7 +212,7 @@ NC_025679	Norway rat pegivirus	NPgV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NU
 NC_001837	Pegivirus A	GBV-A	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Mammalia	Primates	Homo sapiens	none	none	-	-	-
 NC_021154	Rodent pegivirus	RPgV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Mammalia	Rodentia	Neotoma	none	none	CC61	Americas	Neotoma lepida
 NC_024377	Simian pegivirus	SPgV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Mammalia	Primates	Piliocolobus	none	none	SPgVkrc_RC08	Africa	Piliocolobus tephrosceles
-KC145265	Theiler's disease-associated virus	TDAV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Mammalia	Primates	Saguinus	none	none	-	-	Saguinus
+KC145265	Theiler's disease-associated virus	TDAV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Mammalia	Perissodactyla	Equus	none	none	-	-	Equus caballus
 KC796073	Bat Pegivirus	BPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Mammalia	Chiroptera	Bat	none	none	-	-	Saguinus
 NC_030291	Pegivirus B/GB-Virus D	GBVD	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Mammalia	Chiroptera	Bat	none	none			
 KC796088	Pegivirus I	PVI	Flaviviridae	HepaPegi	HepaPegi	Pegivirus		NULL		Mammalia	Chiroptera	Bat (sturnira lilium)	none	none			

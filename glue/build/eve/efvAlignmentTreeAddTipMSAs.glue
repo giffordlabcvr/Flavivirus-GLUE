@@ -35,9 +35,25 @@
 
   alignment AL_MAJOR2_PestiLike
 
+	demote member AL_GENUS_LGF -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'PL2'"
+
+    exit
+
+
+  #
+  # LGF
+  #
+
+  alignment AL_GENUS_LGF
+
 	demote member AL_SUBGENUS_PL2 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'PL2'"
 
     exit
+
+
+
+
+
 
 
   #
