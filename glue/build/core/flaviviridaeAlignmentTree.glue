@@ -148,7 +148,7 @@
 	extract child AL_PEGI_SUBGENUS_1       --refName REF_PEGI_1_HPgV2
 	demote member AL_PEGI_SUBGENUS_1       --whereClause "sequence.subgenus= 'Pegi1'"
 
-	extract child AL_PEGI_SUBGENUS_2       --refåååœœœœName REF_PEGI_2_TDAV
+	extract child AL_PEGI_SUBGENUS_2       --refName REF_PEGI_2_TDAV
 	demote member AL_PEGI_SUBGENUS_2       --whereClause "sequence.subgenus= 'Pegi2'"
 	
     exit
