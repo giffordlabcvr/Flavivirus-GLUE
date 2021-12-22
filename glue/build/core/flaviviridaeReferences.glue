@@ -1,40 +1,42 @@
   #### Flaviviridae reference sequences
 
   ### Flavivirus 
-  create reference REF_MASTER_YFV    ncbi-refseqs   NC_002031  # mosq2
-  create reference REF_DEN1          ncbi-refseqs   NC_001477  # mosq1
+  create reference REF_MASTER_YFV     ncbi-refseqs   NC_002031  # mosq2
+  create reference REF_DEN1           ncbi-refseqs   NC_001477  # mosq1
   
-  create reference REF_POWV          ncbi-refseqs   NC_003687  # tick
-  create reference REF_MPFV          ncbi-refseqs   LC582740   # Mpulungu
-  create reference REF_APOIV         ncbi-refseqs   NC_003676  # NKV1
-  create reference REF_LAMV          ncbi-refseqs   NC_024806  # dISF
-  create reference REF_SOKV          ncbi-refseqs   NC_026624  # NKV2
+  create reference REF_POWV           ncbi-refseqs   NC_003687  # tick
+  create reference REF_MPFV           ncbi-refseqs   LC582740   # Mpulungu
+  create reference REF_APOIV          ncbi-refseqs   NC_003676  # NKV1
+  create reference REF_LAMV           ncbi-refseqs   NC_024806  # dISF
+  create reference REF_SOKV           ncbi-refseqs   NC_026624  # NKV2
   
-  create reference REF_KRV           ncbi-refseqs   NC_005064  # cISF
-  create reference REF_ccCFV         ncbi-refseqs   MK473878   # crustacean
-  create reference REF_ssFV          fasta-refseqs  SsFV_consensus  # arachnid
+  create reference REF_KRV            ncbi-refseqs   NC_005064  # cISF
+  create reference REF_ccCFV          ncbi-refseqs   MK473878   # crustacean
+  create reference REF_ssFV           fasta-refseqs  SsFV_consensus  # arachnid
 
   ### TABV
-  create reference REF_TABV          ncbi-refseqs   NC_003996 
+  create reference REF_TABV           ncbi-refseqs   NC_003996 
 
   ### Jingmenvirus
-  create reference REF_JMTV_CONCAT   fasta-refseqs  JMTV_CONCAT 
-  create reference REF_JMTV_Seg3     ncbi-refseqs   NC_024114 
-  create reference REF_JMTV_Seg1     ncbi-refseqs   NC_024113 
+  create reference REF_JMTV_CONCAT    fasta-refseqs  JMTV_CONCAT 
+  create reference REF_JMTV_Seg3      ncbi-refseqs   NC_024114 
+  create reference REF_JMTV_Seg1      ncbi-refseqs   NC_024113 
 
   ### Pestivirus
-  create reference REF_BVDV1         ncbi-refseqs   NC_001461  
+  create reference REF_BVDV1          ncbi-refseqs   NC_001461  
 
   ### Pesti-like 1 
-  create reference REF_SCNV5         ncbi-refseqs   NC_024077
+  create reference REF_SCNV5          ncbi-refseqs   NC_024077
 
   ### Pesti-like 2
-  create reference REF_SLV2          ncbi-refseqs   NC_028373
+  create reference REF_SLV2           ncbi-refseqs   NC_028373
 
   ### Hepacivirus
-  create reference REF_HEPACI_1_HCV  ncbi-refseqs   NC_004102  
-  create reference REF_HEPACI_2_BEHV ncbi-refseqs   MN062427  # Bald Eagle Hepacivirus	
+  create reference REF_HEPACI_1_HCV   ncbi-refseqs   NC_004102  
+  create reference REF_HEPACI_2_BEHV  ncbi-refseqs   MN062427  # Bald eagle hepacivirus 
+  create reference REF_HEPACI_3_GHV   ncbi-refseqs   MT371439  # Gecko hepacivirus
 
   ### Pegivirus
-  create reference REF_HPgV2         ncbi-refseqs   NC_027998 # Human pegivirus 2
-  create reference REF_TDAV          ncbi-refseqs   KC145265  # Theiler's disease virus
+  create reference REF_PEGI_1_HPgV2   ncbi-refseqs   NC_027998 # Human pegivirus 2
+  create reference REF_PEGI_2_TDAV    ncbi-refseqs   KC145265  # Theiler's disease virus
+  

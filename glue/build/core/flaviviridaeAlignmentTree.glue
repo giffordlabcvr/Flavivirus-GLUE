@@ -26,7 +26,7 @@
 	extract child AL_GENUS_Hepacivirus -r REF_HEPACI_1_HCV
 	demote member AL_GENUS_Hepacivirus --whereClause "sequence.genus = 'Hepacivirus'"
 
-	extract child AL_GENUS_Pegivirus -r REF_HPgV2
+	extract child AL_GENUS_Pegivirus -r REF_PEGI_1_HPgV2
 	demote member AL_GENUS_Pegivirus --whereClause "sequence.genus = 'Pegivirus'"
     exit
 
@@ -145,10 +145,10 @@
   
   alignment AL_GENUS_Pegivirus
 
-	extract child AL_PEGI_SUBGENUS_1       --refName REF_HPgV2
+	extract child AL_PEGI_SUBGENUS_1       --refName REF_PEGI_1_HPgV2
 	demote member AL_PEGI_SUBGENUS_1       --whereClause "sequence.subgenus= 'Pegi1'"
 
-	extract child AL_PEGI_SUBGENUS_2       --refName REF_TDAV
+	extract child AL_PEGI_SUBGENUS_2       --refName REF_PEGI_2_TDAV
 	demote member AL_PEGI_SUBGENUS_2       --whereClause "sequence.subgenus= 'Pegi2'"
 	
     exit
