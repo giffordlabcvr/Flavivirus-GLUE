@@ -146,16 +146,16 @@
   alignment AL_GENUS_Pestivirus
 
 	extract child AL_PESTI_SUBGENUS_1  --refName REF_PESTI_1_BVDV1
-	demote member AL_PESTI_SUBGENUS_1  --whereClause "sequence.genus = 'Pesti1'"
+	demote member AL_PESTI_SUBGENUS_1  --whereClause "sequence.subgenus = 'Pesti1'"
 
 	extract child AL_PESTI_SUBGENUS_2  --refName REF_PESTI_2_NrPeV
-	demote member AL_PESTI_SUBGENUS_2  --whereClause "sequence.genus = 'Pesti2'"
+	demote member AL_PESTI_SUBGENUS_2  --whereClause "sequence.subgenus = 'Pesti2'"
 
 	extract child AL_PESTI_SUBGENUS_3  --refName REF_PESTI_3_APPeV
-	demote member AL_PESTI_SUBGENUS_3  --whereClause "sequence.genus = 'Pesti3'"
+	demote member AL_PESTI_SUBGENUS_3  --whereClause "sequence.subgenus = 'Pesti3'"
 
 	extract child AL_PESTI_SUBGENUS_4  --refName REF_PESTI_4_NdsPV
-	demote member AL_PESTI_SUBGENUS_4  --whereClause "sequence.genus = 'Pesti4'"
+	demote member AL_PESTI_SUBGENUS_4  --whereClause "sequence.subgenus = 'Pesti4'"
 
     exit
    
