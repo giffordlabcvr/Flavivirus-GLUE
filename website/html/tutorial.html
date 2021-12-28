@@ -301,7 +301,7 @@ MQQEVLREKVDTVSPEPTKHIKQINRMI
 		 <p>
 		   In the example, we used a default version of the fastaProteinExporter module
 		   with a basic configuration.
-		   The configuration can be viewed as follows:
+		   This default configuration can be viewed as follows:
 		       
 		 </p>
 	   
@@ -309,23 +309,61 @@ MQQEVLREKVDTVSPEPTKHIKQINRMI
 <code>Mode path: /project/flaviviridae/module/fastaProteinExporter
 GLUE> show configuration 
 &lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
-<fastaProteinExporter/></code></pre>
+&lt;fastaProteinExporter/&gt;</code></pre>
 
 	   <h3>
-		 <a id="Example1Question1d" class="anchor" href="#Example1Question1d" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1b: How do I export protein sequences for all sequences?</strong>
-	   </h3>
-	   <hr>
-
-	   <h3>
-		 <a id="Example1Question1e" class="anchor" href="#Example1Question1e" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1e: How can I export aligned coding sequences?</strong>
+		 <a id="Example1Question1d" class="anchor" href="#Example1Question1d" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1d: How can I export aligned coding sequences?</strong>
 	   </h3>
 	   <hr>
 
 
+		 <p>
+
+           A 'fastaProteinAlignmentExporter' module can be used to export aligned protein sequences from GLUE, 
+           following the same basic principles as described for the 'fastaProteinExporter'
+           module above.
+		       
+		 </p>
+
+
+
 	   <h3>
-		 <a id="Example1Question1f" class="anchor" href="#Example1Question1f" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1e: What about nucleotide-level sequences?</strong>
+		 <a id="Example1Question1e" class="anchor" href="#Example1Question1e" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1e: How do I export protein sequences for all sequences?</strong>
 	   </h3>
 	   <hr>
+
+		 <p>
+
+           All genome features, including protein-coding features, can only be identified
+           within sequences if they have been explicitly annotated, or are contained in 
+           an alignment. 
+           Not all sequences in Flavivirus-GLUE are defined as reference sequences, but 
+           all sequences are included in alignments. 
+		       
+		 </p>
+		 
+		 <p>
+
+           However, in Flavivirus-GLUE we have used an alignment tree data structure
+           to link alignments at different taxonomic levels.
+           Tip-level alignments contain all sequences belonging to the corresponding
+           taxonomic groups. 
+		       
+		 </p>
+
+	   <h3>
+		 <a id="Example1Question1f" class="anchor" href="#Example1Question1f" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1f: What about nucleotide-level sequences?</strong>
+	   </h3>
+	   <hr>
+
+		 <p>
+
+           GLUE's 'fastaExporter' and 'fastaAlignmentExporter' modules can be used to
+           export nucleotide sequences from GLUE, following the same basic principles as
+           described for the 'fastaProteinExporter' and 'fastaProteinAlignmentExporter'
+           modules above.
+		       
+		 </p>
 
 
 
@@ -337,19 +375,104 @@ GLUE> show configuration
 
 		 <p>
 
-           In GLUE there are two distinct 'types' of alignments - constrained and unconstrained.
+           In GLUE two distinct 'types' of <b>multiple sequence alignment (MSA)</b> are recognised
+           - <b>constrained</b> and <b>unconstrained</b>.
            In an unconstrained alignment the genomic coordinate space is allowed to expand
            to accomodate all insertions in any alignment member.
            In a constrained alignment, the genomic coordinate space is constrained to that of 
-           a defined reference sequence - indels are effectively 'stripped out'.
+           a defined reference sequence - indels are effectively 'stripped out', but since
+           constrained alignments are always derived from unconstrained ones, indel information
+           is not lost.
 		       
 		 </p>
+
+		 <p>
+
+           To see the alignments currently contained in the Flavivirus-GLUE project
+           use a 'list' command in project mode, as follows:
+		       
+		 </p>
+
+<pre>
+<code>Mode path: /project/flaviviridae
+GLUE> list alignment 
++==============================+============================+==============================+
+|             name             |        parent.name         |       refSequence.name       |
++==============================+============================+==============================+
+| AL_EJP-Jingmen.1-Chironomus  | AL_GENUS_Jingmenvirus_Seg1 | REF_EJP-Jingmen.1-Chironomus |
+| AL_FLAVI_SUBGENUS_cISF       | AL_GENUS_Flavivirus        | REF_KRV                      |
+| AL_FLAVI_SUBGENUS_crustacean | AL_GENUS_Flavivirus        | REF_ccCFV                    |
+| AL_FLAVI_SUBGENUS_dISF       | AL_GENUS_Flavivirus        | REF_LAMV                     |
+| AL_FLAVI_SUBGENUS_MBFV1      | AL_GENUS_Flavivirus        | REF_DEN1                     |
+| AL_FLAVI_SUBGENUS_MBFV2      | AL_GENUS_Flavivirus        | REF_MASTER_YFV               |
+| AL_FLAVI_SUBGENUS_NKV1       | AL_GENUS_Flavivirus        | REF_APOIV                    |
+| AL_FLAVI_SUBGENUS_NKV2       | AL_GENUS_Flavivirus        | REF_SOKV                     |
+| AL_FLAVI_SUBGENUS_TBFV       | AL_GENUS_Flavivirus        | REF_POWV                     |
+| AL_GENUS_Flavivirus          | AL_MINOR_FlaviTamana       | REF_MASTER_YFV               |
+| AL_GENUS_Hepacivirus         | AL_MAJOR1_HepaPegi         | REF_HEPACI_1_HCV             |
+| AL_GENUS_Jingmenvirus_Seg1   | AL_MAJOR2_FlaviLike        | REF_JMTV_Seg1                |
+| AL_GENUS_Jingmenvirus_Seg3   | AL_MAJOR2_FlaviLike        | REF_JMTV_Seg3                |
+| AL_GENUS_LGF                 | AL_MAJOR2_PestiLike        | REF_SLV2                     |
+| AL_GENUS_Pegivirus           | AL_MAJOR1_HepaPegi         | REF_PEGI_1_HPgV2             |
+| AL_GENUS_Pestivirus          | AL_MAJOR2_PestiLike        | REF_PESTI_1_BVDV1            |
+| AL_GENUS_Tamanavirus         | AL_MINOR_FlaviTamana       | REF_TABV                     |
+| AL_HEPACI_SUBGENUS_1         | AL_GENUS_Hepacivirus       | REF_HEPACI_1_HCV             |
+| AL_HEPACI_SUBGENUS_2         | AL_GENUS_Hepacivirus       | REF_HEPACI_2_HCV_L           |
+| AL_EFV-cISF.1-AedAeg         | AL_FLAVI_SUBGENUS_cISF     | REF_EFV-cISF.1-AedAeg        |
+| AL_EFV-cISF.2-AedAlb         | AL_FLAVI_SUBGENUS_cISF     | REF_EFV-cISF.2-AedAlb        |
+| AL_EFV-cISF.5-TipOle         | AL_FLAVI_SUBGENUS_cISF     | REF_EFV-cISF.5-TipOle        |
+| AL_EFV-Flavi.1-CraSow        | AL_GENUS_Flavivirus        | REF_EFV-Flavi.1-CraSow       |
+| AL_EFV-Flavi.2-DapMag        | AL_GENUS_Flavivirus        | REF_EFV-Flavi.2-DapMag       |
+| AL_EFV-Flavi.3-LepArc        | AL_GENUS_Flavivirus        | REF_EFV-Flavi.3-LepArc       |
+| AL_EFV-Tamana.3-AmpSul       | AL_GENUS_Tamanavirus       | REF_EFV-Tamana.3-AmpSul      |
+| AL_EFV-Tamana.4-StyCho       | AL_GENUS_Tamanavirus       | REF_EFV-Tamana.4-StyCho      |
+| AL_EFV_Tamana.2-LauKoh       | AL_GENUS_Tamanavirus       | REF_EFV-Tamana.2-LauKoh      |
+| AL_EFV_X1                    | AL_MAJOR1_FlaviPesti       | REF_EFV-X1.1-PriCau          |
+| AL_EFV_X2                    | AL_MAJOR2_FlaviLike        | REF_EFV-X2.2-StyCho          |
+| AL_EFV_X2.1-AusLim           | AL_EFV_X2                  | REF_EFV-X2.1-AusLim          |
+| AL_EFV_X2.2-StyCho           | AL_EFV_X2                  | REF_EFV-X2.2-StyCho          |
+| AL_EFV_X2.3-EurAff           | AL_EFV_X2                  | REF_EFV-X2.3-EurAff          |
++==============================+============================+==============================+
+Alignments 1 to 34 of 55 [F:first, L:last, P:prev, N:next, Q:quit]
+</code></pre>
+
 
 	   <h3>
 		 <a id="ExamplePhylogenies" class="anchor" href="#ExamplePhylogenies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Example 3: Working with phylogenies</strong>
 	   </h3>
 	   <hr>
 
+
+
+		 <p>
+
+           Phylogenies can be created using GLUEs raxmlPhylogenyGenerator module.
+		       
+		 </p>
+
+
+	   
+<pre>
+<code>&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;raxmlPhylogenyGenerator&gt;
+    &lt;raxmlPhylogenyRunner&gt;
+        &lt;substitutionModel&gt;PROTGAMMAGTR&lt;/substitutionModel&gt;
+        &lt;bootstrapReplicates&gt;100&lt;/bootstrapReplicates&gt;
+    &lt;/raxmlPhylogenyRunner&gt;
+&lt;/raxmlPhylogenyGenerator&gt;</code></pre>
+
+
+
+		 <p>
+
+           Phylogenies can be created from amino acid level MSAs using the module
+           configured in this way, as shown below:
+		       
+		 </p>
+
+	   
+<pre>
+<code>generate amino-acid phylogeny AL_TREE_Pestivirus -s -o pesti.tre NEWICK_BOOTSTRAPS</code></pre>
 
 
 
