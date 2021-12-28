@@ -22,17 +22,17 @@
   # Create the phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
-    #generate amino-acid phylogeny AL_TREE_Pestivirus -s alignmentColumnsSelectorPestivirusAa \
-    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/grove/pestivirus.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_TREE_Pestivirus -s alignmentColumnsSelectorPestivirusAa \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/grove/pestivirus.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_TREE_Hepacivirus -s alignmentColumnsSelectorHepacivirusAa \
-    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/grove/hepacivirus.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_TREE_Hepacivirus -s alignmentColumnsSelectorHepacivirusAa \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/grove/hepacivirus.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_TREE_Pegivirus -s alignmentColumnsSelectorPegivirusAa \
-    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/grove/pegivirus.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_TREE_Pegivirus -s alignmentColumnsSelectorPegivirusAa \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/grove/pegivirus.tre NEWICK_BOOTSTRAPS
 
     exit
 
