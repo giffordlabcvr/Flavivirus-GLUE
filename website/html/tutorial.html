@@ -22,9 +22,10 @@
       <a href="../../index.html" class="btn">Home</a>
       <a href="./viruses.html" class="btn">Viruses</a>
       <a href="./paleoviruses.html" class="btn">Paleoviruses</a>
+      <a href="./news.html" class="btn">News</a>
       <a href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/zipball/master" class="btn">Download</a>
 
-      <a target="_blank" href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master" class="btn">View on GitHub</a>
+      <a target="_blank" href="https://github.com/giffordlabcvr/Flaviviridae-GLUE/tree/master" class="btn">GitHub</a>
     </section>
 
     <section class="main-content">
@@ -32,18 +33,37 @@
 
 		<p>
           This tutorial page aims to illustrate some of Flavivirus-GLUE's functionalities
-          via brief examples.
-	   </p>
-
-		<p>
+          via brief, command line-based examples.
           It assumes that you have already installed GLUE and built the Flavivirus-GLUE project.
 	   </p>
 	   
 
 	   <h3>
-		 <a id="ExampleExportProteinFasta" class="anchor" href="#ExampleExportProteinFasta" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Exporting protein and polypeptide sequences</strong>
+		 <a id="ExampleExportProteinFasta" class="anchor" href="#ExampleExportProteinFasta" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Example 1: Exporting protein and polypeptide sequences</strong>
 	   </h3>
 	   <hr>
+
+
+		 <p>
+		   To begin, open a terminal window, start command line GLUE, and navigate into 
+		   the Flaviviridae-GLUE project, as shown below: 		   
+		 </p>
+
+
+<pre>
+<code>MyComputer:Flavivirus-GLUE rob$ gluetools.sh
+
+GLUE Version 1.1.107
+This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you
+are welcome to redistribute it under certain conditions. For details see
+GNU Affero General Public License v3: http://www.gnu.org/licenses/
+
+Mode path: /
+GLUE> project flaviviridae 
+OK
+Mode path: /project/flaviviridae
+GLUE></code></pre>
+
 
 		 <p>
 		   In GLUE, protein-coding features are explicitly defined on reference sequences
@@ -54,13 +74,13 @@
 		 
 
 		 <p>
-		   First create the module. We will use the -t option to create the module 
-		   with a default specification. 		   
-		 </p>
+		   To quickly create this GLUE module with a default specification we will use the
+		   -t (--template) option, as shown below: 
+		   </p>
 
 <pre>
-<codeMode path: /project/flaviviridae
-GLUE>create module -t fastaProteinExporter
+<code>Mode path: /project/flaviviridae
+GLUE> create module -t fastaProteinExporter
 OK
 (1 Module created)
 Mode path: /project/flaviviridae
@@ -68,7 +88,11 @@ Mode path: /project/flaviviridae
 
 		 <p>
 		   The module can now be used to export NS5 protein sequences for all flavivirus
-		   genus reference sequences in which the NS5 protein has been annotated. 		   
+		   genus reference sequences in which the NS5 protein has been annotated.
+		   One way to do this is to first navigate into the project
+		   (updating the current <b>mode path</b>)
+		   and then use it's
+		   native export command, as shown below: 		   
 		 </p>
 
 
@@ -83,11 +107,11 @@ GLUE> export reference -f NS5 -w "sequence.genus = 'Flavivirus'" -p
 </code></pre>
 
 		 <p>
-		   The -f (--feature) option is used to specify a protein coding feature.
+		   The -f (--featureName) option is used to specify a protein coding feature.
 		 </p>
 
 		 <p>
-		   The -w (--where) option is used to define a 'where' clause for the command,
+		   The -w (--whereClause) option is used to define a 'where' clause for the command,
 		   selecting specific reference sequences based on their properties.
 		 </p>
 		 
@@ -131,22 +155,202 @@ QSCSLINSVATTTIMLQNRMNENWKEKILLEDITYPEGEKSIVEPSFPPESAVKNRIKYIKATHPLIKHD
 		 
 	   
 <pre>
-Mode path: /project/flaviviridae/module/fastaProteinExporter
+<code>Mode path: /project/flaviviridae/module/fastaProteinExporter
 GLUE> export reference -f NS5 -w "sequence.genus = 'Flavivirus'" -f flavivirus-ns5-aa.fasta
+</code></pre>
+
+
+		 <p>
+
+           This will generate a file called 'flavivirus-ns5-aa.fasta'
+           - by default in the directory from which the GLUE command line was initiated -
+           containing the fasta-formatted output of the export command.  
+           
+		 </p>
+Example1Question1a
+
+	   <h3>
+		 <a id="Example1Question1a" class="anchor" href="#Example1Question1a" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1a: How do I know which modules, features and properties have been defined?</strong>
+	   </h3>
+	   <hr>
+	   
+		 <p>
+           It is strongly recommended to use
+           <a target="_blank" href="https://en.wikipedia.org/wiki/Command-line_completion"><b>command line completion</b></a> (<b>tab completion</b>)
+           when working in GLUE's command line interface.
+           For example, when typing the export command
+           shown above, pressing the tab button once after typing the '-f' (--featureName) option
+           will cause the GLUE terminal to display the available options, as shown here:
+           
+		 </p>
+		 
+<pre>
+<code>Mode path: /project/flaviviridae/module/fastaProteinExporter
+GLUE> export reference -f 
+2K                       F                        
+N-proteinase             NS1                      
+NS3                      NS5                      
+NS5-like                 NS5A                     
+NS5B                     Npro                     
+RNAse                    core                     
+e-rns                    e1_hepaci                
+e1_pesti                 e2_hepaci                
+e2_pesti                 envelope                 
+fifo                     flavi-NS2A               
+flavi-NS2B               flavi-NS4A               
+flavi-NS4B               flavi-capsid             
+flavi-envelope           hepaci-NS2               
+hepaci-NS4A              hepaci-NS4B              
+hepaci-p7                membrane                 
+p7                       pesti-NS2                
+pesti-NS4A               pesti-NS4B               
+pesti-capsid             pesti-p7                 
+precursor_polyprotein    premembrane              
+s_peptide                seg1-NS5                 
+seg3-NS3                 x_peptide                
+</code></pre>
+
+	   
+		 <p>
+           Another way to investigate which modules, features and properties have been
+           defined in a GLUE project is to use 'list' commands in project mode, as shown below:
+           
+		 </p>
+
+	   <h3>
+		 <a id="Example1Question1b" class="anchor" href="#Example1Question1b" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1b: How do I export protein sequences for all sequences?</strong>
+	   </h3>
+	   <hr>
+
+		 <p>
+
+           You may be thinking that it is somewhat limiting to only be able to export
+           polypeptide coding sequences from reference sequences in which the locations
+           of those features have been explcitly defined, and of course this is true.
+           
+		 </p>
+
+		 <p>
+
+           The fastaProteinExporter module can be used to export the polypeptide sequences
+           of coding features from reference sequences in which they have not been
+           explicitly defined, providing a constrained multiple sequence alignment (MSA)
+           containing an annotated reference sequence.
+           
+		 </p>
+
+	   
+<pre>
+<code>export member AL_GENUS_Flavivirus -r REF_MASTER_YFV -f NS5 -a -p           
+</code></pre>
+
+		 <p>
+		   A portion of the command output is shown below:		   
+		 </p>
+	   
+<pre>
+<code>>AL_GENUS_Flavivirus.ncbi-refseqs.LC582740
+GGHMGPTLGEVWKKRLNAMSKHRFYEYKTAGIVEVNRTEAREALKRGLTDHGHPVSRGAAKLHWLVERGF
+LEPKGWVTDLGCGRGGWSQYTATLPQVTRVVGYTLGTGHEKPIPTESYGHNIITYHDKVDVMRLPTHLCD
+TVLCDIGESSSNVDVEAGRTIAVIEMFANWLEANPGQFCCKVLCPYHPDVLAALEILVREHGGGLVRVPL
+SRNSTHEMYWVSGVKNKPTRAVNELSSFLLGRMAKNHEKEIIEEVWLGTGVRHTVSEAEPDDPESIKGRL
+DRIRRTHEKTWRVDTHHPYRYWNYHGSYEGAQRGSAGSLVNGVVKMLSWPWSTIESVTCMNMTDTTPFGQ
+QRVFREKVDTKVPEPSPGTRKAMAVVAEWMWERFHRKVARLCTREEFVAKVHSNAAIGAWDPQMGDWSSA
+AEAVQDETFWKMVDEERCRHRRGECEMCVYNMMGKREKKPAKFGKARGSRAIWYMWLGSRFLEFEALGFL
+NEDHWMDRENSRAGVEGLGVQYLGYVLRDMDRLPGVGYVADDTAGWDTRVSNADLEDEEQLLRWLSPTHR
+ALAEPIMKMAYHNKVALVSRRANDGLVTDVISRRDQRGSGQVVTYALNTWTNIKVQLLRMAEAEGILGDN
+LLHQARVLPLRNWLARHGEERMSRMAISGDDCVVRPPSEEFAFALKALNDMGKVRKDKPEWEPSDIYAGW
+EDVPFCSHHFHELVLQDGRQIVVPCRDQDELVGRARIAPGAGWSVAETACLAKAYAQMWLLLYPHRRDLR
+LLAFAVCSAVPVNWMPTGRTTWSVHATREWMTNEDMLDVWNQVWIEDNPWMEEKTRVRHWNQVPYLPKSS
+DIACGSLIGRVNRAAWARSIRDSVSKVRAKLGAERYVDYLGAMGRYVVQQSCYHTEVL
+>AL_GENUS_Flavivirus.fasta-refseqs-eve.EFV-cISF.2-AedAlb
+LGVKWKSMLNALDKDAFEKYKVRGVNETGRGDYVSRGGLKLEIIHKYKWAPIGHVVDLGCGRGGWSQRAV
+MEETVTSVQGYTIGGAEKENPQRFLTRGYNLATLKAGVDVYRLAPTRCDTIMCDPNLTKEKTRTMKVLQV
+LESWLAFNPDQFVCKVLSPYSLEVLRKIETLQQRHKGRLVRLAYSRNSTAEMYYISGNRSNVVRDSYMTM
+AALVGRFSRHLDSVFHPEPVLPMGTRAPAASVSAMDTTNMADRVEKVRLENQATWFTDPDHPYKSFCYFG
+SFVTDDVKVGGQAVNPLVRKLMWPWETVTSVVSFLMTDVSTYSQQKVLREKVDTVIPPPPPQIRLVNKAI
+TRHFVRIFKEKNPRIMTKEEFIANVRNDAAIGSWSRDIPWRDVQEVVQDQSFWNLVGRERALHLQGKCNM
+CLYNTMGKKEKKPGVAGEAKGSRTIWYMWLGSRFLEYEALAFLNADHWVSRENFPGGVGGVGVNYFGNYL
+KEISCKGKYLFADDIAGWDTKVSSEDLEDEETLLTELSPFHKALISATMKLTYQNKVVRVQRPAKNGTVM
+DVISRRDQRGSGQVGTYGLNTFTNMEAQLIRQMESEGIVSPSELENLAERVLDRWLEKYGVERLKRMAIS
+GDDCVVKPIDDRFATALTALNDMGKVRKDIPQWEPSKGWNDWQQVPFCSHHFHQLIMKDGREIVVPCRNQ
+DELVGRARVSQGAGWSLRETACLGKSYAQMWQLMYFHRRDLRLAANAICSAVPVDWVPTSRTTWSIHAHH
+QWMTTEDMLSVWNRVWIEENPWMATKEPVMSWDEIPYLHKKQDIACGSLIG
+>AL_GENUS_Flavivirus.fasta-refseqs-eve.EFV-cISF.3-AnoMin
+SSNKGDALGMKWKRVLNSLTQKQFEAYRSRSVDETPRGDYVSRGGLKMREIMEVHGWEPNGKVIDLGCGR
+GGWSQHLAMDRRVTEVRGYTLGGSSRENPEIFMTYGHNLCVLKPLVDVYKLEPHVTNTVICDIGESDPSA
+AVERTRTLKVLALLEDWLAVSKGNFVCKVLSPYHSDVLKKLETLQHAYGGRLVRLRLSRNSTAEMYYISG
+PRANMVKAVYATLRSLIGRFSSHDTPFEALAPVLPTGTRAPKAKAKAADQSVLSRRIQKLRQENIETWFN
+DAENPYTSFSYHGSFVT
+>AL_GENUS_Flavivirus.fasta-refseqs-eve.EFV-cISF.4-AnoSin
+>AL_GENUS_Flavivirus.fasta-refseqs-eve.EFV-cISF.5-TipOle
+RLEKIKDENRNTWFFDEETPYRSFKYLGSFATKKRNPEDQGVNQLIKRM*RPWKKREEVT*FMLTDVSTM
+MQQEVLREKVDTVSPEPTKHIKQINRMI
+...
 </code></pre>
 
 
 
 	   <h3>
-		 <a id="Example1Question1" class="anchor" href="#Example1Question1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Question 1: How do I know what features or properties have been defined?</strong>
+		 <a id="Example1Question1c" class="anchor" href="#Example1Question1c" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1c: How can I format the headers of exported sequences?</strong>
+	   </h3>
+	   <hr>
+
+
+
+		 <p>
+		   In the example, we used a default version of the fastaProteinExporter module
+		   with a basic configuration.
+		   The configuration can be viewed as follows:
+		       
+		 </p>
+	   
+<pre>
+<code>Mode path: /project/flaviviridae/module/fastaProteinExporter
+GLUE> show configuration 
+&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+<fastaProteinExporter/></code></pre>
+
+	   <h3>
+		 <a id="Example1Question1d" class="anchor" href="#Example1Question1d" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1b: How do I export protein sequences for all sequences?</strong>
+	   </h3>
+	   <hr>
+
+	   <h3>
+		 <a id="Example1Question1e" class="anchor" href="#Example1Question1e" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1e: How can I export aligned coding sequences?</strong>
 	   </h3>
 	   <hr>
 
 
 	   <h3>
-		 <a id="Example1Question2" class="anchor" href="#Example1Question2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Question 2: How do I export protein sequences for all sequences?</strong>
+		 <a id="Example1Question1f" class="anchor" href="#Example1Question1f" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1e: What about nucleotide-level sequences?</strong>
 	   </h3>
 	   <hr>
+
+
+
+	   <h3>
+		 <a id="ExampleAlignments" class="anchor" href="#ExampleAlignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Example 2: Working with alignments</strong>
+	   </h3>
+	   <hr>
+
+
+		 <p>
+
+           In GLUE there are two distinct 'types' of alignments - constrained and unconstrained.
+           In an unconstrained alignment the genomic coordinate space is allowed to expand
+           to accomodate all insertions in any alignment member.
+           In a constrained alignment, the genomic coordinate space is constrained to that of 
+           a defined reference sequence - indels are effectively 'stripped out'.
+		       
+		 </p>
+
+	   <h3>
+		 <a id="ExamplePhylogenies" class="anchor" href="#ExamplePhylogenies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Example 3: Working with phylogenies</strong>
+	   </h3>
+	   <hr>
+
+
 
 
 
