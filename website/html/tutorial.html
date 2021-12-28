@@ -30,13 +30,24 @@
     <section class="main-content">
 
 
+		<p>
+          This tutorial page aims to illustrate some of Flavivirus-GLUE functionalities
+          via brief examples.
+	   </p>
+
+		<p>
+          It assumes that you have already installed GLUE and built the Flavivirus-GLUE project.
+	   </p>
+	   
+
 	   <h3>
-		 <a id="Examples-Export-Fasta" class="anchor" href="#News2021-12-21" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Exporting protein and polypeptide sequences</strong>
+		 <a id="ExampleExportProteinFasta" class="anchor" href="#ExampleExportProteinFasta" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Exporting protein and polypeptide sequences</strong>
 	   </h3>
 	   <hr>
 
 		 <p>
-		   In GLUE, protein-coding features are explicitly defined on reference sequences.
+		   In GLUE, protein-coding features are explicitly defined on reference sequences
+		   only. 
 		   Protein-coding features of reference sequences can be exported using a 
 		   'fastaProteinExporter' module as follows. 		   
 		 </p>
@@ -72,10 +83,70 @@ GLUE> export reference -f NS5 -w "sequence.genus = 'Flavivirus'" -p
 </code></pre>
 
 		 <p>
-		   The -p (--preview) option sends the result of the export command to the
-		   terminal screen. A portion of the output is shown below. 		   
+		   The -f (--feature) option is used to specify a protein coding feature.
+		 </p>
+
+		 <p>
+		   The -w (--where) option is used to define a 'where' clause for the command,
+		   selecting specific reference sequences based on their properties.
 		 </p>
 		 
+		 <p>
+		   The -p (--preview) option sends the result of the export command to the
+		   terminal screen.
+		 </p>
+		 
+		 <p>
+		   A portion of the command output is shown below. 		   
+		 </p>
+	   
+<pre>
+<code>>REF_APOIV.ncbi-refseqs.NC_003676
+GVSSSYITYGEQWKRELNKLNAQAFFLYKSRLVHEIDRAEAVSNLSKGRTNTGHAVSRGTSKLAWMHERG
+YVPLKGVVVDLGSGRGGWSYYAAAQERVRKVNAYTLATTKGHEQPRLVQSYGWNLVTFKKADVRTIEPYP
+VDTLLCDIGESSSSSSIEAKRTLQIMDVVGKWLEISPGASFCIKILCPYNPEVIEHLSRWQHQFGGGLVR
+VPHSRNSTHEMYFVSGGGGNLMSSITAVTTQLMRRFTLEAGPRHVFDINLGVGTRSNLMEKSEADKSLIA
+DRITIIQNENKASWHQDPNQPYRTWTYHGSYSIRDVGTSASAPNHVVKLLAWPWLKIEKVVLMAMTDTTA
+FGQQRVFKEKVDTKAPEPPKEVKKVMRLVFRWLLNHIKSKGAVVRRCTKEEFINKVNSNASIGAYLREMG
+EWSSAKEAVSDPKFWNMVDKERQLHLKGKCHNCVYNLMGKREKKPGEFGVAKGSRTIWYMWLGSRFLEFE
+ALGFLNEERWASRDISGGGVEGIGINYLGYHLEKMARKVGVLYADDTAGWDTRVTQADLEDERELLHFME
+GEHKRLAEAIFKLTYENKVALCPRPGSKGGTVMDVISRKDQRGSGQVVTYALNTLTNIKVQLVRMAESEG
+ILTPELEDLGIEQWLKQNGEDRLSRLLVSGDDCVVNALDERFGKALTWLNTMEKTRKDIEAWKPSRAYRT
+WQEVEFCSHHFHELFLRDGRKLIVPCRDQHELVGRSMVSQGGSSGVAGTACLAKAYAQMWLMSYFHRRDL
+RTLGFAIMSSVPKDWFPTGRTTWSVHANHEWLSNENILEIWNRVWIEENPFMEDKTTVAEWKNIPYLQRN
+QDLSCSSLIDNPTRAQWAKLLKGAVMKVREMIGREHYSDYLSNMGRYQEGTEEFHMW
+>REF_ccCFV.ncbi-refseqs.MK473878
+GFGNVDLAGEQWKNALNQMSSSSFNKYRTHKVVERKKEQSVSRGAHKMDEIIRKFGWVPKGDVIDLGCGQ
+GGWSQRMAVENEVDTVRGHTIGGTHAAPSSIKTYGHESITLFDHEDVFTKELSRKDTIVCDIGEQDNNWK
+IEAQRTAKVIELVMRWLSFNPTARFCFKVLCPYDTNVMQRLRNLQRKYGGRLIRLTGSRNSNHEMYMISG
+QSCSLINSVATTTIMLQNRMNENWKEKILLEDITYPEGEKSIVEPSFPPESAVKNRIKYIKATHPLIKHD
+...
+</code></pre>
+
+		 <p>
+		   To export to a file (rather than previewing on the console), use
+		   the -f (--file) option in place of -p and specify a file name,
+		   as follows:
+		 </p>
+		 
+	   
+<pre>
+Mode path: /project/flaviviridae/module/fastaProteinExporter
+GLUE> export reference -f NS5 -w "sequence.genus = 'Flavivirus'" -f flavivirus-ns5-aa.fasta
+</code></pre>
+
+
+
+	   <h3>
+		 <a id="Example1Question1" class="anchor" href="#Example1Question1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Question 1: How do I know what features or properties have been defined?</strong>
+	   </h3>
+	   <hr>
+
+
+	   <h3>
+		 <a id="Example1Question2" class="anchor" href="#Example1Question2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Question 2: How do I export protein sequences for all sequences?</strong>
+	   </h3>
+	   <hr>
 
 
 
