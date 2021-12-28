@@ -1,0 +1,45 @@
+taxon	sequenceID	name	full_name	subfamily	genus	host_major_group	host_minor_group	vector_group	sampled_host_sci_name
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/BK013349	BK013349	BHV-PM_01	Bat hepacivirus	HepaPegi	Hepacivirus	Mammalia	Chiroptera	-	Peropteryx macrotis
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/KY370092	KY370092	RHCV	Rodent hepacvirus	HepaPegi	Hepacivirus	Mammalia	Rodentia	none	Meriones meridianus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG334001	MG334001	THCV	Hepacivirus sp.	HepaPegi	Hepacivirus	Mammalia	Rodentia	none	Trachemys scripta elegans
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599987	MG599987	YterHCV	Yili teratoscincus roborowskii hepacivirus	HepaPegi	Hepacivirus	Reptiles	Squamata	none	Teratoscincus roborowskii
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599988	MG599988	LPHV	Guangxi chinese leopard gecko hepacivirus	HepaPegi	Hepacivirus	Reptiles	-	-	Goniurosaurus luii
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599990	MG599990	WmeHCV	Wenling moray eel hepacivirus	HepaPegi	Hepacivirus	Actinopterygii	Actinopterygii	none	Gymnothorax reticularis
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599991	MG599991	XgHCV	Xiamen guitarfish hepacivirus	HepaPegi	Hepacivirus	Actinopterygii	Actinopterygii	none	Rhinobatos hynnicephalus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599992	MG599992	XSSHV	Xiamen sepia Stingray hepacivirus	HepaPegi	Hepacivirus	Chondrichthyes	Chondrichthyes	-	Urolophus aurantiacus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599993	MG599993	WHCV	Western African lungfish hepacivirus	HepaPegi	Hepacivirus	Sarcopterygii	-	none	Protopterus annectens
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599994	MG599994	GHHV	Guangxi houndshark hepacivirus	HepaPegi	Hepacivirus	Chondrichthyes	Chondrichthyes	-	Mustelus manazo
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599995	MG599995	NDSHV	Nanhai dogfish shark hepacivirus	HepaPegi	Hepacivirus	Chondrichthyes	-	-	Squalus brevirostris
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599996	MG599996	NHCV	Nanhai ghost shark hepacivirus 1	HepaPegi	Hepacivirus	Chondrichthyes	Chondrichthyes	none	Chimaera sp.
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MG599999	MG599999	STHV	Chinese softshell turtle hepacivirus	HepaPegi	Hepacivirus	Reptiles	Testudines	-	Pelodiscus sinensis
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH370348	MH370348	SHV	Sigmodontinae hepacivirus	HepaPegi	Hepacivirus	Mammalia	Rodentia	-	Oligoryzomys nigripes
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH824541	MH824541	SHV	Sifaka hepacivirus	HepaPegi	Hepacivirus	Mammalia	Primates	-	Propithecus diadema (diademed sifaka)
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MH844500	MH844500	SHV	Hepacivirus sp.	HepaPegi	Hepacivirus	Mammalia	Xenarthra	-	Bradypus variegatus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MK737641	MK737641	DHV	Duck hepacivirus	HepaPegi	Hepacivirus	Aves	Anseriformes	-	duck
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MN062427	MN062427	BEHV	Bald eagle hepacivirus	HepaPegi	Hepacivirus	Aves	-	-	Haliaeetus leucocephalus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MN133813	MN133813	JHV	Jogalong virus	HepaPegi	Hepacivirus	Insects	-	-	Culex annulirostris
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371434	MT371434	BBHV	Bushbaby hepacivirus	HepaPegi	Hepacivirus	Mammalia	Primates	-	Galago senegalensis; Senegal bushbaby
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371440	MT371440	BcHV	Bandicoot hepacivirus	HepaPegi	Hepacivirus	Mammalia	-	-	Ixodes holocyclus; Tick
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371441	MT371441	MpHV	Magpie hepacivirus	HepaPegi	Hepacivirus	Aves	-	-	Grallina cyanoleuca; Magpie lark
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371442	MT371442	PHV	Pelican hepacivirus	HepaPegi	Hepacivirus	Aves	-	-	Pelecanus conspicillatus; Australian pelican
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MT371443	MT371443	KHV	Koala hepacivirus	HepaPegi	Hepacivirus	Mammalia	Marsupials	-	Phascolarctos cinereus; Australian koala
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/MZ393518	MZ393518	RRHV	Ringtail hepacivirus	HepaPegi	Hepacivirus	Mammalia	Carnivora	-	Bassariscus astutus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_001655	NC_001655	GBVB	GB virus-B	HepaPegi	Hepacivirus	Mammalia	Primates	-	-
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_004102	NC_004102	HCV	Hepatitis C virus genotype 1	HepaPegi	Hepacivirus	Mammalia	Primates	none	-
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_021153	NC_021153	RHV-339	Rodent hepacivirus	HepaPegi	Hepacivirus	Mammalia	Rodentia	none	Peromyscus maniculatus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_024889	NC_024889	EHCV	Equine hepacivirus JPN3/JAPAN/2013	HepaPegi	Hepacivirus	Mammalia	Artiodactyla	none	Equus caballus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025672	NC_025672	RHCV-1	Norway rat hepacivirus 1	HepaPegi	Hepacivirus	Mammalia	Rodentia	none	Rattus norvegicus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_025673	NC_025673	RHCV-2	Norway rat hepacivirus 2	HepaPegi	Hepacivirus	Mammalia	Rodentia	none	Rattus norvegicus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_026797	NC_026797	BHCV	Bovine hepacivirus	HepaPegi	Hepacivirus	Mammalia	Artiodactyla	none	Bos taurus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_028377	NC_028377	WLSV	Wenling shark virus	HepaPegi	Hepacivirus	Chondrichthyes	Chondrichthyes	none	Proscyllium habereri
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031916	NC_031916	HVL	Hepacivirus L	HepaPegi	Hepacivirus	Mammalia	Chiroptera	-	Hipposideros vittatus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031947	NC_031947	BHV	Bat hepacivirus	HepaPegi	Hepacivirus	Mammalia	Chiroptera	none	Otomops martiensseni
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_031950	NC_031950	GuHV	Guereza hepacivirus	HepaPegi	Hepacivirus	Mammalia	Primates	none	black-and-white colobus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038426	NC_038426	HVB	Hepacivirus B	HepaPegi	Hepacivirus	Mammalia	Primates	-	Homo sapiens
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038427	NC_038427	HVF	Hepacivirus F	HepaPegi	Hepacivirus	Mammalia	Rodentia	none	Myodes glareolus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038428	NC_038428	HVI	Hepacivirus I	HepaPegi	Hepacivirus	Mammalia	Rodentia	none	Rhabdomys pumilio
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038429	NC_038429	HVJ	Hepacivirus J	HepaPegi	Hepacivirus	Mammalia	Rodentia	none	Myodes glareolus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038430	NC_038430	HVK	Hepacivirus K	HepaPegi	Hepacivirus	Mammalia	Chiroptera	none	Hipposideros vittatus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038431	NC_038431	HVM	Hepacivirus M	HepaPegi	Hepacivirus	Mammalia	Chiroptera	-	Otomops martiensseni
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_038432	NC_038432	HVN	Hepacivirus N	HepaPegi	Hepacivirus	Mammalia	Artiodactyla	none	Bos taurus
+alignment/AL_TREE_Hepacivirus/member/ncbi-refseqs/NC_040815	NC_040815	HVP	Hepacivirus P	HepaPegi	Hepacivirus	Mammalia	Rodentia	none	ground squirrel (Citellus dauricus Brandt)
