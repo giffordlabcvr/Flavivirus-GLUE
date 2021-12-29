@@ -163,7 +163,7 @@ GLUE> export reference -f NS5 -w "sequence.genus = 'Flavivirus'" -f flavivirus-n
            containing the fasta-formatted output of the export command.  
            
 		 </p>
-Example1Question1a
+
 
 	   <h3>
 		 <a id="Example1Question1a" class="anchor" href="#Example1Question1a" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1a: How do I know which modules, features and properties have been defined?</strong>
@@ -218,12 +218,24 @@ seg3-NS3                 x_peptide
 	   </h3>
 	   <hr>
 
+
 		 <p>
 
-           You may be thinking that it is somewhat limiting to only be able to export
-           polypeptide coding sequences from reference sequences in which the locations
-           of those features have been explcitly defined, and of course this is true.
-           
+           All genome features, including protein-coding features, can only be identified
+           within sequences if they have been explicitly annotated, or are contained in 
+           an alignment. 
+           Not all sequences in Flavivirus-GLUE are defined as reference sequences, but 
+           all sequences are included in alignments. 
+		       
+		 </p>
+		 
+		 <p>
+
+           However, in Flavivirus-GLUE we have used an alignment tree data structure
+           to link alignments at different taxonomic levels.
+           Tip-level alignments contain all sequences belonging to the corresponding
+           taxonomic groups. 
+		       
 		 </p>
 
 		 <p>
@@ -285,6 +297,13 @@ MQQEVLREKVDTVSPEPTKHIKQINRMI
 ...
 </code></pre>
 
+		 <p>
+
+           You may be thinking that it is somewhat limiting to only be able to export
+           polypeptide coding sequences from reference sequences in which the locations
+           of those features have been explcitly defined, and of course this is true.
+           
+		 </p>
 
 
 	   <h3>
@@ -321,42 +340,25 @@ GLUE> show configuration
 		       
 		 </p>
 
+
+
+
 <pre>
 <code>Mode path: /project/flaviviridae
 GLUE> create module -t fastaProteinAlignmentExporter
 OK
+
 (1 Module created)
 Mode path: /project/flaviviridae
+GLUE> module fastaProteinAlignmentExporter 
+OK
 
+Mode path: /project/flaviviridae/module/fastaProteinAlignmentExporter
 GLUE> export AL_GENUS_Flavivirus -r REF_MASTER_YFV -f NS5 -a -p</code></pre>
 
 
 	   <h3>
-		 <a id="Example1Question1e" class="anchor" href="#Example1Question1e" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1e: How do I export protein sequences for all sequences?</strong>
-	   </h3>
-	   <hr>
-
-		 <p>
-
-           All genome features, including protein-coding features, can only be identified
-           within sequences if they have been explicitly annotated, or are contained in 
-           an alignment. 
-           Not all sequences in Flavivirus-GLUE are defined as reference sequences, but 
-           all sequences are included in alignments. 
-		       
-		 </p>
-		 
-		 <p>
-
-           However, in Flavivirus-GLUE we have used an alignment tree data structure
-           to link alignments at different taxonomic levels.
-           Tip-level alignments contain all sequences belonging to the corresponding
-           taxonomic groups. 
-		       
-		 </p>
-
-	   <h3>
-		 <a id="Example1Question1f" class="anchor" href="#Example1Question1f" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1f: What about nucleotide-level sequences?</strong>
+		 <a id="Example1Question1e" class="anchor" href="#Example1Question1e" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1e: What about nucleotide-level sequences?</strong>
 	   </h3>
 	   <hr>
 
