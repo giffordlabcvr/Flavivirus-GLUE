@@ -386,9 +386,8 @@ GLUE> export AL_GENUS_Flavivirus -r REF_MASTER_YFV -f NS5 -a -p</code></pre>
            In an unconstrained alignment the genomic coordinate space is allowed to expand
            to accomodate all insertions in any alignment member.
            In a constrained alignment, the genomic coordinate space is constrained to that of 
-           a defined reference sequence - indels are effectively 'stripped out', but since
-           constrained alignments are always derived from unconstrained ones, indel information
-           is not lost.
+           a defined reference sequence - indels are effectively 'stripped out', but in GLUE
+           the coordinates of alignment segments are stored, so no information is lost.
 		       
 		 </p>
 

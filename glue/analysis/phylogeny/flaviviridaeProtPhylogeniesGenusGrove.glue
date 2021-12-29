@@ -4,7 +4,8 @@
   delete module alignmentColumnsSelectorHepacivirusAa
   delete module alignmentColumnsSelectorPestivirusAa
   delete module alignmentColumnsSelectorPegivirusAa
-    
+
+
   # Create all the modules we need
   create module -f modules/core/flaviviridaeRaxmlPhylogenyGeneratorProt.xml
   create module -f modules/core/phylogeny/alignmentColumnsSelectorHepacivirusAa.xml
@@ -13,30 +14,26 @@
 
 
   # compute alignments with new taxa
-  run file glue/analysis/phylogeny/groveComputeAlignments.glue
-  
-
-  run file glue/analysis/phylogeny/flaviGroveProtPhylogeniesGenusCreateTreeAlignments.glue
-  
+  run file glue/analysis/phylogeny/genusComputeAlignments.glue
+  run file glue/analysis/phylogeny/flaviGroveProtPhylogeniesGenusCreateTreeAlignments.glue  
 
   # Create the phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
     generate amino-acid phylogeny AL_TREE_Pestivirus -s alignmentColumnsSelectorPestivirusAa \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/grove/pestivirus.tre NEWICK_BOOTSTRAPS
+      -o trees/genus/pestivirus.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_TREE_Hepacivirus -s alignmentColumnsSelectorHepacivirusAa \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/grove/hepacivirus.tre NEWICK_BOOTSTRAPS
+      -o trees/genus/hepacivirus.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_TREE_Pegivirus -s alignmentColumnsSelectorPegivirusAa \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/grove/pegivirus.tre NEWICK_BOOTSTRAPS
+      -o trees/genus/pegivirus.tre NEWICK_BOOTSTRAPS
 
     exit
 
- 
 
   run file glue/analysis/phylogeny/flaviviridaeRerootPhylogeniesGrove.glue
   

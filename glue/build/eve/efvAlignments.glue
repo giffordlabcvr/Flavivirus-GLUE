@@ -18,6 +18,6 @@
 	import AL_EFV_UNC_JMTV_SEG3            -f alignments/internal/genus/jmtvSeg3-eve.aln.fna
 
 	#~# Genus subgroups
-	import AL_EFV_UNC_FLAVI_cISF           -f alignments/internal/subgenus/cISF-efv.aln.fna
+	import AL_EFV_UNC_FLAVI_cISF           -f alignments/internal/subgenus/flavivirus/cISF-efv.aln.fna
 
 	exit
