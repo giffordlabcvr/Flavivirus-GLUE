@@ -206,12 +206,42 @@ s_peptide                seg1-NS5
 seg3-NS3                 x_peptide                
 </code></pre>
 
-	   
+	     <br>
 		 <p>
            Another way to investigate which modules, features and properties have been
-           defined in a GLUE project is to use 'list' commands in project mode, as shown below:
+           defined in a GLUE project is to <b>use 'list' commands in project mode</b> as shown below:
            
 		 </p>
+
+
+<pre>
+<code>Mode path: /project/flaviviridae
+GLUE> list feature
++=========================+=========================+======================================+
+|          name           |       parent.name       |                  description         |
++=========================+=========================+======================================+
+| whole_genome            | -                       | Whole genome                         |
+| host_genome             | -                       | Host genome                          |
+| efv                     | -                       | Endogenous flaviviral element        |
+| 5flank                  | -                       | 5 prime genomic flanking sequence    |
+| 3flank                  | -                       | 3 prime genomic flanking sequence    |
+| cHP                     | whole_genome            | capsid-coding region hairpin element |
+| 5UTR                    | whole_genome            | 5' untranslated region               |
+| 3UTR                    | whole_genome            | 3' untranslated region               |
+| seg3-NS3                | whole_genome            | NS3                                  |
+| seg1-NS5                | whole_genome            | NS5                                  |
+| precursor_polyprotein   | whole_genome            | Precursor polyprotein                |
+| Y1                      | 3UTR                    | Y-shaped                             |
+| T.xrRNA2                | 3UTR                    | T.xrRNA2                             |
+| T.xrRNA1                | 3UTR                    | T.xrRNA1                             |
+| structural_proteins     | precursor_polyprotein   | Structural proteins                  |
+| flavi-envelope          | structural_proteins     | Flavivirus envelope                  |
+| flavi-capsid            | structural_proteins     | Flavivirus capsid                    |
+| fifo                    | non_structural_proteins | Fairly interesting flavivirus ORF    |
+...
+</code></pre>
+
+
 
 	   <h3>
 		 <a id="Example1Question1b" class="anchor" href="#Example1Question1b" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1b: How do I export protein sequences for all sequences?</strong>
