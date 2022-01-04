@@ -45,8 +45,7 @@
 
 
 		 <p>
-		   To begin, open a terminal window, start command line GLUE, and navigate into 
-		   the Flaviviridae-GLUE project, as shown below: 		   
+		   To begin, open a terminal window and start command line GLUE as shown below: 		   
 		 </p>
 
 
@@ -59,20 +58,40 @@ are welcome to redistribute it under certain conditions. For details see
 GNU Affero General Public License v3: http://www.gnu.org/licenses/
 
 Mode path: /
-GLUE> project flaviviridae 
+GLUE> </code></pre>
+
+
+		 <p>
+		   The GLUE console allows you to navigate through projects and their components
+		   in much the same way as you would browse a computer file system. 
+		   To starting working with flavivirus data, first navigate into the
+		   Flaviviridae-GLUE project as shown:  		   
+		 </p>
+
+
+
+<pre>
+<code>GLUE> project flaviviridae 
 OK
 Mode path: /project/flaviviridae
 GLUE></code></pre>
 
 
 		 <p>
-		   In GLUE, protein-coding features are explicitly defined on reference sequences
-		   only. 
+		   In GLUE, there are two types of sequence - standard sequences and reference sequences.
+		   Genome features are explicitly defined on reference sequences only.
+		   For standard sequences, feature locations are inferred from an alignment that
+		   contains both the sequence and a reference sequence on which the feature has been annotated.
+		 </p>
+
+
+
+		 <p>
 		   Protein-coding features of reference sequences can be exported using GLUE's 
 		   'fastaProteinExporter' module.
 		   To quickly create this module with a default specification we will use the
 		   -t (--moduleType) option on its own, as shown below: 
-		   </p>
+		 </p>
 
 <pre>
 <code>Mode path: /project/flaviviridae
@@ -83,12 +102,16 @@ Mode path: /project/flaviviridae
 </code></pre>
 
 		 <p>
-		   The module can now be used to export NS5 protein sequences for all flavivirus
-		   genus reference sequences in which the NS5 protein has been annotated.
-		   One way to do this is to first navigate into the project
+		   The module can now be used to export NS5 protein sequences from reference sequences
+		   in which the NS5 protein has been annotated.
+		 </p>
+
+
+
+		 <p>
+		   One way to do this is to first navigate into the module
 		   (updating the current <b>mode path</b>)
-		   and then use it's
-		   native export command, as shown below: 		   
+		   and then run an export command, as shown below: 		   
 		 </p>
 
 
@@ -102,8 +125,9 @@ Mode path: /project/flaviviridae/module/fastaProteinExporter
 GLUE> export reference -f NS5 -w "sequence.genus = 'Flavivirus'" -p
 </code></pre>
 
+
 		 <p>
-		   The -f (--featureName) option is used to specify a protein coding feature.
+		   In the command shown, the -f (--featureName) option is used to specify a protein coding feature.
 		 </p>
 
 		 <p>
@@ -117,8 +141,15 @@ GLUE> export reference -f NS5 -w "sequence.genus = 'Flavivirus'" -p
 		 </p>
 		 
 		 <p>
+		   <b>Note</b>: For information about any of GLUE's commands, execute
+		    using the -h (--help) option.
+		 </p>
+		 
+		 <p>
 		   A portion of the command output is shown below. 		   
 		 </p>
+
+
 	   
 <pre>
 <code>>REF_APOIV.ncbi-refseqs.NC_003676
@@ -344,10 +375,9 @@ MQQEVLREKVDTVSPEPTKHIKQINRMI
 
 
 		 <p>
-		   In the example, we used a default version of the fastaProteinExporter module
+		   In the example above, we used a default version of the fastaProteinExporter module
 		   with a basic configuration.
-		   This default configuration can be viewed as follows:
-		       
+		   This default configuration can be viewed as follows:		       
 		 </p>
 	   
 <pre>
@@ -355,6 +385,22 @@ MQQEVLREKVDTVSPEPTKHIKQINRMI
 GLUE> show configuration 
 &lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
 &lt;fastaProteinExporter/&gt;</code></pre>
+
+
+
+		 <p>
+		   The module can be configured to insert sequence associated-data into FASTA headers.
+		   		       
+		 </p>
+<pre>
+<code>Mode path: /project/flaviviridae/module/fastaProteinExporter
+GLUE> show configuration 
+&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;fastaProteinExporter/&gt;</code></pre>
+
+	   
+
+
 
 	   <h3>
 		 <a id="Example1Question1d" class="anchor" href="#Example1Question1d" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Q1d: How can I export aligned coding sequences?</strong>
