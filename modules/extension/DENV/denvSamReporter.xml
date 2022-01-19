@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<samReporter>
-    <readLogInterval>30000</readLogInterval>
-    <samReaderValidationStringency>SILENT</samReaderValidationStringency>
-    <samRefTextToReferenceQueryModuleName>denvSamReferenceIdentifier</samRefTextToReferenceQueryModuleName>
-    <samRefTextToTipAlignmentQueryModuleName>denvSamTipAlmtIdentifier</samRefTextToTipAlignmentQueryModuleName>
-</samReporter>
