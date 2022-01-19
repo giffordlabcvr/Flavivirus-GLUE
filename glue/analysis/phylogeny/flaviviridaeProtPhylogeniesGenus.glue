@@ -27,9 +27,9 @@
   # Create the phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
-    generate amino-acid phylogeny AL_TREE_Flavivirus -s alignmentColumnsSelectorFlavivirusAa \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-     -o trees/genus/flavivirus.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_TREE_Flavivirus -s alignmentColumnsSelectorFlavivirusAa \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    # -o trees/genus/flavivirus.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_TREE_Tamanavirus -s alignmentColumnsSelectorTamanavirusAa \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 20" \

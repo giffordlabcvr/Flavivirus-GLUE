@@ -17,6 +17,7 @@ project flaviviridae
   run file glue/build/core/flaviviridaeImportSideData.glue
   
   # Create references
+  run file glue/build/core/flaviviridaeMasterReferences.glue
   run file glue/build/core/flaviviridaeReferences.glue
 
   # Add feature locations to reference sequences

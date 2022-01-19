@@ -23,9 +23,9 @@
 
   # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter
-  	export AL_GENUS_Pestivirus        -r REF_BVDV1          -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_pestivirus-all.aln.fna
- 	export AL_GENUS_Hepacivirus       -r REF_HEPACI_1_HCV   -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_hepacivirus-all.aln.fna
- 	export AL_GENUS_Pegivirus         -r REF_HPgV2          -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_pegivirus-all.aln.fna
+  	export AL_GENUS_Pestivirus        -r REF_MASTER_BVDV1          -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_pestivirus-all.aln.fna
+ 	export AL_GENUS_Hepacivirus       -r REF_MASTER_HEPACI_1_HCV   -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_hepacivirus-all.aln.fna
+ 	export AL_GENUS_Pegivirus         -r REF_MASTER_HPgV2          -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_pegivirus-all.aln.fna
 	
 	exit
 
@@ -41,9 +41,9 @@
   
 
   # Create constrained alignments 
-  create alignment AL_TREE_Pestivirus         -r REF_BVDV1
-  create alignment AL_TREE_Pegivirus          -r REF_HPgV2
-  create alignment AL_TREE_Hepacivirus        -r REF_HEPACI_1_HCV
+  create alignment AL_TREE_Pestivirus         -r REF_MASTER_BVDV1
+  create alignment AL_TREE_Pegivirus          -r REF_MASTER_HPgV2
+  create alignment AL_TREE_Hepacivirus        -r REF_MASTER_HEPACI_1_HCV
 
 
 

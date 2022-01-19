@@ -1,6 +1,6 @@
 
   ### Crustacean
-  reference REF_ccCFV
+  reference REF_MASTER_ccCFV
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -67,7 +67,7 @@
 
 
   ### Mpulungu
-  reference REF_MPFV
+  reference REF_MASTER_MPFV
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -136,7 +136,7 @@
 
 
   ### Sokoluk
-  reference REF_SOKV
+  reference REF_MASTER_SOKV
 
 
     add feature-location flavi-capsid

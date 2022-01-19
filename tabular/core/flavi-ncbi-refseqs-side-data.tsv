@@ -132,7 +132,6 @@ NC_028137	Macrosiphum euphorbiae virus 1	MEV-1	Flaviviridae	FlaviPesti	PestiLike
 NC_028373	Shuangao lacewing virus 2 	SLV2	Flaviviridae	FlaviPesti	PestiLike	LGF	PL2	NULL		Arthropods	Insects	Chrysopida	none	none	-	-	Chrysopidae sp
 MH778148	Sitobion miscanthi flavi-like virus 1	SmFlV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL2	NULL		Arthropods	Insects		none	none	-	-	
 NC_001461	Bovine viral diarrhea virus 1	BVDV1	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Bos	none	none	-	-	Bos taurus
-NC_002032	Bovine viral diarrhea virus 2	BVDV2	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Bos	none	none	C413	Americas	Bos taurus
 NC_002657	Classical swine fever virus	CSFV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Sus	none	none	Eystrup	-	Sus scrofa
 MG599984	Nanhai dogfish shark pestivirus	NdsPV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti4	NULL		Chondrichthyes	Chondrichthyes	Squalus brevirostris	none	none	-	-	Squalus brevirostris
 NC_003679	Border disease virus	BDV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Ovis	none	none	X818	-	Ovis aries
