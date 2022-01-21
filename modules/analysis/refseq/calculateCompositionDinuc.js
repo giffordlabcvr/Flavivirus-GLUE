@@ -80,22 +80,22 @@ function calculateCompositionDinuc() {
 		
 				referenceName: sequenceID,
 				seqLength: length,
-				AA: dinucFreqResults["AA"],
-				AT: dinucFreqResults["AT"],
-				AC: dinucFreqResults["AC"],
-				AG: dinucFreqResults["AG"],
-				TA: dinucFreqResults["TA"],
-				TT: dinucFreqResults["TT"],
-				TC: dinucFreqResults["TC"],
-				TG: dinucFreqResults["TG"],
-				CA: dinucFreqResults["CA"],
-				CT: dinucFreqResults["CT"],
-				CC: dinucFreqResults["CC"],
-				CG: dinucFreqResults["CG"],
-				GA: dinucFreqResults["GA"],
-				GT: dinucFreqResults["GT"],
-				GC: dinucFreqResults["GC"],
-				GG: dinucFreqResults["GG"]
+				"AA%": dinucFreqResults["AA"],
+				"AT%": dinucFreqResults["AT"],
+				"AC%": dinucFreqResults["AC"],
+				"AG%": dinucFreqResults["AG"],
+				"TA%": dinucFreqResults["TA"],
+				"TT%": dinucFreqResults["TT"],
+				"TC%": dinucFreqResults["TC"],
+				"TG%": dinucFreqResults["TG"],
+				"CA%": dinucFreqResults["CA"],
+				"CT%": dinucFreqResults["CT"],
+				"CC%": dinucFreqResults["CC"],
+				"CG%": dinucFreqResults["CG"],
+				"GA%": dinucFreqResults["GA"],
+				"GT%": dinucFreqResults["GT"],
+				"GC%": dinucFreqResults["GC"],
+				"GG%": dinucFreqResults["GG"]
 			   
 			});
 
