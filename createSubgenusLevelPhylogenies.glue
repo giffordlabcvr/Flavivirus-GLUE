@@ -1,27 +1,21 @@
 
   ### Create the core (i.e. virus-only) subgenus-level phylogenies
 
+project flaviviridae
 
   # Nucleotide
-  run file glue/analysis/phylogeny/flaviviridaeNucPhylogeniesSubgenus.glue
-  run file glue/analysis/phylogeny/flaviviridaeNucPhylogeniesSubgenusReroot.glue
-  run file glue/analysis/phylogeny/flaviviridaeNucPhylogeniesSubgenusAnnotations.glue
+  run file glue/analysis/phylogeny/na/flaviviridaeNucPhylogeniesSubgenus.glue
+  run file glue/analysis/phylogeny/na/flaviviridaeNucPhylogeniesSubgenusReroot.glue
+  run file glue/analysis/phylogeny/na/flaviviridaeNucPhylogeniesSubgenusAnnotations.glue
+
+  # Nucleotide EFV
+  run file glue/analysis/phylogeny/na/efvNucPhylogeniesSubgenus.glue
+  run file glue/analysis/phylogeny/na/efvNucPhylogeniesSubgenusReroot.glue
+  run file glue/analysis/phylogeny/na/efvNucPhylogeniesSubgenusAnnotations.glue
 
   # Polypeptide
-  run file glue/analysis/phylogeny/efvNucPhylogeniesSubgenus.glue
-  run file glue/analysis/phylogeny/efvNucPhylogeniesSubgenusReroot.glue
-  run file glue/analysis/phylogeny/efvNucPhylogeniesSubgenusAnnotations.glue
+  run file glue/analysis/phylogeny/aa/efvProtPhylogeniesSubgenus.glue
+  run file glue/analysis/phylogeny/aa/efvProtPhylogeniesSubgenusReroot.glue
+  run file glue/analysis/phylogeny/aa/efvProtPhylogeniesSubgenusAnnotations.glue
 
-  ### Create the core (i.e. virus-only) subgenus-level phylogenies
-
-  # Nucleotide
-  run file glue/analysis/phylogeny/efvNucPhylogeniesSubgenus.glue
-  run file glue/analysis/phylogeny/efvNucPhylogeniesSubgenusReroot.glue
-  run file glue/analysis/phylogeny/efvNucPhylogeniesSubgenusAnnotations.glue
-
-  # Polypeptide
-  run file glue/analysis/phylogeny/efvProtPhylogeniesSubgenus.glue
-  run file glue/analysis/phylogeny/efvProtPhylogeniesSubgenusReroot.glue
-  run file glue/analysis/phylogeny/efvProtPhylogeniesSubgenusAnnotations.glue
-
-
+  exit
