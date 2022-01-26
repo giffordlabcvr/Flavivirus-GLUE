@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_DEN1</relRefName>
+    <relRefName>REF_MASTER_DEN1</relRefName>
     
     <nucleotideRegionSelector>
         <featureName>precursor_polyprotein</featureName>
