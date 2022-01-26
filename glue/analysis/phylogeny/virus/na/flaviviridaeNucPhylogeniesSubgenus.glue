@@ -68,25 +68,81 @@
 
 
 
-  # Create the Pestivirus subgenus phylogenies
+  # Create all the alignment column selector modules we need
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorTamana1.xml
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorTamana2.xml
+  
+  # Create the Tamanavirus subgenus phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorNucs
 
     # Currently too few genera
-    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorNkv2 \
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorTamana1 \
     #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
     #  -o trees/subgenus/nkv2.tre NEWICK_BOOTSTRAPS
 
     exit
 
+
+
+  # Create all the alignment column selector modules we need
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorPesti1.xml
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorPesti2.xml
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorPesti3.xml 
+  
+  # Create the Pestivirus subgenus phylogenies
+  module flaviviridaeRaxmlPhylogenyGeneratorNucs
+
+    # Currently too few genera
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorPesti1 \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus/nkv2.tre NEWICK_BOOTSTRAPS
+
+    exit
+
+
+  # Create all the alignment column selector modules we need
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorPegi1.xml
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorPegi2.xml
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorPegi3.xml 
+  
+  # Create the Pegivirus subgenus phylogenies
+  module flaviviridaeRaxmlPhylogenyGeneratorNucs
+
+    # Currently too few genera
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorPegi1 \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus/nkv2.tre NEWICK_BOOTSTRAPS
+
+    exit
+
+
+  # Create all the alignment column selector modules we need
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorHepaci1.xml
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorHepaci2.xml
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorHepaci3.xml
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorHepaci4.xml
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorHepaci5.xml
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorHepaci6.xml
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorHepaci7.xml
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorHepaci8.xml
+  #create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorHepaci9.xml
+  
 
   # Create the Hepacivirus subgenus phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorNucs
 
     # Currently too few genera
-    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorNkv2 \
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorHepaci1 \
     #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
     #  -o trees/subgenus/nkv2.tre NEWICK_BOOTSTRAPS
 
     exit
+
+
+
+
+
+
+
 
 

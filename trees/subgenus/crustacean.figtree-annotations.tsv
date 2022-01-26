@@ -1,4 +1,4 @@
-taxon	sequenceID	name	subfamily	genus	subgenus	host_group	vector_group	isolate	sampled_host_sci_name	sample_date	country
-alignment/AL_FLAVI_SUBGENUS_crustacean/member/ncbi-refseqs/MK473877	MK473877	GcFV	FlaviPesti	Flavivirus	Crustacean	Gammarus	crustacean	100_1	Gammarus chevreuxi	-	United Kingdom
-alignment/AL_FLAVI_SUBGENUS_crustacean/member/ncbi-refseqs/MK473878	MK473878	CcFV	FlaviPesti	Flavivirus	Crustacean	Crangon	crustacean	-	Crangon crangon	-	Germany
-alignment/AL_FLAVI_SUBGENUS_crustacean/member/ncbi-refseqs/MK473881	MK473881	GpFV	FlaviPesti	Flavivirus	Crustacean	Gammarus	crustacean	GPCM	Gammarus pulex	-	France
+taxon	sequenceID	name	full_name	subfamily	genus	host_major_group	host_minor_group	vector_group	sampled_host_sci_name
+alignment/AL_FLAVI_SUBGENUS_crustacean/member/ncbi-refseqs/MK473877	MK473877	GcFV	Gammarus chevreuxi flavivirus	FlaviPesti	Flavivirus	Arthropods	Crustaceans	crustacean	Gammarus chevreuxi
+alignment/AL_FLAVI_SUBGENUS_crustacean/member/ncbi-refseqs/MK473878	MK473878	CcFV	Crangon crangon flavivirus	FlaviPesti	Flavivirus	Arthropods	Crustaceans	crustacean	Crangon crangon
+alignment/AL_FLAVI_SUBGENUS_crustacean/member/ncbi-refseqs/MK473881	MK473881	GpFV	Gammarus pulex flavivirus	FlaviPesti	Flavivirus	Arthropods	Crustaceans	crustacean	Gammarus pulex

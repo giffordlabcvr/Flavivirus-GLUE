@@ -4,14 +4,14 @@
 project flaviviridae
 
   # Virus nucleotide
-  run file glue/analysis/phylogeny/virus/na/flaviviridaeNucPhylogeniesSubgenus.glue
-  run file glue/analysis/phylogeny/virus/na/flaviviridaeNucPhylogeniesSubgenusReroot.glue
-  run file glue/analysis/phylogeny/virus/na/flaviviridaeNucPhylogeniesSubgenusAnnotations.glue
+  #run file glue/analysis/phylogeny/virus/na/flaviviridaeNucPhylogeniesSubgenus.glue
+  #run file glue/analysis/phylogeny/virus/na/flaviviridaeNucPhylogeniesSubgenusReroot.glue
+  #run file glue/analysis/phylogeny/virus/na/flaviviridaeNucPhylogeniesSubgenusAnnotations.glue
 
-  # Virus nucleotide
-  run file glue/analysis/phylogeny/virus/aa/flaviviridaeNucPhylogeniesSubgenus.glue
-  run file glue/analysis/phylogeny/virus/aa/flaviviridaeNucPhylogeniesSubgenusReroot.glue
-  run file glue/analysis/phylogeny/virus/aa/flaviviridaeNucPhylogeniesSubgenusAnnotations.glue
+  # Virus polypeptide
+  run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesSubgenus.glue
+  run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesSubgenusReroot.glue
+  run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesSubgenusAnnotations.glue
 
   # Nucleotide EFV
   run file glue/analysis/phylogeny/efv/na/efvNucPhylogeniesSubgenus.glue
@@ -24,3 +24,4 @@ project flaviviridae
   run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesSubgenusAnnotations.glue
 
   exit
+

@@ -12,15 +12,15 @@
 
   
   # Create all the modules we need
-  create module -f modules/core/flaviviridaeRaxmlPhylogenyGeneratorProt.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorCisfAa.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorTbfvAa.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorMbfv1Aa.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorMbfv2Aa.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorNkv1Aa.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorNkv2Aa.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorCrustaceanAa.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorDisfAa.xml
+  create module -f modules/analysis/phylogeny/flaviviridaeRaxmlPhylogenyGeneratorProt.xml
+  create module -f modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorCisfAa.xml
+  create module -f modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorTbfvAa.xml
+  create module -f modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorMbfv1Aa.xml
+  create module -f modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorMbfv2Aa.xml
+  create module -f modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorNkv1Aa.xml
+  create module -f modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorNkv2Aa.xml
+  create module -f modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorCrustaceanAa.xml
+  create module -f modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorDisfAa.xml
 
 
   # Create the phylogenies
