@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_HCV</relRefName>
-
+    <relRefName>REF_MASTER_HCV</relRefName>
 
 
     <!-- Nucleotides -->

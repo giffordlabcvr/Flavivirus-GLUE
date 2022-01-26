@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_TABV</relRefName>
+    <relRefName>REF_MASTER_TABV</relRefName>
          
     <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
