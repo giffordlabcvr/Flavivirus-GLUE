@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_SLV2</relRefName>
+    <relRefName>REF_MASTER_SCNV5</relRefName>
 
     <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startCodon>4732</startCodon>
-        <endCodon>5681</endCodon>
+        <startCodon>4967</startCodon>
+        <endCodon>5310</endCodon>
     </aminoAcidRegionSelector>
     
 </alignmentColumnsSelector>

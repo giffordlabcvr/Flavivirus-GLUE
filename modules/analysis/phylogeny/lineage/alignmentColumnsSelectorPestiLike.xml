@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_HPgV2</relRefName>
+    <relRefName>REF_MASTER_BVDV1</relRefName>
  
     <nucleotideRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>7795</startNt>
-        <endNt>9402</endNt>
+        <startNt>10950</startNt>
+        <endNt>11447</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_SCNV5</relRefName>
+    <relRefName>REF_MASTER_SLV2</relRefName>
 
     <nucleotideRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>15249</startNt>
-        <endNt>16820</endNt>
+        <startNt>14393</startNt>
+        <endNt>17242</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

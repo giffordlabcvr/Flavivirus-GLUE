@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_BVDV1</relRefName>
+    <relRefName>REF_MASTER_SOKV</relRefName>
 
     <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startCodon>3522</startCodon>
-        <endCodon>3688</endCodon>
+        <startCodon>1</startCodon>
+        <endCodon>3413</endCodon>
     </aminoAcidRegionSelector>
-     
+    
+    
 </alignmentColumnsSelector>

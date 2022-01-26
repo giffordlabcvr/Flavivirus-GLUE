@@ -11,19 +11,22 @@
   delete module alignmentColumnsSelectorDisf
 
   
-  # Create all the modules we need
+  # Create all the general phylogeny modules we need
   create module -f  modules/analysis/phylogeny/flaviviridaeRaxmlPhylogenyGeneratorNucs.xml
-  create module -f  modules/analysis/phylogeny/alignmentColumnsSelectorCisf.xml
-  create module -f  modules/analysis/phylogeny/alignmentColumnsSelectorTbfv.xml
-  create module -f  modules/analysis/phylogeny/alignmentColumnsSelectorMbfv1.xml
-  create module -f  modules/analysis/phylogeny/alignmentColumnsSelectorMbfv2.xml
-  create module -f  modules/analysis/phylogeny/alignmentColumnsSelectorNkv1.xml
-  create module -f  modules/analysis/phylogeny/alignmentColumnsSelectorNkv2.xml
-  create module -f  modules/analysis/phylogeny/alignmentColumnsSelectorCrustacean.xml
-  create module -f  modules/analysis/phylogeny/alignmentColumnsSelectorDisf.xml
+  
+  
+  # Create all the alignment column selector modules we need
+  create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorCisf.xml
+  create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorTbfv.xml
+  create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorMbfv1.xml
+  create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorMbfv2.xml
+  create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorNkv1.xml
+  create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorNkv2.xml
+  create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorCrustacean.xml
+  create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorDisf.xml
 
 
-  # Create the phylogenies
+  # Create the Flavivirus subgenus phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorNucs
 
     generate nucleotide phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisf \
@@ -60,6 +63,29 @@
     #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_dISF -s alignmentColumnsSelectorDisf \
     #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein2' and fLocNotes.ref_nt_coverage_pct >= 50" \
     #  -o trees/subgenus/disf1.tre NEWICK_BOOTSTRAPS
+
+    exit
+
+
+
+  # Create the Pestivirus subgenus phylogenies
+  module flaviviridaeRaxmlPhylogenyGeneratorNucs
+
+    # Currently too few genera
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorNkv2 \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus/nkv2.tre NEWICK_BOOTSTRAPS
+
+    exit
+
+
+  # Create the Hepacivirus subgenus phylogenies
+  module flaviviridaeRaxmlPhylogenyGeneratorNucs
+
+    # Currently too few genera
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorNkv2 \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus/nkv2.tre NEWICK_BOOTSTRAPS
 
     exit
 

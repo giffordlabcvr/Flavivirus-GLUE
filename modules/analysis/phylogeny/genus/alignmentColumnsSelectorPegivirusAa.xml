@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_SCNV5</relRefName>
+    <relRefName>REF_MASTER_HPgV2</relRefName>
 
     <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startCodon>4967</startCodon>
-        <endCodon>5310</endCodon>
+        <startCodon>2490</startCodon>
+        <endCodon>3025</endCodon>
     </aminoAcidRegionSelector>
     
 </alignmentColumnsSelector>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_BVDV1</relRefName>
- 
+    <relRefName>REF_MASTER_APOIV</relRefName>
+    
     <nucleotideRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>10950</startNt>
-        <endNt>11447</endNt>
+        <startNt>1</startNt>
+        <endNt>10113</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>
