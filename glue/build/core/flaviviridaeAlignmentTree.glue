@@ -101,6 +101,9 @@
 
 	extract child AL_GENUS_Tamanavirus   --refName REF_MASTER_TABV
 	demote member AL_GENUS_Tamanavirus   --whereClause "sequence.genus = 'Tamanavirus'"
+
+	#extract child AL_GENUS_PRAWN         --refName REF_MASTER_TABV
+	#demote member AL_GENUS_PRAWN         --whereClause "sequence.genus = 'Prawn'"
 	
     exit
 
@@ -137,6 +140,19 @@
 	
     exit
 
+  #
+  # Tamaanavirus genus subclades
+  #
+  
+  alignment AL_GENUS_Tamanavirus
+
+	extract child AL_TAMANA_SUBGENUS_1 --refName REF_MASTER_TABV
+	demote member AL_TAMANA_SUBGENUS_1 --whereClause "sequence.subgenus= 'Tamana1'"
+
+	extract child AL_TAMANA_SUBGENUS_2 --refName REF_MASTER_TABV
+	demote member AL_TAMANA_SUBGENUS_2 --whereClause "sequence.subgenus= 'Tamana2'"
+	
+    exit
 
 
   #
@@ -223,7 +239,7 @@
 
 
   #
-  # DEEP INTERNAL  NODES
+  # DEEP INTERNAL NODES
   #
 
   alignment AL_MAJOR1_HepaPegi
@@ -262,7 +278,7 @@
     exit
 
   alignment AL_GENUS_Tamanavirus
-    derive segments AL_UNC_TABV -a --mergeStrategy OVERWRITE
+    derive segments AL_UNC_TAMANA -a --mergeStrategy OVERWRITE
     exit
 
   alignment AL_GENUS_Flavivirus
@@ -326,6 +342,19 @@
     derive segments AL_UNC_FLAVI_dISF -a --mergeStrategy OVERWRITE
     exit
     
+ 
+  #
+  # TAMANAVIRUS SUBGENERA
+  #  
+
+  alignment AL_TAMANA_SUBGENUS_1
+    derive segments AL_UNC_TAMANA_1 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_TAMANA_SUBGENUS_2
+    derive segments AL_UNC_TAMANA_2 -a --mergeStrategy OVERWRITE
+    exit
+
 
   #
   # PEGIVIRUS SUBGENERA

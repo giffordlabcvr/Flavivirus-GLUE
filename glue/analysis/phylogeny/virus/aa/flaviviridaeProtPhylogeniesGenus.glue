@@ -18,8 +18,6 @@
   create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorTamanavirusAa.xml
   create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorHepacivirusAa.xml
   create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorPestivirusAa.xml
-  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorPL1Aa.xml
-  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorPL2Aa.xml
   create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorPegivirusAa.xml
   create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorJingmenvirus_Seg1Aa.xml
   create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorJingmenvirus_Seg3Aa.xml

@@ -107,17 +107,18 @@ NC_024114	Jingmen tick virus	JMTV_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmen
 KX883003	Changjiang Jingmen-like virus 	Changjiang_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	3	Arthropods	Crustaceans	Procambarus	none	none	CJLX28200		Procambarus clarkii
 KR902723	Wuhan Aphid	WuhanAphid_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	3	Arthropods	Insects	Hyalopterus	none	none	-		Hyalopterus pruni
 KM521553	Guaico Culex virus 	Guaico_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	3	Arthropods	Insects	Culex	none	none	ACH27		Culex interrogator
-MK473875	Southern pygmy squid flavivirus	SpsFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Squid	NULL		Mollusca	Cephalopoda	Cephalopoda	none	none			
-MK473880	Firefly squid flavivirus	FfsFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Squid	NULL		Mollusca	Cephalopoda	Cephalopoda	none	none			
-NC_003996	Tamana bat virus	TABV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	TABV	NULL		Mammalia	Chiroptera	Pteronotus	none	none	Tr127154	Americas	Pteronotus parnellii
-MF776369	Cyclopterus lumpus virus	LFLV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus		NULL		Actinopterygii	Teleostii	Cyclopterus	none	none	-	-	Cyclopterus lumpus
-MT075326	Salmon flavivirus	SFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus		NULL		Actinopterygii	Teleostii		none	none	-	-	Oncorhynchus tshawytscha
-DnFV	Dianemobius nigrofasciatus flavivirus	DnFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus		NULL		Arthropods	Insects	Coleoptera	none	none	-	-	Dianemobius nigrofasciatus
-MW208755	Coleopteran flavi-related virus	ColFlaV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus		NULL		Arthropods	Insects	Plectoptera	none	none	-	-	Pempsamacra sp.
-MW208760	Plectopteran flavi-related virus	PleFlaV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus		NULL		Arthropods	Insects	Embioptera	none	none	-	-	Perla marginata
-MW208759	Embiopteran flavi-related virus	EmbFlaV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus		NULL		Arthropods	Insects		none	none	-	-	Antipaluria urichi
-MH716818	Eastern red scorpionfish flavivirus	ErsFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus		NULL		Actinopterygii	Teleostii	Scorpaena	none	none	-	-	Scorpaena jacksoniensis
-MG599986	Wenzhou shark flavivirus	WenSFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus		NULL		Chondrichthyes	Chondrichthyes	Scoliodon	none	none	-	-	Scoliodon macrorhynchos
+MK473875	Southern pygmy squid flavivirus	SpsFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana2	NULL		Mollusca	Cephalopoda	Cephalopoda	none	none			
+MK473880	Firefly squid flavivirus	FfsFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana2	NULL		Mollusca	Cephalopoda	Cephalopoda	none	none			
+NC_003996	Tamana bat virus	TABV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Mammalia	Chiroptera	Pteronotus	none	none	Tr127154	Americas	Pteronotus parnellii
+MF776369	Cyclopterus lumpus virus	LFLV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Actinopterygii	Teleostii	Cyclopterus	none	none	-	-	Cyclopterus lumpus
+MT075326	Salmon flavivirus	SFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana3	NULL		Actinopterygii	Teleostii		none	none	-	-	Oncorhynchus tshawytscha
+DnFV	Dianemobius nigrofasciatus flavivirus	DnFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Arthropods	Insects	Coleoptera	none	none	-	-	Dianemobius nigrofasciatus
+RanaTamana	Rana Tamanavirus Mitcham	RanaTamana	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Amphibia	Rana	Rana	none	none			Rana
+MW208755	Coleopteran flavi-related virus	ColFlaV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Arthropods	Insects	Plectoptera	none	none	-	-	Pempsamacra sp.
+MW208760	Plectopteran flavi-related virus	PleFlaV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Arthropods	Insects	Embioptera	none	none	-	-	Perla marginata
+MW208759	Embiopteran flavi-related virus	EmbFlaV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Arthropods	Insects		none	none	-	-	Antipaluria urichi
+MH716818	Eastern red scorpionfish flavivirus	ErsFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Actinopterygii	Teleostii	Scorpaena	none	none	-	-	Scorpaena jacksoniensis
+MG599986	Wenzhou shark flavivirus	WenSFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Chondrichthyes	Chondrichthyes	Scoliodon	none	none	-	-	Scoliodon macrorhynchos
 NC_028375	Shayang fly virus 4	ShayangFlyV4	Flaviviridae	FlaviPesti	PestiLike	LGF	NULL	NULL		Arthropods	Insects	Musca	none	none	-	-	Musca domestica
 NC_028370	Xingshan cricket virus	XCV	Flaviviridae	FlaviPesti	PestiLike	LGF	NULL	NULL		Arthropods	Insects	Velarifictorus	none	none	-	-	Velarifictorus micado
 NC_028367	Tacheng tick virus 8	TachengTV-8	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Arthropods	Acari	Dermacentor	none	none	-	-	Dermacentor marginatus
@@ -217,7 +218,7 @@ NC_030291	Pegivirus B/GB-Virus D	GBVD	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	P
 KC796088	Pegivirus I	PVI	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Chiroptera	Bat (sturnira lilium)	none	none			
 KU351670	Porcine Pegivirus	PPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Artiodactyla	Sus	none	none			
 NC_034442	Pegivirus K	PVK	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Artiodactyla	Sus	none	none			
-MK059751	Dophin Pegivirus	DPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Artiodactyla	Dolphin	none	none			
+MK059751	Dolphin Pegivirus	DPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Artiodactyla	Dolphin	none	none			
 NC_038434	Pegivirus F	PVF	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi1	NULL		Mammalia	Chiroptera	Bat (Carollia perspicillata)	none	none			
 NC_038435	Pegivirus G	PVG	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi1	NULL		Mammalia	Chiroptera	Bat (Scotophilus dinganii)	none	none			
 MW091548	Goose Pegivirus	GPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Aves	Anseriformes	Geese (Anser cygnoides)	none	none			

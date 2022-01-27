@@ -17,7 +17,7 @@
     import AL_UNC_PEGI                -f alignments/internal/genus/pegivirus.aln.fna
     import AL_UNC_HEPACI              -f alignments/internal/genus/hepacivirus.aln.fna
     import AL_UNC_FLAVI               -f alignments/internal/genus/flavivirus.aln.fna
-    import AL_UNC_TABV                -f alignments/internal/genus/tamanavirus.aln.fna   
+    import AL_UNC_TAMANA              -f alignments/internal/genus/tamanavirus.aln.fna   
     import AL_UNC_PESTI               -f alignments/internal/genus/pestivirus.aln.fna
     import AL_UNC_PL1                 -f alignments/internal/genus/pl1.aln.fna
     import AL_UNC_PL2                 -f alignments/internal/genus/pl2.aln.fna
@@ -35,6 +35,10 @@
     import AL_UNC_FLAVI_NKV1          -f alignments/internal/subgenus/flavivirus/NKV1.aln.fna
     import AL_UNC_FLAVI_NKV2          -f alignments/internal/subgenus/flavivirus/NKV2.aln.fna
     import AL_UNC_FLAVI_dISF          -f alignments/internal/subgenus/flavivirus/dISF.aln.fna
+
+    # Tamanavirus
+    import AL_UNC_TAMANA_1            -f alignments/internal/subgenus/tamanavirus/tamana1.aln.fna
+    import AL_UNC_TAMANA_2            -f alignments/internal/subgenus/tamanavirus/tamana2.aln.fna
     
     # Hepacivirus
     import AL_UNC_HEPACI_1            -f alignments/internal/subgenus/hepacivirus/hepaci1.aln.fna
@@ -54,6 +58,5 @@
     # Pegivirus
     import AL_UNC_PEGI_1              -f alignments/internal/subgenus/pegivirus/pegi1.aln.fna
     import AL_UNC_PEGI_2              -f alignments/internal/subgenus/pegivirus/pegi2.aln.fna
-
 
     exit
