@@ -149,7 +149,7 @@
 	extract child AL_TAMANA_SUBGENUS_1 --refName REF_MASTER_TABV
 	demote member AL_TAMANA_SUBGENUS_1 --whereClause "sequence.subgenus= 'Tamana1'"
 
-	extract child AL_TAMANA_SUBGENUS_2 --refName REF_MASTER_TABV
+	extract child AL_TAMANA_SUBGENUS_2 --refName REF_MASTER_TABV_SpsFV
 	demote member AL_TAMANA_SUBGENUS_2 --whereClause "sequence.subgenus= 'Tamana2'"
 	
     exit

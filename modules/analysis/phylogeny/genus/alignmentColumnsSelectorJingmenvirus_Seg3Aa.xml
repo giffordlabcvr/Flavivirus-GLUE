@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_JMTV_Seg3</relRefName>
+    <relRefName>REF_MASTER_JMTV_Seg3</relRefName>
          
     <aminoAcidRegionSelector>
         <featureName>seg3-NS3</featureName>
