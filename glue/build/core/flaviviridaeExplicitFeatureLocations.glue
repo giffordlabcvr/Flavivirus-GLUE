@@ -192,4 +192,132 @@
   exit 
 
 
+  ### Hepaci subgenera references
+  reference REF_MASTER_HEPACI_1_HCV
+
+    add feature-location E1
+    feature-location E1
+      add segment 496 1146
+      exit
+
+    add feature-location E2
+    feature-location E2
+      add segment 1147 1959
+      exit
+      
+  exit
+
+  reference REF_MASTER_HEPACI_2_HCV_L
+
+    add feature-location E1
+    feature-location E1
+      add segment 657 1265
+      exit
+
+    add feature-location E2
+    feature-location E2
+      add segment 1266 2060
+      exit
+      
+  exit
+
+  reference REF_MASTER_HEPACI_3_HCV_K
+
+    add feature-location E1
+    feature-location E1
+      add segment 851 1429
+      exit
+
+    add feature-location E2
+    feature-location E2
+      add segment 1430 2404
+      exit
+      
+  exit
+
+  reference REF_MASTER_HEPACI_4_HCV_J
+
+    add feature-location E1
+    feature-location E1
+      add segment 1047 1601
+      exit
+
+    add feature-location E2
+    feature-location E2
+      add segment 1602 2654
+      exit
+      
+  exit
+
+  reference REF_MASTER_HEPACI_5_BEHV
+
+    add feature-location E1
+    feature-location E1
+      add segment 1085 1660
+      exit
+
+    add feature-location E2
+    feature-location E2
+      add segment 1661 2551
+      exit
+      
+  exit
+
+
+  reference REF_MASTER_HEPACI_6_GHV
+
+    add feature-location E1
+    feature-location E1
+      add segment 1017 1598
+      exit
+
+    add feature-location E2
+    feature-location E2
+      add segment 1599 2414
+      exit
+      
+  exit
+
+  reference REF_MASTER_HEPACI_7_WHCV
+
+    add feature-location E1
+    feature-location E1
+      add segment 1326 1896
+      exit
+
+    add feature-location E2
+    feature-location E2
+      add segment 1896 2612
+      exit
+      
+  exit
+
+  reference REF_MASTER_HEPACI_8_WmeHCV
+
+    add feature-location E1
+    feature-location E1
+      add segment 1071 1634
+      exit
+
+    add feature-location E2
+    feature-location E2
+      add segment 1635 2279
+      exit
+      
+  exit
+
+  reference REF_MASTER_HEPACI_9_WLSV
+
+    add feature-location E1
+    feature-location E1
+      add segment 1032 1613
+      exit
+
+    add feature-location E2
+    feature-location E2
+      add segment 1614 2255
+      exit
+      
+  exit
+
 

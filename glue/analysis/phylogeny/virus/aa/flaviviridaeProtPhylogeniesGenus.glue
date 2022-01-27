@@ -10,18 +10,19 @@
   delete module alignmentColumnsSelectorPL2Aa
   delete module alignmentColumnsSelectorJingmenvirus_Seg1Aa
   delete module alignmentColumnsSelectorJingmenvirus_Seg3Aa
+
     
   # Create all the modules we need
-  create module -f modules/core/flaviviridaeRaxmlPhylogenyGeneratorProt.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorFlavivirusAa.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorTamanavirusAa.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorHepacivirusAa.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorPestivirusAa.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorPL1Aa.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorPL2Aa.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorPegivirusAa.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorJingmenvirus_Seg1Aa.xml
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorJingmenvirus_Seg3Aa.xml
+  create module -f modules/analysis/phylogeny/flaviviridaeRaxmlPhylogenyGeneratorProt.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorFlavivirusAa.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorTamanavirusAa.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorHepacivirusAa.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorPestivirusAa.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorPL1Aa.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorPL2Aa.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorPegivirusAa.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorJingmenvirus_Seg1Aa.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorJingmenvirus_Seg3Aa.xml
   
 
   # Create the phylogenies
@@ -64,4 +65,5 @@
       -o trees/genus/pl2.tre NEWICK_BOOTSTRAPS
 
     exit
+
 

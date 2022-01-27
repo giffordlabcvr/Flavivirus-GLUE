@@ -327,5 +327,68 @@
     exit
     
 
+  #
+  # PEGIVIRUS SUBGENERA
+  #  
+
+  alignment AL_PEGI_SUBGENUS_1
+    derive segments AL_UNC_PEGI_1 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_PEGI_SUBGENUS_2
+    derive segments AL_UNC_PEGI_2 -a --mergeStrategy OVERWRITE
+    exit
+
+
+  #
+  # PESTIVIRUS SUBGENERA
+  #  
+
+  alignment AL_PESTI_SUBGENUS_1
+    derive segments AL_UNC_PESTI_1 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_PESTI_SUBGENUS_2
+    derive segments AL_UNC_PESTI_2 -a --mergeStrategy OVERWRITE
+    exit
+
+
+  #
+  # HEPACIVIRUS SUBGENERA
+  #  
+
+  alignment AL_HEPACI_SUBGENUS_1
+    derive segments AL_UNC_HEPACI_1 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_HEPACI_SUBGENUS_2
+    derive segments AL_UNC_HEPACI_2 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_HEPACI_SUBGENUS_3
+    derive segments AL_UNC_HEPACI_3 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_HEPACI_SUBGENUS_4
+    derive segments AL_UNC_HEPACI_4 -a --mergeStrategy OVERWRITE
+    exit
+    
+  alignment AL_HEPACI_SUBGENUS_5
+    derive segments AL_UNC_HEPACI_5 -a --mergeStrategy OVERWRITE
+    exit
+    
+  alignment AL_HEPACI_SUBGENUS_6
+    derive segments AL_UNC_HEPACI_6 -a --mergeStrategy OVERWRITE
+    exit
+    
+  alignment AL_HEPACI_SUBGENUS_7
+    derive segments AL_UNC_HEPACI_7 -a --mergeStrategy OVERWRITE
+    exit
+    
+  alignment AL_HEPACI_SUBGENUS_9
+    derive segments AL_UNC_HEPACI_9 -a --mergeStrategy OVERWRITE
+    exit
+
+
 
 
