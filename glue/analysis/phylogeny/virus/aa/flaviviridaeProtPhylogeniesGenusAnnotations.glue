@@ -3,7 +3,7 @@
   delete module flaviviridaeFigTreeAnnotationExporter
 
   # Create all the modules we need
-  create module -f modules/core/flaviviridaeFigTreeAnnotationExporter.xml
+  create module -f modules/analysis/phylogeny/flaviviridaeFigTreeAnnotationExporter.xml
 
   # Export annotations
   module flaviviridaeFigTreeAnnotationExporter 
