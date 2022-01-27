@@ -297,12 +297,8 @@
     derive segments AL_UNC_PESTI -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_SUBGENUS_PL1
-    derive segments AL_UNC_PL1 -a --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_SUBGENUS_PL2
-    derive segments AL_UNC_PL2 -a --mergeStrategy OVERWRITE
+  alignment AL_GENUS_LGF
+    derive segments AL_UNC_LGF -a --mergeStrategy OVERWRITE
     exit
 
  
@@ -357,19 +353,6 @@
 
 
   #
-  # PEGIVIRUS SUBGENERA
-  #  
-
-  alignment AL_PEGI_SUBGENUS_1
-    derive segments AL_UNC_PEGI_1 -a --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_PEGI_SUBGENUS_2
-    derive segments AL_UNC_PEGI_2 -a --mergeStrategy OVERWRITE
-    exit
-
-
-  #
   # PESTIVIRUS SUBGENERA
   #  
 
@@ -380,6 +363,20 @@
   alignment AL_PESTI_SUBGENUS_2
     derive segments AL_UNC_PESTI_2 -a --mergeStrategy OVERWRITE
     exit
+
+
+  #
+  # LARGE GENOME FLAVIVIRUS (LGF) SUBGENERA
+  #  
+
+  alignment AL_SUBGENUS_PL1
+    derive segments AL_UNC_PL1 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_SUBGENUS_PL2
+    derive segments AL_UNC_PL2 -a --mergeStrategy OVERWRITE
+    exit
+
 
 
   #
@@ -418,6 +415,19 @@
     derive segments AL_UNC_HEPACI_9 -a --mergeStrategy OVERWRITE
     exit
 
+
+
+  #
+  # PEGIVIRUS SUBGENERA
+  #  
+
+  alignment AL_PEGI_SUBGENUS_1
+    derive segments AL_UNC_PEGI_1 -a --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_PEGI_SUBGENUS_2
+    derive segments AL_UNC_PEGI_2 -a --mergeStrategy OVERWRITE
+    exit
 
 
 

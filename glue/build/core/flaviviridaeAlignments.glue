@@ -19,10 +19,9 @@
     import AL_UNC_FLAVI               -f alignments/internal/genus/flavivirus.aln.fna
     import AL_UNC_TAMANA              -f alignments/internal/genus/tamanavirus.aln.fna   
     import AL_UNC_PESTI               -f alignments/internal/genus/pestivirus.aln.fna
-    import AL_UNC_PL1                 -f alignments/internal/genus/pl1.aln.fna
-    import AL_UNC_PL2                 -f alignments/internal/genus/pl2.aln.fna
     import AL_UNC_JMTV_SEG1           -f alignments/internal/genus/jmtvSeg1.aln.fna    
     import AL_UNC_JMTV_SEG3           -f alignments/internal/genus/jmtvSeg3.aln.fna    
+    import AL_UNC_LGF                 -f alignments/internal/genus/lgf.aln.fna  # Large genome flaviviruses
 
     #~# Subgenera
     
@@ -59,4 +58,9 @@
     import AL_UNC_PEGI_1              -f alignments/internal/subgenus/pegivirus/pegi1.aln.fna
     import AL_UNC_PEGI_2              -f alignments/internal/subgenus/pegivirus/pegi2.aln.fna
 
+    # Large-genome flavivirus (Pesti-like)
+    import AL_UNC_PL1                 -f alignments/internal/subgenus/lgf/pl1.aln.fna
+    import AL_UNC_PL2                 -f alignments/internal/subgenus/lgf/pl2.aln.fna
+
     exit
+    
