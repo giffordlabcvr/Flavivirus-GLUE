@@ -42,9 +42,9 @@
     #  -w "fLocNotes.featureLoc.feature.name = 'seg3-NS3' and fLocNotes.ref_nt_coverage_pct >= 40" \
     #  -o trees/genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS
 
-    generate amino-acid phylogeny AL_TREE_Pestivirus -s alignmentColumnsSelectorPestivirusAa \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/genus/pestivirus.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_TREE_Pestivirus -s alignmentColumnsSelectorPestivirusAa \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/genus/pestivirus.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_TREE_Hepacivirus -s alignmentColumnsSelectorHepacivirusAa \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
@@ -54,13 +54,10 @@
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/genus/pegivirus.tre NEWICK_BOOTSTRAPS
 
-    generate amino-acid phylogeny AL_TREE_PL1 -s alignmentColumnsSelectorPL1Aa \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 10" \
-      -o trees/genus/pl1.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_TREE_LGF -s alignmentColumnsSelectorLGFAa \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 10" \
+    #  -o trees/genus/pl1.tre NEWICK_BOOTSTRAPS
 
-    generate amino-acid phylogeny AL_TREE_PL2 -s alignmentColumnsSelectorPL2Aa \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 10" \
-      -o trees/genus/pl2.tre NEWICK_BOOTSTRAPS
 
     exit
 
