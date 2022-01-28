@@ -25,26 +25,26 @@
   create module -f modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorDisfAa.xml
 
 
-  # Create the phylogenies
+  ## FLAVIVIRUS: Create phylogenies for subgenera
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
     generate amino-acid phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisfAa \
       -a -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
 
-    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfvAa \
-      -a -o trees/subgenus/tbfv-aa.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfvAa \
+    #  -a -o trees/subgenus/tbfv-aa.tre NEWICK_BOOTSTRAPS
 
-    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_MBFV1 -s alignmentColumnsSelectorMbfv1Aa \
-      -a -o trees/subgenus/mbfv1-aa.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_MBFV1 -s alignmentColumnsSelectorMbfv1Aa \
+    #  -a -o trees/subgenus/mbfv1-aa.tre NEWICK_BOOTSTRAPS
 
-    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_MBFV2 -s alignmentColumnsSelectorMbfv2Aa \
-      -a -o trees/subgenus/mbfv2-aa.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_MBFV2 -s alignmentColumnsSelectorMbfv2Aa \
+    #  -a -o trees/subgenus/mbfv2-aa.tre NEWICK_BOOTSTRAPS
     
-    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_NKV1 -s alignmentColumnsSelectorNkv1Aa \
-      -a -o trees/subgenus/nkv1-aa.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_NKV1 -s alignmentColumnsSelectorNkv1Aa \
+    #  -a -o trees/subgenus/nkv1-aa.tre NEWICK_BOOTSTRAPS
 
-    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_dISF1 -s alignmentColumnsSelectorDisfAa \
-      -a -o trees/subgenus/disf-aa.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_dISF1 -s alignmentColumnsSelectorDisfAa \
+    #  -a -o trees/subgenus/disf-aa.tre NEWICK_BOOTSTRAPS
 
     #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorNkv2Aa \
     #  -a -o trees/subgenus/nkv2-aa.tre NEWICK_BOOTSTRAPS
@@ -59,20 +59,23 @@
   ### Pestivirus
 
   # Clean up 
-  delete module alignmentColumnsSelectorPestivirusAa
-  delete module alignmentColumnsSelectorPegivirusAa
-  delete module alignmentColumnsSelectorHepacivirusAa
+  delete module alignmentColumnsSelectorBvdv1Aa
+  delete module alignmentColumnsSelectorTdav1Aa
+  
+  REF_MASTER_PEGI_2_TDAV
 
   # Create all the modules we need
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorPestivirusAa.xml
+  create module -f modules/core/phylogeny/subgenus/alignmentColumnsSelectorBvdv1Aa.xml
+  create module -f modules/core/phylogeny/subgenus/alignmentColumnsSelectorTdavAa.xml
 
-
-  # Create the phylogenies
+  ## PESTIVIRUS: Create phylogenies for subgenera
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
-    generate amino-acid phylogeny AL_TREE_Pestivirus -s alignmentColumnsSelectorPestivirusAa \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/genus/pestivirus.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_PESTI_SUBGENUS_1 -s alignmentColumnsSelectorBvdv1Aa \
+      -a -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
+
+    generate amino-acid phylogeny AL_PESTI_SUBGENUS_2 -s alignmentColumnsSelectorTdavAa \
+      -a -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
       
     exit
 
@@ -80,7 +83,7 @@
   ### Hepacivirus
   create module -f modules/core/phylogeny/alignmentColumnsSelectorHepacivirusAa.xml
 
-  # Create the phylogenies
+  ## HEPACIVIRUS: Create phylogenies for subgenera
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
     generate amino-acid phylogeny AL_TREE_Hepacivirus -s alignmentColumnsSelectorHepacivirusAa \
@@ -93,7 +96,7 @@
   ### Pegivirus
   create module -f modules/core/phylogeny/alignmentColumnsSelectorPegivirusAa.xml
 
-  # Create the phylogenies
+  ## PEGIVIRUS: Create phylogenies for subgenera
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
     generate amino-acid phylogeny AL_TREE_Pegivirus -s alignmentColumnsSelectorPegivirusAa \

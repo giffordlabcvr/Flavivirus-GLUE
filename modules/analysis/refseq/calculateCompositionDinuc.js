@@ -5,9 +5,9 @@ function calculateCompositionDinuc() {
 	var lengthResults = {};
     var outputArray = [];
 
-    // Get all features
-	var allFeatures = {};
-	var resultMap = glue.command(["list", "feature"]);
+    // Get all coding features
+	var codingFeatures = {};
+	var resultMap = glue.command(["list", "feature","-w", "featureMetatags.name = 'CODES_AMINO_ACIDS'"]);
 	var featureList = resultMap["listResult"];
 	var codingFeatureList = featureList["row"];
 	_.each(codingFeatureList,function(featureObj){
@@ -16,116 +16,161 @@ function calculateCompositionDinuc() {
 	
 		var valueArray = featureObj["value"];
 		var codingFeatureName = valueArray[0];
-		glue.log("INFO", "NAME WAS ", featureName)
-		allFeatures[codingFeatureName] = featureObj;
+		//glue.log("INFO", "NAME WAS ", featureName)
+		codingFeatures[codingFeatureName] = featureObj;
 
 	
 	});	
-	//glue.log("INFO", "RESULT WAS ", allFeatures);
+	//glue.log("INFO", "RESULT WAS ", codingFeatures);
 
+
+
+    // calculate for coding features
+
+	// get list of reference sequences from GLUE
+	var referencesResult = glue.command(["list","reference"]);
+	//glue.log("INFO", "RESULT WAS ", referencesResult);
+
+	var listResult = referencesResult["listResult"];
+	var referencesList = listResult["row"];
+	//glue.log("INFO", "RESULT WAS ", referencesList);
 	
-	// export reference sequences from GLUE
-	glue.inMode("module/fastaExporter", function(){
+	// iterate through reference list and get AA composition of each coding feature
+	var dinucCompositionResultsCoding = {};
+	_.each(referencesList, function(refObj) {
 
-		var sequences = glue.command(["export","-w","source.name like '%refseqs%'","-p"]);
-		var list = sequences.nucleotideFasta.sequences;
+		//glue.log("INFO", "RESULT WAS ", refObj);
 	
-		_.each(list, function(seq)  {
-
+		var refseqResults = {};
+		var referenceProperties = refObj["value"];
+		var referenceName = referenceProperties[0];
 	
-			//loop through each sequence in the alignment
-			seqDinucComposition = {}
-		
-			var sequence   = seq.sequence;
-			var sequenceId = seq.id;
-			//glue.log("INFO", "ID result was:", sequenceId);
+		glue.log("INFO", "Reference name result was:", referenceName);
 
-			//loop through each position in the current sequence
-			var lastBase;
-			for (var i=0; i < seq.sequence.length; i++) {
+		// list all features annotated in this reference 
+		// GLUE COMMAND: reference [referenceName] list feature-location
+		glue.inMode("/reference/"+referenceName, function() {
 
-				var base = seq.sequence.charAt(i);
-			
-				if (lastBase) {
-			
-					var dinuc = lastBase += base;
-			
-					if (seqDinucComposition[dinuc]) {				
-						seqDinucComposition[dinuc] += 1;		
-					}
-					else {
-						seqDinucComposition[dinuc] = 1;
-					}				
-					lastBase = undefined;
-				
-				}
-				else {
-			
-				  lastBase = base;
-				}		
-			}
-		
-			//glue.log("INFO", "Dinucleotide composition result was:", seqDinucComposition);
-			dinucCompositionResults[sequenceId] = seqDinucComposition;
-			lengthResults[sequenceId] = seq.sequence.length;
-			
-		});
+			var featureLocsResult = glue.tableToObjects(glue.command(["list", "feature-location"]));
+			//glue.log("INFO", "RESULT WAS ", featureLocsResult);
+			 
+			// iterate through features
+			_.each(featureLocsResult, function(featureObj) {
 
+			   //glue.log("INFO", "RESULT WAS ", featureObj);
+			   var featureResults = {};
+		   
+			   // get amino acid sequence
+			   var featureName = featureObj["feature.name"];
+			   //glue.log("INFO", "Feature name result was:", featureName);
+		   
+			   // Get amino acid output table	
+			   // Construct nuc sequence from table
+			   if (codingFeatures[featureName]) {
+
+			       var nucSequence = '';
+				   glue.inMode("/feature-location/"+featureName, function() {
+						  
+					   var aaSequenceResult = glue.tableToObjects(glue.command(["amino-acid"]));
+					   // iterate through and get amino acid composition of feature
+					   var length = 0;
+					   _.each(aaSequenceResult, function(codonObj) {
  
-		_.each(_.keys(dinucCompositionResults), function(sequenceID) {
-	
-			var seqResults = dinucCompositionResults[sequenceID];
-			//glue.log("INFO", "RESULTS FOR '"+sequenceID+"'");
-
-		    var dinucCountResults = {};
-		    var dinucFreqResults = {};
-            var length = lengthResults[sequenceID];
-            
-			_.each(_.keys(seqResults), function(dinucleotide) {
-
-				var count = seqResults[dinucleotide];
-					
-				var ratio = (count / length) * 100;
-				var aaFormatedRatio = ratio.toFixed(2);
-				//glue.log("INFO", "Got ratio '"+aaFormatedRatio+"' for dinucleotide character'"+dinucleotide+"'");
-				dinucCountResults[dinucleotide] = count;
-				dinucFreqResults[dinucleotide] = aaFormatedRatio;
-							
-		
-			});
-
-			// add results to array to be returned to GLUE
-			outputArray.push({
-		
-				referenceName: sequenceID,
-				seqLength: length,
-				"AA%": dinucFreqResults["AA"],
-				"AT%": dinucFreqResults["AT"],
-				"AC%": dinucFreqResults["AC"],
-				"AG%": dinucFreqResults["AG"],
-				"TA%": dinucFreqResults["TA"],
-				"TT%": dinucFreqResults["TT"],
-				"TC%": dinucFreqResults["TC"],
-				"TG%": dinucFreqResults["TG"],
-				"CA%": dinucFreqResults["CA"],
-				"CT%": dinucFreqResults["CT"],
-				"CC%": dinucFreqResults["CC"],
-				"CG%": dinucFreqResults["CG"],
-				"GA%": dinucFreqResults["GA"],
-				"GT%": dinucFreqResults["GT"],
-				"GC%": dinucFreqResults["GC"],
-				"GG%": dinucFreqResults["GG"]
+						   var codonNts = codonObj["codonNts"];
+						   nucSequence .= codonNts;
+						   length += 3;
+						   //glue.log("INFO", "Codon result was:", codonNts);
+						   
+					   });
+				   
+					   featureResults["length"] = length;
+					   featureResults["nucSequence"] = nucSequence;
+		   
+				   });
 			   
-			});
+				  // store feature result
+				  refseqResults[featureName] = featureResults;
+				  			
+				}
+				   
+			});   
 
+			// store reference result
+			dinucCompositionResultsCoding[referenceName] = refseqResults;
 		
-		});
-
-
+		});   
+	
 	});
 
-	 
+    
+    // calculate for non-coding features
+	var dinucCompositionResultsNonCoding = {};
+
+	// iterate through reference list and get AA composition of each non-coding feature
+	_.each(referencesList, function(refObj) {
+
+
+		// list all features annotated in this reference 
+		// GLUE COMMAND: reference [referenceName] list feature-location
+		glue.inMode("/reference/"+referenceName, function() {
+
+			var featureLocsResult = glue.tableToObjects(glue.command(["list", "feature-location"]));
+			//glue.log("INFO", "RESULT WAS ", featureLocsResult);
+			 
+			// iterate through features
+			_.each(featureLocsResult, function(featureObj) {
+
+			   //glue.log("INFO", "RESULT WAS ", featureObj);
+			   var featureResults = {};
+		   
+			   // get amino acid sequence
+			   var featureName = featureObj["feature.name"];
+			   //glue.log("INFO", "Feature name result was:", featureName);
+		   
+			   // Get amino acid output table	
+			   // Construct nuc sequence from table
+			   if (codingFeatures[featureName]) {
+			       next;
+			   }
+			   else {
+
+			       var nucSequence = '';
+				   
+				   // in feature location mode get list of segments
+				   // store all segments
+			   
+				   // use fasta exporter to generate the nuc sequence of each segment
+				   // splice all segments together 
+				   
+				  // store feature result
+				  //refseqResults[featureName] = featureResults;
+				   		
+				}
+
+
+
+				   
+			});
+
+			// store reference result
+			dinucCompositionResultsNonCoding[referenceName] = refseqResults;
+		
+		});   
+	
+	});
+
+
+	// Count dinucleotides in nuc sequence & calculate frequencies
+
+
+    
+	// Return output
 	return outputArray;
 }
 
 
+// Subroutine - get sequence and otehr data from from amino acid table 
+
+// Iterate through table rows
+
+// 
