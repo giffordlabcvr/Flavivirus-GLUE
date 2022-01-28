@@ -91,14 +91,14 @@ create reference    REF_FLAVI_TYUV    ncbi-refseqs    NC_023424 # Tyuleniy virus
 
 
 ### Tamanavirus
-create reference    REF_TABV_FfsFV    ncbi-refseqs    MK473880     # Firefly squid flavivirus    
-create reference    REF_TABV_LFLV     ncbi-refseqs    MF776369     # Cyclopterus lumpus virus    
-create reference    REF_TABV_ColFlaV  ncbi-refseqs    MW208755     # Coleopteran flavi-related virus    
-create reference    REF_TABV_PleFlaV  ncbi-refseqs    MW208760     # Plectopteran flavi-related virus    
-create reference    REF_TABV_EmbFlaV  ncbi-refseqs    MW208759     # Embiopteran flavi-related virus    
-create reference    REF_TABV_ErsFV    ncbi-refseqs    MH716818     # Eastern red scorpionfish flavivirus    
-create reference    REF_TABV_WenSFV   ncbi-refseqs    MG599986     # Wenzhou shark flavivirus    
-create reference    REF_TABV_DnFV     fasta-refseqs   DnFV         # Dianemobius nigrofasciatus flavivirus    
+create reference    REF_TAMANA_FfsFV    ncbi-refseqs    MK473880     # Firefly squid flavivirus    
+create reference    REF_TAMANA_LFLV     ncbi-refseqs    MF776369     # Cyclopterus lumpus virus    
+create reference    REF_TAMANA_ColFlaV  ncbi-refseqs    MW208755     # Coleopteran flavi-related virus    
+create reference    REF_TAMANA_PleFlaV  ncbi-refseqs    MW208760     # Plectopteran flavi-related virus    
+create reference    REF_TAMANA_EmbFlaV  ncbi-refseqs    MW208759     # Embiopteran flavi-related virus    
+create reference    REF_TAMANA_ErsFV    ncbi-refseqs    MH716818     # Eastern red scorpionfish flavivirus    
+create reference    REF_TAMANA_WenSFV   ncbi-refseqs    MG599986     # Wenzhou shark flavivirus    
+create reference    REF_TAMANA_DnFV     fasta-refseqs   DnFV         # Dianemobius nigrofasciatus flavivirus    
 
 
 ### Jingmenvirus
@@ -121,8 +121,7 @@ create reference    REF_PESTI_1_GiPeV    ncbi-refseqs    NC_003678 # Pestivirus 
 create reference    REF_PESTI_1_BVDV3    ncbi-refseqs    NC_012812 # Bovine viral diarrhea virus 3    
 create reference    REF_PESTI_1_Aydin    ncbi-refseqs    NC_018713 # Pestivirus strain Aydin/04-TR    
 create reference    REF_PESTI_1_BPVV4    ncbi-refseqs    MH282911 # Bat Pestivirus V4    
-create reference    REF_PESTI_1_BPVV3    ncbi-refseqs    MH282910 # Bat Pestivirus V3    
-create reference    REF_PESTI_3_BPVV1    ncbi-refseqs    MH282908 # Bat Pestivirus V1    
+create reference    REF_PESTI_1_BPVV3    ncbi-refseqs    MH282910 # Bat Pestivirus V3      
 create reference    REF_PESTI_2_RPVNn    ncbi-refseqs    KY370103 # Rodent Pestivirus Nn    
 create reference    REF_PESTI_2_RPVAd    ncbi-refseqs    KY370102 # Rodent Pestivirus Ad    
 create reference    REF_PESTI_2_RPVAp    ncbi-refseqs    KY370100 # Rodent Pestivirus Ap    
@@ -130,18 +129,19 @@ create reference    REF_PESTI_2_RPVNe    ncbi-refseqs    KY370099 # Rodent Pesti
 create reference    REF_PESTI_2_GPV      ncbi-refseqs    NC_003678 # Giraffe Pestivirus    
 create reference    REF_PESTI_2_LPV      ncbi-refseqs    NC_035432 # Linda Virus    
 create reference    REF_PESTI_2_APV      ncbi-refseqs    NC_018713  # Aydin Virus    
+create reference    REF_PESTI_3_BPVV1    ncbi-refseqs    MH282908 # Bat Pestivirus V1  
 
 
 ### Pesti-like 1 
-create reference    REF_PL1_ApisFV      ncbi-refseqs    NC_035071 # Apis flavivirus    
-create reference    REF_PL1_WuCentiV    ncbi-refseqs    KR902737 # Wuhan centipede virus    
-create reference    REF_PL1_XinSpiFV    ncbi-refseqs    KR902735 # Xinzhou spider virus 2    
-create reference    REF_PL1_TakV        ncbi-refseqs    KU754513 # Takaungu virus     
-create reference    REF_PL1_LampV       ncbi-refseqs    MH620810 # Lampyris noctiluca flavivirus 1    
+create reference    REF_PL1_ApisFV       ncbi-refseqs    NC_035071 # Apis flavivirus    
+create reference    REF_PL1_WuCentiV     ncbi-refseqs    KR902737 # Wuhan centipede virus    
+create reference    REF_PL1_XinSpiFV     ncbi-refseqs    KR902735 # Xinzhou spider virus 2    
+create reference    REF_PL1_TakV         ncbi-refseqs    KU754513 # Takaungu virus     
+create reference    REF_PL1_LampV        ncbi-refseqs    MH620810 # Lampyris noctiluca flavivirus 1    
 
 ### Pesti-like 2
-create reference    REF_PL2_MEV-1    ncbi-refseqs    NC_028137 # Macrosiphum euphorbiae virus 1    
-create reference    REF_PL2_SmFlV    ncbi-refseqs    MH778148 # Sitobion miscanthi flavi-like virus 1    
+create reference    REF_PL2_MEV-1        ncbi-refseqs    NC_028137 # Macrosiphum euphorbiae virus 1    
+create reference    REF_PL2_SmFlV        ncbi-refseqs    MH778148 # Sitobion miscanthi flavi-like virus 1    
 
 ### Hepacivirus
 create reference    REF_HEPACI_2_BHCV    ncbi-refseqs    NC_026797 # Bovine hepacivirus    
@@ -188,22 +188,22 @@ create reference    REF_HEPACI_1_BBHV    ncbi-refseqs    MT371434 # Bush Baby He
 create reference    REF_HEPACI_2_BHV-PM_01  ncbi-refseqs    BK013349 # Bat Hepacivirus PM_01    
 
 ### Pegivirus
-create reference    REF_PEGI_1_HHpgV   ncbi-refseqs    KT439329  # Human hepegivirus     
-create reference    REF_PEGI_1_NPgV    ncbi-refseqs    NC_025679 # Norway rat pegivirus    
-create reference    REF_PEGI_1_RPgV    ncbi-refseqs    NC_021154 # Rodent pegivirus    
-create reference    REF_PEGI_1_PVF     ncbi-refseqs    NC_038434 # Pegivirus F    
-create reference    REF_PEGI_1_PVG     ncbi-refseqs    NC_038435 # Pegivirus G    
-create reference    REF_PEGI_2_GBV-A   ncbi-refseqs    NC_001837 # Pegivirus A    
-create reference    REF_PEGI_2_EPgV    ncbi-refseqs    NC_020902 # Equine pegivirus 1    
-create reference    REF_PEGI_2_HGV1    ncbi-refseqs    NC_001710 # GB virus C    
-create reference    REF_PEGI_2_SPgV    ncbi-refseqs    NC_024377 # Simian pegivirus    
-create reference    REF_PEGI_2_BPV     ncbi-refseqs    KC796073  # Bat Pegivirus    
-create reference    REF_PEGI_2_GBVD    ncbi-refseqs    NC_030291 # Pegivirus B/GB-Virus D    
-create reference    REF_PEGI_2_PVI     ncbi-refseqs    KC796088  # Pegivirus I    
-create reference    REF_PEGI_2_PPV     ncbi-refseqs    KU351670  # Porcine Pegivirus    
-create reference    REF_PEGI_2_PVK     ncbi-refseqs    NC_034442 # Pegivirus K    
-create reference    REF_PEGI_2_DPV     ncbi-refseqs    MK059751  # Dophin Pegivirus    
-create reference    REF_PEGI_2_GPV     ncbi-refseqs    MW091548  # Goose Pegivirus    
-create reference    REF_PEGI_2_SOBV    ncbi-refseqs    MT513216  # Southwest bike trail virus
+create reference    REF_PEGI_1_HHpgV     ncbi-refseqs    KT439329  # Human hepegivirus     
+create reference    REF_PEGI_1_NPgV      ncbi-refseqs    NC_025679 # Norway rat pegivirus    
+create reference    REF_PEGI_1_RPgV      ncbi-refseqs    NC_021154 # Rodent pegivirus    
+create reference    REF_PEGI_1_PVF       ncbi-refseqs    NC_038434 # Pegivirus F    
+create reference    REF_PEGI_1_PVG       ncbi-refseqs    NC_038435 # Pegivirus G    
+create reference    REF_PEGI_2_GBV-A     ncbi-refseqs    NC_001837 # Pegivirus A    
+create reference    REF_PEGI_2_EPgV      ncbi-refseqs    NC_020902 # Equine pegivirus 1    
+create reference    REF_PEGI_2_HGV1      ncbi-refseqs    NC_001710 # GB virus C    
+create reference    REF_PEGI_2_SPgV      ncbi-refseqs    NC_024377 # Simian pegivirus    
+create reference    REF_PEGI_2_BPV       ncbi-refseqs    KC796073  # Bat Pegivirus    
+create reference    REF_PEGI_2_GBVD      ncbi-refseqs    NC_030291 # Pegivirus B/GB-Virus D    
+create reference    REF_PEGI_2_PVI       ncbi-refseqs    KC796088  # Pegivirus I    
+create reference    REF_PEGI_2_PPV       ncbi-refseqs    KU351670  # Porcine Pegivirus    
+create reference    REF_PEGI_2_PVK       ncbi-refseqs    NC_034442 # Pegivirus K    
+create reference    REF_PEGI_2_DPV       ncbi-refseqs    MK059751  # Dophin Pegivirus    
+create reference    REF_PEGI_2_GPV       ncbi-refseqs    MW091548  # Goose Pegivirus    
+create reference    REF_PEGI_2_SOBV      ncbi-refseqs    MT513216  # Southwest bike trail virus
 
 

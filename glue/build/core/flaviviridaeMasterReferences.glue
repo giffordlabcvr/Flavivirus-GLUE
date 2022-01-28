@@ -13,7 +13,7 @@
   create reference REF_MASTER_ccCFV            ncbi-refseqs   MK473878   # crustacean
   create reference REF_MASTER_ssFV             fasta-refseqs  SsFV_consensus  # arachnid
 
-  ### TABV
+  ### 'Tamanavirus'
   create reference REF_MASTER_TABV             ncbi-refseqs   NC_003996  # Vertebrate group
   create reference REF_MASTER_TABV_SFV         ncbi-refseqs   MT075326   # Salmon flavivirus	
   create reference REF_MASTER_TABV_SpsFV       ncbi-refseqs   MK473875   # Cephalopod group

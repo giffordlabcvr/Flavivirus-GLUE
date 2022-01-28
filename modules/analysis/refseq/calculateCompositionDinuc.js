@@ -4,6 +4,25 @@ function calculateCompositionDinuc() {
 	var dinucCompositionResults = {};
 	var lengthResults = {};
     var outputArray = [];
+
+    // Get all features
+	var allFeatures = {};
+	var resultMap = glue.command(["list", "feature"]);
+	var featureList = resultMap["listResult"];
+	var codingFeatureList = featureList["row"];
+	_.each(codingFeatureList,function(featureObj){
+
+		//glue.log("INFO", "RESULT WAS ", featureObj);
+	
+		var valueArray = featureObj["value"];
+		var codingFeatureName = valueArray[0];
+		glue.log("INFO", "NAME WAS ", featureName)
+		allFeatures[codingFeatureName] = featureObj;
+
+	
+	});	
+	//glue.log("INFO", "RESULT WAS ", allFeatures);
+
 	
 	// export reference sequences from GLUE
 	glue.inMode("module/fastaExporter", function(){

@@ -2,6 +2,7 @@ function calculateCompositionAa() {
 
 	// Script to calculate amino acid composition in reference sequences
 
+    // Get all coding features
 	var codingFeatures = {};
 	var resultMap = glue.command(["list", "feature","-w", "featureMetatags.name = 'CODES_AMINO_ACIDS'"]);
 	var featureList = resultMap["listResult"];
