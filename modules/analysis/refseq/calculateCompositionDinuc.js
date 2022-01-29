@@ -141,14 +141,14 @@ function calculateCompositionDinuc() {
 			   
 				   // use fasta exporter to generate the nuc sequence of each segment
 				   // splice all segments together 
+
+				   //featureResults["length"] = length;
+				   //featureResults["nucSequence"] = nucSequence;
 				   
 				  // store feature result
 				  //refseqResults[featureName] = featureResults;
 				   		
 				}
-
-
-
 				   
 			});
 
