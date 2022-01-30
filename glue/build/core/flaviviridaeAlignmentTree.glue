@@ -99,10 +99,10 @@
 	extract child AL_GENUS_Flavivirus    --refName REF_MASTER_YFV
 	demote member AL_GENUS_Flavivirus    --whereClause "sequence.genus = 'Flavivirus'"
 
-	extract child AL_GENUS_Tamanavirus   --refName REF_MASTER_TABV
+	extract child AL_GENUS_Tamanavirus   --refName REF_MASTER_TAMANA_1_TABV
 	demote member AL_GENUS_Tamanavirus   --whereClause "sequence.genus = 'Tamanavirus'"
 
-	#extract child AL_GENUS_PRAWN         --refName REF_MASTER_TABV
+	#extract child AL_GENUS_PRAWN         --refName REF_MASTER_TAMANA_1_TABV
 	#demote member AL_GENUS_PRAWN         --whereClause "sequence.genus = 'Prawn'"
 	
     exit
@@ -146,10 +146,10 @@
   
   alignment AL_GENUS_Tamanavirus
 
-	extract child AL_TAMANA_SUBGENUS_1 --refName REF_MASTER_TABV
+	extract child AL_TAMANA_SUBGENUS_1 --refName REF_MASTER_TAMANA_1_TABV
 	demote member AL_TAMANA_SUBGENUS_1 --whereClause "sequence.subgenus= 'Tamana1'"
 
-	extract child AL_TAMANA_SUBGENUS_2 --refName REF_MASTER_TABV_SpsFV
+	extract child AL_TAMANA_SUBGENUS_2 --refName REF_MASTER_TAMANA_2_SpsFV
 	demote member AL_TAMANA_SUBGENUS_2 --whereClause "sequence.subgenus= 'Tamana2'"
 	
     exit
