@@ -103,7 +103,7 @@
   #
 
 
-  alignment AL_SUBGENUS_PL2
+  alignment AL_LGF_SUBGENUS_PL2
     derive segments AL_EFV_UNC_PL2 -a  
     exit
 

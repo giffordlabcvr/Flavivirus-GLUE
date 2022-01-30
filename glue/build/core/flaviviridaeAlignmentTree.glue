@@ -369,11 +369,11 @@
   # LARGE GENOME FLAVIVIRUS (LGF) SUBGENERA
   #  
 
-  alignment AL_SUBGENUS_PL1
+  alignment AL_LGF_SUBGENUS_PL1
     derive segments AL_UNC_PL1 -a --mergeStrategy OVERWRITE
     exit
 
-  alignment AL_SUBGENUS_PL2
+  alignment AL_LGF_SUBGENUS_PL2
     derive segments AL_UNC_PL2 -a --mergeStrategy OVERWRITE
     exit
 

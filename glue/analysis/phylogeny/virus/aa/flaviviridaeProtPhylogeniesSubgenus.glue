@@ -12,6 +12,8 @@
   delete module alignmentColumnsSelectorCrustaceanAa
   delete module alignmentColumnsSelectorDisfAa
 
+  delete module alignmentColumnsSelectorPL1Aa
+  delete module alignmentColumnsSelectorPL2Aa
   
   # Create all the modules we need
   create module -f modules/analysis/phylogeny/flaviviridaeRaxmlPhylogenyGeneratorProt.xml

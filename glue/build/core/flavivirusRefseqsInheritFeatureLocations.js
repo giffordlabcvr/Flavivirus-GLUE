@@ -1,28 +1,31 @@
-// Remove feature location annotations all reference sequences except master
-glue.command(["multi-delete", "feature_location", "-w", "referenceSequence.name != 'REF_MASTER_Dependo_AAV2'"]);
+// Get a list of all MSA MASTER references
 
-// Get list of features on master reference
-var featuresToInherit = get_features('REF_MASTER_Dependo_AAV2');
+// Iterate through master references
 
-//list all dependo reference sequences
-var refSeqObjList = glue.tableToObjects(glue.command(["list", "reference", "name"]));
+  // Get list of features on master reference
+  var featuresToInherit = get_features('REF_MASTER_Dependo_AAV2');
+
+  //list all dependo reference sequences
+  var refSeqObjList = glue.tableToObjects(glue.command(["list", "reference", "name"]));
 
 
-_.each(refSeqObjList, function(refSeqObj) {
+  _.each(refSeqObjList, function(refSeqObj) {
 
-	 for(var k = 0; k < featuresToInherit.length; k++) {
-		 var featureID = featuresToInherit[k];
+	   for(var k = 0; k < featuresToInherit.length; k++) {
+		   var featureID = featuresToInherit[k];
 		 
-		 glue.logInfo(" Inheriting feature: "+featureID+" from AAV2 to "+refSeqObj.name);		
+		   glue.logInfo(" Inheriting feature: "+featureID+" from AAV2 to "+refSeqObj.name);		
 
-		 glue.inMode("reference/"+refSeqObj.name, function() {
-			 glue.command(["inherit", "feature-location", 			
-				 "AL_Dependo3", "-l", "REF_MASTER_Dependo_AAV2", featureID]);
-		 });			
+		   glue.inMode("reference/"+refSeqObj.name, function() {
+			   glue.command(["inherit", "feature-location", 			
+				   "AL_Dependo3", "-l", "REF_MASTER_Dependo_AAV2", featureID]);
+		   });			
 		 
-	 }
-	 		
-});
+	   }
+			
+  });
+
+
 
 // Get feature names for a give reference sequence
 function get_features(refseqID) {

@@ -10,7 +10,6 @@
   delete module alignmentColumnsSelectorCrustacean
   delete module alignmentColumnsSelectorDisf
 
-  
   # Create all the general phylogeny modules we need
   create module -f  modules/analysis/phylogeny/flaviviridaeRaxmlPhylogenyGeneratorNucs.xml
   
@@ -29,25 +28,25 @@
   # Create the Flavivirus subgenus phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorNucs
 
-    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisf \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus/cisf.tre NEWICK_BOOTSTRAPS
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisf \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus/cisf.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfv     \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus/tbfv.tre NEWICK_BOOTSTRAPS
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfv     \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus/tbfv.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_MBFV1 -s alignmentColumnsSelectorMbfv1 \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus/mbfv1.tre NEWICK_BOOTSTRAPS
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_MBFV1 -s alignmentColumnsSelectorMbfv1 \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus/mbfv1.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_MBFV2 -s alignmentColumnsSelectorMbfv2 \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus/mbfv2.tre NEWICK_BOOTSTRAPS
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_MBFV2 -s alignmentColumnsSelectorMbfv2 \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus/mbfv2.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV1 -s alignmentColumnsSelectorNkv1 \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus/nkv1.tre NEWICK_BOOTSTRAPS
+    #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV1 -s alignmentColumnsSelectorNkv1 \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/subgenus/nkv1.tre NEWICK_BOOTSTRAPS
 
     # Currently too few genera
     #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_NKV2 -s alignmentColumnsSelectorNkv2 \
@@ -106,10 +105,9 @@
   # Create the Hepacivirus subgenus phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorNucs
 
-    # Currently too few genera
-    #generate nucleotide phylogeny AL_HEPACI_SUBGENUS_1 -s alignmentColumnsSelectorHepaci1 \
-    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus/hepaci1.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_HEPACI_SUBGENUS_1 -s alignmentColumnsSelectorHepaci1 \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus/hepaci1.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_HEPACI_SUBGENUS_2 -s alignmentColumnsSelectorHepaci2 \
     #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \

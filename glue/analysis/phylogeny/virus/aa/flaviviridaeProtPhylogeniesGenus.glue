@@ -6,8 +6,6 @@
   delete module alignmentColumnsSelectorHepacivirusAa
   delete module alignmentColumnsSelectorPestivirusAa
   delete module alignmentColumnsSelectorPegivirusAa
-  delete module alignmentColumnsSelectorPL1Aa
-  delete module alignmentColumnsSelectorPL2Aa
   delete module alignmentColumnsSelectorJingmenvirus_Seg1Aa
   delete module alignmentColumnsSelectorJingmenvirus_Seg3Aa
 
