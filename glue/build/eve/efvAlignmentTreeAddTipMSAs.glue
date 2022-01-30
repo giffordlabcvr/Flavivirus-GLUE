@@ -46,7 +46,7 @@
 
   alignment AL_GENUS_LGF
 
-	demote member AL_SUBGENUS_PL2 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'PL2'"
+	demote member AL_LGF_SUBGENUS_PL2 -w "sequence.source.name = 'fasta-digs-eve' and sequence.genus = 'PL2'"
 
     exit
 

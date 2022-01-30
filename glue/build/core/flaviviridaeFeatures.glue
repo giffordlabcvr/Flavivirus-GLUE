@@ -58,7 +58,8 @@
   create feature structural_proteins -p precursor_polyprotein "Structural proteins"
   feature structural_proteins set field displayName "Structural proteins"
   feature structural_proteins set metatag INFORMATIONAL true
-
+  feature structural_proteins set metatag CODES_AMINO_ACIDS true
+  
   ## Npro
 
   create feature Npro -p structural_proteins "Npro"
@@ -186,7 +187,7 @@
   create feature non_structural_proteins -p precursor_polyprotein "Non-structural proteins"
   feature non_structural_proteins set field displayName "Non-structural proteins"
   feature non_structural_proteins set metatag INFORMATIONAL true
-
+  feature non_structural_proteins set metatag CODES_AMINO_ACIDS true
 
   ## Non-structural protein NS1
 
