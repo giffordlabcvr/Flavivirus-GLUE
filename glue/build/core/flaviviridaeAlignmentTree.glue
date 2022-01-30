@@ -66,11 +66,11 @@
    alignment AL_GENUS_LGF 
 
 
-	extract child AL_SUBGENUS_PL1  --refName REF_MASTER_SCNV5
-	demote member AL_SUBGENUS_PL1  --whereClause "sequence.subgenus= 'PL1'"
+	extract child AL_LGF_SUBGENUS_PL1 --refName REF_MASTER_SCNV5
+	demote member AL_LGF_SUBGENUS_PL1 --whereClause "sequence.subgenus= 'PL1'"
 
-	extract child AL_SUBGENUS_PL2 --refName REF_MASTER_SLV2
-	demote member AL_SUBGENUS_PL2 --whereClause "sequence.subgenus= 'PL2'"
+	extract child AL_LGF_SUBGENUS_PL2 --refName REF_MASTER_SLV2
+	demote member AL_LGF_SUBGENUS_PL2 --whereClause "sequence.subgenus= 'PL2'"
 	
     exit
 
