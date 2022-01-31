@@ -2,12 +2,13 @@
 <alignmentColumnsSelector>
 
     <relRefName>REF_MASTER_PEGI_1_HPgV2</relRefName>
-      
+
+
+    <!-- Nucleotides -->
     <nucleotideRegionSelector>
         <featureName>NS5</featureName>
-        <startNt>2490</startNt>
-        <endNt>9498</endNt>
+        <startNt>6424</startNt>
+        <endNt>6571</endNt>
     </nucleotideRegionSelector>
-
-  
+    
 </alignmentColumnsSelector>
