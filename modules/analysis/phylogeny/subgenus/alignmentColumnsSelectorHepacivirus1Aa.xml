@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_MASTER_HEPACI_1_HCV</relRefName>
+
+    <!-- Amino acids -->
+    <aminoAcidRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startCodon>111</startCodon>
+        <endCodon>177</endCodon>
+    </aminoAcidRegionSelector>
+
+    <aminoAcidRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startCodon>993</startCodon>
+        <endCodon>1590</endCodon>
+    </aminoAcidRegionSelector>
+
+    <aminoAcidRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startCodon>1915</startCodon>
+        <endCodon>2063</endCodon>
+    </aminoAcidRegionSelector>
+         
+    <aminoAcidRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startCodon>2420</startCodon>
+        <endCodon>2526</endCodon>
+    </aminoAcidRegionSelector>
+         
+    <aminoAcidRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startCodon>2575</startCodon>
+        <endCodon>2861</endCodon>
+    </aminoAcidRegionSelector>
+    
+</alignmentColumnsSelector>
+

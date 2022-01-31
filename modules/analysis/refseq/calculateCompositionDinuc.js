@@ -36,6 +36,7 @@ function calculateCompositionDinuc() {
 		var referenceProperties = refObj["value"];
 		
 		var referenceName = referenceProperties[0];
+		var sequenceID = referenceProperties[2];
 
 		//glue.log("INFO", "Reference name result was:", referenceName);
 
@@ -43,7 +44,7 @@ function calculateCompositionDinuc() {
 		var nucSeq;
 		glue.inMode("module/fastaExporter", function() {
 
-			nucSeqResult = glue.command(["export","-w","sequenceID = 'NC_002031'","-p"]);			
+			nucSeqResult = glue.command(["export","-w","sequenceID = '"+sequenceID+"'","-p"]);			
 			//glue.log("INFO", "NUC RESULT WAS ", nucSeqResult);			
 			var list = nucSeqResult.nucleotideFasta.sequences;			
 			_.each(list, function(seq) {

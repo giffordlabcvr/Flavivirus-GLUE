@@ -30,11 +30,11 @@
   ## FLAVIVIRUS: Create phylogenies for subgenera
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
-    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisfAa \
-      -a -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisfAa \
+    #  -a -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfvAa \
-    #  -a -o trees/subgenus/tbfv-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfvAa \
+      -a -o trees/subgenus/tbfv-aa.tre NEWICK_BOOTSTRAPS
 
     #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_MBFV1 -s alignmentColumnsSelectorMbfv1Aa \
     #  -a -o trees/subgenus/mbfv1-aa.tre NEWICK_BOOTSTRAPS
@@ -63,47 +63,46 @@
   # Clean up 
   delete module alignmentColumnsSelectorBvdv1Aa
   delete module alignmentColumnsSelectorTdav1Aa
-  
-  REF_MASTER_PEGI_2_TDAV
 
   # Create all the modules we need
-  create module -f modules/core/phylogeny/subgenus/alignmentColumnsSelectorBvdv1Aa.xml
-  create module -f modules/core/phylogeny/subgenus/alignmentColumnsSelectorTdavAa.xml
+  create module -f modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorBvdv1Aa.xml
+  create module -f modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorTdavAa.xml
 
   ## PESTIVIRUS: Create phylogenies for subgenera
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
-    generate amino-acid phylogeny AL_PESTI_SUBGENUS_1 -s alignmentColumnsSelectorBvdv1Aa \
-      -a -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_PESTI_SUBGENUS_1 -s alignmentColumnsSelectorBvdv1Aa \
+    #  -a -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
 
-    generate amino-acid phylogeny AL_PESTI_SUBGENUS_2 -s alignmentColumnsSelectorTdavAa \
-      -a -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_PESTI_SUBGENUS_2 -s alignmentColumnsSelectorTdavAa \
+    #  -a -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
       
     exit
 
 
   ### Hepacivirus
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorHepacivirusAa.xml
+  create module -f modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorHepacivirus1Aa.xml
 
   ## HEPACIVIRUS: Create phylogenies for subgenera
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
-    generate amino-acid phylogeny AL_TREE_Hepacivirus -s alignmentColumnsSelectorHepacivirusAa \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/genus/hepacivirus.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_HEPACI_SUBGENUS_2 -s alignmentColumnsSelectorHepacivirus2Aa \
+    #  -a -o trees/genus/hepacivirus.tre NEWICK_BOOTSTRAPS
+
+    #generate amino-acid phylogeny AL_HEPACI_SUBGENUS_5 -s alignmentColumnsSelectorHepacivirus5Aa \
+    #  -a -o trees/genus/hepacivirus.tre NEWICK_BOOTSTRAPS
 
     exit
 
 
   ### Pegivirus
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorPegivirusAa.xml
+  create module -f modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorPegivirus1Aa.xml
 
   ## PEGIVIRUS: Create phylogenies for subgenera
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
-    generate amino-acid phylogeny AL_TREE_Pegivirus -s alignmentColumnsSelectorPegivirusAa \
-      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/genus/pegivirus.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_PEGI_SUBGENUS_1 -s alignmentColumnsSelectorPegivirus1Aa \
+    #  -a -o trees/genus/pegivirus.tre NEWICK_BOOTSTRAPS
 
     exit
 

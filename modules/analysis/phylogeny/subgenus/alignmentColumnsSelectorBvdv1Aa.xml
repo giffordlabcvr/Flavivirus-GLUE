@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_MASTER_POWV</relRefName>
+    <relRefName>REF_MASTER_PESTI_1_BVDV1</relRefName>
  
     <aminoAcidRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
+        <featureName>NS5</featureName>
         <startCodon>1</startCodon>
-        <endCodon>3415</endCodon>
+        <endCodon>1200</endCodon>
     </aminoAcidRegionSelector>
   
 </alignmentColumnsSelector>
