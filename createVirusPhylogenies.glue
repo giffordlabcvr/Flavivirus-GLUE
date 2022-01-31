@@ -1,0 +1,23 @@
+
+  ### Create the core (i.e. virus-only) subgenus-level phylogenies
+
+project flaviviridae
+
+  # Virus nucleotide subgenus
+  run file glue/analysis/phylogeny/virus/na/flaviviridaeNucPhylogeniesSubgenus.glue
+  run file glue/analysis/phylogeny/virus/na/flaviviridaeNucPhylogeniesSubgenusReroot.glue
+  run file glue/analysis/phylogeny/virus/na/flaviviridaeNucPhylogeniesSubgenusAnnotations.glue
+
+  # Virus polypeptide subgenus
+  #run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesSubgenus.glue
+  #run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesSubgenusReroot.glue
+  #run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesSubgenusAnnotations.glue
+
+  ## Create genus-level polypeptide phylogenies
+  run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesGenusCreateTreeAlignments.glue
+  run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesGenus.glue
+  run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesGenusReroot.glue
+  run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesGenusAnnotations.glue
+  
+  exit
+

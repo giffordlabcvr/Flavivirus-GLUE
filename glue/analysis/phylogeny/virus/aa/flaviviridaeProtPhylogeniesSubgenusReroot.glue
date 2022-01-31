@@ -13,7 +13,7 @@
 	reroot-phylogeny \
       --inputFile trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/subgenus/cisf.MidpointRerooted-aa.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/subgenus/cisf.MidpointRerooted-aa.tree NEWIC K_BOOTSTRAPS
 
 	reroot-phylogeny \
       --inputFile trees/subgenus/tbfv-aa.tre NEWICK_BOOTSTRAPS \

@@ -199,6 +199,7 @@
 
   reference REF_MASTER_HEPACI_2_HCV_L
 
+
     add feature-location e1_hepaci
     feature-location e1_hepaci
       add segment 657 1265
@@ -208,7 +209,47 @@
     feature-location e2_hepaci
       add segment 1266 2060
       exit
+    
+    add feature-location p7
+    feature-location p7
+      add segment 2061 2237
+      exit
       
+    add feature-location hepaci-NS2
+    feature-location hepaci-NS2
+      add segment 2238 2873
+      exit
+
+    add feature-location NS3
+    feature-location NS3
+      add segment 4468 6327
+      exit
+
+    add feature-location hepaci-NS4A
+    feature-location hepaci-NS4A
+      add segment 4761 4931
+      exit
+
+    add feature-location hepaci-NS4B
+    feature-location hepaci-NS4B
+      add segment 4932 5708
+      exit 
+
+    add feature-location NS5
+    feature-location NS5
+      add segment 5709 8876
+      exit
+
+    add feature-location NS5A
+    feature-location NS5A
+      add segment 5709 7085
+      exit
+
+    add feature-location NS5B
+    feature-location NS5B
+      add segment 7086 8876
+      exit
+  
   exit
 
   reference REF_MASTER_HEPACI_3_HCV_K

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_MASTER_HEPACI_1_HCV</relRefName>
+
+
+    <!-- Nucleotides -->
+    <nucleotideRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startNt>672</startNt>
+        <endNt>842</endNt>
+    </nucleotideRegionSelector>
+
+    <nucleotideRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startNt>3318</startNt>
+        <endNt>5111</endNt>
+    </nucleotideRegionSelector>
+
+    <nucleotideRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startNt>6084</startNt>
+        <endNt>6530</endNt>
+    </nucleotideRegionSelector>
+
+    <nucleotideRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startNt>7599</startNt>
+        <endNt>7919</endNt>
+    </nucleotideRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>precursor_polyprotein</featureName>
+        <startNt>8064</startNt>
+        <endNt>8924</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>

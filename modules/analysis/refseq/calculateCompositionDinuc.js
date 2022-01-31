@@ -296,10 +296,10 @@ function calculateCompositionDinuc() {
 				var count = seqDinucComposition[dinucleotide];
 					
 				var ratio = (count / seqLength) * 100;
-				var aaFormatedRatio = ratio.toFixed(2);
-				//glue.log("INFO", "Got ratio '"+aaFormatedRatio+"' for dinucleotide character'"+dinucleotide+"'");
+				var dinucFormatedRatio = ratio.toFixed(2);
+				//glue.log("INFO", "Got ratio '"+dinucFormatedRatio+"' for dinucleotide character'"+dinucleotide+"'");
 				dinucCountResults[dinucleotide] = count;
-				dinucFreqResults[dinucleotide] = aaFormatedRatio;
+				dinucFreqResults[dinucleotide] = dinucFormatedRatio;
 									
 			});
 
@@ -375,10 +375,10 @@ function calculateCompositionDinuc() {
 				var count = seqDinucComposition[dinucleotide];
 					
 				var ratio = (count / seqLength) * 100;
-				var aaFormatedRatio = ratio.toFixed(2);
-				//glue.log("INFO", "Got ratio '"+aaFormatedRatio+"' for dinucleotide character'"+dinucleotide+"'");
+				var dinucFormatedRatio = ratio.toFixed(2);
+				//glue.log("INFO", "Got ratio '"+dinucFormatedRatio+"' for dinucleotide character'"+dinucleotide+"'");
 				dinucCountResults[dinucleotide] = count;
-				dinucFreqResults[dinucleotide] = aaFormatedRatio;
+				dinucFreqResults[dinucleotide] = dinucFormatedRatio;
 									
 			});
 

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_MASTER_PESTI_1_BVDV1</relRefName>
-         
+    <relRefName>REF_MASTER_PEGI_1_HPgV2</relRefName>
+      
     <nucleotideRegionSelector>
         <featureName>NS5</featureName>
-        <startNt>8705</startNt>
-        <endNt>12349</endNt>
+        <startNt>2490</startNt>
+        <endNt>9498</endNt>
     </nucleotideRegionSelector>
- 
+
+  
 </alignmentColumnsSelector>
