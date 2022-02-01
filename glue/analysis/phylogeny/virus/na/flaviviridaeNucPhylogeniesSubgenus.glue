@@ -29,7 +29,7 @@
   module flaviviridaeRaxmlPhylogenyGeneratorNucs
 
     #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisf \
-    #  -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
     #  -o trees/subgenus/cisf.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfv     \
@@ -113,7 +113,7 @@
     #  -o trees/subgenus/hepaci1.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_HEPACI_SUBGENUS_2 -s alignmentColumnsSelectorHepaci2 \
-    #  -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
     #  -o trees/subgenus/hepaci2.tre NEWICK_BOOTSTRAPS
     
     #generate nucleotide phylogeny AL_HEPACI_SUBGENUS_3 -s alignmentColumnsSelectorHepaci3 \
@@ -131,7 +131,8 @@
 
 
   # Clean-up
-  delete module alignmentColumnsSelectorPegivirus1
+  delete module alignmentColumnsSelectorHepacivirus1
+
 
   # Create all the alignment column selector modules we need
   create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorPegivirus1.xml
@@ -140,7 +141,7 @@
   module flaviviridaeRaxmlPhylogenyGeneratorNucs
 
     generate nucleotide phylogeny AL_PEGI_SUBGENUS_1 -s alignmentColumnsSelectorPegivirus1 \
-      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/subgenus/pegi1.tre NEWICK_BOOTSTRAPS
 
     exit
