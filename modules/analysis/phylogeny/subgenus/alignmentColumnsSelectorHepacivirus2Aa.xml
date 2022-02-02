@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_MASTER_POWV</relRefName>
- 
+    <relRefName>REF_MASTER_HEPACI_2_HCV_L</relRefName>
+
+    <!-- Amino acids -->
     <aminoAcidRegionSelector>
         <featureName>NS5</featureName>
         <startCodon>1</startCodon>
-        <endCodon>903</endCodon>
+        <endCodon>1056</endCodon>
     </aminoAcidRegionSelector>
-  
+    
 </alignmentColumnsSelector>
+

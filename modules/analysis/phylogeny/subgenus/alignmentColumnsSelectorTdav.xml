@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_MASTER_POWV</relRefName>
+    <relRefName>REF_MASTER_PEGI_2_TDAV</relRefName>
          
     <nucleotideRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
-        <startNt>112</startNt>
-        <endNt>10356</endNt>
+        <featureName>NS5B</featureName>
+        <startNt>8388</startNt>
+        <endNt>10354</endNt>
     </nucleotideRegionSelector>
  
 </alignmentColumnsSelector>

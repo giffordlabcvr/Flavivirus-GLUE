@@ -4,7 +4,7 @@
     <relRefName>REF_MASTER_POWV</relRefName>
          
     <nucleotideRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
+        <featureName>NS5</featureName>
         <startNt>7648</startNt>
         <endNt>10354</endNt>
     </nucleotideRegionSelector>
