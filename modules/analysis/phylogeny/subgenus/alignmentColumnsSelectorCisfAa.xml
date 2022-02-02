@@ -4,15 +4,9 @@
     <relRefName>REF_MASTER_KRV</relRefName>
 
     <aminoAcidRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
-        <startCodon>249</startCodon>
-        <endCodon>1068</endCodon>
-    </aminoAcidRegionSelector>
-
-    <aminoAcidRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
-        <startCodon>2483</startCodon>
-        <endCodon>3315</endCodon>
+        <featureName>NS5</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>888</endCodon>
     </aminoAcidRegionSelector>
     
 </alignmentColumnsSelector>

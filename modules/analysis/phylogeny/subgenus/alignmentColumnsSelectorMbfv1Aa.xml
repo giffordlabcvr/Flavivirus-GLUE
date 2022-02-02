@@ -4,9 +4,9 @@
     <relRefName>REF_MASTER_DEN1</relRefName>
 
     <aminoAcidRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
+        <featureName>NS5</featureName>
         <startCodon>1</startCodon>
-        <endCodon>3392</endCodon>
+        <endCodon>899</endCodon>
     </aminoAcidRegionSelector>
      
 </alignmentColumnsSelector>

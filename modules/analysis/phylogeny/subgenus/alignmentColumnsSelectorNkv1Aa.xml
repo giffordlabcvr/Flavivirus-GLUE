@@ -4,9 +4,9 @@
     <relRefName>REF_MASTER_APOIV</relRefName>
 
     <aminoAcidRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
+        <featureName>NS5</featureName>
         <startCodon>1</startCodon>
-        <endCodon>3371</endCodon>
+        <endCodon>897</endCodon>
     </aminoAcidRegionSelector>
     
 </alignmentColumnsSelector>

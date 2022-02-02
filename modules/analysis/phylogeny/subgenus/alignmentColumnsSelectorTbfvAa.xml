@@ -4,9 +4,9 @@
     <relRefName>REF_MASTER_POWV</relRefName>
  
     <aminoAcidRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
+        <featureName>NS5</featureName>
         <startCodon>1</startCodon>
-        <endCodon>880</endCodon>
+        <endCodon>900</endCodon>
     </aminoAcidRegionSelector>
   
 </alignmentColumnsSelector>

@@ -4,9 +4,9 @@
     <relRefName>REF_MASTER_YFV</relRefName>
          
     <aminoAcidRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
+        <featureName>NS5</featureName>
         <startCodon>1</startCodon>
-        <endCodon>3411</endCodon>
+        <endCodon>905</endCodon>
     </aminoAcidRegionSelector>
         
 </alignmentColumnsSelector>
