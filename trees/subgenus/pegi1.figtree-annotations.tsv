@@ -1,0 +1,7 @@
+taxon	sequenceID	name	full_name	subfamily	genus	host_major_group	host_minor_group	vector_group	sampled_host_sci_name
+alignment/AL_PEGI_SUBGENUS_1/member/ncbi-refseqs/KT439329	KT439329	HHpgV	Human hepegivirus	HepaPegi	Pegivirus	Mammalia	Primates	none	Homo sapiens
+alignment/AL_PEGI_SUBGENUS_1/member/ncbi-refseqs/NC_021154	NC_021154	RPgV	Rodent pegivirus	HepaPegi	Pegivirus	Mammalia	Rodentia	none	Neotoma lepida
+alignment/AL_PEGI_SUBGENUS_1/member/ncbi-refseqs/NC_025679	NC_025679	NPgV	Norway rat pegivirus	HepaPegi	Pegivirus	Mammalia	Rodentia	none	Rattus norvegicus
+alignment/AL_PEGI_SUBGENUS_1/member/ncbi-refseqs/NC_027998	NC_027998	HPgV-2	Human pegivirus 2	HepaPegi	Pegivirus	Mammalia	Primates	none	Homo sapiens
+alignment/AL_PEGI_SUBGENUS_1/member/ncbi-refseqs/NC_038434	NC_038434	PVF	Pegivirus F	HepaPegi	Pegivirus	Mammalia	Chiroptera	none	Carollia perspicillata
+alignment/AL_PEGI_SUBGENUS_1/member/ncbi-refseqs/NC_038435	NC_038435	PVG	Pegivirus G	HepaPegi	Pegivirus	Mammalia	Chiroptera	none	Scotophilus dinganii

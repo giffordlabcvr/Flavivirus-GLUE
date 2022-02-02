@@ -70,6 +70,27 @@
 
 
   # Clean-up
+  delete module alignmentColumnsSelectorPl1
+  
+  # Create all the alignment column selector modules we need
+  create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorPl1.xml
+  
+  # Create the Large-Genome Flavirus subgenus phylogenies
+  module flaviviridaeRaxmlPhylogenyGeneratorNucs
+
+    generate nucleotide phylogeny AL_LGF_SUBGENUS_PL1 -s alignmentColumnsSelectorPl1 \
+      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus/pl1.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_LGF_SUBGENUS_PL2 -s alignmentColumnsSelectorPl2 \
+      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus/pl2.tre NEWICK_BOOTSTRAPS
+
+    exit
+
+
+
+  # Clean-up
   delete module alignmentColumnsSelectorHepacivirus2
 
   # Create all the alignment column selector modules we need

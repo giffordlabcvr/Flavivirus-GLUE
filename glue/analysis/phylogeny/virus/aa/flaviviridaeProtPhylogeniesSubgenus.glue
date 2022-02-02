@@ -30,8 +30,9 @@
   ## FLAVIVIRUS: Create phylogenies for subgenera
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
-    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisfAa \
-    #  -a -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisfAa \
+      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
 
     #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfvAa \
     #  -a -o trees/subgenus/tbfv-aa.tre NEWICK_BOOTSTRAPS

@@ -1,0 +1,9 @@
+taxon	sequenceID	name	full_name	subfamily	genus	host_major_group	host_minor_group	vector_group	sampled_host_sci_name
+alignment/AL_PESTI_SUBGENUS_1/member/ncbi-refseqs/NC_001461	NC_001461	BVDV1	Bovine viral diarrhea virus 1	FlaviPesti	Pestivirus	Mammalia	Artiodactyla	none	-
+alignment/AL_PESTI_SUBGENUS_1/member/ncbi-refseqs/NC_002657	NC_002657	CSFV	Classical swine fever virus	FlaviPesti	Pestivirus	Mammalia	Artiodactyla	none	-
+alignment/AL_PESTI_SUBGENUS_1/member/ncbi-refseqs/NC_003678	NC_003678	GiPeV	Pestivirus giraffe-1 H138	FlaviPesti	Pestivirus	Mammalia	Artiodactyla	none	Giraffa camelopardalis
+alignment/AL_PESTI_SUBGENUS_1/member/ncbi-refseqs/NC_003679	NC_003679	BDV	Border disease virus	FlaviPesti	Pestivirus	Mammalia	Artiodactyla	none	-
+alignment/AL_PESTI_SUBGENUS_1/member/ncbi-refseqs/NC_012812	NC_012812	BVDV3	Bovine viral diarrhea virus 3 Th/04_KhonKaen	FlaviPesti	Pestivirus	Mammalia	Artiodactyla	none	Bos taurus
+alignment/AL_PESTI_SUBGENUS_1/member/ncbi-refseqs/NC_018713	NC_018713	Aydin	Pestivirus strain Aydin/04-TR	FlaviPesti	Pestivirus	Mammalia	Artiodactyla	none	sheep
+alignment/AL_PESTI_SUBGENUS_1/member/ncbi-refseqs/NC_023176	NC_023176	PoPeV	Porcine pestivirus isolate Bungowannah	FlaviPesti	Pestivirus	Mammalia	Artiodactyla	none	-
+alignment/AL_PESTI_SUBGENUS_1/member/ncbi-refseqs/NC_024018	NC_024018	PAPeV	Pronghorn antelope pestivirus	FlaviPesti	Pestivirus	Mammalia	Artiodactyla	none	pronghorn antelope
