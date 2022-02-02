@@ -3,11 +3,10 @@
 
     <relRefName>REF_MASTER_KRV</relRefName>
          
-
-    <aminoAcidRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
-        <startCodon>1</startCodon>
-        <endCodon>3357</endCodon>
-    </aminoAcidRegionSelector>
-    
+    <nucleotideRegionSelector>
+        <featureName>NS5</featureName>
+        <startNt>7504</startNt>
+        <endNt>10165</endNt>
+    </nucleotideRegionSelector>
+ 
 </alignmentColumnsSelector>

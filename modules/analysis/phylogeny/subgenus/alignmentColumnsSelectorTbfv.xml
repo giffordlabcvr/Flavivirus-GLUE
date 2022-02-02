@@ -5,8 +5,8 @@
          
     <nucleotideRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startNt>112</startNt>
-        <endNt>10356</endNt>
+        <startNt>7648</startNt>
+        <endNt>10354</endNt>
     </nucleotideRegionSelector>
  
 </alignmentColumnsSelector>

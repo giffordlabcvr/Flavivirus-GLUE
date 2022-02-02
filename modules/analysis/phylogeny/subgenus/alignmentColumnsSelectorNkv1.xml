@@ -4,9 +4,9 @@
     <relRefName>REF_MASTER_APOIV</relRefName>
     
     <nucleotideRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
-        <startNt>1</startNt>
-        <endNt>10113</endNt>
+        <featureName>NS5</featureName>
+        <startNt>7423</startNt>
+        <endNt>10111</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

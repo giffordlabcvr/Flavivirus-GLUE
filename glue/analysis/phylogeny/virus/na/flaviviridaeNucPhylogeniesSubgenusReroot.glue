@@ -7,9 +7,11 @@
   create module -f modules/analysis/phylogeny/flaviviridaePhyloUtility.xml
 
 
-  # Re-root phylogeny 
+  # Re-root phylogenies 
   module flaviviridaePhyloUtility 
 
+
+    # FLAVI SUBGENERA
 	reroot-phylogeny \
       --inputFile trees/subgenus/cisf.tre NEWICK_BOOTSTRAPS \
       --midpoint \
@@ -35,16 +37,23 @@
       --midpoint \
       --outputFile trees/subgenus/nkv1-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-	#reroot-phylogeny \
-    #  --inputFile trees/subgenus/nkv2.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    #  --outputFile trees/subgenus/nkv2-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+    # PESTI SUBGENERA
+	reroot-phylogeny \
+      --inputFile trees/subgenus/pesti1.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/subgenus/pesti1-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-	#reroot-phylogeny \
-    #  --inputFile trees/subgenus/crustacean.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    #  --outputFile trees/subgenus/crustacean-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+    # HEPACI SUBGENERA
+	reroot-phylogeny \
+      --inputFile trees/subgenus/hepaci2.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/subgenus/hepaci2-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    # PEGI SUBGENERA
+	reroot-phylogeny \
+      --inputFile trees/subgenus/pegi1.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/subgenus/pegi1-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
-
 

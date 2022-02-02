@@ -1,4 +1,0 @@
-taxon	sequenceID	name	full_name	subfamily	genus	host_major_group	host_minor_group	vector_group	sampled_host_sci_name
-alignment/AL_FLAVI_SUBGENUS_NKV2/member/ncbi-refseqs/NC_005039	NC_005039	YOKV	Yokose virus	FlaviPesti	Flavivirus	Mammalia	Chiroptera	unknown	-
-alignment/AL_FLAVI_SUBGENUS_NKV2/member/ncbi-refseqs/NC_008718	NC_008718	ENTV	Entebbe bat virus	FlaviPesti	Flavivirus	Mammalia	Chiroptera	unknown	bat
-alignment/AL_FLAVI_SUBGENUS_NKV2/member/ncbi-refseqs/NC_026624	NC_026624	SOKV	Sokoluk virus	FlaviPesti	Flavivirus	Mammalia	Chiroptera	unknown	Vespertilio pipistrellus
