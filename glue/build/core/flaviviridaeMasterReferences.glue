@@ -18,10 +18,15 @@
   create reference REF_MASTER_TAMANA_3_SFV     ncbi-refseqs   MT075326   # Salmon flavivirus	
   create reference REF_MASTER_TAMANA_2_SpsFV   ncbi-refseqs   MK473875   # Cephalopod group
 
+  ### Flavi-like group 4 (FL4)
+  create reference REF_MASTER_FL4_IPV          ncbi-refseqs   MT084113  # Infectious precocity virus
+
   ### Jingmenvirus
   create reference REF_MASTER_JMTV_CONCAT      fasta-refseqs  JMTV_CONCAT 
   create reference REF_MASTER_JMTV_Seg3        ncbi-refseqs   NC_024114 
   create reference REF_MASTER_JMTV_Seg1        ncbi-refseqs   NC_024113 
+
+
 
   ### Pestivirus
   create reference REF_MASTER_PESTI_1_BVDV1    ncbi-refseqs   NC_001461  
