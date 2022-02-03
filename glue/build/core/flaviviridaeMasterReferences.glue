@@ -7,8 +7,7 @@
   create reference REF_MASTER_MPFV             ncbi-refseqs   LC582740   # Mpulungu
   create reference REF_MASTER_APOIV            ncbi-refseqs   NC_003676  # NKV1
   create reference REF_MASTER_LAMV             ncbi-refseqs   NC_024806  # dISF
-  create reference REF_MASTER_SOKV             ncbi-refseqs   NC_026624  # NKV2
-  
+  create reference REF_MASTER_SOKV             ncbi-refseqs   NC_026624  # NKV2  
   create reference REF_MASTER_KRV              ncbi-refseqs   NC_005064  # cISF
   create reference REF_MASTER_ccCFV            ncbi-refseqs   MK473878   # crustacean
   create reference REF_MASTER_ssFV             fasta-refseqs  SsFV_consensus  # arachnid
@@ -34,10 +33,8 @@
   create reference REF_MASTER_PESTI_3_APPeV    ncbi-refseqs   NC_038964  
   create reference REF_MASTER_PESTI_4_NdsPV    ncbi-refseqs   MG599984  
 
-  ### Pesti-like 1 
+  ### LGF
   create reference REF_MASTER_SCNV5            ncbi-refseqs   NC_024077
-
-  ### Pesti-like 2
   create reference REF_MASTER_SLV2             ncbi-refseqs   NC_028373
 
   ### Hepacivirus
