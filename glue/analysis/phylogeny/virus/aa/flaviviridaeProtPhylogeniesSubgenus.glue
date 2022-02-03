@@ -80,7 +80,7 @@
 
     generate amino-acid phylogeny AL_HEPACI_SUBGENUS_2 -s alignmentColumnsSelectorHepacivirus2Aa \
       -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/genus/hepacivirus2-aa.tre NEWICK_BOOTSTRAPS
+      -o trees/subgenus/hepacivirus2-aa.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -99,7 +99,7 @@
 
     generate amino-acid phylogeny AL_PEGI_SUBGENUS_1 -s alignmentColumnsSelectorPegivirus1Aa \
       -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/genus/pegivirus1-aa.tre NEWICK_BOOTSTRAPS
+      -o trees/subgenus/pegivirus1-aa.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_PEGI_SUBGENUS_2 -s alignmentColumnsSelectorTdavAa \
       -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
