@@ -1,225 +1,225 @@
-sequenceID	full_name	name	family	subfamily	supergenus	genus	subgenus	clade	segment	host_major_group	host_minor_group	host_group_species	vector_group	reservoir_group	isolate_name	region	isolation_host
-SsFV_consensus	Sea spider flavivirus	SsFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Arachnid	NULL		Arthropods		Endeis	NK	NK			Endeis spinosa
-NC_012932	Aedes flavivirus	AEFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Aedes	none	none	Narita-21	Asia	Aedes albopictus
-NC_001564	Cell fusing agent virus	CFAV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Aedes	none	none	Galveston	Americas	Aedes aegypti
-NC_008604	Culex flavivirus	CxFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Culex	none	none	Tokyo	Asia	Culex pipiens
-HE574574	Culex theileri flavivirus	CTFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Culex	none	none	178	Europe	Culex theileri
-JQ268258	Hanko virus	HANKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Ochlerotatus	none	none	-	Europe	Ochlerotatus mosquito
-NC_005064	Kamiti River virus	KRV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Aedes	none	none	SR-82	Africa	Ae. macintoshi 
-NC_027819	Mercadeo virus	MECDV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Culex	none	none	ER-M10	Americas	Culex sp.
-NC_021069	Mosquito flavivirus	MosqFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Culex	none	none	LSFlaviV-A20-09	Asia	Culex tritaeniorhynchus
-NC_030400	Nakiwogo virus	NAKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Mansonia	none	none	Uganda08	Africa	Mansonia africana nigerrima
-NC_024299	Nienokoue virus	NIEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Culex	none	none	B51/CI/2004	Africa	Culex sp.
-KC505248	Palm Creek virus	PCV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Coquillettidia	none	none	56	Oceania	Coquillettidia xanthogaster
-NC_027817	Parramatta River virus	PaRV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Aedes	none	none	92-B115745	Oceania	A. vigilax
-NC_012671	Quang Binh virus	QBV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Culex	none	none	VN180	Asia	Culex tritaeniorhynchus (mosquito)
-NC_031327	Anopheles flavivirus	AnophFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Anopheles	none	none	-	-	-
-MK473877	Gammarus chevreuxi flavivirus	GcFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Crustacean	NULL		Arthropods	Crustaceans	Gammarus	crustacean		-	-	Gammarus chevreuxi
-MK473878	Crangon crangon flavivirus	CcFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Crustacean	NULL		Arthropods	Crustaceans	Crangon	crustacean		-	-	Crangon crangon
-MK473881	Gammarus pulex flavivirus	GpFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Crustacean	NULL		Arthropods	Crustaceans	Gammarus	crustacean		-	-	Gammarus pulex
-KY320649 	La Tina	LTNV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Ochlerotatus	none	none	49_LT96	Americas	Ochlerotatus scapularis
-KY290249	Long Pine Key virus	LPKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Ochlerotatus	none	none	EVG-1-33	Americas	Ochlerotatus atlanticus
-KC496020	Barkedji virus	BJV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Culex	none	none	363/11	Asia	Culex perexiguus
-NC_024017	Nhumirim virus	NHUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Culex	none	none	BrMS-MQ10	Americas	Culex chidesteri
-NC_017086	Chaoyang virus	CHAOV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Aedes	none	none	HLD115	Asia	Ae. vexans,  Ae. albopictus,  Ae. bekkui,  Armigeres subalbatus, Cx. Pipiens
-NC_016997	Donggang virus	DONV/DGV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Aedes	none	none	DG0909	Asia	Aedes sp. (mosquito)
-NC_024805	Ilomantsi virus	ILOV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Aedes	none	none	M0724	Europe	Ochlerotatus riparius and/or Anopheles spp. 
-NC_024806	Lammi virus	LAMV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Aedes	none	none	M0719	Europe	Ae. cinereus
-KY347801	Marisma mosquito virus	MMV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Aedes	none	none	HU 4528/07	Europe	Aedes caspius
-AY898809	Alfuy virus	ALFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	MRM3929	Oceania	Centropus phasianius
-NC_012534	Bagaza virus	BAGV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	DakArB 209	Africa	Culex
-KM225264	Bainyik virus	Bainyik	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		Mammalia		Aedes	mosquito	mammals	MK7979	Oceania	Aedes sp. (mosquito)
-NC_009026	Bussuquara virus	BSQV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Mammalia		Culex	mosquito	primates	BeAn 4073	Americas	Alouatta beelzebul Sentinel
-NC_026623	Cacipacore virus	CPCV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	BeAn 327600	Americas	Formicarius analis
-NC_001477	Dengue virus 1	DENV1	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		Mammalia		Aedes	mosquito	primates	45AZ5	Africa/Asia	-
-NC_001474	Dengue virus 2	DENV2	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		Mammalia		Aedes	mosquito	primates	16681	Asia	Homo sapiens
-NC_001475	Dengue virus 3	DENV3	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		Mammalia		Aedes	mosquito	primates	D3SriLa1266	Asia	-
-NC_002640	Dengue virus 4	DEN4	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		Mammalia		Aedes	mosquito	primates	-	Africa/Asia	-
-AY632538	Iguape virus	IGUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves/Mammalia		Culex	mosquito	bird/mammal	SPAn 71686	Americas	Mus musculus
-NC_009028	Ilheus virus	ILHV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	-	Americas	Psorophora spp. 
-NC_001437	Japanese encephalitis virus	JEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves/Mammalia		Culex	mosquito	bird/mammal		Asia	Homo sapiens
-NC_012533	Kedougou virus	KEDV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		NK		Aedes	mosquito	unknown	ArD 14701	Africa	Aedes minutus
-EU082200	Koutango virus	KOUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	DakAnD 5443	Africa	Tatera kempi
-NC_000943	Murray Valley encephalitis virus	MVEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	MVE/1/1951	Oceania	Homo sapiens
-NC_032088	New Mapoon virus	NMV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		NK		Culex	mosquito	unknown	CY1014	Oceania	Culex annulirostris
-EU159426	Nounane virus	NOUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		NK		Aedes	mosquito	unknown	Nounane_B3	Africa	Uranotaenia mashonaensis
-NC_018705	Ntaya virus	NTAV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		NK		Culex	mosquito	unknown	IPDIA	Africa	-
-AY632542	Rocio virus	ROCV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	SPH 34675	Americas	Homo sapiens
-NC_029055	Spondweni virus	SPOV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		NK		Aedes	mosquito	unknown	SAAr 94	Africa	Mansonia uniformis
-NC_007580	St. Louis encephalitis virus	SLEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	-	Americas	Homo sapiens
-KM225263	Stratford virus	STRV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Mammalia		Culex	mosquito	marsupials	C338	Oceania	Aedes vigilax
-NC_015843	Tembusu virus	TMUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	JS804	Asia	Anser cygnoides
-KM225265	Torres virus	Torres	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	TS5273	Oceania	Aedes albopictus
-NC_006551	Usutu virus	USUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	SAAr 1776	Africa	Culex neavei
-NC_001563	West Nile virus	WNV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	B956	Africa	Homo sapiens
-EU082199	Yaounde virus	YAOV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	ArY 276	Africa	Culex nebulosis
-NC_012532	Zika virus	ZIKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		Mammalia		Aedes	mosquito	mammals	MR 766	Africa	sentinel monkey
-D00246	Kunjin virus 	KUNV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	MRM61C	-	-
-KC734550	Israel turkey meningoencephalomyelitis virus	ITV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	Israel/618/1995	-	Meleagris 
-JX477686	Sitiawan virus 	STWV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	-	-	-
-JF312912	Baiyangdian virus	BYDV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	-	-	Anas
-KF917538	Naranjal virus 	NJLV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Mammalia		Culex	mosquito	mammals	25008	-	Cricetinae
-NC_009029	Kokobera virus 	KOKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Mammalia		Culex	mosquito	mammals	AusMRM 32	-	-
-JF926699	Layer flavivirus	LayV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	mosquito	birds	CJD05	-	-
-NC_027999	Paraiso Escondido virus	EPEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		Arthropods	Insects	Lutzomyia	none	none	Ecuador2012	Americas	Lutzomyia abonnenci
-DQ859056	Banzi virus	BANV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		Mammalia		Aedes	mosquito	rodents	H336	Africa	Homo sapiens
-NC_033693	Bouboui virus	BOUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		NK	NK	Aedes	mosquito	unknown	DakArB 490	Africa	Anopheles paludis
-NC_030289	Edge Hill virus	EHV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		Mammalia	Primates	Aedes	mosquito	primates	C281	Oceania	Aedes vigilax
-NC_033699	Jugra virus	JUGV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		Mammalia		Aedes	mosquito	mammals	P9-314	Asia	Aedes spp
-NC_033697	Saboya virus	SABV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		Mammalia	Rodentia	Aedes	mosquito	rodents	DakAnD 4600	Africa	Tatera kempi
-NC_008719	Sepik virus	SEPV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		NK	NK	Aedes	mosquito	unknown	MK 7148	Oceania	Mansonia septempunctata
-NC_033698	Uganda S virus	UGSV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		NK	NK	Aedes	mosquito	unknown	-	Africa	Aedes spp.
-NC_012735	Wesselsbron virus	WSLV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		Mammalia		Aedes	mosquito	ungulates	van Tonder	Africa	Merino sheep
-NC_002031	Yellow fever virus	YFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		Mammalia	Primates	Aedes	mosquito	primates	-	Africa/Americas	Aedes aegypti, Aedes albopictus
-LC582740	Mpulungu flavivirus	Mpulungu	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mpulungu	NULL		NK	NK	unknown	unknown	Rhipicephalus muhsamae	ZT17-1078	Africa	Rhipicephalus muhsamae
-NC_003676	Apoi virus	APOIV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL		Mammalia	Rodentia	Apodemus	unknown	rodents	-	Asia	Apodemus spp.
-NC_026620	Jutiapa virus	JUTV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL		Mammalia	Rodentia	Sigmodon	unknown	rodents	JG-128	Americas	Sigmodon hispidus
-NC_003635	Modoc virus	MODV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL		Mammalia	Rodentia	Peromyscus	unknown	rodents	M544	Americas	Peromyscus maniculatus
-NC_004119	Montana myotis leukoencephalitis virus	MMLV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL		Mammalia	Chiroptera	Myotis	unknown	bat	-	Americas	Myotis lucifugus
-NC_003675	Rio Bravo virus	RBV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL		Mammalia	Chiroptera	Tadarida	unknown	bat	M64	Americas	Tadarida brasiliensis mexicana
-KJ469370	Batu Cave virus	BCV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL		Mammalia	Rodentia	unknown	unknown	unknown	-	-	-
-NC_008718	Entebbe bat virus	ENTV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV2	NULL		Mammalia	Chiroptera	unknown	unknown	bat	UgIL-30	Africa	Tadarida limbata
-NC_026624	Sokuluk virus	SOKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV2	NULL		Mammalia	Chiroptera	unknown	unknown	bat	LEIV-400K	Asia	Vespertilio pipistrellus
-NC_005039	Yokose virus	YOKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV2	NULL		Mammalia	Chiroptera	unknown	unknown	bat	Oita 36	Asia	Miniopterus fuliginosus
-NC_033723	Gadgets Gully virus	GGYV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Aves		Ixodes	tick	birds	CSIRO 122	Oceania	Ixodes uriae
-NC_033724	Kadam virus	KADV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia		Rhipicephalus	tick	mammals	AMP 6640	Africa	Rhipicephalus pravus
-NC_023439	Kama virus	KAMV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Aves		Ixodes	tick	birds	-	Europe	Ixodes lividus
-JF416960	Kyasanur forest disease virus	KFDV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia		Hemaphysalis	tick	primates	-	Asia	Semnopithecus entellus
-NC_003690	Langat virus	LGTV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia		Ixodes	tick	primates	TP-21	Asia	Ixodes granulatus 
-NC_001809	Louping ill virus	LIV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia	Artiodactyla	Ixodes	tick	even-toad ungulates	-	Europe	Sheep (Ovis aries)
-NC_033721	Meaban virus	MEAV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Aves		Ornithodoros	tick	birds	Brest/Ar/T-707	Europe	Ornithodoros maritimus
-NC_005062	Omsk hemorrhagic fever virus	OMSKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia	Primates	Dermacentor	tick	primates	Bogoluvovska	Europe	Homo sapiens
-NC_003687	Powassan virus	POWV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia	Primates	Ixodes	tick	primates	L.B.	Americas	Homo sapiens
-DQ235149	Royal Farm virus	RFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia		Argas	tick	mammals	ArT 371	Asia	Argas hermanni
-NC_033726	Saumarez reef virus	SREV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Aves		Ornithodoros	tick	birds	CSIRO4	Oceania	Ornithodoros capensis
-NC_027709	Spanish goat encephalitis virus	SGEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia		Ixodes	tick	ungulates	AstGoatIREC2011	Europe	Bermeya goat
-NC_001672	Tick-borne encephalitis virus	TBEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia		Ixodes	tick	rodents	Neudoerfl	Europe	-
-DQ235151	Turkish sheep encephalitis	TSEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia		Ixodes	tick	ungulates	TTE80	Asia	-
-NC_023424	Tyuleniy virus	TYUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Aves		Ixodes	tick	birds	LEIV 6C	Europe	Ixodes uriae
-JMTV_CONCAT	Jingmen tick virus	JMTV_CONCAT	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	1+3	Arthropods	Acari	Ixodes	ticks	mammals	H3	-	Ixodes persulcatus
-MH158415	Alongshan virus 	Alongshan_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	1	Arthropods	Acari	Ixodes	ticks	mammals	H3	-	Ixodes persulcatus
-KX883002	Changjiang Jingmen-like virus 	Changjiang_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	1	Arthropods	Crustaceans	Procambarus	none	none	CJLX28200	-	Procambarus clarkii
-KM521552	Guaico Culex virus 	Guaico_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	1	Arthropods	Insects	Culex	none	none	ACH27	-	Culex interrogator
-NC_024113	Jingmen tick virus	JMTV_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	1	Arthropods	Acari	Rhipicephalus	ticks	mammals	SY84	-	Rhipicephalus microplus
-KR902721	Wuhan Aphid	WuhanAphid_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	1	Arthropods	Insects	Hyalopterus	none	none	-	-	Hyalopterus pruni
-NC_028396	Shuangao insect virus 7	Siv7_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	1	Arthropods	Insects	Chrysopidae spp	none	none	-	-	-
-NC_024114	Jingmen tick virus	JMTV_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	3	Arthropods	Acari	Rhipicephalus	ticks	mammals	SY84	-	Ixodes persulcatus
-KX883003	Changjiang Jingmen-like virus 	Changjiang_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	3	Arthropods	Crustaceans	Procambarus	none	none	CJLX28200		Procambarus clarkii
-KR902723	Wuhan Aphid	WuhanAphid_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	3	Arthropods	Insects	Hyalopterus	none	none	-		Hyalopterus pruni
-KM521553	Guaico Culex virus 	Guaico_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	3	Arthropods	Insects	Culex	none	none	ACH27		Culex interrogator
-MK473875	Southern pygmy squid flavivirus	SpsFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana2	NULL		Mollusca	Cephalopoda	Cephalopoda	none	none			
-MK473880	Firefly squid flavivirus	FfsFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana2	NULL		Mollusca	Cephalopoda	Cephalopoda	none	none			
-NC_003996	Tamana bat virus	TABV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Mammalia	Chiroptera	Pteronotus	none	none	Tr127154	Americas	Pteronotus parnellii
-MF776369	Cyclopterus lumpus virus	LFLV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Actinopterygii	Teleostii	Cyclopterus	none	none	-	-	Cyclopterus lumpus
-MT075326	Salmon flavivirus	SFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana3	NULL		Actinopterygii	Teleostii		none	none	-	-	Oncorhynchus tshawytscha
-DnFV	Dianemobius nigrofasciatus flavivirus	DnFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Arthropods	Insects	Coleoptera	none	none	-	-	Dianemobius nigrofasciatus
-RanaTamana	Rana Tamanavirus Mitcham	RanaTamana	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Amphibia	Rana	Rana	none	none			Rana
-MW208755	Coleopteran flavi-related virus	ColFlaV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Arthropods	Insects	Plectoptera	none	none	-	-	Pempsamacra sp.
-MW208760	Plectopteran flavi-related virus	PleFlaV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Arthropods	Insects	Embioptera	none	none	-	-	Perla marginata
-MW208759	Embiopteran flavi-related virus	EmbFlaV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Arthropods	Insects		none	none	-	-	Antipaluria urichi
-MH716818	Eastern red scorpionfish flavivirus	ErsFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Actinopterygii	Teleostii	Scorpaena	none	none	-	-	Scorpaena jacksoniensis
-MG599986	Wenzhou shark flavivirus	WenSFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Chondrichthyes	Chondrichthyes	Scoliodon	none	none	-	-	Scoliodon macrorhynchos
-NC_028375	Shayang fly virus 4	ShayangFlyV4	Flaviviridae	FlaviPesti	PestiLike	LGF	NULL	NULL		Arthropods	Insects	Musca	none	none	-	-	Musca domestica
-NC_028370	Xingshan cricket virus	XCV	Flaviviridae	FlaviPesti	PestiLike	LGF	NULL	NULL		Arthropods	Insects	Velarifictorus	none	none	-	-	Velarifictorus micado
-NC_028367	Tacheng tick virus 8	TachengTV-8	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Arthropods	Acari	Dermacentor	none	none	-	-	Dermacentor marginatus
-NC_020252	Gentian Kobu-sho-associated virus	GKaV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Nematode	Nematode	Gentiana	none	none	-	-	Gentiana triflora
-NC_024077	Soybean cyst nematode virus	SbCNV-5	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Nematode	Nematode	Heterodera	none	none	-	-	Heterodera glycines
-NC_035071	Apis flavivirus	ApisFV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Arthropods	Insects	Apis	none	none	-	-	
-KR902737	Wuhan centipede virus	WuCentiV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Arthropods	Myriapods		none	none	-	-	
-KR902735	Xinzhou spider virus 2	XinSpiFV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Arthropods	Arachnids		none	none	-	-	
-KU754513	Takaungu virus 	TakV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Arthropods	Insects	Drosophila	none	none	-	-	Drosophila
-MH620810	Lampyris noctiluca flavivirus 1	LampV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Arthropods	Insects		none	none	-	-	Lampyris noctiluca
-NC_028137	Macrosiphum euphorbiae virus 1	MEV-1	Flaviviridae	FlaviPesti	PestiLike	LGF	PL2	NULL		Arthropods	Insects	Macrosiphum	none	none	-	-	Macrosiphum euphorbiae
-NC_028373	Shuangao lacewing virus 2 	SLV2	Flaviviridae	FlaviPesti	PestiLike	LGF	PL2	NULL		Arthropods	Insects	Chrysopida	none	none	-	-	Chrysopidae sp
-MH778148	Sitobion miscanthi flavi-like virus 1	SmFlV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL2	NULL		Arthropods	Insects		none	none	-	-	
-NC_001461	Bovine viral diarrhea virus 1	BVDV1	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Bos	none	none	-	-	Bos taurus
-NC_002657	Classical swine fever virus	CSFV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Sus	none	none	Eystrup	-	Sus scrofa
-MG599984	Nanhai dogfish shark pestivirus	NdsPV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti4	NULL		Chondrichthyes	Chondrichthyes	Squalus brevirostris	none	none	-	-	Squalus brevirostris
-NC_003679	Border disease virus	BDV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Ovis	none	none	X818	-	Ovis aries
-NC_024018	Pronghorn antelope pestivirus	PAPeV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Antilocapra	none	none	-	Americas	Antilocapra americana
-NC_023176	Porcine pestivirus isolate Bungowannah	PoPeV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Sus	none	none	Bungowannah	Oceania	Sus scrofa
-NC_003678	Pestivirus Giraffe-1	GiPeV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Giraffa	none	none	giraffe-1 H138	Africa	Giraffa camelopardalis
-NC_012812	Bovine viral diarrhea virus 3	BVDV3	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Bos	none	none	-	Asia	Bos taurus
-NC_018713	Pestivirus strain Aydin/04-TR	Aydin	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Ovis	none	none	-	Asia	Ovis aries
-NC_025677	Norway rat pestivirus	NrPeV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Rodentia	Rattus	none	none	NrPV/NYC-D23	Americas	Rattus norvegicus
-NC_038964	Atypical porcine pestivirus	APPeV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti3	NULL		Mammalia	Artiodactyla	Sus	none	none	-	-	-
-MH282911	Bat Pestivirus V4	BPVV4	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Chiroptera	Bat	none	none	-	-	-
-MH282910	Bat Pestivirus V3	BPVV3	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Chiroptera	Bat	none	none	-	-	-
-MH282908	Bat Pestivirus V1	BPVV1	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti3	NULL		Mammalia	Chiroptera	Bat	none	none	-	-	-
-KY370103	Rodent Pestivirus Nn	RPVNn	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Rodentia	Rodent	none	none	-	-	-
-KY370102	Rodent Pestivirus Ad	RPVAd	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Rodentia	Rodent	none	none	-	-	Apodemus draco
-KY370100	Rodent Pestivirus Ap	RPVAp	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Rodentia	Rodent	none	none	-	-	Apodemus peninsulae
-KY370099	Rodent Pestivirus Ne	RPVNe	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Rodentia	Rodent	none	none	-	-	Niviventer excelsior
-NC_003678	Giraffe Pestivirus	GPV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Artiodactyla	Giraffe	none	none	-	-	Giraffa camelopardalis
-NC_035432	Linda Virus	LPV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Artiodactyla	Sus	none	none	-	-	Sus scrofa
-NC_018713 	Aydin Virus	APV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Artiodactyla	Ovis	none	none	-	-	Ovis aries
-NC_004102	Hepatitis C virus	HCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci1	NULL		Mammalia	Primates	Homo	none	none	H77		Homo sapiens
-NC_026797	Bovine hepacivirus	BHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Artiodactyla	Bos	none	none	GHC25	Africa	Bos taurus
-NC_024889	Equine hepacivirus	EHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci1	NULL		Mammalia	Artiodactyla	Equus	none	none	-	Asia	Equus caballus
-NC_025672	Norway rat hepacivirus 1	RHCV-1	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Rattus	none	none	NrHV-1/NYC-C12	Americas	Rattus norvegicus
-NC_025673	Norway rat hepacivirus 2	RHCV-2	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Rattus	none	none	NrHV-2/NYC-E43	Americas	Rattus norvegicus
-NC_021153	Rodent hepacivirus	RHV-339	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Peromyscus	none	none	RHV-339	Americas	Peromyscus maniculatus
-KY370092	Rodent hepacivirus	RHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Meriones meridianus	none	none	RtMm-HCV/IM2014	-	Meriones meridianus
-MG599987	Yili teratoscincus roborowskii hepacivirus	YterHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci6	NULL		Reptiles	Squamata	Teratoscincus roborowskii	none	none	YLSHG5584	-	Teratoscincus roborowskii
-NC_028377	Wenling shark virus	WLSV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci9	NULL		Chondrichthyes	Chondrichthyes	Proscyllium habereri	none	none	MHS-2	-	Proscyllium habereri
-MG334001	Turtle hepacivirus	THCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Trachemys scripta elegans	none	none	-	-	Trachemys scripta elegans
-MG599996	Nanhai ghost shark hepacivirus 1	NHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci9	NULL		Chondrichthyes	Chondrichthyes	Chimaera sp.	none	none	NHYJG60722	-	
-MG599993	Western African lungfish hepacivirus 	WHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci7	NULL		Sarcopterygii	Sarcopterygii	Protopterus annectens	none	none	FZFYG124617	-	Protopterus annectens
-MG599991	Xiamen guitarfish hepacivirus	XgHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci9	NULL		Chondrichthyes	Chondrichthyes	Rhinobatos hynnicephalus	none	none	BWLTYG5315	-	Rhinobatos hynnicephalus
-MG599990	Wenling moray eel hepacivirus	WmeHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Actinopterygii	Actinopterygii	Chordata	none	none	XMLMGHepa10640	-	
-NC_031950	Guereza hepacivirus	GuHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Primates	Primates	none	none			
-NC_038428	Hepacivirus I	HVI	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Rodent (Rhabdomys pumilio)	none	none			Rhabdomys pumilio
-NC_038427	Hepacivirus F	HVF	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Rodent (Myodes glareolus)	none	none			Myodes glareolus
-NC_038429	Hepacivirus J	HVJ	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci4	NULL		Mammalia	Rodentia	Rodent (Myodes glareolus)	none	none			Myodes glareolus
-NC_040815	Hepacivirus P	HVP	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Rodent (Citellus dauricus Brandt)	none	none			
-NC_031947	Bat Hepacivirus	BHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci3	NULL		Mammalia	Chiroptera	Bat (Otomops martiensseni)	none	none			
-NC_038432 	Hepacivirus N	HVN	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Artiodactyla	Bos	none	none			
-NC_038430 	Hepacivirus K	HVK	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci3	NULL		Mammalia	Chiroptera	Bat (Hipposideros vittatus)	none	none			
-NC_038426	Hepacivirus B	HVB	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Primates	Primate (Tamarin)	none	none			
-NC_031916	Hepacivirus L	HVL	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Chiroptera	Bat (Hipposideros vittatus)	none	none			Hipposideros vittatus
-NC_038431 	Hepacivirus M	HVM	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci3	NULL		Mammalia	Chiroptera	Bat (Otomops martiensseni)	none	none			Otomops martiensseni
-NC_001655	Hepatitis GB virus B	GBVB	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Primates	Primate (Tamarin)	none	none			
-BK013349	Bat Hepacivirus PM_01	BHV-PM_01	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Chiroptera	Peropteryx_macrotis	none	none			Peropteryx_macrotis
-MH844500	Sloth hepacivirus	SHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Xenarthra	Sloths (Bradypus variegatus)	none	none			Bradypus variegatus
-MZ393518	Ringtail Racoon Hepacivirus	RRHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Carnivora	Racoon (Bassariscus astutus)	none	none			Bassariscus astutus
-MN133813	Jogalong Hepacivirus	JHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci5	NULL		Aves	Podargiformes	Podargus strigoides	none	none			Culex annulirostris
-MH824541	Sifaka Hepacivirus	SHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Primates	Lemur	none	none			
-MK026585	Collins Beach Virus	CBV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Arthropods	Acari	Ixodes holocyclus	none	none			Ixodes holocyclus
-JQ181558	Canine Hepacivirus	CHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Carnivora	Dog	none	none			
-MH370348	Sigmodontinae hepacivirus	SHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Rodent (oligoryzomys nigripes)	none	none			Oligoryzomys nigripes
-MG599999	Chinese softshell turtle hepacivirus	STHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci4	NULL		Reptiles	Testudines	Pelodiscus sinensis	none	none			Pelodiscus sinensis
-MG599994	Guangxi houndshark hepacivirus	GHHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci9	NULL		Chondrichthyes	Chondrichthyes	Mustelus manazo	none	none			Mustelus manazo
-MG599992	Xiamen sepia Stingray hepacivirus	XSSHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci9	NULL		Chondrichthyes	Chondrichthyes	Ray (Urolophus aurantiacus)	none	none			Urolophus aurantiacus
-MN062427	Bald Eagle Hepacivirus	BEHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci5	NULL		Aves	Accipitriformes	Eagle (Haliaeetus leucocephalus)	none	none			Haliaeetus leucocephalus
-MK737641	Duck Hepacivirus	DHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci5	NULL		Aves	Anseriformes	Duck	none	none			
-MG599993	African Lungfish Hepacivirus	ALHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci7	NULL		Sarcopterygii	Sarcopterygii	Lung Fish	none	none			
-MG599995	Nanhai dogfish shark hepacivirus	NDSHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci9	NULL		Chondrichthyes	Chondrichthyes	Dogfish Shark	none	none			
-MG599988	Guangxi chinese leopard gecko hepacivirus	LPHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci6	NULL		Reptiles	Squamata	Leopard Gecko	none	none			
-MG599987	Yili teratoscincus roborowskii hepacivirus	YTRHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci6	NULL		Reptiles	Squamata	Gecko (Teratoscincus roborowskii)	none	none			Teratoscincus roborowskii
-MT371443	Koala Hepacivirus	KHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Marsupials	Koala	none	none			Phascolarctos cinereus
-MT371442	Pelican Hepacivirus	PHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci5	NULL		Aves	Pelecaniformes	Pelican	none	none			
-MT371441	Magpie Hepacivirus	MpHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci5	NULL		Aves	Passeriformes	Magpie	none	none			
-MT371440	Bandicoot Hepacivirus	BcHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Marsupials	Bandicoot	none	none			
-MT371439	Gecko Hepacivirus	GHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci6	NULL		Reptiles	Squamata	Gecko	none	none			
-MT371437	Marmoset Hepacivirus	MHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Primates	Marmoset	none	none			
-MT371436	Blue Tit Hepacivirus	BTHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci5	NULL		Aves	Passeriformes	Blue Tit	none	none			
-MT371434	Bush Baby Hepacivirus	BBHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci1	NULL		Mammalia	Primates	Bush Baby	none	none			
-KT439329	Human hepegivirus 	HHpgV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi1	NULL		Mammalia	Primates	Homo sapiens	none	none	isolate AK-790	-	-
-NC_020902	Equine pegivirus 1	EPgV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Artiodactyla	Equus	none	none	C0035	Americas	Equus caballus
-NC_001710	GB virus C	HGV1	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Primates	Primates	none	none	-	-	-
-NC_027998	Human pegivirus 2	HPgV-2	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi1	NULL		Mammalia	Primates	Primates	none	none	UC0125.US	Americas	Homo sapiens
-NC_025679	Norway rat pegivirus	NPgV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi1	NULL		Mammalia	Rodentia	Rattus	none	none	NrPgV/NYC-E13	Americas	Rattus norvegicus
-NC_001837	Pegivirus A	GBV-A	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Primates	Homo sapiens	none	none	-	-	-
-NC_021154	Rodent pegivirus	RPgV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi1	NULL		Mammalia	Rodentia	Neotoma	none	none	CC61	Americas	Neotoma lepida
-NC_024377	Simian pegivirus	SPgV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Primates	Piliocolobus	none	none	SPgVkrc_RC08	Africa	Piliocolobus tephrosceles
-KC145265	Theiler's disease-associated virus	TDAV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Primates	Saguinus	none	none	-	-	Saguinus
-KC796073	Bat Pegivirus	BPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Chiroptera	Bat	none	none	-	-	Saguinus
-NC_030291	Pegivirus B/GB-Virus D	GBVD	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Chiroptera	Bat	none	none			
-KC796088	Pegivirus I	PVI	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Chiroptera	Bat (sturnira lilium)	none	none			
-KU351670	Porcine Pegivirus	PPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Artiodactyla	Sus	none	none			
-NC_034442	Pegivirus K	PVK	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Artiodactyla	Sus	none	none			
-MK059751	Dolphin Pegivirus	DPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Artiodactyla	Dolphin	none	none			
-NC_038434	Pegivirus F	PVF	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi1	NULL		Mammalia	Chiroptera	Bat (Carollia perspicillata)	none	none			
-NC_038435	Pegivirus G	PVG	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi1	NULL		Mammalia	Chiroptera	Bat (Scotophilus dinganii)	none	none			
-MW091548	Goose Pegivirus	GPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Aves	Anseriformes	Geese (Anser cygnoides)	none	none			
-MT513216	Southwest bike trail virus	SOBV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Primates	primate (Aotus trivirgatus)	none	none			
+sequenceID	full_name	name	family	subfamily	supergenus	genus	subgenus	clade	segment	host_major_group	host_minor_group	isolation_host	vector_group	reservoir_group
+MT084113	Infectious precocity virus isolate MR2018	IPV	Flaviviridae	FlaviPesti	FlaviLike	FL4	FL4	NULL		Arthropods	Crustaceans	Macrobrachium rosenbergii	none	none
+SsFV_consensus	Sea spider flavivirus	SsFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Arachnid	NULL		Arthropods		Endeis spinosa	none	none
+NC_012932	Aedes flavivirus	AEFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Aedes albopictus	none	none
+NC_001564	Cell fusing agent virus	CFAV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Aedes aegypti	none	none
+NC_008604	Culex flavivirus	CxFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Culex pipiens	none	none
+HE574574	Culex theileri flavivirus	CTFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Culex theileri	none	none
+JQ268258	Hanko virus	HANKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Ochlerotatus mosquito	none	none
+NC_005064	Kamiti River virus	KRV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Ae. macintoshi 	none	none
+NC_027819	Mercadeo virus	MECDV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Culex sp.	none	none
+NC_021069	Mosquito flavivirus	MosqFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Culex tritaeniorhynchus	none	none
+NC_030400	Nakiwogo virus	NAKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Mansonia africana nigerrima	none	none
+NC_024299	Nienokoue virus	NIEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Culex sp.	none	none
+KC505248	Palm Creek virus	PCV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Coquillettidia xanthogaster	none	none
+NC_027817	Parramatta River virus	PaRV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	A. vigilax	none	none
+NC_012671	Quang Binh virus	QBV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	Culex tritaeniorhynchus	none	none
+NC_031327	Anopheles flavivirus	AnophFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL		Arthropods	Insects	-	none	none
+MK473877	Gammarus chevreuxi flavivirus	GcFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Crustacean	NULL		Arthropods	Crustaceans	Gammarus chevreuxi	none	none
+MK473878	Crangon crangon flavivirus	CcFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Crustacean	NULL		Arthropods	Crustaceans	Crangon crangon	none	none
+MK473881	Gammarus pulex flavivirus	GpFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Crustacean	NULL		Arthropods	Crustaceans	Gammarus pulex	none	none
+KY320649 	La Tina	LTNV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Ochlerotatus scapularis	none	none
+KY290249	Long Pine Key virus	LPKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Ochlerotatus atlanticus	none	none
+KC496020	Barkedji virus	BJV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Culex perexiguus	none	none
+NC_024017	Nhumirim virus	NHUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Culex chidesteri	none	none
+NC_017086	Chaoyang virus	CHAOV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Ae. vexans,  Ae. albopictus,  Ae. bekkui,  Armigeres subalbatus, Cx. Pipiens	none	none
+NC_016997	Donggang virus	DONV/DGV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Aedes sp. (mosquito)	none	none
+NC_024805	Ilomantsi virus	ILOV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Ochlerotatus riparius	none	none
+NC_024806	Lammi virus	LAMV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Ae. cinereus	none	none
+KY347801	Marisma mosquito virus	MMV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL		Arthropods	Insects	Aedes caspius	none	none
+AY898809	Alfuy virus	ALFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Centropus phasianius	Culex	birds
+NC_012534	Bagaza virus	BAGV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex	Culex	birds
+KM225264	Bainyik virus	Bainyik	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		Mammalia		Aedes sp. (mosquito)	Aedes	mammals
+NC_009026	Bussuquara virus	BSQV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Mammalia		Alouatta beelzebul	Culex	primates
+NC_026623	Cacipacore virus	CPCV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Formicarius analis	Culex	birds
+NC_001477	Dengue virus 1	DENV1	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		Mammalia			Aedes	primates
+NC_001474	Dengue virus 2	DENV2	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		Mammalia		Homo sapiens	Aedes	primates
+NC_001475	Dengue virus 3	DENV3	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		Mammalia			Aedes	primates
+NC_002640	Dengue virus 4	DEN4	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		Mammalia			Aedes	primates
+AY632538	Iguape virus	IGUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves/Mammalia		Mus musculus	Culex	bird/mammal
+NC_009028	Ilheus virus	ILHV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Psorophora spp. 	Culex	birds
+NC_001437	Japanese encephalitis virus	JEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves/Mammalia		Homo sapiens	Culex	bird/mammal
+NC_012533	Kedougou virus	KEDV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		NK		Aedes minutus	Aedes	unknown
+EU082200	Koutango virus	KOUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Tatera kempi	Culex	birds
+NC_000943	Murray Valley encephalitis virus	MVEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Homo sapiens	Culex	birds
+NC_032088	New Mapoon virus	NMV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		NK		Culex annulirostris	Culex	unknown
+EU159426	Nounane virus	NOUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		NK		Uranotaenia mashonaensis	Aedes	unknown
+NC_018705	Ntaya virus	NTAV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		NK			Culex	unknown
+AY632542	Rocio virus	ROCV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Homo sapiens	Culex	birds
+NC_029055	Spondweni virus	SPOV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		NK		Mansonia uniformis	Aedes	unknown
+NC_007580	St. Louis encephalitis virus	SLEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Homo sapiens	Culex	birds
+KM225263	Stratford virus	STRV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Mammalia		Aedes vigilax	Culex	marsupials
+NC_015843	Tembusu virus	TMUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Anser cygnoides	Culex	birds
+KM225265	Torres virus	Torres	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Aedes albopictus	Culex	birds
+NC_006551	Usutu virus	USUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex neavei	Culex	birds
+NC_001563	West Nile virus	WNV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Homo sapiens	Culex	birds
+EU082199	Yaounde virus	YAOV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Culex nebulosis	Culex	birds
+NC_012532	Zika virus	ZIKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes		Mammalia			Aedes	mammals
+D00246	Kunjin virus 	KUNV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves			Culex	birds
+KC734550	Israel turkey meningoencephalomyelitis virus	ITV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Meleagris gallopavo	Culex	birds
+JX477686	Sitiawan virus 	STWV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves			Culex	birds
+JF312912	Baiyangdian virus	BYDV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves		Anas platyrhynchos	Culex	birds
+KF917538	Naranjal virus 	NJLV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Mammalia			Culex	mammals
+NC_009029	Kokobera virus 	KOKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Mammalia			Culex	mammals
+JF926699	Layer flavivirus	LayV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex		Aves			Culex	birds
+NC_027999	Paraiso Escondido virus	EPEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		Arthropods	Insects	Lutzomyia abonnenci	Lutzomyia	none
+DQ859056	Banzi virus	BANV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		Mammalia		Homo sapiens	Aedes	rodents
+NC_033693	Bouboui virus	BOUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		NK	NK	Anopheles paludis	Aedes	unknown
+NC_030289	Edge Hill virus	EHV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		Mammalia	Primates	Aedes vigilax	Aedes	primates
+NC_033699	Jugra virus	JUGV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		Mammalia		Aedes	Aedes	mammals
+NC_033697	Saboya virus	SABV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		Mammalia	Rodentia	Tatera kempi	Aedes	rodents
+NC_008719	Sepik virus	SEPV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		NK	NK	Mansonia septempunctata	Aedes	unknown
+NC_033698	Uganda S virus	UGSV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		NK	NK	Aedes spp.	Aedes	unknown
+NC_012735	Wesselsbron virus	WSLV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		Mammalia		Ovis aries	Aedes	ungulates
+NC_002031	Yellow fever virus	YFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL		Mammalia	Primates	Aedes aegypti, Aedes albopictus	Aedes	primates
+LC582740	Mpulungu flavivirus	Mpulungu	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mpulungu	NULL		NK	NK	Rhipicephalus muhsamae	unknown	Rhipicephalus
+NC_003676	Apoi virus	APOIV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL		Mammalia	Rodentia	Apodemus spp.	unknown	rodents
+NC_026620	Jutiapa virus	JUTV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL		Mammalia	Rodentia	Sigmodon hispidus	unknown	rodents
+NC_003635	Modoc virus	MODV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL		Mammalia	Rodentia	Peromyscus maniculatus	unknown	rodents
+NC_004119	Montana myotis leukoencephalitis virus	MMLV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL		Mammalia	Chiroptera	Myotis lucifugus	unknown	bat
+NC_003675	Rio Bravo virus	RBV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL		Mammalia	Chiroptera	Tadarida brasiliensis mexicana	unknown	bat
+KJ469370	Batu Cave virus	BCV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL		Mammalia	Rodentia	NK	unknown	unknown
+NC_008718	Entebbe bat virus	ENTV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV2	NULL		Mammalia	Chiroptera	Tadarida limbata	unknown	bat
+NC_026624	Sokuluk virus	SOKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV2	NULL		Mammalia	Chiroptera	Vespertilio pipistrellus	unknown	bat
+NC_005039	Yokose virus	YOKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV2	NULL		Mammalia	Chiroptera	Miniopterus fuliginosus	unknown	bat
+NC_033723	Gadgets Gully virus	GGYV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Aves		Ixodes uriae	tick	birds
+NC_033724	Kadam virus	KADV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia		Rhipicephalus pravus	tick	mammals
+NC_023439	Kama virus	KAMV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Aves		Ixodes lividus	tick	birds
+JF416960	Kyasanur forest disease virus	KFDV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia		Semnopithecus entellus	tick	primates
+NC_003690	Langat virus	LGTV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia		Ixodes granulatus 	tick	primates
+NC_001809	Louping ill virus	LIV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia	Artiodactyla	Ovis aries	tick	even-toed ungulates
+NC_033721	Meaban virus	MEAV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Aves		Ornithodoros maritimus	tick	birds
+NC_005062	Omsk hemorrhagic fever virus	OMSKV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia	Primates	Homo sapiens	tick	primates
+NC_003687	Powassan virus	POWV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia	Primates	Homo sapiens	tick	primates
+DQ235149	Royal Farm virus	RFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia		Argas hermanni	tick	mammals
+NC_033726	Saumarez reef virus	SREV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Aves		Ornithodoros capensis	tick	birds
+NC_027709	Spanish goat encephalitis virus	SGEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia			tick	ungulates
+NC_001672	Tick-borne encephalitis virus	TBEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia		Ixodes	tick	rodents
+DQ235151	Turkish sheep encephalitis	TSEV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Mammalia		Ixodes	tick	ungulates
+NC_023424	Tyuleniy virus	TYUV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL		Aves		Ixodes uriae	tick	birds
+JMTV_CONCAT	Jingmen tick virus	JMTV_CONCAT	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	1+3	Arthropods	Acari	Ixodes persulcatus	ticks	mammals
+MH158415	Alongshan virus 	Alongshan_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	1	Arthropods	Acari	Ixodes persulcatus	ticks	mammals
+KX883002	Changjiang Jingmen-like virus 	Changjiang_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	1	Arthropods	Crustaceans	Procambarus clarkii	none	none
+KM521552	Guaico Culex virus 	Guaico_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	1	Arthropods	Insects	Culex interrogator	none	none
+NC_024113	Jingmen tick virus	JMTV_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	1	Arthropods	Acari	Rhipicephalus microplus	ticks	mammals
+KR902721	Wuhan Aphid	WuhanAphid_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	1	Arthropods	Insects	Hyalopterus pruni	none	none
+NC_028396	Shuangao insect virus 7	Siv7_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	1	Arthropods	Insects	Chrysopidae spp	none	none
+NC_024114	Jingmen tick virus	JMTV_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	3	Arthropods	Acari	Ixodes persulcatus	ticks	mammals
+KX883003	Changjiang Jingmen-like virus 	Changjiang_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	3	Arthropods	Crustaceans	Procambarus clarkii	none	none
+KR902723	Wuhan Aphid	WuhanAphid_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	3	Arthropods	Insects	Hyalopterus pruni	none	none
+KM521553	Guaico Culex virus 	Guaico_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	3	Arthropods	Insects	Culex interrogator	none	none
+NC_003996	Tamana bat virus	TABV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Mammalia	Chiroptera	Pteronotus parnellii	none	none
+MF776369	Cyclopterus lumpus virus	LFLV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Actinopterygii	Teleostii	Cyclopterus lumpus	none	none
+DnFV	Dianemobius nigrofasciatus flavivirus	DnFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Arthropods	Insects	Dianemobius nigrofasciatus	none	none
+RanaTamana	Rana Tamanavirus Mitcham	RanaTamana	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Amphibia	Rana	Rana	none	none
+MW208755	Coleopteran flavi-related virus	ColFlaV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Arthropods	Insects	Pempsamacra sp.	none	none
+MW208760	Plectopteran flavi-related virus	PleFlaV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Arthropods	Insects	Perla marginata	none	none
+MW208759	Embiopteran flavi-related virus	EmbFlaV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Arthropods	Insects	Antipaluria urichi	none	none
+MH716818	Eastern red scorpionfish flavivirus	ErsFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Actinopterygii	Teleostii	Scorpaena jacksoniensis	none	none
+MG599986	Wenzhou shark flavivirus	WenSFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL		Chondrichthyes	Chondrichthyes	Scoliodon macrorhynchos	none	none
+MK473875	Southern pygmy squid flavivirus	SpsFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana2	NULL		Mollusca	Cephalopoda		none	none
+MK473880	Firefly squid flavivirus	FfsFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana2	NULL		Mollusca	Cephalopoda		none	none
+MT075326	Salmon flavivirus	SFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana3	NULL		Actinopterygii	Teleostii	Oncorhynchus tshawytscha	none	none
+NC_028375	Shayang fly virus 4	ShayangFlyV4	Flaviviridae	FlaviPesti	PestiLike	LGF	NULL	NULL		Arthropods	Insects	Musca domestica	none	none
+NC_028370	Xingshan cricket virus	XCV	Flaviviridae	FlaviPesti	PestiLike	LGF	NULL	NULL		Arthropods	Insects	Velarifictorus micado	none	none
+NC_028367	Tacheng tick virus 8	TachengTV-8	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Arthropods	Acari	Dermacentor marginatus	none	none
+NC_020252	Gentian Kobu-sho-associated virus	GKaV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Nematode	Nematode	Gentiana triflora	none	none
+NC_024077	Soybean cyst nematode virus	SbCNV-5	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Nematode	Nematode	Heterodera glycines	none	none
+NC_035071	Apis flavivirus	ApisFV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Arthropods	Insects	Apis mellifera	none	none
+KR902737	Wuhan centipede virus	WuCentiV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Arthropods	Myriapods		none	none
+KR902735	Xinzhou spider virus 2	XinSpiFV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Arthropods	Arachnids		none	none
+KU754513	Takaungu virus 	TakV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Arthropods	Insects	Drosophila	none	none
+MH620810	Lampyris noctiluca flavivirus 1	LampV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL		Arthropods	Insects	Lampyris noctiluca	none	none
+NC_028137	Macrosiphum euphorbiae virus 1	MEV-1	Flaviviridae	FlaviPesti	PestiLike	LGF	PL2	NULL		Arthropods	Insects	Macrosiphum euphorbiae	none	none
+NC_028373	Shuangao lacewing virus 2 	SLV2	Flaviviridae	FlaviPesti	PestiLike	LGF	PL2	NULL		Arthropods	Insects	Chrysopidae sp	none	none
+MH778148	Sitobion miscanthi flavi-like virus 1	SmFlV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL2	NULL		Arthropods	Insects		none	none
+NC_001461	Bovine viral diarrhea virus 1	BVDV1	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Bos taurus	none	none
+NC_002657	Classical swine fever virus	CSFV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Sus scrofa	none	none
+NC_003679	Border disease virus	BDV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Ovis aries	none	none
+NC_024018	Pronghorn antelope pestivirus	PAPeV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Antilocapra americana	none	none
+NC_023176	Porcine pestivirus isolate Bungowannah	PoPeV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Sus scrofa	none	none
+NC_003678	Pestivirus Giraffe-1	GiPeV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Giraffa camelopardalis	none	none
+NC_012812	Bovine viral diarrhea virus 3	BVDV3	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Bos taurus	none	none
+NC_018713	Pestivirus strain Aydin/04-TR	Aydin	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Artiodactyla	Ovis aries	none	none
+MH282911	Bat Pestivirus V4	BPVV4	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Chiroptera		none	none
+MH282910	Bat Pestivirus V3	BPVV3	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti1	NULL		Mammalia	Chiroptera		none	none
+NC_025677	Norway rat pestivirus	NrPeV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Rodentia	Rattus norvegicus	none	none
+KY370103	Rodent Pestivirus Nn	RPVNn	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Rodentia		none	none
+KY370102	Rodent Pestivirus Ad	RPVAd	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Rodentia	Apodemus draco	none	none
+KY370100	Rodent Pestivirus Ap	RPVAp	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Rodentia	Apodemus peninsulae	none	none
+KY370099	Rodent Pestivirus Ne	RPVNe	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Rodentia	Niviventer excelsior	none	none
+NC_003678	Giraffe Pestivirus	GPV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Artiodactyla	Giraffa camelopardalis	none	none
+NC_035432	Linda Virus	LPV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Artiodactyla	Sus scrofa	none	none
+NC_018713 	Aydin Virus	APV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti2	NULL		Mammalia	Artiodactyla	Ovis aries	none	none
+NC_038964	Atypical porcine pestivirus	APPeV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti3	NULL		Mammalia	Artiodactyla	Sus scrofa	none	none
+MH282908	Bat Pestivirus V1	BPVV1	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti3	NULL		Mammalia	Chiroptera		none	none
+MG599984	Nanhai dogfish shark pestivirus	NdsPV	Flaviviridae	FlaviPesti	PestiLike	Pestivirus	Pesti4	NULL		Chondrichthyes	Chondrichthyes	Squalus brevirostris	none	none
+NC_004102	Hepatitis C virus	HCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci1	NULL		Mammalia	Primates	Homo sapiens	none	none
+NC_024889	Equine hepacivirus	EHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci1	NULL		Mammalia	Artiodactyla	Equus caballus	none	none
+MT371434	Bush Baby Hepacivirus	BBHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci1	NULL		Mammalia	Primates		none	none
+NC_026797	Bovine hepacivirus	BHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Artiodactyla	Bos taurus	none	none
+NC_025672	Norway rat hepacivirus 1	RHCV-1	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Rattus norvegicus	none	none
+NC_025673	Norway rat hepacivirus 2	RHCV-2	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Rattus norvegicus	none	none
+NC_021153	Rodent hepacivirus	RHV-339	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Peromyscus maniculatus	none	none
+KY370092	Rodent hepacivirus	RHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Meriones meridianus	none	none
+MG334001	Turtle hepacivirus	THCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Trachemys scripta elegans	none	none
+NC_031950	Guereza hepacivirus	GuHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Primates		none	none
+NC_038428	Hepacivirus I	HVI	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Rhabdomys pumilio	none	none
+NC_038427	Hepacivirus F	HVF	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Myodes glareolus	none	none
+NC_040815	Hepacivirus P	HVP	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Citellus dauricus	none	none
+NC_038432 	Hepacivirus N	HVN	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Artiodactyla	Bos taurus	none	none
+NC_038426	Hepacivirus B	HVB	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Primates		none	none
+NC_031916	Hepacivirus L	HVL	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Chiroptera	Hipposideros vittatus	none	none
+NC_001655	Hepatitis GB virus B	GBVB	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Primates		none	none
+BK013349	Bat Hepacivirus PM_01	BHV-PM_01	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Chiroptera	Peropteryx macrotis	none	none
+MH844500	Sloth hepacivirus	SHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Xenarthra	Bradypus variegatus	none	none
+MZ393518	Ringtail Racoon Hepacivirus	RRHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Carnivora	Bassariscus astutus	none	none
+MH824541	Sifaka Hepacivirus	SHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Primates		none	none
+MK026585	Collins Beach Virus	CBV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Arthropods	Acari	Ixodes holocyclus	none	none
+JQ181558	Canine Hepacivirus	CHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Carnivora	Canis familiaris	none	none
+MH370348	Sigmodontinae hepacivirus	SHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Rodentia	Oligoryzomys nigripes	none	none
+MT371443	Koala Hepacivirus	KHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Marsupials	Phascolarctos cinereus	none	none
+MT371440	Bandicoot Hepacivirus	BcHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Marsupials	Ixodes holocyclus	none	none
+MT371437	Marmoset Hepacivirus	MHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci2	NULL		Mammalia	Primates	Marmoset	none	none
+NC_031947	Bat Hepacivirus	BHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci3	NULL		Mammalia	Chiroptera	Otomops martiensseni	none	none
+NC_038430 	Hepacivirus K	HVK	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci3	NULL		Mammalia	Chiroptera	Hipposideros vittatus	none	none
+NC_038431 	Hepacivirus M	HVM	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci3	NULL		Mammalia	Chiroptera	Otomops martiensseni	none	none
+NC_038429	Hepacivirus J	HVJ	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci4	NULL		Mammalia	Rodentia	Myodes glareolus	none	none
+MG599999	Chinese softshell turtle hepacivirus	STHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci4	NULL		Reptiles	Testudines	Pelodiscus sinensis	none	none
+MN133813	Jogalong Hepacivirus	JHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci5	NULL		Aves	Podargiformes	Culex annulirostris	none	none
+MN062427	Bald Eagle Hepacivirus	BEHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci5	NULL		Aves	Accipitriformes	Haliaeetus leucocephalus	none	none
+MK737641	Duck Hepacivirus	DHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci5	NULL		Aves	Anseriformes	Anas platyrhynchos	none	none
+MT371442	Pelican Hepacivirus	PHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci5	NULL		Aves	Pelecaniformes	Pelecanus conspicillatus	none	none
+MT371441	Magpie Hepacivirus	MpHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci5	NULL		Aves	Passeriformes		none	none
+MT371436	Blue Tit Hepacivirus	BTHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci5	NULL		Aves	Passeriformes		none	none
+MG599987	Yili teratoscincus roborowskii hepacivirus	YterHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci6	NULL		Reptiles	Squamata	Teratoscincus roborowskii	none	none
+MG599988	Guangxi chinese leopard gecko hepacivirus	LPHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci6	NULL		Reptiles	Squamata		none	none
+MG599987	Yili teratoscincus roborowskii hepacivirus	YTRHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci6	NULL		Reptiles	Squamata	Teratoscincus roborowskii	none	none
+MT371439	Gecko Hepacivirus	GHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci6	NULL		Reptiles	Squamata	Gehyra lauta	none	none
+MG599993	Western African lungfish hepacivirus 	WHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci7	NULL		Sarcopterygii	Sarcopterygii	Protopterus annectens	none	none
+NC_028377	Wenling shark virus	WLSV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci9	NULL		Chondrichthyes	Chondrichthyes	Proscyllium habereri	none	none
+MG599996	Nanhai ghost shark hepacivirus 1	NHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci9	NULL		Chondrichthyes	Chondrichthyes	Chimaera sp.	none	none
+MG599991	Xiamen guitarfish hepacivirus	XgHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci9	NULL		Chondrichthyes	Chondrichthyes	Rhinobatos hynnicephalus	none	none
+MG599994	Guangxi houndshark hepacivirus	GHHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci9	NULL		Chondrichthyes	Chondrichthyes	Mustelus manazo	none	none
+MG599992	Xiamen sepia Stingray hepacivirus	XSSHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci9	NULL		Chondrichthyes	Chondrichthyes	Urolophus aurantiacus	none	none
+MG599995	Nanhai dogfish shark hepacivirus	NDSHV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus	Hepaci9	NULL		Chondrichthyes	Chondrichthyes	Squalus brevirostris	none	none
+MG599990	Wenling moray eel hepacivirus	WmeHCV	Flaviviridae	HepaPegi	HepaPegi	Hepacivirus		NULL		Actinopterygii	Actinopterygii	Gymnothorax reticularis	none	none
+KT439329	Human hepegivirus 	HHpgV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi1	NULL		Mammalia	Primates	Homo sapiens	none	none
+NC_027998	Human pegivirus 2	HPgV-2	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi1	NULL		Mammalia	Primates	Homo sapiens	none	none
+NC_025679	Norway rat pegivirus	NPgV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi1	NULL		Mammalia	Rodentia	Rattus norvegicus	none	none
+NC_021154	Rodent pegivirus	RPgV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi1	NULL		Mammalia	Rodentia	Neotoma lepida	none	none
+NC_038434	Pegivirus F	PVF	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi1	NULL		Mammalia	Chiroptera	Carollia perspicillata	none	none
+NC_038435	Pegivirus G	PVG	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi1	NULL		Mammalia	Chiroptera	Scotophilus dinganii	none	none
+NC_020902	Equine pegivirus 1	EPgV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Artiodactyla	Equus caballus	none	none
+NC_001710	GB virus C	HGV1	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Primates	Homo sapiens	none	none
+NC_001837	Pegivirus A	GBV-A	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Primates	Homo sapiens	none	none
+NC_024377	Simian pegivirus	SPgV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Primates	Piliocolobus tephrosceles	none	none
+KC145265	Theiler's disease-associated virus	TDAV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Primates	Saguinus	none	none
+KC796073	Bat Pegivirus	BPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Chiroptera	Saguinus	none	none
+NC_030291	Pegivirus B/GB-Virus D	GBVD	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Chiroptera	Pteropus giganteus	none	none
+KC796088	Pegivirus I	PVI	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Chiroptera	Sturnira lilium	none	none
+KU351670	Porcine Pegivirus	PPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Artiodactyla	Sus scrofa	none	none
+NC_034442	Pegivirus K	PVK	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Artiodactyla	Sus scrofa	none	none
+MK059751	Dolphin Pegivirus	DPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Artiodactyla	Tursiops truncatus	none	none
+MW091548	Goose Pegivirus	GPV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Aves	Anseriformes	Anser cygnoides	none	none
+MT513216	Southwest bike trail virus	SOBV	Flaviviridae	HepaPegi	HepaPegi	Pegivirus	Pegi2	NULL		Mammalia	Primates	Aotus trivirgatus	none	none
