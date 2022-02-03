@@ -4,9 +4,9 @@
     <relRefName>REF_MASTER_TAMANA_1_TABV</relRefName>
  
     <aminoAcidRegionSelector>
-        <featureName>precursor_polyprotein</featureName>
+        <featureName>NS5</featureName>
         <startCodon>1</startCodon>
-        <endCodon>3350</endCodon>
+        <endCodon>831</endCodon>
     </aminoAcidRegionSelector>
  
 </alignmentColumnsSelector>

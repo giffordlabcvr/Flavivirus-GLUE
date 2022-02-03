@@ -22,25 +22,25 @@
   # Create phylogenies for subgenera
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
-    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisfAa \
-    #  -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_cISF -s alignmentColumnsSelectorCisfAa \
+      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfvAa \
-    #  -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus/tbfv-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_TBFV -s alignmentColumnsSelectorTbfvAa \
+      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus/tbfv-aa.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_MBFV1 -s alignmentColumnsSelectorMbfv1Aa \
-    #  -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus/mbfv1-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_MBFV1 -s alignmentColumnsSelectorMbfv1Aa \
+      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus/mbfv1-aa.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_MBFV2 -s alignmentColumnsSelectorMbfv2Aa \
-    #  -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus/mbfv2-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_MBFV2 -s alignmentColumnsSelectorMbfv2Aa \
+      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus/mbfv2-aa.tre NEWICK_BOOTSTRAPS
     
-    #generate amino-acid phylogeny AL_FLAVI_SUBGENUS_NKV1 -s alignmentColumnsSelectorNkv1Aa \
-    #  -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus/nkv1-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_FLAVI_SUBGENUS_NKV1 -s alignmentColumnsSelectorNkv1Aa \
+      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus/nkv1-aa.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -59,9 +59,9 @@
   ## PESTIVIRUS: Create phylogenies for subgenera
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
-    #generate amino-acid phylogeny AL_PESTI_SUBGENUS_1 -s alignmentColumnsSelectorBvdv1Aa \
-    #  -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/subgenus/pesti1-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_PESTI_SUBGENUS_1 -s alignmentColumnsSelectorBvdv1Aa \
+      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus/pesti1-aa.tre NEWICK_BOOTSTRAPS
     
     exit
 
@@ -97,7 +97,7 @@
   # Create phylogenies for subgenera
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
-    #generate amino-acid phylogeny AL_PEGI_SUBGENUS_1 -s alignmentColumnsSelectorPegivirus1Aa \
+    generate amino-acid phylogeny AL_PEGI_SUBGENUS_1 -s alignmentColumnsSelectorPegivirus1Aa \
       -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/genus/pegivirus1-aa.tre NEWICK_BOOTSTRAPS
 

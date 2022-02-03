@@ -13,7 +13,7 @@
 	reroot-phylogeny \
       --inputFile trees/subgenus/cisf-aa.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/subgenus/cisf.MidpointRerooted-aa.tree NEWIC K_BOOTSTRAPS
+      --outputFile trees/subgenus/cisf.MidpointRerooted-aa.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
       --inputFile trees/subgenus/tbfv-aa.tre NEWICK_BOOTSTRAPS \
@@ -34,16 +34,6 @@
       --inputFile trees/subgenus/nkv1-aa.tre NEWICK_BOOTSTRAPS \
       --midpoint \
       --outputFile trees/subgenus/nkv1-MidpointRerooted-aa.tree NEWICK_BOOTSTRAPS
-
-	#reroot-phylogeny \
-    #  --inputFile trees/subgenus/nkv2-aa.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    #  --outputFile trees/subgenus/nkv2-MidpointRerooted-aa.tree NEWICK_BOOTSTRAPS
-
-	#reroot-phylogeny \
-    #  --inputFile trees/subgenus/crustacean-aa.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    #  --outputFile trees/subgenus/crustacean-MidpointRerooted-aa.tree NEWICK_BOOTSTRAPS
 
     exit
 
