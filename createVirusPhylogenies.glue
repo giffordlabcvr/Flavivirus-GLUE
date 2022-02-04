@@ -3,17 +3,17 @@
 
 project flaviviridae
 
-  # Virus nucleotide subgenus
+  # Flaviviridae subgenera (nuc)
   #run file glue/analysis/phylogeny/virus/na/flaviviridaeNucPhylogeniesSubgenus.glue
   #run file glue/analysis/phylogeny/virus/na/flaviviridaeNucPhylogeniesSubgenusReroot.glue
   #run file glue/analysis/phylogeny/virus/na/flaviviridaeNucPhylogeniesSubgenusAnnotations.glue
 
-  # Virus polypeptide subgenus
+  # Flaviviridae subgenera (aa)
   #run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesSubgenus.glue
   #run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesSubgenusReroot.glue
   #run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesSubgenusAnnotations.glue
 
-  ## Create recursively populated genus-level polypeptide phylogenies
+  ## Recursively populated genus-level phylogenies (aa)
   run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesGenusCreateTreeAlignments.glue
   run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesGenus.glue
   run file glue/analysis/phylogeny/virus/aa/flaviviridaeProtPhylogeniesGenusReroot.glue

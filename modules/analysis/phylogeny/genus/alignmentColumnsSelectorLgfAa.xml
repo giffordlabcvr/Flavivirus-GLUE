@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_MASTER_PEGI_1_HPgV2</relRefName>
+    <relRefName>REF_MASTER_SLV2</relRefName>
 
     <aminoAcidRegionSelector>
         <featureName>precursor_polyprotein</featureName>
-        <startCodon>2490</startCodon>
-        <endCodon>3025</endCodon>
+        <startCodon>5615</startCodon>
+        <endCodon>5890</endCodon>
     </aminoAcidRegionSelector>
     
 </alignmentColumnsSelector>

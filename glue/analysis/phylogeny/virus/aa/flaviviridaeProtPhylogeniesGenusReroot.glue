@@ -11,10 +11,10 @@
   module flaviviridaePhyloUtility 
 
 
-	#reroot-phylogeny \
-    #  --inputFile trees/genus/flavivirus.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    #  --outputFile trees/genus/flavivirus.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+	reroot-phylogeny \
+      --inputFile trees/genus/flavivirus.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/genus/flavivirus.MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
       --inputFile trees/genus/tamanavirus.tre NEWICK_BOOTSTRAPS \
@@ -37,16 +37,6 @@
       --outputFile trees/genus/pestivirus-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/genus/pl1.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/genus/pl1-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/genus/pl2.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/genus/pl2-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
       --inputFile trees/genus/jingmenvirus_seg1.tre NEWICK_BOOTSTRAPS \
       --midpoint \
       --outputFile trees/genus/jingmenvirus_seg1-MidpointRerooted.tree NEWICK_BOOTSTRAPS
@@ -55,6 +45,12 @@
       --inputFile trees/genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS \
       --midpoint \
       --outputFile trees/genus/jingmenvirus_seg3-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/genus/lgf.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/genus/lgf-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
 
     exit
 
