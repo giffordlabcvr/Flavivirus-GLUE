@@ -16,11 +16,8 @@
   delete alignment AL_TREE_Jingmenvirus_Seg1
   delete alignment AL_UNC_TREE_Jingmenvirus_Seg3
   delete alignment AL_TREE_Jingmenvirus_Seg3
-  delete alignment AL_UNC_TREE_PL1
-  delete alignment AL_TREE_PL1
-  delete alignment AL_UNC_TREE_PL2
-  delete alignment AL_TREE_PL2
-
+  delete alignment AL_UNC_TREE_Lgf
+  delete alignment AL_TREE_LGF
 
   # Delete modules
   delete module fastaAlignmentExporter
@@ -40,6 +37,7 @@
   	export AL_GENUS_Pestivirus        -r REF_MASTER_PESTI_1_BVDV1 -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_pestivirus-all.aln.fna
  	export AL_GENUS_Hepacivirus       -r REF_MASTER_HEPACI_1_HCV  -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_hepacivirus-all.aln.fna
  	export AL_GENUS_Pegivirus         -r REF_MASTER_PEGI_1_HPgV2  -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_pegivirus-all.aln.fna
+ 	export AL_GENUS_LGF               -r REF_MASTER_SLV2          -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_lgf-all.aln.fna
   	export AL_GENUS_Jingmenvirus_Seg1 -r REF_MASTER_JMTV_Seg1     -f seg1-NS5 --recursive -a  -e -o alignments/tree/genus_jingmenvirus-seg1-all.aln.fna
  	export AL_GENUS_Jingmenvirus_Seg3 -r REF_MASTER_JMTV_Seg3     -f seg3-NS3 --recursive -a  -e -o alignments/tree/genus_jingmenvirus-seg3-all.aln.fna
 	
@@ -56,6 +54,7 @@
     import AL_UNC_TREE_Jingmenvirus_Seg3 -f alignments/tree/genus_jingmenvirus-seg3-all.aln.fna
     import AL_UNC_TREE_Pegivirus         -f alignments/tree/genus_pegivirus-all.aln.fna	
     import AL_UNC_TREE_Hepacivirus       -f alignments/tree/genus_hepacivirus-all.aln.fna
+    import AL_UNC_TREE_Lgf               -f alignments/tree/genus_lgf-all.aln.fna
     
 	exit
 
@@ -65,12 +64,11 @@
   create alignment AL_TREE_Flavivirus         -r REF_MASTER_YFV
   create alignment AL_TREE_Tamanavirus        -r REF_MASTER_TAMANA_1_TABV
   create alignment AL_TREE_Pestivirus         -r REF_MASTER_PESTI_1_BVDV1
-  create alignment AL_TREE_PL1                -r REF_MASTER_SCNV5
-  create alignment AL_TREE_PL2                -r REF_MASTER_SLV2
   create alignment AL_TREE_Pegivirus          -r REF_MASTER_PEGI_1_HPgV2
   create alignment AL_TREE_Hepacivirus        -r REF_MASTER_HEPACI_1_HCV
   create alignment AL_TREE_Jingmenvirus_Seg1  -r REF_MASTER_JMTV_Seg1
   create alignment AL_TREE_Jingmenvirus_Seg3  -r REF_MASTER_JMTV_Seg3
+  create alignment AL_TREE_LGF                -r REF_MASTER_SLV2
 
 
 
@@ -103,6 +101,10 @@
   alignment AL_TREE_Jingmenvirus_Seg3
 	derive segments AL_UNC_TREE_Jingmenvirus_Seg3 -a --mergeStrategy OVERWRITE
 	exit
+	
+  alignment AL_TREE_LGF
+	derive segments AL_UNC_TREE_Lgf -a --mergeStrategy OVERWRITE
+	exit
 
 
   module flaviviridaeFeaturePresenceRecorder
@@ -114,6 +116,7 @@
     record feature-presence AL_TREE_PL2               --featureName precursor_polyprotein --descendentFeatures
     record feature-presence AL_TREE_Pegivirus         --featureName precursor_polyprotein --descendentFeatures
     record feature-presence AL_TREE_Hepacivirus       --featureName precursor_polyprotein --descendentFeatures
+    record feature-presence AL_TREE_LGF               --featureName precursor_polyprotein --descendentFeatures
     record feature-presence AL_TREE_Jingmenvirus_Seg1 --featureName seg1-NS5 --descendentFeatures
     record feature-presence AL_TREE_Jingmenvirus_Seg3 --featureName seg3-NS3 --descendentFeatures
 
