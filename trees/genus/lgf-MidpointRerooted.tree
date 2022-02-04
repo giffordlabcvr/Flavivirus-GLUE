@@ -1,0 +1,115 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=13;
+	taxlabels
+	'alignment/AL_TREE_LGF/member/ncbi-refseqs/KR902735'[&full_name="Xinzhou spider virus 2",genus="LGF",host_major_group="Arthropods",host_minor_group="Arachnids",name="XinSpiFV",sampled_host_sci_name="unknown Araneae,Neoscona nautica",sequenceID="KR902735",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_LGF/member/ncbi-refseqs/KR902737'[&full_name="Wuhan centipede virus",genus="LGF",host_major_group="Arthropods",host_minor_group="Myriapods",name="WuCentiV",sampled_host_sci_name="Otostigmus scaber",sequenceID="KR902737",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_LGF/member/ncbi-refseqs/KU754513'[&full_name="Takaungu virus",genus="LGF",host_major_group="Arthropods",host_minor_group="Insects",name="TakV",sampled_host_sci_name="-",sequenceID="KU754513",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_LGF/member/ncbi-refseqs/MH620810'[&full_name="Lampyris noctiluca flavivirus 1",genus="LGF",host_major_group="Arthropods",host_minor_group="Insects",name="LampV",sampled_host_sci_name="Lampyris noctiluca (glowworm)",sequenceID="MH620810",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_LGF/member/ncbi-refseqs/MH778148'[&full_name="Sitobion miscanthi flavi-like virus 1",genus="LGF",host_major_group="Arthropods",host_minor_group="Insects",name="SmFlV",sampled_host_sci_name="Sitobion miscanthi",sequenceID="MH778148",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_020252'[&full_name="Gentian Kobu-sho-associated virus",genus="LGF",host_major_group="Nematode",host_minor_group="Nematode",name="GKaV",sampled_host_sci_name="Gentiana triflora",sequenceID="NC_020252",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_024077'[&full_name="Soybean cyst nematode virus 5",genus="LGF",host_major_group="Nematode",host_minor_group="Nematode",name="SbCNV-5",sampled_host_sci_name="Heterodera glycines",sequenceID="NC_024077",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_028137'[&full_name="Macrosiphum euphorbiae virus 1",genus="LGF",host_major_group="Arthropods",host_minor_group="Insects",name="MEV-1",sampled_host_sci_name="Macrosiphum euphorbiae",sequenceID="NC_028137",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_028367'[&full_name="Tacheng tick virus 8",genus="LGF",host_major_group="Arthropods",host_minor_group="Acari",name="TachengTV-8",sampled_host_sci_name="Dermacentor marginatus",sequenceID="NC_028367",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_028370'[&full_name="Xingshan cricket virus",genus="LGF",host_major_group="Arthropods",host_minor_group="Insects",name="XCV",sampled_host_sci_name="Velarifictorus micado",sequenceID="NC_028370",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_028373'[&full_name="Shuangao lacewing virus 2",genus="LGF",host_major_group="Arthropods",host_minor_group="Insects",name="SLV2",sampled_host_sci_name="Chrysopidae sp.",sequenceID="NC_028373",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_028375'[&full_name="Shayang fly virus 4",genus="LGF",host_major_group="Arthropods",host_minor_group="Insects",name="ShayangFlyV4",sampled_host_sci_name="Musca domestica",sequenceID="NC_028375",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_035071'[&full_name="Apis flavivirus",genus="LGF",host_major_group="Arthropods",host_minor_group="Insects",name="ApisFV",sampled_host_sci_name="Apis mellifera",sequenceID="NC_035071",subfamily="FlaviPesti",vector_group="none"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_024077':0.742376,('alignment/AL_TREE_LGF/member/ncbi-refseqs/KR902735':1.367263,('alignment/AL_TREE_LGF/member/ncbi-refseqs/KU754513':0.107289,('alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_035071':0.41361,('alignment/AL_TREE_LGF/member/ncbi-refseqs/MH620810':0.476484,'alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_020252':0.953902)[&label=94]:0.509264)[&label=54]:0.158725)[&label=100]:0.732252)[&label=42]:0.105985)[&label=55]:0.073758,(('alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_028373':0.23855,('alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_028370':0.786115,('alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_028375':0.472939,('alignment/AL_TREE_LGF/member/ncbi-refseqs/MH778148':0.437676,'alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_028137':0.199943)[&label=100]:0.629601)[&label=94]:0.25956)[&label=97]:0.408173)[&label=89]:0.45456,('alignment/AL_TREE_LGF/member/ncbi-refseqs/KR902737':1.338659,'alignment/AL_TREE_LGF/member/ncbi-refseqs/NC_028367':0.998548)[&label=51]:0.208752)[&label=55]:0.344316);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="host_major_group";
+	set tipLabels.displayAttribute="full_name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
