@@ -1,4 +1,12 @@
 // Get a list of all MASTER references
+//var referencesResult = glue.command(["list","reference","-w","name = 'REF_MASTER_YFV'"]);
+var referencesResult = glue.command(["list","reference"]);
+//glue.log("INFO", "RESULT WAS ", referencesResult);
+var listResult = referencesResult["listResult"];
+var referencesList = listResult["row"];
+//glue.log("INFO", "RESULT WAS ", referencesList);
+
+
 
 // Iterate through master references
 

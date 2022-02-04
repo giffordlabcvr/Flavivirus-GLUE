@@ -65,10 +65,6 @@
       -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/subgenus/pesti1.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_PESTI_SUBGENUS_2 -s alignmentColumnsSelectorTdav \
-      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus/pesti1.tre NEWICK_BOOTSTRAPS
-
     exit
 
 
@@ -128,6 +124,10 @@
     generate nucleotide phylogeny AL_PEGI_SUBGENUS_1 -s alignmentColumnsSelectorPegivirus1 \
       -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/subgenus/pegi1.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_PEGI_SUBGENUS_2 -s alignmentColumnsSelectorTdav \
+      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus/pesti1.tre NEWICK_BOOTSTRAPS
 
     exit
 
