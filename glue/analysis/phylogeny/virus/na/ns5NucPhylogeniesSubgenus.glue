@@ -10,7 +10,6 @@
   delete module alignmentColumnsSelectorMbfv1
   delete module alignmentColumnsSelectorMbfv2
   delete module alignmentColumnsSelectorNkv1
-  delete module alignmentColumnsSelectorNkv2
   
   # Create all the alignment column selector modules we need
   create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorCisf.xml
@@ -18,7 +17,6 @@
   create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorMbfv1.xml
   create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorMbfv2.xml
   create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorNkv1.xml
-  create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorNkv2.xml
 
   # Create the Flavivirus subgenus phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorNucs

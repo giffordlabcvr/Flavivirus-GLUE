@@ -1,6 +1,11 @@
-// Get a list of all MSA MASTER references
+// Get a list of all MASTER references
 
 // Iterate through master references
+
+
+
+
+
 
   // Get list of features on master reference
   var featuresToInherit = get_features('REF_MASTER_Dependo_AAV2');
