@@ -1,0 +1,4 @@
+taxon	sequenceID	name	full_name	subfamily	genus	host_major_group	host_minor_group	vector_group	sampled_host_sci_name
+alignment/AL_FLAVI_SUBGENUS_crustacean/member/ncbi-refseqs/MK473877	MK473877	GcFV	Gammarus chevreuxi flavivirus	FlaviPesti	Flavivirus	Arthropods	Crustaceans	none	Gammarus chevreuxi
+alignment/AL_FLAVI_SUBGENUS_crustacean/member/ncbi-refseqs/MK473878	MK473878	CcFV	Crangon crangon flavivirus	FlaviPesti	Flavivirus	Arthropods	Crustaceans	none	Crangon crangon
+alignment/AL_FLAVI_SUBGENUS_crustacean/member/ncbi-refseqs/MK473881	MK473881	GpFV	Gammarus pulex flavivirus	FlaviPesti	Flavivirus	Arthropods	Crustaceans	none	Gammarus pulex

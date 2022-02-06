@@ -233,7 +233,7 @@ function calculateCompositionDinuc() {
 	
 	});
 
-    glue.log("INFO", "SEGMENTS RESULT WAS ", nonCodingFeatureSequences);
+    //glue.log("INFO", "SEGMENTS RESULT WAS ", nonCodingFeatureSequences);
 
 
 
@@ -251,13 +251,13 @@ function calculateCompositionDinuc() {
 		var referenceName = referenceProperties[0];
 	    var sequenceID = referenceProperties[2];
 	    
-		glue.log("INFO", "Reference name result was:", referenceName);
+		//glue.log("INFO", "Reference name result was:", referenceName);
         
         var refseqFeatureSeqs = nonCodingFeatureSequences[referenceName];
         
  		_.each(_.keys(refseqFeatureSeqs), function(featureName) {
 	
-			glue.log("INFO", "Feature name is "+featureName);
+			//glue.log("INFO", "Feature name is "+featureName);
 			var featureObj = refseqFeatureSeqs[featureName];
             var seqLength = featureObj["length"];
             var sequence = featureObj["nucSequence"];
@@ -336,7 +336,7 @@ function calculateCompositionDinuc() {
         var refseqCodingFeatureSeqs = codingFeatureSequences[referenceName];
  		_.each(_.keys(refseqCodingFeatureSeqs), function(featureName) {
 	
-			glue.log("INFO", "Feature name is "+featureName);
+			//glue.log("INFO", "Feature name is "+featureName);
 			var featureObj = refseqCodingFeatureSeqs[featureName];
             var seqLength = featureObj["length"];
             var sequence = featureObj["nucSequence"];

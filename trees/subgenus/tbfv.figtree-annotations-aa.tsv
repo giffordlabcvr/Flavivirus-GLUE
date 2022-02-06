@@ -1,0 +1,16 @@
+taxon	sequenceID	name	full_name	subfamily	genus	host_major_group	host_minor_group	vector_group	sampled_host_sci_name
+alignment/AL_FLAVI_SUBGENUS_TBFV/member/ncbi-refseqs/DQ235149	DQ235149	RFV	Royal Farm virus	FlaviPesti	Flavivirus	Mammalia	-	tick	-
+alignment/AL_FLAVI_SUBGENUS_TBFV/member/ncbi-refseqs/DQ235151	DQ235151	TSEV	Turkish sheep encephalitis virus	FlaviPesti	Flavivirus	Mammalia	-	tick	-
+alignment/AL_FLAVI_SUBGENUS_TBFV/member/ncbi-refseqs/JF416960	JF416960	KFDV	Kyasanur Forest disease virus	FlaviPesti	Flavivirus	Mammalia	-	tick	Semnopithecus entellus
+alignment/AL_FLAVI_SUBGENUS_TBFV/member/ncbi-refseqs/NC_001672	NC_001672	TBEV	Tick-borne encephalitis virus	FlaviPesti	Flavivirus	Mammalia	-	tick	-
+alignment/AL_FLAVI_SUBGENUS_TBFV/member/ncbi-refseqs/NC_001809	NC_001809	LIV	Louping ill virus	FlaviPesti	Flavivirus	Mammalia	Artiodactyla	tick	-
+alignment/AL_FLAVI_SUBGENUS_TBFV/member/ncbi-refseqs/NC_003687	NC_003687	POWV	Powassan virus	FlaviPesti	Flavivirus	Mammalia	Primates	tick	-
+alignment/AL_FLAVI_SUBGENUS_TBFV/member/ncbi-refseqs/NC_003690	NC_003690	LGTV	Langat virus	FlaviPesti	Flavivirus	Mammalia	-	tick	-
+alignment/AL_FLAVI_SUBGENUS_TBFV/member/ncbi-refseqs/NC_005062	NC_005062	OMSKV	Omsk hemorrhagic fever virus	FlaviPesti	Flavivirus	Mammalia	Primates	tick	-
+alignment/AL_FLAVI_SUBGENUS_TBFV/member/ncbi-refseqs/NC_023424	NC_023424	TYUV	Tyuleniy virus	FlaviPesti	Flavivirus	Aves	-	tick	Ixodes uriae
+alignment/AL_FLAVI_SUBGENUS_TBFV/member/ncbi-refseqs/NC_023439	NC_023439	KAMV	Kama virus	FlaviPesti	Flavivirus	Aves	-	tick	Ixodes lividus
+alignment/AL_FLAVI_SUBGENUS_TBFV/member/ncbi-refseqs/NC_027709	NC_027709	SGEV	Spanish goat encephalitis virus	FlaviPesti	Flavivirus	Mammalia	-	tick	Bermeya goat
+alignment/AL_FLAVI_SUBGENUS_TBFV/member/ncbi-refseqs/NC_033721	NC_033721	MEAV	Meaban virus	FlaviPesti	Flavivirus	Aves	-	tick	-
+alignment/AL_FLAVI_SUBGENUS_TBFV/member/ncbi-refseqs/NC_033723	NC_033723	GGYV	Gadgets Gully virus	FlaviPesti	Flavivirus	Aves	-	tick	-
+alignment/AL_FLAVI_SUBGENUS_TBFV/member/ncbi-refseqs/NC_033724	NC_033724	KADV	Kadam virus	FlaviPesti	Flavivirus	Mammalia	-	tick	-
+alignment/AL_FLAVI_SUBGENUS_TBFV/member/ncbi-refseqs/NC_033726	NC_033726	SREV	Saumarez Reef virus	FlaviPesti	Flavivirus	Aves	-	tick	-

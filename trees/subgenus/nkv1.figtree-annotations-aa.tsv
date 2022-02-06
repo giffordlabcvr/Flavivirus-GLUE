@@ -1,0 +1,7 @@
+taxon	sequenceID	name	full_name	subfamily	genus	host_major_group	host_minor_group	vector_group	sampled_host_sci_name
+alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/KJ469370	KJ469370	BCV	Batu Cave virus	FlaviPesti	Flavivirus	Mammalia	Rodentia	unknown	Cynopterus brachyotis
+alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/NC_003635	NC_003635	MODV	Modoc virus	FlaviPesti	Flavivirus	Mammalia	Rodentia	unknown	-
+alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/NC_003675	NC_003675	RBV	Rio Bravo virus	FlaviPesti	Flavivirus	Mammalia	Chiroptera	unknown	-
+alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/NC_003676	NC_003676	APOIV	Apoi virus	FlaviPesti	Flavivirus	Mammalia	Rodentia	unknown	-
+alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/NC_004119	NC_004119	MMLV	Montana myotis leukoencephalitis virus	FlaviPesti	Flavivirus	Mammalia	Chiroptera	unknown	-
+alignment/AL_FLAVI_SUBGENUS_NKV1/member/ncbi-refseqs/NC_026620	NC_026620	JUTV	Jutiapa virus	FlaviPesti	Flavivirus	Mammalia	Rodentia	unknown	Sigmodon hispidus

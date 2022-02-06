@@ -77,16 +77,16 @@
   create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorPL1.xml
   create module -f  modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorPL2.xml
   
-  # Create the Large-Genome Flavirus subgenus phylogenies
+  # Create the Large-Genome Flavirus (LGF) subgenus phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorNucs
 
-    generate nucleotide phylogeny AL_LGF_SUBGENUS_PL1 -s alignmentColumnsSelectorPL1 \
-      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus/pl1.tre NEWICK_BOOTSTRAPS
+    # Too diverse and few taxa
+    #generate nucleotide phylogeny AL_LGF_SUBGENUS_PL1 -s alignmentColumnsSelectorPL1 \
+    #  -a -o trees/subgenus/pl1.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_LGF_SUBGENUS_PL2 -s alignmentColumnsSelectorPL2 \
-      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/subgenus/pl2.tre NEWICK_BOOTSTRAPS
+    # Too diverse and few taxa
+    #generate nucleotide phylogeny AL_LGF_SUBGENUS_PL2 -s alignmentColumnsSelectorPL2 \
+    #  -a -o trees/subgenus/pl2.tre NEWICK_BOOTSTRAPS
 
     exit
 
