@@ -162,7 +162,7 @@ create reference    REF_HEPACI_3_BHV     ncbi-refseqs    NC_031947 # Bat Hepaciv
 create reference    REF_HEPACI_2_HVN     ncbi-refseqs    NC_038432 # Hepacivirus N    
 create reference    REF_HEPACI_2_HVB     ncbi-refseqs    NC_038426 # Hepacivirus B    
 create reference    REF_HEPACI_3_HVM     ncbi-refseqs    NC_038431 # Hepacivirus M    
-create reference    REF_HEPACI_2_GBVB    ncbi-refseqs    NC_001655 # Hepatitis GB virus B    
+create reference    REF_HEPACI_2_HCV_L   ncbi-refseqs    NC_031916  # Hepacivirus L 
 create reference    REF_HEPACI_2_SloHV   ncbi-refseqs    MH844500 # Sloth hepacivirus    
 create reference    REF_HEPACI_2_RRHV    ncbi-refseqs    MZ393518 # Ringtail Racoon Hepacivirus    
 create reference    REF_HEPACI_5_JHV     ncbi-refseqs    MN133813 # Jogalong Hepacivirus    

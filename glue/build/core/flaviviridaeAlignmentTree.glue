@@ -185,7 +185,7 @@
 	extract child AL_HEPACI_SUBGENUS_1 --refName REF_MASTER_HEPACI_1_HCV
 	demote member AL_HEPACI_SUBGENUS_1 --whereClause "sequence.subgenus= 'Hepaci1'"
 
-	extract child AL_HEPACI_SUBGENUS_2 --refName REF_MASTER_HEPACI_2_HCV_L
+	extract child AL_HEPACI_SUBGENUS_2 --refName REF_MASTER_HEPACI_2_GBVB
 	demote member AL_HEPACI_SUBGENUS_2 --whereClause "sequence.subgenus= 'Hepaci2'"
 
 	extract child AL_HEPACI_SUBGENUS_3 --refName REF_MASTER_HEPACI_3_HCV_K

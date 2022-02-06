@@ -197,8 +197,17 @@
 
 
 
-  reference REF_MASTER_HEPACI_2_HCV_L
+  reference REF_HEPACI_2_HCV_L
 
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 8916
+      exit
+
+    add feature-location precursor_polyprotein
+    feature-location precursor_polyprotein
+      add segment 174 8879
+      exit
 
     add feature-location e1_hepaci
     feature-location e1_hepaci

@@ -39,7 +39,7 @@
 
   ### Hepacivirus
   create reference REF_MASTER_HEPACI_1_HCV     ncbi-refseqs   NC_004102  # HCV prototype
-  create reference REF_MASTER_HEPACI_2_HCV_L   ncbi-refseqs   NC_031916  # Hepacivirus L
+  create reference REF_MASTER_HEPACI_2_GBVB    ncbi-refseqs   NC_001655 # Hepatitis GB virus B   
   create reference REF_MASTER_HEPACI_3_HCV_K   ncbi-refseqs   NC_038430  # Hepacivirus K
   create reference REF_MASTER_HEPACI_4_HCV_J   ncbi-refseqs   NC_038429  # Hepacivirus J
   create reference REF_MASTER_HEPACI_5_BEHV    ncbi-refseqs   MN062427   # Bald eagle hepacivirus 
