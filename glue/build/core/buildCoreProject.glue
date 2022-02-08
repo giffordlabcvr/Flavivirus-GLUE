@@ -27,6 +27,9 @@ project flaviviridae
       
   run file glue/build/core/flaviviridaeExplicitFeatureLocations.glue # Explicitly define feature locations
 
+  # Add variations
+  run file glue/build/core/flaviviridaeVariations.glue
+
   # Import alignments
   run file glue/build/core/flaviviridaeAlignments.glue
 
@@ -38,7 +41,6 @@ project flaviviridae
 
   # Remove unconstrained alignments (optional)
   run file glue/build/core/deleteUnconstrainedMSAs.glue
-
 
   validate
 
