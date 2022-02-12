@@ -56,7 +56,9 @@ _.each(loadResult, function(eveObj) {
 			glue.command(["set", "field", "full_name", sequenceID]);
 			glue.command(["set", "field", "length", eveObj.sequence_length]);
 			glue.command(["set", "field", "subfamily", subfamily]);
+			glue.command(["set", "field", "supergenus", supergenus]);
 			glue.command(["set", "field", "genus", genus]);
+			glue.command(["set", "field", "subgenus", subgenus]);
 			glue.command(["set", "field", "clade", clade]);
 
 		});
