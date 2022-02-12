@@ -1,0 +1,10 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>seg1-NS5</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner>
+			<featureName>whole_genome</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>
