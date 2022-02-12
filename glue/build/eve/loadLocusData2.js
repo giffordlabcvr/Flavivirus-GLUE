@@ -44,10 +44,12 @@ _.each(loadResult, function(eveObj) {
 		
 		// Get the taxonomy 
 		var efvRefConObj = efvRefseqResultMap[locus_name];
-		//glue.log("INFO", "LOADED REFCON INFO ", efvRefConObj);
+		glue.log("INFO", "LOADED REFCON INFO ", efvRefConObj);
 	
 		var subfamily   = efvRefConObj.subfamily;
 		var genus       = efvRefConObj.genus;
+		var supergenus  = efvRefConObj.supergenus;
+		var subgenus    = efvRefConObj.subgenus;
 		var clade       = efvRefConObj.clade;
 
 		glue.inMode("sequence/"+source_name+"/"+sequenceID, function() {

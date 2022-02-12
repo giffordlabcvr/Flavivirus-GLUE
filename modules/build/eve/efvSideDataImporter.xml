@@ -23,8 +23,7 @@
         <header>subfamily</header>
         <property>subfamily</property>
     </textFileColumn>
-
-    
+ 
     <textFileColumn>
         <header>genus</header>
         <property>genus</property>
@@ -34,7 +33,6 @@
         <header>clade</header>
         <property>clade</property>
     </textFileColumn>
-  
 
     <skipMissing>true</skipMissing>
 

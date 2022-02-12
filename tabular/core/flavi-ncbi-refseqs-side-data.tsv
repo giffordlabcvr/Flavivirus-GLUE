@@ -73,7 +73,6 @@ NC_033698	Uganda S virus	UGSV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2
 NC_012735	Wesselsbron virus	WSLV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL	Mammalia		Ovis aries	Aedes	ungulates
 NC_002031	Yellow fever virus	YFV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL	Mammalia	Primates	Aedes aegypti, Aedes albopictus	Aedes	primates
 LC582740	Mpulungu flavivirus	Mpulungu	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	Mpulungu	NULL	NK	NK	Rhipicephalus muhsamae	unknown	Rhipicephalus
-MW314683	Dipteran flavi-related virus OKIAV1492		Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NK	NULL	Arthropods	Insects	Simulium meridionale	none	none
 NC_003676	Apoi virus	APOIV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL	Mammalia	Rodentia	Apodemus spp.	unknown	rodents
 NC_026620	Jutiapa virus	JUTV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL	Mammalia	Rodentia	Sigmodon hispidus	unknown	rodents
 NC_003635	Modoc virus	MODV	Flaviviridae	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL	Mammalia	Rodentia	Peromyscus maniculatus	unknown	rodents
@@ -114,7 +113,6 @@ MW208796	Hemipteran jingmen-related virus OKIAV329	HjrV1_Seg1	Jingmenvirus	Flavi
 MW208797	Hemipteran jingmen-related virus OKIAV327	HjrV2_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Plea minutissima	none	none
 MW208798	Psocopteran jingmen-related virus OKIAV331	PJrV_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Heterocaecilius solocipennis	none	none
 MW208799	Neuropteran jingmenvirus (OKIAV339)	NJrV_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Pseudomallada ventralis	none	none
-MW208800	Siphonapteran jingmen-related virus OKIAV340	SJrV_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Ctenocephalides felis	none	none
 MW208802	Hemipteran jingmen-related virus OKIAV329	HjrV1_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Tachycixius pilosus	none	none
 MW208803	Hemipteran jingmen-related virus OKIAV327	HjrV2_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Plea minutissima	none	none
 MW208804	Psocopteran jingmen-related virus OKIAV331	PJrV_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Heterocaecilius solocipennis	none	none

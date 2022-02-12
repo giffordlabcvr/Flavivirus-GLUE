@@ -33,6 +33,11 @@
         <header>genus</header>
         <property>genus</property>
     </textFileColumn>
+
+    <textFileColumn>
+        <header>subgenus</header>
+        <property>subgenus</property>
+    </textFileColumn>
     
     <textFileColumn>
         <header>clade</header>
