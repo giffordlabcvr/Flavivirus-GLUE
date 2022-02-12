@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MW208803</GBSeq_locus>
+    <GBSeq_length>2976</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>06-APR-2021</GBSeq_update-date>
+    <GBSeq_create-date>06-APR-2021</GBSeq_create-date>
+    <GBSeq_definition>Hemipteran jingmen-related virus isolate OKIAV327 NS3 gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MW208803</GBSeq_primary-accession>
+    <GBSeq_accession-version>MW208803.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MW208803.1|</GBSeqid>
+      <GBSeqid>gi|2020861567</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA272202</GBSeq_project>
+    <GBSeq_source>Hemipteran jingmen-related virus</GBSeq_source>
+    <GBSeq_organism>Hemipteran jingmen-related virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes; Amarillovirales; Flaviviridae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2976</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sofia,P.</GBAuthor>
+          <GBAuthor>Simon,K.</GBAuthor>
+          <GBAuthor>Florian,Z.</GBAuthor>
+          <GBAuthor>Alexander,D.</GBAuthor>
+          <GBAuthor>Malte,P.</GBAuthor>
+          <GBAuthor>Shanlin,L.</GBAuthor>
+          <GBAuthor>Xin,Z.</GBAuthor>
+          <GBAuthor>Christian,D.</GBAuthor>
+          <GBAuthor>Bernhard,M.</GBAuthor>
+          <GBAuthor>Sandra,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Viromics of extant insect orders unveil the evolution of the flavi-like superfamily</GBReference_title>
+        <GBReference_journal>Virus Evol (2021) In press</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2976</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Paraskevopoulou,S.</GBAuthor>
+          <GBAuthor>Kaefer,S.</GBAuthor>
+          <GBAuthor>Zirkel,F.</GBAuthor>
+          <GBAuthor>Donath,A.</GBAuthor>
+          <GBAuthor>Petersen,M.</GBAuthor>
+          <GBAuthor>Liu,S.</GBAuthor>
+          <GBAuthor>Zhou,X.</GBAuthor>
+          <GBAuthor>Drosten,C.</GBAuthor>
+          <GBAuthor>Misof,B.</GBAuthor>
+          <GBAuthor>Junglen,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (03-NOV-2020) Institute of Virology, Charite - Universitaetsmedizin Berlin, Chariteplatz 1, Berlin, Berlin 10117, Germany</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: SOAPdenovo-Trans-31kmer v. v. 1.01 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2976</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2976</GBInterval_to>
+            <GBInterval_accession>MW208803.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Hemipteran jingmen-related virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>OKIAV327</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Plea minutissima</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:2822571</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Germany: Lower Saxony, Luechow-Dannenberg - Hoehbeck - Pevestorf</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>01-Aug-2011</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>Ralph S. Peters, Martin Kubiak, Karen Meusemann</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>51..2741</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>51</GBInterval_from>
+            <GBInterval_to>2741</GBInterval_to>
+            <GBInterval_accession>MW208803.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QTJ63646.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MKKEEPFEFGMLDPVVRFIPNLCSFSYSKLRPQLMKQLSNNQAVTIIVLLHVLGYYLLGGFSSIIGTILISTMIEPDYKFGKVFWFFNNIIFWTLGPEFVIAWNFIYLKYTTMELPVWLFVLMCKYEANVIKIMDELSTSSIVGFNDMNVFSKFACYIMHGIENLTMYESTARYLREVDLTKLPKPMMERKFLPPAETVEIIEKARKLSTSGYLILLAVFLGFTMGLRTSIITVFFMLYIVSIKDTEEPGEIRTNETRQIMDGVYRLEKSFMGYKFAEAIGYAHAGVLHVPYHHMAASDVKIRGKNYKPTYSSKSEDITTYCGHPSLYRPTETTGTVIVALQNDHGEMLVTTKLSRSGNNITFPSLTEPGQSGSPVFYMIDDTTYFIGLAGVWCKDTDGNATELIVQPSLTRNPAETVENCTELCRHPGFGKTRKEIPRLIRKFLLENKTGKIIISGPTVIICESIYRAILPEFRDVGARIRSVRAVRDMARIQVMAHDTLFMHLVNKTNVVSNVKHIILDESHTDFASTRCMVNWLKQHKTITSTLMSATFPDKSDSSSNYPIEDHKFKVEDLSKLVDIEVQMGNRVLIFVPGKEGKNGWNTIKNKRGIKDKKLLVLNRETYPKVSSNLDDPDIQVIISTNIAECGVNIDVDTVIDLCENFYFKFDNNRIFGVTETIAEENRIQRRGRVGRTKPGKYYFTKEPIGITREASASHFEAWLMSKDLDLNYPQVGNPSEWPHVSTQLISQAVSNQIPITEAILDYDHTGRNRHEYDMKMLMTQIMEGDNVTVSCGIKKCPCEGTYLWWDDRLHDKFLTKMGLQPLRKEREPLFIEDLEPPRPPPAVATTYEPYERSPPPDPPSSKLSPVETENVGVIQKVRESIIHTVIGKPTSRMKQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctaaaatactaatttgagaattgaggtttattgataaagaaacttaaaaaatgaaaaaagaagagcctttcgagttcggaatgcttgatcctgtggtcaggtttataccgaatttatgtagcttttcttactcaaagttacgcccccaactgatgaaacagctttccaacaaccaagcagtcacgatcatagtccttctacacgttctgggttattacctactaggaggtttttctagcatcataggaaccatattgatttctactatgatagaaccagactacaagtttggcaaggtgttctggttttttaataatataatattttggaccttaggccccgagtttgtaatagcttggaactttatctatttgaagtacaccacaatggaactcccagtctggttatttgtccttatgtgtaagtatgaggctaatgttatcaagattatggatgagttatcaacctcctctatagttggctttaatgacatgaatgtcttctcaaaatttgcttgctatataatgcatggtatcgagaatttgactatgtatgagtctactgctagatatttaagagaggtagatcttacaaagttacccaagcctatgatggaaaggaagttcttgcccccagcggagaccgtggaaattattgaaaaggccaggaaattgtcaacctctgggtacttgatattgctagctgtgttccttggattcaccatgggtctgaggacatctatcataactgtattctttatgctatacattgtttctatcaaggatactgaggaaccaggagaaatccgaacaaatgaaaccaggcaaattatggatggagtctacagactagaaaagagctttatgggctataagtttgcggaagctataggttatgcgcatgctggagttttacacgtgccgtaccatcatatggcagcatctgacgtaaaaatcagagggaagaactacaagcccacatattccagcaaatctgaggatatcaccacttattgtggacacccctccctgtataggccaactgaaactacaggcacagtaattgttgcactgcagaacgatcatggagaaatgctggtaaccacgaaattgtctagatcaggtaacaacattacgtttcctagtctaacagagcctggacagtcaggcagtcctgtattctacatgatagatgacaccacttattttatcggtttagcaggagtctggtgtaaggacacggatggcaatgctacagagctcatcgtccaaccttctctcactaggaatccggctgaaacggtggaaaattgtacagaactgtgcagacatccaggattcggaaagactaggaaggagataccgagattgatcagaaaattcctccttgagaacaaaactggtaaaataataatttcaggacctacagtgatcatatgtgaatcgatctatagagcaatattgcctgaatttagagatgttggagccaggataagatcagttagagccgttagagatatggctagaatacaagttatggcccatgacaccttatttatgcacctggttaacaaaacgaatgtggtctctaatgtcaaacacattatattagatgagagccacactgatttcgcctctactagatgtatggtcaactggctgaaacaacacaaaaccattacctcaacactcatgtcagcaacttttccagataagagcgacagcagttctaactatcctatagaagatcacaaatttaaggttgaggacctgtccaaattggtggacattgaagtccaaatggggaacagagtccttatatttgtgccaggaaaagaaggtaagaatgggtggaacaccatcaagaataaaagaggaattaaggacaaaaaattgctggtcctcaacagggagacataccccaaggtatcatctaaccttgatgacccggacatacaagttataatatcgaccaatatagctgaatgcggtgtgaatatagacgtagatactgtcatagacctgtgtgaaaacttttactttaagtttgacaacaacaggatctttggagttactgaaaccatagctgaagagaacagaattcagagaagaggaagagttggtagaaccaaaccaggtaaatactattttactaaggaacctattggtatcaccagagaagcttcagcatcccattttgaggcatggttaatgtctaaagatttagatttgaattatcctcaagtaggcaatccatctgaatggcctcatgtttccacacagttgatatctcaggcagtaagcaaccaaatccctattacagaagccatcttagactacgaccacactggaagaaataggcatgaatatgacatgaagatgcttatgactcagatcatggagggtgataatgtgactgttagttgcggaattaagaaatgtccatgtgaaggaacctacttatggtgggatgatagactacatgacaagttcctgacaaagatgggacttcaaccacttcgcaaagagagggaaccactgtttattgaagatcttgaaccacctaggcctccacctgcggtagcaacaacatatgaaccatatgaacggagtcctcctcccgacccaccatcttcaaaactttccccggttgagacagagaacgtaggagtcatacagaaagttagagagtccattattcataccgtgattgggaaaccaacttcacggatgaagcaatgaggcttctaatctttgtgttttgattgatgatactacttggcaatccctcaaggtaatttcaggattgattgacatggcggtaccaccaggctaacggattaacggaactttgagtaaggagggttaataaaaatatcctactcaactttatttcaaacaatagggggatttgaacgaaagtatcatcttatctagatctcgcatacaaccacacttacttgtggcgaattaccac</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA272202</GBXref_id>
+      </GBXref>
+      <GBXref>
+        <GBXref_dbname>BioSample</GBXref_dbname>
+        <GBXref_id>SAMN03331989</GBXref_id>
+      </GBXref>
+      <GBXref>
+        <GBXref_dbname>Sequence Read Archive</GBXref_dbname>
+        <GBXref_id>SRR2051508</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>
