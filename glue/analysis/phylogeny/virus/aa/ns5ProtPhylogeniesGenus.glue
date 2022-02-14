@@ -28,17 +28,17 @@
     #  -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
     # -o trees/genus/flavivirus.tre NEWICK_BOOTSTRAPS
 
-    generate amino-acid phylogeny AL_TREE_Tamanavirus -s alignmentColumnsSelectorTamanavirusAa \
-      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 20" \
-      -o trees/genus/tamanavirus.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_TREE_Tamanavirus -s alignmentColumnsSelectorTamanavirusAa \
+    #  -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 20" \
+    #  -o trees/genus/tamanavirus.tre NEWICK_BOOTSTRAPS
 
-    generate amino-acid phylogeny AL_TREE_Jingmenvirus_Seg1 -s alignmentColumnsSelectorJingmenvirus_Seg1Aa \
-      -w "fLocNotes.featureLoc.feature.name = 'seg1-NS5' and fLocNotes.ref_nt_coverage_pct >= 40" \
-      -o trees/genus/jingmenvirus_seg1.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_TREE_Jingmenvirus_Seg1 -s alignmentColumnsSelectorJingmenvirus_Seg1Aa \
+    #  -w "fLocNotes.featureLoc.feature.name = 'seg1-NS5' and fLocNotes.ref_nt_coverage_pct >= 40" \
+    #  -o trees/genus/jingmenvirus_seg1.tre NEWICK_BOOTSTRAPS
 
-    generate amino-acid phylogeny AL_TREE_Jingmenvirus_Seg3 -s alignmentColumnsSelectorJingmenvirus_Seg3Aa \
-      -w "fLocNotes.featureLoc.feature.name = 'seg3-NS3' and fLocNotes.ref_nt_coverage_pct >= 40" \
-      -o trees/genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS
+    #generate amino-acid phylogeny AL_TREE_Jingmenvirus_Seg3 -s alignmentColumnsSelectorJingmenvirus_Seg3Aa \
+    #  -w "fLocNotes.featureLoc.feature.name = 'seg3-NS3' and fLocNotes.ref_nt_coverage_pct >= 40" \
+    #  -o trees/genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS
 
     #generate amino-acid phylogeny AL_TREE_Pestivirus -s alignmentColumnsSelectorPestivirusAa \
     #  -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
@@ -53,6 +53,7 @@
     #  -o trees/genus/pegivirus.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_TREE_LGF -s alignmentColumnsSelectorLgfAa \
+      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \    
       -a -o trees/genus/lgf.tre NEWICK_BOOTSTRAPS
 
     exit
