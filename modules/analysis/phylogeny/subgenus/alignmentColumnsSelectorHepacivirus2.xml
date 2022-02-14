@@ -7,8 +7,8 @@
     <!-- Nucleotides -->
     <nucleotideRegionSelector>
         <featureName>NS5</featureName>
-        <startNt>5709</startNt>
-        <endNt>8876</endNt>
+        <startNt>6035</startNt>
+        <endNt>9035</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

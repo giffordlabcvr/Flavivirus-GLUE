@@ -7,7 +7,7 @@
     <aminoAcidRegionSelector>
         <featureName>NS5</featureName>
         <startCodon>1</startCodon>
-        <endCodon>1056</endCodon>
+        <endCodon>1001</endCodon>
     </aminoAcidRegionSelector>
     
 </alignmentColumnsSelector>

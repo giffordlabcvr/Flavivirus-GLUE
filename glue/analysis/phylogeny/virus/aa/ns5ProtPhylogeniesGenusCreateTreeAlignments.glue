@@ -112,8 +112,6 @@
     record feature-presence AL_TREE_Flavivirus        --featureName precursor_polyprotein --descendentFeatures
     record feature-presence AL_TREE_Tamanavirus       --featureName precursor_polyprotein --descendentFeatures
     record feature-presence AL_TREE_Pestivirus        --featureName precursor_polyprotein --descendentFeatures
-    record feature-presence AL_TREE_PL1               --featureName precursor_polyprotein --descendentFeatures
-    record feature-presence AL_TREE_PL2               --featureName precursor_polyprotein --descendentFeatures
     record feature-presence AL_TREE_Pegivirus         --featureName precursor_polyprotein --descendentFeatures
     record feature-presence AL_TREE_Hepacivirus       --featureName precursor_polyprotein --descendentFeatures
     record feature-presence AL_TREE_LGF               --featureName precursor_polyprotein --descendentFeatures
