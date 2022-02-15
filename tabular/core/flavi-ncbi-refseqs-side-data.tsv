@@ -133,7 +133,7 @@ MG599986	Wenzhou shark flavivirus	WenSFV	Flaviviridae	FlaviPesti	FlaviLike	Taman
 MK473875	Southern pygmy squid flavivirus	SpsFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana2	NULL	Mollusca	Cephalopoda	Idiosepius notoides	none	none
 MK473880	Firefly squid flavivirus	FfsFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana2	NULL	Mollusca	Cephalopoda	Watasenia scintillans	none	none
 MT075326	Salmon flavivirus	SFV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana3	NULL	Actinopterygii	Teleostii	Oncorhynchus tshawytscha	none	none
-NC_028367	Tacheng tick virus 8	TachengTV-8	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL	Arthropods	Acari	Dermacentor marginatus	none	none
+NC_028367	Tacheng tick virus 8	TachengTV-8	Flaviviridae	FlaviPesti	PestiLike	LGF	PL3	NULL	Arthropods	Acari	Dermacentor marginatus	none	none
 NC_020252	Gentian Kobu-sho-associated virus	GKaV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL	Plants	Angiosperms	Gentiana triflora	none	none
 NC_024077	Soybean cyst nematode virus	SbCNV-5	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL	Nematode	Nematode	Heterodera glycines	none	none
 NC_035071	Apis flavivirus	ApisFV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL	Arthropods	Insects	Apis mellifera	none	none
