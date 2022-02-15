@@ -53,8 +53,8 @@
     #  -o trees/genus/pegivirus.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_TREE_LGF -s alignmentColumnsSelectorLgfAa \
-      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \    
-      -a -o trees/genus/lgf.tre NEWICK_BOOTSTRAPS
+    -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    -o trees/genus/lgf.tre NEWICK_BOOTSTRAPS
 
     exit
 

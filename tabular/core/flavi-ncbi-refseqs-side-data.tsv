@@ -150,7 +150,7 @@ MW314680	Hymenopteran flavi-related virus OKIAV356		Flaviviridae	FlaviPesti	Pest
 MW314681	Odonatan flavi-like virus OKIAV365		Flaviviridae	FlaviPesti	PestiLike	LGF	PL2	NULL	Arthropods	Insects	Orthetrum albistylum	none	none
 MW314682	Odonatan flavi-related virus OKIAV367		Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL	Arthropods	Insects	Hemiphlebia mirabilis	none	none
 NC_028367	Tacheng tick virus 8	TachengTV-8	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL	Arthropods	Acari	Dermacentor marginatus	none	none
-NC_020252	Gentian Kobu-sho-associated virus	GKaV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL	Nematode	Nematode	Gentiana triflora	none	none
+NC_020252	Gentian Kobu-sho-associated virus	GKaV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL	NK	NK	NK	none	none
 NC_024077	Soybean cyst nematode virus	SbCNV-5	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL	Nematode	Nematode	Heterodera glycines	none	none
 NC_035071	Apis flavivirus	ApisFV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL	Arthropods	Insects	Apis mellifera	none	none
 KR902737	Wuhan centipede virus	WuCentiV	Flaviviridae	FlaviPesti	PestiLike	LGF	PL1	NULL	Arthropods	Myriapods	Otostigmus scaber	none	none
