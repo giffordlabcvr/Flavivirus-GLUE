@@ -4,7 +4,7 @@
 
   
   # Create all the modules we need
-  create module -f modules/core/flaviviridaePhyloUtility.xml
+  create module -f modules/analysis/phylogeny/flaviviridaePhyloUtility.xml
 
 
   # Re-root phylogeny 

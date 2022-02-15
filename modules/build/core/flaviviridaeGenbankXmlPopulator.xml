@@ -40,51 +40,6 @@
 			</propertyPopulator>
 		</gbQualifier>
 
-		<gbQualifier name="host">
-			<propertyPopulator property="isolate_data.sampled_host_sci_name">
-
-				<!-- #### Human -->																																									
-				<valueConverter>
-					<matchPattern>.*Homo [sS]apiens.*</matchPattern>
-					<outputTemplate>Homo sapiens</outputTemplate>
-				</valueConverter>
-
-				<!-- #### Avian -->																																									
-                <valueConverter>
-                    <matchPattern>.*[cC]hicken.*</matchPattern>
-                    <outputTemplate>Gallus gallus</outputTemplate>
-                </valueConverter>
-
-				<!-- #### Dromedary -->																																									
-                <valueConverter>
-                    <matchPattern>.*[dD]romedary camel.*</matchPattern>
-                    <outputTemplate>Camelus dromedarius</outputTemplate>
-                </valueConverter>
-
-				<!-- #### Porcine -->																																									
- 				<valueConverter>
-					<matchPattern>.*[Pp]ig.*</matchPattern>
-					<matchPattern>.*[Pp]iglet.*</matchPattern>
-					<matchPattern>.*[Ss]wine.*</matchPattern>
-					<matchPattern>.*Sus scrofa domesticus*</matchPattern>
-					<matchPattern>.*Sus scrofa*</matchPattern>
-					<matchPattern>.*[Pp]orcine.*</matchPattern>
-					<matchPattern>.*[Ww]ild boar.*</matchPattern>
-					<outputTemplate>Sus scrofa</outputTemplate>
-				</valueConverter>
-
-				<!-- #### Bovine -->																																													
- 				<valueConverter>
-					<matchPattern>.*[Cc]ow.*</matchPattern>
-					<matchPattern>.*[Bb]ovine.*</matchPattern>
-					<matchPattern>.*[Cc]attle.*</matchPattern>
-					<matchPattern>.*[Cc]alf.*</matchPattern>
-					<matchPattern>.*Bos taurus.*</matchPattern>
-					<outputTemplate>Bos taurus</outputTemplate>
-				</valueConverter>	
-				
-			</propertyPopulator>
-		</gbQualifier>
 
 		
 		<gbQualifier name="collection_date">

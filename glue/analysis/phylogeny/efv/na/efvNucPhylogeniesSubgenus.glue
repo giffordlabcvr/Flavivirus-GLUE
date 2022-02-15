@@ -5,7 +5,7 @@
 
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/phylogeny/alignmentColumnsSelectorCisf.xml
+  create module -f modules/analysis/phylogeny/subgenus/alignmentColumnsSelectorCisf.xml
 
   # Create the phylogenies
   module raxmlPhylogenyGenerator

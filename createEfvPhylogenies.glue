@@ -7,19 +7,18 @@ project flaviviridae
   # Viruses + EFVs
 
   # Nucleotide EFV subgenus
-  run file glue/analysis/phylogeny/efv/na/efvNucPhylogeniesSubgenus.glue
-  run file glue/analysis/phylogeny/efv/na/efvNucPhylogeniesSubgenusReroot.glue
-  run file glue/analysis/phylogeny/efv/na/efvNucPhylogeniesSubgenusAnnotations.glue
+  #run file glue/analysis/phylogeny/efv/na/efvNucPhylogeniesSubgenus.glue
+  #run file glue/analysis/phylogeny/efv/na/efvNucPhylogeniesSubgenusReroot.glue
+  #run file glue/analysis/phylogeny/efv/na/efvNucPhylogeniesSubgenusAnnotations.glue
 
   # Polypeptide subgenus
   run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesSubgenus.glue
   run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesSubgenusReroot.glue
   run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesSubgenusAnnotations.glue
 
-  run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesGenusCreateTreeAlignments.glue
-  run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesGenus.glue
-  run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesGenusReroot.glue
-  run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesGenusAnnotations.glue
-
+  #run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesGenusCreateTreeAlignments.glue
+  #run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesGenus.glue
+  #run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesGenusReroot.glue
+  #run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesGenusAnnotations.glue
 
   exit
