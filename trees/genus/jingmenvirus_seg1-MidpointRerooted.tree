@@ -1,1 +1,116 @@
-((alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW314694:1.31483862806972151560,(alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/NC_024113:0.05146925925245877942,alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MH158415:0.17265101673837460194)100:0.82090608781619445189)98:0.213556470224407733705,(alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208797:0.94260815875071435332,((alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208796:0.89863439556947055653,alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/KX883002:0.73221081832471079931)69:0.14234150481042712189,((alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW314684:0.77961205465097904721,alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208798:0.80030142943371129771)100:0.26126457889610610330,(alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/KM521552:0.72725104717808697341,(alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/KP757924:0.86001723801497420574,((alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208795:0.39789710173745079791,(alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/NC_028396:0.49589737381953818973,alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208799:0.50445108048570141968)79:0.13176426878470243187)99:0.20394470245024501343,alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/KR902721:0.44278067938024734396)97:0.12394123175827104211)31:0.07327267214654376026)42:0.11208434490476419654)61:0.16974744390189158705)39:0.14233693368784555711)98:0.066852420174164241255);
+#NEXUS
+begin taxa;
+	dimensions ntax=14;
+	taxlabels
+	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/KM521552'[&full_name="Guaico Culex virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="Guaico_Seg1",sampled_host_sci_name="Culex interrogator",sequenceID="KM521552",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/KP757924'[&full_name="Drosophila-associated Flavivirus-like 2",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="DFlV_Seg1",sampled_host_sci_name="Drosophila",sequenceID="KP757924",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/KR902721'[&full_name="Wuhan aphid virus 1",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="WuhanAphid_Seg1",sampled_host_sci_name="Hyalopterus pruni",sequenceID="KR902721",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/KX883002'[&full_name="Changjiang Jingmen-like virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Crustaceans",name="Changjiang_Seg1",sampled_host_sci_name="Procambarus clarkii",sequenceID="KX883002",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MH158415'[&full_name="Alongshan virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Acari",name="Alongshan_Seg1",sampled_host_sci_name="Ixodes persulcatus",sequenceID="MH158415",subfamily="FlaviPesti",vector_group="ticks"]
+	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208795'[&full_name="Siphonapteran jingmen-related virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="SJrV_Seg1",sampled_host_sci_name="Ctenocephalides felis",sequenceID="MW208795",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208796'[&full_name="Hemipteran jingmen-related virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="HjrV1_Seg1",sampled_host_sci_name="Tachycixius pilosus",sequenceID="MW208796",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208797'[&full_name="Hemipteran jingmen-related virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="HjrV2_Seg1",sampled_host_sci_name="Plea minutissima",sequenceID="MW208797",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208798'[&full_name="Psocopteran jingmen-related virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="PJrV_Seg1",sampled_host_sci_name="Heterocaecilius solocipennis",sequenceID="MW208798",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208799'[&full_name="Neuropteran jingmen-related virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="NJrV_Seg1",sampled_host_sci_name="Pseudomallada ventralis",sequenceID="MW208799",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW314684'[&full_name="Arachnidan jingmen-related virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="AJrV_Seg1",sampled_host_sci_name="Euscorpius sicanus",sequenceID="MW314684",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW314694'[&full_name="Dipluran jingmen-related virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="DJrV_Seg1",sampled_host_sci_name="Campodea silvestrii",sequenceID="MW314694",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/NC_024113'[&full_name="Jingmen tick virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Acari",name="JMTV_Seg1",sampled_host_sci_name="Rhipicephalus microplus",sequenceID="NC_024113",subfamily="FlaviPesti",vector_group="ticks"]
+	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/NC_028396'[&full_name="Shuangao insect virus 7",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="Siv7_Seg1",sampled_host_sci_name="Chrysopidae spp",sequenceID="NC_028396",subfamily="FlaviPesti",vector_group="none"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW314694':1.314839,('alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/NC_024113':0.051469,'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MH158415':0.172651)[&label=100]:0.820906)[&label=98]:0.213556,('alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208797':0.942608,(('alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208796':0.898634,'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/KX883002':0.732211)[&label=69]:0.142342,(('alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW314684':0.779612,'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208798':0.800301)[&label=100]:0.261265,('alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/KM521552':0.727251,('alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/KP757924':0.860017,(('alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208795':0.397897,('alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/NC_028396':0.495897,'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208799':0.504451)[&label=79]:0.131764)[&label=99]:0.203945,'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/KR902721':0.442781)[&label=97]:0.123941)[&label=31]:0.073273)[&label=42]:0.112084)[&label=61]:0.169747)[&label=39]:0.142337)[&label=98]:0.066852);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="host_minor_group";
+	set tipLabels.displayAttribute="sampled_host_sci_name";
+	set tipLabels.fontName=".AppleSystemUIFont";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=1;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

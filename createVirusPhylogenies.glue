@@ -14,7 +14,7 @@ project flaviviridae
 
   # Recursively populated genus-level phylogenies (aa)
   run file glue/analysis/phylogeny/virus/aa/ns5ProtPhylogeniesGenusCreateTreeAlignments.glue
-  #run file glue/analysis/phylogeny/virus/aa/ns5ProtPhylogeniesGenus.glue
+  run file glue/analysis/phylogeny/virus/aa/ns5ProtPhylogeniesGenus.glue
   run file glue/analysis/phylogeny/virus/aa/ns5ProtPhylogeniesGenusReroot.glue
   run file glue/analysis/phylogeny/virus/aa/ns5ProtPhylogeniesGenusAnnotations.glue
   
