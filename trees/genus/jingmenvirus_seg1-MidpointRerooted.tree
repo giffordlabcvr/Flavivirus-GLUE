@@ -12,7 +12,7 @@ begin taxa;
 	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208797'[&full_name="Hemipteran jingmen-related virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="HjrV2_Seg1",sampled_host_sci_name="Plea minutissima",sequenceID="MW208797",subfamily="FlaviPesti",vector_group="none"]
 	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208798'[&full_name="Psocopteran jingmen-related virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="PJrV_Seg1",sampled_host_sci_name="Heterocaecilius solocipennis",sequenceID="MW208798",subfamily="FlaviPesti",vector_group="none"]
 	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW208799'[&full_name="Neuropteran jingmen-related virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="NJrV_Seg1",sampled_host_sci_name="Pseudomallada ventralis",sequenceID="MW208799",subfamily="FlaviPesti",vector_group="none"]
-	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW314684'[&full_name="Arachnidan jingmen-related virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="AJrV_Seg1",sampled_host_sci_name="Euscorpius sicanus",sequenceID="MW314684",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW314684'[&full_name="Arachnidan jingmen-related virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Scorpiones",name="AJrV_Seg1",sampled_host_sci_name="Euscorpius sicanus",sequenceID="MW314684",subfamily="FlaviPesti",vector_group="none"]
 	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/MW314694'[&full_name="Dipluran jingmen-related virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="DJrV_Seg1",sampled_host_sci_name="Campodea silvestrii",sequenceID="MW314694",subfamily="FlaviPesti",vector_group="none"]
 	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/NC_024113'[&full_name="Jingmen tick virus",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Acari",name="JMTV_Seg1",sampled_host_sci_name="Rhipicephalus microplus",sequenceID="NC_024113",subfamily="FlaviPesti",vector_group="ticks"]
 	'alignment/AL_TREE_Jingmenvirus_Seg1/member/ncbi-refseqs/NC_028396'[&full_name="Shuangao insect virus 7",genus="Jingmenvirus",host_major_group="Arthropods",host_minor_group="Insects",name="Siv7_Seg1",sampled_host_sci_name="Chrysopidae spp",sequenceID="NC_028396",subfamily="FlaviPesti",vector_group="none"]
@@ -54,7 +54,7 @@ begin figtree;
 	set nodeLabels.colorAttribute="User selection";
 	set nodeLabels.displayAttribute="label";
 	set nodeLabels.fontName="sansserif";
-	set nodeLabels.fontSize=10;
+	set nodeLabels.fontSize=12;
 	set nodeLabels.fontStyle=0;
 	set nodeLabels.isShown=true;
 	set nodeLabels.significantDigits=4;
@@ -101,8 +101,8 @@ begin figtree;
 	set scaleBar.scaleRange=0.0;
 	set tipLabels.colorAttribute="host_minor_group";
 	set tipLabels.displayAttribute="sampled_host_sci_name";
-	set tipLabels.fontName=".AppleSystemUIFont";
-	set tipLabels.fontSize=14;
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=16;
 	set tipLabels.fontStyle=1;
 	set tipLabels.isShown=true;
 	set tipLabels.significantDigits=4;
