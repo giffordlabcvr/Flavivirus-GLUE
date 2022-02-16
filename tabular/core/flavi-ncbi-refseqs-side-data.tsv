@@ -117,8 +117,8 @@ MW208802	Hemipteran jingmen-related virus OKIAV329	HjrV1_Seg3	Jingmenvirus	Flavi
 MW208803	Hemipteran jingmen-related virus OKIAV327	HjrV2_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Plea minutissima	none	none
 MW208804	Psocopteran jingmen-related virus OKIAV331	PJrV_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Heterocaecilius solocipennis	none	none
 MW208805	Neuropteran jingmenvirus (OKIAV339)	NJrV_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Pseudomallada ventralis	none	none
-MW314684	Arachnidan jingmen-related virus	AJrV_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Euscorpius sicanus	none	none
-MW314685	Arachnidan jingmen-related virus	AJrV_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Euscorpius sicanus	none	none
+MW314684	Arachnidan jingmen-related virus	AJrV_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Scorpiones	Euscorpius sicanus	none	none
+MW314685	Arachnidan jingmen-related virus	AJrV_Seg3	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Scorpiones	Euscorpius sicanus	none	none
 KP757924	Drosophila-associated Flavivirus-like 2	DFlV_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Drosophila	none	none
 MW314694	Dipluran jingmen-related virus	DJrV_Seg1	Jingmenvirus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Campodea silvestrii	none	none
 NC_003996	Tamana bat virus	TABV	Flaviviridae	FlaviPesti	FlaviLike	Tamanavirus	Tamana1	NULL	Mammalia	Chiroptera	Pteronotus parnellii	none	none
