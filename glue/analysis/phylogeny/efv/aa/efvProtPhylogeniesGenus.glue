@@ -12,44 +12,43 @@
   delete module alignmentColumnsSelectorJingmenvirus_Seg3Aa
     
   # Create all the modules we need
-  create module -f modules/modules/analysis/flaviviridaeRaxmlPhylogenyGeneratorProt.xml
-  create module -f modules/modules/analysis/phylogeny/genus/alignmentColumnsSelectorFlavivirusAa.xml
-  create module -f modules/modules/analysis/phylogeny/genus/alignmentColumnsSelectorTamanavirusAa.xml
-  create module -f modules/modules/analysis/phylogeny/genus/alignmentColumnsSelectorHepacivirusAa.xml
-  create module -f modules/modules/analysis/phylogeny/genus/alignmentColumnsSelectorPestivirusAa.xml
-  create module -f modules/modules/analysis/phylogeny/genus/alignmentColumnsSelectorPL1Aa.xml
-  create module -f modules/modules/analysis/phylogeny/genus/alignmentColumnsSelectorPL2Aa.xml
-  create module -f modules/modules/analysis/phylogeny/genus/alignmentColumnsSelectorPegivirusAa.xml
-  create module -f modules/modules/analysis/phylogeny/genus/alignmentColumnsSelectorJingmenvirus_Seg1Aa.xml
-  create module -f modules/modules/analysis/phylogeny/genus/alignmentColumnsSelectorJingmenvirus_Seg3Aa.xml
+  create module -f modules/analysis/phylogeny/flaviviridaeRaxmlPhylogenyGeneratorProt.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorFlavivirusAa.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorTamanavirusAa.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorHepacivirusAa.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorPestivirusAa.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorLgfAa.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorPegivirusAa.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorJingmenvirus_Seg1Aa.xml
+  create module -f modules/analysis/phylogeny/genus/alignmentColumnsSelectorJingmenvirus_Seg3Aa.xml
   
 
   # Create the phylogenies
   module flaviviridaeRaxmlPhylogenyGeneratorProt
 
-    #generate amino-acid phylogeny AL_TREE_Flavivirus -s alignmentColumnsSelectorFlavivirusAa \
-    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    # -o trees/genus/flavivirus-efv-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_TREE_Flavivirus -s alignmentColumnsSelectorFlavivirusAa \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+     -o trees/genus/flavivirus-efv-aa.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_TREE_Tamanavirus -s alignmentColumnsSelectorTamanavirusAa \
-    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 20" \
-    #  -o trees/genus/tamanavirus-efv-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_TREE_Tamanavirus -s alignmentColumnsSelectorTamanavirusAa \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 20" \
+      -o trees/genus/tamanavirus-efv-aa.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_TREE_Jingmenvirus_Seg1 -s alignmentColumnsSelectorJingmenvirus_Seg1Aa \
-    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 40" \
-    #  -o trees/genus/jingmenvirus_seg1-efv-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_TREE_Jingmenvirus_Seg1 -s alignmentColumnsSelectorJingmenvirus_Seg1Aa \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 40" \
+      -o trees/genus/jingmenvirus_seg1-efv-aa.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_TREE_Jingmenvirus_Seg3 -s alignmentColumnsSelectorJingmenvirus_Seg3Aa \
-    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 40" \
-    #  -o trees/genus/jingmenvirus_seg3-efv-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_TREE_Jingmenvirus_Seg3 -s alignmentColumnsSelectorJingmenvirus_Seg3Aa \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 40" \
+      -o trees/genus/jingmenvirus_seg3-efv-aa.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_TREE_Pestivirus -s alignmentColumnsSelectorPestivirusAa \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/genus/pestivirus-efv-aa.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_TREE_Hepacivirus -s alignmentColumnsSelectorHepacivirusAa \
-    #  -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/genus/hepacivirus-efv-aa.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_TREE_Hepacivirus -s alignmentColumnsSelectorHepacivirusAa \
+      -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/genus/hepacivirus-efv-aa.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_TREE_PL1 -s alignmentColumnsSelectorPL1Aa \
       -w "fLocNotes.featureLoc.feature.name = 'precursor_polyprotein' and fLocNotes.ref_nt_coverage_pct >= 10" \

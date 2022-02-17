@@ -45,7 +45,6 @@
 	exit
 
 
-
   # Re-import the recursively populated root alignment into the project
   module flaviTreeAlignmentImporterNucs
   
@@ -63,13 +62,13 @@
 
   # Create constrained alignments 
   create alignment AL_TREE_Flavivirus         -r REF_MASTER_YFV
-  create alignment AL_TREE_Tamanavirus        -r REF_TABV
-  create alignment AL_TREE_Pestivirus         -r REF_BVDV1
-  create alignment AL_TREE_LGF                -r REF_SLV2
-  create alignment AL_TREE_Pegivirus          -r REF_HPgV2
-  create alignment AL_TREE_Hepacivirus        -r REF_HCV
-  create alignment AL_TREE_Jingmenvirus_Seg1  -r REF_JMTV_Seg1
-  create alignment AL_TREE_Jingmenvirus_Seg3  -r REF_JMTV_Seg3
+  create alignment AL_TREE_Tamanavirus        -r REF_MASTER_TAMANA_1_TABV
+  create alignment AL_TREE_Pestivirus         -r REF_MASTER_PESTI_1_BVDV1
+  create alignment AL_TREE_LGF                -r REF_MASTER_SLV2
+  create alignment AL_TREE_Pegivirus          -r REF_MASTER_PEGI_1_HPgV2
+  create alignment AL_TREE_Hepacivirus        -r REF_MASTER_HEPACI_1_HCV
+  create alignment AL_TREE_Jingmenvirus_Seg1  -r REF_MASTER_JMTV_Seg1
+  create alignment AL_TREE_Jingmenvirus_Seg3  -r REF_MASTER_JMTV_Seg3
 
 
 
@@ -114,8 +113,7 @@
     record feature-presence AL_TREE_Flavivirus        --featureName precursor_polyprotein --descendentFeatures
     record feature-presence AL_TREE_Tamanavirus       --featureName precursor_polyprotein --descendentFeatures
     record feature-presence AL_TREE_Pestivirus        --featureName precursor_polyprotein --descendentFeatures
-    record feature-presence AL_TREE_PL1               --featureName precursor_polyprotein --descendentFeatures
-    record feature-presence AL_TREE_PL2               --featureName precursor_polyprotein --descendentFeatures
+    record feature-presence AL_TREE_LGF               --featureName precursor_polyprotein --descendentFeatures
     record feature-presence AL_TREE_Pegivirus         --featureName precursor_polyprotein --descendentFeatures
     record feature-presence AL_TREE_Hepacivirus       --featureName precursor_polyprotein --descendentFeatures
     record feature-presence AL_TREE_Jingmenvirus_Seg1 --featureName seg1-NS5 --descendentFeatures
