@@ -4,7 +4,7 @@
 
   
   # Create all the modules we need
-  create module -f modules/core/flaviviridaePhyloUtility.xml
+  create module -f modules/analysis/phylogeny/flaviviridaePhyloUtility.xml
 
 
   # Re-root phylogeny 
@@ -16,45 +16,25 @@
       --midpoint \
       --outputFile trees/genus/flavivirus.MidpointRerooted-efv-aa.tree  NEWICK_BOOTSTRAPS
 
-	#reroot-phylogeny \
-    #  --inputFile trees/genus/tamanavirus.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    #  --outputFile trees/genus/tamanavirus-MidpointRerooted-efv-aa.tree  NEWICK_BOOTSTRAPS
+	reroot-phylogeny \
+      --inputFile trees/genus/tamanavirus.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/genus/tamanavirus-MidpointRerooted-efv-aa.tree  NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/genus/hepacivirus.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/genus/lgf.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/genus/hepacivirus-MidpointRerooted-efv-aa.tree  NEWICK_BOOTSTRAPS
+      --outputFile trees/genus/lgf-MidpointRerooted-efv-aa.tree  NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/genus/pegivirus.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/genus/jingmenvirus_seg1.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/genus/pegivirus-MidpointRerooted-efv-aa.tree  NEWICK_BOOTSTRAPS
+      --outputFile trees/genus/jingmenvirus_seg1-MidpointRerooted-efv-aa.tree  NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/genus/pestivirus.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/genus/pestivirus-MidpointRerooted-efv-aa.tree  NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/genus/pl1.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/genus/pl1-MidpointRerooted-efv-aa.tree  NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/genus/pl2.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/genus/pl2-MidpointRerooted-efv-aa.tree  NEWICK_BOOTSTRAPS
-
-	#reroot-phylogeny \
-    #  --inputFile trees/genus/jingmenvirus_seg1.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    #  --outputFile trees/genus/jingmenvirus_seg1-MidpointRerooted-efv-aa.tree  NEWICK_BOOTSTRAPS
-
-	#reroot-phylogeny \
-    #  --inputFile trees/genus/jingmenvirus_seg3.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    #  --outputFile trees/genus/jingmenvirus_seg3-MidpointRerooted-efv-aa.tree  NEWICK_BOOTSTRAPS
+      --outputFile trees/genus/jingmenvirus_seg3-MidpointRerooted-efv-aa.tree  NEWICK_BOOTSTRAPS
 
     exit
 

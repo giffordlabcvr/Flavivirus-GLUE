@@ -18,7 +18,7 @@ project flaviviridae
 
   run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesGenusCreateTreeAlignments.glue
   run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesGenus.glue
-  #run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesGenusReroot.glue
-  #run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesGenusAnnotations.glue
+  run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesGenusReroot.glue
+  run file glue/analysis/phylogeny/efv/aa/efvProtPhylogeniesGenusAnnotations.glue
 
   exit
