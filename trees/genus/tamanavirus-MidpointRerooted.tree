@@ -1,1 +1,110 @@
-((alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/NC_003996:0.69739452282975966657,(alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MK473875:1.36451723987370021618,alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MT075326:0.88191661782049246554)58:0.21747416609917347152)24:0.014972714362937358805,((alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MW208759:0.71132111199662229062,(alignment/AL_TREE_Tamanavirus/member/fasta-refseqs/DnFV:0.39238952306100882694,alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MG599986:0.49078868868459152308)100:0.31226160388642271171)100:0.67928471873419438154,(alignment/AL_TREE_Tamanavirus/member/fasta-refseqs/RanaTamana:0.86818437412837445866,alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MF776369:0.88697818480897205884)44:0.15129623773650685559)24:0.114629109030602430175);
+#NEXUS
+begin taxa;
+	dimensions ntax=8;
+	taxlabels
+	'alignment/AL_TREE_Tamanavirus/member/fasta-refseqs/DnFV'[&full_name="Dianemobius nigrofasciatus flavivirus",genus="Tamanavirus",host_major_group="Arthropods",host_minor_group="Insects",name="DnFV",sampled_host_sci_name="Dianemobius nigrofasciatus",sequenceID="DnFV",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Tamanavirus/member/fasta-refseqs/RanaTamana'[&full_name="Rana Tamanavirus Mitcham",genus="Tamanavirus",host_major_group="Amphibia",host_minor_group="Rana",name="RanaTamana",sampled_host_sci_name="Rana",sequenceID="RanaTamana",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MF776369'[&full_name="Cyclopterus lumpus virus",genus="Tamanavirus",host_major_group="Actinopterygii",host_minor_group="Teleostii",name="LFLV",sampled_host_sci_name="Cyclopterus lumpus",sequenceID="MF776369",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MG599986'[&full_name="Wenzhou shark flavivirus",genus="Tamanavirus",host_major_group="Chondrichthyes",host_minor_group="Chondrichthyes",name="WenSFV",sampled_host_sci_name="Scoliodon macrorhynchos",sequenceID="MG599986",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MK473875'[&full_name="Southern pygmy squid flavivirus",genus="Tamanavirus",host_major_group="Mollusca",host_minor_group="Cephalopoda",name="SpsFV",sampled_host_sci_name="Idiosepius notoides",sequenceID="MK473875",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MT075326'[&full_name="Salmon flavivirus",genus="Tamanavirus",host_major_group="Actinopterygii",host_minor_group="Teleostii",name="SFV",sampled_host_sci_name="Oncorhynchus tshawytscha",sequenceID="MT075326",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MW208759'[&full_name="Embiopteran flavi-related virus",genus="Tamanavirus",host_major_group="Arthropods",host_minor_group="Insects",name="EmbFlaV",sampled_host_sci_name="Antipaluria urichi",sequenceID="MW208759",subfamily="FlaviPesti",vector_group="none"]
+	'alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/NC_003996'[&full_name="Tamana bat virus",genus="Tamanavirus",host_major_group="Mammalia",host_minor_group="Chiroptera",name="TABV",sampled_host_sci_name="Pteronotus parnellii",sequenceID="NC_003996",subfamily="FlaviPesti",vector_group="none"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/NC_003996':0.697395,('alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MK473875':1.364517,'alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MT075326':0.881917)[&label=58]:0.217474)[&label=24]:0.014973,(('alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MW208759':0.711321,('alignment/AL_TREE_Tamanavirus/member/fasta-refseqs/DnFV':0.39239,'alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MG599986':0.490789)[&label=100]:0.312262)[&label=100]:0.679285,('alignment/AL_TREE_Tamanavirus/member/fasta-refseqs/RanaTamana':0.868184,'alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MF776369':0.886978)[&label=44]:0.151296)[&label=24]:0.114629);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="host_major_group";
+	set tipLabels.displayAttribute="full_name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=15;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
