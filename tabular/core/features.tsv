@@ -1,0 +1,78 @@
+Feature name	Type	Parent feature	Description
+2K	Coding	non_structural_proteins	2K
+fifo	Coding	non_structural_proteins	Fairly interesting flavivirus ORF
+flavi-NS2A	Coding	non_structural_proteins	Flavivirus flavi-NS2A
+flavi-NS2B	Coding	non_structural_proteins	Flavivirus flavi-NS2B
+flavi-NS4A	Coding	non_structural_proteins	Flavivirus NS4A
+flavi-NS4B	Coding	non_structural_proteins	Flavivirus NS4B
+hepaci-NS2	Coding	non_structural_proteins	Hepacivirus NS2
+hepaci-NS4A	Coding	non_structural_proteins	Hepacivirus NS4A
+hepaci-NS4B	Coding	non_structural_proteins	Hepacivirus NS4B
+NS1	Coding	non_structural_proteins	NS1
+NS3	Coding	non_structural_proteins	NS3
+NS5	Coding	non_structural_proteins	NS5
+NS5-like	Coding	non_structural_proteins	NS5-like
+NS5A	Coding	non_structural_proteins	NS5A
+NS5B	Coding	non_structural_proteins	NS5B
+pesti-NS2	Coding	non_structural_proteins	Pestivirus flavi-NS2A
+pesti-NS4A	Coding	non_structural_proteins	Pestivirus NS4A
+pesti-NS4B	Coding	non_structural_proteins	Pestivirus NS4B
+non_structural_proteins	Coding	precursor_polyprotein	Non-structural proteins
+structural_proteins	Coding	precursor_polyprotein	Structural proteins
+core	Coding	structural_proteins	core
+e-rns	Coding	structural_proteins	Pestivirus envelope rns
+e1_hepaci	Coding	structural_proteins	Hepacivirus envelope 1 protein
+e1_pesti	Coding	structural_proteins	Pestivirus envelope 1 protein
+e2_hepaci	Coding	structural_proteins	Hepacivirus envelope 2 protein
+e2_pesti	Coding	structural_proteins	Pestivirus envelope 2 protein
+envelope	Coding	structural_proteins	envelope
+F	Coding	structural_proteins	Hepacivirus capsid frameshift protein
+flavi-capsid	Coding	structural_proteins	Flavivirus capsid
+flavi-envelope	Coding	structural_proteins	Flavivirus envelope
+hepaci-p7	Coding	structural_proteins	Hepacivirus p7 protein
+membrane	Coding	structural_proteins	membrane
+N-proteinase	Coding	structural_proteins	N-proteinase
+Npro	Coding	structural_proteins	Npro
+p7	Coding	structural_proteins	p7
+pesti-capsid	Coding	structural_proteins	Pestivirus capsid
+pesti-p7	Coding	structural_proteins	Pestivirus p7 protein
+premembrane	Coding	structural_proteins	premembranefe
+RNAse	Coding	structural_proteins	RNAse
+s_peptide	Coding	structural_proteins	s_peptide
+x_peptide	Coding	structural_proteins	x_peptide
+precursor_polyprotein	Coding	whole_genome	Precursor polyprotein
+seg1-NS5	Coding	whole_genome	NS5
+seg3-NS3	Coding	whole_genome	NS3
+whole_genome	Non-coding	-	Whole flavivirus genome
+CS2	Non-coding	3UTR	Repeated conserved sequence 2
+Flavi_CRE	Non-coding	3UTR	Flavivirus CRE
+Flavivirus_DB1	Non-coding	3UTR	Flavivirus dumbell loop 1
+Flavivirus_DB2	Non-coding	3UTR	Flavivirus dumbell loop 2
+Flavivirus_SLIV	Non-coding	3UTR	Flavivirus SLIV
+I.3SL	Non-coding	3UTR	ISFV 3' terminal stem loop
+I.Ra	Non-coding	3UTR	ISFV repeat element a
+I.Rb	Non-coding	3UTR	ISFV repeat element b
+I.xrRNA1	Non-coding	3UTR	ISFV xrRNA 1
+I.xrRNA2	Non-coding	3UTR	ISFV xrRNA 2
+JEV_hairpin	Non-coding	3UTR	JEV hairpin
+N.3SL	Non-coding	3UTR	NKV 3' terminal stem loop
+N.xrRNA1	Non-coding	3UTR	NKV xrRNA 1
+PK1	Non-coding	3UTR	Pseudoknot1
+PK2	Non-coding	3UTR	Pseudoknot2
+PK3	Non-coding	3UTR	Pseudoknot3
+PK4	Non-coding	3UTR	Pseudoknot4
+RCS2	Non-coding	3UTR	Conserved sequence 1
+SL6	Non-coding	3UTR	SL-shaped element 6
+T.xrRNA1	Non-coding	3UTR	T.xrRNA1
+T.xrRNA2	Non-coding	3UTR	T.xrRNA2
+Y1	Non-coding	3UTR	Y-shaped
+3CS	Non-coding	5UTR	3' cyclization sequence
+5CS	Non-coding	5UTR	5' cyclization sequence
+IRES	Non-coding	5UTR	Internal ribosome entry site
+SLA1	Non-coding	5UTR	5'SLA 1
+SLA2	Non-coding	5UTR	5'SLA 2
+3UTR	Non-coding	whole_genome	3' untranslated region
+5UTR	Non-coding	whole_genome	5' untranslated region
+cHP	Non-coding	whole_genome	capsid-coding region hairpin element
+fs-pseudoknot	Non-coding	whole_genome	Frameshifting pseudoknot
+fs-slippery-seq	Non-coding	whole_genome	Frameshifting slippery hexanucleotide sequence
