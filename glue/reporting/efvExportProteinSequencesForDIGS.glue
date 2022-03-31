@@ -93,24 +93,24 @@ project flaviviridae
 
 
   ###  REFERENCES
-  # Export flavivirus probe sequences for DIGS
+  # Export flavivirus reference sequences for DIGS
   # A comprehensive set for use as 'references'
   # Sequences corresponding to cleaved polypeptides where possible
 
   module digsFastaProteinExporter
 
    # Hepacivirus genus  
-	export reference -f core         -w "sequence.genus = 'Hepacivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/hepaci-core.faa
-	export reference -f e1_hepaci    -w "sequence.genus = 'Hepacivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/hepaci-e1.faa
-	export reference -f e2_hepaci    -w "sequence.genus = 'Hepacivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/hepaci-e2.faa 
-	export reference -f hepaci-NS2   -w "sequence.genus = 'Hepacivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/hepaci-NS2.faa
-	export reference -f hepaci-p7    -w "sequence.genus = 'Hepacivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/hepaci-p7.faa
-	export reference -f NS3          -w "sequence.genus = 'Hepacivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/hepaci-NS3.faa
-	export reference -f hepaci-NS4A  -w "sequence.genus = 'Hepacivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/hepaci-NS4A.faa
-	export reference -f hepaci-NS4B  -w "sequence.genus = 'Hepacivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/hepaci-NS4B.faa
-	export reference -f NS5          -w "sequence.genus = 'Hepacivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/hepaci-NS5.faa
+	export reference -f core         -w "sequence.genus = 'Hepacivirus'" -o digs/fasta/references/hepaci-core.faa
+	export reference -f e1_hepaci    -w "sequence.genus = 'Hepacivirus'" -o digs/fasta/references/hepaci-e1.faa
+	export reference -f e2_hepaci    -w "sequence.genus = 'Hepacivirus'" -o digs/fasta/references/hepaci-e2.faa 
+	export reference -f hepaci-NS2   -w "sequence.genus = 'Hepacivirus'" -o digs/fasta/references/hepaci-NS2.faa
+	export reference -f hepaci-p7    -w "sequence.genus = 'Hepacivirus'" -o digs/fasta/references/hepaci-p7.faa
+	export reference -f NS3          -w "sequence.genus = 'Hepacivirus'" -o digs/fasta/references/hepaci-NS3.faa
+	export reference -f hepaci-NS4A  -w "sequence.genus = 'Hepacivirus'" -o digs/fasta/references/hepaci-NS4A.faa
+	export reference -f hepaci-NS4B  -w "sequence.genus = 'Hepacivirus'" -o digs/fasta/references/hepaci-NS4B.faa
+	export reference -f NS5          -w "sequence.genus = 'Hepacivirus'" -o digs/fasta/references/hepaci-NS5.faa
 
-	# YFV genus  
+	# Flavi genus  
 	export reference -f flavi-capsid   -w "sequence.name = 'YFV'" -o digs/fasta/probes/flavi-capsid.faa
 	export reference -f premembrane    -w "sequence.name = 'YFV'" -o digs/fasta/probes/flavi-premembrane.faa
 	export reference -f flavi-envelope -w "sequence.name = 'YFV'" -o digs/fasta/probes/flavi-envelope.faa 
@@ -123,7 +123,7 @@ project flaviviridae
 	export reference -f flavi-NS4B     -w "sequence.name = 'YFV'" -o digs/fasta/probes/flavi-NS4B.faa
 	export reference -f NS5            -w "sequence.name = 'YFV'" -o digs/fasta/probes/flavi-NS5.faa
 
-	# TABV genus
+	# Tamana genus
 	export reference -f flavi-capsid   -w "sequence.name = 'TABV'" -o digs/fasta/probes/tamana-capsid.faa
 	export reference -f premembrane    -w "sequence.name = 'TABV'" -o digs/fasta/probes/tamana-premembrane.faa
 	export reference -f flavi-envelope -w "sequence.name = 'TABV'" -o digs/fasta/probes/tamana-envelope.faa 
@@ -137,19 +137,19 @@ project flaviviridae
 	export reference -f NS5            -w "sequence.name = 'TABV'" -o digs/fasta/probes/tamana-NS5.faa
 
     # Jingmenvirus genus
-	export reference -f seg3-NS3     -w "sequence.genus = 'Jingmenvirus' and sequence.source.name = 'ncbi-refseqs' and name like '%_Seg3'" -o digs/fasta/references/jingmen-NS3.faa
-	export reference -f seg1-NS5     -w "sequence.genus = 'Jingmenvirus' and sequence.source.name = 'ncbi-refseqs' and name like '%_Seg1'" -o digs/fasta/references/jingmen-NS5.faa
+	export reference -f seg3-NS3     -w "sequence.genus = 'Jingmenvirus' and name like '%_Seg3'" -o digs/fasta/references/jingmen-NS3.faa
+	export reference -f seg1-NS5     -w "sequence.genus = 'Jingmenvirus' and name like '%_Seg1'" -o digs/fasta/references/jingmen-NS5.faa
 
     # Pestivirus genus
-	export reference -f pesti-capsid -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/pesti-capsid.faa
-	export reference -f e1_pesti     -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/pesti-e1_pesti.faa
-	export reference -f e2_pesti     -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/pesti-e2_pesti.faa 
-	export reference -f RNAse        -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/pesti-RNAse.faa
-	export reference -f pesti-p7     -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/pesti-p7.faa
-	export reference -f NS3          -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/pesti-NS3.faa
-	export reference -f pesti-NS4A   -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/pesti-NS4A.faa
-	export reference -f pesti-NS4B   -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/pesti-NS4B.faa
-	export reference -f NS5          -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/pesti-NS5.faa
+	export reference -f pesti-capsid -w "sequence.genus = 'Pestivirus'" -o digs/fasta/references/pesti-capsid.faa
+	export reference -f e1_pesti     -w "sequence.genus = 'Pestivirus'" -o digs/fasta/references/pesti-e1_pesti.faa
+	export reference -f e2_pesti     -w "sequence.genus = 'Pestivirus'" -o digs/fasta/references/pesti-e2_pesti.faa 
+	export reference -f RNAse        -w "sequence.genus = 'Pestivirus'" -o digs/fasta/references/pesti-RNAse.faa
+	export reference -f pesti-p7     -w "sequence.genus = 'Pestivirus'" -o digs/fasta/references/pesti-p7.faa
+	export reference -f NS3          -w "sequence.genus = 'Pestivirus'" -o digs/fasta/references/pesti-NS3.faa
+	export reference -f pesti-NS4A   -w "sequence.genus = 'Pestivirus'" -o digs/fasta/references/pesti-NS4A.faa
+	export reference -f pesti-NS4B   -w "sequence.genus = 'Pestivirus'" -o digs/fasta/references/pesti-NS4B.faa
+	export reference -f NS5          -w "sequence.genus = 'Pestivirus'" -o digs/fasta/references/pesti-NS5.faa
 
     # PL1 genus
 	export reference -f precursor_polyprotein -w "sequence.genus = 'PL1' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/references/pl1-polyprotein.faa
@@ -168,22 +168,22 @@ project flaviviridae
   
 
     # Hepacivirus genus
-	export reference -f precursor_polyprotein -w "sequence.genus = 'Hepacivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/consolidated/hepaci-precursor_polyprotein.faa
+	export reference -f precursor_polyprotein -w "sequence.genus = 'Hepacivirus'" -o digs/fasta/consolidated/hepaci-precursor_polyprotein.faa
 
 	# Flavivirus genus
-	export reference -f precursor_polyprotein -w "sequence.name = 'YFV' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/consolidated/flavi-precursor_polyprotein.faa
+	export reference -f precursor_polyprotein -w "sequence.name = 'YFV'" -o digs/fasta/consolidated/flavi-precursor_polyprotein.faa
 
 	# Tamanavirus genus
- 	export reference -f precursor_polyprotein -w "sequence.name = 'TABV' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/consolidated/tamana-precursor_polyprotein.faa
+ 	export reference -f precursor_polyprotein -w "sequence.name = 'TABV'" -o digs/fasta/consolidated/tamana-precursor_polyprotein.faa
 
 	# Jingmenvirus genus
-	export reference -f seg3-NS3  -w "sequence.genus = 'Jingmenvirus' and sequence.source.name = 'ncbi-refseqs' and name like '%_Seg3'" -o digs/fasta/consolidated/jingmen-NS3.faa
-	export reference -f seg1-NS5  -w "sequence.genus = 'Jingmenvirus' and sequence.source.name = 'ncbi-refseqs' and name like '%_Seg1'" -o digs/fasta/consolidated/jingmen-NS5.faa
+	export reference -f seg3-NS3  -w "sequence.genus = 'Jingmenvirus' and name like '%_Seg3'" -o digs/fasta/consolidated/jingmen-NS3.faa
+	export reference -f seg1-NS5  -w "sequence.genus = 'Jingmenvirus' and name like '%_Seg1'" -o digs/fasta/consolidated/jingmen-NS5.faa
 
 	# Pesti-like genera
-	export reference -f precursor_polyprotein -w "sequence.genus = 'Pestivirus' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/consolidated/pesti-precursor_polyprotein.faa
-	export reference -f precursor_polyprotein -w "sequence.genus = 'PL1' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/consolidated/pl1-polyprotein.faa
-	export reference -f precursor_polyprotein -w "sequence.genus = 'PL2' and sequence.source.name = 'ncbi-refseqs'" -o digs/fasta/consolidated/pl2-polyprotein.faa
+	export reference -f precursor_polyprotein -w "sequence.genus = 'Pestivirus'" -o digs/fasta/consolidated/pesti-precursor_polyprotein.faa
+	export reference -f precursor_polyprotein -w "sequence.genus = 'PL1'" -o digs/fasta/consolidated/pl1-polyprotein.faa
+	export reference -f precursor_polyprotein -w "sequence.genus = 'PL2'" -o digs/fasta/consolidated/pl2-polyprotein.faa
 
 	exit
 
