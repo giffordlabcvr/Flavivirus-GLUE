@@ -1,0 +1,12 @@
+
+  # Clean up any previous - delete modules
+  delete module ncbiImporterEve
+  
+  # Create modules
+  create module -f modules/build/eve/ncbiImporterEve.xml
+
+  # Download NCBI sequences 
+  module ncbiImporterEve import
+
+  # Export sources
+  export source ncbi-curated-eve

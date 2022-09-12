@@ -1,0 +1,64 @@
+<!-- SRLV reference sequences -->
+<ncbiImporter>
+
+  <sourceName>ncbi-curated-eve</sourceName>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <specificPrimaryAccessions>
+
+
+	 <!-- Pestivirus EVEs from Li et al - https://doi.org/10.1093/molbev/msac190 -->
+	 <primaryAccession>MW075536</primaryAccession>
+	 <primaryAccession>MW075537</primaryAccession>
+	 <primaryAccession>MW075538</primaryAccession>
+	 <primaryAccession>MW075539</primaryAccession>
+	 <primaryAccession>MW075540</primaryAccession>
+	 <primaryAccession>MW075541</primaryAccession>
+	 <primaryAccession>MW075542</primaryAccession>
+	 <primaryAccession>MW075543</primaryAccession>
+	 <primaryAccession>MW075544</primaryAccession>
+	 <primaryAccession>MW075545</primaryAccession>
+	 <primaryAccession>MW075546</primaryAccession>
+	 <primaryAccession>MW075547</primaryAccession>
+	 <primaryAccession>MW075548</primaryAccession>
+	 <primaryAccession>MW075549</primaryAccession>
+	 <primaryAccession>MW075550</primaryAccession>
+	 <primaryAccession>MW075551</primaryAccession>
+	 <primaryAccession>MW075552</primaryAccession>
+	 <primaryAccession>MW075553</primaryAccession>
+	 <primaryAccession>MW075554</primaryAccession>
+	 <primaryAccession>MW075555</primaryAccession>
+	 <primaryAccession>MW075556</primaryAccession>
+	 <primaryAccession>MW075557</primaryAccession>
+	 <primaryAccession>MW075558</primaryAccession>
+	 <primaryAccession>MW075559</primaryAccession>
+	 <primaryAccession>MW075560</primaryAccession>
+	 <primaryAccession>MW075561</primaryAccession>
+	 <primaryAccession>MW075562</primaryAccession>
+	 <primaryAccession>MW075563</primaryAccession>
+	 <primaryAccession>MW075564</primaryAccession>
+	 <primaryAccession>MW075565</primaryAccession>
+	 <primaryAccession>MW075566</primaryAccession>
+	 <primaryAccession>MW075567</primaryAccession>
+	 <primaryAccession>MW075568</primaryAccession>
+	 <primaryAccession>MW075569</primaryAccession>
+	 <primaryAccession>MW075570</primaryAccession>
+	 <primaryAccession>MW075571</primaryAccession>
+	 <primaryAccession>MW075572</primaryAccession>
+	 <primaryAccession>MW075573</primaryAccession>
+	 <primaryAccession>MW075574</primaryAccession>
+	 <primaryAccession>MW075575</primaryAccession>
+	 <primaryAccession>MW075576</primaryAccession>
+	 <primaryAccession>MW075577</primaryAccession>
+	 <primaryAccession>MW075578</primaryAccession>
+	 <primaryAccession>MW075579</primaryAccession>
+	 <primaryAccession>MW075580</primaryAccession>
+	 <primaryAccession>MW075581</primaryAccession>
+	 <primaryAccession>MW075582</primaryAccession>
+	 <primaryAccession>MW075583</primaryAccession>
+
+  </specificPrimaryAccessions>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  
+</ncbiImporter>
+

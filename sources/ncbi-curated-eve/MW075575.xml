@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MW075575</GBSeq_locus>
+    <GBSeq_length>1283</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>MAM</GBSeq_division>
+    <GBSeq_update-date>19-JUL-2022</GBSeq_update-date>
+    <GBSeq_create-date>07-DEC-2021</GBSeq_create-date>
+    <GBSeq_definition>Crocidura attenuata isolate S3358 pestival endogenous viral elements combination genomic sequence</GBSeq_definition>
+    <GBSeq_primary-accession>MW075575</GBSeq_primary-accession>
+    <GBSeq_accession-version>MW075575.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MW075575.1|</GBSeqid>
+      <GBSeqid>gi|2158457940</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Crocidura attenuata</GBSeq_source>
+    <GBSeq_organism>Crocidura attenuata</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Eulipotyphla; Soricidae; Crocidurinae; Crocidura</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1283</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Li,Y.</GBAuthor>
+          <GBAuthor>Zisi,Z.</GBAuthor>
+          <GBAuthor>Lequime,S.</GBAuthor>
+          <GBAuthor>Bletsa,M.</GBAuthor>
+          <GBAuthor>Gryseels,S.</GBAuthor>
+          <GBAuthor>Webster,J.</GBAuthor>
+          <GBAuthor>Pybus,O.</GBAuthor>
+          <GBAuthor>Perre,F.Vd.</GBAuthor>
+          <GBAuthor>Li,Y.</GBAuthor>
+          <GBAuthor>Abramov,A.</GBAuthor>
+          <GBAuthor>Petros,L.</GBAuthor>
+          <GBAuthor>Lemey,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Flaviviridae-like endogenous viral elements screening in small mammals</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1283</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Li,Y.</GBAuthor>
+          <GBAuthor>Zisi,Z.</GBAuthor>
+          <GBAuthor>Lequime,S.</GBAuthor>
+          <GBAuthor>Bletsa,M.</GBAuthor>
+          <GBAuthor>Gryseels,S.</GBAuthor>
+          <GBAuthor>Webster,J.</GBAuthor>
+          <GBAuthor>Pybus,O.</GBAuthor>
+          <GBAuthor>Perre,F.Vd.</GBAuthor>
+          <GBAuthor>Li,Y.</GBAuthor>
+          <GBAuthor>Abramov,A.</GBAuthor>
+          <GBAuthor>Petros,L.</GBAuthor>
+          <GBAuthor>Lemey,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (02-OCT-2020) Immunology and Microbiology, Rega Institute, Herestraat 49 - box 1040, Leuven 3000, Belgium</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious Prime v. 2020.0.3 ; Sequencing Technology :: MinION; Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1283</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1283</GBInterval_to>
+            <GBInterval_accession>MW075575.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Crocidura attenuata</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>S3358</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:167044</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..&gt;1283</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1283</GBInterval_to>
+            <GBInterval_accession>MW075575.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>pestival endogenous viral elements combination; EVEs combination</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mobile_element</GBFeature_key>
+        <GBFeature_location>1..318</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>318</GBInterval_to>
+            <GBInterval_accession>MW075575.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>pestivirus envelope glycoprotein E2-like EVE</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mobile_element_type</GBQualifier_name>
+            <GBQualifier_value>other:endogenous viral element</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>319..879</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>319</GBInterval_from>
+            <GBInterval_to>879</GBInterval_to>
+            <GBInterval_accession>MW075575.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>flanking region between 2EVEs</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mobile_element</GBFeature_key>
+        <GBFeature_location>880..&gt;1283</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>880</GBInterval_from>
+            <GBInterval_to>1283</GBInterval_to>
+            <GBInterval_accession>MW075575.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>pestivirus NS2/NS3-like EVE</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mobile_element_type</GBQualifier_name>
+            <GBQualifier_value>other:endogenous viral element</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agtgattttgcatgcatgagtgggggtagggagtggagaatgaaactattcaagcaaccatacacaccaatttcttgtgacccaataatcccatcaagtaaatctaccaatgtcccaggagaatgtgtagtcaagtacagccaagcaccagggaataggtgttatgaaargaaagacaaacactggaatacagctgtcaagaaaggggtctgtcagtattggttttctataaagggcaaaccactagaattgccttcaatacatgagttgctcctggttatgataccggcattgctatggaacaagtacatcctgtgggggttactgtggttcttgttgagtgctgaattcttactcataaccagtgcagtgggtctagaaaccatcttgcctacaggagcttgggaattggagtggactggcattatcctggtgctctctgttgtgctattaatcaaagaatctcagatccgcactgctgtgctagttttgatgaatgccgctgtaaggcactggaggacattaaccattttgttgctcttccaccaagctggtggggctgaagcttgggggctagaagaagcaataccagaatcagcactggagacaaagctgtggaagatcatatctaactacaatatactgatcccaactttcctcctggtcagtctactcactggtggatttgacttcaaagagaaggtgagagagctagatctcatgtatgaggcyaagaagaagggcagagtgaccaaggaagtctatgagatgacagcagctagaaccaagctagatgaagctcccgatggagtgatgatgttgatagcagaaatactatcggctattatactttgtgtacagatagctatgtactccttggctgatcttgcaggatacttagtggtcctcccatttttccaagtcgtcaaaggtagatatctgctgtctgagacagggcaacgttggctcgaacttgaagatgaagattggtttgtgtacaacaaattaacaaaactaatagatgacctgtggagagctagggaaggatttttcagaacagcaagctgtgagagggtatcagcaagcctgatgttgacagtccggtctgccctaatagtactgctgggttggagattccgtgtgattwtccaaattcagttgttgcttgaaggcttcctaatcttacatatagtgttcaggacagaactgtccagggacacaggactcaaaggcacaatcatatcctggctggccagaatagaaacagttataaacgataagac</GBSeq_sequence>
+  </GBSeq>
