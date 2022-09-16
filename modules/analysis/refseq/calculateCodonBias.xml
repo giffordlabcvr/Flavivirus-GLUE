@@ -1,0 +1,12 @@
+<ecmaFunctionInvoker>
+
+	<scriptFileName>calculateCodonBias.js</scriptFileName>
+	
+	<function>
+		<name>calculateCodonBias</name>
+	
+		<tableFromObjectsResultType/>
+	</function>
+	
+</ecmaFunctionInvoker> 
+
