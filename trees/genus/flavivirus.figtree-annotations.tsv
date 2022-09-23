@@ -1,18 +1,18 @@
 taxon	sequenceID	name	full_name	subfamily	genus	host_major_group	host_minor_group	vector_group	sampled_host_sci_name
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/AY632538	AY632538	IGUV	Iguape virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Mus musculus
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/AY632542	AY632542	ROCV	Rocio virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Homo sapiens
-alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/AY898809	AY898809	ALFV	Alfuy virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Centropus phasianius
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/AY898809	AY898809	ALFV	Alfuy virus	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Centropus phasianius
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/D00246	D00246	KUNV	Kunjin virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Culex annulirostris
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/DQ235149	DQ235149	RFV	Royal Farm virus	FlaviPesti	Flavivirus	Arthropods	Acari	tick	Argas hermanni
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/DQ235151	DQ235151	TSEV	Turkish sheep encephalitis virus	FlaviPesti	Flavivirus	Arthropods	Acari	tick	Ixodes
-alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/DQ859056	DQ859056	BANV	Banzi virus	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Homo sapiens
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/DQ859056	DQ859056	BANV	Banzi virus	FlaviPesti	Flavivirus	Arthropods	Insects	Lutzomyia	Homo sapiens
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/EU082199	EU082199	YAOV	Yaounde virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Culex nebulosis
-alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/EU082200	EU082200	KOUV	Koutango virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Tatera kempi
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/EU082200	EU082200	KOUV	Koutango virus	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Tatera kempi
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/EU159426	EU159426	NOUV	Nounane virus	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Uranotaenia mashonaensis
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/HE574574	HE574574	CTFV	Culex theileri flavivirus RP-2011	FlaviPesti	Flavivirus	Arthropods	Insects	none	Culex theileri
-alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/JF312912	JF312912	BYDV	Baiyangdian virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Anas platyrhynchos
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/JF312912	JF312912	BYDV	Baiyangdian virus	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Anas platyrhynchos
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/JF416960	JF416960	KFDV	Kyasanur Forest disease virus	FlaviPesti	Flavivirus	Arthropods	Acari	tick	Semnopithecus entellus
-alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/JF926699	JF926699	LayV	Layer flavivirus CJD05	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	NK
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/JF926699	JF926699	LayV	Layer flavivirus CJD05	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	NK
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/JQ268258	JQ268258	HANKV	Hanko virus	FlaviPesti	Flavivirus	Arthropods	Insects	none	Ochlerotatus mosquito
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/JX477686	JX477686	STWV	Sitiawan virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	NK
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KC496020	KC496020	BJV	Barkedji virus	FlaviPesti	Flavivirus	Arthropods	Insects	none	Culex perexiguus
@@ -20,8 +20,8 @@ alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KC505248	KC505248	PCV	Palm Cree
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KC734550	KC734550	ITV	Israel turkey meningoencephalomyelitis virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Meleagris gallopavo
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KF917538	KF917538	NJLV	Naranjal virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	NK
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KJ469370	KJ469370	BCV	Batu Cave virus	FlaviPesti	Flavivirus	Mammalia	Rodentia	unknown	NK
-alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KM225263	KM225263	STRV	Stratford virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Aedes vigilax
-alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KM225264	KM225264	Bainyik	Bainyik virus	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Aedes sp.
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KM225263	KM225263	STRV	Stratford virus	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Aedes vigilax
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KM225264	KM225264	Bainyik	Bainyik virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Aedes sp.
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KM225265	KM225265	Torres	Torres virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Aedes albopictus
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KY290249	KY290249	LPKV	Long Pine Key virus	FlaviPesti	Flavivirus	Arthropods	Insects	none	Ochlerotatus atlanticus
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/KY320649	KY320649	LTNV	La Tina virus	FlaviPesti	Flavivirus	Arthropods	Insects	none	Ochlerotatus scapularis
@@ -31,16 +31,16 @@ alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/MK473877	MK473877	GcFV	Gammarus
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/MK473878	MK473878	CcFV	Crangon crangon flavivirus	FlaviPesti	Flavivirus	Arthropods	Crustaceans	none	Crangon crangon
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/MK473881	MK473881	GpFV	Gammarus pulex flavivirus	FlaviPesti	Flavivirus	Arthropods	Crustaceans	none	Gammarus pulex
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_000943	NC_000943	MVEV	Murray Valley encephalitis virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Homo sapiens
-alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_001437	NC_001437	JEV	Japanese encephalitis virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Homo sapiens
-alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_001474	NC_001474	DENV2	Dengue virus 2	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Homo sapiens
-alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_001475	NC_001475	DENV3	Dengue virus 3	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Homo sapiens
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_001437	NC_001437	JEV	Japanese encephalitis virus	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Homo sapiens
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_001474	NC_001474	DENV2	Dengue virus 2	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Homo sapiens
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_001475	NC_001475	DENV3	Dengue virus 3	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Homo sapiens
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_001477	NC_001477	DENV1	Dengue virus 1	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Homo sapiens
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_001563	NC_001563	WNV	West Nile virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Homo sapiens
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_001564	NC_001564	CFAV	Cell fusing agent virus	FlaviPesti	Flavivirus	Arthropods	Insects	none	Aedes aegypti
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_001672	NC_001672	TBEV	Tick-borne encephalitis virus	FlaviPesti	Flavivirus	Arthropods	Acari	tick	Ixodes
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_001809	NC_001809	LIV	Louping ill virus	FlaviPesti	Flavivirus	Arthropods	Acari	tick	Ovis aries
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_002031	NC_002031	YFV	Yellow fever virus	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Aedes aegypti, Aedes albopictus
-alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_002640	NC_002640	DEN4	Dengue virus 4	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Homo sapiens
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_002640	NC_002640	DEN4	Dengue virus 4	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Homo sapiens
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_003635	NC_003635	MODV	Modoc virus	FlaviPesti	Flavivirus	Mammalia	Rodentia	unknown	Peromyscus maniculatus
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_003675	NC_003675	RBV	Rio Bravo virus	FlaviPesti	Flavivirus	Mammalia	Chiroptera	unknown	Tadarida brasiliensis mexicana
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_003676	NC_003676	APOIV	Apoi virus	FlaviPesti	Flavivirus	Mammalia	Rodentia	unknown	Apodemus spp.
@@ -59,7 +59,7 @@ alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_009026	NC_009026	BSQV	Aroa v
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_009028	NC_009028	ILHV	Ilheus virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Psorophora spp. 
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_009029	NC_009029	KOKV	Kokobera virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	NK
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_012532	NC_012532	ZIKV	Zika virus	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Homo sapiens
-alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_012533	NC_012533	KEDV	Kedougou virus	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Aedes minutus
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_012533	NC_012533	KEDV	Kedougou virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Aedes minutus
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_012534	NC_012534	BAGV	Bagaza virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Culex sp.
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_012671	NC_012671	QBV	Quang Binh virus	FlaviPesti	Flavivirus	Arthropods	Insects	none	Culex tritaeniorhynchus
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_012735	NC_012735	WSLV	Wesselsbron virus	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Ovis aries
@@ -81,8 +81,8 @@ alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_026624	NC_026624	SOKV	Sokolu
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_027709	NC_027709	SGEV	Spanish goat encephalitis virus	FlaviPesti	Flavivirus	Arthropods	Acari	tick	NK
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_027817	NC_027817	PaRV	Parramatta River virus	FlaviPesti	Flavivirus	Arthropods	Insects	none	Aedes vigilax
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_027819	NC_027819	MECDV	Mercadeo virus	FlaviPesti	Flavivirus	Arthropods	Insects	none	Culex sp.
-alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_027999	NC_027999	EPEV	Paraiso Escondido virus	FlaviPesti	Flavivirus	Arthropods	Insects	Lutzomyia	Lutzomyia abonnenci
-alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_029055	NC_029055	SPOV	Spondweni virus	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Mansonia uniformis
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_027999	NC_027999	EPEV	Paraiso Escondido virus	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Lutzomyia abonnenci
+alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_029055	NC_029055	SPOV	Spondweni virus	FlaviPesti	Flavivirus	Arthropods	Insects	Culex	Mansonia uniformis
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_030289	NC_030289	EHV	Edge Hill virus	FlaviPesti	Flavivirus	Arthropods	Insects	Aedes	Aedes vigilax
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_030400	NC_030400	NAKV	Nakiwogo virus	FlaviPesti	Flavivirus	Arthropods	Insects	none	Mansonia africana nigerrima
 alignment/AL_TREE_Flavivirus/member/ncbi-refseqs/NC_031327	NC_031327	AnophFV	Anopheles flavivirus variant 1	FlaviPesti	Flavivirus	Arthropods	Insects	none	Anopheles gambiae

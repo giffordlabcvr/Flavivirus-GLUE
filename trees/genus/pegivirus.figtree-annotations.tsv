@@ -1,6 +1,6 @@
 taxon	sequenceID	name	full_name	subfamily	genus	host_major_group	host_minor_group	vector_group	sampled_host_sci_name
 alignment/AL_TREE_Pegivirus/member/ncbi-refseqs/KC145265	KC145265	TDAV	Theiler's disease-associated virus	HepaPegi	Pegivirus	Mammalia	Primates	none	Saguinus
-alignment/AL_TREE_Pegivirus/member/ncbi-refseqs/KC796073	KC796073	BPV	Bat pegivirus	HepaPegi	Pegivirus	Mammalia	Chiroptera	none	Saguinus
+alignment/AL_TREE_Pegivirus/member/ncbi-refseqs/KC796073	KC796073	BPV	Bat pegivirus	HepaPegi	Pegivirus	Mammalia	Primates	none	Saguinus
 alignment/AL_TREE_Pegivirus/member/ncbi-refseqs/KC796088	KC796088	PVI	bat pegivirus I	HepaPegi	Pegivirus	Mammalia	Chiroptera	none	Sturnira lilium
 alignment/AL_TREE_Pegivirus/member/ncbi-refseqs/KT439329	KT439329	HHpgV	Human hepegivirus	HepaPegi	Pegivirus	Mammalia	Primates	none	Homo sapiens
 alignment/AL_TREE_Pegivirus/member/ncbi-refseqs/KU351670	KU351670	PPV	Porcine pegivirus	HepaPegi	Pegivirus	Mammalia	Artiodactyla	none	Sus scrofa
