@@ -32,7 +32,7 @@
   # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter
  	
- 	export AL_GENUS_Flavivirus        -r REF_MASTER_YFV           -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_flavivirus-all.aln.fna
+ 	export AL_GENUS_Flavivirus        -r REF_MASTER_YFV           -f precursor_polyprotein --recursive -w "source.name not like "  -e -o alignments/tree/genus_flavivirus-all.aln.fna
  	export AL_GENUS_Tamanavirus       -r REF_MASTER_TAMANA_1_TABV -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_tamanavirus-all.aln.fna
   	export AL_GENUS_Pestivirus        -r REF_MASTER_PESTI_1_BVDV1 -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_pestivirus-all.aln.fna
  	export AL_GENUS_Hepacivirus       -r REF_MASTER_HEPACI_1_HCV  -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_hepacivirus-all.aln.fna
