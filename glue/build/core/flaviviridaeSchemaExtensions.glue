@@ -1,4 +1,6 @@
 
+  #~# Extensions to sequence table
+
   table sequence
     create field name VARCHAR 100  
     create field full_name VARCHAR 100
@@ -33,10 +35,9 @@
 
 
 
-  # Create schema extension for virus isolates
+  #~# Create schema extension for virus isolates
+  
   create custom-table isolate_data
-
-
 
   table isolate_data
     create field isolate VARCHAR 100
