@@ -69,7 +69,7 @@ Mode path: /
 GLUE> run file buildEveProject.glue
 ```
 
-This command builds the paleovirus extension, which includes endogenous viral elements (EVEs) from metazoan genomes, enabling automated alignment and phylogeny reconstruction for individual EPV lineages.
+This command builds the paleovirus extension, which includes endogenous viral elements (EVEs) from metazoan genomes, enabling automated alignment and phylogeny reconstruction for individual EFV lineages.
 
 To build all three project layers in one go, run the 'buildFlavivirusProject.glue' file as follows:
 
