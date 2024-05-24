@@ -1,10 +1,10 @@
 # Flavivirus-GLUE: Phylogenomic Analysis of Flaviviruses
 
-Welcome to Flavivirus-GLUE, a project developed to support the comparative genomic and evolutionary analysis of Flaviviruses, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
+Welcome to Flavivirus-GLUE, a project developed to support the comparative genomic and evolutionary analysis of flavivirids, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
 
 ## Overview
 
-**Flaviviruses** (family *Parvoviridae*) are a diverse group of small, non-enveloped DNA viruses that infect a broad range of animal species. This family includes several pathogens of humans and domesticated animals, as well as viruses being developed for therapeutic uses.
+**Flavivirids** (family *Flaviviridae*) are a diverse group of small, non-enveloped DNA viruses that infect a broad range of animal species. This family includes several pathogens of humans and domesticated animals, as well as viruses being developed for therapeutic uses.
 
 **[GLUE](https://github.com/giffordlabcvr/gluetools)** is an open, integrated software toolkit designed for storing and interpreting sequence data. It supports the creation of bespoke projects, incorporating essential data items for comparative genomic analysis, such as sequences, multiple sequence alignments, genome feature annotations, and other associated data.
 
