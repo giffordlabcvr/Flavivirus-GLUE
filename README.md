@@ -4,7 +4,7 @@ Welcome to Flavivirus-GLUE, a project developed to support the comparative genom
 
 ## Overview
 
-**Flavivirids** (family *Flaviviridae*) are a diverse group of small, non-enveloped DNA viruses that infect a broad range of animal species. This family includes several pathogens of humans and domesticated animals, as well as viruses being developed for therapeutic uses.
+The **Flavivirids** (family *Flaviviridae*) comprise enveloped, positive-strand RNA viruses, many of which pose serious risks to human health on a global scale. Arthropod-borne flaviviruses such as Zika virus (ZIKV), Dengue virus (DENV), and yellow fever virus (YFV) are the causative agents of large-scale outbreaks that result in millions of human infections every year, while the bloodborne hepatitis C virus (HCV) is a major cause of chronic liver disease. 
 
 **[GLUE](https://github.com/giffordlabcvr/gluetools)** is an open, integrated software toolkit designed for storing and interpreting sequence data. It supports the creation of bespoke projects, incorporating essential data items for comparative genomic analysis, such as sequences, multiple sequence alignments, genome feature annotations, and other associated data.
 
