@@ -1,6 +1,6 @@
 # Flavivirus-GLUE: Phylogenomic Analysis of Flaviviruses
 
-Welcome to Flavivirus-GLUE, a project developed to support the comparative genomic and evolutionary analysis of flavivirids, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
+Welcome to Flavivirus-GLUE, a sequence-oriented resource for comparative genomic analysis of flavivirids, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
 
 ## Overview
 
