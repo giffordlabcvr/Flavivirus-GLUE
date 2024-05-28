@@ -1,9 +1,0 @@
-
-  # Link reference/consensus EVE sequences to refcon custom table
-  run script glue/build/eve/loadRefConData1.js
- 
-  # Import metadata for reference/consensus EVE sequences
-  module efvSideDataImporterRefcon
-    populate -f tabular/eve/efv-refseq-side-data.tsv
-    exit
-
