@@ -1,9 +1,0 @@
-taxon	sequenceID	name	full_name	subfamily	genus	host_major_group	host_minor_group	vector_group	sampled_host_sci_name
-alignment/AL_TREE_Tamanavirus/member/fasta-refseqs/DnFV	DnFV	DnFV	Dianemobius nigrofasciatus flavivirus	FlaviPesti	Tamanavirus	Arthropods	Insects	none	Dianemobius nigrofasciatus
-alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MF776369	MF776369	LFLV	Cyclopterus lumpus virus	FlaviPesti	Tamanavirus	Actinopterygii	Teleostii	none	Cyclopterus lumpus
-alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MG599986	MG599986	WenSFV	Wenzhou shark flavivirus	FlaviPesti	Tamanavirus	Chondrichthyes	Chondrichthyes	none	Scoliodon macrorhynchos
-alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MK473875	MK473875	SpsFV	Southern pygmy squid flavivirus	FlaviPesti	Tamanavirus	Mollusca	Cephalopoda	none	Idiosepius notoides
-alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MT075326	MT075326	SFV	Salmon flavivirus	FlaviPesti	Tamanavirus	Actinopterygii	Teleostii	none	Oncorhynchus tshawytscha
-alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/MW208759	MW208759	EmbFlaV	Embiopteran flavi-related virus	FlaviPesti	Tamanavirus	Arthropods	Insects	none	Antipaluria urichi
-alignment/AL_TREE_Tamanavirus/member/ncbi-refseqs/NC_003996	NC_003996	TABV	Tamana bat virus	FlaviPesti	Tamanavirus	Mammalia	Chiroptera	none	Pteronotus parnellii
-alignment/AL_TREE_Tamanavirus/member/fasta-refseqs/RanaTamana	RanaTamana	RanaTamana	Rana Tamanavirus Mitcham	FlaviPesti	Tamanavirus	Amphibia	Rana	none	Rana

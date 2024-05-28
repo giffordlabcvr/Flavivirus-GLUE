@@ -1,4 +1,0 @@
-<featurePresenceRecorder>
-    <refNtCoverageFieldName>ref_nt_coverage_pct</refNtCoverageFieldName>
-    <minRefNtCoveragePct>5.0</minRefNtCoveragePct>
-</featurePresenceRecorder>

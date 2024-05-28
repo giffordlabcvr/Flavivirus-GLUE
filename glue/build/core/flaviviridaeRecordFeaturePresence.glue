@@ -1,9 +1,0 @@
-  delete module flaviviridaeFeaturePresenceRecorder
-  create module -f modules/build/core/flaviviridaeFeaturePresenceRecorder.xml
-
-  module flaviviridaeFeaturePresenceRecorder 
-
-    #~# Root alignment
-    record feature-presence AL_ROOT_Flaviviridae --recursive --featureName whole_genome --descendentFeatures
-    exit
-

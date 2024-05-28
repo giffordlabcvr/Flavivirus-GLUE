@@ -1,9 +1,0 @@
-  delete module efvSideDataImporter
-  delete module efvSideDataImporterRefcon
-  delete module efvUnconstrainedAlignmentImporter
-  
-  create module -f modules/build/eve/efvSideDataImporter.xml
-  create module -f modules/build/eve/efvSideDataImporterRefcon.xml
-  create module -f modules/build/eve/efvUnconstrainedAlignmentImporter.xml
-  
-  
