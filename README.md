@@ -62,24 +62,6 @@ Download the Flavivirus-GLUE repository, navigate into the top-level directory, 
 
 This command builds the core project, representing diversity among the Flavivirus family via a minimal annotated species reference sequences.
 
-2. **Build Paleovirus Extension Projects**:
-
-```
-Mode path: /
-GLUE> run file buildEveProject.glue
-```
-
-This command builds the paleovirus extension, which includes endogenous viral elements (EVEs) from metazoan genomes, enabling automated alignment and phylogeny reconstruction for individual EFV lineages.
-
-To build all three project layers in one go, run the 'buildFlavivirusProject.glue' file as follows:
-
-```
-Mode path: /
-GLUE> run file buildFlavivirusProject.glue
-```
-
-This will build the base project, which contains a minimal set of feature definitions, clade categories, reference sequences, and alignments.
-
 ## Usage
 
 GLUE contains an interactive command line environment focused on the development and use of GLUE projects by bioinformaticians. This provides a range of productivity-oriented features such as automatic command completion, command history and interactive paging through tabular data. 
