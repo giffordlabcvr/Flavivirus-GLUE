@@ -12,6 +12,8 @@ Projects are loaded into the GLUE "engine," forming a relational database that r
 
 **Flavivirus-GLUE** contains Flavivirus feature definitions, alignments, and reference sequences for all Flavivirus species.
 
+  - **[Flavivirus-GLUE-EVE](https://github.com/giffordlabcvr/Flavivirus-GLUE-EVE)**: extends Flavivirus-GLUE through the incorporation of endogenous flaviviral elements.
+
 ## Table of Contents
 
 - [Overview](#overview)
