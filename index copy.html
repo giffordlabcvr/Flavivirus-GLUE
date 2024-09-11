@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  
+
+    <meta charset="UTF-8">
+    <title>Flavivirus-GLUE by giffordlabcvr</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="website/assets/stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="website/assets/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="website/assets/stylesheets/github-light.css" media="screen">
+
+  </head>
+
+  <body>
+    <section class="page-header">
+    
+      <h1 class="project-name">Flavivirid-GLUE</h1>
+      <h2 class="project-tagline">Resources for comparative genomic analysis of flavivirids (family <i>Flaviviridae</i>)</h2>
+      <a href="./website/html/viruses.html" class="btn">Viruses</a>
+      <a href="./website/html/paleoviruses.html" class="btn">Paleoviruses</a>
+      <a href="./website/html/news.html" class="btn">News</a>
+
+      <a href="https://github.com/giffordlabcvr/Flavivirus-GLUE/zipball/master" class="btn">Download</a>
+      <a target="_blank" href="https://github.com/giffordlabcvr/Flavivirus-GLUE/tree/master" class="btn">GitHub</a>
+      
+    </section>
+
+    <section class="main-content">
+
+
+	   <h3>
+		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Comparative genomic analysis of flavivirids using GLUE</strong>
+	   </h3>
+	   <hr>
+
+	   <p>
+		 This is <b>Flavivirid-GLUE</b>, a
+		 <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a>
+		 project for the 
+		 <a target="_blank" href="https://viralzone.expasy.org/43"><b>flavivirids</b></a>
+		 (family <i>Flaviviridae</i>).		 
+	   </p>
+
+	   <p>
+		 The <i>Flaviviridae</i> comprise enveloped, positive-strand RNA viruses,
+		 many of which pose serious risks to human health on a global scale. 
+		 Arthropod-borne flaviviruses such as Zika virus (<a target="_blank" href="https://www.cdc.gov/zika/index.html"><b>ZIKV</b></a>),
+		 Dengue virus (<a target="_blank" href="https://www.cdc.gov/dengue/index.html"><b>DENV</b></a>), and
+		 yellow fever virus (<a target="_blank" href="https://www.cdc.gov/yellowfever/index.html"><b>YFV</b></a>)
+		 are the causative agents of large-scale outbreaks that result
+		 in millions of human infections every year, while the bloodborne hepatitis C virus
+		 (<a target="_blank" href="https://www.who.int/news-room/fact-sheets/detail/hepatitis-c"><b>HCV</b></a>)
+		 is a major cause of chronic liver disease.		 
+	   </p>
+
+	   <br>
+      
+       <p><img src="./website/assets/images/flavivirus-header.jpg" alt="Flaviviruses"/></p>
+         
+
+<blockquote>
+
+	   <p>
+	   
+		 Projected urbanisation in 2027 (from <a target="_blank" href="https://www.economist.com/node/21642053">The Economist</a> magazine).
+		 Urbanisation is often associated with the emergence and spread of mosquito-borne diseases
+		 by creating favourable conditions for the survival of mosquito vector species.
+		 Genome data can directly inform efforts to control diseases caused by mosquito-borne flaviviruses.
+		 
+	   </p>
+	   
+</blockquote>
+
+	   <br>
+
+  
+	   <p>
+		 Since the emergence of the SARS-COV2 pandemic, many have become familiar with 
+		 the use of <b>virus genome data</b>  to track the spread and evolution of pathogenic viruses
+		 - e.g. via tools such as <a target="_blank" href="https://nextstrain.org/ncov/gisaid/global""><b>NextStrain</b></a>. 
+		 However, it is less widely appreciated that the same kinds of data sets and comparative genomic approaches
+		 can also be used to explore the structural and functional basis of virus adaptations. 
+	   </p>
+
+	   <p>	   
+		 The <a target="_blank" href="https://github.com/giffordlabcvr/gluetools"><b>GLUE software framework</b></a>
+		 provides an extensible platform for implementing computational genomic
+		 analysis of viruses in an <b>efficient, standardised and reproducible</b> way.
+         <b>GLUE projects</b> can not only incorporate all of the data items typically used in
+         comparative genomic analysis
+         (e.g. sequences, alignments, genome feature annotations) but can also represent the complex
+         semantic links between these data items via a <b>relational database</b>.
+         This 'poises' sequences and associated data for application in computational
+         analysis, minimising the requirement for labour-intensive pre-processing of datasets.
+	   </p>
+
+	   <p>
+		 GLUE projects are equally suited for carrying out exploratory work 
+		 (e.g. using virus genome data to investigate structural and functional properties of viruses)
+		 as they are for implementing operational procedures (e.g. producing
+		 <a target="_blank" href="http://hcv-glue.cvr.gla.ac.uk/exampleReports/resistanceGeno1.html?hcvGlueVersion=0.1.68""><b>standardised reports</b></a>
+		 in a public or animal health setting).
+	   </p>      
+
+
+	   <p>
+		 Hosting of GLUE projects in an online version control system (e.g. <b>GitHub</b>) provides
+		 a mechanism for their stable, collaborative development, as shown below.
+	   </p>
+	  
+	   <p><img src="./website/assets/images/github-hosting.jpg" alt="GitHub illustration" /></p>
+
+
+       <br>
+	   <h3>
+	   <a id="WhatGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What is a GLUE project?</strong>
+	   </h3>
+       <hr>
+
+	   <p>
+		 <a target="_blank" href="https://github.com/giffordlabcvr/gluetools"><b>GLUE</b></a> is an open, integrated
+		 software toolkit that provides functionality for storage and interpretation of
+		 sequence data. It supports the development of <b>“projects”</b> containing the data items
+		 required for comparative genomic analysis 
+		 (e.g.  sequences, multiple sequence alignments, genome feature annotations,
+		 and other sequence-associated data). 
+	   </p>
+
+
+        <br>
+        <p><img src="./website/assets/images/glue-framework.jpg" alt="GLUE framework figure" /></p>
+        <br>
+
+
+	   <p>
+		 Projects are loaded into the <b>GLUE "engine"</b>, creating a <b>relational database</b>
+		 that represents the semantic relationships between data items.
+		 This provides a robust foundation for the implementation of <b>systematic
+		 comparative analyses</b> and the development of <b>sequence-based resources</b>. 
+		 The database schema can be extended to accommodate the idiosyncrasies of different projects.
+		 GLUE provides a scripting layer (based on <a target="_blank" href="https://www.javascript.com/"><b>JavaScript</b></a>)
+		 for developing custom analysis tools. 
+	   </p>
+
+
+
+
+
+	   <br>
+	   <p><img src="./website/assets/images/glue-servers.png" alt="GLUE resources: server deployment illustration" /></p>
+	   <br>
+
+
+		 
+	   <p>
+		 Some examples of '<b>sequence-based resources</b>' built for viruses using GLUE include:
+
+	   </p>
+
+	   <br>
+		  
+
+	   <p>
+
+		 <ul>
+			   
+		   <li> 
+			 <a target="_blank" href="http://cov-glue.cvr.gla.ac.uk/"><b>COV-GLUE</b></a>: 
+			 A GLUE resource for tracking genetic variation in SARS-COV2.
+			 CoV-GLUE contains a database of amino acid replacements, insertions and
+			 deletions which have been observed in GISAID hCoV-19 sequences sampled from the pandemic
+		   </li>
+		   <br>
+		 
+		   <li>
+			 <a target="_blank" href="http://rabv-glue.cvr.gla.ac.uk/"><b>RABV-GLUE</b></a>:
+			 Tailored toward epidemiological tracking of rabies virus (RABV).
+			 Includes a database of RABV sequences and metadata from NCBI, updated daily and arranged into major and minor clades, and
+			 an analysis tool providing genotyping, analysis and visualisation of submitted FASTA sequences.
+		   </li>
+		   <br>
+		 
+		   <li>
+			 <a target="_blank" href="http://hcv-glue.cvr.gla.ac.uk/"><b>HCV-GLUE</b></a>:
+			 This GLUE resource aims to support analysis of drug resistance and vaccine
+			 escape in hepatitis C virus (HCV).
+			 A database of HCV sequences and metadata from NCBI, updated daily and arranged
+			 into clades (genotypes, subtypes). As well as pre-built multiple-sequence
+			 alignments of NCBI sequences, it includes an analysis tool providing genotyping,
+			 drug resistance analysis and visualisation of submitted FASTA sequences.
+		   </li>
+	 
+		 </ul>
+		 
+	   </p>
+	 
+
+
+	   <br>
+	   <h3>
+	   <a id="WhyGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What does building the Flavivirid-GLUE project offer?</strong>
+	   </h3>
+	   <hr>
+
+		 
+ 	   
+	   <p>
+	   
+		 <b>Flavivirid-GLUE</b> contains aligned, annotated reference genome sequences for all
+		 <a href="./website/html/viruses.html">flavivirid</a> species and
+		 <a href="./website/html/paleoviruses.html">endogenous viral elements (EVEs)</a> derived from flavivirids.
+		 
+          It offers a number of advantages for performing comparative sequence
+		  analysis of flavivirids:
+
+
+		  <ol>
+
+			<li> <strong>Reproducibility</strong>. 
+			For many reasons, bioinformatics analyses are notoriously difficult to reproduce.
+			The GLUE framework supports the implementation of fully reproducible 
+			comparative genomics through the introduction of data standards and the use 
+			of a relational database to capture the semantic links between data items.
+			</li>
+			<br>
+		  
+			<li> <strong>Reusable data objects and analysis logic</strong>. 
+			For many - if not most - comparative genomic analyses, data preparation is nine
+			tenths of the battle. The GLUE framework has been designed to ensure that 
+			work spent preparing high-value data items such as multiple sequence alignments
+			need only be performed once. Hosting of GLUE projects in an online version control 
+			system such as GitHub allows for collaborative management of important data items
+			and community testing of hypotheses.
+			</li>
+			<br>
+
+
+			<li> <strong>Validation</strong>. 
+			Building GLUE projects entails mapping the semantic links between data items
+			(e.g. sequences, tabular data, multiple sequence alignments).
+			This process provides an opportunity 
+			for cross-validation, and thereby enforces a high level of data integrity.
+			</li>
+			<br>
+		
+			<li> <strong>Standardisation of the genomic co-ordinate space</strong>. GLUE
+			projects allow all sequences to utilise the coordinate space of a chosen 
+			reference sequence. Contingencies associated with insertions and deletions
+			(indels) are handled in a systematic way.
+			</li>
+			<br>
+		  
+			<li> <strong>Predefined, fully annotated reference sequences</strong>:
+			This project includes fully-annotated reference sequences for major lineages
+			within the <i>Hepadnaviridae</i> family.
+			</li>
+			<br>
+		  
+			<li> <strong>Alignment trees</strong>:
+			GLUE allows linking of alignments constructed at distinct taxonomic levels
+			via an ""<b>alignment tree</b>"
+			data structure. In the alignment tree, each alignment
+			is constrained to a standard reference sequence, thus all multiple sequence
+			alignments are linked to one another via a standardised coordinate system.
+			</li>
+			
+		  </ol>
+
+
+	   </p>
+
+
+ 
+	   <br>
+	   <h3>
+	   <a id="glueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>GLUE project</strong>
+	   </h3>
+	   <hr>
+
+
+      	   
+	   <p>
+	
+         On computers with <a href="http://glue-tools.cvr.gla.ac.uk/#/installation">GLUE installed</a>,
+         the <b>Flavivirid-GLUE</b> project can be instantiated by navigating to the project folder,
+         initiating GLUE, and issuing the following command in the GLUE shell:
+         
+  <pre>
+  <code>Mode path: /
+  GLUE> run file buildCompleteProject.glue</code></pre>
+		 
+	   </p>
+
+       
+	   <br>
+	   <h3>
+		 <a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
+	   </h3>
+	   <hr>
+	   
+	   <p>
+		 Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)	 
+	   </p>
+	   <p>
+		 Rhys Parry
+	   </p>
+	   <p>
+		 Connor Bamford
+	   </p>
+	   <p>
+		 William Marciel de Souza	 
+	   </p>
+
+
+	   <br>
+	   <h3>
+		 <a id="Publications" class="anchor" href="#Publications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related Publications</strong>
+	   </h3>
+	   <hr>
+
+
+
+  <p>
+ 
+
+	   Bamford CGG, de Souza WM, Parry R and RJ Gifford
+	   <b>(2021)</b>
+	   <br>
+	   Comparative analysis of genome-encoded viral sequences reveals the evolutionary history of the <i>Flaviviridae</i>.
+	   <br>
+	   <a href="https://www.biorxiv.org/content/10.1101/2021.09.19.460981v1" target="_blank">[preprint]</a> 
+	   <br>
+	   <br>
+
+	   Singer JB, Thomson EC, McLauchlan J, Hughes J, and RJ Gifford
+	   <b>(2018)</b>
+	   <br>
+	   GLUE: A flexible software system for virus sequence data.
+	   <br>
+	   <i>BMC Bioinformatics</i>
+	   <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2459-9" target="_blank">[view]</a> 
+	   <br>
+	   <br>
+
+	   Zhu H, Dennis T, Hughes J, and RJ Gifford
+	   <b>(2018)</b>
+	   <br>
+	   Database-integrated genome screening (DIGS): exploring genomes heuristically using sequence similarity search tools and a relational database.
+	   <a href="https://www.biorxiv.org/content/early/2018/04/25/246835" target="_blank">[preprint]</a> 
+	   <br>
+	   <br>
+
+
+   </p>
+
+
+
+	   <h3>
+		 <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>License</strong>
+	   </h3>
+       <hr>
+
+		 <p>
+		   This project is licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero General Public License v. 3.0</a>.
+		 </p>
+
+	   <br>
+	   <br>
+
+
+
+	 <footer class="site-footer">
+	   <span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/DIGS-tool">Flavivirid-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.</span>
+
+	   <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+	 </footer>
+
+    </section>
+
+
+  </body>
+  
+</html>
