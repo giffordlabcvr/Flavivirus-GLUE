@@ -10,7 +10,7 @@ The **Flavivirids** (family *Flaviviridae*) comprise enveloped, positive-strand 
 
 Projects are loaded into the GLUE "engine," forming a relational database that represents the semantic relationships between data items. This foundation supports systematic comparative analyses and the development of sequence-based resources.
 
-**Flavivirus-GLUE** is a GLUE project focussing on flavivirids. It contains genome feature definitions, annotated reference sequences, and muliple sequence alignments encompassing all known flavivirid species.
+**Flavivirus-GLUE** is a GLUE project focusing on flavivirids. It contains genome feature definitions, annotated reference sequences, and muliple sequence alignments encompassing all known flavivirid species.
 
 An additional project 'layer': **[Flavivirus-GLUE-EVE](https://github.com/giffordlabcvr/Flavivirus-GLUE-EVE)** can optionally be installed. This layer extends Flavivirus-GLUE through the incorporation of **endogenous flaviviral elements**.
 
