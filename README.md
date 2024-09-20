@@ -50,10 +50,7 @@ An additional project 'layer': **[Flavivirus-GLUE-EVE](https://github.com/giffor
 
 ## Installation
 
-If you have not done so already, install the GLUE software framework by following the [installation instructions](http://glue-tools.cvr.gla.ac.uk/#/installation) on the GLUE web site: 
-
-Download the Flavivirus-GLUE repository, navigate into the top-level directory, and start the GLUE command line interpreter.
-
+Please see the User Guide for **[installation instructions](https://github.com/giffordlabcvr/Flavivirus-GLUE/wiki/Installation)**.
 ### Steps
 
 1. **Build the Core Project**:
