@@ -51,16 +51,6 @@ An additional project 'layer': **[Flavivirus-GLUE-EVE](https://github.com/giffor
 ## Installation
 
 Please see the User Guide for **[installation instructions](https://github.com/giffordlabcvr/Flavivirus-GLUE/wiki/Installation)**.
-### Steps
-
-1. **Build the Core Project**:
-   
-```
-   Mode path: /
-   GLUE> run file buildCoreProject.glue
-```
-
-This command builds the core project, representing diversity among the Flavivirus family via a minimal annotated species reference sequences.
 
 ## Usage
 
