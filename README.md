@@ -1,8 +1,8 @@
 # Flavivirus-GLUE: Phylogenomic Analysis of Flaviviruses
 
-Welcome to Flavivirus-GLUE, a sequence-oriented resource for comparative genomic analysis of flavivirids, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
+<img align="right" width="280" height="280" src="md/flavi-glue-logo.png">
 
-## Overview
+Welcome to Flavivirus-GLUE, a sequence-oriented resource for comparative genomic analysis of flavivirids, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
 
 The **Flavivirids** (family *Flaviviridae*) comprise enveloped, positive-strand RNA viruses, many of which pose serious risks to human health on a global scale. Arthropod-borne flaviviruses such as Zika virus (ZIKV), Dengue virus (DENV), and yellow fever virus (YFV) are the causative agents of large-scale outbreaks that result in millions of human infections every year, while the bloodborne hepatitis C virus (HCV) is a major cause of chronic liver disease. 
 
@@ -17,8 +17,7 @@ An additional project 'layer': **[Flavivirus-GLUE-EVE](https://github.com/giffor
 **Note**: Those specifically interested in **hepatitis C virus (HCV)** may want to investigate [**HCV-GLUE**](https://github.com/giffordlabcvr/HCV-GLUE) and [**NCBI-HCV-GLUE**](https://github.com/giffordlabcvr/NCBI-HCV-GLUE). This family of GLUE projects was developed specifically for HCV and incorporates a **graphical user interface (GUI)** that allows users to browse and interrogate the underlying GLUE database via a web browser. The University of Glasgow hosts a web instance of the [**GUI version of HCV-GLUE**](http://hcv-glue.cvr.gla.ac.uk/).
 
 ## Table of Contents
-
-- [Overview](#overview)
+ 
 - [Key Features](#key-features)
 - [Installation](#installation)
 - [Usage](#usage)
