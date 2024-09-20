@@ -73,9 +73,7 @@ For detailed instructions on how to use Flavivirus-GLUE for your comparative gen
 
 ## Data Sources
 
-Flavivirus-GLUE relies on the following data sources:
-
-- [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore)
+Flavivirus-GLUE is constructed using sequence data obtained from [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore).
 
 
 ## Contributing
