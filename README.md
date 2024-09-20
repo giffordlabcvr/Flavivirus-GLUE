@@ -10,9 +10,11 @@ The **Flavivirids** (family *Flaviviridae*) comprise enveloped, positive-strand 
 
 Projects are loaded into the GLUE "engine," forming a relational database that represents the semantic relationships between data items. This foundation supports systematic comparative analyses and the development of sequence-based resources.
 
-**Flavivirus-GLUE** contains Flavivirus feature definitions, alignments, and reference sequences for all Flavivirus species.
+**Flavivirus-GLUE** is a GLUE project focussing on flavivirids. It contains genome feature definitions, annotated reference sequences, and muliple sequence alignments encompassing all known flavivirid species.
 
-  - **[Flavivirus-GLUE-EVE](https://github.com/giffordlabcvr/Flavivirus-GLUE-EVE)**: extends Flavivirus-GLUE through the incorporation of endogenous flaviviral elements.
+An additional project 'layer': **[Flavivirus-GLUE-EVE](https://github.com/giffordlabcvr/Flavivirus-GLUE-EVE)** can optionally be installed. This layer extends Flavivirus-GLUE through the incorporation of **endogenous flaviviral elements**.
+
+**Note**: Those specifically interested in **hepatitis C virus (HCV)** may want to investigate [**HCV-GLUE**](https://github.com/giffordlabcvr/HCV-GLUE) and [**NCBI-HCV-GLUE**](https://github.com/giffordlabcvr/NCBI-HCV-GLUE). This family of GLUE projects was developed specifically for HCV and incorporates a **graphical user interface (GUI)** that allows users to browse and interrogate the underlying GLUE database via a web browser. The University of Glasgow hosts a web instance of the [**GUI version of HCV-GLUE**](http://hcv-glue.cvr.gla.ac.uk/).
 
 ## Table of Contents
 
