@@ -2,7 +2,7 @@
 
 <img align="right" width="280" height="280" src="md/flavi-glue-logo.png">
 
-Welcome to Flavivirus-GLUE, a sequence-oriented resource for comparative genomic analysis of flavivirids, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
+Welcome to Flavivirus-GLUE, a sequence-oriented resource for comparative genomic analysis of flavivirids, developed using the **[GLUE software framework](https://github.com/giffordlabcvr/gluetools)**.
 
 The **Flavivirids** (family *Flaviviridae*) comprise enveloped, positive-strand RNA viruses, many of which pose serious risks to human health on a global scale. Arthropod-borne flaviviruses such as Zika virus (ZIKV), Dengue virus (DENV), and yellow fever virus (YFV) are the causative agents of large-scale outbreaks that result in millions of human infections every year, while the bloodborne hepatitis C virus (HCV) is a major cause of chronic liver disease. 
 
