@@ -16,7 +16,8 @@ An additional project 'layer': **[Flavivirus-GLUE-EVE](https://github.com/giffor
 
 Please see the **[User Guide](https://github.com/giffordlabcvr/Flavivirus-GLUE/wiki)** for more details.
 
-**Note**: Those specifically interested in **hepatitis C virus (HCV)** may want to investigate [**HCV-GLUE**](https://github.com/giffordlabcvr/HCV-GLUE) and [**NCBI-HCV-GLUE**](https://github.com/giffordlabcvr/NCBI-HCV-GLUE). This family of GLUE projects was developed specifically for HCV and incorporates a **graphical user interface (GUI)** that allows users to browse and interrogate the underlying GLUE database via a web browser. The University of Glasgow hosts a web instance of the [**GUI version of HCV-GLUE**](http://hcv-glue.cvr.gla.ac.uk/).
+> [!NOTE]
+> Those specifically interested in **hepatitis C virus (HCV)** may want to investigate [**HCV-GLUE**](https://github.com/giffordlabcvr/HCV-GLUE) and [**NCBI-HCV-GLUE**](https://github.com/giffordlabcvr/NCBI-HCV-GLUE). This family of GLUE projects was developed specifically for HCV and incorporates a **graphical user interface (GUI)** that allows users to browse and interrogate the underlying GLUE database via a web browser. The University of Glasgow hosts a web instance of the [**GUI version of HCV-GLUE**](http://hcv-glue.cvr.gla.ac.uk/).
 
 ## Table of Contents
  
