@@ -1,4 +1,4 @@
-# Flavivirus-GLUE: Phylogenomic Analysis of Flaviviruses
+# Flavivirus-GLUE: Phylogenomic Analysis of Flavivirids
 
 <img align="right" width="280" height="280" src="md/flavi-glue-logo.png">
 
