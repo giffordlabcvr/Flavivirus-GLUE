@@ -1,102 +1,101 @@
-sequenceID	name	full_name	subfamily	supergenus	genus	subgenus	clade	host_major_group	host_minor_group	isolation_host	vector_group	reservoir_group	isolate	country	place_sampled	collection_year	collection_month	collection_month_day	sampled_host_common_name
 MT084113	IPV	Infectious precocity virus	FlaviPesti	FlaviLike	FL4	FL4	NULL	Arthropods	Crustaceans	Macrobrachium rosenbergii	none	none	MR2018	China	-	2018	-	-	-
-SsFV_consensus	SsFV	Sea spider flavivirus	FlaviPesti	FlaviLike	Flavivirus	Arachnid	NULL	Arthropods	Chelicerata	Endeis spinosa	none	none	-	-	-	-	-	-	-
-HE574574	CTFV	Culex theileri flavivirus RP-2011	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL	Arthropods	Insects	Culex theileri	none	none	178	Portugal	Dunas Douradas-Almancil	-	-	-	-
-JQ268258	HANKV	Hanko virus	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL	Arthropods	Insects	Ochlerotatus mosquito	none	none	-	Finland	-	2005	-	-	-
-KC505248	PCV	Palm Creek virus	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL	Arthropods	Insects	Coquillettidia xanthogaster	none	none	56	Australia	-	2010	-	-	-
-NC_001564	CFAV	Cell fusing agent virus	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL	Arthropods	Insects	Aedes aegypti	none	none	-	USA	-	2012	-	-	-
-NC_005064	KRV	Kamiti River virus	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL	Arthropods	Insects	Aedes macintoshi 	none	none	SR-82	-	-	-	-	-	-
-NC_008604	CxFV	Culex flavivirus	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL	Arthropods	Insects	Culex pipiens	none	none	-	Japan	Tokyo, Shinjuku	2003	-	-	-
-NC_012671	QBV	Quang Binh virus	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL	Arthropods	Insects	Culex tritaeniorhynchus	none	none	VN180	Viet Nam	-	2002	-	-	-
-NC_012932	AEFV	Aedes flavivirus	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL	Arthropods	Insects	Aedes albopictus	none	none	-	Japan	Chiba, Narita	2003	-	-	-
-NC_021069	MosqFV	Mosquito flavivirus	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL	Arthropods	Insects	Culex tritaeniorhynchus	none	none	LSFlaviV-A20-09	China	-	2009	-	-	-
-NC_024299	NIEV	Nienokoue virus	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL	Arthropods	Insects	Culex sp.	none	none	B51/CI/2004	Cote d'Ivoire	-	2004	-	-	-
-NC_027817	PaRV	Parramatta River virus	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL	Arthropods	Insects	Aedes vigilax	none	none	92-B115745	Australia	-	2007	-	-	-
-NC_027819	MECDV	Mercadeo virus	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL	Arthropods	Insects	Culex sp.	none	none	ER-M10	Panama	-	2011	-	-	-
-NC_030400	NAKV	Nakiwogo virus	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL	Arthropods	Insects	Mansonia africana nigerrima	none	none	-	Uganda	-	2008	-	-	-
-NC_031327	AnophFV	Anopheles flavivirus variant 1	FlaviPesti	FlaviLike	Flavivirus	cISF	NULL	Arthropods	Insects	Anopheles gambiae	none	none	-	Liberia	-	2013	-	-	-
-MK473877	GcFV	Gammarus chevreuxi flavivirus	FlaviPesti	FlaviLike	Flavivirus	Crustacean	NULL	Arthropods	Crustaceans	Gammarus chevreuxi	none	none	100_1	United Kingdom	-	2013	JUN	1	-
-MK473878	CcFV	Crangon crangon flavivirus	FlaviPesti	FlaviLike	Flavivirus	Crustacean	NULL	Arthropods	Crustaceans	Crangon crangon	none	none	-	Germany	-	2015	JUN	26	-
-MK473881	GpFV	Gammarus pulex flavivirus	FlaviPesti	FlaviLike	Flavivirus	Crustacean	NULL	Arthropods	Crustaceans	Gammarus pulex	none	none	GPCM	France	-	2018	FEB	1	-
-KC496020	BJV	Barkedji virus	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL	Arthropods	Insects	Culex perexiguus	none	none	363/11	Israel	-	2011	-	-	-
-KY290249	LPKV	Long Pine Key virus	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL	Arthropods	Insects	Ochlerotatus atlanticus	none	none	-	USA	Florida, Everglades National Park, Long Pine Key	2013	JUN	13	-
-KY320649	LTNV	La Tina virus	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL	Arthropods	Insects	Ochlerotatus scapularis	none	none	49_LT96	Peru	Piura province, the village of La Tina	1996	AUG	22	-
-KY347801	MMV	Marisma mosquito virus	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL	Arthropods	Insects	Aedes caspius	none	none	HU 4528/07	Spain	-	2007	AUG	1	-
-NC_016997	DONV/DGV	Donggang virus	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL	Arthropods	Insects	Aedes sp.	none	none	DG0909	China	-	2009	-	-	-
-NC_017086	CHAOV	Chaoyang virus	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL	Arthropods	Insects	NK	none	none	HLD115	China	-	2010	-	-	-
-NC_024017	NHUV	Nhumirim virus	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL	Arthropods	Insects	Culex chidesteri	none	none	-	Brazil	Nhecolandia Sub-region of Pantanal, Corumba, Mato Grosso do Sul	2010	OCT	17	-
-NC_024805	ILOV	Ilomantsi virus	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL	Arthropods	Insects	Ochlerotatus riparius	none	none	M0724	Finland	-	2007	-	-	-
-NC_024806	LAMV	Lammi virus	FlaviPesti	FlaviLike	Flavivirus	dISF	NULL	Arthropods	Insects	Aedes cinereus	none	none	M0719	Finland	-	2007	-	-	-
-AY632538	IGUV	Iguape virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Mus musculus	Culex	birds	-	-	-	-	-	-	-
-AY632542	ROCV	Rocio virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Homo sapiens	Culex	birds	-	-	-	-	-	-	-
-AY898809	ALFV	Alfuy virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Centropus phasianius	Aedes	mammals	-	Australia	-	-	-	-	-
-D00246	KUNV	Kunjin virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Culex annulirostris	Culex	primates	-	-	-	-	-	-	-
-EU082199	YAOV	Yaounde virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Culex nebulosis	Culex	birds	-	Cameroon	-	-	-	-	-
-EU082200	KOUV	Koutango virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Tatera kempi	Aedes	primates	-	Senegal	-	-	-	-	-
-EU159426	NOUV	Nounane virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes	Arthropods	Insects	Uranotaenia mashonaensis	Aedes	primates	-	Cote d'Ivoire	-	-	-	-	-
-JF312912	BYDV	Baiyangdian virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Anas platyrhynchos	Aedes	primates	-	China	-	2010	OCT	18	-
-JF926699	LayV	Layer flavivirus CJD05	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	NK	Aedes	primates	-	China	-	2010	-	-	-
-JX477686	STWV	Sitiawan virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	NK	Culex	bird/mammal	-	Malaysia	-	-	-	-	-
-KC734550	ITV	Israel turkey meningoencephalomyelitis virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Meleagris gallopavo	Culex	birds	Israel/618/1995	Israel	-	1995	-	-	-
-KF917538	NJLV	Naranjal virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	NK	Culex	bird/mammal	-	Ecuador	-	1976	-	-	-
-KM225263	STRV	Stratford virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Aedes vigilax	Aedes	unknown	-	Australia	-	1961	-	-	-
-KM225264	Bainyik	Bainyik virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes	Arthropods	Insects	Aedes sp.	Culex	birds	-	Papua New Guinea	-	1966	-	-	-
-KM225265	Torres	Torres virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Aedes albopictus	Culex	birds	-	Australia	-	2000	-	-	-
-NC_000943	MVEV	Murray Valley encephalitis virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Homo sapiens	Culex	unknown	-	-	-	-	-	-	-
-NC_001437	JEV	Japanese encephalitis virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Homo sapiens	Aedes	unknown	-	-	-	-	-	-	-
-NC_001474	DENV2	Dengue virus 2	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes	Arthropods	Insects	Homo sapiens	Culex	unknown	-	Thailand	-	1964	-	-	-
-NC_001475	DENV3	Dengue virus 3	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes	Arthropods	Insects	Homo sapiens	Culex	birds	D3/H/IMTSSA-SRI/2000/1266	Sri Lanka	-	-	-	-	-
-NC_001477	DENV1	Dengue virus 1	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes	Arthropods	Insects	Homo sapiens	Aedes	unknown	-	-	-	-	-	-	-
-NC_001563	WNV	West Nile virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Homo sapiens	Culex	birds	-	-	-	-	-	-	-
-NC_002640	DEN4	Dengue virus 4	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes	Arthropods	Insects	Homo sapiens	Culex	marsupials	-	-	-	-	-	-	-
-NC_006551	USUV	Usutu virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Culex neavei	Culex	birds	-	Austria	-	-	-	-	-
-NC_007580	SLEV	Saint Louis encephalitis virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Homo sapiens	Culex	birds	-	USA	-	-	-	-	-
-NC_009026	BSQV	Aroa virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Alouatta beelzebul	Culex	birds	BeAn 4073	-	-	-	-	-	-
-NC_009028	ILHV	Ilheus virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Psorophora spp. 	Culex	birds	-	-	-	-	-	-	-
-NC_009029	KOKV	Kokobera virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	NK	Culex	birds	-	-	-	-	-	-	-
-NC_012532	ZIKV	Zika virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes	Arthropods	Insects	Homo sapiens	Aedes	mammals	-	Uganda	-	-	-	-	-
-NC_012533	KEDV	Kedougou virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes	Arthropods	Insects	Aedes minutus	Culex	birds	-	Senegal	-	-	-	-	-
-NC_012534	BAGV	Bagaza virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Culex sp.	Culex	birds	-	Central African Republic	-	-	-	-	-
-NC_015843	TMUV	Tembusu virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Anser cygnoides	Culex	birds	-	China	-	2010	-	-	-
-NC_018705	NTAV	Ntaya virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	NK	Culex	birds	IPDIA	-	-	1966	-	-	-
-NC_026623	CPCV	Cacipacore virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Formicarius analis	Culex	mammals	-	Brazil	-	1977	-	-	-
-NC_029055	SPOV	Spondweni virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Aedes	Arthropods	Insects	Mansonia uniformis	Culex	mammals	-	South Africa	-	-	-	-	-
-NC_032088	NMV	New Mapoon virus	FlaviPesti	FlaviLike	Flavivirus	Mosq1	Culex	Arthropods	Insects	Culex annulirostris	Culex	birds	-	Australia	New Mapoon	1998	-	-	-
-DQ859056	BANV	Banzi virus	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL	Arthropods	Insects	Homo sapiens	Lutzomyia	none	-	South Africa	-	-	-	-	-
-NC_002031	YFV	Yellow fever virus	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL	Arthropods	Insects	Aedes aegypti, Aedes albopictus	Aedes	rodents	-	-	-	-	-	-	-
-NC_008719	SEPV	Sepik virus	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL	Arthropods	Insects	Mansonia septempunctata	Aedes	unknown	-	Papua New Guinea	-	-	-	-	-
-NC_012735	WSLV	Wesselsbron virus	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL	Arthropods	Insects	Ovis aries	Aedes	primates	-	South Africa	-	-	-	-	-
-NC_027999	EPEV	Paraiso Escondido virus	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL	Arthropods	Insects	Lutzomyia abonnenci	Aedes	mammals	Ecuador2012	Ecuador	-	2012	-	-	-
-NC_030289	EHV	Edge Hill virus	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL	Arthropods	Insects	Aedes vigilax	Aedes	rodents	-	Australia	-	-	-	-	-
-NC_033693	BOUV	Bouboui virus	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL	Arthropods	Insects	Anopheles paludis	Aedes	unknown	-	Central African Republic	-	-	-	-	-
-NC_033697	SABV	Saboya virus	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL	Arthropods	Insects	Tatera kempi	Aedes	unknown	-	Senegal	-	-	-	-	-
-NC_033698	UGSV	Uganda S virus	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL	Arthropods	Insects	Aedes spp.	Aedes	ungulates	-	Uganda	-	-	-	-	-
-NC_033699	JUGV	Jugra virus	FlaviPesti	FlaviLike	Flavivirus	Mosq2	NULL	Arthropods	Insects	Aedes	Aedes	primates	-	Malaysia	-	-	-	-	-
-LC582740	Mpulungu	Mpulungu flavivirus	FlaviPesti	FlaviLike	Flavivirus	Mpulungu	NULL	Arthropods	Acari	Rhipicephalus muhsamae	unknown	Rhipicephalus	-	Zambia	Mpulungu	2017	-	-	-
-KJ469370	BCV	Batu Cave virus	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL	Mammalia	Rodentia	NK	unknown	rodents	-	Malaysia	-	1971	-	-	-
-NC_003635	MODV	Modoc virus	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL	Mammalia	Rodentia	Peromyscus maniculatus	unknown	rodents	-	USA	Modoc county	-	-	-	-
-NC_003675	RBV	Rio Bravo virus	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL	Mammalia	Chiroptera	Tadarida brasiliensis mexicana	unknown	rodents	-	-	-	-	-	-	-
-NC_003676	APOIV	Apoi virus	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL	Mammalia	Rodentia	Apodemus spp.	unknown	bat	-	-	-	-	-	-	-
-NC_004119	MMLV	Montana myotis leukoencephalitis virus	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL	Mammalia	Chiroptera	Myotis lucifugus	unknown	bat	-	USA	Montana	-	-	-	-
-NC_026620	JUTV	Jutiapa virus	FlaviPesti	FlaviLike	Flavivirus	NKV1	NULL	Mammalia	Rodentia	Sigmodon hispidus	unknown	unknown	-	Guatemala	-	1969	-	-	-
-NC_005039	YOKV	Yokose virus	FlaviPesti	FlaviLike	Flavivirus	NKV2	NULL	Mammalia	Chiroptera	Miniopterus fuliginosus	unknown	bat	-	-	-	-	-	-	-
-NC_008718	ENTV	Entebbe bat virus	FlaviPesti	FlaviLike	Flavivirus	NKV2	NULL	Mammalia	Chiroptera	Tadarida limbata	unknown	bat	-	Uganda	-	-	-	-	-
-NC_026624	SOKV	Sokoluk virus	FlaviPesti	FlaviLike	Flavivirus	NKV2	NULL	Mammalia	Chiroptera	Vespertilio pipistrellus	unknown	bat	-	Kyrgyzstan	-	1970	-	-	-
-DQ235149	RFV	Royal Farm virus	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL	Arthropods	Acari	Argas hermanni	tick	birds	-	Afghanistan	-	-	-	-	-
-DQ235151	TSEV	Turkish sheep encephalitis virus	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL	Arthropods	Acari	Ixodes	tick	mammals	-	Turkey	-	-	-	-	-
-JF416960	KFDV	Kyasanur Forest disease virus	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL	Arthropods	Acari	Semnopithecus entellus	tick	birds	-	India	-	1957	-	-	-
-NC_001672	TBEV	Tick-borne encephalitis virus	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL	Arthropods	Acari	Ixodes	tick	primates	-	-	-	-	-	-	-
-NC_001809	LIV	Louping ill virus	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL	Arthropods	Acari	Ovis aries	tick	primates	-	-	-	-	-	-	-
-NC_003687	POWV	Powassan virus	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL	Arthropods	Acari	Homo sapiens	tick	even-toed ungulates	-	-	-	-	-	-	-
-NC_003690	LGTV	Langat virus	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL	Arthropods	Acari	Ixodes granulatus 	tick	birds	-	-	-	-	-	-	-
-NC_005062	OMSKV	Omsk hemorrhagic fever virus	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL	Arthropods	Acari	Homo sapiens	tick	primates	-	-	-	-	-	-	-
-NC_023424	TYUV	Tyuleniy virus	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL	Arthropods	Acari	Ixodes uriae	tick	primates	-	Russia	far East, Sea of Okhotsk; Tyuleniy island	1969	-	-	-
-NC_023439	KAMV	Kama virus	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL	Arthropods	Acari	Ixodes lividus	tick	mammals	-	Russia	islands of Kuybyshev Reservoir, Kuybyshev Sea, East European Plain	1989	-	-	-
-NC_027709	SGEV	Spanish goat encephalitis virus	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL	Arthropods	Acari	NK	tick	birds	AstGoatIREC2011	Spain	-	2011	-	-	-
-NC_033721	MEAV	Meaban virus	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL	Arthropods	Acari	Ornithodoros maritimus	tick	ungulates	-	France	-	-	-	-	-
-NC_033723	GGYV	Gadgets Gully virus	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL	Arthropods	Acari	Ixodes uriae	tick	rodents	-	Australia	Macquarie Island	-	-	-	-
-NC_033724	KADV	Kadam virus	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL	Arthropods	Acari	Rhipicephalus pravus	tick	ungulates	-	Uganda	-	-	-	-	-
-NC_033726	SREV	Saumarez Reef virus	FlaviPesti	FlaviLike	Flavivirus	TBFV	NULL	Arthropods	Acari	Ornithodoros capensis	tick	birds	-	Australia	Queensland	-	-	-	-
+SsFV_consensus	SsFV	Sea spider flavivirus	FlaviPesti	FlaviLike	Orthoflavivirus	Arachnid	NULL	Arthropods	Chelicerata	Endeis spinosa	none	none	-	-	-	-	-	-	-
+HE574574	CTFV	Culex theileri flavivirus RP-2011	FlaviPesti	FlaviLike	Orthoflavivirus	cISF	NULL	Arthropods	Insects	Culex theileri	none	none	178	Portugal	Dunas Douradas-Almancil	-	-	-	-
+JQ268258	HANKV	Hanko virus	FlaviPesti	FlaviLike	Orthoflavivirus	cISF	NULL	Arthropods	Insects	Ochlerotatus mosquito	none	none	-	Finland	-	2005	-	-	-
+KC505248	PCV	Palm Creek virus	FlaviPesti	FlaviLike	Orthoflavivirus	cISF	NULL	Arthropods	Insects	Coquillettidia xanthogaster	none	none	56	Australia	-	2010	-	-	-
+NC_001564	CFAV	Cell fusing agent virus	FlaviPesti	FlaviLike	Orthoflavivirus	cISF	NULL	Arthropods	Insects	Aedes aegypti	none	none	-	USA	-	2012	-	-	-
+NC_005064	KRV	Kamiti River virus	FlaviPesti	FlaviLike	Orthoflavivirus	cISF	NULL	Arthropods	Insects	Aedes macintoshi 	none	none	SR-82	-	-	-	-	-	-
+NC_008604	CxFV	Culex flavivirus	FlaviPesti	FlaviLike	Orthoflavivirus	cISF	NULL	Arthropods	Insects	Culex pipiens	none	none	-	Japan	Tokyo, Shinjuku	2003	-	-	-
+NC_012671	QBV	Quang Binh virus	FlaviPesti	FlaviLike	Orthoflavivirus	cISF	NULL	Arthropods	Insects	Culex tritaeniorhynchus	none	none	VN180	Viet Nam	-	2002	-	-	-
+NC_012932	AEFV	Aedes flavivirus	FlaviPesti	FlaviLike	Orthoflavivirus	cISF	NULL	Arthropods	Insects	Aedes albopictus	none	none	-	Japan	Chiba, Narita	2003	-	-	-
+NC_021069	MosqFV	Mosquito flavivirus	FlaviPesti	FlaviLike	Orthoflavivirus	cISF	NULL	Arthropods	Insects	Culex tritaeniorhynchus	none	none	LSFlaviV-A20-09	China	-	2009	-	-	-
+NC_024299	NIEV	Nienokoue virus	FlaviPesti	FlaviLike	Orthoflavivirus	cISF	NULL	Arthropods	Insects	Culex sp.	none	none	B51/CI/2004	Cote d'Ivoire	-	2004	-	-	-
+NC_027817	PaRV	Parramatta River virus	FlaviPesti	FlaviLike	Orthoflavivirus	cISF	NULL	Arthropods	Insects	Aedes vigilax	none	none	92-B115745	Australia	-	2007	-	-	-
+NC_027819	MECDV	Mercadeo virus	FlaviPesti	FlaviLike	Orthoflavivirus	cISF	NULL	Arthropods	Insects	Culex sp.	none	none	ER-M10	Panama	-	2011	-	-	-
+NC_030400	NAKV	Nakiwogo virus	FlaviPesti	FlaviLike	Orthoflavivirus	cISF	NULL	Arthropods	Insects	Mansonia africana nigerrima	none	none	-	Uganda	-	2008	-	-	-
+NC_031327	AnophFV	Anopheles flavivirus variant 1	FlaviPesti	FlaviLike	Orthoflavivirus	cISF	NULL	Arthropods	Insects	Anopheles gambiae	none	none	-	Liberia	-	2013	-	-	-
+MK473877	GcFV	Gammarus chevreuxi flavivirus	FlaviPesti	FlaviLike	Orthoflavivirus	Crustacean	NULL	Arthropods	Crustaceans	Gammarus chevreuxi	none	none	100_1	United Kingdom	-	2013	JUN	1	-
+MK473878	CcFV	Crangon crangon flavivirus	FlaviPesti	FlaviLike	Orthoflavivirus	Crustacean	NULL	Arthropods	Crustaceans	Crangon crangon	none	none	-	Germany	-	2015	JUN	26	-
+MK473881	GpFV	Gammarus pulex flavivirus	FlaviPesti	FlaviLike	Orthoflavivirus	Crustacean	NULL	Arthropods	Crustaceans	Gammarus pulex	none	none	GPCM	France	-	2018	FEB	1	-
+KC496020	BJV	Barkedji virus	FlaviPesti	FlaviLike	Orthoflavivirus	dISF	NULL	Arthropods	Insects	Culex perexiguus	none	none	363/11	Israel	-	2011	-	-	-
+KY290249	LPKV	Long Pine Key virus	FlaviPesti	FlaviLike	Orthoflavivirus	dISF	NULL	Arthropods	Insects	Ochlerotatus atlanticus	none	none	-	USA	Florida, Everglades National Park, Long Pine Key	2013	JUN	13	-
+KY320649	LTNV	La Tina virus	FlaviPesti	FlaviLike	Orthoflavivirus	dISF	NULL	Arthropods	Insects	Ochlerotatus scapularis	none	none	49_LT96	Peru	Piura province, the village of La Tina	1996	AUG	22	-
+KY347801	MMV	Marisma mosquito virus	FlaviPesti	FlaviLike	Orthoflavivirus	dISF	NULL	Arthropods	Insects	Aedes caspius	none	none	HU 4528/07	Spain	-	2007	AUG	1	-
+NC_016997	DONV/DGV	Donggang virus	FlaviPesti	FlaviLike	Orthoflavivirus	dISF	NULL	Arthropods	Insects	Aedes sp.	none	none	DG0909	China	-	2009	-	-	-
+NC_017086	CHAOV	Chaoyang virus	FlaviPesti	FlaviLike	Orthoflavivirus	dISF	NULL	Arthropods	Insects	NK	none	none	HLD115	China	-	2010	-	-	-
+NC_024017	NHUV	Nhumirim virus	FlaviPesti	FlaviLike	Orthoflavivirus	dISF	NULL	Arthropods	Insects	Culex chidesteri	none	none	-	Brazil	Nhecolandia Sub-region of Pantanal, Corumba, Mato Grosso do Sul	2010	OCT	17	-
+NC_024805	ILOV	Ilomantsi virus	FlaviPesti	FlaviLike	Orthoflavivirus	dISF	NULL	Arthropods	Insects	Ochlerotatus riparius	none	none	M0724	Finland	-	2007	-	-	-
+NC_024806	LAMV	Lammi virus	FlaviPesti	FlaviLike	Orthoflavivirus	dISF	NULL	Arthropods	Insects	Aedes cinereus	none	none	M0719	Finland	-	2007	-	-	-
+AY632538	IGUV	Iguape virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Mus musculus	Culex	birds	-	-	-	-	-	-	-
+AY632542	ROCV	Rocio virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Homo sapiens	Culex	birds	-	-	-	-	-	-	-
+AY898809	ALFV	Alfuy virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Centropus phasianius	Aedes	mammals	-	Australia	-	-	-	-	-
+D00246	KUNV	Kunjin virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Culex annulirostris	Culex	primates	-	-	-	-	-	-	-
+EU082199	YAOV	Yaounde virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Culex nebulosis	Culex	birds	-	Cameroon	-	-	-	-	-
+EU082200	KOUV	Koutango virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Tatera kempi	Aedes	primates	-	Senegal	-	-	-	-	-
+EU159426	NOUV	Nounane virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Aedes	Arthropods	Insects	Uranotaenia mashonaensis	Aedes	primates	-	Cote d'Ivoire	-	-	-	-	-
+JF312912	BYDV	Baiyangdian virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Anas platyrhynchos	Aedes	primates	-	China	-	2010	OCT	18	-
+JF926699	LayV	Layer flavivirus CJD05	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	NK	Aedes	primates	-	China	-	2010	-	-	-
+JX477686	STWV	Sitiawan virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	NK	Culex	bird/mammal	-	Malaysia	-	-	-	-	-
+KC734550	ITV	Israel turkey meningoencephalomyelitis virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Meleagris gallopavo	Culex	birds	Israel/618/1995	Israel	-	1995	-	-	-
+KF917538	NJLV	Naranjal virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	NK	Culex	bird/mammal	-	Ecuador	-	1976	-	-	-
+KM225263	STRV	Stratford virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Aedes vigilax	Aedes	unknown	-	Australia	-	1961	-	-	-
+KM225264	Bainyik	Bainyik virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Aedes	Arthropods	Insects	Aedes sp.	Culex	birds	-	Papua New Guinea	-	1966	-	-	-
+KM225265	Torres	Torres virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Aedes albopictus	Culex	birds	-	Australia	-	2000	-	-	-
+NC_000943	MVEV	Murray Valley encephalitis virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Homo sapiens	Culex	unknown	-	-	-	-	-	-	-
+NC_001437	JEV	Japanese encephalitis virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Homo sapiens	Aedes	unknown	-	-	-	-	-	-	-
+NC_001474	DENV2	Dengue virus 2	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Aedes	Arthropods	Insects	Homo sapiens	Culex	unknown	-	Thailand	-	1964	-	-	-
+NC_001475	DENV3	Dengue virus 3	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Aedes	Arthropods	Insects	Homo sapiens	Culex	birds	D3/H/IMTSSA-SRI/2000/1266	Sri Lanka	-	-	-	-	-
+NC_001477	DENV1	Dengue virus 1	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Aedes	Arthropods	Insects	Homo sapiens	Aedes	unknown	-	-	-	-	-	-	-
+NC_001563	WNV	West Nile virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Homo sapiens	Culex	birds	-	-	-	-	-	-	-
+NC_002640	DEN4	Dengue virus 4	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Aedes	Arthropods	Insects	Homo sapiens	Culex	marsupials	-	-	-	-	-	-	-
+NC_006551	USUV	Usutu virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Culex neavei	Culex	birds	-	Austria	-	-	-	-	-
+NC_007580	SLEV	Saint Louis encephalitis virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Homo sapiens	Culex	birds	-	USA	-	-	-	-	-
+NC_009026	BSQV	Aroa virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Alouatta beelzebul	Culex	birds	BeAn 4073	-	-	-	-	-	-
+NC_009028	ILHV	Ilheus virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Psorophora spp. 	Culex	birds	-	-	-	-	-	-	-
+NC_009029	KOKV	Kokobera virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	NK	Culex	birds	-	-	-	-	-	-	-
+NC_012532	ZIKV	Zika virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Aedes	Arthropods	Insects	Homo sapiens	Aedes	mammals	-	Uganda	-	-	-	-	-
+NC_012533	KEDV	Kedougou virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Aedes	Arthropods	Insects	Aedes minutus	Culex	birds	-	Senegal	-	-	-	-	-
+NC_012534	BAGV	Bagaza virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Culex sp.	Culex	birds	-	Central African Republic	-	-	-	-	-
+NC_015843	TMUV	Tembusu virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Anser cygnoides	Culex	birds	-	China	-	2010	-	-	-
+NC_018705	NTAV	Ntaya virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	NK	Culex	birds	IPDIA	-	-	1966	-	-	-
+NC_026623	CPCV	Cacipacore virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Formicarius analis	Culex	mammals	-	Brazil	-	1977	-	-	-
+NC_029055	SPOV	Spondweni virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Aedes	Arthropods	Insects	Mansonia uniformis	Culex	mammals	-	South Africa	-	-	-	-	-
+NC_032088	NMV	New Mapoon virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq1	Culex	Arthropods	Insects	Culex annulirostris	Culex	birds	-	Australia	New Mapoon	1998	-	-	-
+DQ859056	BANV	Banzi virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq2	NULL	Arthropods	Insects	Homo sapiens	Lutzomyia	none	-	South Africa	-	-	-	-	-
+NC_002031	YFV	Yellow fever virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq2	NULL	Arthropods	Insects	Aedes aegypti, Aedes albopictus	Aedes	rodents	-	-	-	-	-	-	-
+NC_008719	SEPV	Sepik virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq2	NULL	Arthropods	Insects	Mansonia septempunctata	Aedes	unknown	-	Papua New Guinea	-	-	-	-	-
+NC_012735	WSLV	Wesselsbron virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq2	NULL	Arthropods	Insects	Ovis aries	Aedes	primates	-	South Africa	-	-	-	-	-
+NC_027999	EPEV	Paraiso Escondido virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq2	NULL	Arthropods	Insects	Lutzomyia abonnenci	Aedes	mammals	Ecuador2012	Ecuador	-	2012	-	-	-
+NC_030289	EHV	Edge Hill virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq2	NULL	Arthropods	Insects	Aedes vigilax	Aedes	rodents	-	Australia	-	-	-	-	-
+NC_033693	BOUV	Bouboui virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq2	NULL	Arthropods	Insects	Anopheles paludis	Aedes	unknown	-	Central African Republic	-	-	-	-	-
+NC_033697	SABV	Saboya virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq2	NULL	Arthropods	Insects	Tatera kempi	Aedes	unknown	-	Senegal	-	-	-	-	-
+NC_033698	UGSV	Uganda S virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq2	NULL	Arthropods	Insects	Aedes spp.	Aedes	ungulates	-	Uganda	-	-	-	-	-
+NC_033699	JUGV	Jugra virus	FlaviPesti	FlaviLike	Orthoflavivirus	Mosq2	NULL	Arthropods	Insects	Aedes	Aedes	primates	-	Malaysia	-	-	-	-	-
+LC582740	Mpulungu	Mpulungu flavivirus	FlaviPesti	FlaviLike	Orthoflavivirus	Mpulungu	NULL	Arthropods	Acari	Rhipicephalus muhsamae	unknown	Rhipicephalus	-	Zambia	Mpulungu	2017	-	-	-
+KJ469370	BCV	Batu Cave virus	FlaviPesti	FlaviLike	Orthoflavivirus	NKV1	NULL	Mammalia	Rodentia	NK	unknown	rodents	-	Malaysia	-	1971	-	-	-
+NC_003635	MODV	Modoc virus	FlaviPesti	FlaviLike	Orthoflavivirus	NKV1	NULL	Mammalia	Rodentia	Peromyscus maniculatus	unknown	rodents	-	USA	Modoc county	-	-	-	-
+NC_003675	RBV	Rio Bravo virus	FlaviPesti	FlaviLike	Orthoflavivirus	NKV1	NULL	Mammalia	Chiroptera	Tadarida brasiliensis mexicana	unknown	rodents	-	-	-	-	-	-	-
+NC_003676	APOIV	Apoi virus	FlaviPesti	FlaviLike	Orthoflavivirus	NKV1	NULL	Mammalia	Rodentia	Apodemus spp.	unknown	bat	-	-	-	-	-	-	-
+NC_004119	MMLV	Montana myotis leukoencephalitis virus	FlaviPesti	FlaviLike	Orthoflavivirus	NKV1	NULL	Mammalia	Chiroptera	Myotis lucifugus	unknown	bat	-	USA	Montana	-	-	-	-
+NC_026620	JUTV	Jutiapa virus	FlaviPesti	FlaviLike	Orthoflavivirus	NKV1	NULL	Mammalia	Rodentia	Sigmodon hispidus	unknown	unknown	-	Guatemala	-	1969	-	-	-
+NC_005039	YOKV	Yokose virus	FlaviPesti	FlaviLike	Orthoflavivirus	NKV2	NULL	Mammalia	Chiroptera	Miniopterus fuliginosus	unknown	bat	-	-	-	-	-	-	-
+NC_008718	ENTV	Entebbe bat virus	FlaviPesti	FlaviLike	Orthoflavivirus	NKV2	NULL	Mammalia	Chiroptera	Tadarida limbata	unknown	bat	-	Uganda	-	-	-	-	-
+NC_026624	SOKV	Sokoluk virus	FlaviPesti	FlaviLike	Orthoflavivirus	NKV2	NULL	Mammalia	Chiroptera	Vespertilio pipistrellus	unknown	bat	-	Kyrgyzstan	-	1970	-	-	-
+DQ235149	RFV	Royal Farm virus	FlaviPesti	FlaviLike	Orthoflavivirus	TBFV	NULL	Arthropods	Acari	Argas hermanni	tick	birds	-	Afghanistan	-	-	-	-	-
+DQ235151	TSEV	Turkish sheep encephalitis virus	FlaviPesti	FlaviLike	Orthoflavivirus	TBFV	NULL	Arthropods	Acari	Ixodes	tick	mammals	-	Turkey	-	-	-	-	-
+JF416960	KFDV	Kyasanur Forest disease virus	FlaviPesti	FlaviLike	Orthoflavivirus	TBFV	NULL	Arthropods	Acari	Semnopithecus entellus	tick	birds	-	India	-	1957	-	-	-
+NC_001672	TBEV	Tick-borne encephalitis virus	FlaviPesti	FlaviLike	Orthoflavivirus	TBFV	NULL	Arthropods	Acari	Ixodes	tick	primates	-	-	-	-	-	-	-
+NC_001809	LIV	Louping ill virus	FlaviPesti	FlaviLike	Orthoflavivirus	TBFV	NULL	Arthropods	Acari	Ovis aries	tick	primates	-	-	-	-	-	-	-
+NC_003687	POWV	Powassan virus	FlaviPesti	FlaviLike	Orthoflavivirus	TBFV	NULL	Arthropods	Acari	Homo sapiens	tick	even-toed ungulates	-	-	-	-	-	-	-
+NC_003690	LGTV	Langat virus	FlaviPesti	FlaviLike	Orthoflavivirus	TBFV	NULL	Arthropods	Acari	Ixodes granulatus 	tick	birds	-	-	-	-	-	-	-
+NC_005062	OMSKV	Omsk hemorrhagic fever virus	FlaviPesti	FlaviLike	Orthoflavivirus	TBFV	NULL	Arthropods	Acari	Homo sapiens	tick	primates	-	-	-	-	-	-	-
+NC_023424	TYUV	Tyuleniy virus	FlaviPesti	FlaviLike	Orthoflavivirus	TBFV	NULL	Arthropods	Acari	Ixodes uriae	tick	primates	-	Russia	far East, Sea of Okhotsk; Tyuleniy island	1969	-	-	-
+NC_023439	KAMV	Kama virus	FlaviPesti	FlaviLike	Orthoflavivirus	TBFV	NULL	Arthropods	Acari	Ixodes lividus	tick	mammals	-	Russia	islands of Kuybyshev Reservoir, Kuybyshev Sea, East European Plain	1989	-	-	-
+NC_027709	SGEV	Spanish goat encephalitis virus	FlaviPesti	FlaviLike	Orthoflavivirus	TBFV	NULL	Arthropods	Acari	NK	tick	birds	AstGoatIREC2011	Spain	-	2011	-	-	-
+NC_033721	MEAV	Meaban virus	FlaviPesti	FlaviLike	Orthoflavivirus	TBFV	NULL	Arthropods	Acari	Ornithodoros maritimus	tick	ungulates	-	France	-	-	-	-	-
+NC_033723	GGYV	Gadgets Gully virus	FlaviPesti	FlaviLike	Orthoflavivirus	TBFV	NULL	Arthropods	Acari	Ixodes uriae	tick	rodents	-	Australia	Macquarie Island	-	-	-	-
+NC_033724	KADV	Kadam virus	FlaviPesti	FlaviLike	Orthoflavivirus	TBFV	NULL	Arthropods	Acari	Rhipicephalus pravus	tick	ungulates	-	Uganda	-	-	-	-	-
+NC_033726	SREV	Saumarez Reef virus	FlaviPesti	FlaviLike	Orthoflavivirus	TBFV	NULL	Arthropods	Acari	Ornithodoros capensis	tick	birds	-	Australia	Queensland	-	-	-	-
 JMTV_CONCAT	JMTV_CONCAT	Jingmen tick virus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Acari	Ixodes persulcatus	ticks	mammals	-	-	-	-	-	-	-
 KM521552	Guaico_Seg1	Guaico Culex virus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Culex interrogator	ticks	mammals	ACH27	Panama	-	2012	OCT	1	-
 KM521553	Guaico_Seg3	Guaico Culex virus	FlaviPesti	FlaviLike	Jingmenvirus	Jingmenvirus	NULL	Arthropods	Insects	Culex interrogator	none	none	ACH27	Panama	-	2012	OCT	1	-
