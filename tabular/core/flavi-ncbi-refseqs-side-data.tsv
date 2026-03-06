@@ -1,3 +1,4 @@
+sequenceID	name	full_name	subfamily	supergenus	genus	subgenus	clade	host_major_group	host_minor_group	isolation_host	vector_group	reservoir_group	isolate	country	place_sampled	collection_year	collection_month	collection_month_day	sampled_host_common_name
 MT084113	IPV	Infectious precocity virus	FlaviPesti	FlaviLike	FL4	FL4	NULL	Arthropods	Crustaceans	Macrobrachium rosenbergii	none	none	MR2018	China	-	2018	-	-	-
 SsFV_consensus	SsFV	Sea spider flavivirus	FlaviPesti	FlaviLike	Orthoflavivirus	Arachnid	NULL	Arthropods	Chelicerata	Endeis spinosa	none	none	-	-	-	-	-	-	-
 HE574574	CTFV	Culex theileri flavivirus RP-2011	FlaviPesti	FlaviLike	Orthoflavivirus	cISF	NULL	Arthropods	Insects	Culex theileri	none	none	178	Portugal	Dunas Douradas-Almancil	-	-	-	-

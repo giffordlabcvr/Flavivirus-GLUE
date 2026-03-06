@@ -89,7 +89,7 @@
 	demote member AL_GENUS_Jingmenvirus_Seg1   --whereClause "sequence.genus  = 'Jingmenvirus' and sequence.name like '%Seg1'"
 
 	extract child AL_MINOR_FlaviTamana   --refName REF_MASTER_YFV
-	demote member AL_MINOR_FlaviTamana   --whereClause "sequence.genus = 'Flavivirus' or sequence.genus = 'Tamanavirus'"
+	demote member AL_MINOR_FlaviTamana   --whereClause "sequence.genus = 'Orthoflavivirus' or sequence.genus = 'Tamanavirus'"
 
     exit
 
@@ -97,7 +97,7 @@
   alignment AL_MINOR_FlaviTamana
 	
 	extract child AL_GENUS_Flavivirus    --refName REF_MASTER_YFV
-	demote member AL_GENUS_Flavivirus    --whereClause "sequence.genus = 'Flavivirus'"
+	demote member AL_GENUS_Flavivirus    --whereClause "sequence.genus = 'Orthoflavivirus'"
 
 	extract child AL_GENUS_Tamanavirus   --refName REF_MASTER_TAMANA_1_TABV
 	demote member AL_GENUS_Tamanavirus   --whereClause "sequence.genus = 'Tamanavirus'"
