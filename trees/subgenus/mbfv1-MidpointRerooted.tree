@@ -1,1 +1,137 @@
-(alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/EU159426:1.041222723570609610955,(((alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_029055:0.38421492040337545948,alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_012532:0.40670585944953524526)100:0.14662165056550358067,((alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_002640:0.37898505493384015974,(alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001474:0.33169338768702566478,(alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001475:0.30452564059481557202,alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001477:0.30227401586313573656)91:0.06688451089576759323)100:0.10778047123848247257)100:0.29171623100374960424,alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_012533:0.73893003188522199398)13:0.07524155982551179733)28:0.04356898156966827751,(((alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_026623:0.39351399345191850898,((alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/AY898809:0.32590122340177690718,(alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_000943:0.25547193732345480077,(alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001437:0.29491184908620665661,alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_006551:0.22432942809293543451)45:0.05398423663997745786)31:0.03440570669358442718)99:0.05854750831985289228,(alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/EU082199:0.27464691766340221246,((alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/D00246:0.18848060061965365986,alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001563:0.16766776104335218145)100:0.05468938669493240978,alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/EU082200:0.21243046676420640484)100:0.09656834807006144106)84:0.03246682300897540951)100:0.08344875250735750427)100:0.07200300960432233499,(alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_007580:0.34007326891039524330,((alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_009028:0.32268822305095484770,alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/AY632542:0.32375542805280060898)100:0.12804866002425416283,(((alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KC734550:0.01969066041781394882,alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_012534:0.02632143085074704555)100:0.18114649071249594448,alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_018705:0.24213838207415194770)97:0.08171269218231025366,((alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/JF926699:0.00618334858032263714,(alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/JF312912:0.00193212248120397520,alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_015843:0.00193941002183807922)80:0.00250992345024501603)100:0.06050254353680749320,alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/JX477686:0.09147630645154082585)100:0.19918768221254662398)100:0.22040521349362660053)79:0.04702279377243015479)84:0.05691404411750995707)100:0.08974925646396886281,((alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_032088:0.52771067553573858255,((alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_009029:0.18021875053201094619,alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KM225264:0.13450275305432146666)100:0.09817309908999428958,(alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KM225263:0.29082261152463911857,alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KM225265:0.18652773042540762849)100:0.08552705577121529068)100:0.12422726621902173416)100:0.28882432173839750478,(alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/AY632538:0.51750082574112665768,(alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_009026:0.21250389707010394758,alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KF917538:0.21402352991797496395)100:0.25098468840376991773)98:0.10133116122099446177)33:0.04498540997754354315)17:0.03502894703656044689):0.144673369282369533585);
+#NEXUS
+begin taxa;
+	dimensions ntax=35;
+	taxlabels
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/AY632538'[&full_name="Iguape virus",genus="Flavivirus",host_major_group="Aves/Mammalia",host_minor_group="-",name="IGUV",sampled_host_sci_name="-",sequenceID="AY632538",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/AY632542'[&full_name="Rocio virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="ROCV",sampled_host_sci_name="-",sequenceID="AY632542",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/AY898809'[&full_name="Alfuy virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="ALFV",sampled_host_sci_name="-",sequenceID="AY898809",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/D00246'[&full_name="Kunjin virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="KUNV",sampled_host_sci_name="-",sequenceID="D00246",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/EU082199'[&full_name="Yaounde virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="YAOV",sampled_host_sci_name="-",sequenceID="EU082199",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/EU082200'[&full_name="Koutango virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="KOUV",sampled_host_sci_name="-",sequenceID="EU082200",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/EU159426'[&full_name="Nounane virus",genus="Flavivirus",host_major_group="NK",host_minor_group="-",name="NOUV",sampled_host_sci_name="Uranotaenia mashonaensis",sequenceID="EU159426",subfamily="FlaviPesti",vector_group="Aedes"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/JF312912'[&full_name="Baiyangdian virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="BYDV",sampled_host_sci_name="duck",sequenceID="JF312912",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/JF926699'[&full_name="Layer flavivirus CJD05",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="LayV",sampled_host_sci_name="layer",sequenceID="JF926699",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/JX477686'[&full_name="Sitiawan virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="STWV",sampled_host_sci_name="-",sequenceID="JX477686",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KC734550'[&full_name="Israel turkey meningoencephalomyelitis virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="ITV",sampled_host_sci_name="domestic turkey",sequenceID="KC734550",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KF917538'[&full_name="Naranjal virus",genus="Flavivirus",host_major_group="Mammalia",host_minor_group="-",name="NJLV",sampled_host_sci_name="sentinel hamster",sequenceID="KF917538",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KM225263'[&full_name="Stratford virus",genus="Flavivirus",host_major_group="Mammalia",host_minor_group="-",name="STRV",sampled_host_sci_name="-",sequenceID="KM225263",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KM225264'[&full_name="Bainyik virus",genus="Flavivirus",host_major_group="Mammalia",host_minor_group="-",name="Bainyik",sampled_host_sci_name="Aedes sp. (mosquito)",sequenceID="KM225264",subfamily="FlaviPesti",vector_group="Aedes"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KM225265'[&full_name="Torres virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="Torres",sampled_host_sci_name="mosquito",sequenceID="KM225265",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_000943'[&full_name="Murray Valley encephalitis virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="MVEV",sampled_host_sci_name="-",sequenceID="NC_000943",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001437'[&full_name="Japanese encephalitis virus",genus="Flavivirus",host_major_group="Aves/Mammalia",host_minor_group="-",name="JEV",sampled_host_sci_name="-",sequenceID="NC_001437",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001474'[&full_name="Dengue virus 2",genus="Flavivirus",host_major_group="Mammalia",host_minor_group="-",name="DENV2",sampled_host_sci_name="-",sequenceID="NC_001474",subfamily="FlaviPesti",vector_group="Aedes"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001475'[&full_name="Dengue virus 3",genus="Flavivirus",host_major_group="Mammalia",host_minor_group="-",name="DENV3",sampled_host_sci_name="-",sequenceID="NC_001475",subfamily="FlaviPesti",vector_group="Aedes"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001477'[&full_name="Dengue virus 1",genus="Flavivirus",host_major_group="Mammalia",host_minor_group="-",name="DENV1",sampled_host_sci_name="-",sequenceID="NC_001477",subfamily="FlaviPesti",vector_group="Aedes"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001563'[&full_name="West Nile virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="WNV",sampled_host_sci_name="-",sequenceID="NC_001563",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_002640'[&full_name="Dengue virus 4",genus="Flavivirus",host_major_group="Mammalia",host_minor_group="-",name="DEN4",sampled_host_sci_name="-",sequenceID="NC_002640",subfamily="FlaviPesti",vector_group="Aedes"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_006551'[&full_name="Usutu virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="USUV",sampled_host_sci_name="-",sequenceID="NC_006551",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_007580'[&full_name="Saint Louis encephalitis virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="SLEV",sampled_host_sci_name="-",sequenceID="NC_007580",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_009026'[&full_name="Aroa virus",genus="Flavivirus",host_major_group="Mammalia",host_minor_group="-",name="BSQV",sampled_host_sci_name="-",sequenceID="NC_009026",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_009028'[&full_name="Ilheus virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="ILHV",sampled_host_sci_name="-",sequenceID="NC_009028",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_009029'[&full_name="Kokobera virus",genus="Flavivirus",host_major_group="Mammalia",host_minor_group="-",name="KOKV",sampled_host_sci_name="-",sequenceID="NC_009029",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_012532'[&full_name="Zika virus",genus="Flavivirus",host_major_group="Mammalia",host_minor_group="-",name="ZIKV",sampled_host_sci_name="sentinel monkey",sequenceID="NC_012532",subfamily="FlaviPesti",vector_group="Aedes"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_012533'[&full_name="Kedougou virus",genus="Flavivirus",host_major_group="NK",host_minor_group="-",name="KEDV",sampled_host_sci_name="mosquito",sequenceID="NC_012533",subfamily="FlaviPesti",vector_group="Aedes"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_012534'[&full_name="Bagaza virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="BAGV",sampled_host_sci_name="mosquito",sequenceID="NC_012534",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_015843'[&full_name="Tembusu virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="TMUV",sampled_host_sci_name="goose",sequenceID="NC_015843",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_018705'[&full_name="Ntaya virus",genus="Flavivirus",host_major_group="NK",host_minor_group="-",name="NTAV",sampled_host_sci_name="-",sequenceID="NC_018705",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_026623'[&full_name="Cacipacore virus",genus="Flavivirus",host_major_group="Aves",host_minor_group="-",name="CPCV",sampled_host_sci_name="Formicarius analis",sequenceID="NC_026623",subfamily="FlaviPesti",vector_group="Culex"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_029055'[&full_name="Spondweni virus",genus="Flavivirus",host_major_group="NK",host_minor_group="-",name="SPOV",sampled_host_sci_name="-",sequenceID="NC_029055",subfamily="FlaviPesti",vector_group="Aedes"]
+	'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_032088'[&full_name="New Mapoon virus",genus="Flavivirus",host_major_group="NK",host_minor_group="-",name="NMV",sampled_host_sci_name="mosquito",sequenceID="NC_032088",subfamily="FlaviPesti",vector_group="Culex"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/EU159426':1.041223,((('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_029055':0.384215,'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_012532':0.406706)[&label=100]:0.146622,(('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_002640':0.378985,('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001474':0.331693,('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001475':0.304526,'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001477':0.302274)[&label=91]:0.066885)[&label=100]:0.10778)[&label=100]:0.291716,'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_012533':0.73893)[&label=13]:0.075242)[&label=28]:0.043569,((('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_026623':0.393514,(('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/AY898809':0.325901,('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_000943':0.255472,('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001437':0.294912,'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_006551':0.224329)[&label=45]:0.053984)[&label=31]:0.034406)[&label=99]:0.058548,('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/EU082199':0.274647,(('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/D00246':0.188481,'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_001563':0.167668)[&label=100]:0.054689,'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/EU082200':0.21243)[&label=100]:0.096568)[&label=84]:0.032467)[&label=100]:0.083449)[&label=100]:0.072003,('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_007580':0.340073,(('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_009028':0.322688,'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/AY632542':0.323755)[&label=100]:0.128049,((('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KC734550':0.019691,'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_012534':0.026321)[&label=100]:0.181146,'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_018705':0.242138)[&label=97]:0.081713,(('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/JF926699':0.006183,('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/JF312912':0.001932,'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_015843':0.001939)[&label=80]:0.00251)[&label=100]:0.060503,'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/JX477686':0.091476)[&label=100]:0.199188)[&label=100]:0.220405)[&label=79]:0.047023)[&label=84]:0.056914)[&label=100]:0.089749,(('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_032088':0.527711,(('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_009029':0.180219,'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KM225264':0.134503)[&label=100]:0.098173,('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KM225263':0.290823,'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KM225265':0.186528)[&label=100]:0.085527)[&label=100]:0.124227)[&label=100]:0.288824,('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/AY632538':0.517501,('alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/NC_009026':0.212504,'alignment/AL_FLAVI_SUBGENUS_MBFV1/member/ncbi-refseqs/KF917538':0.214024)[&label=100]:0.250985)[&label=98]:0.101331)[&label=33]:0.044985)[&label=17]:0.035029):0.144673);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=7;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="genus";
+	set tipLabels.displayAttribute="full_name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

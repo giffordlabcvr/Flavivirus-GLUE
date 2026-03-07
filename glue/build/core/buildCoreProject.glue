@@ -40,7 +40,7 @@ project flaviviridae
   run file glue/build/core/flaviviridaeRecordFeaturePresence.glue
 
   # Remove unconstrained alignments (optional)
-  run file glue/build/core/deleteUnconstrainedMSAs.glue
+  #run file glue/build/core/deleteUnconstrainedMSAs.glue
 
   validate
 
